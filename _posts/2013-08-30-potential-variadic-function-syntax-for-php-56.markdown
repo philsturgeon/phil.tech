@@ -25,7 +25,7 @@ Currently to implement a function like this you'd do:
 {% highlight php %}
 function sum()
 {
-    return array\_sum(func\_get\_args());
+    return array_sum(func_get_args());
 }
 
 echo sum(1, 4, 12, 20);
@@ -36,7 +36,7 @@ The proposed RFC lets you write this:
 {% highlight php %}
 function sum(...$nums)
 {
-    return array\_sum($nums);
+    return array_sum($nums);
 }
 
 echo sum(1, 4, 12, 20);
@@ -51,10 +51,10 @@ Imagine a function that is 50 lines long, and on line 45 the developer is using 
 I ran a find in folder on Pyro to see what came up first, and the answer is:
 
 {% highlight php %}
-    public function orX($x = null)
-    {
-        return new CompositeExpression(CompositeExpression::TYPE\_OR, func\_get\_args());
-    }
+public function orX($x = null)
+{
+    return new CompositeExpression(CompositeExpression::TYPE_OR, func_get_args());
+}
 {% endhighlight %}
     
 Doctrine looks drunk here. It accepts one param called `$x`, which is optional, then uses `func_get_args()` anyway meaning fuck `$x`.
@@ -62,10 +62,10 @@ Doctrine looks drunk here. It accepts one param called `$x`, which is optional, 
 Or:
 
 {% highlight php %}
-    public function orX(...$x)
-    {
-        return new CompositeExpression(CompositeExpression::TYPE\_OR, $x);
-    }
+  public function orX(...$x)
+  {
+      return new CompositeExpression(CompositeExpression::TYPE_OR, $x);
+  }
 {% endhighlight %}
 
 I'll take that please. Clear, self documenting code.
@@ -77,15 +77,15 @@ I'm a big fan of DocBlocks. Having well documented code means you can run API ge
 Sure we could add a `@param *variadic` doc syntax or something, but it would be odd and not mix in with other syntax very well. The new syntax would make it super easy:
 
 {% highlight php %}
-    /**
-     * @param mixed ...$x
-     *
-     * @return CompositeExpression
-     */
-    public function orX(...$x)
-    {
-        return new CompositeExpression(CompositeExpression::TYPE\_OR, $x);
-    }
+/**
+ * @param mixed ...$x
+ *
+ * @return CompositeExpression
+ */
+public function orX(...$x)
+{
+    return new CompositeExpression(CompositeExpression::TYPE\_OR, $x);
+}
 {% endhighlight %}
 
 Thanks!
@@ -95,16 +95,16 @@ Thanks!
 Type Hinting right now is like a semi-done hair-cut. Some squabbling in the core team about how to handle strong/weak typing hinting for  `int`, `float`, `string`, etc lead to confusion and means the feature is restricted to type hinting for an `array`, `callable` or a class/interface name. Sure we can't type hint every type of value [yet] but the fact that type hinting exists means we should be able to use it. 
 
 {% highlight php %}
-    /**
-     * Favorite one or more statuses.
-     *
-     * @param string $screenName
-     * @param Twitter\Status ...$statuses
-     *
-     * @return array[League\Twitter\User]
-     */
-    public function favoriteStatus($screenName, Twitter\Status ...$statuses)
-    {
+/**
+ * Favorite one or more statuses.
+ *
+ * @param string $screenName
+ * @param Twitter\Status ...$statuses
+ *
+ * @return array[League\Twitter\User]
+ */
+public function favoriteStatus($screenName, Twitter\Status ...$statuses)
+{
 {% endhighlight %}
 That is awesome, I can specify the type exactly, instead of having to allow an array then check instances in a loop or some shit. Quicker, more obvious, better for everyone.
 
@@ -113,32 +113,32 @@ That is awesome, I can specify the type exactly, instead of having to allow an a
 While not the most important aspect, even if you don't think defining this in the function signature is important, you can avoid this sort of horrendous faffing around:
 
 {% highlight php %}
-    public function tryMethod()
-    {
-        $args = func\_get\_args();
-        $method = $args[0];
-        unset($args[0]);
-        $args = array\_values($args);
+public function tryMethod()
+{
+    $args = func_get_args();
+    $method = $args[0];
+    unset($args[0]);
+    $args = array_values($args);
 
-        try {
-            return call\_user\_func\_array([$this, $method], $args);
-        } catch (\Exception $e) {
-            return false;
-        }
+    try {
+        return call_user_func_array([$this, $method], $args);
+    } catch (\Exception $e) {
+        return false;
     }
+}
 {% endhighlight %}
    
 This becomes:
 
 {% highlight php %}
-    public function tryMethod($method, ...$args)
-    {
-        try {
-            return call\_user\_func\_array([$this, $method], $args);
-        } catch (\Exception $e) {
-            return false;
-        }
+public function tryMethod($method, ...$args)
+{
+    try {
+        return call_user_func_array([$this, $method], $args);
+    } catch (\Exception $e) {
+        return false;
     }
+}
 {% endhighlight %}
     
 Why screw around when you don't have to?
@@ -162,14 +162,14 @@ One valid con came up on the PHP internals list and a few times in comments, tha
 Well, you can't right now either. To reuse the same example, you have to do shit like this:
 
 {% highlight php %}
-    public function tryMethod($method, ...$args)
-    {
-        try {
-            return call\_user\_func_array([$this, $method], $args);
-        } catch (\Exception $e) {
-            return false;
-        }
+public function tryMethod($method, ...$args)
+{
+    try {
+        return call_user_func_array([$this, $method], $args);
+    } catch (\Exception $e) {
+        return false;
     }
+}
 {% endhighlight %}
 
 For this Nikita has another RFC for [argument unpacking](https://wiki.php.net/rfc/argument_unpacking) using what is sometimes known as a splat operator. 
@@ -179,14 +179,14 @@ _Learning that splat was an actual thing was the most fun I had learning Ruby a 
 Taking this same example and applying the new splat operator makes it much nicer:
 
 {% highlight php %}
-    public function tryMethod($method, ...$args)
-    {
-        try {
-            return $this->$method(...$args);
-        } catch (\Exception $e) {
-            return false;
-        }
+public function tryMethod($method, ...$args)
+{
+    try {
+        return $this->$method(...$args);
+    } catch (\Exception $e) {
+        return false;
     }
+}
 {% endhighlight %}
    
 It's just taking the arguments, and shoving them into the method in the same way they came in.
@@ -194,8 +194,10 @@ It's just taking the arguments, and shoving them into the method in the same way
 The examples on the RFC are also very handy:
 
 {% highlight php %}
-call\_user\_func\_array([$db, 'query'], array\_merge(array($query), $params));
+call_user_func_array([$db, 'query'], array_merge(array($query), $params));
+
 // or
+
 $db->query($query, ...$params);
 {% endhighlight %}
 
