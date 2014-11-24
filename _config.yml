@@ -10,3 +10,7 @@ github_username:  philsturgeon
 
 # Build settings
 markdown: kramdown
+highlighter: pygments
+permalink: pretty
+paginate: 8
+exclude: ["Gemfile", "Gemfile.lock"]
