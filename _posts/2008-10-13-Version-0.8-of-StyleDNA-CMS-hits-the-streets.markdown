@@ -1,0 +1,29 @@
+---
+layout: post
+title: Version 0.8 of StyleDNA CMS hits the streets!
+category: pyrocms
+permalink: blog/2008/10/Version-0.8-of-StyleDNA-CMS-hits-the-streets
+excerpt: This has been one of the most involving versions so far with the most change
+  involved. It has been tricky to get done but im very proud of it!
+date: '2008-10-13 17:26:00'
+comments: 'true'
+disqus_identifier: Version-0.8-of-StyleDNA-CMS-hits-the-streets
+---
+
+New in this version of the CMS is:
+
+- Permission system (still got some work to do, but will restrict users by module/controller/method).
+- Re-organized navigation to get rid of tab clutter.
+- Fixed .htaccess to allow clean url's.
+- Added option to send activation emails or not.
+- Cleaned up lots of the CSS and stripped out unused code.  
+
+- Impoved news module.
+- Improved interface in most module admin sections.  
+
+There's a bunch of other changes I can't really remember, and many that aren't worth a mention. All-in-all this is a damn good release and im glad the CMS is getting so close to being complete.
+
+As always, the latest version is online on the [demo site](http://demo.styledna.net/ "demo site").
+
+Special thanks to [MrEnirO](http://codeigniter.com/forums/member/44710/) as always for his huge contributions to this CMS.
+
