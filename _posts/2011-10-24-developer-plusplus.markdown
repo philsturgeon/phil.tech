@@ -15,7 +15,7 @@ comments: 'true'
 disqus_identifier: developer-plusplus
 ---
 
-I've been working up in Newcastle recently on the longest stay of my [Nomadic Web Development](http://philsturgeon.co.uk/blog/2011/08/nomadic-web-development) mission, wandering the globe and country getting things done.
+I've been working up in Newcastle recently on the longest stay of my [Nomadic Web Development](/blog/2011/08/nomadic-web-development) mission, wandering the globe and country getting things done.
 
 This weekend I popped home to Bristol for [Web Developers Conference 2011](http://webdevconf.com/) and while I was mainly going to heckle [Elliott Kember](http://elliottkember.com) and see a few friends I came away inspired to make some changes. Three of the talks at first seemed to be the common "This is how I went from being an inexperienced dev to being part of an awesome company" but the combination of different approaches and characters complimented each other perfectly and left me thinking for most of the day. By the time [Paul Boag](http://boagworld.com/) finished his talk I was ready for some changes.
 

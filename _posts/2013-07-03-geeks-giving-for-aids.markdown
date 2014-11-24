@@ -57,7 +57,7 @@ Two other important things to remember:
 * These donations are tax deductible, so it's like free money or something.
 * If you are donating personally and your employer has a matching gift program it will double the donation (but that doesn't double the reward, just saying).
 
-So please, help me out here and [donate](https://bit.ly/BRAKEAIDS). If you want one of the rewards then send an email to rewards@philsturgeon.co.uk letting me know the name the donation is under and which reward you want. I'll then send you a coupon code, or do whatever else the reward states.
+So please, help me out here and [donate](https://bit.ly/BRAKEAIDS). If you want one of the rewards then send an email to rewards@philsturgeon.uk letting me know the name the donation is under and which reward you want. I'll then send you a coupon code, or do whatever else the reward states.
 
 I've had some huge donations already from the listeners of [NomadPHP](http://nomadphp.com/) and [PeersConf](http://peersconf.com), so a massive thank you to them. Let's see how much money we can raise for this excellent cause. There is a timescale on this, the money has to be in by August 30th but waiting leads to missed donations. If you wait until next week or next month you will almost certainly forget, so please do it ASAP to avoid missing out on your chance to not only help an excellent cause but to get some cool stuff in return.
 

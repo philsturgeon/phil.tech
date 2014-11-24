@@ -113,7 +113,7 @@ There is another solution called [Phark](https://github.com/lox/phark) but it's 
 
 I am happy to see that Symfony are all over packages like a wet flannel. They have been helping out and a huge number of their packages are now using Composer - they've even been sending in pull requests.
 
-Other well known developers like [Ed Finkler](http://funkatron.com/) and [Chris Hartjes](http://www.littlehart.net/atthekeyboard/) who record the [/dev/null postcast](http://itunes.apple.com/us/podcast/dev-hell/id489840699) are behind it too. Check the first episode for some of their reasoning. Ed has a bunch of code on Packagist and I'll be joining him with as much code as I can - such as my [NinjAuth](http://philsturgeon.co.uk/blog/2011/09/ninjauth-social-integration-php) multi-provider user authentication system.
+Other well known developers like [Ed Finkler](http://funkatron.com/) and [Chris Hartjes](http://www.littlehart.net/atthekeyboard/) who record the [/dev/null postcast](http://itunes.apple.com/us/podcast/dev-hell/id489840699) are behind it too. Check the first episode for some of their reasoning. Ed has a bunch of code on Packagist and I'll be joining him with as much code as I can - such as my [NinjAuth](/blog/2011/09/ninjauth-social-integration-php) multi-provider user authentication system.
 
 More than that I am really happy to say that after talking to the FuelPHP team they are all convinced this is the right way for FuelPHP to go. By removing the different between modules and packages, making pretty much everything into a package and fully supporting the PSR-0 standard of file and class naming, we become fully package based.
 

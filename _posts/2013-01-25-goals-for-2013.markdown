@@ -11,9 +11,9 @@ comments: 'true'
 disqus_identifier: goals-for-2013
 ---
 
-Back in 2010 I set myself a [list of goals](http://philsturgeon.co.uk/goals/2010) and put them online in the hope that it would be some extra motivation. I actually [did pretty well](/blog/2010/12/2010-for-phil-sturgeon-year-in-review) I believe, and while a few of them didn't happen I got around to most of them since.
+Back in 2010 I set myself a [list of goals](/goals/2010) and put them online in the hope that it would be some extra motivation. I actually [did pretty well](/blog/2010/12/2010-for-phil-sturgeon-year-in-review) I believe, and while a few of them didn't happen I got around to most of them since.
 
-Since then I've focused on other things. My goals for 2011 were mainly "[Backpack around America and Canada](http://philsturgeon.co.uk/blog/2011/08/nomadic-web-development) without getting killed or arrested (both nearly happened), then try to not be homeless when I get back to the UK" then 2012 was "Work for as many people as possible, then sort out a visa and get my ass to the USA". 
+Since then I've focused on other things. My goals for 2011 were mainly "[Backpack around America and Canada](/blog/2011/08/nomadic-web-development) without getting killed or arrested (both nearly happened), then try to not be homeless when I get back to the UK" then 2012 was "Work for as many people as possible, then sort out a visa and get my ass to the USA". 
 
 That was good but now it's time to go again!
 

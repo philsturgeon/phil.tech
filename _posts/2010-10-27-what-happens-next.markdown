@@ -35,7 +35,7 @@ There are thousands of users ready to expand the team for free on BitBucket and 
 
 ### So what is happening to the CodeIgniter Community?
 
-People are getting fed up. For a community that has already been waiting almost 14 months for an update, we don't have that much to look forward to. Although [CodeIgniter 2 is stable enough](http://philsturgeon.co.uk/news/2010/10/codeigniter-2.0-is-stable) to use in production there is not that much in there that is _really_ new and exciting. That might not have been such a problem 5/6 months ago when we thought it would be out soon as everybody expected to be salivating over a 2.1 feature-set by now, but we are in the same position we were in back then with no assurances that it will be any different in another 6 months. Because of this I am noticing quite a serious brain-drain of developers using CodeIgniter which has got much worse over the last few weeks.
+People are getting fed up. For a community that has already been waiting almost 14 months for an update, we don't have that much to look forward to. Although [CodeIgniter 2 is stable enough](/blog/2010/10/codeigniter-2.0-is-stable) to use in production there is not that much in there that is _really_ new and exciting. That might not have been such a problem 5/6 months ago when we thought it would be out soon as everybody expected to be salivating over a 2.1 feature-set by now, but we are in the same position we were in back then with no assurances that it will be any different in another 6 months. Because of this I am noticing quite a serious brain-drain of developers using CodeIgniter which has got much worse over the last few weeks.
 
 Let's have a look at who has left EllisLab in the last month:
 

@@ -11,7 +11,7 @@ comments: 'true'
 disqus_identifier: biked-to-the-beach-2013
 ---
 
-Last month I posted about an [upcoming bike century](http://philsturgeon.co.uk/blog/2013/05/bike-to-the-beach-2013) called [Bike to the Beach](http://www.biketothebeach.org/). As lots of you were amazingly generous with sponsorship money I figured it would be rude not to post a review.
+Last month I posted about an [upcoming bike century](/blog/2013/05/bike-to-the-beach-2013) called [Bike to the Beach](http://www.biketothebeach.org/). As lots of you were amazingly generous with sponsorship money I figured it would be rude not to post a review.
 
 The bike ride was fucking brilliant, but really hard. Apparently there was a tropical cyclone in the area on Friday, which just meant torrential rain for the entire day. I left home at 4am cycling around Brooklyn off to find the starting line in Battery Park.
 

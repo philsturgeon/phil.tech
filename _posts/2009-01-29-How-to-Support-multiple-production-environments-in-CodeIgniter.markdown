@@ -11,33 +11,34 @@ comments: 'true'
 disqus_identifier: How-to-Support-multiple-production-environments-in-CodeIgniter
 ---
 
-To get this working is very easy. Constants can be seen all the way through CodeIgniter and can be set almost anywhere. To keep things neat and logical we will put this code into _application/config/constants.php_.
+To get this working is very easy. Constants can be seen all the way through CodeIgniter and can be set almost anywhere. To keep things neat and logical we will put this code into `application/config/constants.php`.
 
 For a simple 2 environment switch you can use the following:
 
-`define('ENV', strpos($_SERVER['SERVER_NAME'], 'local') !== FALSE ? 'local' : 'live');`Or if you have more than the two environments:`if(strpos($_SERVER['SERVER_NAME'], 'local') !== FALSE) { 
+{% highlight php %}
+define('ENV', strpos($_SERVER['SERVER_NAME'], 'local') !== FALSE ? 'local' : 'live');
+{% endhighlight %}
+
+Or if you have more than the two environments:
+
+{% highlight php %}
+if(strpos($_SERVER['SERVER_NAME'], 'local') !== FALSE) { 
   define('ENV', 'local');
-}
-
-elseif(strpos($_SERVER['SERVER_NAME'], 'dev.') === 0) { 
+} elseif(strpos($_SERVER['SERVER_NAME'], 'dev.') === 0) { 
   define('ENV', 'dev');
-}
-
-elseif(strpos($_SERVER['SERVER_NAME'], 'qa.') === 0) {
+} elseif(strpos($_SERVER['SERVER_NAME'], 'qa.') === 0) {
   define('ENV', 'qa');
-}
-else { 
+} else { 
   define('ENV', 'live');
-}`
+}
+{% endhighlight %}
 
 That will match:  
-  
-  
-http://localhost/ = **local**  
-http://local.example.com/ = **local**  
-http://dev.example.com/ = **dev**  
-http://qa.example.com/ = **qa**  
-http://example.com/ = **live**
 
-Now you can base your config on if(ENV == 'live'). This is helpful for setting the $active\_group in database.php, runing caching for live only, displaying profiler and debug data for local/dev only and plenty more.
+- `http://localhost/` = local
+- `http://local.example.com/` = local
+- `http://dev.example.com/` = dev
+- `http://qa.example.com/` = qa
+- `http://example.com/` = live
 
+Now you can base your config on `if (ENV == 'live')`. This is helpful for setting the `$active_group` in `database.php`, runing caching for live only, displaying profiler and debug data for local/dev only and plenty more.

@@ -32,7 +32,7 @@ But.
 
 I've worked in large companies where the classic "sysadmins v developers" war continues to wage into it's 5th decade. The sysadmins don't want to change _anything_ because change causes work, bugs and effort, but on the other team developers want to change _everything_ to make it quicker, more modern, more [webscale](http://www.mongodb-is-web-scale.com/). Trying to get these guys to upgrade from PHP 5.1 to 5.2 when 5.3 was just coming out was insanely difficult, and trying to get from 5.2 to 5.3 is a much bigger ask for many companies. 
 
-PHP 5.3 is certainly becoming more available, but there are plenty of times when it just isn't an option. Look at the bigger picture than just "I am a web developer using a FooHost.com". [Read](http://philsturgeon.co.uk/blog/2012/08/understanding-circumstance). I personally [don't need PHP 5.2 for anything](http://philsturgeon.co.uk/blog/2012/10/bye-bye-php-5-2), but back in May when Shawn wrote his article the whole PHP scene was very different, so he was even less correct to suggest PHP 5.2 was no longer a big deal.
+PHP 5.3 is certainly becoming more available, but there are plenty of times when it just isn't an option. Look at the bigger picture than just "I am a web developer using a FooHost.com". [Read](/blog/2012/08/understanding-circumstance). I personally [don't need PHP 5.2 for anything](/blog/2012/10/bye-bye-php-5-2), but back in May when Shawn wrote his article the whole PHP scene was very different, so he was even less correct to suggest PHP 5.2 was no longer a big deal.
 
 > Since CI doesn't use any of the new features, best-practices suggest that its users should avoid them in order to provide standardised code. It should be easy to find and hire a PHP developer who is versed in CodeIgniter and mismatching a bunch of code-styles is a bad way to approach that goal.
 
@@ -125,4 +125,4 @@ Now we can all sing kumbaya at [LaraCon](http://conference.laravel.com/). After 
 
   [styleguide]: http://ellislab.com/codeigniter/user-guide/general/styleguide.html
   [hmvcbundle]: http://bundles.laravel.com/bundle/hmvc
-  [5things]: http://philsturgeon.co.uk/blog/2012/12/5-things-codeigniter-cannot-do-without-a-rewrite
+  [5things]: /blog/2012/12/5-things-codeigniter-cannot-do-without-a-rewrite

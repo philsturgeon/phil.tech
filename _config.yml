@@ -2,15 +2,22 @@
 title: Phil Sturgeon
 email: me@philsturgeon.uk
 description: > # this means to ignore newlines until "baseurl:"
-  I'm the ex-founder of PyroCMS, Senior Developer at Ride, a voting PHP-FIG member, and occasionally I get chased by bears
+  Founder of PyroCMS, Senior Developer at Ride, Programming Polyglot, PHP-FIG member, and occasionally gets chased by bears
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://philsturgeon.uk" # the base hostname & protocol for your site
 
+encoding:     "utf-8"
+
 # Build settings
-markdown: redcarpet
 highlighter: pygments
 paginate: 8
 exclude: ["Gemfile", "Gemfile.lock"]
+markdown: kramdown
+
+# Markdown Settings
+kramdown:
+  auto_ids:      true
+  smart_quotes:  lsquo,rsquo,ldquo,rdquo
 
 # Content Settings
 logo: "/assets/images/logo.jpg"

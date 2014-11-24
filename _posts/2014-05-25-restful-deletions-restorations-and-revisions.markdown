@@ -51,11 +51,13 @@ The two approaches I can see that follow all of the rules are this:
 
 Delete should probably do what it says, actually delete the item. If delete is a destructive and unrecoverable action, then you will need to invent some other status for the article to exist in, which is still hidden from the API but not entirely gone from the database. 
 
-> PATCH /articles/foo HTTP/1.1  
-> Host: api.example.com  
-> Content-Type: application/json  
-> 
-> { "status" : "archived" }  
+{% highlight http %}
+PATCH /articles/foo HTTP/1.1  
+Host: api.example.com  
+Content-Type: application/json  
+
+{ "status" : "archived" }  
+{% endhighlight %}
 
 This would keep it available everywhere in the API, and you could get it if you wanted, or ignore it with filters. For example, running a `GET /articles?status=archived` could very easily get you archived items, and running `GET /articles?status=published` would get you the live ones.
 
@@ -68,11 +70,7 @@ If you then want to actually remove something from the system then you could use
 
 In this approach we use `DELETE` to delete stuff and do not play around with a status field initially. 
 
-Once you delete it, it is gone. It will not show up in `GET /articles` regardless of any filter provided. If you try and call it up you get a 404 or a 410. 
-
-<strike>_**Aside:** I am wary of 410 as I am not allowed to return a body which means no human-friendly error message, error code or link to error documentation. If all other errors contain this, it seems strange to me that missing content just has an empty body. You decide._</strike>
-
-**Update:** It turns out I was wrong about 410's not being allowed to have a HTTP response body. [RFC 2616](http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html) says nothing of the sort. That sounds like one of those little non-facts somebody told me at some point that just stuck in my head without me ever verifying it. I usually try to avoid that sort of thing, so sorry that slipped through.
+Once you delete it, it is gone. It will not show up in `GET /articles` regardless of any filter provided. If you try and call it up you get a 404 or a 410.
 
 This article is no longer amongst the general population of the API. 
 
@@ -82,11 +80,13 @@ The reason I think this works is because trashed items are a specific sub-set of
 
 One you have found the item you could once again `PATCH` the status to `"published"` (or whatever):
 
-> PATCH /articles/trashed/foo HTTP/1.1  
-> Host: api.example.com  
-> Content-Type: application/json  
-> 
-> { "status" : "published" }  
+{% highlight http %}
+PATCH /articles/trashed/foo HTTP/1.1  
+Host: api.example.com  
+Content-Type: application/json  
+
+{ "status" : "published" }  
+{% endhighlight %}
 
 Alternatively you could use some sort of `is_trash` boolean field which always shows when you `GET` something, trash or not, then use `PATCH` with a body like `"is_trash" : false` to restore it. Regardless of choosing a bool field or a status field, patching it seems to work.
 
@@ -121,11 +121,13 @@ Because we have that field as output, it should not be that much of a stretch to
 
 If article `foo` has three revisions, this should be possible to make revision 2 the current revision:
 
-> PATCH /articles/foo/revisions/2 HTTP/1.1  
-> Host: api.example.com  
-> Content-Type: application/json  
-> 
-> { "is_current" : true }  
+{% highlight http %}
+PATCH /articles/foo/revisions/2 HTTP/1.1  
+Host: api.example.com  
+Content-Type: application/json  
+
+{ "is_current" : true }  
+{% endhighlight %}
 
 At that point maybe your internal logic updates that revision record with a `true` and set the other revisions for that article to be `false`, or maybe you go and update the articles table and set the `revision_id` to the ID provided. Whatever you do, this will now effect which is the current promoted revision and we've not had to make anything gross like `/articles/foo/revisions/promote/34` which I have seen suggested before.
 

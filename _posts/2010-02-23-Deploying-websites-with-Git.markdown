@@ -10,7 +10,7 @@ comments: 'true'
 disqus_identifier: Deploying-websites-with-Git
 ---
 
-Back in 2008 I wrote an article describing how you can [use Subversion as a very simple deployment method](/news/2008/10/deploying-sites-with-svn "Deploying sites with Subversion (SVN)") from your local box, through testing environments to your live servers. Since then I have been using Git to track all client work and personal projects, so I modified this approach to work with Git.
+Back in 2008 I wrote an article describing how you can [use Subversion as a very simple deployment method](/blog/2008/10/deploying-sites-with-svn "Deploying sites with Subversion (SVN)") from your local box, through testing environments to your live servers. Since then I have been using Git to track all client work and personal projects, so I modified this approach to work with Git.
 
 It sounds a little crazy to some people, but really deploying websites with a version control system makes a lot of sense. When you develop on your local box you can change any number of files throughout a codebase and trying to manually remember what files have been changed can be a pain in the nadgers.
 

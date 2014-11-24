@@ -96,4 +96,4 @@ I'd also be really interested to hear from other open-source and distributed app
   [mediatemple-upgrade]: http://weblog.mediatemple.net/2012/02/28/gs-update-php-spring-cleaning/
   [rackspace-53]: http://feedback.rackspace.com/forums/71021-product-feedback/suggestions/997049-php-5-3-support-in-cloud-sites
   [rackspace-54]: http://feedback.rackspace.com/forums/71021-product-feedback/suggestions/2642991-php-5-4-support-in-cloud-sites
-  [pipe-dream]: http://philsturgeon.co.uk/blog/2012/10/cloud-hosting-php-pipe-dream
+  [pipe-dream]: /blog/2012/10/cloud-hosting-php-pipe-dream

@@ -27,5 +27,5 @@ So, EllisLab have been busy working on ExpressionEngine and MojoMotor while only
 
 [ExpressionEnigne just hit 2.1.1](http://expressionengine.com/blog/entry/expressionengine_2.1.1_released/) and I have been assured by EllisLab CTO Derek Jones that within the next week we'll start to see a signification increase in commits to the repository. The less they need to concentrate on fixing bugs in ExpressionEngine the more they can start to work on CodeIgniter and take it forward as a framework that can benefit us as much as them.
 
-My advice to you, [download the latest copy](http://bitbucket.org/ellislab/codeigniter/get/tip.zip) and have a play. If your application worked in v1.7.2 it will work in v2.0 and [the upgrade](/news/2010/05/upgrading-to-codeigniter-2.0) is pretty simple.
+My advice to you, [download the latest copy](http://bitbucket.org/ellislab/codeigniter/get/tip.zip) and have a play. If your application worked in v1.7.2 it will work in v2.0 and [the upgrade](/blog/2010/05/upgrading-to-codeigniter-2.0) is pretty simple.
 

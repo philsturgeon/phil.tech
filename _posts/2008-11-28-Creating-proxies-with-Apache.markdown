@@ -18,14 +18,15 @@ Other than just being easy to forget, these ports are often not open in office e
 
 Enable the following modules by uncommenting the following lines:
 
-> LoadModule proxy_module modules/mod_proxy.so
-> LoadModule proxy_connect_module modules/mod_proxy_connect.so
+> LoadModule proxy_module modules/mod_proxy.so  
+> LoadModule proxy_connect_module modules/mod_proxy_connect.so  
 > LoadModule proxy_http_module modules/mod_proxy_http.so
+
 ### Step #2 - Add the virtual host entry
 
 Now you need to work out where you want to put the virtual host entry that will handle this proxy. You can just throw it in your main Apache conf/httpd.conf, but if like me you like to keep the main config file clean, uncomment the 2nd line below and put your virtual host entry in apache/conf/extra/httpd-vhosts.conf.
 
-> # Virtual hosts
+> # Virtual hosts  
 > #Include conf/extra/httpd-vhosts.conf
 
 In this example I am setting up a virtual subdomain for example.com. Any URI you access on http://test.example.com/foo/bar.php will really be requesting http://example.com:8080/foo/bar.php.

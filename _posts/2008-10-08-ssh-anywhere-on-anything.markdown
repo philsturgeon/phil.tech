@@ -2,6 +2,7 @@
 layout: post
 title: SSH anywhere on anything
 category: 
+tags: ssh
 permalink: blog/2008/10/ssh-anywhere-on-anything
 excerpt: Notice you have a bug in your site but your at work with a proxy in place?
   On your friends computer who doesn't want you installing Putty? Have no fear, consoleFISH

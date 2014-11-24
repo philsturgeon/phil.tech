@@ -14,7 +14,7 @@ comments: 'true'
 disqus_identifier: composer-now-supports-psr4
 ---
 
-I haven't really posted about PSR-4 here other than as a footnote in [this old article](http://philsturgeon.co.uk/blog/2013/05/composer-and-psr0-friends-not-relatives), but if you follow me on Twitter or hang out on Reddit you've probably seen some news about it. 
+I haven't really posted about PSR-4 here other than as a footnote in [this old article](/blog/2013/05/composer-and-psr0-friends-not-relatives), but if you follow me on Twitter or hang out on Reddit you've probably seen some news about it. 
 
 [PSR-4](http://www.php-fig.org/psr/psr-4/) was voted in as an "accepted" PSR by the FIG in December. It took a little while to get done and went through a series of painful rewrites but when we have in the end is a document that reflects what this truly is: an improvement on PSR-0.
 

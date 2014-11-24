@@ -53,7 +53,7 @@ Controller\_API extends Controller\_Rest = app/classes/controller/api.php
 
 Controller\_Rest extends Controller= core/classes/controller/rest.php
 
-Madness? It might look it at first, but this is incredibly useful when you understand the use of base controllers and it all works out of the box. No hacking around [like in CodeIgniter](http://philsturgeon.co.uk/news/2010/02/CodeIgniter-Base-Classes-Keeping-it-DRY).
+Madness? It might look it at first, but this is incredibly useful when you understand the use of base controllers and it all works out of the box. No hacking around [like in CodeIgniter](/blog/2010/02/CodeIgniter-Base-Classes-Keeping-it-DRY).
 
 #### HMVC
 

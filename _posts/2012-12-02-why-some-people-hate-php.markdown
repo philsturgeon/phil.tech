@@ -48,7 +48,7 @@ NPM, Bundler/Gems, PIP, CPAN etc all provide quality code packages for developer
 
 PSR-0 (part of the PHP-FIG) is a standard that has been generated to help code packages work together, and Composer is a project that has been built to make NPM-style dependency handling for PHP. In time we'll see the quality increase, meaning much less bad code is going to be rebuilt time and time again by every developer - and much more time can be saved instead of developers working on fragmented "framework specific" solutions.
 
-[<b>Packages: </b>The way forward for PHP](http://philsturgeon.co.uk/blog/2012/03/packages-the-way-forward-for-php)<br><b>[Composer](http://getcomposer.org)</b>
+[<b>Packages: </b>The way forward for PHP](/blog/2012/03/packages-the-way-forward-for-php)<br><b>[Composer](http://getcomposer.org)</b>
 
 5.) Misconception
 

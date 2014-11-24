@@ -27,7 +27,7 @@ Heroku then started offering official support for Python, Node, Java... a _bunch
 
 Orchestra.io then was [acquired by EngineYard](http://techcrunch.com/2011/08/23/engine-yard-acquires-orchestra-to-add-php-support-to-its-paas/), Heorku's biggest competitor. Woah! I hoped Heroku would get going with PHP properly then, but no... ahh sod it though,we still have these other three options to play with. Right?
 
-With these options available I optimistically called 2012 [The Year of PHP Cloud Hosting](http://philsturgeon.co.uk/blog/2012/01/2012-the-year-of-php-cloud-hosting). By the end of the year I was [calling myself a fool](http://philsturgeon.co.uk/blog/2012/10/cloud-hosting-php-pipe-dream) for ever thinking it could be done properly.
+With these options available I optimistically called 2012 [The Year of PHP Cloud Hosting](/blog/2012/01/2012-the-year-of-php-cloud-hosting). By the end of the year I was [calling myself a fool](/blog/2012/10/cloud-hosting-php-pipe-dream) for ever thinking it could be done properly.
 
 Pagodabox was the most feature complete, but as stable as a wet fart. PHP Fog stopped having work done as App Fog came along, and App Fog just seemed to be missing crucial features. A few other options came and went within the space of a few months and some were always there but... there were a lot of shit options around.
 

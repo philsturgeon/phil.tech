@@ -48,7 +48,7 @@ If you're just using traits, then make sure those traits are optional. If you're
 
 ## "But I use PHP 5.4 for all my projects"
 
-Yes, you do, but think about [other people](philsturgeon.co.uk/blog/2012/08/understanding-circumstance) for a minute. At [Kapture](http://kaptu.re) we use PHP 5.4 on any PHP-based application, and I already have a PHP 5.5 branch of the API ready to go and passing tests so that as soon as PHP 5.5.0 comes out I'll be upgrading. I can do what I like, because I control the servers, but what about other people?
+Yes, you do, but think about [other people](/blog/2012/08/understanding-circumstance) for a minute. At [Kapture](http://kaptu.re) we use PHP 5.4 on any PHP-based application, and I already have a PHP 5.5 branch of the API ready to go and passing tests so that as soon as PHP 5.5.0 comes out I'll be upgrading. I can do what I like, because I control the servers, but what about other people?
 
 And not even other people, other projects?
 

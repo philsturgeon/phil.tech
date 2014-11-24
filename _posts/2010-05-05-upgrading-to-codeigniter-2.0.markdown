@@ -71,7 +71,7 @@ I had to change "a-z 0-9~%.:\_-" to "a-z 0-9~%.:\_-" in my application/config/co
 
 Out of the box Modular Separation won't work with CodeIgniter 2.0. Good thing I picked up the project and released a patch then huh? Grab the latest version in the 2.x branch from the [Modular Sepearation Wiki](http://codeigniter.com/wiki/Modular_Separation).
 
-_Update 12/10/2010: Modular Separation has been merged back into Modular Extensions so they are now the same project. I wrote [a post explaining the merge](/news/2010/09/what-happened-to-modular-separation) which details the differences and explains how to upgrade._
+_Update 12/10/2010: Modular Separation has been merged back into Modular Extensions so they are now the same project. I wrote [a post explaining the merge](/blog/2010/09/what-happened-to-modular-separation) which details the differences and explains how to upgrade._
 
 ### MY\_Controller and other extended libs
 

@@ -153,6 +153,6 @@ Maybe Pagoda Box will fix itself; That would be ideal because they have absolute
 
 Finally to everyone suggesting I just use Linode/CheapVPS4U/whatever: I've spent the last 2 years driving a hover-car. I don't want to go back to driving a normal car, I just want another hover-car that doesn't keep crashing.
 
-  [2012]: http://philsturgeon.co.uk/blog/2012/01/2012-the-year-of-php-cloud-hosting
+  [2012]: /blog/2012/01/2012-the-year-of-php-cloud-hosting
   [applihq]: http://www.applihq.com/
   [pancake]: http://pancakeapp.com/

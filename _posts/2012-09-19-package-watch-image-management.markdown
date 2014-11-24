@@ -76,7 +76,7 @@ Start using Composer on your next project and say "fuck you" to the frameworks t
 
 
 
-  [future]: http://philsturgeon.co.uk/blog/2012/03/packages-the-way-forward-for-php
+  [future]: /blog/2012/03/packages-the-way-forward-for-php
   [brad]: http://www.bradleyproctor.com/composer-the-future-of-php/
   [fortr]: http://blog.fortrabbit.com/handle-your-dependencies-with-php-composer/
   [upload]: https://github.com/codeguy/Upload

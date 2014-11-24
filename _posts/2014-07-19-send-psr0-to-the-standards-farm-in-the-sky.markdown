@@ -48,9 +48,9 @@ That is only the "sample implementation" which the PHP-FIG consider to be only a
 PSR-4 fixed that.
 
 > With PSR-0, multiple classes actually map to the same file. For example, all of the following map to the same file (Foo/Bar/Baz.php): 
-> * \Foo\Bar\Baz
-> * \Foo\Bar_Baz
-> * \Foo_Bar_Baz
+>  - \Foo\Bar\Baz
+>  - \Foo\Bar_Baz
+>  - \Foo_Bar_Baz
 
 Absolutely, that is a mess. I explained this in the [PSR-0 Naming Oddityy](https://github.com/philsturgeon/psr0-naming-oddity). This has only once caused me a problem in development and never any sort of issue in production, but it is a WTF that should be taken care of.
 

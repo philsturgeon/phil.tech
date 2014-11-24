@@ -38,7 +38,7 @@ As for learning new languages, I left this a little late. I got all over [Ruby o
 
 I have stolen sourced several ideas from Rails for a new framework started by [Dan Horrigan](http://dhorrigan.com/) that myself and others are working on called [FUEL](http://fuelphp.com/). It combines the best of Kohana, CodeIgniter, Rails and a few other bits and bobs, combined with a huge amount of our own ideas and community contributions. The BETA will hopefully be 01/01/2011, so it's nearly ready for world domination.
 
-But where does that leave CodeIgniter? Well I am still loving it "long-time" and now I have commit access to a new community branch: [CodeIgniter Reactor](http://philsturgeon.co.uk/news/2010/12/ellislab-react-with-codeigniter-reactor) which will be out soon too. The contributors (or Engineers) are a brilliant group who I have a great deal of respect for. Contributing to this project is a great feeling as finally I can directly contribute to the framework I use every day and help improve it for everyone.
+But where does that leave CodeIgniter? Well I am still loving it "long-time" and now I have commit access to a new community branch: [CodeIgniter Reactor](/blog/2010/12/ellislab-react-with-codeigniter-reactor) which will be out soon too. The contributors (or Engineers) are a brilliant group who I have a great deal of respect for. Contributing to this project is a great feeling as finally I can directly contribute to the framework I use every day and help improve it for everyone.
 
 Sadly my Objective-C goes as far as Hello World! and I haven't even scratched the surface of Python but there are only so many hours in the day. I have a decent understanding of C and feel confident that I will be on top of iPhone App development in the New Year, with the first app being iTravlr.
 
@@ -51,11 +51,11 @@ On a more positive note I have managed to get the [PyroCMS Add-on Store](http://
 ### Most Popular Posts of 2010
 
 - [Working with RESTful Services in CodeIgniter](http://net.tutsplus.com/tutorials/php/working-with-restful-services-in-codeigniter-2/)
-- [Create an Admin Panel with CodeIgniter](http://philsturgeon.co.uk/news/2009/07/Create-an-Admin-panel-with-CodeIgniter)
-- [CodeIgniter 2: Everything you need to know](http://philsturgeon.co.uk/news/2010/03/codeigniter-2)
-- [CodeIgniter Base Classes: Keeping it DRY](http://philsturgeon.co.uk/news/2010/02/CodeIgniter-Base-Classes-Keeping-it-DRY)
-- [Sturgeons Shittiest Company Award '10](http://philsturgeon.co.uk/news/2010/09/company-shit-list)
-- [Upgrading to CodeIgniter 2.0](news/2010/05/upgrading-to-codeigniter-2.0)
+- [Create an Admin Panel with CodeIgniter](/blog/2009/07/Create-an-Admin-panel-with-CodeIgniter)
+- [CodeIgniter 2: Everything you need to know](/blog/2010/03/codeigniter-2)
+- [CodeIgniter Base Classes: Keeping it DRY](/blog/2010/02/CodeIgniter-Base-Classes-Keeping-it-DRY)
+- [Sturgeons Shittiest Company Award '10](/blog/2010/09/company-shit-list)
+- [Upgrading to CodeIgniter 2.0](/blog/2010/05/upgrading-to-codeigniter-2.0)
 
 ### Goals For 2011
 

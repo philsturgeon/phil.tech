@@ -189,6 +189,6 @@ This is run whenever a developer on the team wants fresh data in their system, a
 
 More on testing automationy goodness with Jenkins and Behat coming up soon, and a lot more to come after that including how to represent your data output, how to handle nesting data (respecting context and avoiding unlimited nesting and memory-leaks) and authentication with [OAuth 2 Server](https://github.com/php-loep/oauth2-server) from [The PHP League of Extraordinary Packages](http://www.thephpleague.com/).
 
-[Building a Decent API]: http://philsturgeon.co.uk/blog/2013/07/building-a-decent-api
+[Building a Decent API]: /blog/2013/07/building-a-decent-api
 [Faker]: https://github.com/fzaninotto/Faker
 [Database Seeding]: http://laravel.com/docs/migrations#database-seeding

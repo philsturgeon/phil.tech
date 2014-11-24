@@ -20,15 +20,21 @@ This step-by-step guide will assume [SVN binaries are already installed](http://
 
 1.) [Log in via Putty or Terminal](http://intranet.cs.man.ac.uk/software/cs-ssh/cs-ssh-ref.php):
 
-ssh user@yoursite.com
+{% highlight console %}
+$ ssh user@yoursite.com
+{% endhighlight %}
 
-2.) Get to your public\_web root. This will probably be something like /home/user/public\_html/ but could vary.
+2.) Get to your `public_web` root. This will probably be something like `/home/user/public_html/` but could vary.
 
-cd /home/user/public\_html
+{% highlight console %}
+$ cd /home/user/public\_html
+{% endhighlight %}
 
 3.) Then simply check the repo out.
 
-svn co http://svn.whatever.com/repo/trunk .
+{% highlight console %}
+$ svn co http://svn.whatever.com/repo/trunk .
+{% endhighlight %}
 
 DONT forget the full stop as that says to use the current directory and not create a new sub-directory.
 
@@ -36,7 +42,9 @@ DONT forget the full stop as that says to use the current directory and not crea
 
 5.) Update your site:
 
-svn update
+{% highlight console %}
+$ svn update
+{% endhighlight %}
 
 And there you have it. Each update you make will be deployed to your site when you run the svn update, minimum fuss.
 

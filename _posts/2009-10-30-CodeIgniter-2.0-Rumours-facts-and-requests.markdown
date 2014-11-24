@@ -12,7 +12,7 @@ comments: 'true'
 disqus_identifier: CodeIgniter-2.0-Rumours-facts-and-requests
 ---
 
-_ **Update 22/03/2010:** Now that CodeIgniter 2.0 development code has been release this article is irrelevant. Please have a look at [CodeIgniter 2.0: Everything you need to know](/news/2010/03/codeigniter-2)._
+_ **Update 22/03/2010:** Now that CodeIgniter 2.0 development code has been release this article is irrelevant. Please have a look at [CodeIgniter 2.0: Everything you need to know](/blog/2010/03/codeigniter-2)._
 
 Ever since it was announced that ExpressionEngine 2.0 would be running on CodeIgniter, the forums have been jammed full of "CodeIgniter 2.0" questions. I have answer this so many times I wanted to clear things up. I have jammed this post full of "CodeIgniter 2.0" keywords so hopefully this will be the first thing these muppets spot - if they are smart enough to even Google search a query before posting it on the forums... again.
 

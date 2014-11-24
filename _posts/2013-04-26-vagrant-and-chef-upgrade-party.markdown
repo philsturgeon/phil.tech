@@ -85,4 +85,4 @@ I really should have been doing this before, but until now I've been getting by 
 
 I'll blog this up when I'm done.
 
-**Update:** [Done](http://philsturgeon.co.uk/blog/2013/05/build-your-own-vagrant-boxes-with-veewee).
+**Update:** [Done](/blog/2013/05/build-your-own-vagrant-boxes-with-veewee).

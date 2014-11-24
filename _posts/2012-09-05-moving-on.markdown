@@ -76,8 +76,8 @@ Laravel 4 keeps Blade, Eloquent, even the Validation code in their own packages 
 
 The next generation of frameworks are not what you're used to. Don't use one framework for everything, use whatever is right for the job, and use components to stop this whole "I build everything with X" mentality. It's childish and damaging to you and your projects.
 
-  [next]: http://philsturgeon.co.uk/blog/2010/10/what-happens-next
-  [dry]: http://philsturgeon.co.uk/blog/2010/02/CodeIgniter-Base-Classes-Keeping-it-DRY
+  [next]: /blog/2010/10/what-happens-next
+  [dry]: /blog/2010/02/CodeIgniter-Base-Classes-Keeping-it-DRY
   [eewidgets]: https://github.com/philsturgeon/ee2-widgets
   [eerest]: https://github.com/philsturgeon/ee2-rest
   [psr2]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md

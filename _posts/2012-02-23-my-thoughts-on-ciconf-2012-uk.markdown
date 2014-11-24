@@ -44,7 +44,7 @@ Sorry guys, I have really learned a lesson on that one.
 
 We came back from lunch to an amazing talk. Tyler Flint is truly a brilliant speaker, who gave a very technical talk without trying to pimp his product - which as a sponsor he had every right to do. Pagoda Box is a service that has changed how I host sites forever and he explained how they ended up coming about, what problems they are here to fix, then in the end gave every CICONF attendee a special treat: we all had discount codes on our lanyard and that gave us special access to stuff that the rest of you wont get for a while. Ha. You should have come.
 
-After that we had some great talks by Harro Verton about ORMs which went down fairly well, but judging from a few tweets going around not everyone was convinced. Really guys, read [Misconceptions about ORMs](http://philsturgeon.co.uk/blog/2011/06/misconceptions-about-orms), it might help you see a different side.
+After that we had some great talks by Harro Verton about ORMs which went down fairly well, but judging from a few tweets going around not everyone was convinced. Really guys, read [Misconceptions about ORMs](/blog/2011/06/misconceptions-about-orms), it might help you see a different side.
 
 Then we finished up with "the boy wonder" [Jamie Rumbelow](http://jamierumbelow.net/) who was showing off some Rails-like conventions in CodeIgniter.
 

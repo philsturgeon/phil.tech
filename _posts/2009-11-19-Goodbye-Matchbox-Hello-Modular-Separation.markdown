@@ -26,7 +26,7 @@ One of those brilliant features - added in 1.9 - is 404 routing. I have worked o
 
 That route will send any 404 errors off the the pages module. More routing can be done from withing the module as Modular Separation supports another brilliant feature: modular routing.
 
-Modular routing for CodeIgniter is nothing new - I wrote a simple patch to [support modular routes in Matchbox](http://philsturgeon.co.uk/news/2008/06/Matchbox-with-modular-routes-in-CodeIgniter) a while back and the feature eventually made it into Matchbox 2. Zacharias and I both used a very similar approach, which was effectively adding extra routes into the main $routes array.
+Modular routing for CodeIgniter is nothing new - I wrote a simple patch to [support modular routes in Matchbox](/blog/2008/06/Matchbox-with-modular-routes-in-CodeIgniter) a while back and the feature eventually made it into Matchbox 2. Zacharias and I both used a very similar approach, which was effectively adding extra routes into the main $routes array.
 
 Modular Separation will match a result in the main config/routes.php file, then look at the module to see if any more routes match the routed URL. This means you can keep general rules in the global file, then module specific rules can be kept in the module itself. Keeping control of a modules routes to the specific module is brilliant and cuts down on the possibility of routes conflicting with each other too.
 
