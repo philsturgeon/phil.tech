@@ -11,7 +11,7 @@ encoding:     "utf-8"
 # Build settings
 highlighter: pygments
 paginate: 8
-exclude: ["Gemfile", "Gemfile.lock"]
+exclude: ["_import", "Gemfile", "Gemfile.lock"]
 markdown: kramdown
 
 # Markdown Settings

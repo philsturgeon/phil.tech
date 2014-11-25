@@ -17,8 +17,8 @@ I love to explore new technologies, try new methodologies, and keep building big
 * I done a [book about APIs] too.
 
 [PyroCMS]: http://pyrocms.com/
-[CodeIgniter]: http://pyrocms.com/
+[CodeIgniter]: http://codeigniter.com/
 [Ride]: http://ride.com/
-[book about PyroCMS]: http://apisyouwonthate.com
+[book about PyroCMS]: https://leanpub.com/catapultintopyrocms
 [book about APIs]: http://apisyouwonthate.com
 [PHP Town Hall]: http://phptownhall.com/

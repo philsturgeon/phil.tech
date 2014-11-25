@@ -37,7 +37,7 @@ I spent the weekend in London to get my new visa approved, and it's all golden. 
 
 I sold _everything_ I own - other than my bike - and got rid of the apartment. **Side-note: In the last hour of moving out the "next guy" wandered in with his stuff and used _my_ bathroom without even asking. Who does that?!**
 
-All my furniture is gone and the landlords owe me a massive security deposit cheque. It was huge because a Brit without _any_ security deposit moving into NYC needs to pay about 3 months rent as security. That shit aint cheap.
+All my furniture is gone and the landlords owe me a massive security deposit cheque. It was huge because a Brit without _any_ credit history moving to the USA needs to pay about 3 months rent as security. That shit aint cheap.
 
 When I get back to NYC I'll start hunting for somewhere a little less expensive. Hopefully that can still be in Williamsburg, but maybe a little further into Brooklyn.
 
