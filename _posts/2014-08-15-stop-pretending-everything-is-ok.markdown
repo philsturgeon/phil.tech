@@ -44,7 +44,7 @@ Chris Kacerguis got in touch about taking it over and I threw it at him. It now 
 
 In 2009 I also wrote [CodeIgniter Curl](https://github.com/philsturgeon/codeigniter-curl). 
 
-It seemed handy for a long time. A lot of people used it. It only got 332 starts but that is more than 5. 
+It seemed handy for a long time. A lot of people used it. It only got 332 stars but that is more than 5. 
 
 I stopped using it and stopped working on it. I felt guilty. It sucked. 
 
@@ -62,11 +62,11 @@ We're all here trying to get shit done. We all want the same thing: more good co
 
 Fuck, I've been completely destroyed for a few months because life double-footed me in the nutsack. A combination of [losing my job, visa, money and girlfriend](/blog/2014/08/i-was-an-extraordinary-alien-for-a-week) meant I have had to defer all open source commitments to the rest of [The PHP League](http://thephpleague.com/) and [FIG](http://www.php-fig.org/). I have had to hide under a fucking rock while I sort my life out.
 
-If you have a problem with somebodies code, [send a fucking pull request](https://spaz.spreadshirt.com/pull-request-or-stfu-black-A6928817). 
+If you have a problem with somebody's code, [send a fucking pull request](https://spaz.spreadshirt.com/pull-request-or-stfu-black-A6928817). 
 
 If you don't have the bandwidth to maintain that code, pass that code on to somebody else who does.
 
-If you have a hard time, thats cool. I owned my troubles and the Internet completely had my back. 
+If you have a hard time, that's cool. I owned my troubles and the Internet completely had my back. 
 
 It will have your back too.
 
