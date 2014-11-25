@@ -36,7 +36,7 @@ It shows you how to combine the basic knowledge of Composer and autoloading outl
 
 ![Somebody else will expanding upon unit-testing a whole lot more in the future.](/assets/article_images/2014-11-25-treehouse-standards-best-practices/grumpy-gives-no-fks.gif)
 
-Now, I know its paid content and that's a bit of an bummer as a lot of beginners just can't afford it, but I do have a "50% off for a month" [sign-up link] here for you to use and share to people. 
+Now, I know it's paid content and that's a bit of an bummer as a lot of beginners just can't afford it, but I do have a "50% off for a month" [sign-up link] here for you to use and share to people. 
 
 All I ask is that you don't take the piss out of me too much for the terrified and partially robotic look on my face. I started off pretty wooden but think I relaxed and got the hang of things as I progressed.
 
