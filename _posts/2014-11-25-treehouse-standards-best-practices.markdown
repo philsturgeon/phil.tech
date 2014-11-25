@@ -5,7 +5,7 @@ category: php
 tags: php treehouse education
 date: '2014-11-25 12:05:00'
 comments: 'true'
-image: /assets/article_images/2014-11-25-treehouse-standards-best-practices/camera.jpeg
+image: /assets/article_images/2014-11-25-treehouse-standards-best-practices/camera.jpg
 ---
 
 A while ago [Treehouse] got in touch with me, and asked me if I would be interested in working with them. They wanted more PHP-related content, and they had heard I knew a thing or two about that.
