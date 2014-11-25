@@ -14,7 +14,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
   <meta property="og:name" content="{{ site.author }}">
-  <meta property="og:image" content="{{ site.author_image }}">
+  <meta property="og:image" content="{% if page.image %}{{ page.image }}{% else %}{{ site.author_image }}{% endif %}">
   <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt }}{% else %}{{ site.description }}{% endif %}">
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
