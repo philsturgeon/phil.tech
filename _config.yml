@@ -20,6 +20,9 @@ kramdown:
   auto_ids:      true
   smart_quotes:  lsquo,rsquo,ldquo,rdquo
 
+gems:
+  - jekyll-redirect-from
+
 # Content Settings
 logo: "/assets/images/logo.jpg"
 cover: "/assets/images/ciderphpants.jpg"
@@ -37,12 +40,12 @@ social:
     share_title: ?text=
     share_link: "&amp;url="
 
-#  - icon:	facebook
-#    url:	https://facebook.com/???
-#    desc: Connect with me facebook
-#    share_url: //www.facebook.com/sharer.php
-#    share_title: ?t=
-#    share_link: "&amp;u="
+  - icon:	facebook
+    url:	
+    desc: 
+    share_url: //www.facebook.com/sharer.php
+    share_title: ?t=
+    share_link: "&amp;u="
 
   - icon:	github
     url:	https://github.com/philsturgeon
