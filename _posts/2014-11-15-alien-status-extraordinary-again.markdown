@@ -2,7 +2,7 @@
 layout: post
 title: 'Alien Status: Extraordinary Again'
 category: personal
-permalink: blog/2014/11/alien-status-extraordinary-again
+redirect_from: /blog/2014/11/alien-status-extraordinary-again/
 excerpt: A few months ago I wrote a bit of an emotional article about my visa status,
   and how I was in a bit of a pickle. A few people since have wanted an update, so
   here it is.

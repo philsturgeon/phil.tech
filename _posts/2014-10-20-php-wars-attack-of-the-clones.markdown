@@ -2,7 +2,7 @@
 layout: post
 title: 'PHP Wars: Attack of the Clones'
 category: php
-permalink: blog/2014/10/php-wars-attack-of-the-clones
+redirect_from: /blog/2014/10/php-wars-attack-of-the-clones/
 excerpt: 'In the last article I said I wanted to write about when its a good idea
   to release a component. A lot of this comes down to: is there one out there that
   does what I want, and if so, can I use it? Should I release a PR or make my own?

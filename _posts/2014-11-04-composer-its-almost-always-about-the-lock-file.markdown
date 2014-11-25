@@ -2,7 +2,7 @@
 layout: post
 title: 'Composer: It''s ALMOST Always About the Lock File'
 category: php
-permalink: blog/2014/11/composer-its-almost-always-about-the-lock-file
+redirect_from: /blog/2014/11/composer-its-almost-always-about-the-lock-file/
 excerpt: When is it a good idea to commit your composer.lock file, and when should
   you leave it out? 
 date: '2014-11-04 22:14:00'

@@ -2,7 +2,7 @@
 layout: post
 title: Try out PHPbrew and VirtPHP
 category: php
-permalink: blog/2014/10/try-out-phpbrew-and-virtphp
+redirect_from: /blog/2014/10/try-out-phpbrew-and-virtphp/
 excerpt: As a developer working with multiple languages regularly, I come across a
   lot of different ways of doing things. Some of the flows and development tools available
   in other languages are nothing at all to do with the language, they were just something

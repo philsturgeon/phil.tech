@@ -2,7 +2,7 @@
 layout: post
 title: Heroku and PHP Sitting in a Tree. K.I.S.S.I.N.G
 category: php
-permalink: blog/2014/05/heroku-and-php-sitting-in-a-tree
+redirect_from: /blog/2014/05/heroku-and-php-sitting-in-a-tree/
 excerpt: Heroku was - as far as I remember - the first (mainstream) PaaS on the market.
   It was Ruby-only but it was that symbol of modern web development at the time, with
   the whole "slinging code", "getting shit done", make a Git repo and start shipping

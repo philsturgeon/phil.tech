@@ -3,7 +3,7 @@ layout: post
 title: I was an Extraordinary Alien... For a Week
 category: personal
 tags: visa usa
-permalink: blog/2014/08/i-was-an-extraordinary-alien-for-a-week
+redirect_from: /blog/2014/08/i-was-an-extraordinary-alien-for-a-week/
 excerpt: A personal write-up of something I've not been able to talk about for a while.
   Probably the most complicated year of my life.
 date: '2014-08-04 20:51:00'

@@ -2,7 +2,7 @@
 layout: post
 title: Describe Your PHP Component
 category: php
-permalink: blog/2014/10/describe-your-php-component
+redirect_from: /blog/2014/10/describe-your-php-component/
 excerpt: I've been talking recently about what The League of Extraordinary Packages
   is up to in regards to components, and made a plea to avoid "Not Invented Here"
   syndrome to help the community focus on quality instead of quantity. Today I noticed

@@ -2,7 +2,7 @@
 layout: post
 title: Fractal v0.8.0, now with Serializers
 category: php
-permalink: blog/2014/05/fractal-v080-now-with-serializers
+redirect_from: /blog/2014/05/fractal-v080-now-with-serializers/
 excerpt: A new version of Fractal is out, which is a package aimed at making life
   easier to API developers handling output. At a basic level it acts as a way to typecast
   an array of data, like array_map() but defined in classes, but at most it can do

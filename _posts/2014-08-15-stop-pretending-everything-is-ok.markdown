@@ -2,7 +2,7 @@
 layout: post
 title: Stop Pretending Everything Is OK
 category: personal
-permalink: blog/2014/08/stop-pretending-everything-is-ok
+redirect_from: /blog/2014/08/stop-pretending-everything-is-ok/
 excerpt: We work in an industry where far too many people pretend that everything
   is O.K. We pretend that sexism isn't rife. We pretend that startup failures are
   a "success" in some way. We ignore negative feedback and only publish success. We

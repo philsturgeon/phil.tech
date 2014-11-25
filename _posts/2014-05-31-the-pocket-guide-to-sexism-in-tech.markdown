@@ -2,7 +2,7 @@
 layout: post
 title: The Pocket Guide to Sexism in Tech
 category: 
-permalink: blog/2014/05/the-pocket-guide-to-sexism-in-tech
+redirect_from: /blog/2014/05/the-pocket-guide-to-sexism-in-tech/
 excerpt: I had somebody explain to me on Reddit that they just didn't believe there
   was a problem with sexism in tech. Just flat out said it is not a thing. I explained
   things I have seen and heard with my own eyes and ears in various jobs and events

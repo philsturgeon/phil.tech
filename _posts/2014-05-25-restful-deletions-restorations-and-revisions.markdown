@@ -2,7 +2,7 @@
 layout: post
 title: RESTful Deletions, Restorations and Revisions
 category: rest
-permalink: blog/2014/05/restful-deletions-restorations-and-revisions
+redirect_from: /blog/2014/05/restful-deletions-restorations-and-revisions/
 excerpt: A friend asked me for some advice on how to approach building article revisions
   and restoring deleted content from API in a RESTful way. With most things, it didn't
   fit on Twitter, so I promised him a blog. 

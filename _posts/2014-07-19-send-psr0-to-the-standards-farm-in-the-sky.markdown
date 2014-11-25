@@ -2,7 +2,7 @@
 layout: post
 title: Send PSR-0 to the Standards Farm in the Sky
 category: php
-permalink: blog/2014/07/send-psr0-to-the-standards-farm-in-the-sky
+redirect_from: /blog/2014/07/send-psr0-to-the-standards-farm-in-the-sky/
 excerpt: This article attempts to convince you that deprecating the PSR-0 auto-loading
   standard in favor of the PSR-4 auto-loading standard is not only a good idea, but
   a problemless wonderland of happy benefits, in the hope that when I try to get this

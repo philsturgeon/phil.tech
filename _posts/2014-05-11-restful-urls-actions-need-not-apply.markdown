@@ -2,7 +2,7 @@
 layout: post
 title: 'RESTful URLs: Actions Need Not Apply'
 category: rest
-permalink: blog/2014/05/restful-urls-actions-need-not-apply
+redirect_from: /blog/2014/05/restful-urls-actions-need-not-apply/
 excerpt: I was doing a little consulting for a company while I was out in South Africa
   and we played the game. You fire SOAP functionality at me, and I write down RESTful
   endpoints. Once or twice I found myself considering suggesting a dodgy unRESTful

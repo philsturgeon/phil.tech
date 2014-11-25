@@ -2,7 +2,7 @@
 layout: post
 title: The Neverending Muppet Debate of PHP 6 v PHP 7
 category: php
-permalink: blog/2014/07/neverending-muppet-debate-of-php-6-v-php-7
+redirect_from: /blog/2014/07/neverending-muppet-debate-of-php-6-v-php-7/
 excerpt: There are a few major, important conversations happening in the PHP internals
   mailing list as we speak... and then there is the discussion about calling the version
   that comes after PHP 5 either PHP 6 or PHP 7. Um?
