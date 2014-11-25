@@ -8,9 +8,9 @@ comments: 'true'
 image: /assets/article_images/2014-11-25-treehouse-standards-best-practices/camera.jpg
 ---
 
-A while ago [Treehouse] got in touch with me, and asked me if I would be interested in working with them. They wanted more PHP-related content, and they had heard I knew a thing or two about that.
+A while ago [Treehouse] got in touch with me, and asked me if I would be interested in working with them on a video course. They wanted more PHP-related content, and they had heard I knew a thing or two about that.
 
-We talked about a few options, and they were interested in PSRs, things like PHP The Right Way, etc, and we ended up settling on a course called: [Standards and Best Practices].
+We talked about a few options, and they were interested in PSRs, things like [PHP The Right Way], etc, and we ended up settling on a course called: [Standards and Best Practices].
 
 This is the outline:
 
@@ -34,7 +34,7 @@ It's not just for beginners either. My favorite stage in this course is "Creatin
 
 It shows you how to combine the basic knowledge of Composer and autoloading outlined in previous videos, to actually build your own components It even shows the very basics of unit-testing that component to promote TDD over hacking around trying to get that thing to show in the browser somehow. 
 
-![Somebody else will be ready to take that unit-testing knowledge a little further.](/assets/article_images/2014-11-25-treehouse-standards-best-practices/grumpy-gives-no-fks.gif)
+![Somebody else will expanding upon unit-testing a whole lot more in the future.](/assets/article_images/2014-11-25-treehouse-standards-best-practices/grumpy-gives-no-fks.gif)
 
 Now, I know its paid content and that's a bit of an bummer as a lot of beginners just can't afford it, but I do have a "50% off for a month" [sign-up link] here for you to use and share to people. 
 
