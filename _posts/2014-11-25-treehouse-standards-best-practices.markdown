@@ -34,9 +34,7 @@ It's not just for beginners either. My favorite stage in this course is "Creatin
 
 It shows you how to combine the basic knowledge of Composer and autoloading outlined in previous videos, to actually build your own components It even shows the very basics of unit-testing that component to promote TDD over hacking around trying to get that thing to show in the browser somehow. 
 
-<!-- A little birdy tells me that somebody else will be ready to take that unit-testing knowledge a little further. -->
-
-<!-- ![Somebody is in the Treehouse](/) -->
+![Somebody else will be ready to take that unit-testing knowledge a little further.](/assets/article_images/2014-11-25-treehouse-standards-best-practices/grumpy-gives-no-fks.gif)
 
 Now, I know its paid content and that's a bit of an bummer as a lot of beginners just can't afford it, but I do have a "50% off for a month" [sign-up link] here for you to use and share to people. 
 
