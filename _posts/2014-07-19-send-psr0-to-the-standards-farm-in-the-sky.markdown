@@ -48,6 +48,7 @@ That is only the "sample implementation" which the PHP-FIG consider to be only a
 PSR-4 fixed that.
 
 > With PSR-0, multiple classes actually map to the same file. For example, all of the following map to the same file (Foo/Bar/Baz.php): 
+>
 >  - \Foo\Bar\Baz
 >  - \Foo\Bar_Baz
 >  - \Foo_Bar_Baz
