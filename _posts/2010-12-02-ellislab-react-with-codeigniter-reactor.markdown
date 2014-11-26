@@ -13,7 +13,7 @@ comments: 'true'
 disqus_identifier: ellislab-react-with-codeigniter-reactor
 ---
 
-So it's been a month since my post " [CodeIgniter: What happens next?](/blog/2010/10/what-happens-next)" and things have changed drastically in the world of CodeIgniter. That post was regarded by some as me saying "I hate CodeIgniter, you suck" which could not have been further from the truth. The article was meant to express my concerns that CodeIgniter was not progressing, the downfalls that need to be addressed and a public "so it's a little boring right now, I'm going to give Fuel and Rails a try for fun". This was a badly written article that focused too much on the nagative points and acciddentally caused a shit-storm of tweets and responce posts. Oops!
+So it's been a month since my post " [CodeIgniter: What happens next?](/blog/2010/10/what-happens-next)" and things have changed drastically in the world of CodeIgniter. That post was regarded by some as me saying "I hate CodeIgniter, you suck" which could not have been further from the truth. The article was meant to express my concerns that CodeIgniter was not progressing, the downfalls that need to be addressed and a public "so it's a little boring right now, I'm going to give Fuel and Rails a try for fun". This was a badly written article that focused too much on the nagative points and accidentally caused a shit-storm of tweets and response posts. Oops!
 
 Since what some have referred to as "CodeIgniter-gate" EllisLab's have done a great job of listening to the points raised by me and other members of the community and in part I believe we have effected change. Two weeks later we had some interesting news from EllisLab about the planning of a " [Official CodeIgniter Community Branch](http://codeigniter.com/news/the_official_codeigniter_community_branch/)" where "CodeIgniter Deputies" (or Engineers as they are now called) would be appointed to manage community contributions. That was pretty awesome, but today we've had some even better news about the future of CodeIgniter. That is: The CodeIgniter Reactor!
 
@@ -21,7 +21,7 @@ Codeigniter at this point is splitting into two slightly different versions:
 
 #### CodeIgniter Core
 
-Commits to this branch will be managed entirely by EllisLab as CodeIgniter has been to date. It will be a slow-moving, heavily tested version that EllisLab will be using as a base for their commercial products ExpressionEngine and MojoMotor. Releases will be less often but it will be brilliant for running client systems or large-scale in-house projects which you need to be mission criticial and stable as hell because you KNOW it will work well.
+Commits to this branch will be managed entirely by EllisLab as CodeIgniter has been to date. It will be a slow-moving, heavily tested version that EllisLab will be using as a base for their commercial products ExpressionEngine and MojoMotor. Releases will be less often but it will be brilliant for running client systems or large-scale in-house projects which you need to be mission critical and stable as hell because you KNOW it will work well.
 
 #### CodeIgniter Reactor
 
@@ -37,7 +37,7 @@ Now I'm going to preempt a few of the comments on this post, based in part by so
 
 > Why are there two versions? This will confuse the community!
 
-Not at all, this is how open-source works. Let's look at Red Hat as an example. Red Hat is a stable commercial project that they sell and is the core product of their companty. Red Hat Fedora is the "leading edge" of their distribution, where they back-port features when they see fit. This works brilliantly for them, let's see if it works for the CodeIgniter community.
+Not at all, this is how open-source works. Let's look at Red Hat as an example. Red Hat is a stable commercial project that they sell and is the core product of their company. Red Hat Fedora is the "leading edge" of their distribution, where they back-port features when they see fit. This works brilliantly for them, let's see if it works for the CodeIgniter community.
 
 > This is just EllisLab being lazy and giving up on development
 

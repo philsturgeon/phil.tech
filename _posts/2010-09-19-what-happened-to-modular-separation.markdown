@@ -19,7 +19,7 @@ I've been supporting Modular Separation for several months in his absence keepin
 
 Now he is back to developing he has merged Modular Separation back into Modular Extensions taking the best from both. Modular Extensions adds HMVC aspects to your modules which means you can load controllers from other controllers which Modular Separation did not support. To continue using modules in the same way as in Modular Separation simply do not use or include the MX/Controller or extend from MX\_Controller, just use the old Controller in the same way.
 
-The [Modular Extensions](http://codeigniter.com/wiki/Modular_Extensions_-_HMVC/) wiki page should contain everything you need to know about installaiton. It is essentially a case of replacing MY\_Router and MY\_Loader with the new ME code, and if you want HMVC you need to start using MX\_Controller.
+The [Modular Extensions](http://codeigniter.com/wiki/Modular_Extensions_-_HMVC/) wiki page should contain everything you need to know about installation. It is essentially a case of replacing MY\_Router and MY\_Loader with the new ME code, and if you want HMVC you need to start using MX\_Controller.
 
 Enjoy.
 

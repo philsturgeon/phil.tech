@@ -6,7 +6,7 @@ permalink: blog/2012/05/composer-with-codeigniter
 excerpt: Composer is the best thing for PHP since sliced arrays and using it in your
   applications means you have easy access to a large selection of well written PHP
   packages that plug and play with any framework that supports PSR-0 namespacing.
-  This is BRILLIANT as it means less reliablity on the framework and framework-specific
+  This is BRILLIANT as it means less reliability on the framework and framework-specific
   code, and helps you get towards the goal of portable code where the framework is
   essentially just the wrapper. FuelPHP will support Composer packages out of the
   box as does Symfony2 and I hear Drupal are working it in too. This interoperability
@@ -16,7 +16,7 @@ comments: 'true'
 disqus_identifier: composer-with-codeigniter
 ---
 
-Composer is the [best thing for PHP since sliced arrays](/blog/2012/03/packages-the-way-forward-for-php) and using it in your applications means you have easy access to a large selection of well written PHP packages that plug and play with any framework that supports PSR-0 namespacing. This is BRILLIANT as it means less reliablity on the framework and framework-specific code, and helps you get towards the goal of portable code where the framework is essentially just the wrapper. FuelPHP 1.x works with an optional autoloader and 2.0 will support Composer packages out of the box as does Symfony2 and I hear Drupal are working it in too. This interoperability is brilliant, but how do you use it with CodeIgniter?
+Composer is the [best thing for PHP since sliced arrays](/blog/2012/03/packages-the-way-forward-for-php) and using it in your applications means you have easy access to a large selection of well written PHP packages that plug and play with any framework that supports PSR-0 namespacing. This is BRILLIANT as it means less reliability on the framework and framework-specific code, and helps you get towards the goal of portable code where the framework is essentially just the wrapper. FuelPHP 1.x works with an optional autoloader and 2.0 will support Composer packages out of the box as does Symfony2 and I hear Drupal are working it in too. This interoperability is brilliant, but how do you use it with CodeIgniter?
 
 People have suggested that [CodeIgniter 3.0](https://github.com/EllisLab/CodeIgniter) should be rewritten entirely around Composer and we make it PHP 5.3 only, but rewriting is a silly suggestion and PHP 5.3 still only has about 30% coverage on servers so that is not going to happen. Besides if CodeIgniter 3.0 became PHP 5.3 over night then either it would break everyones application because it changed so much, or change so little that it would not merit a PHP version bump.
 

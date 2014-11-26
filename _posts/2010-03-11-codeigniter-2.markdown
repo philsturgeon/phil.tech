@@ -21,7 +21,7 @@ The change of Version Control System to us (the general public) makes no real di
 
 The change to Mercurial would not be as interesting if it was not for the fact they were hosting the code on BitBucket, which is the Mercurial equivilent of GitHub. This is potentially the best piece of news in this entire article.
 
-By moving to a social-coding platform like this, CodeIgniter can face the same attention from the community that jQuery and CakePHP have recently recieved. jQuery 1.4 massively benefited by being moved to GitHub, as v1.4 was made up almost entirely of community patches and suggestions.
+By moving to a social-coding platform like this, CodeIgniter can face the same attention from the community that jQuery and CakePHP have recently received. jQuery 1.4 massively benefited by being moved to GitHub, as v1.4 was made up almost entirely of community patches and suggestions.
 
 Essentially, if you spot a bug then you can fork CodeIgniter and make the change. Then if they like it, it may well get added in. Win!
 

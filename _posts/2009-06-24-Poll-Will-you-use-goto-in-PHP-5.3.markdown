@@ -16,5 +16,5 @@ PHP 5.3 adds some great features such as lambda functions, namespaces and class 
 
 The question I wish to ask, is " [Will you use goto in your PHP when 5.3 is released?](http://twtpoll.com/e9pghw)". Click to vote in the [twtpoll](http://twtpoll.com/).
 
-Give me your throughts and feedback in the comments here or [tweet me](http://twitter.com/philsturgeon).
+Give me your thoughts and feedback in the comments here or [tweet me](http://twitter.com/philsturgeon).
 

@@ -5,7 +5,7 @@ category: php
 permalink: blog/2013/08/curlfile-and-the-facebook-sdk-in-php-55
 excerpt: The Facebook PHP SDK is currently broken if you're running PHP 5.5 and are
   trying to upload files. I've made a little pull request and explained what is happening,
-  primairily as a Google-catcher for anyone else having the same problem.
+  primarily as a Google-catcher for anyone else having the same problem.
 date: '2013-08-29 18:53:00'
 comments: 'true'
 disqus_identifier: curlfile-and-the-facebook-sdk-in-php-55

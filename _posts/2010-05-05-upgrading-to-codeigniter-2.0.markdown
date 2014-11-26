@@ -46,7 +46,7 @@ Now in CodeIgniter 2.0 you write:
 
 _ **Update 10/11/2010:** Remember to do this for Controllers too. Instead of Foo extends Controller, you must now write Foo extends CI\_Controller and all parent::Controller() calls must be changed to parent::\_\_construct()!_
 
-Let's not argue about why, what, who, where, when, the fact is you have to do this. It can be achieved with some simple Find & Replace over your folder if your IDE/Text editor will allow it. For most applications (especially ones built primarilry during the 1.7.x era) you are nearly there now. Unless you use plugins or the old Validation class...
+Let's not argue about why, what, who, where, when, the fact is you have to do this. It can be achieved with some simple Find & Replace over your folder if your IDE/Text editor will allow it. For most applications (especially ones built primarily during the 1.7.x era) you are nearly there now. Unless you use plugins or the old Validation class...
 
 ### Oh shit, I use plugins!
 
@@ -69,7 +69,7 @@ I had to change "a-z 0-9~%.:\_-" to "a-z 0-9~%.:\_-" in my application/config/co
 
 ### Modular Separation / Modular Extensions
 
-Out of the box Modular Separation won't work with CodeIgniter 2.0. Good thing I picked up the project and released a patch then huh? Grab the latest version in the 2.x branch from the [Modular Sepearation Wiki](http://codeigniter.com/wiki/Modular_Separation).
+Out of the box Modular Separation won't work with CodeIgniter 2.0. Good thing I picked up the project and released a patch then huh? Grab the latest version in the 2.x branch from the [Modular Separation Wiki](http://codeigniter.com/wiki/Modular_Separation).
 
 _Update 12/10/2010: Modular Separation has been merged back into Modular Extensions so they are now the same project. I wrote [a post explaining the merge](/blog/2010/09/what-happened-to-modular-separation) which details the differences and explains how to upgrade._
 
@@ -79,7 +79,7 @@ A new /system/core/ folder has been created for some libraries considered more c
 
 ### CI\_Language has a new name
 
-The core library CI\_Language has been renamed to CI\_Lang. For 80% of apps this will mean nothing at all. If you refference the library or extend it then you will of course need to rename this.
+The core library CI\_Language has been renamed to CI\_Lang. For 80% of apps this will mean nothing at all. If you reference the library or extend it then you will of course need to rename this.
 
 ### Deprecated DB methods removed
 

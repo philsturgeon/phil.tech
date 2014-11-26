@@ -22,7 +22,7 @@ Over the last year I have done so many things that scared the living shit out of
 
 My most recent attempt to get over things that scare me is public speaking. As a developer we all feel nice and safe behind our screens, usernames and avatars but getting up in front of an audience is a bitch. I have done it before once or twice (EECI2009 and CICON2010) but they were only small-stages and... well I did not feel they went well as I was so new at it. This turned me off accepting talk offers and I've been a little ashamed about it for a while, but now I am hitting this on the head and giving it a go.
 
-A month ago I spoke at [PHPNE](http://phpne.org.uk), giving an [Introduction to FuelPHP](http://phpne.org.uk/2011/10/10/phpne-october-an-introduction-to-fuel-php-by-phil-sturgeon/) and by all accounts I nailed it. People were ingaged, I spoke slowly and clearly for most of it, I didn't fall over my words or stare at the screen for the entire talk and people asked interesting questions.
+A month ago I spoke at [PHPNE](http://phpne.org.uk), giving an [Introduction to FuelPHP](http://phpne.org.uk/2011/10/10/phpne-october-an-introduction-to-fuel-php-by-phil-sturgeon/) and by all accounts I nailed it. People were engaged, I spoke slowly and clearly for most of it, I didn't fall over my words or stare at the screen for the entire talk and people asked interesting questions.
 
 <iframe allowfullscreen="" frameborder="0" height="366" src="http://player.vimeo.com/video/30805520?title=0&amp;byline=0&amp;portrait=0" webkitallowfullscreen="" width="552"></iframe>
 

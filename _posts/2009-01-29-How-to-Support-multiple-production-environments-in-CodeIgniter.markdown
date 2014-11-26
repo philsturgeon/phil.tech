@@ -41,4 +41,4 @@ That will match:
 - `http://qa.example.com/` = qa
 - `http://example.com/` = live
 
-Now you can base your config on `if (ENV == 'live')`. This is helpful for setting the `$active_group` in `database.php`, runing caching for live only, displaying profiler and debug data for local/dev only and plenty more.
+Now you can base your config on `if (ENV == 'live')`. This is helpful for setting the `$active_group` in `database.php`, running caching for live only, displaying profiler and debug data for local/dev only and plenty more.

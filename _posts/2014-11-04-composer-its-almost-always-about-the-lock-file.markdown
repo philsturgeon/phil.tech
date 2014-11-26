@@ -53,7 +53,7 @@ This means you can have a lock for your component, and it only affects those wor
 
 ## How Strict Is Too Strict?
 
-A component is supposed to work with a reasonable range of it's dependencies. For example, a component using Guzzle should be able to work with `4.0`, `4.1` or `4.2` without any confusion about wether it works. 
+A component is supposed to work with a reasonable range of it's dependencies. For example, a component using Guzzle should be able to work with `4.0`, `4.1` or `4.2` without any confusion about whether it works. 
 
 Now, if I commit a lock file and 4.2.0 happens to contain a breaking change - despite promising SemVer compliance, I'm going to start getting complaints from users that my package does not work with 4.2.0. If I'm traveling for a month thats going to be a right PITA. I wouldn't even know it fails because my component is specifically requiring `4.1.2` to run its tests on Travis-CI, as thats the last version that was out when my `composer.lock` was written to, and it would never have a chance to try and download `4.2.0`. Others depending on my package would get the newer version because their `$ composer install` is not looking deep enough into the folders to see my components `composer.lock` file, so they are ahead of my very strict requirements.
 
@@ -69,6 +69,6 @@ It is by no means unheard of for popular software projects to break backwards co
 
 I think committing your `composer.lock` file is _always_ an incredibly good idea for **applications**.
 
-But, I would think really hard about wether you want to be that specific for your components. Maybe you do want to really lock it down, and you like the idea of specifying the *exact* version of a dependency that your component is last known to work with. It could certainly make testing easier, reduces "works on my machine", and you could force people to send in the update as part of the PR. All of that said, for me, it is a level of strictness that I am not interested in for my components.
+But, I would think really hard about whether you want to be that specific for your components. Maybe you do want to really lock it down, and you like the idea of specifying the *exact* version of a dependency that your component is last known to work with. It could certainly make testing easier, reduces "works on my machine", and you could force people to send in the update as part of the PR. All of that said, for me, it is a level of strictness that I am not interested in for my components.
 
 Maybe that'll change for me over time. But for now, I'll keep the `.gitignore` entry for  `composer.lock` in my components.

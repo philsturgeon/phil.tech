@@ -81,7 +81,7 @@ I'm going to try and get PSR-0 deprecated, but first I have to complete a sub-qu
 
 ## Problem 2: Amendments
 
-We have a situation where PSR-1 depended on PSR-0, and if PSR-0 is ever deprecated or not, anyone who switched from PSR-0 to PSR-4 is suddently technically in violation of PSR-1.
+We have a situation where PSR-1 depended on PSR-0, and if PSR-0 is ever deprecated or not, anyone who switched from PSR-0 to PSR-4 is suddenly technically in violation of PSR-1.
 
 > - Namespaces and classes MUST follow [PSR-0].
 

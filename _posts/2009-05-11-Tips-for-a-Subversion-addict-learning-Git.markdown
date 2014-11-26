@@ -39,7 +39,7 @@ In Subversion seeing as you only have the one repo, all branches exist there and
 
 Git allows you to create a local branch, check it out, work on it and commit to it all offline without contacting the remote repo. Eg:
 
-    git branch ticket5git checkout ticket5git commit -a -m "Commiting changes"
+    git branch ticket5git checkout ticket5git commit -a -m "Committing changes"
 
 Then when you are done, you may send all of your commits to the remote branch in 'origin' using push again.
 

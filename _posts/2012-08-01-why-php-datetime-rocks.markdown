@@ -3,7 +3,7 @@ layout: post
 title: Why PHP DateTime Rocks
 category: php
 permalink: blog/2012/08/why-php-datetime-rocks
-excerpt: Working as a freelancer and contracter sometimes I come accross some code
+excerpt: Working as a freelancer and contractor sometimes I come across some code
   that is so terrible I have to laugh, then immediately tweet a screenshot for others
   to laugh. I think this is fairly healthy, but one reaction I get fairly often is
   "Yuck, PHP!". Really that should be "Yuck, PHP 4!" I've been using PHP since 4.0.1
@@ -15,7 +15,7 @@ comments: 'true'
 disqus_identifier: why-php-datetime-rocks
 ---
 
-Working as a freelancer and contracter sometimes I come accross some code that is so terrible I have to laugh, then immediately tweet a screenshot for others to laugh. I think this is fairly healthy, but one reaction I get fairly often is "Yuck, PHP!". Really that should be "Yuck, PHP 4!" I've been using PHP since 4.0.1 and I remember it well. It was terrible. Whenever I see these chunks of code I like to see how clean I can make them with PHP 5.3 + code and DateTime has saved me a lot of lines.
+Working as a freelancer and contractor sometimes I come across some code that is so terrible I have to laugh, then immediately tweet a screenshot for others to laugh. I think this is fairly healthy, but one reaction I get fairly often is "Yuck, PHP!". Really that should be "Yuck, PHP 4!" I've been using PHP since 4.0.1 and I remember it well. It was terrible. Whenever I see these chunks of code I like to see how clean I can make them with PHP 5.3 + code and DateTime has saved me a lot of lines.
 
 DateTime is nothing new, but it's definitely under-used by many. It was made available in PHP 5.2.0 but got some of its best features until PHP 5.3.0. PHP 5.3.0 is pretty old now, but I learned about <a href="http://uk.php.net/manual/en/datetime.createfromformat.php">DateFormat::createFromFormat()</a> after reading a new addition to [PHP The Right Way: Date and Time](http://www.phptherightway.com/#date_and_time).
 

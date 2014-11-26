@@ -23,7 +23,7 @@ I didn't really care when Twitter launched their site. I continued to not care f
 
 The whole world of media seems to think Twitter is the most amazing thing to happen since sliced bread. To me, it is just a mix of RSS, e-mail and instant messenger, the only difference: it is open and shorter. This does not mean it has changed the world (or even my life) and for God's sake I do not want 30% of my news intake to be saturated by constant pointless articles about it.
 
-The part that really sticks in my throat is that all is that articles are not just from teenage bloggers with nothing to write about. Many of these are from paid journalists working for companies such as like Time Magazine, Business Insider, Telegraph, CNN and plenty more. I really can't help but find it all completly ridiculous as there is so many more interesting things going on in the world wide web.
+The part that really sticks in my throat is that all is that articles are not just from teenage bloggers with nothing to write about. Many of these are from paid journalists working for companies such as like Time Magazine, Business Insider, Telegraph, CNN and plenty more. I really can't help but find it all completely ridiculous as there is so many more interesting things going on in the world wide web.
 
 I write this post in the hope that bloggers (both hobbyist and professional) out there will see it and perhaps realize how pathetic they are being. If you like Twitter, use it. If you don't then don't! Either way: well done, you have an opinion. Shut up writing about Twitter as it's old news now and nobody cares!
 

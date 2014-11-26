@@ -21,7 +21,7 @@ I am bored of CodeIgniters simplicity and fed up with how FuelPHP has made devel
 
 ### So which framework?
 
-There can be only one answer here and that is CakePHP. The main thing I love about this framework is that it _ **really** _makes you think long and hard about performance and caching. CodeIgniter is so lightweight that you end up getting lazy and pay no attention to the benchmarks. CakePHP has the heaviest base of any framework around, so what better way to make you focus on efficiency! I'll go back to those fun nights of trying to squeeze that last 5% of effeciency out of an application, but now instead of creating a massive CMS or a video encoding API, I can have those performance tuning nights on a basic brochure site. Winner!
+There can be only one answer here and that is CakePHP. The main thing I love about this framework is that it _ **really** _makes you think long and hard about performance and caching. CodeIgniter is so lightweight that you end up getting lazy and pay no attention to the benchmarks. CakePHP has the heaviest base of any framework around, so what better way to make you focus on efficiency! I'll go back to those fun nights of trying to squeeze that last 5% of efficiency out of an application, but now instead of creating a massive CMS or a video encoding API, I can have those performance tuning nights on a basic brochure site. Winner!
 
 Keep an eye out for developments and tutorials as I go along this path. It should be a blast.
 

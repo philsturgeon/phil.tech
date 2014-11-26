@@ -25,7 +25,7 @@ This library has an awesome featureset:
 - Meta-data
 - Layout files - wrapper around the loaded view
 - Themes
-- Partials - Give any nubmer of views a name and load them in the layout (sidebar, menu, extra footer, etc)
+- Partials - Give any number of views a name and load them in the layout (sidebar, menu, extra footer, etc)
 - Loading views in modules - supports [Modular Separation (PHP 5)](http://codeigniter.com/forums/viewthread/121820/) and any system that uses $this->router->fetch\_module().
 
 So that's lots of crazy stuff that to me has been very useful and should be for others too.

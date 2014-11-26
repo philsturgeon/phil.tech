@@ -123,6 +123,6 @@ Some require extensions but have some simple tutorials:
 * [VIM](http://joncairns.com/2012/03/vim-with-php-code-sniffer-mess-detector-and-code-coverage/)
 
 
-Wether you think coding standards are important or not, at some point in your career you are almost certainly going to be forced to use one. Some Lead Developers like me will use CodeSniffer to detect invalid formatting on the Continuous Integration server (Jenkins, Travis-CI, Bamboo, etc). Depending on how the thresholds for checkstyle warnings are configured, a developer placing too many brackets and new lines in the wrong place could mark the build as unstable, or even fail it.
+Whether you think coding standards are important or not, at some point in your career you are almost certainly going to be forced to use one. Some Lead Developers like me will use CodeSniffer to detect invalid formatting on the Continuous Integration server (Jenkins, Travis-CI, Bamboo, etc). Depending on how the thresholds for checkstyle warnings are configured, a developer placing too many brackets and new lines in the wrong place could mark the build as unstable, or even fail it.
 
 This might all sound petty, but some rules have extremely valid reasons. You put a new line at the end of the file? That could let whitespace sneak into the output, which will cause bugs in production. I figure it is better for your IDE/editor to shouts at you, rather than the whole dev team.

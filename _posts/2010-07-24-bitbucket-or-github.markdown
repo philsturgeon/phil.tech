@@ -4,14 +4,14 @@ title: BitBucket or GitHub? Use both!
 category: git
 permalink: blog/2010/07/bitbucket-or-github
 excerpt: 'Over the last few months I have seen several discussions by many developers
-  - especially in the CodeIgniter community - about wether or not to convert their
+  - especially in the CodeIgniter community - about whether or not to convert their
   GitHub repo''s over to BitBucket. I say: why not use both?'
 date: '2010-07-24 09:35:00'
 comments: 'true'
 disqus_identifier: bitbucket-or-github
 ---
 
-Over the last few months I have seen several discussions by several developers - especially in the CodeIgniter community - about wether or not to convert their [GitHub](http://github.com/) repo's over to [BitBucket](http://bitbucket.org/). I say: why not use both?
+Over the last few months I have seen several discussions by several developers - especially in the CodeIgniter community - about whether or not to convert their [GitHub](http://github.com/) repo's over to [BitBucket](http://bitbucket.org/). I say: why not use both?
 
 That may initially sound confusing and like a lot of hard work, but using the brilliant [Hg-Git](http://hg-git.github.com/ "Hg (Mercurial) and Git plugin") plugin from the GitHub developers it really has been made easy to do. Essentially the Hg-Git plugin allows Hg to talk to a Git repository like it was a Mercurial repo.
 

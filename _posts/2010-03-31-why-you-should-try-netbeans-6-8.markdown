@@ -35,7 +35,7 @@ There are a _huge _number of plugins for NetBeans which add plenty more than jus
 
 ### Subversion, Mercurial and Git
 
-Out of the box NetBeans has support for two of the most popular VCS systems in use. And CVS... This allows you to create new projects from repositorys, make commits, view changes and revert based on history. This was especially handy for me as [CodeIgniter 2.0](http://bitbucket.org/ellislab/codeigniter/) is now on Mercurial so not having to worry about finding a new client was a great help. I can of course use the command line, but if I don't have to bother that's more potential time at the pub.
+Out of the box NetBeans has support for two of the most popular VCS systems in use. And CVS... This allows you to create new projects from repositories, make commits, view changes and revert based on history. This was especially handy for me as [CodeIgniter 2.0](http://bitbucket.org/ellislab/codeigniter/) is now on Mercurial so not having to worry about finding a new client was a great help. I can of course use the command line, but if I don't have to bother that's more potential time at the pub.
 
 I was initially disappointed that it lacked support for Git but found that the plugin [nbgit](http://nbgit.org/) would add support to the same ![netbeans git push](/application/uploads/default/assets/cache/3_403_229_90.png)standard as the others. This strangely does not offer push support, but that can be added in with a "Custom action" on the Team > Git > Custom action > New... tree. Simply place a path to your git binary and pass "push" or push "origin master" as your arguments. Of course this doesn't replace the power of working with Git through the command line but it can be good for quick cheeky commits.
 
@@ -43,7 +43,7 @@ I was initially disappointed that it lacked support for Git but found that the p
 
 Ok so we know it can support all the crazy "new trends" like Rails and Git but how does it handle the baiscs like HTML and CSS?
 
-Once again the answer is "Really fucking well". When editing HTML it will suggest closing tags for you but it wont automatically shove them in unless you hit Enter. NetBeans will also auto-indent your HTML and prvovide validation for unknown tags, incorrect attributes and it can do all of this even if you are working on HTML in a .php file. It will sense what you are writing and react accordingly instead of simply "this is a PHP file, treat is as such".
+Once again the answer is "Really fucking well". When editing HTML it will suggest closing tags for you but it wont automatically shove them in unless you hit Enter. NetBeans will also auto-indent your HTML and provide validation for unknown tags, incorrect attributes and it can do all of this even if you are working on HTML in a .php file. It will sense what you are writing and react accordingly instead of simply "this is a PHP file, treat is as such".
 
 The support for CSS is just as good, possibly better. When writing properties are autocompleted, documentation for possible values shows up in tool-tips and it will validate incorrect values.
 

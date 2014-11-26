@@ -27,5 +27,5 @@ There are going to be more great speakers this year, including some attendees fr
 
 Also, I'll be giving a talk too. As with many conferences the exact talk details are yet to be finalised, but we all have very exciting topics in mind. In London we learned about unit testing in CI, API driven development, using ORMs (and why they aren't evil) and amongst other things we saw a few developers how you can use CI to speed up your workflow. This year will be similar, but you won't have to listen to as many British people (which I know can be hard work!).
 
-I have a few fun announcements to make, games to host and prizes to give awat, which is always a pleasure. If you aren't there you wil certainly be missing out.
+I have a few fun announcements to make, games to host and prizes to give away, which is always a pleasure. If you aren't there you will certainly be missing out.
 

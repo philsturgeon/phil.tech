@@ -29,5 +29,5 @@ a.) CodeIgniter is logged into MySQL with a different user who may not have the 
 
 b.) A condition is not being met in your model file or controller that is stopping the query from being run. Output values along the way.
 
-Debugging is a wonderful thing CodeIgniter fans, follow these steps and you'll solve any query issues you come accross.
+Debugging is a wonderful thing CodeIgniter fans, follow these steps and you'll solve any query issues you come across.
 

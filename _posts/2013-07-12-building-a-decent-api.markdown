@@ -33,7 +33,7 @@ I'm not going to link to any bad examples because that's just rude, but here are
 ### Resources are EVERYTHING
 
 1. You're always either asking for one resource, or multiple. If it's one, just return that data as an array. If you've asked for multiple, then return them in a plural parent element (such as "users").
-2. Two resources in different locations should look identical (your iPhone dev will love you for this). This could be `/me/friends` and `/users/5/friends`, or embeded data. 
+2. Two resources in different locations should look identical (your iPhone dev will love you for this). This could be `/me/friends` and `/users/5/friends`, or embedded data. 
 3. If I want multiple resources in one call, then give them to me. `/users/X,Y,Z` in a `"users"` array works nicely.
 4. If you ask for multiple and some results exist, shove that in a "users" array.
 5. If you ask for multiple but find none, then a 404 makes sense.

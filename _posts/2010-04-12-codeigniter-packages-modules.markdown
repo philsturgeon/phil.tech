@@ -28,7 +28,7 @@ The key differentiating feature is that modules are called by the URL.
 
 > http://example.com/module/controller/method
 
-All current modular systems extend the Router to pick up a module name from the URL and then use that to find the controller. They also extend the Loader to give the current module prefference when loading. So in your news controller if you write $this->load->model('news\_m'); it will first look in the current module, then the main application directory, then - if you are using them - Packages.
+All current modular systems extend the Router to pick up a module name from the URL and then use that to find the controller. They also extend the Loader to give the current module preference when loading. So in your news controller if you write $this->load->model('news\_m'); it will first look in the current module, then the main application directory, then - if you are using them - Packages.
 
 ### Packages
 
@@ -40,7 +40,7 @@ Packages in no way map to the URL but instead have to be loaded via:
 
 Doing this would allow several useful things:
 
-- Store models/libaries containing complex business logic in one place between various applications.
+- Store models/libraries containing complex business logic in one place between various applications.
 - Maintain one set of third-party stuff to stop having to constantly upgrade cURL, REST, Cache, Asset libraries, etc.
 - Allow users of an open-source system to drop in third-party libs without actually putting them in /application.
 
@@ -59,7 +59,7 @@ There is plenty of code out there that could make this very easy and If I was a 
 
 ### But I want modules!
 
-I don't know if anything has changed in the last few months, but at [EECI2009](http://eeci2009.com/) [Derek Allard](http://derekallard.com/ "Evil Robot Overlord") assured me that at some point, some form of HMVC would probably make it into the CodeIgniter codebase. Right now EE2 has a custom modular system and they have no need to mess with that. Until then we have Modular Sepration which is a very elegant and lightweight system compared to the older Modular Extensions or Matchbox.
+I don't know if anything has changed in the last few months, but at [EECI2009](http://eeci2009.com/) [Derek Allard](http://derekallard.com/ "Evil Robot Overlord") assured me that at some point, some form of HMVC would probably make it into the CodeIgniter codebase. Right now EE2 has a custom modular system and they have no need to mess with that. Until then we have Modular Separation which is a very elegant and lightweight system compared to the older Modular Extensions or Matchbox.
 
 ### Summary
 

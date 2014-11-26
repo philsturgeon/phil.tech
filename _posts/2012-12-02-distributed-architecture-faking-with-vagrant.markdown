@@ -88,7 +88,7 @@ So the default "attributes" for the "role" are set to whatever staging/productio
 
 ## MOAR CODE
 
-Sorry guys but this has been mostly theory. If you want to crack on and try this stuff our for yourself then I strongly recomend reading the [three part series by Jason Grimes][lampchef]. This has been my bible for the last month or two, and I cannot recommend it enough. Read it 65 times and keep it bookmarked. Then, you will know kung fu.
+Sorry guys but this has been mostly theory. If you want to crack on and try this stuff our for yourself then I strongly recommend reading the [three part series by Jason Grimes][lampchef]. This has been my bible for the last month or two, and I cannot recommend it enough. Read it 65 times and keep it bookmarked. Then, you will know kung fu.
 
 ### Further Reading
 

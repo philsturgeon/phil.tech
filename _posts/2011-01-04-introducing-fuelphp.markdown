@@ -5,7 +5,7 @@ category: fuelphp
 permalink: blog/2011/01/introducing-fuelphp
 excerpt: " \n\tFuelPHP has been in development for the last two months but the new
   PHP 5.3 framework is nearly ready to see the light of day. We're just about to roll
-  out the v1.0.0-beta1 and so far it is holiding up pretty well. Another PHP framework
+  out the v1.0.0-beta1 and so far it is holding up pretty well. Another PHP framework
   you say? Read this article and I'll try to explain why you should be excited about
   \"yet another framework\". "
 date: '2011-01-04 17:34:00'
@@ -99,7 +99,7 @@ FuelPHP contains a very simple, lightweight and powerful ActiveRecord/ORM implem
 
 Why do you have to add Model\_ at the start? Because models are in the /classes/model/ folder just the same as controllers and any other classes.
 
-#### Oil command line utiity
+#### Oil command line utility
 
 Oil is the name of the command line utility in Fuel. Unlike some other frameworks you do not, **ever** , have to use this. It is an optional utility that speeds up things like package installation, MVC code generation, runs tasks and various other things.
 
@@ -107,7 +107,7 @@ Oil is the name of the command line utility in Fuel. Unlike some other framework
 
 [![Fuel Robots](https://s3.amazonaws.com/philsturgeon-blog/Screen_shot_2011-01-04_at_18.38_.56_.png)](https://s3.amazonaws.com/philsturgeon-blog/Screen_shot_2011-01-04_at_18.38_.56_.png)So what can it do?
 
-Run [tasks](http://fuelphp.com/docs/general/tasks.html) which are similar to controllers but command line only. Controllers run on the command line too, but this is a more direct an "native" approach. Tasks are a neat way to create structured cron jobs that you don't want to be publicly accessable, or if you want to accept some basic input to your application over SSH. Why? Who knows, but you can!
+Run [tasks](http://fuelphp.com/docs/general/tasks.html) which are similar to controllers but command line only. Controllers run on the command line too, but this is a more direct an "native" approach. Tasks are a neat way to create structured cron jobs that you don't want to be publicly accessible, or if you want to accept some basic input to your application over SSH. Why? Who knows, but you can!
 
 One task included in the core you may well use a lot is Migrate.
 

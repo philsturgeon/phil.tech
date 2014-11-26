@@ -36,7 +36,7 @@ If I'm wandering around America taking photos, Tweeting and doing all sorts of o
 
 Why do something cool if you can't show it off? That seems to be the point of most new social media websites and it's a pretty valid motive. This is a little more cool than telling everybody you've gone for a run, had a coffee or... GONE TO WORK! \*shockedface\* </gowalladig>
 
-I've created a really simple embedable version so trips can be shared:
+I've created a really simple embeddable version so trips can be shared:
 
 <iframe border="0" height="500" src="http://travlrapp.com/philsturgeon/usa-canada-2011?mode=embed" width="860"></iframe>
 
@@ -44,7 +44,7 @@ See the full version  [here](http://travlrapp.com/philsturgeon/usa-canada-2011)
 
 ### What's next?
 
-I have a whole bunch of evil plans for TravlrApp. I want to do a lot of work with Places and Checkins, but of course creating an API-agnostic abstraction layer for all the different "Places" data is a bitch. I have a plan, but it's going to take some time. I also have some pretty sweet ideas for "collision detection" of friends and some plans for monetisation and really useful, unobtrusive targeted advertisment. "You're staying here for 4 nights but you haven't booked any accomodaiton, would you like to stay here with a 20% off discount?" Bam! Everyone is happy.
+I have a whole bunch of evil plans for TravlrApp. I want to do a lot of work with Places and Checkins, but of course creating an API-agnostic abstraction layer for all the different "Places" data is a bitch. I have a plan, but it's going to take some time. I also have some pretty sweet ideas for "collision detection" of friends and some plans for monetisation and really useful, unobtrusive targeted advertisement. "You're staying here for 4 nights but you haven't booked any accommodation, would you like to stay here with a 20% off discount?" Bam! Everyone is happy.
 
 These will all be part of Phase 2, right now Phase 1 is out there and available to anyone who gets an invite.
 
