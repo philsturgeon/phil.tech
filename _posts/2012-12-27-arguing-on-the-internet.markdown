@@ -14,7 +14,7 @@ comments: 'true'
 disqus_identifier: arguing-on-the-internet
 ---
 
-<a href="http://xkcd.com/386/" taget="_blank"><img src="http://imgs.xkcd.com/comics/duty_calls.png" alt="Credit XKCD: Duty Calls" style="float:right; margin: 0 0 10px 10px" /></a>I have referenced Shawn McCool's blog a few times, "[Why CodeIgniter is Dead](http://heybigname.com/2012/05/06/why-codeigniter-is-dead/)" and people are wondering why I argued so hard against it back in May but then gave CodeIgniter such a hard time in my [last article](/blog/2012/12/5-things-codeigniter-cannot-do-without-a-rewrite). For the record I'm not team CodeIgniter or team Laravel, I'm a PHP user who has some opinions, and some of those opinions change over time - which is fair enough. 
+<a href="http://xkcd.com/386/" target="_blank"><img src="http://imgs.xkcd.com/comics/duty_calls.png" alt="Credit XKCD: Duty Calls" style="float:right; margin: 0 0 10px 10px" /></a>I have referenced Shawn McCool's blog a few times, "[Why CodeIgniter is Dead](http://heybigname.com/2012/05/06/why-codeigniter-is-dead/)" and people are wondering why I argued so hard against it back in May but then gave CodeIgniter such a hard time in my [last article](/blog/2012/12/5-things-codeigniter-cannot-do-without-a-rewrite). For the record I'm not team CodeIgniter or team Laravel, I'm a PHP user who has some opinions, and some of those opinions change over time - which is fair enough. 
 
 My opinions aside, his original article was wrong on a few points, so let's discuss those.
 

@@ -40,7 +40,7 @@ Some have slightly different features and got to various different stages, but a
 
 I've been using Fizl for the [PyroCMS Documentation][pyrodocs] as flat-files allow documentation to be distributed with ease, but Jekyll was out of the question as it needed to share most of the requirements as PyroCMS itself - therefore requiring PHP so folks could run it locally. 
 
-In both situations this is done so the content is easily accessable, can be modified via Git and skips the need for a database. This all makes sense so far.
+In both situations this is done so the content is easily accessible, can be modified via Git and skips the need for a database. This all makes sense so far.
 
 ## New kids on the block
 

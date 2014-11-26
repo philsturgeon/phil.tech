@@ -75,7 +75,7 @@ Cash-flow for me was the biggest problem. In Santa Fe, New Mexico one card was o
 
 It would be bad enough if that was the only problem I had, but it was one of many. It doesn't matter what you tell the bank - they will decline your shit for no reason. I told HSBC I was planning to travel all over the States for 4 months, which is specifically why I wanted an account with them. The account manager put notes on my personal and business accounts and said it would be fine, but that didn't stop them flagging and declining my cards at random every few weeks. The real solution here is to get a Pre-Paid Credit Card which will work in the States and can be topped up from back home or online. This should save a lot of the hassles.
 
-Failing that just take as many cards as you can. Splitting your money over different cards (I had 3 - two Visas and a Mastercard) and it meant that at least one of my cards would always be active. Wether it had money or not.... that's a different story!
+Failing that just take as many cards as you can. Splitting your money over different cards (I had 3 - two Visas and a Mastercard) and it meant that at least one of my cards would always be active. Whether it had money or not.... that's a different story!
 
 Of course a blog article from Phil Sturgeon wouldn't be the same without a complaint about PayPal:
 

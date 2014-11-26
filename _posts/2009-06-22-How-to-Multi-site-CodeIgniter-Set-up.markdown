@@ -4,20 +4,20 @@ title: 'How to: Multi-site CodeIgniter Set-up'
 category: codeigniter
 permalink: blog/2009/06/How-to-Multi-site-CodeIgniter-Set-up
 excerpt: 'A few people have asked me recently about setting up CodeIgniter to run
-  accross multiple domains based on the same codebase, so here are a few tips on how
+  across multiple domains based on the same codebase, so here are a few tips on how
   to get this working on your CodeIgniter set-up. '
 date: '2009-06-22 21:35:00'
 comments: 'true'
 disqus_identifier: How-to-Multi-site-CodeIgniter-Set-up
 ---
 
-A few people have asked me recently about setting up CodeIgniter to run accross multiple domains based on the same codebase. This can be handy for sites than run different databases for different geographical areas, all of which need the same code but different content.
+A few people have asked me recently about setting up CodeIgniter to run across multiple domains based on the same codebase. This can be handy for sites than run different databases for different geographical areas, all of which need the same code but different content.
 
 To get this working I took a little code from [PyroCMS](http://pyrocms.com/) and modded a previous article " [How to: Support multiple production environments in CodeIgniter](news/2009/01/How-to-Support-multiple-production-environments-in-CodeIgniter.html)" and found a relatively simple solution.
 
 ### Setting the base URL
 
-The first step of getting CodeIgniter working anywhere automatically is curing it of it's most pointless configuration setting. It seems CodeIgniter would like to be told where it is, which really doesn't need to happen. We could solve this in many ways, but instead of extending or replacing any core code, I would preffer to put a little snippet of code into the main application/config/config.php. Enter this code into the file and it will automatically support pretty much any kind of URL.
+The first step of getting CodeIgniter working anywhere automatically is curing it of it's most pointless configuration setting. It seems CodeIgniter would like to be told where it is, which really doesn't need to happen. We could solve this in many ways, but instead of extending or replacing any core code, I would prefer to put a little snippet of code into the main application/config/config.php. Enter this code into the file and it will automatically support pretty much any kind of URL.
 
     <?php if (!defined('BASEPATH')) exit('No direct script access allowed');/*|--------------------------------------------------------------------------| Base Site URL|--------------------------------------------------------------------------|| URL to your CodeIgniter root. Typically this will be your base URL,| WITH a trailing slash:|| http://www.your-site.com/|*/if(isset($_SERVER['HTTP_HOST'])){    $config['base_url'] = isset($_SERVER['HTTPS']) && strtolower($_SERVER['HTTPS']) == 'on' ? 'https' : 'http';    $config['base_url'] .= '://'. $_SERVER['HTTP_HOST'];    $config['base_url'] .= str_replace(basename($_SERVER['SCRIPT_NAME']), '', $_SERVER['SCRIPT_NAME']);}else{    $config['base_url'] = 'http://localhost/';}
 
@@ -35,5 +35,5 @@ Now that CodeIgniter has its links working and it knows what site it is trying t
 
 The little snippet of code at the bottom will check to see if the SITE constant you have set matches up with a database group. If it doesn't, it will use the default configuration group.
 
-Your CodeIgniter set-up should now work with any domain you happen to point to it. You even run simple little if(SITE == 'example2') checks anywhere within your code to do special code for a certian site, although I would not reccomend you doing this too heavily.
+Your CodeIgniter set-up should now work with any domain you happen to point to it. You even run simple little if(SITE == 'example2') checks anywhere within your code to do special code for a certian site, although I would not recommend you doing this too heavily.
 

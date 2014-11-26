@@ -3,7 +3,7 @@ layout: post
 title: Deploying websites with Git
 category: git
 permalink: blog/2010/02/Deploying-websites-with-Git
-excerpt: Use Git to deploy your web applications without having to faff with FTP syncronisation
+excerpt: Use Git to deploy your web applications without having to faff with FTP synchronisation
   or manually working out which files need to be uploaded.
 date: '2010-02-23 14:59:00'
 comments: 'true'
@@ -18,7 +18,7 @@ You either need to use your VCS ( [Subversion](http://subversion.apache.org/ "Ap
 
 Another option is re-uploading your entire site through FTP which is even more annoying, if not potentially dangerous to live servers as it can destroy file permissions, remove user-uploaded content, confuse cache systems and show programming errors throughout the site as files are deleted and replaced by the FTP client.
 
-FTP clients tried making this easier for us by adding Syncronize features but they just compare dates so they are as useful as a chocolate teapot if you are trying to do careful deployments.
+FTP clients tried making this easier for us by adding Synchronize features but they just compare dates so they are as useful as a chocolate teapot if you are trying to do careful deployments.
 
 We clearly need another option, and thats where VCS deployments come in. In this case, Git.
 
@@ -70,11 +70,11 @@ And then when you have tested these changes had no screwy effects on your testin
 
 That means any time you make a change, you can commit it, push it back to the main codebase (GitHub, CodeBaseHQ, etc) then push it to the correct server(s). Sorted!
 
-_ **Update:** After posting it came to my attention that directly pushing to a repository like this appears to work from the push end, but it wont actually update the files on the live server. To get this to happen you need to create a post-recieve hook._
+_ **Update:** After posting it came to my attention that directly pushing to a repository like this appears to work from the push end, but it wont actually update the files on the live server. To get this to happen you need to create a post-receive hook._
 
     $ ssh user@example.com$ cd /home/example/public_html$ vim .git/hooks/post-receive
 
-The only thing in my post-recieve hook was the default example, so I deleted it and added this:
+The only thing in my post-receive hook was the default example, so I deleted it and added this:
 
 > #!/bin/sh  
 >    
@@ -90,7 +90,7 @@ That's the hook completed.
 
 ### Summary
 
-The posibilities with Git are insane. These are two very useful ways to deploy your websites and i'm sure there are other methods. If you have an even better way to get your code from local, through testing and then to live with minumum fuss, please let me know!
+The posibilities with Git are insane. These are two very useful ways to deploy your websites and i'm sure there are other methods. If you have an even better way to get your code from local, through testing and then to live with minimum fuss, please let me know!
 
 _ **Note:** This article assumes you have [SSH keys set up](http://help.github.com/key-setup-redirect "Generating SSH Keys"). You will need too add your local SSH public key to the Git repository server and add your live servers SSH key to the Git repository server for the live server to contact it. If you wish to deploy directly from local to live, then you can add your local SSH key to the live server but most servers by default will just ask for your user password._
 

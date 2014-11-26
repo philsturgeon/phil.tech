@@ -120,7 +120,7 @@ Really, look up the votes for recent RFC's and see who said "nay" on Getter/Sett
 
 ## The Bigger Point
 
-I know in my heart that democracy is mostly a good idea, in the same way that communism started off as a really good idea, but when you have a large number of people making decisions that don't really give a fuck then the people really are not being represented as they should. How often has Rasmus said he prefers proceedural code over OOP? Of course plenty of people are voting against drastic improvements to the OOP functionality of PHP, because the core devs [can't even decide](http://news.php.net/php.internals/64770) if PHP is going to be OOP, functional, or whatever!
+I know in my heart that democracy is mostly a good idea, in the same way that communism started off as a really good idea, but when you have a large number of people making decisions that don't really give a fuck then the people really are not being represented as they should. How often has Rasmus said he prefers procedural code over OOP? Of course plenty of people are voting against drastic improvements to the OOP functionality of PHP, because the core devs [can't even decide](http://news.php.net/php.internals/64770) if PHP is going to be OOP, functional, or whatever!
 
 ## Another Point
 

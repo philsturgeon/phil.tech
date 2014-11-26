@@ -12,13 +12,13 @@ comments: 'true'
 disqus_identifier: How-to-Install-Transmission-CLI-to-Ubuntu-Server
 ---
 
-I made this guide as I had a little trouble finding all the correct informaiton required to get this set up. Some of it was scattered around the Transmission Wiki, some on random blogs and some was just missing. This guide will help compile everything into one place to hopefully save some of you a little time.
+I made this guide as I had a little trouble finding all the correct information required to get this set up. Some of it was scattered around the Transmission Wiki, some on random blogs and some was just missing. This guide will help compile everything into one place to hopefully save some of you a little time.
 
-The repositries we will be using are unofficial repositries maintained by "kas". The original post can be found [here](http://forum.transmissionbt.com/viewtopic.php?f=13&t=5604). This needs to be done so we can get the newest stable version of Transmission, as the newest version you can get from the Ubuntu Server 8.10 default list of repositries is 1.32 and sadly that version is no longer supported by the Transmission team.
+The repositories we will be using are unofficial repositories maintained by "kas". The original post can be found [here](http://forum.transmissionbt.com/viewtopic.php?f=13&t=5604). This needs to be done so we can get the newest stable version of Transmission, as the newest version you can get from the Ubuntu Server 8.10 default list of repositries is 1.32 and sadly that version is no longer supported by the Transmission team.
 
 ### Main setup
 
-Adding the Unofficial Transmission repositry
+Adding the Unofficial Transmission repository
 
 {% highlight console %}
 $ sudo vim /etc/apt/sources.list
@@ -62,7 +62,7 @@ After the scrolling madness you should be able to spot the following:
 
 This means you have the newest version (at time of writing this guide) so things are going correctly so far.
 
-Now, lets start setting it up. The Transmission developers reccomend we run transmission with it's own user for various security reasons, this also means we can put transmission configuration into its own home directory.
+Now, lets start setting it up. The Transmission developers recommend we run transmission with it's own user for various security reasons, this also means we can put transmission configuration into its own home directory.
 
 {% highlight console %}
 $ sudo adduser --disabled-password transmission
@@ -75,7 +75,7 @@ To create the settings file, we can start the daemon and tell it where to put th
 $ transmission-daemon -g /home/transmission/.config/transmission-daemon -f
 {% endhighlight %}
 
-When you have canceled this process you will see it says - amoungst other things - the following text:
+When you have canceled this process you will see it says - amongst other things - the following text:
 
 > Saved "/home/transmission/.config/transmission-daemon/settings.json
 

@@ -34,5 +34,5 @@ Modular Separation will match a result in the main config/routes.php file, then 
 
 I am not suggestion you drop Matchbox right now, I have no idea where is going and I may some day switch back. Right now however, I will be using Modular Separation and suggest you give it a try if you are starting a new project.
 
-<small>* Confusingly, Matchbox used to be called Modular Sepration a year or two back, so be careful when looking around the web for details. The forum thread to look for help on the new Modular Separation (PHP 5) by wiredesignz is <a href="http://codeigniter.com/forums/viewthread/121820/">this one</a>.</small>
+<small>* Confusingly, Matchbox used to be called Modular Separation a year or two back, so be careful when looking around the web for details. The forum thread to look for help on the new Modular Separation (PHP 5) by wiredesignz is <a href="http://codeigniter.com/forums/viewthread/121820/">this one</a>.</small>
 

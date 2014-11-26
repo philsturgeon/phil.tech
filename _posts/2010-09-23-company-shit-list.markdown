@@ -28,7 +28,7 @@ I had to shout quite a bit at Joel Apple Finance and some guy in the Barclays Un
 
 This company is a fucking joke on so many levels.
 
-This week was a ridiculous problem with me trying to find out what settings I would need to set up my router after a reset. Are they using DHCP? PPPoE? PPPoV? Who knows, so I phoned up. I had 4 people try to explain to me that I needed to set up Wi-Fi to get it working. Bare in mind I am using a Linux server hardwired into my router 5 meters away, and this was working perfectly before ![far side MidvaleSchoolForTheGifted](/application/uploads/default/assets/cache/8_246_355_90.jpg) I reset the router to factory default. I gave in and let them talk me through the WiFi setup, then when that magically didnt work they decided that I needed a new router. RETARDED!
+This week was a ridiculous problem with me trying to find out what settings I would need to set up my router after a reset. Are they using DHCP? PPPoE? PPPoV? Who knows, so I phoned up. I had 4 people try to explain to me that I needed to set up Wi-Fi to get it working. Bare in mind I am using a Linux server hardwired into my router 5 meters away, and this was working perfectly before ![far side MidvaleSchoolForTheGifted](/application/uploads/default/assets/cache/8_246_355_90.jpg) I reset the router to factory default. I gave in and let them talk me through the WiFi setup, then when that magically didn't work they decided that I needed a new router. RETARDED!
 
 Their worst offense was about a year ago. I switched from BT to Virgin and had to wait 8 weeks while they did some construction work to get a cable to my door. Fair enough, I can wait 8 weeks. The problem was the company that handled the construction just pretended to do the work and didn't actually bother. Virgin had to apply for planning permission: another 8 week wait. Repeat this process 3 or 4 times and I ended up waiting SIX MONTHS for internet. As a web developer, having the internet is slightly more than fucking convenient, good work guys.
 
@@ -36,7 +36,7 @@ A very similar problem has left me with the wrong home phone number for 4 months
 
 ### The winner: PayPal
 
-This company has caused me so much stress recently It wins the Official "Sturgeons Shitiest Company" award.
+This company has caused me so much stress recently It wins the Official "Sturgeons Shittiest Company" award.
 
 LONG story short, I sold an iPhone 3G on eBay. The money was instantly sent to my PayPal account but got frozen before I could withdraw it. PayPal said buyer might have been using a stolen credit card, but assured me because I had a tracking number I was covered with PayPal Seller Protection, meaning either way I would get my money.
 

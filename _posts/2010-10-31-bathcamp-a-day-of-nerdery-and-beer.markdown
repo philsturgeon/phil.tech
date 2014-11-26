@@ -24,7 +24,7 @@ BathCamp generally encourages everyone to give a talk but I've had no time to pr
 <param name="allowscriptaccess" value="always">
 <embed allowfullscreen="true" allowscriptaccess="always" height="469" src="http://www.youtube.com/v/RzOvUd8QWU0?fs=1&amp;hl=en_US" type="application/x-shockwave-flash" width="585"></embed></object>
 
-One of my favourite talks was from a new Bath local: [Jack Fracklin](http://twitter.com/jack_franklin). He gave a talk on jQuery which lead me to learn a new phrase: "slideshow rape". HA! Some genius (not me as he first thought) made a very subtle change in one of his expamples from "some title" to say "some tits", which really knocked the otherwise confident little bugger for six.
+One of my favourite talks was from a new Bath local: [Jack Fracklin](http://twitter.com/jack_franklin). He gave a talk on jQuery which lead me to learn a new phrase: "slideshow rape". HA! Some genius (not me as he first thought) made a very subtle change in one of his examples from "some title" to say "some tits", which really knocked the otherwise confident little bugger for six.
 
 Elliott Kember was chased by a flying iPhone controlled robot, so much Pizza was eaten that Bath is still suffering a pizza shortage, sugar-filled vitamin water was consumed in such large quantity that I think most of us are now diabetic and I ended up pissed as a fart as usual.
 

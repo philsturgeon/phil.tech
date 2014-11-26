@@ -32,7 +32,7 @@ Great! So we can have our main application and other little packages can be inst
 
 It's a good question. This all sounds like a lot of extra work but if like me you are working on 5 different applications at any one time you might have started to notice something:
 
-In each project you work on your are probably creating libraries or packages that can be used in multiple places. For example I recently built the [oauth2](https://github.com/philsturgeon/codeigniter-oauth2) package which I was using in two diferent applications. These were totally different applications for different clients on different servers and there was no way I could get away with symlinking, sharing folder structures, etc and I noticed that if i fixed a bug in one location I would have to copy it over to the other application. If I had 10 projects using the oauth2 package that would be a LOT of copying and pasting with huge potential for pooching the system.
+In each project you work on your are probably creating libraries or packages that can be used in multiple places. For example I recently built the [oauth2](https://github.com/philsturgeon/codeigniter-oauth2) package which I was using in two different applications. These were totally different applications for different clients on different servers and there was no way I could get away with symlinking, sharing folder structures, etc and I noticed that if i fixed a bug in one location I would have to copy it over to the other application. If I had 10 projects using the oauth2 package that would be a LOT of copying and pasting with huge potential for pooching the system.
 
 Even if you are not in a situation where you need to copy between applications, you want to release your code to the world without having to copy it to a special "oauth2" folder which just contains those specific files. This is how I was releasing code for years: copy and paste. Bah!
 
@@ -69,7 +69,7 @@ The first command will initialize any submodules listed in the .gitmodule file t
 
 ### Committing fixes in your submodules
 
-While developing an application with a submodule you are no doubt adding new stuff as you go. Wether this is fixing bugs or adding new features you're application is the best place to add these new features to your package because you can see when things are working.
+While developing an application with a submodule you are no doubt adding new stuff as you go. Whether this is fixing bugs or adding new features you're application is the best place to add these new features to your package because you can see when things are working.
 
 If you have made some changes in your submodule you will notice that git status shows you this:
 

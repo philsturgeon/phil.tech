@@ -20,9 +20,9 @@ A killer feature of CloudIgniter is their one-click installs of CodeIgniter base
 - [PyroCMS](http://pyrocms.com/) - The modular open-source CodeIgniter CMS
 - [MyClientBase](http://www.myclientbase.com/) - Free and Open Source Invoice Management
 
-All of the CodeIgniter specific stuff aside, CloudIgniter is an impressive hosting service in it's own right with the ability to easily Clone/Disable/Edit Domains, standard SSH acess, FTP, daily backups and automaticly set up Google Apps MX records for your domains. Each site will have a database set up and everything is configured for you.
+All of the CodeIgniter specific stuff aside, CloudIgniter is an impressive hosting service in it's own right with the ability to easily Clone/Disable/Edit Domains, standard SSH access, FTP, daily backups and automaticly set up Google Apps MX records for your domains. Each site will have a database set up and everything is configured for you.
 
-CloudIgniter really makes the entire process as easy as possible and wether you are a new CodeIgniter user or a professional it will make deploying your sites much easier.
+CloudIgniter really makes the entire process as easy as possible and whether you are a new CodeIgniter user or a professional it will make deploying your sites much easier.
 
 There are a few hidden gems too, such as the ability to [deploy your site with Git](/blog/2010/02/Deploying-websites-with-Git) thanks to Git being installed on the server. Another fantastic feature is that it comes with a pre-built .htaccess file meaning you can get CodeIgniter running without index.php in your URL's with minimum fuss. As somebody who is pretty active on the CodeIgniter forums and StackOverflow you would be amazed (or depressed) at how many issues people have with mod\_rewrite or using the wrong $config['uri\_protocol']. With CloudIgniter you know right from the word "go" you will have a compatible, working setup.
 

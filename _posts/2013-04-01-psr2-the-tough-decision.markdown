@@ -18,7 +18,7 @@ disqus_identifier: psr2-the-tough-decision
 
 Due to an overwhelming surge of complaints about the use of spaces for indentation instead of tabs in PSR-2, the [PHP-FIG](http://www.php-fig.org) has had no choice but to reverse this decision. 
 
-This change of course comes at a cost. It means that every single PSR-2 supporting package will need to be updated if it wishes to maintain PSR-2 compatability. It also means recoding the PHP-CS logic, and CS-Fixer along with that. Changing the website will take a while and educating the community will cause problems, and even though there are no technical benefits to be found in the change, the gains are clear:
+This change of course comes at a cost. It means that every single PSR-2 supporting package will need to be updated if it wishes to maintain PSR-2 compatibility. It also means recoding the PHP-CS logic, and CS-Fixer along with that. Changing the website will take a while and educating the community will cause problems, and even though there are no technical benefits to be found in the change, the gains are clear:
 
 _Now some of you will no longer have to change the default setting in your IDE's/editors from "Tabs" to "Spaces"._
 

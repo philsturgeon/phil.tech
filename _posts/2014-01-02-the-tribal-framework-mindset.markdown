@@ -56,9 +56,9 @@ An example I often use of a framework agnostic package is [Sentry](https://githu
 
 ## Developers
 
-Something that gets my back up is when developers brand themselves as "Laravel Developers" or "CakePHP Developers" instead of "PHP Developers". I have tried suggesting to people that "Web Developer" was a better term, but the more CLI, API and parallel work I do the less I feel like that term applies. "Software Developer" or "Software Engineer" fits like a glove, but regardless of wether you want to go that far: You are not purely a Laravel Developer!
+Something that gets my back up is when developers brand themselves as "Laravel Developers" or "CakePHP Developers" instead of "PHP Developers". I have tried suggesting to people that "Web Developer" was a better term, but the more CLI, API and parallel work I do the less I feel like that term applies. "Software Developer" or "Software Engineer" fits like a glove, but regardless of whether you want to go that far: You are not purely a Laravel Developer!
 
-Doing this you are saying to the world: "I only know FrameworkX." Like the JavaScipt developers who only know jQuery, and are therefore probably useless with AngularJS or Backbone. 
+Doing this you are saying to the world: "I only know FrameworkX." Like the JavaScript developers who only know jQuery, and are therefore probably useless with AngularJS or Backbone. 
 
 By picking only one framework to represent your skills you make yourself less appealing to those who assume you don't have transferable skills. Sure they're wrong, but you just lost out on a potential job offer. After-all, if you are a good enough PHP developer to easily use any framework, why are you listing yourself so specifically with one specific framework? You are a PHP developer who specializes in Laravel, not a Laravel developer.
 

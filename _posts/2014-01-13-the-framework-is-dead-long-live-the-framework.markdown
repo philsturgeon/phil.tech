@@ -175,7 +175,7 @@ They are however moving away from being heavy, bloated omnishamble ZIP files tha
 
 ## Polarization is misleading
 
-Generally speaking, it's impossible to be so polar about whether a "framework" is "good" or "bad". You can't say wether you need one or not, because there are a lot of factors.
+Generally speaking, it's impossible to be so polar about whether a "framework" is "good" or "bad". You can't say whether you need one or not, because there are a lot of factors.
 
 1. Literally every single PHP framework out there has a different definition of what a framework is
 1. What "framework" means is to you is different than what it means to me

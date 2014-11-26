@@ -17,9 +17,9 @@ There are many suggested ways to handle your assets (CSS, images, JavaScript, et
 
 This method works fine if your application will only EVER exist in the web root. If that works for you, fine, no need to read on.
 
-Those that need their assets to be found wherever their CodeIgniter application happens to sit (root, sub-directory, sub-domain) can use libraries, helpers or add base\_url() in front of all refferences to an asset. This does work but seems a bit overkill for something that can be handled with HTML.
+Those that need their assets to be found wherever their CodeIgniter application happens to sit (root, sub-directory, sub-domain) can use libraries, helpers or add base\_url() in front of all references to an asset. This does work but seems a bit overkill for something that can be handled with HTML.
 
-My new evil scheme? Use the lesser-known HTML tag <base> to get all of our links and refferences working perfectly. This should go into the <head> of your document.
+My new evil scheme? Use the lesser-known HTML tag <base> to get all of our links and references working perfectly. This should go into the <head> of your document.
 
 `<base href="<?=base_url();?>">`
 

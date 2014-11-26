@@ -5,7 +5,7 @@ category: php
 permalink: blog/2012/10/cloud-hosting-php-pipe-dream
 excerpt: This time last year I was extremely excited about the future of Heroku-style
   PHP hosting services (or PaaS), which would allow developers to quickly and easily
-  set up small hosting environmemnts that grow and scale horizontally and vertically
+  set up small hosting environments that grow and scale horizontally and vertically
   to allow ridiculous levels of traffic. I was so excited I posted an article saying
   2012 would be the year for PHP to move to the cloud. This is an account of why after
   a year it still sucks.
@@ -141,7 +141,7 @@ I looked into this and know a few people running PHP happily on [Heroku](https:/
 
 ### AWS Elastic Beanstalk
 
-[Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/) is essentially Pagoda Box but with WAY more flexibility, but that flexibility of course comes with a loss of simiplicity. It is also 5x the cost and really not meant for hosting a little blog. The process is essentially the same as the initial EC2 + Chef process I described above. It looses the advantages of "adding users" easily like this other GitHubescque systems do and of course it is in BETA itself.
+[Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/) is essentially Pagoda Box but with WAY more flexibility, but that flexibility of course comes with a loss of simplicity. It is also 5x the cost and really not meant for hosting a little blog. The process is essentially the same as the initial EC2 + Chef process I described above. It looses the advantages of "adding users" easily like this other GitHubescque systems do and of course it is in BETA itself.
 
 ## Next?
 

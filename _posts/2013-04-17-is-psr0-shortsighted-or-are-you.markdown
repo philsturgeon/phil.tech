@@ -59,7 +59,7 @@ That autoloader can try loading all of your custom application classes. Drupal a
 
 > This approach has the added benefit of making it so that older existing libraries can be extended, not altered, to become compliant with the standard. As it stands, to make an existing non-PSR-0 compliant library PSR-0 compliant, the entire library must be restructured, and in a lot of cases, have every single file altered to add a namespace to it! To call this approach absurd would be an understatement.
 
-Restructured how much? Adding in a namespace is not exactly tough, and is part of a reasonable migration to being PHP 5.3 compatable anyway.
+Restructured how much? Adding in a namespace is not exactly tough, and is part of a reasonable migration to being PHP 5.3 compatible anyway.
 
 Making the class name match the file name? Well that's just good common logic, and if your classes don't match the the file names then why not? 
 
@@ -71,7 +71,7 @@ Ignoring the fact that **the FIG is not pushing/encouraging shit on you**, I'm n
 
 > In OOP terms, PSR-0 breaks encapsulation. Code which uses it has implied knowledge about things it shouldn't be concerned with: Directory structures, the implementation details of the autoloader. Storing application configuration along with application logic is a bad idea. It severely limits flexibility by meaning you cannot use different configurations with different logic.
 
-I understand all of the words seperately…
+I understand all of the words separately…
 
 PSR-0 is extremely similar to the PEAR file/class naming structure, but a bit more namespacey. It's also almost _identical_ to the way Kohana, Laravel 3 and FuelPHP do things and almost i-fucking-dentical to Zend. 
 
@@ -144,7 +144,7 @@ Composer will then support PSR-X too, so all included packages will automaticall
 
 This article comes across as:
 
-> This brand new thing [which is 4 years old] is not exactly what I'd expect to see based on expectations that are being made 4 years after its conception and with the knowledge of tools that didnt exist at the time, and any attempt to improve this situation is laughable because these guys are all tools.
+> This brand new thing [which is 4 years old] is not exactly what I'd expect to see based on expectations that are being made 4 years after its conception and with the knowledge of tools that didn't exist at the time, and any attempt to improve this situation is laughable because these guys are all tools.
 
 PSR-0 has its problems, but they are the two that I have pointed out and they are rather trivial. These two issues are being removed in a new standard which is currently going through the proposal stages and so far it has excellent support. Once it's voted in and Composer integrates the standard into their autoloader some developers can spend 3 minutes porting their packages, or continue to use PSR-0.
 

@@ -12,7 +12,7 @@ comments: 'true'
 disqus_identifier: Deploying-sites-with-SVN
 ---
 
-I have a working copy on my dev site and the live site. live will be trunk, dev will be the branch I am working on or trunk depending on what I want to test on that enviroment.
+I have a working copy on my dev site and the live site. live will be trunk, dev will be the branch I am working on or trunk depending on what I want to test on that environment.
 
 It might sound a little nuts, but having SVN working copy on your server means you can easily deploy the new version of the site. Commit your local changes to the repo, then just SSH in and update!
 

@@ -11,7 +11,7 @@ comments: 'true'
 disqus_identifier: power-dump-php-applications
 ---
 
-When trying to work out what the hell is going wrong in your PHP application the first thing most of us start doing is madly start var\_dump()'ing everything possible to work out where the problem is. var\_dump() is fine, but by default it comes out in one line. So then we need to echo <pre> tags. Then we can't always see whats going on, espeically if the background is black and bla bla bla so it goes on.
+When trying to work out what the hell is going wrong in your PHP application the first thing most of us start doing is madly start var\_dump()'ing everything possible to work out where the problem is. var\_dump() is fine, but by default it comes out in one line. So then we need to echo <pre> tags. Then we can't always see whats going on, especially if the background is black and bla bla bla so it goes on.
 
 One option is to install XDebug which does basically the same thing, but sadly we don't all have access to SSH for our servers. Shared hosting, limited shell, can't install stuff, whatever. I spend a lot of time with CodeIgniter which is all about portability, make your stuff work anyway.
 

@@ -37,7 +37,7 @@ Well imaginary interviewer who has been constructed purely as a narrative device
 
 PSR-0 was made back in 2009 when the group was smaller, less experienced (it was their first standard), and it had some troubles that only came to light at a later date. 
 
-Anthony Ferrera [listed a bunch of troubles](http://blog.ircmaxell.com/2011/11/on-psr-0-being-included-in-phps-core.html). He was mostly talking about why it should not be included in the core of PHP, and - as a quick sidenote - I agree with that part entirely. If PSR-0 is ever deprecated at some point then having it baked into PHP means it will be stuck with us for about 15 years. No ta.
+Anthony Ferrara [listed a bunch of troubles](http://blog.ircmaxell.com/2011/11/on-psr-0-being-included-in-phps-core.html). He was mostly talking about why it should not be included in the core of PHP, and - as a quick sidenote - I agree with that part entirely. If PSR-0 is ever deprecated at some point then having it baked into PHP means it will be stuck with us for about 15 years. No ta.
 
 Other than the "why it shouldn't be in the core" arguments, he listed some inconsistencies:
 
@@ -87,7 +87,7 @@ Deprecation in this instance is just the FIG saying "Hey buddy, there is a new t
 
 In previous conversations about PSR-4 or potential PSR-0 deprecation, Twig and PHPUnit have been used as examples of large projects that could not easily switch to PSR-4 because they use "poor-mans namespaces" (underscores with special meaning instead of actual namespaces). Somehow, people have the idea that deprecating PSR-0 would somehow either a) shame these projects and make them feel bad, or b) force them to bump their PHP version requirement to PHP 5.3 to use namespaces.
 
-Well, since those conversations, PHPUnit has bumped the [minimum depdencencies](https://github.com/sebastianbergmann/phpunit/blob/a29e4505867735f4f4457cfc6a6386f96dda6eef/composer.json#L25) to PHP >=5.3.3. Comically PHPUnit does not even use PSR-0, so the deprecation of PSR-0 does not effect them either.
+Well, since those conversations, PHPUnit has bumped the [minimum dependencies](https://github.com/sebastianbergmann/phpunit/blob/a29e4505867735f4f4457cfc6a6386f96dda6eef/composer.json#L25) to PHP >=5.3.3. Comically PHPUnit does not even use PSR-0, so the deprecation of PSR-0 does not effect them either.
 
 I asked Fabien Potencier if he would consider switching Twig to PSR-4, and he is now asking [if Twig v2.0 should drop 5.2 support](https://twitter.com/fabpot/status/490475547412406273). Many people are saying yes.
 

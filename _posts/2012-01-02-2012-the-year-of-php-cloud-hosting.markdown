@@ -7,15 +7,15 @@ excerpt: " \n\tCloud hosting is nothing new. Seeing as \"cloud\" is such a loose
   used term some will consider their VPS solutions on Slicehost or Rackspace to be
   \"cloud hosting\". Thats partially true, but this article covers how PHP is getting
   some serious attention in the PaaS (Platform as a Service) field. This year you
-  will almost certainly find yourself making the decision wether or not to move some
-  of your applications and services accross to the cloud, and this article can hopefully
+  will almost certainly find yourself making the decision whether or not to move some
+  of your applications and services across to the cloud, and this article can hopefully
   help you work out why and how. "
 date: '2012-01-02 21:18:00'
 comments: 'true'
 disqus_identifier: 2012-the-year-of-php-cloud-hosting
 ---
 
-Cloud hosting is nothing new. Seeing as "cloud" is such a loosely used term some will consider their VPS solutions on Slicehost or Rackspace to be "cloud hosting". That is partially true, but this article covers how PHP is getting some serious attention in the PaaS (Platform as a Service) field. This year you will almost certainly find yourself making the decision wether or not to move some of your applications and services across to the cloud, and this article can hopefully help you work out why and how.
+Cloud hosting is nothing new. Seeing as "cloud" is such a loosely used term some will consider their VPS solutions on Slicehost or Rackspace to be "cloud hosting". That is partially true, but this article covers how PHP is getting some serious attention in the PaaS (Platform as a Service) field. This year you will almost certainly find yourself making the decision whether or not to move some of your applications and services across to the cloud, and this article can hopefully help you work out why and how.
 
 The two PaaS solutions in my toolkit right now are [PHP Fog](http://phpfog.com/) and [Pagoda Box](http://pagodabox.com/). I've been using the two systems for the last year since they were kind enough to let me into their private BETA. Currently in my mind there are no clear victors as they both work a little differently, but they both achieve the same goal: get your code running online quickly and securely.
 

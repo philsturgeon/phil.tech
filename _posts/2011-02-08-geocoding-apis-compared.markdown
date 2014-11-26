@@ -37,7 +37,7 @@ I've been using a City database for TravlrApp to populate auto-complete lists bu
 
 Google is very accurate in most countries and is easily the largest data set I have used. Some countries such as Iraq will just tell you that the coordinates are in Iraq, but not many of my TravlrApp customers will be planning holidays there so I am not too fussed. The real problem with using the Google Maps API for reverse geocoding is that the results are returning in a relatively unusable way. For an example of a few of the JS objects returned from the API take a look to the right. This may at first look pretty useful, but the way they return their data is actually about as logical as the average episode of Family Guy... after smoking a whole bowl of meth.
 
-So what is Google doing? Well it will return any number of objects which each have a different level of accuracy. There is no specific number and none of these objects have a specific level, it just gives you as many as it feels like for that specific point on the map. Within each of these objects is an array of "address\_compontents" which look more promising (see below).
+So what is Google doing? Well it will return any number of objects which each have a different level of accuracy. There is no specific number and none of these objects have a specific level, it just gives you as many as it feels like for that specific point on the map. Within each of these objects is an array of "address\_components" which look more promising (see below).
 
    ![Google Address components](https://s3.amazonaws.com/philsturgeon-blog/Screen_shot_2011-02-08_at_23.54_.11_.png)  
 

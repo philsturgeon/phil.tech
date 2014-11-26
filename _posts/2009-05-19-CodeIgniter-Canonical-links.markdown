@@ -47,7 +47,7 @@ This method basically shows Google crawlers and Google Analytic the same URL; th
 
 **Pro's:** This would make sure EVERY page had a correctly formed URL for the page no matter what URI they accessed the page from.
 
-**Con's:** Content Drilldown in Google Analytic will not work if you use $config['url\_suffix'] extensions. Doesn't take into account routed URL's so they will show seperatly.
+**Con's:** Content Drilldown in Google Analytic will not work if you use $config['url\_suffix'] extensions. Doesn't take into account routed URL's so they will show separately.
 
 ### Method #2: Routed URL's for Analytic, Parsed URL's for Robots
 
@@ -63,7 +63,7 @@ Well it seems to make Google search and Google Analytic happy we are going to ne
 
 ### Method #3: Routed URL's for Analytic, Parsed URL's for Robots (direct aproach)
 
-As it turns out Google Analytic could not care less about your canonical links by default, we can give Google bots and Google Analytic two totally different values. We can set the current user-facing URI as a canoncal link in the HTML, then insert the fully routed URI segments straight to Google Analytic.
+As it turns out Google Analytic could not care less about your canonical links by default, we can give Google bots and Google Analytic two totally different values. We can set the current user-facing URI as a canonical link in the HTML, then insert the fully routed URI segments straight to Google Analytic.
 
 `echo '<link rel="canonical" href="' . site_url( $this->uri->uri_string() ) . '" />';`
 

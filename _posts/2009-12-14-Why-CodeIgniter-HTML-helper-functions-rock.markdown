@@ -56,7 +56,7 @@ My example shows one useful application of this beyond shorter syntax, but there
 HTML helper functions.
 
 - Store your DOCTYPE in a config variable and update your entire site from XHTML 1.1 to HTML 5 easily
-- Developing your app with <h1>Something</h1> then relizing your headers in 500 different view files need <h1><span>Something</span></h1>
+- Developing your app with <h1>Something</h1> then realizing your headers in 500 different view files need <h1><span>Something</span></h1>
 - Fetching metadata from a database and outputting with meta()
 - Adding Google event tracking to images loaded with img()
 - Set your page titles (display headers, not title tag) to use a config variable 1 to 6 in case your CMS needs to change what level the links are.

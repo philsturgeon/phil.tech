@@ -32,7 +32,7 @@ These features will make it into the CodeIgniter repository **at some point** af
 
 #### Modular MVC
 
-This is a feature I have wanted in CodeIgniter for a _long_ time, and at [EECI2009](http://eeci2009.com/) Derek Allard has confirmed it (unofficially, wandering through a back alley on the way to a pub). Details on what features this will support are rather vague, but assuming it will be similar to a basic Matchbox or HMVC does not seem ridiculous. Modularity in CodeIgniter basically allows your controllers, models, views and other files to be grouped not just by type, but by module and then type - allowing you to keep your application broken down into logical groups which we call "modules". Eg: blog, users, gallery, etc would all be a seperate module.
+This is a feature I have wanted in CodeIgniter for a _long_ time, and at [EECI2009](http://eeci2009.com/) Derek Allard has confirmed it (unofficially, wandering through a back alley on the way to a pub). Details on what features this will support are rather vague, but assuming it will be similar to a basic Matchbox or HMVC does not seem ridiculous. Modularity in CodeIgniter basically allows your controllers, models, views and other files to be grouped not just by type, but by module and then type - allowing you to keep your application broken down into logical groups which we call "modules". Eg: blog, users, gallery, etc would all be a separate module.
 
 #### JavaScript library
 
@@ -78,7 +78,7 @@ It's not very often you have a language string that is entirely static. For exam
 
 CodeIgniter already has several hooks, the most used being pre\_controller and post\_controller\_constructor. The problem for me is that pre\_controller exists very early in the system flow and has no access to the database or a great deal of the CodeIgniter instance. The pre\_controller\_constructor hook has access to everything CodeIgniter has to offer, but it runs _after_ your controller constructor meaning any code in the constructor will ignore whatever you have done in the Hook.
 
-To pick an example here, my pick\_language.php hook uses $\_SESSION and $\_GET to work out language then sets it using load\_class('Config'). I have no access to the database so users cannot pick a language and store it in the db. Why not use a post\_controller\_constructor hook? Well by that point I have loaded my language files, run database queries and all sorts of logic that is shared accross all methods in a controller. With this new hook it would run after the CodeIgniter instance is loaded, but before any of my Controller code has started.
+To pick an example here, my pick\_language.php hook uses $\_SESSION and $\_GET to work out language then sets it using load\_class('Config'). I have no access to the database so users cannot pick a language and store it in the db. Why not use a post\_controller\_constructor hook? Well by that point I have loaded my language files, run database queries and all sorts of logic that is shared across all methods in a controller. With this new hook it would run after the CodeIgniter instance is loaded, but before any of my Controller code has started.
 
 #### Form validation and JavaScript library integration to build validation rules
 
@@ -86,5 +86,5 @@ Using the JavaScript library as an abstraction layer over the framework librarie
 
 ### What we wont see
 
-EllisLab will not drop PHP 4 overnight and rewrite the whole core. We wont be seeing any "Automatic DRUD generators" that require one command line prompt and integration with telepathic control. And we wont be seeing anythnig amazing until some time after the ExpressionEngine release at he start of December '09. So stop asking everyone and be patient. The only people who know wont tell you, and as soon as the code is available it will be in the SVN.
+EllisLab will not drop PHP 4 overnight and rewrite the whole core. We wont be seeing any "Automatic DRUD generators" that require one command line prompt and integration with telepathic control. And we wont be seeing anything amazing until some time after the ExpressionEngine release at he start of December '09. So stop asking everyone and be patient. The only people who know wont tell you, and as soon as the code is available it will be in the SVN.
 

@@ -25,9 +25,9 @@ Let's go back about a year when the original iPhone 3G started having problems. 
 
 There are two reasons I agree with o2 on the extra cost here.
 
-Firstly, if we are all given full tethering access via our iPhones, people will be sending and recieving considerably more data than before. They'll be sending e-mail attachments, playing online games, downloading large files, generally doing everything they normally do on their laptops. If this happens, we are all screwed. If the network is already struggling with basic web-browsing and streaming compressed music, how the hell are we going to get anywhere with people blitzing the network to play WoW?
+Firstly, if we are all given full tethering access via our iPhones, people will be sending and receiving considerably more data than before. They'll be sending e-mail attachments, playing online games, downloading large files, generally doing everything they normally do on their laptops. If this happens, we are all screwed. If the network is already struggling with basic web-browsing and streaming compressed music, how the hell are we going to get anywhere with people blitzing the network to play WoW?
 
-Secondly, why not? The "unlimited data" plans cover "free unlimited data transfer for the iPhone". This data is not being used on the iPhone, it is being used on your laptop. That makes sense to me. This is basically a way to stop you having to sign up to a seperate mobile broadband service and carry an extra USB dongle around with you.
+Secondly, why not? The "unlimited data" plans cover "free unlimited data transfer for the iPhone". This data is not being used on the iPhone, it is being used on your laptop. That makes sense to me. This is basically a way to stop you having to sign up to a separate mobile broadband service and carry an extra USB dongle around with you.
 
 Finally, The extra cost may (if we are lucky) go towards upgrading their networks at a much faster rate which is great for everyone. It means apps will be allowed greater bandwidth limits and everything can work a bit quicker.
 

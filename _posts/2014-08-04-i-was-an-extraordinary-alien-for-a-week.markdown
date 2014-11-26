@@ -34,7 +34,7 @@ These names stuck out, and everyone on the list will be getting a bottle of some
 **Adam Jackett**
 Wrote  an email explaining how many hours of development time my various bits of code save him per week. Immigration people like provable numbers and stats, and proving I have saved people time or money is a good quality to have.
 
-**Anthony Ferrera**
+**Anthony Ferrara**
 Anthony wrote a great letter of recommendation at short notice and even picked up the whiskey tab while we worked on it. Star.
 
 **Bruno Skvorc**
@@ -50,7 +50,7 @@ Another letter of recommendation saying he's seen my name pop up a few times on 
 Chris let immigration people know that Apple had been using my CodeIgniter Rest-Server and a few other bits and bobs for a while. Super handy.
 
 **Jamie Hannaford**
-After tweet-panicing about needing more evidence, Jamie wrote a letter from Rackspace. He explained why and how Rackspace was a big awesome company, and had been using a bunch of my code internally. That one came out of the blue, and was so useful!
+After tweet-panicking about needing more evidence, Jamie wrote a letter from Rackspace. He explained why and how Rackspace was a big awesome company, and had been using a bunch of my code internally. That one came out of the blue, and was so useful!
 
 **Jamie Holdroyd**
 Jamie wrote an email explaining that my CodeIgniter libraries and PyroCMS had saved thousands of British pounds in development costs.

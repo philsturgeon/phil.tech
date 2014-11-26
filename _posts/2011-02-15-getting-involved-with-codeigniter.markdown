@@ -4,7 +4,7 @@ title: Getting involved with CodeIgniter
 category: codeigniter
 permalink: blog/2011/02/getting-involved-with-codeigniter
 excerpt: " \n\tWhat makes Reactor so much more different than CodeIgniter has been
-  in the past? Anyone can be involved wether you are a hard-core developer who is
+  in the past? Anyone can be involved whether you are a hard-core developer who is
   happy to jump into the codebase and start changing things and adding features, or
   a new user who just wants to request some new features, you can do this on the UserVoice
   or send in your code using BitBucket and GitHub. "
@@ -19,7 +19,7 @@ So with that out of the way, what makes Reactor so much more different than Code
 
 ### You seem to say "we" quite a lot
 
-Unlike Queen Victoria I do not use the term "we" to describe myself, I am reffering to the Reactor Engineer team. We are a team of 6 long-time CodeIgniter developers who accepted the challenge from EllisLab and applied to help manage a community version of CodeIgniter. The community asked for change and EllisLab responded with a way for us to do it. Great!
+Unlike Queen Victoria I do not use the term "we" to describe myself, I am referring to the Reactor Engineer team. We are a team of 6 long-time CodeIgniter developers who accepted the challenge from EllisLab and applied to help manage a community version of CodeIgniter. The community asked for change and EllisLab responded with a way for us to do it. Great!
 
 ### What to expect from the Engineers
 

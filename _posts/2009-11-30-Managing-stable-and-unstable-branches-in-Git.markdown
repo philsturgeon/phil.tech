@@ -21,7 +21,7 @@ To do this using Git (a distributed version control system) is very simple when 
 
 By default, every Git repo has one branch called **master**. I like to make sure this branch always has a relatively stable release of the code so although it can be considered "bleeding edge", a user should always be able to pull and not be bombarded with errors.
 
-So if master contains our current release, what should we call our new branch? Let's use PyroCMS as an example so we have some nubmers to work with.
+So if master contains our current release, what should we call our new branch? Let's use PyroCMS as an example so we have some numbers to work with.
 
 The current release of PyroCMS at time of writing is v0.9.7.2, and that sits in the master. I have created a new branch called v0.9.8-dev to contain all new features for v0.9.8.
 
@@ -50,7 +50,7 @@ Shows which files have been changed. Nothing will be added to the commit until y
 
 > git add folderA folderB/fileB1.html fileC\*.php
 
-That will add anything in folderA, only fileB1.html within fodlerB and fileC1.php, fileC2.php, fileC3.php etc. With selective use of add and rm you should be able to avoid commiting anything you don't mean to, like cache files or your database config files (you know who I'm talking about guys :-p).
+That will add anything in folderA, only fileB1.html within folderB and fileC1.php, fileC2.php, fileC3.php etc. With selective use of add and rm you should be able to avoid committing anything you don't mean to, like cache files or your database config files (you know who I'm talking about guys :-p).
 
 With that done, commit with with a simple:
 
@@ -64,7 +64,7 @@ And finally, a quick pull then a push.
 > git merge master  
 > git push
 
-Doing this ensures that the most up to date copy of master has been downloaded, v0.9.8-dev is switched to and master changes are merged in. Then by using git push and ommiting the remote name and branch, it will just push everything meaning master and v0.9.8-dev are updated simultaniously.
+Doing this ensures that the most up to date copy of master has been downloaded, v0.9.8-dev is switched to and master changes are merged in. Then by using git push and ommiting the remote name and branch, it will just push everything meaning master and v0.9.8-dev are updated simultaneously.
 
 ### Releasing new versions
 

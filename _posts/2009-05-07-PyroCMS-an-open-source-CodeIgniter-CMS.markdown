@@ -1,4 +1,4 @@
----
+--
 layout: post
 title: PyroCMS - an open source CodeIgniter CMS
 category: pyrocms
@@ -42,7 +42,7 @@ It also has the foundation for multi-language support but many of the modules ha
 - Full english lang-file support
 - CMS installer
 - Comments admin interface
-- User specific permisisons
+- User specific permissions
 - Theme editor to allow editing copies of core views in the db
 - Add / Remove modules interface
 - Replace Spaw with TinyMCE /w TinyCIMM (Image upload/manage)

@@ -49,7 +49,7 @@ Since late 2005 / early 2006 when these projects set out, hundreds of PHP framew
 
 PHP frameworks themselves have taken some flak for building up all this new code, bundling in ORM's (I've always said ORM's should not be part of a framework), adding in their own DB abstraction layers, etc. Some see this as a barrier as to switch to a new framework means throwing out everything you know and starting again.
 
-One problem with PHP frameworks is that when one framework doesn't do exactly what a developer wants, they either dump it and start building their own, or fork the existing one until there is no resemblence. This all or nothing approach is what has lead to our main problem: ** Reusable Code **.
+One problem with PHP frameworks is that when one framework doesn't do exactly what a developer wants, they either dump it and start building their own, or fork the existing one until there is no resemblance. This all or nothing approach is what has lead to our main problem: ** Reusable Code **.
 
 Does a library written for Kohana work with CodeIgniter - which was at one point a CodeIgniter fork itself? **Nope**.
 
@@ -89,7 +89,7 @@ Frameworks have been used to the idea that they were the solution to a problem -
 
 Not even Zend are using PEAR? Funny that.
 
-These framework specific packages - espeically those with command line install / update utilities - are a breath of fresh air are and the communities are happy with the added functionality they can instantly put into their applications.
+These framework specific packages - especially those with command line install / update utilities - are a breath of fresh air are and the communities are happy with the added functionality they can instantly put into their applications.
 
 The downside is that the same code is being written over and over again for different frameworks, which is a massive waste of man-hours.
 
@@ -97,7 +97,7 @@ Let's take a personal example. I noticed recently that Laravel has a [OAuth2 Bun
 
 _**WHAT THE HELL?**_
 
-The realisation hit me like kipper to the face. Why are we all sat around building out identical solutions to each other or forking and maintaining seperate codebases when we could just be finishing projects? 
+The realisation hit me like kipper to the face. Why are we all sat around building out identical solutions to each other or forking and maintaining separate codebases when we could just be finishing projects? 
 
 I on average spend 70% of my working day on client projects and 30% building or fixing, writing or porting packages and libraries. That 30% could make me 30% richer, or give me 30% more time doing something more interesting than writing code. Maybe I could get around to writing an even BIGGER rant about something else?
 

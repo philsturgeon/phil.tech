@@ -14,7 +14,7 @@ disqus_identifier: php-wars-attack-of-the-clones
 
 In the last article I said I wanted to write about when its a good idea to release a component. A lot of this comes down to: is there one out there that does what I want, and if so, can I use it?
 
-This blog post is going to touch on a lot of points already made well by Anthony Ferrera. His article [Reinvent The Wheel!](http://blog.ircmaxell.com/2012/08/reinvent-wheel.html) says many of the same things, so if you only have time to read one article right now, go and read that.
+This blog post is going to touch on a lot of points already made well by Anthony Ferrara. His article [Reinvent The Wheel!](http://blog.ircmaxell.com/2012/08/reinvent-wheel.html) says many of the same things, so if you only have time to read one article right now, go and read that.
 
 I've been talking with various people on Twitter about how I see a lot of people building what I consider to be clones. Common packages like routers, HTTP clients, validation, currency converters, dependency injection containers, etc. 
 

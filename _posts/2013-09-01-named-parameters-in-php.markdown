@@ -77,7 +77,7 @@ This syntax will make the following syntax available:
 $api->getFriends(['screen\_name' => 'phpdrama', 'include\_user\_entities' => true]);
 {% endhighlight %}
 
-Ok so yes, technically this will work, but I lose all ability to docblock anything, type hinting is a chore and I have to do it in EVERY method. There are a lot of methods, which means litterally hundreds of lines of boilerplate that could be replaced easily with syntax.
+Ok so yes, technically this will work, but I lose all ability to docblock anything, type hinting is a chore and I have to do it in EVERY method. There are a lot of methods, which means literally hundreds of lines of boilerplate that could be replaced easily with syntax.
 
 What would it look like in PHP-land? Something like one of these I guess:
 

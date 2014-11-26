@@ -80,7 +80,7 @@ We then all had a chat about [Pyjamas](http://pyjs.org/), Hacker Spaces, Jelly S
 
 > Hackerspaces are community-operated physical places, where people can meet and work on their projects.
 
-From what I coudl gather, its just somewhere (paid for by a membership fee) where geeks can just turn up and work on random projects together. Want to set up an [RFID tribute band](/blog/2010/10/bathcamp-a-day-of-nerdery-and-beer)? This would be the place. Sadly there is nothing in Bristol or Bath but there are [plenty around](http://hackerspaces.org/wiki/List_of_Hacker_Spaces).
+From what I could gather, its just somewhere (paid for by a membership fee) where geeks can just turn up and work on random projects together. Want to set up an [RFID tribute band](/blog/2010/10/bathcamp-a-day-of-nerdery-and-beer)? This would be the place. Sadly there is nothing in Bristol or Bath but there are [plenty around](http://hackerspaces.org/wiki/List_of_Hacker_Spaces).
 
  
 

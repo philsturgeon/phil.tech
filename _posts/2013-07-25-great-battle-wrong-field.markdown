@@ -27,7 +27,7 @@ Sadly, some of these people are often waiting for an opportunity to show off how
 
 White Knighting in general is not a problem, it generally means that people are trying to help when there is a problem. The issue is when somebody tries to help when there isn't a problem, thus creating a bigger problem. One example of this in my community [PHPness Gate](http://webandphpmag.wordpress.com/2013/02/25/phpness-gate-raising-interesting-issues/) happened a few months ago. Essentially, two "ballsy girls" (their words) decided to wear a t-shirt with a dick-joke on it, and the internet exploded.
 
-Several guys flew off the handle to conndem this behavior, and a well known feminist in the community assumed they were booth babes hired by a company. This point of view seemingly suggests this feminist assumes women would only be at a conference because they were paid to be there, but… they were running the conference. 
+Several guys flew off the handle to condemn this behavior, and a well known feminist in the community assumed they were booth babes hired by a company. This point of view seemingly suggests this feminist assumes women would only be at a conference because they were paid to be there, but… they were running the conference. 
 
 Sorry, that's sexist. 
 

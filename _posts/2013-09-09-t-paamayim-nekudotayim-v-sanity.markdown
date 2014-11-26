@@ -6,7 +6,7 @@ permalink: blog/2013/09/t-paamayim-nekudotayim-v-sanity
 excerpt: As somebody who has followed internals (and been hearing tales of woe from
   others) for a while, I've seen so many conversations with truly bizarre, irrelevant
   and trolly responses coming back from everyone all the way up to Rasmus himself.
-  It was this sort of trolling and bullshit that lead to Anthony Ferrera's recent
+  It was this sort of trolling and bullshit that lead to Anthony Ferrara's recent
   (and completely understandable) departure from the core. This walks through one
   example of trollolololing, as an exercise in eduction for anyone unaware of the
   madness that internals can host.
@@ -21,7 +21,7 @@ Pretending PHP is perfect would obviously be ridiculous - it has its problems - 
 
 Whether it be the chicken or the egg, these items are one by one being scratched off as active core-contributors make RFCs and fight the good fight to get them merged. Think of this resource as a bug report system, but one that is entirely outside the control of people who might decide to just close it with a "wontfix" tag. If any of you guys have **valid** concerns with PHP that have been shot down or left inactive, you should consider sending them to Eric with full examples and use [3v4l.org](http://3v4l.org/) to test the output of 80+ PHP versions.
 
-Sadly it is not always easy to clear these items, or add new features in general. As somebody who has followed internals (and been hearing tales of woe from others) for a while, I've seen so many conversations with truly bizarre, irrelevant and trolly responses coming back from everyone all the way up to Rasmus himself. It was this sort of trolling and bullshit that lead to [Anthony Ferrera](https://twitter.com/ircmaxell)'s recent (and completely understandable) [departure from the core](http://blog.ircmaxell.com/2013/09/rambling-on-internals.html).
+Sadly it is not always easy to clear these items, or add new features in general. As somebody who has followed internals (and been hearing tales of woe from others) for a while, I've seen so many conversations with truly bizarre, irrelevant and trolly responses coming back from everyone all the way up to Rasmus himself. It was this sort of trolling and bullshit that lead to [Anthony Ferrara](https://twitter.com/ircmaxell)'s recent (and completely understandable) [departure from the core](http://blog.ircmaxell.com/2013/09/rambling-on-internals.html).
 
 ## An Example
 
@@ -254,7 +254,7 @@ Right. If no change to the token is gonna happen, at least hide it. I read this 
 
 James Butler tries saying something different to his usual slogan but it doesn't really work out:
 
-> Are you supporting users who you provide a shared hosting embodiment too, and do you control binary installations on the enviroments? If so then possibly patching source for you installs maybe the easiest and quickest solution.
+> Are you supporting users who you provide a shared hosting embodiment too, and do you control binary installations on the environments? If so then possibly patching source for you installs maybe the easiest and quickest solution.
 If we knew the nature of your support requirements, then we could possibly suggest a better solution or be won round. (although internals isn't the place for that really)
 
 > This is not meant to bait but possibly an improvement in your support process or docs might yield a solution?
@@ -331,4 +331,4 @@ Anthony: We feel for you buddy. Every PHP developer I've spoken to since your de
 
 ## The Bright Side
 
-This is a good time to point out, I'm extremely grateful for the hard work of anyone contributing on PHP internals with useful features and constructive discussion. To name just a few (in no particular order): Sara Golemon, Nikita Poppov, Igor Wiedler, Xinchen Hui, Ralph Schindler, Zeev Suraski, Pierre Joye and Andrey Andreev, keep it up. We lost one, but we have plenty more.
+This is a good time to point out, I'm extremely grateful for the hard work of anyone contributing on PHP internals with useful features and constructive discussion. To name just a few (in no particular order): Sara Golemon, Nikita Popov, Igor Wiedler, Xinchen Hui, Ralph Schindler, Zeev Suraski, Pierre Joye and Andrey Andreev, keep it up. We lost one, but we have plenty more.
