@@ -39,7 +39,7 @@ These problems are still found in the community due to NIH. Despite huge leaps f
 
 People are providing Laravel as an argument against these views. They say that it started its life rather similar to CodeIgniter and FuelPHP. 
 
-Folks concern with my "dont reinvent the wheel" approach is that it would have stopped Laravel from progressing. I think that frameworks are bad example, and not what I am talking about. Frameworks cover such vast areas that alternatives are much more likely, especially with these factors taken into account:
+Folks concern with my "don't reinvent the wheel" approach is that it would have stopped Laravel from progressing. I think that frameworks are bad example, and not what I am talking about. Frameworks cover such vast areas that alternatives are much more likely, especially with these factors taken into account:
 
 * Is it convention based or configuration based
 * Does it provide a default application structure or let you freeform

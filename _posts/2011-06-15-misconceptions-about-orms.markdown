@@ -9,7 +9,7 @@ excerpt: " \"ORMs are overweight, slow, hard to work with, pointless and for peo
   by people who either looked at a \"Getting Started\" page and thought \"yuck\" or
   tried a bad clam and decided to avoid seafood for the rest of their life. In this
   article I'll explain why I have converted from a fully anti-ORM developer to somebody
-  who strongly reccomends you give a [good] ORM a try. \n"
+  who strongly recommends you give a [good] ORM a try. \n"
 date: '2011-06-15 23:21:00'
 comments: 'true'
 disqus_identifier: misconceptions-about-orms
@@ -53,7 +53,7 @@ And brilliantly we can just do user.profile.foo to access nested properties and 
 ### Death by a thousand queries
 > This leads naturally to another problem of ORM: inefficiency. When you fetch an object, which of its properties (columns in the table) do you need? ORM can't know, so it gets all of them (or it requires you to say, breaking the abstraction). Initially this is not a problem, but when you are fetching a thousand records at a time, fetching 30 columns when you only need 3 becomes a pernicious source of inefficiency. Many ORM layers are also notably bad at deducing joins, and will fall back to dozens of individual queries for related objects.
 
-WRONG. Most ORMs will allow you to pass a select in to suggest what fields you want back insteade of just assuming you want \*. As for relationships this is done in two ways.
+WRONG. Most ORMs will allow you to pass a select in to suggest what fields you want back instead of just assuming you want \*. As for relationships this is done in two ways.
 
 **Lazy-Loading** - When you call $article->comments in PHP for example, the ORM can fire a \_\_get() and see that comments is not set. It'll then realise it has a join and can sy "oh crp, I'd better go find some comments for this article!". That is _amazing_ for Rapid Application Development, but of course is pretty inefficient. That is why any decent ORM will have...
 

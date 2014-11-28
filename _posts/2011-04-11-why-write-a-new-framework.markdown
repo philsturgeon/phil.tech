@@ -49,7 +49,7 @@ Sure, I can use Rails for a webapp (and hell, I have, [TravlrApp](http://travlra
 
 So, let's make PHP as fun to use as we possibly can right?
 
-Some of the best things I love about Rails are gems, Migrations, irb, Scaffolding (useful in small doeses) and rakes. So how great would it be if I could do all that in PHP?
+Some of the best things I love about Rails are gems, Migrations, irb, Scaffolding (useful in small doses) and rakes. So how great would it be if I could do all that in PHP?
 
 Well you can. I wrote [all of those features](/blog/2011/03/fuelphp-oil-introduction-scaffolding) into the optional command line utility "Oil" for Fuel. Whoop! I could have written those features into Kohana, but then I would have had to ask the core developers if they thought it was in their interests, if it met their standards, if anyone else was working on anything similar, if it was the way their framework was interested in going, which version it should be merged with, bla bla bla. Why do that if I can put it into a framework I have helped to build with people who are not just friends, but some of the most talented PHP developers I know?
 

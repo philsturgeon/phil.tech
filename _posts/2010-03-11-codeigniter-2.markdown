@@ -19,7 +19,7 @@ The EllisLab team have decided to drop [Subversion](http://subversion.apache.org
 
 The change of Version Control System to us (the general public) makes no real difference, but it wil let the team work much quicker.
 
-The change to Mercurial would not be as interesting if it was not for the fact they were hosting the code on BitBucket, which is the Mercurial equivilent of GitHub. This is potentially the best piece of news in this entire article.
+The change to Mercurial would not be as interesting if it was not for the fact they were hosting the code on BitBucket, which is the Mercurial equivalent of GitHub. This is potentially the best piece of news in this entire article.
 
 By moving to a social-coding platform like this, CodeIgniter can face the same attention from the community that jQuery and CakePHP have recently received. jQuery 1.4 massively benefited by being moved to GitHub, as v1.4 was made up almost entirely of community patches and suggestions.
 
@@ -31,7 +31,7 @@ Well, there are a LOT of changes in the Changelog for 2.0 so far. Many of these 
 
 > PHP 4 support is deprecated. Features new to 2.0.0 may not be support PHP 4, and all legacy features will no longer support PHP 4 as of 2.1.0.
 
-Well thank fuck for that. It was not a huge suprise as ExpressionEngine 2.0 had dropped support for PHP 4, but the fact it has come down to CodeIgniter is brilliant. It means slowly but surely CodeIgniter can progress forwards with great new features without having to worry about coding it in a long-winded PHP 4 compatible fashion.
+Well thank fuck for that. It was not a huge surprise as ExpressionEngine 2.0 had dropped support for PHP 4, but the fact it has come down to CodeIgniter is brilliant. It means slowly but surely CodeIgniter can progress forwards with great new features without having to worry about coding it in a long-winded PHP 4 compatible fashion.
 
 _ **Update 11/11/2010:** Support for PHP4 is now no longer deprecated, but totally removed. You must now use PHP 5.1.x and change your parent::Controller()'s to parent::\_\_construct()._
 

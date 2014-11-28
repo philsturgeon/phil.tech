@@ -7,7 +7,7 @@ excerpt: As a programmer we should all be used to the fact that our personal pre
   and habits are all subject to change. I used to be a big fan of Alman and tabs &gt;
   spaces, now I follow PSR-2 happily which contradicts those two rules and couldn't
   care less. Another contradiction to my personal preferences has been "automagical
-  routing" verses "verbose routing", and this article explains why I changed my opinon
+  routing" verses "verbose routing", and this article explains why I changed my opinion
   on that.
 date: '2013-07-23 19:53:00'
 comments: 'true'

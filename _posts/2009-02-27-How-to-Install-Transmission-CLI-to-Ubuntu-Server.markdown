@@ -14,7 +14,7 @@ disqus_identifier: How-to-Install-Transmission-CLI-to-Ubuntu-Server
 
 I made this guide as I had a little trouble finding all the correct information required to get this set up. Some of it was scattered around the Transmission Wiki, some on random blogs and some was just missing. This guide will help compile everything into one place to hopefully save some of you a little time.
 
-The repositories we will be using are unofficial repositories maintained by "kas". The original post can be found [here](http://forum.transmissionbt.com/viewtopic.php?f=13&t=5604). This needs to be done so we can get the newest stable version of Transmission, as the newest version you can get from the Ubuntu Server 8.10 default list of repositries is 1.32 and sadly that version is no longer supported by the Transmission team.
+The repositories we will be using are unofficial repositories maintained by "kas". The original post can be found [here](http://forum.transmissionbt.com/viewtopic.php?f=13&t=5604). This needs to be done so we can get the newest stable version of Transmission, as the newest version you can get from the Ubuntu Server 8.10 default list of repositories is 1.32 and sadly that version is no longer supported by the Transmission team.
 
 ### Main setup
 
@@ -44,7 +44,7 @@ $ gpg --keyserver keyserver.ubuntu.com --recv 976b5901365c5ca1
 $ gpg --export --armor 976b5901365c5ca1 | sudo apt-key add -
 {% endhighlight %}
 
-Now that you have added these repositries we must update apt
+Now that you have added these repositories we must update apt
 
 {% highlight console %}
 $ sudo apt-get update

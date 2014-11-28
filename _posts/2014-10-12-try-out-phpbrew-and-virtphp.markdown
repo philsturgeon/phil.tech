@@ -31,7 +31,7 @@ Keep in mind that [VirtPHP](http://virtphp.org/) is still in alpha. I noticed a 
 
 Please, before you run off and delete all your Vagrant installs, please keep in mind my article [The Tale of Tom, Dick and Harry](/blog/2014/05/the-tale-of-tom-dick-and-harry). If I was being "Dick" from that article, I'd be telling you to use this for everything and it's amazing because I heard about it somewhere, and you'd be a "Dick" to parrot this advice on to anyone without context. This is very much not just me getting excited over the "next new thing, which will replace the old thing." This is more of a suggestion, to try out a way of working that has been doing extremely well in other language communities for years. 
 
-Vagrant is often going to be what you want to use if you have complex architectures, or your only major project is the day-job and you have a lot of developers who you dont want to have to force to learn about multiple tools. Sometimes just installing Vagrant on a juniors computer and telling them to vagrant up in the morning is all you want.
+Vagrant is often going to be what you want to use if you have complex architectures, or your only major project is the day-job and you have a lot of developers who you don't want to have to force to learn about multiple tools. Sometimes just installing Vagrant on a juniors computer and telling them to vagrant up in the morning is all you want.
 
 That said, if you flit around between a lot of different PHP projects like me, use TDD more than you refresh a browser and need to switch PHP versions regularly, then these tools are incredibly useful. 
 

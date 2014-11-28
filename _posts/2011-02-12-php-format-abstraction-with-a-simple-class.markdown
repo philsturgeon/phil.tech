@@ -29,5 +29,5 @@ Convert between Array, Object, JSON, XML, CSV and Serialized data and back again
 
 Get it on [GitHub](http://github.com/philsturgeon/php-format).
 
-I've put it into FuelPHP and I'll commit to CodeIgntier 2.0 soon.
+I've put it into FuelPHP and I'll commit to CodeIgniter 2.0 soon.
 

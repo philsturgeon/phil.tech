@@ -20,7 +20,7 @@ Another option is re-uploading your entire site through FTP which is even more a
 
 FTP clients tried making this easier for us by adding Synchronize features but they just compare dates so they are as useful as a chocolate teapot if you are trying to do careful deployments.
 
-We clearly need another option, and thats where VCS deployments come in. In this case, Git.
+We clearly need another option, and that's where VCS deployments come in. In this case, Git.
 
 ### I'm convinced, so how can I do it?
 
@@ -42,7 +42,7 @@ Or use yum, aptitude, compile from source, etc.
 
 This next command gets a little tricky if you already have your site running on this server. I have always used this method from the first deployment of Git managed sites, but you will probably need to delete any folders that will be managed by Git so they can be replaced. Of course be careful with backups and save any user uploaded content, but once that is done you wont have to worry about losing changes ever again.
 
-    $ git pull orgin master
+    $ git pull origin master
 
 #### Step 4: Deploy new changes
 

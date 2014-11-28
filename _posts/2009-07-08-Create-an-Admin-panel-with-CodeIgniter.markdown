@@ -39,7 +39,7 @@ This method follows a more usual CodeIgniter set-up and is the way that most new
 
 > / application/ config/ controllers/ admin/ blog.php dashboard.php comments.php blog.php comments.php models/ blog_model.php comments_model.php views/ admin/ blog/ index.php form.php comments/ index.php form.php dashboard.php login.php blog/ index.php view.php comments/ view.php system/ index.php
 
-Here we are keeping the default MVC structure of CodeIgniter and using sub-directories for our controllers to give us the http://example.com/admin/blog URL structure. You'll need to set a $route['admin'] = 'admin/dashboard'; to get example.com/admin worksing but thats easy enough.
+Here we are keeping the default MVC structure of CodeIgniter and using sub-directories for our controllers to give us the http://example.com/admin/blog URL structure. You'll need to set a $route['admin'] = 'admin/dashboard'; to get example.com/admin working but that's easy enough.
 
 This method has the advantage of being able to share models, libraries and helpers across both the front and backend. If you really need to separate models for front and back ends, why not just have a models/admin/ folder and put them in there?
 
@@ -47,7 +47,7 @@ The down side is that when your site expands and more controllers are required, 
 
 ### 3.) Modules
 
-To keep all the content under one single folder we can adopt the HMVC approach. This stands for Hierarchal MVC which essentially is just modular CodeIgniter. Two systems have been developed for this: [HMVC](http://codeigniter.com/wiki/Modular_Extensions_-_HMVC/) and [Matchbox](http://code.google.com/p/matchbox/ "Matchbox - lets you organize your codeigniter resources in modules"). I personally prefer use the latter but have never tried HMVC so i'll leave that one up to you.
+To keep all the content under one single folder we can adopt the HMVC approach. This stands for Hierarchical MVC which essentially is just modular CodeIgniter. Two systems have been developed for this: [HMVC](http://codeigniter.com/wiki/Modular_Extensions_-_HMVC/) and [Matchbox](http://code.google.com/p/matchbox/ "Matchbox - lets you organize your codeigniter resources in modules"). I personally prefer use the latter but have never tried HMVC so i'll leave that one up to you.
 
 A strange thing that many CodeIgniter users seem to do is create a blog module, comment module and admin module. This strikes me as a very strange separation of content that goes against the point of using modules in the first place! I have a single admin.php controller in the main controllers folder to act as the default admin page which will handle login, logout and the main dashboard. Then I add another admin.php controller in each module and use [URI Routing](http://codeigniter.com/user_guide/general/routing.html "CodeIgniter User Guide: URI Routing") to get my URL structure as http://example.com/admin/.
 

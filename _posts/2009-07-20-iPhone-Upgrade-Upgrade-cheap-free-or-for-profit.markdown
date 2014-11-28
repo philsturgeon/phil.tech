@@ -20,5 +20,5 @@ Find out how you can save money upgrading your iPhone contract with o2. You coul
 
 Answer the questions to find out how much money you could save just by waiting a few months to upgrade.
 
-None of the information is stored, I really could not care less about who has what contract at the moment. This was done just to help peple dodge o2's horrendous buyout fee's.
+None of the information is stored, I really could not care less about who has what contract at the moment. This was done just to help people dodge o2's horrendous buyout fee's.
 

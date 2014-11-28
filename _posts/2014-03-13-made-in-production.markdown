@@ -15,7 +15,7 @@ Late last summer I was riding my bike around the mountains of New Jersey. I'm no
 
 On the ride I kept thinking of potential shirts and quotes. A lot of them got thrown away, and some are chalked to be produced later. The first t-shirt of course had to be something iconic, that PHP developers around the world would understand, love and immediately want. 
 
-As PHP developers we are often linked to the [Fractal of Bad Design blog post](http://me.veekun.com/blog/2012/04/09/php-a-fractal-of-bad-design/), as though it is somehow relevant to actual PHP developers and not just some big list of bizare edge-cases and complaints about not being Python. It's annoying, but it has created some amazing imagery for us. 
+As PHP developers we are often linked to the [Fractal of Bad Design blog post](http://me.veekun.com/blog/2012/04/09/php-a-fractal-of-bad-design/), as though it is somehow relevant to actual PHP developers and not just some big list of bizarre edge-cases and complaints about not being Python. It's annoying, but it has created some amazing imagery for us.
 
 > I can’t even say what’s wrong with PHP, because— okay. Imagine you have uh, a toolbox. A set of tools. Looks okay, standard stuff in there.
 

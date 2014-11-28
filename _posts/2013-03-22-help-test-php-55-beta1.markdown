@@ -50,7 +50,7 @@ $ make test
  ---------------------------------------------------------------------
  Test fileperms() & chmod() functions: usage variation - misc. perms [    
  ext/standard/tests/file/006_variation2.phpt]
- chmod() basic fuctionality [ext/standard/tests/file/chmod_basic.phpt]
+ chmod() basic functionality [ext/standard/tests/file/chmod_basic.phpt]
  =====================================================================
  
  You may have found a problem in PHP.

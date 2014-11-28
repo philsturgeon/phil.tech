@@ -15,7 +15,7 @@ When trying to work out what the hell is going wrong in your PHP application the
 
 One option is to install XDebug which does basically the same thing, but sadly we don't all have access to SSH for our servers. Shared hosting, limited shell, can't install stuff, whatever. I spend a lot of time with CodeIgniter which is all about portability, make your stuff work anyway.
 
-Using this handy function (which I have set up as a CodeIgntier debug\_helper or native PHP debug\_functions.php) I can dump any number of variables and always be able to see whats going on.
+Using this handy function (which I have set up as a CodeIgniter debug\_helper or native PHP debug\_functions.php) I can dump any number of variables and always be able to see whats going on.
 
     /** * Debug Helper * * Outputs the given variable(s) with formatting and location * * @access public * @param mixed variables to be output */function dump(){ list($callee) = debug_backtrace(); $arguments = func_get_args(); $total_arguments = count($arguments); echo '<fieldset style="background: #fefefe !important; border:2px red solid; padding:5px">'; echo '<legend style="background:lightgrey; padding:5px;">'.$callee['file'].' @ line: '.$callee['line'].'</legend><pre>'; $i = 0; foreach ($arguments as $argument) { echo '<br/><strong>Debug #'.(++$i).' of '.$total_arguments.'</strong>: '; var_dump($argument); } echo "</pre>"; echo "</fieldset>";}
 

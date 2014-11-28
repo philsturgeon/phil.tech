@@ -10,14 +10,14 @@ excerpt: This article is completely pointless, im just saying what everyone is t
   point out that they don't really care. This is mostly because we're either used
   to it, have a god-like photographic memory or our IDE handles auto-complete so it's
   a moot point. For me I'm not too fussed because I spend more time trying Googling
-  words like recepie (see, I got that wrong) recipe than I ever spend looking up PHP
+  words like recipe (see, I got that wrong) recipe than I ever spend looking up PHP
   functions. This is how we could fix the situation - but we never will.
 date: '2013-01-26 15:59:00'
 comments: 'true'
 disqus_identifier: php-6-pissing-in-the-wind
 ---
 
-PHP is well known for having an inconsistent API when it comes to PHP functions. Anyone with an anti-PHP point of view will use this as one of their top 3 arguments for why PHP sucks, while most PHP developers will point out that they don't really care. This is mostly because we're either used to it, have a god-like photographic memory or our IDE handles auto-complete so it's a moot point. For me I'm not too fussed because I spend more time trying Googling words like recepie (see, I got that wrong) recipe than I ever spend looking up PHP functions.
+PHP is well known for having an inconsistent API when it comes to PHP functions. Anyone with an anti-PHP point of view will use this as one of their top 3 arguments for why PHP sucks, while most PHP developers will point out that they don't really care. This is mostly because we're either used to it, have a god-like photographic memory or our IDE handles auto-complete so it's a moot point. For me I'm not too fussed because I spend more time trying Googling words like recipe (see, I got that wrong) recipe than I ever spend looking up PHP functions.
 
 Another big thing that anti-PHP folks laugh about is the lack of scalar objects, so instead of $string->length() you have to do strlen($string).
 

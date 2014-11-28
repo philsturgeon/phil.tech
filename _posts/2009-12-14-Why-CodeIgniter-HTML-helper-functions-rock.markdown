@@ -19,7 +19,7 @@ The complaint boils down to these points:
 - Putting HTML in PHP functions is "bad MVC".
 - My favourite "I know how to write HTML, I don't need a helper".
 
-These points of view come from people who do not understanding the potential benefits of using HTML helpers - whichis fair enough as I used to think they were useless too.
+These points of view come from people who do not understanding the potential benefits of using HTML helpers - which is fair enough as I used to think they were useless too.
 
 Two small things to mention first, then on to the "meat" of the article.
 
@@ -45,7 +45,7 @@ First you will see the standard HTML way to do it, with the site\_url() function
 
 I wanted a way to set accept-charset="UTF-8" in all my forms to help keep my data all <a href="/news/2009/08/UTF-8-support-for-CodeIgniter">UTF-8 in CodeIgniter</a>. If I was using just HTML then I would have to go through <strong>all</strong> my forms and add that in myself, which would be wasting time I could have spent at the pub.
 
-Instead, as CodeIgniter allows you to extend helpers, I just made my own slightly modified form\_open() inapplication/helpers/MY\_form\_helper.php which contained this logic. Because I was using PHP to wrap my useful data, I could make one simple change and update all of my <form> tags.
+Instead, as CodeIgniter allows you to extend helpers, I just made my own slightly modified form\_open() in application/helpers/MY\_form\_helper.php which contained this logic. Because I was using PHP to wrap my useful data, I could make one simple change and update all of my <form> tags.
 
 The main problem is people are looking at these HTML helper functions and seeing them purely as different syntax.
 

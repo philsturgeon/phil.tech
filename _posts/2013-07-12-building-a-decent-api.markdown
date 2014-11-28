@@ -14,7 +14,7 @@ comments: 'true'
 disqus_identifier: building-a-decent-api
 ---
 
-PHP developers are increasingly moving over to API development, as are a lot of server-side developers. It's a trend thats been happening for the last few years and it's getting to the point where everyone and their dog are putting articles showing off how to build "awesome" API's. Unfortunately most of these are either woefully inadequate or are promoting bad practices.
+PHP developers are increasingly moving over to API development, as are a lot of server-side developers. It's a trend that's been happening for the last few years and it's getting to the point where everyone and their dog are putting articles showing off how to build "awesome" API's. Unfortunately most of these are either woefully inadequate or are promoting bad practices.
 
 I'm not going to link to any bad examples because that's just rude, but here are some golden rules that I stick to when building out API's.
 

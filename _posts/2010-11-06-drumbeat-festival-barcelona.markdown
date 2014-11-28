@@ -31,7 +31,7 @@ The Wednesday was light day on official Drumbeat content, with a keynote and a "
 
 ### Thursday 4th November
 
-Second day, first hangover. I had a very interesting evening drinking with a group of locals - who didn't speak a word of English. Dodging traffic and 4 million bikes/scooters/coffe shops/bars taking over the pavements, I set off towards the venue for my first assignment which was a session about Peer Learning and the reuse of Content. Knowing very little about any of this I felt rather out of place; discussing the problems with education to people who train Uni lecturers is bizarre at best.
+Second day, first hangover. I had a very interesting evening drinking with a group of locals - who didn't speak a word of English. Dodging traffic and 4 million bikes/scooters/coffee shops/bars taking over the pavements, I set off towards the venue for my first assignment which was a session about Peer Learning and the reuse of Content. Knowing very little about any of this I felt rather out of place; discussing the problems with education to people who train Uni lecturers is bizarre at best.
 
 #### Encourage Content Reuse: Educate your users!
 

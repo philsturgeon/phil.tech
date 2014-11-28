@@ -27,7 +27,7 @@ Some new ideas happened at Kapture. We spent some time fleshing them out, I work
 
 I worked my ass off to get this O-1 visa. I was so fucking excited, ecstatic and grateful to get it too. Not only did it mean that the US government thought I was "extraordinary," but the support from the PHP community was amazing. 
 
-The PHP community proven itself capable of [great things](http://www.gofundme.com/b9dfcg). Everyone that replied to [this tweet](https://twitter.com/philsturgeon/status/464495467016245248) helped believe it or not. I had so many people say they had used and benefitted from my code that we actually supplied the replies as evidence. The support also came in the form of letters of recommendation, emails, introductions to people. 
+The PHP community proven itself capable of [great things](http://www.gofundme.com/b9dfcg). Everyone that replied to [this tweet](https://twitter.com/philsturgeon/status/464495467016245248) helped believe it or not. I had so many people say they had used and benefited from my code that we actually supplied the replies as evidence. The support also came in the form of letters of recommendation, emails, introductions to people.
 
 These names stuck out, and everyone on the list will be getting a bottle of something through the mail when I'm not financially crippled.
 

@@ -20,7 +20,7 @@ A killer feature of CloudIgniter is their one-click installs of CodeIgniter base
 - [PyroCMS](http://pyrocms.com/) - The modular open-source CodeIgniter CMS
 - [MyClientBase](http://www.myclientbase.com/) - Free and Open Source Invoice Management
 
-All of the CodeIgniter specific stuff aside, CloudIgniter is an impressive hosting service in it's own right with the ability to easily Clone/Disable/Edit Domains, standard SSH access, FTP, daily backups and automaticly set up Google Apps MX records for your domains. Each site will have a database set up and everything is configured for you.
+All of the CodeIgniter specific stuff aside, CloudIgniter is an impressive hosting service in it's own right with the ability to easily Clone/Disable/Edit Domains, standard SSH access, FTP, daily backups and automatically set up Google Apps MX records for your domains. Each site will have a database set up and everything is configured for you.
 
 CloudIgniter really makes the entire process as easy as possible and whether you are a new CodeIgniter user or a professional it will make deploying your sites much easier.
 

@@ -20,9 +20,9 @@ What started this off was Yet Another CI 2 question on the forums titled _ [Code
 
 > It’s not happening just yet. All the awesome features written for EE 2.0 are entirely separate to the CodeIgniter codebase. They have just extended and overridden the system to hell and will EVENTUALLY backport the features to CodeIgniter, therefore creating something that COULD be called CodeIgniter 2.0. It may be CodeIgniter 1.8, who knows.
 
-This started off a brilliant follow-up topic, named _ [CodeIgniter 2.1](http://codeigniter.com/forums/viewthread/133546/)_ and it seems I have now been marked as "The go-to guy" for CodeIgntier 2 questions (mainly to piss me off).
+This started off a brilliant follow-up topic, named _ [CodeIgniter 2.1](http://codeigniter.com/forums/viewthread/133546/)_ and it seems I have now been marked as "The go-to guy" for CodeIgniter 2 questions (mainly to piss me off).
 
-I figured, instead of just ranting about it, I could use this oppertunity to discuss what is, what is not and what **should** be going into CodeIgniter over the next few versions. This list is compiled from the Bug Report section of the forums, #codeigniter IRC chat room and a few replies to [@philsturgeon](http://twitter.com/philsturgeon).
+I figured, instead of just ranting about it, I could use this opportunity to discuss what is, what is not and what **should** be going into CodeIgniter over the next few versions. This list is compiled from the Bug Report section of the forums, #codeigniter IRC chat room and a few replies to [@philsturgeon](http://twitter.com/philsturgeon).
 
 _ **Note:** I have filtered quite a few "Can I haz YouTubes?!" from this list._
 

@@ -16,7 +16,7 @@ disqus_identifier: tumbleweed
 
 As you may have seen in my last article I'm currently off traveling the world (well, North America for now at least) and I wanted to give people a quick update as to what is going on with various projects while that is happening. The good news is nothing is being dropped and everything is coming along really nicely, but I'll just quickly explain what my projects are and why and how I stay involved with them all.
 
-Working on [CodeIgniter Reactor](http://codeigniter.com), [FuelPHP](http://fuelphp.com), [PancakeApp](http://pancakeapp.com), [PyroCMS](http://pyrocms.com), [Travlr](http://travlrapp.com), a day job and freelance stuff has always been a tough call and it may have seemed like I bit off more than I could chew, but realisticly most of them were mutually beneficial for a long time and there were less "ands" involved. Now for many reasons this has become a little more difficult.
+Working on [CodeIgniter Reactor](http://codeigniter.com), [FuelPHP](http://fuelphp.com), [PancakeApp](http://pancakeapp.com), [PyroCMS](http://pyrocms.com), [Travlr](http://travlrapp.com), a day job and freelance stuff has always been a tough call and it may have seemed like I bit off more than I could chew, but realistically most of them were mutually beneficial for a long time and there were less "ands" involved. Now for many reasons this has become a little more difficult.
 
 ### CodeIgniter Reactor
 

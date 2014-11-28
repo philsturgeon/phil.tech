@@ -50,7 +50,7 @@ This was like candy for many CI developers, who outright shunned CodeIgniter for
 
 ## Why is this bad?
 
-Many PHP developers (especially those well versed in Symfony and Zend) will say "Dependency Injection, obviously!" but not many developers in the CodeIgniter community have any real experience with DI is as the framework makes it pretty difficult - so thats not an argument I can use to explain things to those guys.
+Many PHP developers (especially those well versed in Symfony and Zend) will say "Dependency Injection, obviously!" but not many developers in the CodeIgniter community have any real experience with DI is as the framework makes it pretty difficult - so that's not an argument I can use to explain things to those guys.
 
 Instead another argument, one which was very valid for FuelPHP - which while mostly using statics as an interface for instance logic still had issues with statics, especially when HMVC was involved.
 

@@ -42,7 +42,7 @@ This creates a branch on user B's local repository, switches to it and pulls the
 
 ### Submitting work
 
-Now everybody has a branch, people can switch between master and v0.9.8-dev putting their code into whichever branch is relevant for the task. For this use the usual combination of git status, git add and git commit (a.k.a "S.A.C" = if you dont run status, add, then commit I will SAC your ass from the team).
+Now everybody has a branch, people can switch between master and v0.9.8-dev putting their code into whichever branch is relevant for the task. For this use the usual combination of git status, git add and git commit (a.k.a "S.A.C" = if you don't run status, add, then commit I will SAC your ass from the team).
 
 > git status
 
