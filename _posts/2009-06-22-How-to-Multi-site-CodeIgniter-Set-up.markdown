@@ -35,5 +35,5 @@ Now that CodeIgniter has its links working and it knows what site it is trying t
 
 The little snippet of code at the bottom will check to see if the SITE constant you have set matches up with a database group. If it doesn't, it will use the default configuration group.
 
-Your CodeIgniter set-up should now work with any domain you happen to point to it. You even run simple little if(SITE == 'example2') checks anywhere within your code to do special code for a certian site, although I would not recommend you doing this too heavily.
+Your CodeIgniter set-up should now work with any domain you happen to point to it. You even run simple little if(SITE == 'example2') checks anywhere within your code to do special code for a certain site, although I would not recommend you doing this too heavily.
 

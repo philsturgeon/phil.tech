@@ -18,7 +18,7 @@ I looked into a few options and decided on [Mosso](http://mosso.com) to be my cl
 
 With my hosting providers found, I had to pick my software. I decided to use [Virtualmin](http://virtualmin.com) as there is a free alternative that does basically everything you need from a VPS GUI and saves me the cost of paying for cPanel/WHM.
 
-This decision restricted my choice of Operating System a little, as sadly the newest version of Ubuntu that Virtualmin supports is 8.04 LTS. Thats good enough for me, and LTS means more applications will worry about supporting it.
+This decision restricted my choice of Operating System a little, as sadly the newest version of Ubuntu that Virtualmin supports is 8.04 LTS. That's good enough for me, and LTS means more applications will worry about supporting it.
 
 Anyhow, enough of that. Time to see my slightly drunken screencast in action.
 

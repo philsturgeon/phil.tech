@@ -38,7 +38,7 @@ I will not go into massive detail explaining the benefits of Git over SVN in thi
  
  
 
-As a downside, the only client I could find for Mac was [GitNub](http://wiki.github.com/Caged/gitnub) which is a repository viewer only. At least there is an Eclipse plugin for cross-platform support. I willl write up how well that works out when I have got it set up.
+As a downside, the only client I could find for Mac was [GitNub](http://wiki.github.com/Caged/gitnub) which is a repository viewer only. At least there is an Eclipse plugin for cross-platform support. I will write up how well that works out when I have got it set up.
 
  
  

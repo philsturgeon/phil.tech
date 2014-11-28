@@ -5,13 +5,13 @@ category: codeigniter
 permalink: blog/2010/09/what-happened-to-modular-separation
 excerpt: Modular Separation for CodeIgniter is no more. It has kicked the bucket,
   shuffled off the mortal coil, run down the curtain and joined the bleedin' choir
-  invisibile!! THIS IS AN EX-PARROT!!
+  invisible!! THIS IS AN EX-PARROT!!
 date: '2010-09-19 17:56:00'
 comments: 'true'
 disqus_identifier: what-happened-to-modular-separation
 ---
 
-[Modular Separation](http://codeigniter.com/wiki/Modular_Separation/) for CodeIgniter is no more. It has kicked the bucket, shuffled off the mortal coil, run down the curtain and joined the bleedin' choir invisibile!! THIS IS AN EX-PARROT!!
+[Modular Separation](http://codeigniter.com/wiki/Modular_Separation/) for CodeIgniter is no more. It has kicked the bucket, shuffled off the mortal coil, run down the curtain and joined the bleedin' choir invisible!! THIS IS AN EX-PARROT!!
 
 Obscure Monty Python references aside, support for Modular Separation has been dropped in place of Modular Extensions. Both projects were developed by [wiredesignz](http://twitter.com/wiredesignz) who has recently returned to active development after a period of inactivity.
 

@@ -14,7 +14,7 @@ disqus_identifier: CodeIgniter-Template-library
 
 Working with multiple views in CodeIgniter has always been a pain. Out of the box CodeIgniter provides no real way of having a layout file and the only way to get header/footer functionality is to put $this->load->view('header') in your views or in each controller and method.
 
-Obviously as a programmer I am lazy and don't want to do that. Years ago I made some dodgy helper which evolved into a library which I called **CodeIgniter Layout library**. The problem was this was a library that got used for loads of different applications, some modular, some not and ended up with a really confused set of features that were plain bodged together. It was so embarresingly screwed that I never released it, even though it is running 95% of all views in PyroCMS v0.9.7.
+Obviously as a programmer I am lazy and don't want to do that. Years ago I made some dodgy helper which evolved into a library which I called **CodeIgniter Layout library**. The problem was this was a library that got used for loads of different applications, some modular, some not and ended up with a really confused set of features that were plain bodged together. It was so embarrassingly screwed that I never released it, even though it is running 95% of all views in PyroCMS v0.9.7.
 
 During PyroCMS v0.9.8 development one of the first things to go was the Layout library, which has been entirely re-coded with my **[CodeIgniter Template library](/code/codeigniter-template "Template library for CodeIgniter")**.
 

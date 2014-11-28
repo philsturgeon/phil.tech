@@ -37,7 +37,7 @@ Benchmarking to see if "doing multiple things at once" is faster than "doing one
 
 I made [a repo](https://github.com/philsturgeon/nonblockingbro) and shoved a Vagrantfile in there with just the basic Ubuntu 12.10 image. I could have done up a whole Puppet manifest, but this will be a useful learning exercise for people who want to learn how to setup ReactPHP anyway. Vagrant up that box, then ssh in. All the test scripts are in there.
 
-I have no idea what version of PHP he is using because he does't actually say, but let's just go with PHP 5.5 ourselves because it is the current more recent stable version.
+I have no idea what version of PHP he is using because he doesn't actually say, but let's just go with PHP 5.5 ourselves because it is the current more recent stable version.
 
 {% highlight php %}
 $ sudo add-apt-repository ppa:ondrej/php5

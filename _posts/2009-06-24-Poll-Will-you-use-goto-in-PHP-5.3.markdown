@@ -12,7 +12,7 @@ disqus_identifier: Poll-Will-you-use-goto-in-PHP-5.3
 
 It has just come to my attention that PHP 5.3 will include the " [goto](http://us.php.net/goto)" keyword that exists in so many other programming languages.
 
-PHP 5.3 adds some great features such as lambda functions, namespaces and class constants, but this new feature in my eyes is a massvie step backwards for PHP and for all of us charged with the duty of maintaining other peopels code.
+PHP 5.3 adds some great features such as lambda functions, namespaces and class constants, but this new feature in my eyes is a massive step backwards for PHP and for all of us charged with the duty of maintaining other peoples code.
 
 The question I wish to ask, is " [Will you use goto in your PHP when 5.3 is released?](http://twtpoll.com/e9pghw)". Click to vote in the [twtpoll](http://twtpoll.com/).
 

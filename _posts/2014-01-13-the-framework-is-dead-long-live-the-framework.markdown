@@ -187,7 +187,7 @@ Generally speaking, it's impossible to be so polar about whether a "framework" i
 
 So... let's ship stuff? 
 
-No, thats a shitty bail-out ending. 
+No, that's a shitty bail-out ending.
 
 I think Brandon had a great point. We are moving away from the age of requiring these monolithic ZIP files, and we have some great tools that let us distribute these framework agnostic packages. We have a group of people working really fucking hard on making standards that help these packages work together better, so by the looks of things everything is on the up-and-up.
 

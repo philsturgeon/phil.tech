@@ -44,7 +44,7 @@ Mow for those of you who like Change-logs, here it is:
 - Renamed $this->module\_data to $this->module\_details to match details.php name.
 - Added a hook to check if installed, automatically redirecting to the installer if not. This can be disabled in config/hooks.php.
 - $this->data is no longer required. Thats right, use whatever variables you like in your controllers.
-- Tenplate library upgraded so mobile themes work!
+- Template library upgraded so mobile themes work!
 
 When put in this list, the rewrite doesn't seem as big but trust me, this has been absolutely massive! We've re-written pretty much every line of code and taken care of a ridiculous number of issues. We have more languages, better designs, better usability and everything is a whole bunch more slick.
 

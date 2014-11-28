@@ -41,7 +41,7 @@ I was initially disappointed that it lacked support for Git but found that the p
 
 ### What about the basics?
 
-Ok so we know it can support all the crazy "new trends" like Rails and Git but how does it handle the baiscs like HTML and CSS?
+Ok so we know it can support all the crazy "new trends" like Rails and Git but how does it handle the basics like HTML and CSS?
 
 Once again the answer is "Really fucking well". When editing HTML it will suggest closing tags for you but it wont automatically shove them in unless you hit Enter. NetBeans will also auto-indent your HTML and provide validation for unknown tags, incorrect attributes and it can do all of this even if you are working on HTML in a .php file. It will sense what you are writing and react accordingly instead of simply "this is a PHP file, treat is as such".
 
@@ -53,13 +53,13 @@ There is even a GUI for adding properties if you are a massive n00b, but I would
 
 Firstly, im not entirely sure what everyone is talking about when they mention "CodeIgniter auto-complete" but apparently, version 7.0 will have it...
 
-As I see it, auto-complete is useful for things like writing $this and having a list of possible options being shown up, but when you write $this->load the auto-complete stops. I assume thats where the magic "CodeIgntier support" would kick in and list helper/library/model/etc?
+As I see it, auto-complete is useful for things like writing $this and having a list of possible options being shown up, but when you write $this->load the auto-complete stops. I assume that's where the magic "CodeIgntier support" would kick in and list helper/library/model/etc?
 
 Whatever, the PHP OOP auto-complete in 6.8 is already helpful enough.
 
 ### Summary
 
-You won't very often hear me admit I'm wrong, but it does happen now and then. This is one case where I am perfectly happy to admit I am wrong and say that NetBeans is a vastly supiror IDE. It uses more memory than any other I have tried, but at the end of the day everything works perfectly and exactly how you would expect it to. That is enough for me to ignore the memory hogging and upgrade.
+You won't very often hear me admit I'm wrong, but it does happen now and then. This is one case where I am perfectly happy to admit I am wrong and say that NetBeans is a vastly supieror IDE. It uses more memory than any other I have tried, but at the end of the day everything works perfectly and exactly how you would expect it to. That is enough for me to ignore the memory hogging and upgrade.
 
 [Try NetBeans 6.8 today](http://netbeans.org/downloads/index.html). It's free and you will be very happy, especially if you are currently "putting up with" Eclipse or one of its ugly sisters.
 

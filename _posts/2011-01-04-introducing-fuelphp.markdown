@@ -41,7 +41,7 @@ This is not just me, I'm not even in charge of the project. This project belong 
 
 We've borrowed the Cascading File System from Kohana and improved it greatly. The use of namespaces help to keep Core classes, App classes and Package classes from conflicting and we have added some path definitions to the auto-load logic to drastically speed up the ![Fuel Directory Structure](https://s3.amazonaws.com/philsturgeon-blog/Screen_shot_2011-01-04_at_18.14_.24_.png)calling of classes.
 
-The Cascading File System is a hierarchy of similar directory structures that cascade. The heirarchy in used when a file is loaded by Fuel::find\_file() and checks core, packages / modules, application. At a very basic level this means you can have default config in the core and your own config in the application but it opens up awesome new options for things like default base controllers.
+The Cascading File System is a hierarchy of similar directory structures that cascade. The hierarchy in used when a file is loaded by Fuel::find\_file() and checks core, packages / modules, application. At a very basic level this means you can have default config in the core and your own config in the application but it opens up awesome new options for things like default base controllers.
 
 By default you have a [Controller\_Rest](http://fuelphp.com/docs/general/controllers/rest.html) and [Controller\_Template](http://fuelphp.com/docs/general/controllers/template.html) which any controller can extend instead of the usual "Controller" to get extra logic.
 

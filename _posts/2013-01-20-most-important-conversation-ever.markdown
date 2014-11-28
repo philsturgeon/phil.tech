@@ -24,7 +24,7 @@ But no, that stuff doesn't come close to the important conversations happening i
 
 ## snake_case or camelCase?
 
-Developers have been arguing about this since 1834 (or something) and it's not showing any signs of stopping. Most developers start off learning at home, and due to there being no consistent standard in PHP most people learned however the hell they wanted to learn. Their style preference often came from whatever framework, CMS, bullien board, etc they were using, and like me the first system I worked with was Postnuke, which was a fucking mess. Learning following that "style" meant I had no style, and when I eventually discovered CodeIgniter my code was much nicer at the time:
+Developers have been arguing about this since 1834 (or something) and it's not showing any signs of stopping. Most developers start off learning at home, and due to there being no consistent standard in PHP most people learned however the hell they wanted to learn. Their style preference often came from whatever framework, CMS, bulletin board, etc they were using, and like me the first system I worked with was Postnuke, which was a fucking mess. Learning following that "style" meant I had no style, and when I eventually discovered CodeIgniter my code was much nicer at the time:
 
 	$this->db->order_by('foo')->get_where('bar', ['baz' => 1])->result();
 	

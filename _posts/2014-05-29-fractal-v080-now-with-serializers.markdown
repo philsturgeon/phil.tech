@@ -188,7 +188,7 @@ Adding a named key to what is otherwise just a list confuses JSON:
 That `"0"` is there because you cannot mix index keys and non-indexed keys without JSON deciding to make
 it a structure (object) instead of a list (array).
 
-This is why ArraySerialzier is not recommended, but if you are not using meta data then... carry on.
+This is why ArraySerializer is not recommended, but if you are not using meta data then... carry on.
 
 
 ## JsonApiSerializer

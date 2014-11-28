@@ -52,7 +52,7 @@ Most projects have multiple environments; unless you're a cowboy coder who enjoy
 
 <em><strong>Update:</strong> Puppet does have environments, but you won't get that working with Vagrant. The Puppet / Vagrant integration only allows for the "manifests" and "modules" folders, but environments sit in their own folder at that level - meaning you can only work overrides for your other environments like Staging and Production. This might be ok for you, but it should be watched out for.</em>
 
-Chef offers "environments", which are a little ruby file where you give each environment a name and maybe a description. I have dev.rb, stag.rb and prod.rb. Prod and staging dont really do anything, but my develop has a few overridden attributes:
+Chef offers "environments", which are a little ruby file where you give each environment a name and maybe a description. I have dev.rb, stag.rb and prod.rb. Prod and staging don't really do anything, but my develop has a few overridden attributes:
 
     name "dev"
     description "The development environment"

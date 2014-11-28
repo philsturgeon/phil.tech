@@ -7,7 +7,7 @@ excerpt: Which version of PHP to use for anything is always much debated in the 
   community. I'm luck enough to have kissed sweet goodbye to PHP 5.2 a while back,
   but PHP 5.4 and PHP 5.3 are both actively used by different projects and recently
   I have come across a few packages that have been using PHP 5.4 almost exclusively
-  just to use short aray syntax, which to me is short sighted and selfish. I tried
+  just to use short array syntax, which to me is short sighted and selfish. I tried
   tweeting about this and everyone seemed to be a little confused, so instead of
   140 characters I thought I'd try 7051.
 date: '2013-03-23 21:02:00'

@@ -30,7 +30,7 @@ Expect dedication but don't expect the world. There have been numerous complaint
 
 Well it looks like we can't win eh? ;-)
 
-The Reactor Engineers are mostly people who work with CodeIgniter on a regular basis. Myself, I have been using CodeIgniter every single day on my 9-5 for the last 14 months and a fair bit for the 4 years before that, so I am around it alot. As somebody who uses CodeIgniter this much it is easily fair to say I have written more CodeIgniter based apps than EllisLab! As such I notice a lot of things that are missing or just plain broken and I really wanted to be in a situation where I could make those changes easily. When I notice an error, or a friend of mine working on a commerical app notices an error, or one of the 100 people who email me about CodeIgniter every single bloomin' day notices an error, I sure want to be able to fix is ASAP.
+The Reactor Engineers are mostly people who work with CodeIgniter on a regular basis. Myself, I have been using CodeIgniter every single day on my 9-5 for the last 14 months and a fair bit for the 4 years before that, so I am around it alot. As somebody who uses CodeIgniter this much it is easily fair to say I have written more CodeIgniter based apps than EllisLab! As such I notice a lot of things that are missing or just plain broken and I really wanted to be in a situation where I could make those changes easily. When I notice an error, or a friend of mine working on a commercial app notices an error, or one of the 100 people who email me about CodeIgniter every single bloomin' day notices an error, I sure want to be able to fix is ASAP.
 
 That is exactly the sort of thing the Engineers are about: helping to facilitate change.
 

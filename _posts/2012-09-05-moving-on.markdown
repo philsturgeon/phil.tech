@@ -35,7 +35,7 @@ Eventually EllisLab let the community have what it had been asking for. They ass
 
 ## CodeIgniter AND FuelPHP?
 
-This meant for a while I used both CodeIgniter and FuelPHP, which confused a lot of people. Simply put I would mainly use CodeIgniter when I was stuck using PHP 5.2 and FuelPHP when I was able to use PHP 5.3. Things like PyroCMS (a distributed application) and crummy old client servers (dear God why won't they let me upgrade them) meant that using PHP 5.2 (and therefore CodeIgniter) was a must for me, and so being in a position to fix bugs and add features was a massive oppertunity for me - and meant I wouldn't need to maintain my own "fork" of CodeIgniter.
+This meant for a while I used both CodeIgniter and FuelPHP, which confused a lot of people. Simply put I would mainly use CodeIgniter when I was stuck using PHP 5.2 and FuelPHP when I was able to use PHP 5.3. Things like PyroCMS (a distributed application) and crummy old client servers (dear God why won't they let me upgrade them) meant that using PHP 5.2 (and therefore CodeIgniter) was a must for me, and so being in a position to fix bugs and add features was a massive opportunity for me - and meant I wouldn't need to maintain my own "fork" of CodeIgniter.
 
 With this reputation in the CodeIgniter community, and with this position on the team, I started getting a lot of CodeIgniter jobs off the back of it. It was pretty cool being flown out to places like Chicago to work on projects for people using CodeIgniter, but I also ended up getting typecast. The number of CodeIgniter + Bootstrap dashboards I have made is only topped by the number of f**king CodeIgniter RESTful API's I've built. It's a lot.
 
@@ -43,7 +43,7 @@ As of a few weeks ago I have a new job and my whole situation has changed. I am 
 
 ## Sacking Off Work
 
-So with that big-ass changearound it seemed like a decent time to quit the CodeIgniter team. After-all I won't be using it, so why spend my own time working on it more than I have in the past? Just peer-reviewing incoming requests takes up about an hour a day and I just can't spare that time anymore. After-all, investing that time used to directly reflect in the freelance offers I would get, but I don't need to anymore. It might be selfish, but thats how it works.
+So with that big-ass changearound it seemed like a decent time to quit the CodeIgniter team. After-all I won't be using it, so why spend my own time working on it more than I have in the past? Just peer-reviewing incoming requests takes up about an hour a day and I just can't spare that time anymore. After-all, investing that time used to directly reflect in the freelance offers I would get, but I don't need to anymore. It might be selfish, but that's how it works.
 
 While I am at it I decided to quit the FuelPHP team too; I'm cutting right back.
 
