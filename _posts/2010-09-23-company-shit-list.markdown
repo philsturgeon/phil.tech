@@ -3,12 +3,8 @@ layout: post
 title: Sturgeons Shittiest Company Award '10
 category: personal
 permalink: blog/2010/09/company-shit-list
-excerpt: " \n\tLet's face it, none of us like dealing with big companies. Long waiting
-  times, script reading Indian call centers, uncaring supervisors and red tape. In
-  the last two months I have had several experiences beyond ridiculous so I thought
-  I'd share my list of companies that have pissed me off and why. "
 date: '2010-09-23 22:15:00'
-comments: 'true'
+comments: true
 disqus_identifier: company-shit-list
 ---
 
@@ -28,13 +24,15 @@ I had to shout quite a bit at Joel Apple Finance and some guy in the Barclays Un
 
 This company is a fucking joke on so many levels.
 
-This week was a ridiculous problem with me trying to find out what settings I would need to set up my router after a reset. Are they using DHCP? PPPoE? PPPoV? Who knows, so I phoned up. I had 4 people try to explain to me that I needed to set up Wi-Fi to get it working. Bare in mind I am using a Linux server hardwired into my router 5 meters away, and this was working perfectly before ![far side MidvaleSchoolForTheGifted](/application/uploads/default/assets/cache/8_246_355_90.jpg) I reset the router to factory default. I gave in and let them talk me through the WiFi setup, then when that magically didn't work they decided that I needed a new router. RETARDED!
+This week was a ridiculous problem with me trying to find out what settings I would need to set up my router after a reset. Are they using DHCP? PPPoE? PPPoV? Who knows, so I phoned up. I had 4 people try to explain to me that I needed to set up Wi-Fi to get it working. Bare in mind I am using a Linux server hardwired into my router 5 meters away, and this was working perfectly before I reset the router to factory default. I gave in and let them talk me through the WiFi setup, then when that magically didn't work they decided that I needed a new router.
+
+![Far Side Midvale School For The Gifted](/assets/article_images/2010-09-23-company-shit-list/far_side_school_for_the_gifted.jpg)
 
 Their worst offense was about a year ago. I switched from BT to Virgin and had to wait 8 weeks while they did some construction work to get a cable to my door. Fair enough, I can wait 8 weeks. The problem was the company that handled the construction just pretended to do the work and didn't actually bother. Virgin had to apply for planning permission: another 8 week wait. Repeat this process 3 or 4 times and I ended up waiting SIX MONTHS for internet. As a web developer, having the internet is slightly more than fucking convenient, good work guys.
 
 A very similar problem has left me with the wrong home phone number for 4 months. I'll have moved out again before they get that bloody number switched over!
 
-### The winner: PayPal
+### Winner: PayPal
 
 This company has caused me so much stress recently It wins the Official "Sturgeons Shittiest Company" award.
 
@@ -50,11 +48,8 @@ Thanks to PayPal, selling my iPhone for £200 has currently cost me £350.
 
 ### Summary
 
-If you run a company that provides support, employ people that know what the hell they are talking about. If you're using a brainless drone you might as well just have pre-recorded responses with voice recognition answering complex technical problems. These guys haven't got a clue! Example, Me: "Does Virgin use DHCP or PPPoE settings?" Them: "Yes". Great!
+If you run a company that provides support, employ people that know what the hell they are talking about. If you're using a brainless drone you might as well just have pre-recorded responses with voice recognition answering complex technical problems. These guys haven't got a clue! Example, Me: "Does Virgin use DHCP or PPPoE settings?" Them: "Yes." Great!
 
 If you work for a company that handles loans and finance, pay attention. Spell peoples names right and get their right fucking address on a contract. It REALLY can't be that hard.
 
 If you work for PayPal, burn the office down and shoot yourself in the face.
-
-</rant>
-

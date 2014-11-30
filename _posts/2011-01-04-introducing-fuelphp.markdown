@@ -13,9 +13,7 @@ comments: 'true'
 disqus_identifier: introducing-fuelphp
 ---
 
-It's been in development for the last two months but the new PHP 5.3 framework [FuelPHP](http://fuelphp.com/) is ready to see the light of day and <s>we're just about to roll out the v1.0.0-beta1</s> we've just rolled out [v1.0.0-beta1](http://fuelphp.com/news/2011/01/fuel-reaches-v1.0.0-beta1).
-
-![](http://fuelphp.com/addons/themes/fuelphp/img/fuel-h1-bg.png)
+It's been in development for the last two months but the new PHP 5.3 framework [FuelPHP](http://fuelphp.com/) is ready to see the light of day and <s>we're just about to roll out the v1.0.0-beta1</s> we've just rolled out [v1.0.0-beta1](http://fuelphp.com/blog/2011/01/fuel-reaches-v1.0.0-beta1).
 
 Now I know every developer and their dog has their own framework these days and it has become the new "entry script" like phpBB clones used to be, but being built by experienced framework "connoisseurs" FuelPHP is a good way towards breaking this stereotype.
 
@@ -41,17 +39,17 @@ This is not just me, I'm not even in charge of the project. This project belong 
 
 We've borrowed the Cascading File System from Kohana and improved it greatly. The use of namespaces help to keep Core classes, App classes and Package classes from conflicting and we have added some path definitions to the auto-load logic to drastically speed up the ![Fuel Directory Structure](https://s3.amazonaws.com/philsturgeon-blog/Screen_shot_2011-01-04_at_18.14_.24_.png)calling of classes.
 
-The Cascading File System is a hierarchy of similar directory structures that cascade. The hierarchy in used when a file is loaded by Fuel::find\_file() and checks core, packages / modules, application. At a very basic level this means you can have default config in the core and your own config in the application but it opens up awesome new options for things like default base controllers.
+The Cascading File System is a hierarchy of similar directory structures that cascade. The hierarchy in used when a file is loaded by `Fuel::find_file()` and checks core, packages / modules, application. At a very basic level this means you can have default config in the core and your own config in the application but it opens up awesome new options for things like default base controllers.
 
 By default you have a [Controller\_Rest](http://fuelphp.com/docs/general/controllers/rest.html) and [Controller\_Template](http://fuelphp.com/docs/general/controllers/template.html) which any controller can extend instead of the usual "Controller" to get extra logic.
 
-The way autoloader works means each \_ translates to being a / in the filepath. This means your controllers can do crazy stuff like:
+The way autoloader works means each `_` translates to being a `/` in the filepath. This means your controllers can do crazy stuff like:
 
-Controller\_API\_Users extends Controller\_API = app/classes/controller/api/users.php
+* `Controller_API_Users extends Controller_API` = `app/classes/controller/api/users.php`
 
-Controller\_API extends Controller\_Rest = app/classes/controller/api.php
+* `Controller_API extends Controller_Rest` = `app/classes/controller/api.php`
 
-Controller\_Rest extends Controller= core/classes/controller/rest.php
+* `Controller_Rest extends Controller` = `core/classes/controller/rest.php`
 
 Madness? It might look it at first, but this is incredibly useful when you understand the use of base controllers and it all works out of the box. No hacking around [like in CodeIgniter](/blog/2010/02/CodeIgniter-Base-Classes-Keeping-it-DRY).
 
@@ -59,7 +57,9 @@ Madness? It might look it at first, but this is incredibly useful when you under
 
 The whole system has been written to work with HMVC so you can make requests to other controllers and module controllers within your own controllers meaning you can do things like:
 
-`Request::factory('errors/twitter')->execute()`
+{% highlight php %}
+Request::factory('errors/twitter')->execute()
+{% endhighlight %}
 
 #### Packages
 
@@ -79,25 +79,23 @@ More on this kick-ass command line tool later.
 
 FuelPHP contains a very simple, lightweight and powerful ActiveRecord/ORM implementation based on the old but rather tastey [ActiveRecord-in-PHP](http://lukebaker.org/projects/activerecord-in-php/).
 
-    $slug = Model_Slug::find('first'); # SQL query to grab first slug
-    $slug->post; # an SQL query occurs behind the scenes to find the slug’s post
-    
-    
-    $p = Model_Post::find('first', array('include' => 'slug')); # SQL join
-    $p->slug; # no SQL query here because we already got this post’s slug in the SQL join in the previous line
-    
-    
-    $p = Model_Post::find('first');
-    
-    
-    $s = new Model_Slug(array('slug' => 'super-slug'));
-    $p->slug = $s; # assign a slug to this post
-    
-    
-    $p->slug->slug = 'foobar';
-    $p->save(); # cascading save (post and slug are saved)
+{% highlight php %}
+$slug = Model_Slug::find('first'); # SQL query to grab first slug
+$slug->post; # an SQL query occurs behind the scenes to find the slug’s post
 
-Why do you have to add Model\_ at the start? Because models are in the /classes/model/ folder just the same as controllers and any other classes.
+$p = Model_Post::find('first', array('include' => 'slug')); # SQL join
+$p->slug; # no SQL query here because we already got this post’s slug in the SQL join in the previous line
+
+$p = Model_Post::find('first');
+
+$s = new Model_Slug(array('slug' => 'super-slug'));
+$p->slug = $s; # assign a slug to this post
+
+$p->slug->slug = 'foobar';
+$p->save(); # cascading save (post and slug are saved)
+{% endhighlight %}
+
+Why do you have to add `Model_` at the start? Because models are in the `/classes/model/` folder just the same as controllers and any other classes.
 
 #### Oil command line utility
 
@@ -119,13 +117,8 @@ You can create and run unit tests with php oil test testname, test your code int
 
 ### Summary
 
-We already have our [documentation](http://fuelphp.com/docs/) in place with not much [left to go](http://typewith.me/4cfbj6hLHL). I have a joke website [amiafucktard.com](http://amiafucktard.com/kanye_west) up and running to test the Fuel codebase which covers HMVC, Models, ActiveRecord, Caching, Session, Cookies, Forms, Templating and plenty more. If you want to have a look at the code it's all freely [available on GitHub](https://github.com/philsturgeon/amiafucktard.com) and another example site is [ScrapYrd.com](http://scrapyrd.com/) by Dan Horrigan, which will also be available on GitHub soon.
-
-It is still early says and you will most likely find bugs. Hell, it's not BETA yet but on the whole this framework is nearly there and it's [pretty damn quick](http://dhorrigan.com/blog/article/how-fast-is-fuel).
+We already have our [documentation](http://fuelphp.com/docs/) in place with not much [left to go](http://typewith.me/4cfbj6hLHL). It is still early says and you will most likely find bugs. Hell, it's not BETA yet but on the whole this framework is nearly there and it's [pretty damn quick](http://dhorrigan.com/blog/article/how-fast-is-fuel).
 
 Download it, give it a try and let me, Dan and the team know what you think! Swing by the IRC channel [#fuelphp](irc://irc.freenode.net/#fuelphp) to have a chat and if you find bugs you can put them on GitHub.
 
 > _ **Note:** Please do not take any of this article as me expressing any concern, issue or negative points about CodeIgniter. I still love the framework and use it every day. I am a man with many mistresses, hell I use Rails and still write in PHP. This is another new option, not a replacement. I'm not stopping working with CodeIgniter and am still contributing to [CodeIgniter Reactor](http://codeigniter.com/news/reactor_update/)._
-
-_  _
-

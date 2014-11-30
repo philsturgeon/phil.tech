@@ -12,7 +12,7 @@ comments: 'true'
 disqus_identifier: send-psr0-to-the-standards-farm-in-the-sky
 ---
 
-This article attempts to convince you that deprecating the PSR-0 auto-loading standard in favor of the PSR-4 auto-loading standard is not only a good idea, but a problemless wonderland of happy benefits, in the hope that when I try to get this done on the FIG mailing list, people will be happy about it instead of sad or rage-mode.
+This article attempts to convince you that deprecating the PSR-0 auto-loading standard in favor of the PSR-4 auto-loading standard is not only a good idea, but a problem-less wonderland of happy benefits, in the hope that when I try to get this done on the FIG mailing list, people will be happy about it instead of sad or rage-mode.
 
 In December 2013, the PHP-FIG voted PSR-4 into place, which Paul Jones and a few others always billed as an "alternative" to PSR-0. I believe it was talked about as an alternative at the time because we _knew_ that the PHP community would drop their collective bricks if we tried to pull PSR-0 out from under them, right as they were just slowly getting used to using it. It was always going to be bumped off at some point - in my head, but left to co-exist with PSR-0 for a while to ease the transition.
 
@@ -37,7 +37,7 @@ Well imaginary interviewer who has been constructed purely as a narrative device
 
 PSR-0 was made back in 2009 when the group was smaller, less experienced (it was their first standard), and it had some troubles that only came to light at a later date. 
 
-Anthony Ferrara [listed a bunch of troubles](http://blog.ircmaxell.com/2011/11/on-psr-0-being-included-in-phps-core.html). He was mostly talking about why it should not be included in the core of PHP, and - as a quick sidenote - I agree with that part entirely. If PSR-0 is ever deprecated at some point then having it baked into PHP means it will be stuck with us for about 15 years. No ta.
+Anthony Ferrara [listed a bunch of troubles](http://blog.ircmaxell.com/2011/11/on-psr-0-being-included-in-phps-core.html). He was mostly talking about why it should not be included in the core of PHP, and - as a quick side-note - I agree with that part entirely. If PSR-0 is ever deprecated at some point then having it baked into PHP means it will be stuck with us for about 15 years. No ta.
 
 Other than the "why it shouldn't be in the core" arguments, he listed some inconsistencies:
 
@@ -53,7 +53,7 @@ PSR-4 fixed that.
 >  - \Foo\Bar_Baz
 >  - \Foo_Bar_Baz
 
-Absolutely, that is a mess. I explained this in the [PSR-0 Naming Oddityy](https://github.com/philsturgeon/psr0-naming-oddity). This has only once caused me a problem in development and never any sort of issue in production, but it is a WTF that should be taken care of.
+Absolutely, that is a mess. I explained this in the [PSR-0 Naming Oddity](https://github.com/philsturgeon/psr0-naming-oddity). This has only once caused me a problem in development and never any sort of issue in production, but it is a WTF that should be taken care of.
 
 PSR-4 fixed that.
 
