@@ -11,7 +11,7 @@ The answer to "What is the State of Markdown?" is "Yes, it's a f**king state."
 
 [Markdown] has been around for a long time, since John Gruber released it in 2004. 
 
-Since then everyone and their dog has come up with extensions, some of which are build as implementations 
+Since then everyone and their dog has come up with extensions, some of which are built as implementations 
 then referenced almost like standards by other implementations.
 
 * [PHP Markdown Extra] - "Markdown Extra is an extension to PHP Markdown implementing some features currently not available with the plain Markdown syntax."
@@ -33,7 +33,7 @@ Some of the differences in these syntaxes are insane.
 * [Setext header with two spaces at the end](http://johnmacfarlane.net/babelmark2/?normalize=1&text=hello++%0A-----%0A%0A%0A)
 * [More...](http://johnmacfarlane.net/babelmark2/faq.html#other)
 
-Some of these might seem like edge-cases or contrived examples, but I have run into a few of those and more.
+Maybe those examples seem like edge-cases or contrived examples, but I have run into a few of those and more.
 
 [Markdown]: http://daringfireball.net/projects/markdown/
 [kramdown]: http://kramdown.gettalong.org
@@ -41,7 +41,7 @@ Some of these might seem like edge-cases or contrived examples, but I have run i
 
 ## Every Day Issues
 
-The most recent issues for me came from switching this website from [PyroCMS] to [Jekyll], as the content was mostly in Markdown anyway; specifically in the form of [PHP Markdown Extra].
+The most recent issues for me came from switching this website from [PyroCMS] to [Jekyll]. The content was mostly in Markdown already so this was fairly easy, but more specifically it was using [PHP Markdown Extra].
 
 I ran into a few issues with [kramdown] and [Redcarpet] both building a version of my content that was
 subtly broken in various ways. One specific issue was with [lists inside blockquotes].
@@ -53,7 +53,7 @@ subtly broken in various ways. One specific issue was with [lists inside blockqu
 >  - \Foo_Bar_Baz
 {% endhighlight %}
 
-That ended up outputting like this:
+The result of that Markdown when run through kramdown looked like this:
 
 {% highlight html %}
 <blockquote>
@@ -66,8 +66,8 @@ That ended up outputting like this:
 
 Notice how the list items are not parsed at all and just shoved in as plain-text.
 
-I'm not just picking on kramdown here. One particular block of text comes out [incredibly differently] in
-most implementations when run through Babelmark 2. 
+I'm not just picking on kramdown here, as this one particular block of text comes out [incredibly differently]
+in most implementations when compared on Babelmark 2. 
 
 Pandoc just chews half of the content out of the list items and leaves some dashes in place:
 
@@ -246,7 +246,7 @@ Stop. Reading that hurt my brain. No more of these please.
 Use CommonMark. Pick an implementation for your blog, book or whatever that actively mentions supporting
 CommonMark; either as the only supported specification or as a driver.
 
-If you're a PHP developer, grab a copy of [colinodell/commonmark-php], which will soon be moving over to
+If you are working with PHP, grab a copy of [colinodell/commonmark-php], which will soon be moving over to
 [The League of Extraordinary Packages](http://thephpleague.com). It's specification compliant and will be 
 following the progress of CommonMark as they work out however they're gonna do directives or extensions.
 
@@ -265,17 +265,18 @@ comedian links me to [XKCD: Standards #927](https://xkcd.com/927/).
 
 ![Fortunately, the charging one has been solved now that we've all standardized on mini-USB. Or is it micro-USB? Shit.](/assets/article_images/2014-11-30-state-of-markdown/standards.png)
 
-If StackOverflow, GitHub and the others implementing CommonMark all had their own flavors before,
-then we are reducing the number of flavors out there purely by letting these folks get on with it.
+If StackOverflow, GitHub and the others hashing out CommonMark all had their own flavors before,
+then they are reducing the number of flavors out there purely by letting these folks get on with it.
 
-If people ignore CommonMark then the only gain might be making a few websites work the same with user-entered
-Markdown, but think again about implementations. The fact that every single implementation
+If end-users ignore CommonMark then the only gain might be making a few websites work the same with user-
+entered Markdown, but think again about implementations. The fact that every single implementation
 right now is doing something entirely different, we actually have hundreds of "standards."
 
 With implementations starting to lean towards CommonMark as a definitive guide of how to handle certain 
-situations, then we will slowly have fewer and fewer competing results and we won't be in the situation XKCD describes.
+situations, we will slowly have fewer and fewer differing results and we won't be in the situation XKCD 
+describes.
 
-This XKCD comic is more how I see things going: 
+This XKCD comic is closer to how things should be going: 
 
 ![ISO 8601](/assets/article_images/2014-11-30-state-of-markdown/iso_8601.png)
 
