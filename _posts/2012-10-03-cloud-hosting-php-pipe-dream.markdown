@@ -10,7 +10,7 @@ excerpt: This time last year I was extremely excited about the future of Heroku-
   2012 would be the year for PHP to move to the cloud. This is an account of why after
   a year it still sucks.
 date: '2012-10-03 12:56:00'
-comments: 'true'
+comments: true
 disqus_identifier: cloud-hosting-php-pipe-dream
 ---
 

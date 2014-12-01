@@ -11,7 +11,7 @@ excerpt: " \n\tThe CodeIgniter Community has decided to have a little holiday th
   teaching you the basics if you are pretty new to CodeIgniter, or an advanced track
   showing you how to do some crazy stuff. Something for everyone! "
 date: '2011-04-19 17:29:00'
-comments: 'true'
+comments: true
 disqus_identifier: the-codeigniter-community-goes-on-holiday-to-nyc
 ---
 

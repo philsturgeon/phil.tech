@@ -12,7 +12,7 @@ excerpt: " \n\tThe world today has a lot of hot topics that need to be discussed
   come close to the important conversations happening in comment threads of blogs
   all over the PHP community. Let's discuss what really matters. "
 date: '2013-01-20 15:16:00'
-comments: 'true'
+comments: true
 disqus_identifier: most-important-conversation-ever
 ---
 

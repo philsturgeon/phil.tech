@@ -7,7 +7,7 @@ excerpt: I have recently starting using Google Analytic's to track this web-site
   as such I have suddenly started to care about improving its SEO while creating Google
   Analytic friendly URL's.
 date: '2009-05-19 12:03:00'
-comments: 'true'
+comments: true
 disqus_identifier: CodeIgniter-Canonical-links
 ---
 

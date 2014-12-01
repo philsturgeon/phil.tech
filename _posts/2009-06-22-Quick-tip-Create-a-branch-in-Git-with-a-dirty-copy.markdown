@@ -7,7 +7,7 @@ excerpt: We've all done it. Started working on a task, ticket or issue and reali
   we have forgotten to create a branch. Using git stash we can easily hide these changes,
   create a branch and then get the changes back.
 date: '2009-06-22 10:21:00'
-comments: 'true'
+comments: true
 disqus_identifier: Quick-tip-Create-a-branch-in-Git-with-a-dirty-copy
 ---
 

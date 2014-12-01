@@ -7,7 +7,7 @@ excerpt: " \n\tPeople have always said my Template library for CodeIgniter is po
   but f**king confusing. Well now I have written up some documentation, which anybody
   who knows me or my work is VERY unusual... "
 date: '2010-10-25 16:17:00'
-comments: 'true'
+comments: true
 disqus_identifier: template-library-gets-documentation
 ---
 

@@ -7,7 +7,7 @@ excerpt: There are a few major, important conversations happening in the PHP int
   mailing list as we speak... and then there is the discussion about calling the version
   that comes after PHP 5 either PHP 6 or PHP 7. Um?
 date: '2014-07-23 15:24:00'
-comments: 'true'
+comments: true
 disqus_identifier: neverending-muppet-debate-of-php-6-v-php-7
 ---
 

@@ -10,7 +10,7 @@ excerpt: The PHP Framework Interoperability Group (PHP-FIG) has been around for 
   clearly defined path, with obvious steps along the way which not only increase the
   signal to noise ratio, but help get us more awesome PSRs faster.
 date: '2013-08-14 20:50:00'
-comments: 'true'
+comments: true
 disqus_identifier: progress-in-the-phpfig
 ---
 

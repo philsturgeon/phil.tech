@@ -11,7 +11,7 @@ excerpt: " \n\tSo we all know that the internet is full of frameworks. They've b
   that has shaken a few opinions up I thought it would be interesting to share my
   thoughts and views on the situation. "
 date: '2011-04-11 00:51:00'
-comments: 'true'
+comments: true
 disqus_identifier: why-write-a-new-framework
 ---
 

@@ -7,7 +7,7 @@ excerpt: 'If you have a project that you would like to add a Twitter feed to, bu
   do not want to add in a massive library for the one feed, take a look at this very
   simple PHP snippet that will give you full synatx support. '
 date: '2009-07-28 09:32:00'
-comments: 'true'
+comments: true
 disqus_identifier: How-to-Create-a-Twitter-feed-with-full-syntax-support
 ---
 

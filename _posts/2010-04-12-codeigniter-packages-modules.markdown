@@ -8,7 +8,7 @@ excerpt: 'So many people are asking about the new Packages feature in CodeIgnite
   different concepts and should not be confused. Hopefully that is enough convincing
   for most of you but if you need to know more, read on. '
 date: '2010-04-12 00:49:50'
-comments: 'true'
+comments: true
 disqus_identifier: codeigniter-packages-modules
 ---
 

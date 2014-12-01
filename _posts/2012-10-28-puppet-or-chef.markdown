@@ -8,7 +8,7 @@ excerpt: Back in the UK at PHPNE this May I saw an awesome talk from Ian Chilton
   a good idea. He mentioned briefly server provisioning but didn't get fully into
   it, and suggested we go out and play with Puppet and Chef to see which fit our needs. 
 date: '2012-10-28 20:13:00'
-comments: 'true'
+comments: true
 disqus_identifier: puppet-or-chef
 ---
 

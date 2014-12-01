@@ -11,7 +11,7 @@ excerpt: A new version of Fractal is out, which is a package aimed at making lif
   you expect without hardcoding it to always display. The new version provides some
   serializers, to allow you to change the way that data is represented as output.
 date: '2014-05-29 14:13:00'
-comments: 'true'
+comments: true
 disqus_identifier: fractal-v080-now-with-serializers
 ---
 

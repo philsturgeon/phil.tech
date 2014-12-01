@@ -7,7 +7,7 @@ excerpt: Application development going a bit slowly? Take a power dump() and get
   back on track. This handy little PHP function will output the what, why, when, where
   of your variables and help you get back on track.
 date: '2010-09-28 19:04:00'
-comments: 'true'
+comments: true
 disqus_identifier: power-dump-php-applications
 ---
 

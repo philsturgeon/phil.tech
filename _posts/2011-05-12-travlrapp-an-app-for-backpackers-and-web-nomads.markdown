@@ -14,7 +14,7 @@ excerpt: " \n\tThis summer I'll be travelling around U.S.A with nothing much mor
   been up to. Currently it is in private beta, but invites are available to anyone
   who subscribes on the homepage, and existing users have 10 invites. "
 date: '2011-05-12 22:17:00'
-comments: 'true'
+comments: true
 disqus_identifier: travlrapp-an-app-for-backpackers-and-web-nomads
 ---
 

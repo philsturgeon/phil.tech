@@ -10,7 +10,7 @@ excerpt: We work in an industry where far too many people pretend that everythin
   and never admit that it became outdated. That is unrealistic bullshit and I am asking
   you to stop.
 date: '2014-08-15 22:10:00'
-comments: 'true'
+comments: true
 disqus_identifier: stop-pretending-everything-is-ok
 ---
 

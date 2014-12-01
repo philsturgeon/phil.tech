@@ -7,7 +7,7 @@ excerpt: 'Stable and unstable branches mean that while you work on a new version
   your software, you maintain the current   version by working on bug-fixes and small
   tweaks. Find out how to achieve this using Git. '
 date: '2009-11-30 18:42:00'
-comments: 'true'
+comments: true
 disqus_identifier: Managing-stable-and-unstable-branches-in-Git
 ---
 

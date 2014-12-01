@@ -8,7 +8,7 @@ excerpt: Setting up HTTP proxies in Apache can be handy for many reasons. If you
   with a remote URL or do any other similar activities, you may be slightly fed up
   with having to keep track of all the different port numbers they use.
 date: '2008-11-28 11:12:00'
-comments: 'true'
+comments: true
 disqus_identifier: Creating-proxies-with-Apache
 ---
 

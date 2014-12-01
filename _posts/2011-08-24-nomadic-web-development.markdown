@@ -10,7 +10,7 @@ excerpt: " \n\tAnyone following me on Twitter will have seen tweets coming in fr
   making a profit on traveling the world. A few friends wanted to know more so they
   could do it themselves, so how can you? "
 date: '2011-08-24 03:22:00'
-comments: 'true'
+comments: true
 disqus_identifier: nomadic-web-development
 ---
 

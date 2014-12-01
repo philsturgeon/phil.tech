@@ -7,7 +7,7 @@ excerpt: The other day I thought to myself, I really should be using a RVM gemse
   for my "devops" repo, which contains all my Vagrant and Chef logic (along with submodules
   for everything else). This broke everything, but I got there in the end.
 date: '2013-04-26 22:00:00'
-comments: 'true'
+comments: true
 disqus_identifier: vagrant-and-chef-upgrade-party
 ---
 

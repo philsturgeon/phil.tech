@@ -8,7 +8,7 @@ excerpt: Learn how to set up the best BitTorrent client for your Ubuntu Server r
   on boot to download all your torrents without hogging your terminal like rTorrent,
   and enable the beautiful Clutch web interface.
 date: '2009-02-27 19:14:00'
-comments: 'true'
+comments: true
 disqus_identifier: How-to-Install-Transmission-CLI-to-Ubuntu-Server
 ---
 

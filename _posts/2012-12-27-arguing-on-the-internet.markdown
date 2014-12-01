@@ -10,7 +10,7 @@ excerpt: " \n\tI have referenced Shawn McCool's blog a few times, \"Why CodeIgni
   of those opinions change over time - which is fair enough. My opinions aside, his
   original article was wrong on a few points, so let's discuss those. "
 date: '2012-12-27 16:53:00'
-comments: 'true'
+comments: true
 disqus_identifier: arguing-on-the-internet
 ---
 

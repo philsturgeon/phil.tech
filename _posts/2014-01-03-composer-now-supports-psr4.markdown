@@ -10,7 +10,7 @@ excerpt: 'I haven''t really posted about PSR-4 here, but if you follow me on Twi
   that reflects what this truly is: an improvement on PSR-0. Time to upgrade your
   packages, but don''t release them just yet.'
 date: '2014-01-03 23:27:00'
-comments: 'true'
+comments: true
 disqus_identifier: composer-now-supports-psr4
 ---
 

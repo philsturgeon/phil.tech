@@ -10,7 +10,7 @@ excerpt: A little while back I produced an article called Building a Decent API 
   write more in-depth on various aspects of API development that you need to know
   if you're going to build something that isn't a total mess.
 date: '2013-11-08 18:32:00'
-comments: 'true'
+comments: true
 disqus_identifier: build-apis-part-1-useful-database-seeding
 ---
 

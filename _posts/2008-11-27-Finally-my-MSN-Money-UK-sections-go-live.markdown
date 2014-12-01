@@ -7,7 +7,7 @@ excerpt: The company I work for have a contract with MSN to create some new sect
   for MSN Money UK on the topics of Funds, Pensions and Currency services, and my
   task was to code them all...!
 date: '2008-11-27 09:56:00'
-comments: 'true'
+comments: true
 disqus_identifier: Finally-my-MSN-Money-UK-sections-go-live
 ---
 

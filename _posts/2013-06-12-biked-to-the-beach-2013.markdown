@@ -7,7 +7,7 @@ excerpt: Last month I posted about an upcoming bike century called Bike to the B
   As lots of you were amazingly generous with sponsorship money I figured it would
   be rude not to post a review.
 date: '2013-06-12 14:28:00'
-comments: 'true'
+comments: true
 disqus_identifier: biked-to-the-beach-2013
 ---
 

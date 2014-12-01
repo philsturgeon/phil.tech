@@ -11,7 +11,7 @@ excerpt: " \n\tThe reason these applications do well is because PHP hosting has 
   a viable option not just for in-house teams but for those building distributable
   applications too. Finally bidding farewell to PHP 5.2 feels good! "
 date: '2012-10-11 11:43:00'
-comments: 'true'
+comments: true
 disqus_identifier: bye-bye-php-5-2
 ---
 

@@ -10,7 +10,7 @@ excerpt: After doing my 100 mile bike ride to raise money for autism research, I
   and homelessness. This work is being done with the hope of one day putting AIDS
   behind us.
 date: '2013-07-03 15:18:00'
-comments: 'true'
+comments: true
 disqus_identifier: geeks-giving-for-aids
 ---
 

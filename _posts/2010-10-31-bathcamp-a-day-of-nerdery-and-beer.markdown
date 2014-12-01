@@ -11,7 +11,7 @@ excerpt: " \n\tI have been to several conferences, unconferences and local BathC
   I got to speak with a lot of other Ruby geeks while I was there and see Elliot Kember
   in action smashing a few crazy little applications out at great speed. "
 date: '2010-10-31 11:59:00'
-comments: 'true'
+comments: true
 disqus_identifier: bathcamp-a-day-of-nerdery-and-beer
 ---
 

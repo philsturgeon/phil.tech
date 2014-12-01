@@ -9,7 +9,7 @@ excerpt: " \n In this article I explain the pro's and con's of working with thre
   junk most people do and goes on to explain some of the issues faced when using these
   services in slightly \"out of the ordinary\" conditions. "
 date: '2011-02-08 22:30:00'
-comments: 'true'
+comments: true
 disqus_identifier: geocoding-apis-compared
 ---
 

@@ -8,7 +8,7 @@ excerpt: 'I''ve been using Matchbox in one of its many forms for several years -
   not use CodeIgniter without it. After all this time an alternative has come along
   with all Matchbox''s features and more. '
 date: '2009-11-19 17:08:00'
-comments: 'true'
+comments: true
 disqus_identifier: Goodbye-Matchbox-Hello-Modular-Separation
 ---
 

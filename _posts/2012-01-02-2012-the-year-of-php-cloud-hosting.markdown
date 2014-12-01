@@ -11,7 +11,7 @@ excerpt: " \n\tCloud hosting is nothing new. Seeing as \"cloud\" is such a loose
   of your applications and services across to the cloud, and this article can hopefully
   help you work out why and how. "
 date: '2012-01-02 21:18:00'
-comments: 'true'
+comments: true
 disqus_identifier: 2012-the-year-of-php-cloud-hosting
 ---
 

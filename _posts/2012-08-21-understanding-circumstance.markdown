@@ -6,7 +6,7 @@ permalink: blog/2012/08/understanding-circumstance
 excerpt: '"I have been working for years in this industry and I have never needed
   to do what you do. Therefore your opinion is obviously wrong."'
 date: '2012-08-21 23:58:00'
-comments: 'true'
+comments: true
 disqus_identifier: understanding-circumstance
 ---
 

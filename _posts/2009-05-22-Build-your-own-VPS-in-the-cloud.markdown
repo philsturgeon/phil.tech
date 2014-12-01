@@ -8,7 +8,7 @@ excerpt: After getting fed up with a clunky old VPS running a borked copy of Cen
   reliability. Watch my screencast on how to set up an Ubuntu 8.04 cloud web server
   to serve your content over the web.
 date: '2009-05-22 09:58:00'
-comments: 'true'
+comments: true
 disqus_identifier: Build-your-own-VPS-in-the-cloud
 ---
 

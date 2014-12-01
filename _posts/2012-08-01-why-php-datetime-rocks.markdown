@@ -11,7 +11,7 @@ excerpt: Working as a freelancer and contractor sometimes I come across some cod
   to see how clean I can make them with PHP 5.3 + code and DateTime has saved me a
   lot of lines.
 date: '2012-08-01 15:12:00'
-comments: 'true'
+comments: true
 disqus_identifier: why-php-datetime-rocks
 ---
 

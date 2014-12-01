@@ -8,7 +8,7 @@ excerpt: 'Working with multiple views in CodeIgniter has always been a pain. Out
   functionality. This library makes the whole process very easy and gives lots of
   useful methods for shared output. '
 date: '2009-12-29 10:38:00'
-comments: 'true'
+comments: true
 disqus_identifier: CodeIgniter-Template-library
 ---
 

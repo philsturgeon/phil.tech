@@ -6,7 +6,7 @@ redirect_from: /blog/2014/10/what-is-the-league-of-extraordinary-packages/
 excerpt: This is the story of group of friends, who decided to write some code, but
   somehow confused and angered everyone with a keyboard.
 date: '2014-10-16 14:00:00'
-comments: 'true'
+comments: true
 disqus_identifier: what-is-the-league-of-extraordinary-packages
 ---
 

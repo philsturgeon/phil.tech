@@ -6,7 +6,7 @@ permalink: blog/2009/01/DateTime-objects-Start-month-end-month-first-Monday-etc
 excerpt: Throw away `strtotime()` and `date()` and check out PHP's funky DateTime objects
   for much greater control over your dates.
 date: '2009-01-12 08:24:00'
-comments: 'true'
+comments: true
 disqus_identifier: DateTime-objects-Start-month-end-month-first-Monday-etc
 ---
 

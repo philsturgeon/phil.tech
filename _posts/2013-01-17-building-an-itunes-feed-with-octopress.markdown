@@ -9,7 +9,7 @@ excerpt: " \n\t  \n \n\tOctopress is a great little CMS for hackers and it work
   site I've built with Octopress is for a new podcast I co-host with Ben Edmunds called
   PHP Town Hall. It needed an iTunes compatible RSS feed, so I built one. "
 date: '2013-01-17 04:12:00'
-comments: 'true'
+comments: true
 disqus_identifier: building-an-itunes-feed-with-octopress
 ---
 

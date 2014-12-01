@@ -9,7 +9,7 @@ excerpt: I answered a question on Quora a while ago, which was long enough to de
   people whine about that either don't matter - or are being worked on for future
   versions.
 date: '2012-12-02 21:02:00'
-comments: 'true'
+comments: true
 disqus_identifier: why-some-people-hate-php
 ---
 

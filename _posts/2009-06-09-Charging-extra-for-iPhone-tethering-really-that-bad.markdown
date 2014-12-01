@@ -7,7 +7,7 @@ excerpt: 'There seams to be a great deal of anger on the Internet over the new i
   I agree with the outrage over upgrade costs, but I have to disagree with iPhone
   fans complaining about the tethering costs. '
 date: '2009-06-09 12:01:00'
-comments: 'true'
+comments: true
 disqus_identifier: Charging-extra-for-iPhone-tethering-really-that-bad
 ---
 

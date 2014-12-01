@@ -9,7 +9,7 @@ excerpt: " \n Times have been hard for the developers of CodeIgniter - EllisLab 
   plan to take things forward. Sadly, as always us CodeIgniter developers have been
   left with not much more than a nod and a pat on the head. "
 date: '2010-10-27 15:07:00'
-comments: 'true'
+comments: true
 disqus_identifier: what-happens-next
 ---
 

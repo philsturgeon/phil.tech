@@ -9,7 +9,7 @@ excerpt: Based on Twiny framework and my CodeIgniter REST server I have created 
   PUT, DELETE requests with ease and return  data in XML, JSON, HTML tables, Serialize,
   PHP syntax and CSV.
 date: '2010-04-28 00:03:20'
-comments: 'true'
+comments: true
 disqus_identifier: tiny-rest-framework
 ---
 

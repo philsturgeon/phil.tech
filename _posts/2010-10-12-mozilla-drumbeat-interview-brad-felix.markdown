@@ -7,7 +7,7 @@ excerpt: 'With the awesome Mozilla Drumbeat festival less than a month away, I''
   been talking to one of the featured participants: Brad Felix, Chief Learning Officer
   of Flat World Knowledge.'
 date: '2010-10-12 18:10:00'
-comments: 'true'
+comments: true
 disqus_identifier: mozilla-drumbeat-interview-brad-felix
 ---
 

@@ -8,7 +8,7 @@ excerpt: " \n Most web-applications currently use automated e-mail's to let an a
   Push Notifications to get an alert to you immediately without having to check a
   thing? "
 date: '2009-11-21 13:19:00'
-comments: 'true'
+comments: true
 disqus_identifier: Send-iPhone-notifications-from-CodeIgniter
 ---
 

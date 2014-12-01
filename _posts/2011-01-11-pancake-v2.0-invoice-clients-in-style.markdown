@@ -10,7 +10,7 @@ excerpt: " \n\tPancake Payments is a super awesome invoicing application that li
   brought to you by some of the people behind PyroCMS and other CodeIgniter projects
   like CloudIgniter! "
 date: '2011-01-11 21:51:00'
-comments: 'true'
+comments: true
 disqus_identifier: pancake-v2.0-invoice-clients-in-style
 ---
 

@@ -7,7 +7,7 @@ excerpt: CodeIgniter Con 2010 is the first all-CodeIgniter conference and is bei
   run in the UK. This means anyone who couldn't make it to San Francisco this month
   for EECI2010 will be able to "get their nerd on" with some well known CI developers.
 date: '2010-06-15 10:19:00'
-comments: 'true'
+comments: true
 disqus_identifier: codeigniter-con-2010-coming-soon
 ---
 

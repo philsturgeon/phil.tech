@@ -8,7 +8,7 @@ excerpt: As a massive fan of CodeIgniter I was pretty excited to be attending th
   EllisLabs development team and lots of other CodeIgniter nerds. Now as a last minute
   replacement I will actually be speaking at the event too!
 date: '2009-10-16 17:02:00'
-comments: 'true'
+comments: true
 disqus_identifier: Speaking-at-EECI2009-in-Leiden-Holland
 ---
 

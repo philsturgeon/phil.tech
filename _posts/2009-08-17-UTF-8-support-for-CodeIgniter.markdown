@@ -7,7 +7,7 @@ excerpt: 'Writing a CodeIgniter application is easy. Writing a CodeIgniter appli
   that supports all characters from multiple languages? Not so easy. Find out how
   to support UTF-8 content in CodeIgniter. '
 date: '2009-08-17 15:05:00'
-comments: 'true'
+comments: true
 disqus_identifier: UTF-8-support-for-CodeIgniter
 ---
 

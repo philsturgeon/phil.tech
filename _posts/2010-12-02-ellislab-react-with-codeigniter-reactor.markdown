@@ -9,7 +9,7 @@ excerpt: " \n\tTwo weeks ago we had some interesting news from EllisLab about th
   today we've had some even better news about the future of CodeIgniter. That is:
   The CodeIgniter Reactor! "
 date: '2010-12-02 22:52:00'
-comments: 'true'
+comments: true
 disqus_identifier: ellislab-react-with-codeigniter-reactor
 ---
 

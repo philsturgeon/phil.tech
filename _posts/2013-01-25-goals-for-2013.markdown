@@ -7,7 +7,7 @@ excerpt: It's that time of year again. Well, it's nearly the end of January but 
   my list of random stupid things to do this year took me a little while to think
   up. 
 date: '2013-01-25 13:04:00'
-comments: 'true'
+comments: true
 disqus_identifier: goals-for-2013
 ---
 

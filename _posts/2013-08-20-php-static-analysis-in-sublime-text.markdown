@@ -9,7 +9,7 @@ excerpt: While learning Python I really enjoyed how Sublime Text 2 would shout a
   This was pretty cool, and I was soon writing beautiful Python code without any concern
   over which way things should be done, so lets get it working for PHP.
 date: '2013-08-20 17:20:00'
-comments: 'true'
+comments: true
 disqus_identifier: php-static-analysis-in-sublime-text
 ---
 

@@ -10,7 +10,7 @@ excerpt: " Working for Kapture I've been charged with something I've never reall
   that whole situation works out. So this little web developer had to do a lot of
   learning. \n\n   "
 date: '2012-12-02 02:29:00'
-comments: 'true'
+comments: true
 disqus_identifier: distributed-architecture-faking-with-vagrant
 ---
 

@@ -10,7 +10,7 @@ excerpt: " \n\tAs you may have seen in my last article I'm currently off traveli
   but I'll just quickly explain what my projects are and why and how I stay involved
   with them all. "
 date: '2011-06-10 22:06:00'
-comments: 'true'
+comments: true
 disqus_identifier: tumbleweed
 ---
 

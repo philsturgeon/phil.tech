@@ -9,7 +9,7 @@ excerpt: " \n\tWhat makes Reactor so much more different than CodeIgniter has be
   a new user who just wants to request some new features, you can do this on the UserVoice
   or send in your code using BitBucket and GitHub. "
 date: '2011-02-15 22:05:00'
-comments: 'true'
+comments: true
 disqus_identifier: getting-involved-with-codeigniter
 ---
 

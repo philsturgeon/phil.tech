@@ -10,7 +10,7 @@ excerpt: If you're following many designers on Twitter then you'll notice that t
   your content. These have some pros and cons, but can definitely be an awesome tool
   to have in your arsenal.
 date: '2012-09-18 20:33:00'
-comments: 'true'
+comments: true
 disqus_identifier: no-db-content-management-systems
 ---
 

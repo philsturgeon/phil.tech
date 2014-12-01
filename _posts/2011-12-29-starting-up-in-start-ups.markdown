@@ -10,7 +10,7 @@ excerpt: " \n\tI spent the last three months working as a hired gun for a start-
   with helpful mentors who have experience in different fields. I am sad that the
   program is over but I thought I'd write up my experiences.  "
 date: '2011-12-29 01:32:00'
-comments: 'true'
+comments: true
 disqus_identifier: starting-up-in-start-ups
 ---
 

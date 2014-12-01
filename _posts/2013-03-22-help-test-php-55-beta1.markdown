@@ -8,7 +8,7 @@ excerpt: Yesterday PHP.net announced the release of PHP 5.5 Beta-1. This is a gr
   but the releases are still ticking along. So, what can you do to help out? Test
   it, without doing any work.
 date: '2013-03-22 11:26:00'
-comments: 'true'
+comments: true
 disqus_identifier: help-test-php-55-beta1
 ---
 

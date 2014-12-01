@@ -7,7 +7,7 @@ excerpt: Accidentally deleted your working copy/local files and Ctrl + Z just wo
   get them back? Find out how to recover almost any file using Eclipse's built in
   history/version tracking feature.
 date: '2009-01-13 09:23:00'
-comments: 'true'
+comments: true
 disqus_identifier: How-to-recover-files-in-Eclipse
 ---
 

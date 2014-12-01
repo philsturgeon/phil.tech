@@ -11,7 +11,7 @@ excerpt: " \"ORMs are overweight, slow, hard to work with, pointless and for peo
   article I'll explain why I have converted from a fully anti-ORM developer to somebody
   who strongly recommends you give a [good] ORM a try. \n"
 date: '2011-06-15 23:21:00'
-comments: 'true'
+comments: true
 disqus_identifier: misconceptions-about-orms
 ---
 

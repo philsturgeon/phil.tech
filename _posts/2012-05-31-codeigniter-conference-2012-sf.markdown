@@ -9,7 +9,7 @@ excerpt: So only two months until the return of CICONF to America! Last year was
   CodeIgniter by developers trying to win my iPad. Then we had CICONF2012 in London,
   and now it's off to San Francisco for more CodeIgniter nerdery.
 date: '2012-05-31 08:08:00'
-comments: 'true'
+comments: true
 disqus_identifier: codeigniter-conference-2012-sf
 ---
 

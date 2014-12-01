@@ -9,7 +9,7 @@ excerpt: Heroku was - as far as I remember - the first (mainstream) PaaS on the 
   bro, hack project/agile-til-it-works mindset.  Since then I've been wishing they
   would add official PHP support. And... guess what they just did.
 date: '2014-05-09 12:54:00'
-comments: 'true'
+comments: true
 disqus_identifier: heroku-and-php-sitting-in-a-tree
 ---
 

@@ -12,7 +12,7 @@ excerpt: Composer is the best thing for PHP since sliced arrays and using it in 
   box as does Symfony2 and I hear Drupal are working it in too. This interoperability
   is brilliant, but how do you use it with CodeIgniter?
 date: '2012-05-07 12:08:00'
-comments: 'true'
+comments: true
 disqus_identifier: composer-with-codeigniter
 ---
 

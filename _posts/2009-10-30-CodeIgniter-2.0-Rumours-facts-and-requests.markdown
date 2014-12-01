@@ -8,7 +8,7 @@ excerpt: 'Ever since it was announced that ExpressionEngine 2.0 would be running
   have answer this so many times I wanted to clear things up and put some useful suggestions
   forward. '
 date: '2009-10-30 12:45:00'
-comments: 'true'
+comments: true
 disqus_identifier: CodeIgniter-2.0-Rumours-facts-and-requests
 ---
 

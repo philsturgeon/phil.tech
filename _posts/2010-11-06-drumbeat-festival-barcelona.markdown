@@ -12,7 +12,7 @@ excerpt: " \n\tFor the last few days I have been in Barcelona at a brilliant eve
   have learned, people I have met and what I have taken away from it to use going
   forwards. "
 date: '2010-11-06 19:42:00'
-comments: 'true'
+comments: true
 disqus_identifier: drumbeat-festival-barcelona
 ---
 

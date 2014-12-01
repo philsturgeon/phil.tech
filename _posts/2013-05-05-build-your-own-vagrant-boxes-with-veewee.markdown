@@ -10,7 +10,7 @@ excerpt: "The other day I posted an article about upgrading Chef and Vagrant, an
   gemset. The trouble here is that VeeWee depends on the Vagrant gem version v1.0.x
   and Vagrant is now not only on 1.2.2 but not actually a gem anymore."
 date: '2013-05-05 18:57:00'
-comments: 'true'
+comments: true
 disqus_identifier: build-your-own-vagrant-boxes-with-veewee
 ---
 

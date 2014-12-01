@@ -7,7 +7,7 @@ excerpt: Find out how you can save money upgrading your iPhone contract with o2.
   could save yourself £400 just by waiting 2 months! If you have the right criteria,
   you could even make a profit on the upgrade. Find out how.
 date: '2009-07-20 20:22:00'
-comments: 'true'
+comments: true
 disqus_identifier: iPhone-Upgrade-Upgrade-cheap-free-or-for-profit
 ---
 

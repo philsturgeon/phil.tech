@@ -7,7 +7,7 @@ excerpt: 'An awesome RFC popped up the other day: Syntax for variadic functions,
   by Nikita Popov. I read through it and I loved it, but I did have to Google to see
   what the hell a variadic function was.'
 date: '2013-08-30 18:07:00'
-comments: 'true'
+comments: true
 disqus_identifier: potential-variadic-function-syntax-for-php-56
 ---
 

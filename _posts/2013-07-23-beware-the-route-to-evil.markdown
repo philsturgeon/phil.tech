@@ -10,7 +10,7 @@ excerpt: As a programmer we should all be used to the fact that our personal pre
   routing" verses "verbose routing", and this article explains why I changed my opinion
   on that.
 date: '2013-07-23 19:53:00'
-comments: 'true'
+comments: true
 disqus_identifier: beware-the-route-to-evil
 ---
 

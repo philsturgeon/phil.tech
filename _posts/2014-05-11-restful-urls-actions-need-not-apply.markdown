@@ -10,7 +10,7 @@ excerpt: I was doing a little consulting for a company while I was out in South 
   of slashes and squiggles would appease the RESTful Overlords, and avoid them throwing
   lightning bolts down from upon high.
 date: '2014-05-11 20:36:00'
-comments: 'true'
+comments: true
 disqus_identifier: restful-urls-actions-need-not-apply
 ---
 

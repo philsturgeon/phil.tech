@@ -8,7 +8,7 @@ excerpt: There are several reasons for starting this blog. Firstly as a way to k
   to be active in the world of web development and have been knocking out sites and
   libraries for years.
 date: '2008-05-17 17:30:00'
-comments: 'true'
+comments: true
 disqus_identifier: first-post
 ---
 

@@ -10,7 +10,7 @@ excerpt: There have been a few posts over the last few months saying that the ag
   what a "framework" was in relation to PHP development, and in relation to these
   discussions. 
 date: '2014-01-13 22:15:00'
-comments: 'true'
+comments: true
 disqus_identifier: the-framework-is-dead-long-live-the-framework
 ---
 

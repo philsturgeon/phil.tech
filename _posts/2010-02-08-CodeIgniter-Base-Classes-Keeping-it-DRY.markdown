@@ -10,7 +10,7 @@ excerpt: " \n\tMost applications in CodeIgniter will have various types of pages
   instead be shared by some creative extending of the Controller class to create custom
   Base Controllers like Public_Controller, Admin_Controller, etc. "
 date: '2010-02-08 10:48:00'
-comments: 'true'
+comments: true
 disqus_identifier: CodeIgniter-Base-Classes-Keeping-it-DRY
 ---
 

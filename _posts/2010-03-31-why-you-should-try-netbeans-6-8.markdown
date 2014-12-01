@@ -8,7 +8,7 @@ excerpt: For a long time I have had the opinion that NetBeans sucked. When  some
   so decided to give it another try. The result of  my test? Why the hell have I not
   been using longer?!
 date: '2010-03-31 16:03:58'
-comments: 'true'
+comments: true
 disqus_identifier: why-you-should-try-netbeans-6-8
 ---
 

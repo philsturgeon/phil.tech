@@ -10,7 +10,7 @@ excerpt: For years I was locked into using the same frameworks for everything, m
   about some useful libraries I found, so here is what they are with an explanation
   of the approach and why I used it.
 date: '2012-09-19 07:19:00'
-comments: 'true'
+comments: true
 disqus_identifier: package-watch-image-management
 ---
 

@@ -10,7 +10,7 @@ excerpt: " \n\tCICON2011 happened and it was awesome. We had 100 CodeIgniter ner
   community for the better. This is not me blowing smoke up my backside, but feedback
   I have had from attendees. So, what did you miss? "
 date: '2011-08-27 10:05:00'
-comments: 'true'
+comments: true
 disqus_identifier: cicon2011-and-the-future-of-codeigniter
 ---
 

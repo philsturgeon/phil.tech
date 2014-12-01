@@ -9,7 +9,7 @@ excerpt: CodeIgniter was build a long time ago and since its inception it has ma
   features, which most other frameworks support. This is a walk through those features
   with a little insight as to what why and how from an ex core contributor.
 date: '2012-12-05 20:00:00'
-comments: 'true'
+comments: true
 disqus_identifier: 5-things-codeigniter-cannot-do-without-a-rewrite
 ---
 

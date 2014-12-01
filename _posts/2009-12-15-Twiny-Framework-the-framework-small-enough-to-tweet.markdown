@@ -7,7 +7,7 @@ excerpt: " Many frameworks say they are lightweight, quick and easy on your serv
   but none are as lightweight as my new \"framework\" which is so lightweight it can
   fit in a Tweet. \n"
 date: '2009-12-15 17:03:00'
-comments: 'true'
+comments: true
 disqus_identifier: Twiny-Framework-the-framework-small-enough-to-tweet
 ---
 

@@ -9,7 +9,7 @@ excerpt: This June I will be participating in an annual fundraising bike ride to
   fucking long way; 100 miles to be precise. I need your money to make this whole
   thing worthwhile.
 date: '2013-05-06 10:56:00'
-comments: 'true'
+comments: true
 disqus_identifier: bike-to-the-beach-2013
 ---
 

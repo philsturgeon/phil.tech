@@ -8,7 +8,7 @@ excerpt: " \n\tThe CodeIgniter 2.0 branch is still coming together and has not y
   want a smooth ride upgrading your application to run on CodeIgniter 2.0 then read
   this guide. "
 date: '2010-05-05 23:31:00'
-comments: 'true'
+comments: true
 disqus_identifier: upgrading-to-codeigniter-2.0
 ---
 

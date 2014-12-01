@@ -7,7 +7,7 @@ excerpt: A complaint I often hear about CodeIgniter is one about HTML helper fun
   like form_open(), doctype() and img(). This post helps explain what they are and
   why they are useful.
 date: '2009-12-14 17:06:00'
-comments: 'true'
+comments: true
 disqus_identifier: Why-CodeIgniter-HTML-helper-functions-rock
 ---
 

@@ -7,7 +7,7 @@ excerpt: 'Dwoo is a PHP based templating engine aimed as a replacement for Smart
   2.x using similar and alternative syntax. This implementation basically overrides
   the logic of the default parser with this more powerful system. '
 date: '2009-11-23 21:54:00'
-comments: 'true'
+comments: true
 disqus_identifier: Give-CodeIgniters-Parser-library-more-kick-with-Dwoo
 ---
 

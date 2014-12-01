@@ -12,7 +12,7 @@ excerpt: Kapture is a Brooklyn-based company I've been working for this last yea
   sorts of people on board, from shoe shops to hotels, and plenty more verticals are
   covered too. 
 date: '2013-04-22 15:52:00'
-comments: 'true'
+comments: true
 disqus_identifier: kapture-is-hiring
 ---
 

@@ -11,7 +11,7 @@ excerpt: As somebody who has followed internals (and been hearing tales of woe f
   example of trollolololing, as an exercise in eduction for anyone unaware of the
   madness that internals can host.
 date: '2013-09-09 20:57:00'
-comments: 'true'
+comments: true
 disqus_identifier: t-paamayim-nekudotayim-v-sanity
 ---
 

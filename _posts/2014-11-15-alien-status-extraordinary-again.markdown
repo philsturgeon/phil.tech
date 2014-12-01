@@ -7,7 +7,7 @@ excerpt: A few months ago I wrote a bit of an emotional article about my visa st
   and how I was in a bit of a pickle. A few people since have wanted an update, so
   here it is.
 date: '2014-11-15 22:08:00'
-comments: 'true'
+comments: true
 disqus_identifier: alien-status-extraordinary-again
 ---
 

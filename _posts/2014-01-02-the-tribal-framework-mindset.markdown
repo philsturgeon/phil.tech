@@ -10,7 +10,7 @@ excerpt: The PHP community has made some amazing leaps forward in the last few y
   of PSR's we have literally no reason to do this anymore. This article hopes to point
   out some of the ways in which that can happen, with potential solutions too.
 date: '2014-01-02 17:58:00'
-comments: 'true'
+comments: true
 disqus_identifier: the-tribal-framework-mindset
 ---
 

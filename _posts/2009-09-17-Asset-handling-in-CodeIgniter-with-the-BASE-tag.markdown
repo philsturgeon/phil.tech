@@ -7,7 +7,7 @@ excerpt: There are many suggested ways to handle your assets in CodeIgniter (inc
   my very own Asset library) but this solution has to be one of the easiest. Read
   on to find out what it is!
 date: '2009-09-17 12:21:00'
-comments: 'true'
+comments: true
 disqus_identifier: Asset-handling-in-CodeIgniter-with-the-BASE-tag
 ---
 

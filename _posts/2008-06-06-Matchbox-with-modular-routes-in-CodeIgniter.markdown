@@ -6,7 +6,7 @@ permalink: blog/2008/06/Matchbox-with-modular-routes-in-CodeIgniter
 excerpt: Want to make your Matchbox modules totally self-reliant? That is no easy
   thing right now, but follow this simple hack to get your custom routes modularised.
 date: '2008-06-06 12:13:00'
-comments: 'true'
+comments: true
 disqus_identifier: Matchbox-with-modular-routes-in-CodeIgniter
 ---
 

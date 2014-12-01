@@ -7,7 +7,7 @@ excerpt: 'It''s been a little while in the making, but my first book is out: Cat
   into PyroCMS. This is being released as an eBook only at this point, but who knows
   what the future might hold.'
 date: '2013-02-12 01:34:00'
-comments: 'true'
+comments: true
 disqus_identifier: catapult-into-pyrocms
 ---
 

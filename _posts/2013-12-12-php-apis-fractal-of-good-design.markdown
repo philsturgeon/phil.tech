@@ -10,7 +10,7 @@ excerpt: Recently I started a new blog series called "Build API's That You Wont 
   things a little more I realised that it was going to be a huge commitment. I figured
   I should turn it into an ebook, and it's coming along pretty well. 
 date: '2013-12-12 01:20:00'
-comments: 'true'
+comments: true
 disqus_identifier: php-apis-fractal-of-good-design
 ---
 

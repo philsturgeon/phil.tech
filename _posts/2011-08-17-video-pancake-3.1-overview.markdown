@@ -10,7 +10,7 @@ excerpt: " \n\tWe've been working hard on PancakeApp - a CodeIgniter-based Invoi
   is about 11 minutes but it's worth it so please take a look. In the mean-time I
   will be working on Milestones and Call Logs. "
 date: '2011-08-17 19:39:00'
-comments: 'true'
+comments: true
 disqus_identifier: video-pancake-3.1-overview
 ---
 

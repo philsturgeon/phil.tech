@@ -11,7 +11,7 @@ excerpt: My entire career seems to have come from being a CodeIgniter developer,
   CodeIgniter though, I am dropping as many of my responsibilities as I can to make
   way for an exciting [secret] new job.
 date: '2012-09-05 12:30:00'
-comments: 'true'
+comments: true
 disqus_identifier: moving-on
 ---
 

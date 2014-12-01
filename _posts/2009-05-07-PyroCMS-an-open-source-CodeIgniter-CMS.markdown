@@ -6,7 +6,7 @@ permalink: blog/2009/05/PyroCMS-an-open-source-CodeIgniter-CMS
 excerpt: Finally my CMS is ready for the world. PyroCMS is a modular content management
   system built with CodeIgniter with speed and efficiency in mind.
 date: '2009-05-07 09:28:00'
-comments: 'true'
+comments: true
 disqus_identifier: PyroCMS-an-open-source-CodeIgniter-CMS
 ---
 

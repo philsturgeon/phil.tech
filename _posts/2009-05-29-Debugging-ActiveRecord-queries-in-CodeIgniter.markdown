@@ -7,7 +7,7 @@ excerpt: When you have an ActiveRecord call that just will not work, it can be a
   To save asking questions on the CodeIgniter forums that you could answer yourself,
   try these steps.
 date: '2009-05-29 12:56:00'
-comments: 'true'
+comments: true
 disqus_identifier: Debugging-ActiveRecord-queries-in-CodeIgniter
 ---
 

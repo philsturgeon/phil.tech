@@ -9,7 +9,7 @@ excerpt: You might not expect to hear that from a CodeIgniter and FuelPHP develo
   development. People are flooding to Laravel from other frameworks and that's great
   for the PHP community, read on to find out why.
 date: '2012-05-22 11:52:00'
-comments: 'true'
+comments: true
 disqus_identifier: laravel-is-awesome
 ---
 

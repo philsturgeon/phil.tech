@@ -9,7 +9,7 @@ excerpt: For the last 7 months since CodeIgniter 2.0 was released on BitBucket  
   open the  terminal and write $ hg tag v2.0;  hg push; right now, but what would
   that actually give us?
 date: '2010-10-18 20:11:00'
-comments: 'true'
+comments: true
 disqus_identifier: codeigniter-2.0-is-stable
 ---
 

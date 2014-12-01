@@ -6,7 +6,7 @@ permalink: blog/2012/08/ciconf-mission-complete
 excerpt: Another trip to the States and another CodeIgniter Conference complete. This
   is a quick roundup for anyone who didn't make it to the conference this year.
 date: '2012-08-21 07:07:00'
-comments: 'true'
+comments: true
 disqus_identifier: ciconf-mission-complete
 ---
 

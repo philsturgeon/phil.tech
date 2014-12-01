@@ -9,7 +9,7 @@ excerpt: " \n Having a quiet night in before a long day of kayaking I thought I'
   again easily. I'll add a few more types like YAML when I can be arsed to work out
   PECL for MAMP. "
 date: '2011-02-12 00:37:00'
-comments: 'true'
+comments: true
 disqus_identifier: php-format-abstraction-with-a-simple-class
 ---
 

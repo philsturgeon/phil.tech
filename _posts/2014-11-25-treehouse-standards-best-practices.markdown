@@ -4,7 +4,7 @@ title: 'Treehouse: PHP Standards and Best Practices'
 category: php
 tags: php treehouse education
 date: '2014-11-25 12:05:00'
-comments: 'true'
+comments: true
 image: /assets/article_images/2014-11-25-treehouse-standards-best-practices/camera.jpg
 ---
 

@@ -6,7 +6,7 @@ permalink: blog/2009/05/How-to-Develop-a-new-module-for-PyroCMS
 excerpt: " \n\tI noticed a few people hitting this site after searching for \"add
   new module to pyrocms\". Well, here is how. "
 date: '2009-05-27 11:58:00'
-comments: 'true'
+comments: true
 disqus_identifier: How-to-Develop-a-new-module-for-PyroCMS
 ---
 

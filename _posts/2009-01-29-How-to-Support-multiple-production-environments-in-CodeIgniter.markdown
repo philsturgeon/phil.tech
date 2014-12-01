@@ -7,7 +7,7 @@ excerpt: Maintaining different configurations for CodeIgniter across multiple en
   can be a pain. Find out how to support multiple config settings and create a instance-wide
   flag to let you know which environment is being used.
 date: '2009-01-29 11:09:00'
-comments: 'true'
+comments: true
 disqus_identifier: How-to-Support-multiple-production-environments-in-CodeIgniter
 ---
 

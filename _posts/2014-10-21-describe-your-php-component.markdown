@@ -8,7 +8,7 @@ excerpt: I've been talking recently about what The League of Extraordinary Packa
   syndrome to help the community focus on quality instead of quantity. Today I noticed
   a new pet-peeve.
 date: '2014-10-21 12:21:00'
-comments: 'true'
+comments: true
 disqus_identifier: describe-your-php-component
 ---
 

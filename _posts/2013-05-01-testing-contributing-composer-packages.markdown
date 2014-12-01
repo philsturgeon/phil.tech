@@ -9,7 +9,7 @@ excerpt: While Composer has been around for a while now, many packages are still
   to these packages and this needs to be done safely, with unit-testing. So, how do
   you run their test suite and add your own tests?
 date: '2013-05-01 18:24:00'
-comments: 'true'
+comments: true
 disqus_identifier: testing-contributing-composer-packages
 ---
 

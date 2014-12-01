@@ -9,7 +9,7 @@ excerpt: PHP internals has been a cold, harsh, unwelcome land for a long time, a
   I'm looking into ways we can try to fix the workflow so the actual conversation
   being had can be the most constructive it can possibly be. 
 date: '2013-09-12 01:44:00'
-comments: 'true'
+comments: true
 disqus_identifier: solving-the-php-internals-workflow
 ---
 

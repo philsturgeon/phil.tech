@@ -7,7 +7,7 @@ excerpt: 'This blog has been pretty quiet for a few weeks now, mainly because I 
   been working on a beast of an article for NetTuts called "Working with RESTful services
   in CodeIgniter". '
 date: '2010-02-04 13:56:00'
-comments: 'true'
+comments: true
 disqus_identifier: Working-with-RESTful-services-in-CodeIgniter
 ---
 

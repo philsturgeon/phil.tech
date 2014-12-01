@@ -7,7 +7,7 @@ excerpt: Don't worry guys, this isn't another PHP apologist or PHP hater blog. W
   all had enough of those recently. This is a quick heads up on two projects that
   are doing what they can to make the PHP ecosystem a better place.
 date: '2012-07-10 16:17:00'
-comments: 'true'
+comments: true
 disqus_identifier: php-ecosystem-update
 ---
 

@@ -8,7 +8,7 @@ excerpt: Ever got fed up with FTP uploading multiple sites and forgetting which 
   way you have downtime. I found a solution recently that works perfectly and is quick
   as hell.
 date: '2008-10-02 07:14:00'
-comments: 'true'
+comments: true
 disqus_identifier: Deploying-sites-with-SVN
 ---
 

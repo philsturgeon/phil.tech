@@ -11,7 +11,7 @@ excerpt: Which version of PHP to use for anything is always much debated in the 
   tweeting about this and everyone seemed to be a little confused, so instead of
   140 characters I thought I'd try 7051.
 date: '2013-03-23 21:02:00'
-comments: 'true'
+comments: true
 disqus_identifier: pick-php-requirements-for-packages-responsibly
 ---
 

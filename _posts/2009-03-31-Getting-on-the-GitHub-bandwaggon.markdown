@@ -8,7 +8,7 @@ excerpt: I have finally joined GitHub and I am pretty happy about the decision. 
   and for me, solved a few problems in one. Mainly, how to run multiple projects based
   on one code-base without being stuck in the same repo; I'm looking at you SVN.
 date: '2009-03-31 10:44:00'
-comments: 'true'
+comments: true
 disqus_identifier: Getting-on-the-GitHub-bandwaggon
 ---
 

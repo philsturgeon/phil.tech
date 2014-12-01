@@ -7,7 +7,7 @@ excerpt: Is anybody else getting really bored of Twitter news? These days it see
   to be everywhere; you cannot get away from it. Do you - like myself - find it really
   difficult to give a damn?
 date: '2009-07-01 15:33:00'
-comments: 'true'
+comments: true
 disqus_identifier: Rant-Fed-up-with-Twitter-news
 ---
 

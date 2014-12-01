@@ -9,7 +9,7 @@ excerpt: Life is hard, opinions are hard, and fighting for your opinions and bel
   gets fired, conferences get canceled, people get accused of all sorts of things
   and careers are hurt. 
 date: '2013-07-25 19:53:00'
-comments: 'true'
+comments: true
 disqus_identifier: great-battle-wrong-field
 ---
 

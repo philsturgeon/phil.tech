@@ -7,7 +7,7 @@ excerpt: After several months of totally secret development and two months of pr
   beta MojoMotor - an amazing new CMS from EllisLab - is out, and I'm finally allowed
   to talk about it!
 date: '2010-08-06 14:16:00'
-comments: 'true'
+comments: true
 disqus_identifier: internet-gets-some-mojo
 ---
 

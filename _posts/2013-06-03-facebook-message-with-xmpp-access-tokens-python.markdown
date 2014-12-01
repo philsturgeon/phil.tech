@@ -10,7 +10,7 @@ excerpt: Today I had a real tough time trying to work out how the hell I could s
   I got there with some help from the SleekXMPP developer Lance Stout, who was nice
   and patient with a still relatively shakey Python developer.
 date: '2013-06-03 20:01:00'
-comments: 'true'
+comments: true
 disqus_identifier: facebook-message-with-xmpp-access-tokens-python
 ---
 

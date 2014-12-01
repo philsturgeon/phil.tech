@@ -9,7 +9,7 @@ excerpt: " \n\tFuelPHP has been in development for the last two months but the n
   you say? Read this article and I'll try to explain why you should be excited about
   \"yet another framework\". "
 date: '2011-01-04 17:34:00'
-comments: 'true'
+comments: true
 disqus_identifier: introducing-fuelphp
 ---
 

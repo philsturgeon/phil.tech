@@ -9,7 +9,7 @@ excerpt: " \n\tA package is a piece of reusable code that can be dropped into an
   are so that you can archive your goal. This is how most modern programming languages
   work, but to make a generalisation: PHP developers hate packages. Why? "
 date: '2012-03-06 10:41:00'
-comments: 'true'
+comments: true
 disqus_identifier: packages-the-way-forward-for-php
 ---
 

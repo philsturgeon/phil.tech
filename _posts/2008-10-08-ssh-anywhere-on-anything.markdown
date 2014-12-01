@@ -8,7 +8,7 @@ excerpt: Notice you have a bug in your site but your at work with a proxy in pla
   On your friends computer who doesn't want you installing Putty? Have no fear, consoleFISH
   is here!
 date: '2008-10-08 08:16:00'
-comments: 'true'
+comments: true
 disqus_identifier: ssh-anywhere-on-anything
 ---
 

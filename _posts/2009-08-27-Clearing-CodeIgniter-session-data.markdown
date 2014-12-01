@@ -7,7 +7,7 @@ excerpt: This article shows a few ways of clearing session data in CodeIgniter, 
   a non-documented approach which lets you wipe all session data without destroying
   the session.
 date: '2009-08-27 15:52:00'
-comments: 'true'
+comments: true
 disqus_identifier: Clearing-CodeIgniter-session-data
 ---
 

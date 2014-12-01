@@ -6,7 +6,7 @@ permalink: blog/2009/06/Poll-Will-you-use-goto-in-PHP-5.3
 excerpt: PHP 5.3 adds some great features such as lambda functions, namespaces and
   class constants, but one new feature "goto" in my eyes is a massvie step backwards.
 date: '2009-06-24 15:54:00'
-comments: 'true'
+comments: true
 disqus_identifier: Poll-Will-you-use-goto-in-PHP-5.3
 ---
 

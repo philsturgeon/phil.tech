@@ -7,7 +7,7 @@ excerpt: PyroCMS reaches its nearly final stage. This release took care of many 
   known in v0.9.2 and has while it has not added in many amazing new features, it
   has improved the existing ones considerably.
 date: '2009-05-28 13:19:00'
-comments: 'true'
+comments: true
 disqus_identifier: PyroCMS-reaches-v0.9.5
 ---
 

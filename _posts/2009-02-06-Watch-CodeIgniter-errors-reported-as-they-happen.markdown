@@ -7,7 +7,7 @@ excerpt: How do you read your CodeIgniter error logs for your live site? Downloa
   them via FTP and open them up each time, scroll to the bottom and read? That sucks!
   Try tailing.
 date: '2009-02-06 18:46:00'
-comments: 'true'
+comments: true
 disqus_identifier: Watch-CodeIgniter-errors-reported-as-they-happen
 ---
 

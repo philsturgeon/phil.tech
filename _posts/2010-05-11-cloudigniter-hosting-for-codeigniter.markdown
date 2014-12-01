@@ -7,7 +7,7 @@ excerpt: Ever wanted to install PyroCMS or set up a CodeIgniter playground but d
   know what the hell you are doing? The wonderful new hosting service CloudIgniter
   does it all for you. Read on to see what it's all about.
 date: '2010-05-11 17:52:00'
-comments: 'true'
+comments: true
 disqus_identifier: cloudigniter-hosting-for-codeigniter
 ---
 

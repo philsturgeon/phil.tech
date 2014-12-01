@@ -10,7 +10,7 @@ excerpt: " \n\tDevelopment of FuelPHP has come a long way since Dan and myself s
   of Oil by running through scaffolding creation and quickly brushing on migration
   work. "
 date: '2011-03-06 15:09:00'
-comments: 'true'
+comments: true
 disqus_identifier: fuelphp-oil-introduction-scaffolding
 ---
 

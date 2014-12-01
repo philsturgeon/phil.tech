@@ -10,7 +10,7 @@ excerpt: PSR-2 has been out for a while now, and even though developers from mem
   surge of complaints about the use of spaces for indentation instead of tabs in PSR-2,
   the PHP-FIG has had no choice but to reverse this decision. 
 date: '2013-04-01 11:45:00'
-comments: 'true'
+comments: true
 disqus_identifier: psr2-the-tough-decision
 ---
 

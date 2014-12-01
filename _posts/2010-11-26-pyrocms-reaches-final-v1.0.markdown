@@ -9,7 +9,7 @@ excerpt: " \n\tToday we are incredibly pleased to announce the biggest update to
   restructured, Dwoo has been replaced with an amazingly powerful Tags and Plugin
   syntax and its all running much quicker, while looking considerably sexier. "
 date: '2010-11-26 17:16:00'
-comments: 'true'
+comments: true
 disqus_identifier: pyrocms-reaches-final-v1.0
 ---
 

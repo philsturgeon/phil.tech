@@ -9,7 +9,7 @@ excerpt: " \n\tAnyone who has used PHP for a while knows that it has its ugly pa
   - \"absolute drivel\". He didn't like that very much so I thought I'd follow his
   follow-up with an article of my own. "
 date: '2011-12-20 23:12:00'
-comments: 'true'
+comments: true
 disqus_identifier: php-basher-bashing
 ---
 

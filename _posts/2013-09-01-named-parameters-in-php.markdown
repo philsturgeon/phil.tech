@@ -8,7 +8,7 @@ excerpt: Converting a Python Twitter API package to PHP turned out to be more tr
   uses the Twitter library as an example for why named parameters are important and
   useful.
 date: '2013-09-01 01:35:00'
-comments: 'true'
+comments: true
 disqus_identifier: named-parameters-in-php
 ---
 

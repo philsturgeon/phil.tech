@@ -10,7 +10,7 @@ excerpt: PHP developers are increasingly moving over to API development, as are 
   woefully inadequate or are promoting bad practices. These are some of the golden
   rules I go by.
 date: '2013-07-12 21:25:00'
-comments: 'true'
+comments: true
 disqus_identifier: building-a-decent-api
 ---
 

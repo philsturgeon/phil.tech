@@ -7,7 +7,7 @@ excerpt: 'A few people have asked me recently about setting up CodeIgniter to ru
   across multiple domains based on the same codebase, so here are a few tips on how
   to get this working on your CodeIgniter set-up. '
 date: '2009-06-22 21:35:00'
-comments: 'true'
+comments: true
 disqus_identifier: How-to-Multi-site-CodeIgniter-Set-up
 ---
 

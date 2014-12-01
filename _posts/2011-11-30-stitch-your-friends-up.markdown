@@ -13,7 +13,7 @@ excerpt: " \n\tWhile I am on the ignite100 start-up incubator I have met some am
   by users watching the live stream - I will have one strip of wax removed from my
   leg. Yep you heard it. You can cause me pain in real time and see the results! "
 date: '2011-11-30 10:06:00'
-comments: 'true'
+comments: true
 disqus_identifier: stitch-your-friends-up
 ---
 

@@ -8,7 +8,7 @@ excerpt: " \n\tIt's been a few days since CICONF and this is my first chance to 
   event, and so far I have seen nothing but positive feedback on the hash-tag and
   not heard any complaints. Winner!  "
 date: '2012-02-23 11:55:00'
-comments: 'true'
+comments: true
 disqus_identifier: my-thoughts-on-ciconf-2012-uk
 ---
 

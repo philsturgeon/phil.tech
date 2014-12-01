@@ -12,7 +12,7 @@ excerpt: " \n\tIn the past I have never needed to implement oAuth into a PHP pro
   different methods, I want to get a key, bang it in and go to the pub. Well, now
   I can! "
 date: '2011-09-17 12:13:00'
-comments: 'true'
+comments: true
 disqus_identifier: ninjauth-social-integration-php
 ---
 

@@ -13,7 +13,7 @@ excerpt: " Tonight I started working on the RESTful API for PancakeApp - an invo
   an unplanned video I'll be accepting answers to the question \"How many mistakes
   did I make?\" on the back of a postcard. \n"
 date: '2011-03-17 23:27:00'
-comments: 'true'
+comments: true
 disqus_identifier: video-set-up-a-rest-api-with-codeigniter
 ---
 

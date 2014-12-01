@@ -7,7 +7,7 @@ excerpt: Recently I've been putting in lots of time for bits around the PHP-FIG,
   I wanted to highlight what they were, what they are and what I personally think
   needs to happen in the near future to make things better.
 date: '2014-02-13 19:53:00'
-comments: 'true'
+comments: true
 disqus_identifier: phpfig-autoloaders-amendments-and-the-15th-standard
 ---
 

@@ -7,7 +7,7 @@ excerpt: 'After months of waiting the time is finally here for EECI2010 US: the 
   &amp; CodeIgniter Conference of 2010, held in San Fransisco. It''s been 5 months
   since the last EECI over in Leiden, Holland but  it already feels like too long. '
 date: '2010-05-26 15:15:00'
-comments: 'true'
+comments: true
 disqus_identifier: eeci2010-us
 ---
 

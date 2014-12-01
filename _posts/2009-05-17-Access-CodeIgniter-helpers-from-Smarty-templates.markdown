@@ -7,7 +7,7 @@ excerpt: Smarty by default has lots of useful functions - or modifiers - to help
   modify your Smarty variables. Using this modifier, you can access any CodeIgniter
   helper in your view files.
 date: '2009-05-17 19:26:00'
-comments: 'true'
+comments: true
 disqus_identifier: Access-CodeIgniter-helpers-from-Smarty-templates
 ---
 

@@ -11,7 +11,7 @@ excerpt: " \n\tTwo months ago I was doing some client work that ended up with me
   Twitter, etc, attach multiple accounts to users, post blog articles to Facebook
   and much more on the way. Here's a video. "
 date: '2011-12-15 00:40:00'
-comments: 'true'
+comments: true
 disqus_identifier: pyrocms-gets-social
 ---
 

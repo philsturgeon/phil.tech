@@ -9,7 +9,7 @@ excerpt: 'The last few months have been pretty mad for me. As well as the usual 
   "LLC", creating a 15-part screencast series for FuelPHP and the most exciting: working
   on a few startups with friends.'
 date: '2012-07-24 12:57:00'
-comments: 'true'
+comments: true
 disqus_identifier: blooie-chat-has-changed
 ---
 

@@ -7,7 +7,7 @@ excerpt: 'Sadly CodeIgniter 2.0 did not bring any sort of modular/HMVC system to
   but luckily Modular Separation works for this new version with two minor tweaks.
   The new version has been published to GitHub. '
 date: '2010-03-24 22:35:17'
-comments: 'true'
+comments: true
 disqus_identifier: modular-separation-codeigniter-2
 ---
 

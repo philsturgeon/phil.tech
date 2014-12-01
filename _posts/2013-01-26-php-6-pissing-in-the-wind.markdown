@@ -13,7 +13,7 @@ excerpt: This article is completely pointless, im just saying what everyone is t
   words like recipe (see, I got that wrong) recipe than I ever spend looking up PHP
   functions. This is how we could fix the situation - but we never will.
 date: '2013-01-26 15:59:00'
-comments: 'true'
+comments: true
 disqus_identifier: php-6-pissing-in-the-wind
 ---
 

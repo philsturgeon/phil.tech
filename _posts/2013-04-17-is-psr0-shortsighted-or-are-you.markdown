@@ -11,7 +11,7 @@ excerpt: One of the fun things about trying to support the PHP-FIG and all the g
   opinions that you just can't do anything about, so instead I'm going to respond
   with a play-by-play approach. 
 date: '2013-04-17 04:52:00'
-comments: 'true'
+comments: true
 disqus_identifier: is-psr0-shortsighted-or-are-you
 ---
 

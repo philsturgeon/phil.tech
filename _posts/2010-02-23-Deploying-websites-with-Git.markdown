@@ -6,7 +6,7 @@ permalink: blog/2010/02/Deploying-websites-with-Git
 excerpt: Use Git to deploy your web applications without having to faff with FTP synchronisation
   or manually working out which files need to be uploaded.
 date: '2010-02-23 14:59:00'
-comments: 'true'
+comments: true
 disqus_identifier: Deploying-websites-with-Git
 ---
 

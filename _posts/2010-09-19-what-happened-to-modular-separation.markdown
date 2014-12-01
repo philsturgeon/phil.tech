@@ -7,7 +7,7 @@ excerpt: Modular Separation for CodeIgniter is no more. It has kicked the bucket
   shuffled off the mortal coil, run down the curtain and joined the bleedin' choir
   invisible!! THIS IS AN EX-PARROT!!
 date: '2010-09-19 17:56:00'
-comments: 'true'
+comments: true
 disqus_identifier: what-happened-to-modular-separation
 ---
 

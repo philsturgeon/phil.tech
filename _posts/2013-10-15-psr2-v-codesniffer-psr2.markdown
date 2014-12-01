@@ -9,7 +9,7 @@ excerpt: I've had static analysis tools running in Sublime Text for a long time,
   All of a sudden it started complaining about code that I had always considered to
   be perfectly compliant.
 date: '2013-10-15 11:39:00'
-comments: 'true'
+comments: true
 disqus_identifier: psr2-v-codesniffer-psr2
 ---
 

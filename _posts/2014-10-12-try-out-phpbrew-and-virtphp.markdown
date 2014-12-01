@@ -9,7 +9,7 @@ excerpt: As a developer working with multiple languages regularly, I come across
   a developer using that language decided to do. Now and then, those things cross
   the "barriers" between languages, and PHP gets some nice new toys.
 date: '2014-10-12 22:59:00'
-comments: 'true'
+comments: true
 disqus_identifier: try-out-phpbrew-and-virtphp
 ---
 

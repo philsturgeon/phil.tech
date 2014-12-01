@@ -6,7 +6,7 @@ redirect_from: /blog/2014/11/composer-its-almost-always-about-the-lock-file/
 excerpt: When is it a good idea to commit your composer.lock file, and when should
   you leave it out? 
 date: '2014-11-04 22:14:00'
-comments: 'true'
+comments: true
 disqus_identifier: composer-its-almost-always-about-the-lock-file
 ---
 

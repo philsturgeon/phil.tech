@@ -9,7 +9,7 @@ excerpt: " \n\tAfter years of being an active member in the CodeIgniter communit
   made a final decision. Read on to find out what framework I decided to go with and
   why. "
 date: '2011-04-01 08:39:00'
-comments: 'true'
+comments: true
 disqus_identifier: time-for-a-change
 ---
 

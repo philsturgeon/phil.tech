@@ -7,7 +7,7 @@ excerpt: " \n\tIt has been 6 months since the last CodeIgniter minor update and 
   months since the last major update. Through all this time we were given no information
   about the next release of CodeIgniter, but finally 2.0 is on the way. "
 date: '2010-03-11 17:42:00'
-comments: 'true'
+comments: true
 disqus_identifier: codeigniter-2
 ---
 

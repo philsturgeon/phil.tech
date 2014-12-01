@@ -7,7 +7,7 @@ excerpt: That title may be misleading but I just couldn't help myself... Puns as
   I decided it was time to write a nice clean cURL library for CodeIgniter to help
   with your automated browsing and remote page requests.
 date: '2008-12-11 14:46:00'
-comments: 'true'
+comments: true
 disqus_identifier: cURL-1-out-on-CodeIgniter
 ---
 

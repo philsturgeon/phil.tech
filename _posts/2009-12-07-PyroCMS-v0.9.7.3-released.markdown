@@ -6,7 +6,7 @@ permalink: blog/2009/12/PyroCMS-v0.9.7.3-released
 excerpt: 'After a long wait the new stable PyroCMS has been released which adds German
   language support and a bunch of other bug-fixes. '
 date: '2009-12-07 18:13:00'
-comments: 'true'
+comments: true
 disqus_identifier: PyroCMS-v0.9.7.3-released
 ---
 

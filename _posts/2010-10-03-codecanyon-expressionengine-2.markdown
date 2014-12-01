@@ -7,7 +7,7 @@ excerpt: CodeCanyon have launched their new ExpressionEngine 2 section along wit
   a few of plugins from me. One of these is the long awaited, much anticipated Widgets
   module!
 date: '2010-10-03 18:50:00'
-comments: 'true'
+comments: true
 disqus_identifier: codecanyon-expressionengine-2
 ---
 

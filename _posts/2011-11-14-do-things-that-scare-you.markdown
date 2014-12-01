@@ -12,7 +12,7 @@ excerpt: " \n\tI was giving a short talks at DevXS in Lincoln this weekend based
   way you come out stronger.\". That might be some motivational bullhockey, but I
   believe it and you guys should give it a try. "
 date: '2011-11-14 11:22:00'
-comments: 'true'
+comments: true
 disqus_identifier: do-things-that-scare-you
 ---
 

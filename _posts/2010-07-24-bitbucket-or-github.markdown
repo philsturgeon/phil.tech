@@ -7,7 +7,7 @@ excerpt: 'Over the last few months I have seen several discussions by many devel
   - especially in the CodeIgniter community - about whether or not to convert their
   GitHub repo''s over to BitBucket. I say: why not use both?'
 date: '2010-07-24 09:35:00'
-comments: 'true'
+comments: true
 disqus_identifier: bitbucket-or-github
 ---
 

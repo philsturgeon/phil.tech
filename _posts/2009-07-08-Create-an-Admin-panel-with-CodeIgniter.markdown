@@ -7,7 +7,7 @@ excerpt: A topic I see come up on the CodeIgniter forums quite a lot is "How do 
   create an admin panel" in CodeIgniter? This article will show you the best structure
   for your admin panel, but leave the actual code to you.
 date: '2009-07-08 09:49:00'
-comments: 'true'
+comments: true
 disqus_identifier: Create-an-Admin-panel-with-CodeIgniter
 ---
 

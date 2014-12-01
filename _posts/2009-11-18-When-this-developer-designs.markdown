@@ -8,7 +8,7 @@ excerpt: For far too long this blog felt tainted. It's quality diminished by usi
   at designing and after a few horrendous iterations I have something that I am happy
   with.
 date: '2009-11-18 12:40:00'
-comments: 'true'
+comments: true
 disqus_identifier: When-this-developer-designs
 ---
 

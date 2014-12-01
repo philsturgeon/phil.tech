@@ -10,7 +10,7 @@ excerpt: As a CMS developer on the PyroCMS team, a common problem I have to deal
   are plenty of awful content management systems around, but I propose a few rules
   for CMS developers to follow so we can shirk this dark cloud that hangs over us.
 date: '2012-04-24 21:18:00'
-comments: 'true'
+comments: true
 disqus_identifier: cms-interesting-history-powerful-future
 ---
 

@@ -9,7 +9,7 @@ excerpt: " \n\tUsing the brilliant user system Devise and a gem called OmniAuth 
   how do you go about actually interacting with the API? This article will answer
   that for you, with some shiny code examples. "
 date: '2010-11-16 20:18:00'
-comments: 'true'
+comments: true
 disqus_identifier: using-omniauth-to-make-twitteroauth-api-requests
 ---
 

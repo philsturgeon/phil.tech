@@ -8,7 +8,7 @@ excerpt: My first ExpressionEngine 2.0 Add-on has been released, with the amazin
   2.0 website. You can list Tweets, search for Digg articles, show off Flickr photographs
   and interact with any open RESTful API.
 date: '2010-07-03 17:38:00'
-comments: 'true'
+comments: true
 disqus_identifier: expressinengine2-rest
 ---
 

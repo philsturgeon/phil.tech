@@ -10,7 +10,7 @@ excerpt: As a huge proponent of Composer, a happy user of PSR-0 and a voting mem
   hopefully clear a few things up for many or at the very least be a handy resource
   to link people to when they show signs of getting confused between the two.
 date: '2013-05-07 18:08:00'
-comments: 'true'
+comments: true
 disqus_identifier: composer-and-psr0-friends-not-relatives
 ---
 

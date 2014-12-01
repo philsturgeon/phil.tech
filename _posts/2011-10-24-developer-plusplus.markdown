@@ -11,7 +11,7 @@ excerpt: " \n\tThis weekend I popped home to Bristol for Web Developers Conferen
   and left me thinking for most of the day. By the time Paul Boag finished his talk
   I was ready for some big changes. "
 date: '2011-10-24 18:54:00'
-comments: 'true'
+comments: true
 disqus_identifier: developer-plusplus
 ---
 

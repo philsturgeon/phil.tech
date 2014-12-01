@@ -7,7 +7,7 @@ excerpt: " \n\tFind out how to make PHP 5.3 shut up complaining about \"warning:
   It is not safe to rely on the system's timezone settings\" and deprecated functions
   in your CodeIgniter applications. "
 date: '2009-12-10 11:45:00'
-comments: 'true'
+comments: true
 disqus_identifier: CodeIgniter-on-PHP-5.3
 ---
 

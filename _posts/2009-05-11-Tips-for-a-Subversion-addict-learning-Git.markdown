@@ -9,7 +9,7 @@ excerpt: I have been using Subversion for years and have come to know it like th
   I should take the time to explain my main points of confusion during the learning
   stage and give you a few things to look out for.
 date: '2009-05-11 14:42:00'
-comments: 'true'
+comments: true
 disqus_identifier: Tips-for-a-Subversion-addict-learning-Git
 ---
 

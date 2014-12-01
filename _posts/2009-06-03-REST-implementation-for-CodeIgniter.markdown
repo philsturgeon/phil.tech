@@ -7,7 +7,7 @@ excerpt: There have been 1 or 2 RESTful implementations for CodeIgniter  so far
   none of them have been flexible or clean enough. This is the first publicly available
   RESTful implementation for CodeIgniter.
 date: '2009-06-03 13:50:00'
-comments: 'true'
+comments: true
 disqus_identifier: REST-implementation-for-CodeIgniter
 ---
 

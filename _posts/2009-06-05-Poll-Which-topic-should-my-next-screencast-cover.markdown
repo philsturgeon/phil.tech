@@ -6,7 +6,7 @@ permalink: blog/2009/06/Poll-Which-topic-should-my-next-screencast-cover
 excerpt: The last two screencasts I recorded received a great response. Now I am not
   entirely sure to do for my next screencast. Use this Twitter Poll to cast a vote.
 date: '2009-06-05 10:13:00'
-comments: 'true'
+comments: true
 disqus_identifier: Poll-Which-topic-should-my-next-screencast-cover
 ---
 

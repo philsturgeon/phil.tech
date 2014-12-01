@@ -10,7 +10,7 @@ excerpt: " \n\tThere are two kinds of PHP developers. Those who absolutely love 
   with a few PHP frameworks - and the power of hindsight - to explain why some developers
   ignore best practises and use a whole bunch of statics. "
 date: '2012-12-31 16:25:00'
-comments: 'true'
+comments: true
 disqus_identifier: why-do-some-php-devs-love-static
 ---
 

@@ -10,7 +10,7 @@ excerpt: " \n\tThe CodeIgniter Community has been crying out for EllisLab and th
   and is not in develop and... the community said AAAAGGGGHHHHHHH! This post is an
   explanation of why the new documentation is amazing. "
 date: '2011-10-06 09:37:00'
-comments: 'true'
+comments: true
 disqus_identifier: new-codeigniter-documentation
 ---
 

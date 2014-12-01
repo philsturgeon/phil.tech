@@ -10,7 +10,7 @@ excerpt: " \n\tWith CodeIgniter moving to GitHub we are starting to see a lot of
   us on the whole, but there is another method that we can use to manage our packages:
   Git Submodules. "
 date: '2011-09-25 11:09:00'
-comments: 'true'
+comments: true
 disqus_identifier: managing-codeigniter-packages-with-git-submodules
 ---
 
