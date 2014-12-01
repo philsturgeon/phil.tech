@@ -245,7 +245,8 @@ Stop. Reading that hurt my brain. No more of these please.
 ### End-Users
 
 Use CommonMark. Pick an implementation for your blog, book or whatever that actively mentions supporting
-CommonMark; either as the only supported specification or as a driver.
+CommonMark; either as the only supported specification or as a driver. Here are a list of [CommonMark 
+compliant implementations](https://github.com/jgm/CommonMark/wiki/List-of-CommonMark-Implementations) in various languages.
 
 If you are working with PHP, grab a copy of [colinodell/commonmark-php], which will soon be moving over to
 [The League of Extraordinary Packages](http://thephpleague.com). It's specification compliant and will be 
@@ -283,7 +284,7 @@ This XKCD comic is closer to how things should be going:
 
 ## Summary
 
-That is not a very big "if." No library maintainer wants their implementation to be the worst ranked on 
+None of this is that far-fetched. No library maintainer wants their implementation to be the worst ranked on 
 Babelfish, so implementing more and more of CommonMark over time is going to definitely make their tool
 better.
 
