@@ -1,7 +1,8 @@
 ---
 layout: post
 title: The State of Markdown
-category: php
+category: markdown
+redirect_from: /php/2014/11/30/state-of-markdown/
 tags: markdown commonmark php commonmark-php league
 date: '2014-11-30 13:19:00'
 comments: true
@@ -155,7 +156,7 @@ Extensions, including tables, can come later, but let's get the
 core settled first! **-- [John MacFarlane]()**
 
 It looks CommonMark plans to completely cover "core Markdown" - which means Gruber's Markdown - before moving onto any "extra syntax" like tables. That sounds reasonable enough, but a few people are [a bit annoyed] about [fenced code blocks] being added and tables still not being done. It seems a bit inconsistent to 
-add some new syntax but refuse others, but I understand that they are trying hard not to become divergent.
+add some new syntax but refuse others, but I understand that they are trying hard not to become divergent. Really they have [not changed all that much](http://talk.commonmark.org/t/what-changed-in-commonmark/15).
 
 Plenty of Markdown-like languages have cropped up that started off similar to Markdown, but became so 
 different that they are not commonly used. Remember [Creole]? Probably not. CommonMark might have added 
