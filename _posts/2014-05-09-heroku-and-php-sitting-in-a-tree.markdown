@@ -55,7 +55,7 @@ I had to link my local codebase to a Heroku app.
 
 > $ git remote add heroku git@heroku.com:philsturgeon.git
 
-Logged into heroku on the command line. If you dont have the command-line app you will want to [install that](https://devcenter.heroku.com/articles/quickstart).
+Logged into heroku on the command line. If you don't have the command-line app you will want to [install that](https://devcenter.heroku.com/articles/quickstart).
 
 > $ heroku login
 

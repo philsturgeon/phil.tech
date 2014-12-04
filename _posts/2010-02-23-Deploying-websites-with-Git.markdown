@@ -14,7 +14,7 @@ Back in 2008 I wrote an article describing how you can [use Subversion as a very
 
 It sounds a little crazy to some people, but really deploying websites with a version control system makes a lot of sense. When you develop on your local box you can change any number of files throughout a codebase and trying to manually remember what files have been changed can be a pain in the nadgers.
 
-You either need to use your VCS ( [Subversion](http://subversion.apache.org/ "Apache Subversion"), [Git](http://git-scm.com/ "Git: Fast VErsion Control"), [Mercurial](http://mercurial.selenic.com/ "Mercurial: Distributed Source Control Management"), etc) to give you a list of changes files so you can manually go around re-uploading each of them, but this can take a long time on a large application.
+You either need to use your VCS ( [Subversion](http://subversion.apache.org/ "Apache Subversion"), [Git](http://git-scm.com/ "Git: Fast Version Control"), [Mercurial](http://mercurial.selenic.com/ "Mercurial: Distributed Source Control Management"), etc) to give you a list of changes files so you can manually go around re-uploading each of them, but this can take a long time on a large application.
 
 Another option is re-uploading your entire site through FTP which is even more annoying, if not potentially dangerous to live servers as it can destroy file permissions, remove user-uploaded content, confuse cache systems and show programming errors throughout the site as files are deleted and replaced by the FTP client.
 
@@ -90,7 +90,7 @@ That's the hook completed.
 
 ### Summary
 
-The posibilities with Git are insane. These are two very useful ways to deploy your websites and i'm sure there are other methods. If you have an even better way to get your code from local, through testing and then to live with minimum fuss, please let me know!
+The possibilities with Git are insane. These are two very useful ways to deploy your websites and i'm sure there are other methods. If you have an even better way to get your code from local, through testing and then to live with minimum fuss, please let me know!
 
 _ **Note:** This article assumes you have [SSH keys set up](http://help.github.com/key-setup-redirect "Generating SSH Keys"). You will need too add your local SSH public key to the Git repository server and add your live servers SSH key to the Git repository server for the live server to contact it. If you wish to deploy directly from local to live, then you can add your local SSH key to the live server but most servers by default will just ask for your user password._
 

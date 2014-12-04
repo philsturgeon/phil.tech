@@ -90,11 +90,11 @@ So, all of the problems we've had in the past are gone. Combine that with the ne
 
 ### Positivity in the Community
 
-When people were trickling off on the Sunday I had the oppertunity to one-on-one with a lot of people who were all really enthusiastic. Nobody tried to sneak away and nobody had any negative comments: everyone I spoke to said something along the lines of "Man, I can't wait to get home and fix some bugs!". That. Is. Amazing.
+When people were trickling off on the Sunday I had the opportunity to one-on-one with a lot of people who were all really enthusiastic. Nobody tried to sneak away and nobody had any negative comments: everyone I spoke to said something along the lines of "Man, I can't wait to get home and fix some bugs!". That. Is. Amazing.
 
 By the end of the event we were up to 30 contributors on the Git repo, now it’s up to 35.
 
-CodeIgniter just got a shot of adrenaline right in the face and I hope this positivitiy continues. So far only one person has complained (guess who - his name starts with a "w") and he has yet to send a single pull request. If you think we're doing it wrong, tell us. If you can do better, show us with code.
+CodeIgniter just got a shot of adrenaline right in the face and I hope this positivity continues. So far only one person has complained (guess who - his name starts with a "w") and he has yet to send a single pull request. If you think we're doing it wrong, tell us. If you can do better, show us with code.
 
 <u>Photos</u>
 

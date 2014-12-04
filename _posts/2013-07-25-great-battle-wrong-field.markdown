@@ -115,4 +115,4 @@ Fucking **loads**.
 
 I plan to write an article about how we can potentially solve some of these issues based on conversations I've had with other on the topic, which is the only way I can see of making something positive out what is always a difficult situation.
 
-Stop opportunistic white-knighting, stop accusing people of shit because they said something that seems close to one of your pre-defined responses, and dont be a dick.
+Stop opportunistic white-knighting, stop accusing people of shit because they said something that seems close to one of your pre-defined responses, and don't be a dick.

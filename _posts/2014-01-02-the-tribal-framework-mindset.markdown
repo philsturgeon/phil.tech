@@ -74,7 +74,7 @@ This same logic applies to Laravel community resources.
 
 Jeffrey Way unfortunately assumed I was talking about his [Laracast video about community](https://laracasts.com/lessons/laravel-community-crash-course) with my original tweet. Again, not the case. Laracasts plays an incredibly powerful role in releasing high quality training resources for people that want to learn specifically about Laravel, so shoving AuraPHP advice in there might not be something anyone would care about. 
 
-To me it seems that this video was far from being a problem, but was confirmation of everything I've been saying. The intro describes the problem that the video then goes through solving: "You know the drill, you join some new technical community but you dont yet know who is who or what is what." That is exactly the issue here. 
+To me it seems that this video was far from being a problem, but was confirmation of everything I've been saying. The intro describes the problem that the video then goes through solving: "You know the drill, you join some new technical community but you don't yet know who is who or what is what." That is exactly the issue here. 
 
 This is what keeps people using their one-true-framework over all others for so long. With all their code in that system, and all their knowledge, and all their friends, and all their RSS feeds, all covering that one community, the thought of moving to another just seems like death.
 

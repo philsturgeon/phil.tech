@@ -59,7 +59,7 @@ Whatever, the PHP OOP auto-complete in 6.8 is already helpful enough.
 
 ### Summary
 
-You won't very often hear me admit I'm wrong, but it does happen now and then. This is one case where I am perfectly happy to admit I am wrong and say that NetBeans is a vastly supieror IDE. It uses more memory than any other I have tried, but at the end of the day everything works perfectly and exactly how you would expect it to. That is enough for me to ignore the memory hogging and upgrade.
+You won't very often hear me admit I'm wrong, but it does happen now and then. This is one case where I am perfectly happy to admit I am wrong and say that NetBeans is a vastly superior IDE. It uses more memory than any other I have tried, but at the end of the day everything works perfectly and exactly how you would expect it to. That is enough for me to ignore the memory hogging and upgrade.
 
 [Try NetBeans 6.8 today](http://netbeans.org/downloads/index.html). It's free and you will be very happy, especially if you are currently "putting up with" Eclipse or one of its ugly sisters.
 
