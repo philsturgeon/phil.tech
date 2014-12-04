@@ -28,7 +28,7 @@ I'm not going to link to any bad examples because that's just rude, but here are
 
 1. Use the query string for paired params instead of `/users/id/5/active/true`. _Your API does not need to be SEO optimised._
 1. `?format=xml` is stupid, use an `Accept: application/xml` header. I added this to the CodeIgniter Rest-Server once for lazy people, and now people think it's a thing. It's not.
-1. Make all of your resources plural. `/user/X` might make sense initially, but when you get a word like "opportunity" it gets weird fast gets. `/opportunities` and `/oppertunity/X` is a pain.
+1. Make all of your resources plural. `/user/X` might make sense initially, but when you get a word like "opportunity" it gets weird fast gets. `/opportunities` and `/opportunity/X` is a pain.
 
 ### Resources are EVERYTHING
 
@@ -97,7 +97,7 @@ I'm not going to link to any bad examples because that's just rude, but here are
 3. Those headers can look like this: `application/vnd.com.example-v1.0+json`. Gross? [Whatever](https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&docid=-l1lNUV-Sj-RKM&tbnid=Tkz4Pv-XTuQGAM:&ved=0CAUQjRw&url=http%3A%2F%2Fscans-daily.dreamwidth.org%2F3196144.html&ei=jfOaUbTWB4yq0AHM-oCwBw&bvm=bv.46751780,d.dmg&psig=AFQjCNE52ObL3umOX7eH24qcfc3aQkoH2w&ust=1369195783425767).
 3. Use this variable to map to a different directory in your virtual host config, and these each have their own Git branch. Something like: "set $api_path api-v$api_version;" followed by a "root   /var/www/$api_path/public;"
 4. Merge changes upwards to as many codebases that share a common history, don't try and copy and paste changes like a dummy.
-5. All rules in this section mean 1.0 could be PHP, 2.0 could be Node (you hipster you) and 3.0 could be Scala (I dont even...) and only your minor versions need to worry about merging changes upwards.
+5. All rules in this section mean 1.0 could be PHP, 2.0 could be Node (you hipster you) and 3.0 could be Scala (I don't even...) and only your minor versions need to worry about merging changes upwards.
 
 This message has been brought to you with the help of Dos Equis, and a little Scotch.
 

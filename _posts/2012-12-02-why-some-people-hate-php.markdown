@@ -72,7 +72,7 @@ Not using PHP is cool. Who wants to use the same language you used when you firs
 
 You need something that will challenge you and anyone using PHP is just not smart enough to learn something else...
 
-I hate that point of view so much. In the lift today on the way in, my colleaue overheard a conversation from two total strangers: "You can't trust these PHP shops, why don't they learn a real language?". This covers a lot of the views of people around, and if it's not elitist then it is at least short sighted.
+I hate that point of view so much. In the lift today on the way in, my colleague overheard a conversation from two total strangers: "You can't trust these PHP shops, why don't they learn a real language?". This covers a lot of the views of people around, and if it's not elitist then it is at least short sighted.
 
 So, why do people still use PHP?
 
