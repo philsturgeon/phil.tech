@@ -29,7 +29,7 @@ Well, now we're testing cheerio v PhpQuery which is a bit different, but fine, l
 
 Sure it was, because phpQuery uses `file_get_contents()` which is blocking, meaning each and every single one of those web requests has to be done in turn. PHP is just sitting there waiting for the server to respond, when it could be doing something else. Also where were these tests being run from? The moon?!
 
-We've come a long way from the original title of "NodeJS v PHP", to really asking "cheerio v phpQuery", which is realistically asking "Blocking v Non-Blocking", or Synchronous v Asynchronous". 
+We've come a long way from the original title of "NodeJS v PHP", to really asking "cheerio v phpQuery", which is realistically asking "Blocking v Non-Blocking", or "Synchronous v Asynchronous".
 
 Benchmarking to see if "doing multiple things at once" is faster than "doing one thing at a time" almost certainly sounds like a waste of time, but it would at least match the actual code examples being run and therefore be a valid test. Let's just pretend it _was_ worded like that, and have a go at this benchmark ourselves.
 
@@ -75,9 +75,9 @@ Now we have the NPM modules for Node to do its thing.
 
 ## Variables
 
-**Bandwidth:** 15 Mbps  
-**Vagrant Memory:** 1024MB  
-**PHP version:** v5.5.5  
+**Bandwidth:** 15 Mbps
+**Vagrant Memory:** 1024MB
+**PHP version:** v5.5.5
 **NodeJS version:** v0.10.21
 
 I used phpQuery with the [one file](https://code.google.com/p/phpquery/downloads/detail?name=phpQuery-0.9.5.386-onefile.zip&can=2&q=) download, because they haven't bothered getting it on Composer yet. If they're going to flagrantly ignore PSR-0 and Composer I may as well go with performantly packaged option.
@@ -85,8 +85,8 @@ I used phpQuery with the [one file](https://code.google.com/p/phpquery/downloads
 ## Run the Tests
 
 {% highlight php %}
-$ cd /vagrant  
-$ chmod +x ./run.sh  
+$ cd /vagrant
+$ chmod +x ./run.sh
 $ ./run.sh
 {% endhighlight %}
 
@@ -94,26 +94,26 @@ This will run the same two examples from the original article first, then run my
 
 ## Results
 
-My async re-do of the original PHP example kicked the fuck out of everything else. 
+My async re-do of the original PHP example kicked the fuck out of everything else.
 
 Here are the numbers:
 
 ### Node v0.10.21 + Cheerio
 
-> real	0m45.142s  
-> user	0m8.081s  
-> sys	0m0.888s  
+> real	0m45.142s
+> user	0m8.081s
+> sys	0m0.888s
 
 ### PHP 5.5.5 + phpQuery (Blocking)
 
-> real	3m33.601s  
-> user	0m8.685s  
+> real	3m33.601s
+> user	0m8.685s
 > sys	0m1.212s
 
 ### PHP 5.5.5 + ReactPHP + phpQuery
 
-> real	0m23.877s  
-> user	0m10.237s  
+> real	0m23.877s
+> user	0m10.237s
 > sys	0m1.568s
 
 
@@ -123,11 +123,11 @@ People like pretty graphs:
 
 ## Conclusions
 
-The primary conclusion to draw from this is that doing 200 HTTP requests in sequence is slower than making multiple requests at the same time. Shocker that. 
+The primary conclusion to draw from this is that doing 200 HTTP requests in sequence is slower than making multiple requests at the same time. Shocker that.
 
 We can also be pretty confident that the original article was completely wrong about everything. PHP is not as pathetic at async code as the original "benchmark" alludes to. It is entirely down to how a package decides to implement libevent or libev, much like ReactPHP has done.
 
-Both systems can probably go faster somehow, and both systems could probably have their API's cleaned up some to make this even easier. They both need some fault tolerance because when I cranked up the number to 1000 both systems had problems. 
+Both systems can probably go faster somehow, and both systems could probably have their API's cleaned up some to make this even easier. They both need some fault tolerance because when I cranked up the number to 1000 both systems had problems.
 
 I'm not going to say either system is faster, just that the massive gap in the original article comes down purely to picking a blocking system. Run it yourself, and make your own conclusions. Let's just say that PHP is not sucking as bad as some people would expect.
 
@@ -139,7 +139,7 @@ _Look, they're the same. At this point it is just a network test. The speed betw
 
 ## Observations
 
-It is worth noting that the faster the network connection the less the difference is between the two. At 82 Mbps down [Jon Sherrard](http://twitter.com/jshez) was reporting "PHP 5.5.5 + ReactPHP + phpQuery" running at 15 seconds and "Node + Cheerio" running at 18 seconds. 
+It is worth noting that the faster the network connection the less the difference is between the two. At 82 Mbps down [Jon Sherrard](http://twitter.com/jshez) was reporting "PHP 5.5.5 + ReactPHP + phpQuery" running at 15 seconds and "Node + Cheerio" running at 18 seconds.
 
 I asked a few friends to try having a go at improving the speed of the original posters NodeJS code, and a [few alternatives](https://gist.github.com/boxedfish/7423034) sprung up from [Alex Akass](https://twitter.com/alexjakass). His results have them pegged as only slight speed improvements, while mine had ps4.js clocked at about 9 seconds, which is mental. It did use a lot of child processes and fail when the page count was bumped to 1000 though, which is a useful reminder that none of this is magic and everything has costs.
 
@@ -149,13 +149,13 @@ It seems likely to me that people just assume PHP can't do this stuff, because b
 
 This is why the work being done by folks like the ReactPHP project is incredibly important. They're wrapping up things like libevent and libev to provide developers with a simple Composer package to base other code on. Simple dependencies abstracting complicated stuff is exactly what modern development is all about, and PHP is keeping up nicely.
 
-The HTTP Client library I used in this example is a little weak and only works with HTTP 1.0, which is problematic. For this reason [Igor Wiedler](https://twitter.com/igorwesome) himself recommends that you don't use it, but there is no reason why a better version could not be built. 
+The HTTP Client library I used in this example is a little weak and only works with HTTP 1.0, which is problematic. For this reason [Igor Wiedler](https://twitter.com/igorwesome) himself recommends that you don't use it, but there is no reason why a better version could not be built.
 
 [Guzzle](http://guzzlephp.org/) might get some async love soon too wrapping up [curl multi](http://php.net/manual/en/function.curl-multi-init.php), as [Nils Adermann](https://twitter.com/naderman/status/399988127705468928) just finished up a [pull request](https://github.com/guzzle/guzzle/pull/466). Great timing!
 
 ## Summary
 
-The trolls will no doubt say I am only defending PHP (again) because I am just not clever enough to learn other languages, but really I am tired of people making shit up. Once again people this is an example, not a specific piece of rage against just one person that wrote one shitty article. This happens a lot, and this should be an example to people who will try it again. 
+The trolls will no doubt say I am only defending PHP (again) because I am just not clever enough to learn other languages, but really I am tired of people making shit up. Once again people this is an example, not a specific piece of rage against just one person that wrote one shitty article. This happens a lot, and this should be an example to people who will try it again.
 
 PHP has enough [legitimate concerns](http://phpsadness.com/) without people just pretending they're scientists and using bullshit numbers to prove that up is left and cheese is made of potatoes.
 
