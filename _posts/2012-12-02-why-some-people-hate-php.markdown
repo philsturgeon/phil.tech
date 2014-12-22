@@ -27,7 +27,7 @@ It's as simple as that, but people often forget and assume its more complicated.
 
 <u>Reference</u>
 
-<img src="http://qph.cf.quoracdn.net/main-qimg-fa201f1217c396cd88685d386714c5d7" master_src="http://qph.cf.quoracdn.net/main-qimg-8cff392ef81d828c05e4437d195332db" master_w="1680" master_h="1050"></div>
+<img src="http://qph.cf.quoracdn.net/main-qimg-fa201f1217c396cd88685d386714c5d7" master_src="http://qph.cf.quoracdn.net/main-qimg-8cff392ef81d828c05e4437d195332db" master_w="1680" master_h="1050" />
 
 2.) PHP is a HTML file, with logic
 
