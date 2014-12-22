@@ -32,7 +32,7 @@ It's as simple as that, but people often forget and assume its more complicated.
 2.) PHP is a HTML file, with logic
 
 PHP assumes the file will be HTML first, which can lead to some stupid output problems where whitespace sneaks in before or after those <?php ?> tags. There are some plans to change that, but it can lead to trouble and reminds everyone that PHP has a history of "templating first, programming later".
-  
+
 
 <b>[New File Type for Pure-Code PHP Scripts](https://wiki.php.net/rfc/phpp)</b>
 
@@ -44,7 +44,7 @@ There are a million frameworks with a million standards, people fight over snake
 
 4.) Lack of Quality Packages
 
-NPM, Bundler/Gems, PIP, CPAN etc all provide quality code packages for developers to plug into their code, meaning they can write less and do more. PHP does not have a consistent package system other than PEAR, which is an aging beast which most people ignore due to the low quality or old age of the packages. 
+NPM, Bundler/Gems, PIP, CPAN etc all provide quality code packages for developers to plug into their code, meaning they can write less and do more. PHP does not have a consistent package system other than PEAR, which is an aging beast which most people ignore due to the low quality or old age of the packages.
 
 PSR-0 (part of the PHP-FIG) is a standard that has been generated to help code packages work together, and Composer is a project that has been built to make NPM-style dependency handling for PHP. In time we'll see the quality increase, meaning much less bad code is going to be rebuilt time and time again by every developer - and much more time can be saved instead of developers working on fragmented "framework specific" solutions.
 
@@ -68,7 +68,7 @@ The structure comes from a framework. I don't know many people using Ruby who ar
 
 7.) Elitism
 
-Not using PHP is cool. Who wants to use the same language you used when you first started writing code as a kid? Who wants to use something that has loads of terrible script kiddies using it? It must not be a challenge, it's not smart enough for a smart programmer like you. 
+Not using PHP is cool. Who wants to use the same language you used when you first started writing code as a kid? Who wants to use something that has loads of terrible script kiddies using it? It must not be a challenge, it's not smart enough for a smart programmer like you.
 
 You need something that will challenge you and anyone using PHP is just not smart enough to learn something else...
 
@@ -78,10 +78,10 @@ So, why do people still use PHP?
 
 If nothing else; <i>Momentum</i>
 
-The latest stats from the W3Techs show that almost 78% of the top million sites are built with PHP. Now, while you can sniff at the quality of the language itself you can't sniff at that.
+The latest stats from the W3Techs show that almost [78% of the top million sites are built with PHP]. Now, while you can sniff at the quality of the language itself you can't sniff at that.
 
-<u><a href="http://w3techs.com/technologies/overview/programming_language/all" rel="nofollow" target="_blank" class="external_link">http://w3techs.com/technologies/overview/programming_language/all</a></u>
-
-I am proficient in PHP, Ruby, Python and have dabbled with NodeJS. Why am I&nbsp; using PHP? Because it has the biggest market.
+I am proficient in PHP, Ruby, Python and have dabbled with NodeJS. Why am I using PHP? Because it has the biggest market.
 
 Lots of developers want to chase "the perfect language", "the perfect IDE", "the perfect hosting platform". The answer is that there is no perfect tool, just options. Nobody should be "hating" any of them.
+
+[78% of the top million sites are built with PHP]: http://w3techs.com/technologies/overview/programming_language/all
