@@ -4,7 +4,7 @@ title: Developer Fallacies of 2014
 date: '2015-01-10 11:22:00 +0500'
 category: php
 tags: php php-fig thephpleague isdead asshattery
-comments: false
+comments: true
 ---
 
 Some people like to take a quick walk down memory lane in January, and post their highlights of the year 
