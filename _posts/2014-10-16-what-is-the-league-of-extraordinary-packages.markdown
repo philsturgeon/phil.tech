@@ -125,7 +125,7 @@ Ignoring the various offensive undertones of those assertions, there was clear c
 
 PHPClasses is a package directory. It was built probably about 15 years ago, and has barely changed since then.
 
-At some point last year, people got angry and sad with us that we would not let other packages in. People saw as as a closed group who were saying we were better than everyone else, and kept the common muck out - or something. We never had rules against third-parties bringing their components over to the League. We just never considered it, and didn't think anyone would want to!
+At some point last year, people got angry and sad with us that we would not let other packages in. People saw us as a closed group who were saying we were better than everyone else, and kept the common muck out - or something. We never had rules against third-parties bringing their components over to the League. We just never considered it, and didn't think anyone would want to!
 
 We put some simple rules on the site, saying they could come over if they promised to try to make their code excellent. Part of that involved consistent branding, as we're a component vendor after-all. Imagine if [Symfony], [Zend], [Aura], [Orno] or [Hoa] had random components with other vendor names?
 
