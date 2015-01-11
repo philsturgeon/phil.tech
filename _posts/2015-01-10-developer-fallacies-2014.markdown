@@ -40,5 +40,4 @@ Let's take a look back at some of the silly, shortsighted or patently false thin
 
 What a year.
 
-Let's try to cut back on the asshattery in and around the PHP community this year. Let's focus on open-
-source teamwork, helping other developers to learn new things and building bigger and better educational resources for developers of all skill levels. Most importantly, [Don't Be a Dick](http://dbad-license.org).
+Let's try to cut back on the asshattery in and around the PHP community this year. Let's focus on open-source teamwork, helping other developers to learn new things and building bigger and better educational resources for developers of all skill levels. Most importantly, [Don't Be a Dick](http://dbad-license.org).
