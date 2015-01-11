@@ -31,7 +31,7 @@ Let's take a look back at some of the silly, shortsighted or patently false thin
 * PHP 7.0 is a better name than PHP 6.0 because 7 is lucky in China
 * Releasing 1000 identical packages that solve the same domain problem in basically exactly the same way with varying levels of quality is great for the community
 * There is nothing at all wrong with extremely tight package-level coupling
-* I am a credit theif who pretends I wrote PHP The Right Way by myself
+* I am a credit thief who pretends I wrote PHP The Right Way by myself
 * PHPNG is Zend's response to HHVM and they are the same thing
 * Spaces are better than tabs
 * Tabs are better than spaces
