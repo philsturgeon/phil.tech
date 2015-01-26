@@ -136,6 +136,6 @@ As for "Puppet or Chef" there is no real answer, they are two different tools th
   [vagrant]: http://net.tutsplus.com/tutorials/php/vagrant-what-why-and-how/
   [lampchef]: http://www.jasongrimes.org/2012/06/managing-lamp-environments-with-chef-vagrant-and-ec2-1-of-3/
   [chef-community]: http://community.opscode.com/cookbooks/php
-  [puppetmaster]: 
+  [puppetmaster]: https://docs.puppetlabs.com/learning/agent_master_basic.html
   [puppet-bags]: http://www.craigdunn.org/2011/10/secret-variables-in-puppet-with-hiera-and-gpg/
   [databags]: http://wiki.opscode.com/display/chef/Encrypted+Data+Bags
