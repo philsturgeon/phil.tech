@@ -5,6 +5,7 @@ date: '2015-01-28 7:14:00 +0500'
 category: api
 tags: http api dredd apiblueprint
 comments: true
+excerpt: "If you have documentation for any sort of HTTP-based API, from a micro-service to a non-trivial RESTful API, if it has existed for more than a week it has got some mistakes in it. Documentation degrades over time. This article aims to help you ensure that your API documentation keeps entirely in line with the implementation, utilizing two tools: API Blueprint and Dredd."
 ---
 
 If you have documentation for any sort of HTTP-based API, from a micro-service to a non-trivial RESTful API, if it has existed for more than a week it has got some mistakes in it. Documentation degrades over time. This article aims to help you ensure that your API documentation keeps entirely in line with the implementation, utilizing two tools: [API Blueprint] and [Dredd].
@@ -131,7 +132,13 @@ This gives some great feedback on all sorts of potential screw-ups in your docum
 
 ## Limitations
 
-If you have no integration tests then this can be a good start, but it should not be relied on as your complete source of integration tests. API Blueprint is great, but it has limitations. For example, you can only have one request for each "URL" + "HTTP Method" combination. This has been a pain in the past when I have wanted to document multiple `POST /oauth/tokens` requests showing the various inputs and outputs for different OAuth grant types, but API Blueprint wouldn't let me.
+If you have no integration tests then this can be a good start, but it should not be relied on as your complete source of integration tests. API Blueprint is great, but it has limitations. 
+
+For example, you can only have one request for each "URL" + "HTTP Method" combination. This has been a pain in the past when I have wanted to document multiple `POST /oauth/tokens` requests showing the various inputs and outputs for different OAuth grant types, but API Blueprint wouldn't let me.
+
+Also, documenting multiple errors can be tricky. You can only have one error response example per HTTP Status Code. For example, you can only have one `422` response for _all_ validation errors on that endpoint.
+
+This makes Dredd terrible for proper integration testing, and that is fine as it is not what Dredd is for. Dredd is testing your documentation is accurate using the API, it is not for testing your API. That is just a handy side benefit. Dredd has caught actual bugs that our unit and integration tests did not, but again, you can't _just_ use Dredd. **You need a real test suite too.**
 
 ## Summary
 
@@ -143,9 +150,10 @@ Hopefully you can get it done a little quicker with this advice.
 [API Blueprint]: https://apiblueprint.org/
 [Swagger]: http://swagger.io/
 [RAML]: http://raml.org/
-[Fractal]: http://fractal.thephpleague.com
+[Fractal (PHP)]: http://fractal.thephpleague.com
 [Active Model Serializers (Rails)]: http://railscasts.com/episodes/409-active-model-serializers
 [Marshmallow (Python)]: http://marshmallow.readthedocs.org/
 [Ride]: http://ride.com/
 [Factory Muffin]: https://factory-muffin.thephpleague.com/
+[Dredd]: https://github.com/apiaryio/dredd
 [Snowcrash]: https://github.com/apiaryio/snowcrash
