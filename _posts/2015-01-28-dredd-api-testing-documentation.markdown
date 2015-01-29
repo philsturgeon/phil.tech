@@ -67,7 +67,7 @@ This helped make dredd set itself up with a useful database, run a server in the
 
 ### Step 2: Test Data
 
-I [wrote about seeding a database in PHP/Laravel](/blog/2013/11/build-apis-part-1-useful-database-seeding/) and there are a few new tools like [Factory Muffin] to make this really easy. Regardless of the language or framework, however your seed your database for other integration tests will probably work fairly well as a start.
+I [wrote about seeding a database in PHP/Laravel](/blog/2013/11/build-apis-part-1-useful-database-seeding/) and there are a few new tools like [Factory Muffin] to make this really easy. Regardless of the language or framework, however you seed your database for other integration tests will probably work fairly well as a start.
 
 At Ride as you can see above we use Rails fixtures for tests already, so I got a long way off of that. I ended up writing a custom `db:seed` logic which would make custom users, custom OAuth tokens, and basic related data to be used solely by Dredd.
 
