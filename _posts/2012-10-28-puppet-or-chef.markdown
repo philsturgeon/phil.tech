@@ -18,8 +18,6 @@ I started off using Puppet to build up development boxes, with the use-case of t
 
 So, if you're hopping on the "devops" train and would like to learn a server provisioning tool, which should you learn?
 
-<img src="http://www.jaesharp.com/assets/images/posts/2012-10-18-Defining-DevOps/weputdevinyourops.jpg" style="float: right; margin: 10px 0 10px 10px" />
-
 ### Syntax
 
 Puppet uses a <s>proprietary</s> custom language, while Chef uses Ruby. This straight off the bat means a lot of Ruby developers prefer Chef as they can build out in a familiar language, but the Puppet language is so incredibly simple it should not be seen as a barrier to entry. 
@@ -138,6 +136,6 @@ As for "Puppet or Chef" there is no real answer, they are two different tools th
   [vagrant]: http://net.tutsplus.com/tutorials/php/vagrant-what-why-and-how/
   [lampchef]: http://www.jasongrimes.org/2012/06/managing-lamp-environments-with-chef-vagrant-and-ec2-1-of-3/
   [chef-community]: http://community.opscode.com/cookbooks/php
-  [puppetmaster]: 
+  [puppetmaster]: https://docs.puppetlabs.com/learning/agent_master_basic.html
   [puppet-bags]: http://www.craigdunn.org/2011/10/secret-variables-in-puppet-with-hiera-and-gpg/
   [databags]: http://wiki.opscode.com/display/chef/Encrypted+Data+Bags

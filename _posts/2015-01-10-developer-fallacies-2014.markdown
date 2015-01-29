@@ -7,10 +7,9 @@ tags: php php-fig thephpleague isdead asshattery
 comments: true
 ---
 
-Some people like to take a quick walk down memory lane in January, and post their highlights of the year 
-that went before.
+Some people like to take a quick walk down memory lane in January, and post their highlights of the previous year.
 
-My last year was defined by a) visa drama and b) stupid arguments. Seeing as I've already covered the [visa drama](/personal/2014/11/15/alien-status-extraordinary-again/) and the [eventual resolution](/personal/2014/08/04/i-was-an-extraordinary-alien-for-a-week/), I thought I'd take a slightly different route with this year in review.
+Last year (2014) was defined for me by a) visa drama and b) stupid arguments. Seeing as I've already covered the [visa drama](/personal/2014/11/15/alien-status-extraordinary-again/) and the [eventual resolution](/personal/2014/08/04/i-was-an-extraordinary-alien-for-a-week/), I thought I'd take a slightly different route with this year in review.
 
 Let's take a look back at some of the silly, shortsighted or patently false things people have been saying around the PHP community, and the development community in general, starting from January 1st 2014 and going through in rough chronological order:
 
@@ -32,7 +31,7 @@ Let's take a look back at some of the silly, shortsighted or patently false thin
 * PHP 7.0 is a better name than PHP 6.0 because 7 is lucky in China
 * Releasing 1000 identical packages that solve the same domain problem in basically exactly the same way with varying levels of quality is great for the community
 * There is nothing at all wrong with extremely tight package-level coupling
-* I am a credit theif who pretends I wrote PHP The Right Way by myself
+* I am a credit thief who pretends I wrote PHP The Right Way by myself
 * PHPNG is Zend's response to HHVM and they are the same thing
 * Spaces are better than tabs
 * Tabs are better than spaces
@@ -41,6 +40,4 @@ Let's take a look back at some of the silly, shortsighted or patently false thin
 
 What a year.
 
-Let's try and cut back on the asshattery in and around the PHP community this year. Lets focus on open-
-source teamwork, helping other developers learn and building bigger and better educational resources for 
-all levels of developer. Most importantly, [Don't Be a Dick](http://dbad-license.org).
+Let's try to cut back on the asshattery in and around the PHP community this year. Let's focus on open-source teamwork, helping other developers to learn new things and building bigger and better educational resources for developers of all skill levels. Most importantly, [Don't Be a Dick](http://dbad-license.org).
