@@ -21,7 +21,7 @@ So with this amazing festival less than a month away, I've been talking to one o
 
 Brad is a New Yorker with 14 years of experience building, managing, and teaching about educational technology. He is credited with co-designing and developing one of the world's first web-based learning management systems as VP of Technology for eCollege, so he has plenty of knowledge on an experience to bring to the festival.
 
-### ![Photo on 2010 06 01 at 11.27 #2](../../../application/uploads/default/assets/cache/9_330_240_90.jpg)Q: What will you be doing at the festival?
+### Q: What will you be doing at the festival?
 
 _A: I will be co-chairing a conference space called "Open Content Studio", in which we plan to basically hack, discuss, explore, enhance, find, promote, or perform any other action on Open Content that suits our desire.  We're also planning to build stuff, by toying with the idea of trying to craft some chunks of an Open textbook, likely on the topic of web development.  We don't necessarily expect a full textbook as a result, but instead insight into the existing toolsets and where they shine or fall short, as well as the editorial and content authoring challenges of pulling together something like a textbook.  We'll get a chance to dig into feature sets of various OER tools._
 

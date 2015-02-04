@@ -26,6 +26,8 @@ Dredd will look at the headers, status code, response format and the exact body 
 
 Setting this up took me about three weeks, but we have an incredibly non-trivial API at Ride. There are complex user roles, we are pre-1.0 meaning there were a lot of bugs to fix and are in a rapid development phase meaning I was coding against moving goal posts.
 
+![Commits showing slow progress on the Dredd integration. These are the ones before I started using multiple swearwords per commit.](/assets/article_images/2015-01-28-dredd-api-testing-documentation/dredd-commits.jpg)
+
 You can do this much quicker.
 
 First, read [How To Test REST API with API Blueprint and Dredd](http://blog.apiary.io/2013/10/17/How-to-test-api-with-api-blueprint-and-dredd/).
