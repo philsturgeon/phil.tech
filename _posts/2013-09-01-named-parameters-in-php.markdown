@@ -12,24 +12,24 @@ comments: true
 disqus_identifier: named-parameters-in-php
 ---
 
-_**Update 06/09/2013:**_ I had initially offered to put together an RFC draft updating the original rather dire efforts at documenting PHP's lack of interest for named parameters. A more objective RFC has now been put together by [Nikita Popov](https://twitter.com/nikita_ppv) so I can ditch my notes. Wonderful._
+_**Update 06/09/2013:** I had initially offered to put together an RFC draft updating the original rather dire efforts at documenting PHP's lack of interest for named parameters. A more objective RFC has now been put together by [Nikita Popov](https://twitter.com/nikita_ppv) so I can ditch my notes. Wonderful._
 
 Converting a Python Twitter API package to PHP turned out to be more trouble than I initially expected due to the usage of Python's named parameters. Here is the converted function signature:
 
 {% highlight php %}
 public function getFriends(
-    $user\_id = null, 
-    $screen\_name = null, 
+    $user_id = null, 
+    $screen_name = null, 
     $cursor = -1, 
-    $skip\_status = false, 
-    $include\_user\_entities = false
+    $skip_status = false, 
+    $include_user_entities = false
 ) {
 {% endhighlight %}
 
 In Python a call to that method could look like this:
 
 {% highlight python %}
-api.get\_friends(screen\_name="phpdrama", include\_user\_entities=true)
+api.get_friends(screen_name="phpdrama", include_user_entities=true)
 {% endhighlight %}
 
 Because PHP has no ability for users to specify parameters and is instead done entirely based on the definition order, it's going to look like this:
@@ -58,11 +58,11 @@ Well, if its my only option I guess I will, but how does it look:
 public function getFriends($args)
 {
     $args += [
-    	'user\_id' => null,
-    	'screen\_name' => null,
+    	'user_id' => null,
+    	'screen_name' => null,
     	'cursor' => -1,
-    	'skip\_status' => false,
-    	'include\_user\_entities' => false,
+    	'skip_status' => false,
+    	'include_user_entities' => false,
     ];
     extract($args);
 	// ....
@@ -74,7 +74,7 @@ _**Update 01/09/2013:** I had some nasty-ass isset statements in there but a few
 This syntax will make the following syntax available:
 
 {% highlight php %}
-$api->getFriends(['screen\_name' => 'phpdrama', 'include\_user\_entities' => true]);
+$api->getFriends(['screen_name' => 'phpdrama', 'include_user_entities' => true]);
 {% endhighlight %}
 
 Ok so yes, technically this will work, but I lose all ability to docblock anything, type hinting is a chore and I have to do it in EVERY method. There are a lot of methods, which means literally hundreds of lines of boilerplate that could be replaced easily with syntax.
@@ -82,10 +82,10 @@ Ok so yes, technically this will work, but I lose all ability to docblock anythi
 What would it look like in PHP-land? Something like one of these I guess:
 
 {% highlight php %}
-$api->getFriends(screen\_name => 'phpdrama', include\_user\_entities => true);
-$api->getFriends(screen\_name='phpdrama', include\_user\_entities=true);
-$api->getFriends(:screen\_name => 'phpdrama', :include\_user_entities => true);
-$api->getFriends(screen\_name: 'phpdrama', include\_user\_entities: true);
+$api->getFriends(screen_name => 'phpdrama', include_user_entities => true);
+$api->getFriends(screen_name='phpdrama', include_user_entities=true);
+$api->getFriends(:screen_name => 'phpdrama', :include_user_entities => true);
+$api->getFriends(screen_name: 'phpdrama', include_user_entities: true);
 {% endhighlight %}
 
 Comment on which you prefer and why. Also feel free to suggest other syntax.
@@ -98,11 +98,11 @@ Named Parameters for PHP is not a new conversation. It's reared its head several
 
 The reason I've not been confident about seeing named parameters make it into PHP is due to the conclusion on this RFC:
 
-> Discussion
+> **Discussion**
 
 > We don't see the real need for named parameters, as they seem to violate PHP's KISS principle. It also makes for messier code.
 
-> Conclusions
+> **Conclusions**
 
 > We do not want to add it.
 
