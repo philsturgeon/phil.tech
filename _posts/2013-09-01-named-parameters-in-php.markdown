@@ -47,12 +47,12 @@ Everything is wrong with this.
 
 ### What about arrays?
 
-Whenever I say I'd like to use named parameters, somebody says "why do you need them, just use arrays!".
+Whenever I say I'd like to use named parameters, somebody says "why do you need them, just use arrays!"
 
 <blockquote class="twitter-tweet"><p><a href="https://twitter.com/philsturgeon">@philsturgeon</a> That argument always comes up on internals when named parameters are raised. Shows a fundamental misunderstanding, I feel.</p>&mdash; weierophinney (@mwop) <a href="https://twitter.com/mwop/statuses/361982046433845248">July 29, 2013</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Well, if its my only option I guess I will, but how does it look:
+Well, if it's my only option I guess I will, but how does it look:
 
 {% highlight php %}
 public function getFriends($args)
@@ -99,11 +99,11 @@ Named Parameters for PHP is not a new conversation. It's reared its head several
 The reason I've not been confident about seeing named parameters make it into PHP is due to the conclusion on this RFC:
 
 > **Discussion**
-
+>
 > We don't see the real need for named parameters, as they seem to violate PHP's KISS principle. It also makes for messier code.
-
+>
 > **Conclusions**
-
+>
 > We do not want to add it.
 
 The attitude that comes across here is extremely negative and mostly sounds like the response of somebody that does not truly understand what named parameters are. The RFC also says that it needs to be updated to include conversations that have been had since the RFC was initially created. 

@@ -93,7 +93,7 @@ Right? WRONG. I'm not going to complain about that again because I did it in a v
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/hd9t6jgGcYE" frameborder="0" allowfullscreen></iframe>
 
-People were super against our potential future selves saying "Look, they edited this file once, so now we can change things willy nilly!".
+People were super against our potential future selves saying "Look, they edited this file once, so now we can change things willy nilly!"
 
 Erf. So to avoid that I've come up with an [amendment bylaw] which states that you can't make changes _except_ some reasonable conditions. Here is a real short summary:
 

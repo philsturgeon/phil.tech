@@ -29,7 +29,7 @@ To get code onto the main PEAR repository you need to get a certain number of up
 
 Another knock-on effect is that you have to install pretty much any code you need to add a new repository, because so many people are using their own to avoid using the default repo. That makes it harder to search, harder to contribute and just generally more of a bitch to work with.
 
-Of the packages already on on PEAR, most of them are massively out of date, inactive and no longer maintained, or never made it out of alpha. I have heard a few developers say "PEAR is awesome, they have a package for everything!". Maybe, but when I see that amongst a team of 4 developers, 2 are inactive and the code only got to 0.2.1 (alpha) in 2006-04-22, I am not full of hope for the stability of that codebase.
+Of the packages already on on PEAR, most of them are massively out of date, inactive and no longer maintained, or never made it out of alpha. I have heard a few developers say "PEAR is awesome, they have a package for everything!" Maybe, but when I see that amongst a team of 4 developers, 2 are inactive and the code only got to 0.2.1 (alpha) in 2006-04-22, I am not full of hope for the stability of that codebase.
 
 The nail in the coffin for me with PEAR is one of the biggest bug bears of the Gem system: system-wide installation. If I want to use a specific package, which requires a newer version of an already installed package, then I have to update it on my whole installation. That means an application I have not touched in weeks might break next time I try loading it on my local box. WAT?
 

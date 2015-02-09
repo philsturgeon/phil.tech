@@ -15,7 +15,9 @@ comments: true
 disqus_identifier: why-write-a-new-framework
 ---
 
-So we all know that the internet is full of frameworks. They've been the popular thing for the last 5 or 6 years and it seems to have become the "barrier for entry" or the "passage of rights" that 8 or 9 years ago used to be "hey I just wrote a phpBB clone!". There are plenty around but in this day in age, why would anyone write a new one? As somebody involved in a new PHP framework - [Fuel](http://fuelphp.com) - that has shaken a few opinions up I thought it would be interesting to share my thoughts and views on the situation.
+So we all know that the internet is full of frameworks. They've been the popular thing for the last 5 or 6 years and it seems to have become the "barrier for entry" or the "passage of rights" that 8 or 9 years ago used to be "hey I just wrote a phpBB clone!"
+
+There are plenty around but in this day in age, why would anyone write a new one? As somebody involved in a new PHP framework - [Fuel](http://fuelphp.com) - that has shaken a few opinions up I thought it would be interesting to share my thoughts and views on the situation.
 
 Let's look at a few opinions to start off with and give then some quick answers.
 
