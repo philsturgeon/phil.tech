@@ -14,7 +14,7 @@ We sat down as a group and discussed a plan for 2015 to solve this. A _lot_ of c
 
 This is an introduction to them, and a thank you for everything they do.
 
-### Alex Bible 
+### Alex Bilbie 
 
 [@alexbilbie](http://twitter.com/alexbilbie)
 
@@ -44,7 +44,7 @@ We've been talking on-line for ages, and she's been a guest on PHP Town Hall in 
 
 Kayla has taken over a massive project: [Omnipay](http://omnipay.thephpleague.com/). This was an existing package before her involvement, and before it came to the League, but it had a huge user-base and taking it over was no small task. She jumped at this opportunity and has been nailing it ever since.
 
-At first I was keeping an eye on the packages, to see how she was handling the pull requests and interactions from the community. Then I realized that was some bullshit white-knighting, and Kayla didn't need to be looked after. She's taken apart a few people who have crossed her, and I got to see in-person a take-down at Sunshine.
+At first I was keeping an eye on the packages, to see how she was handling the pull requests and interactions from the community. Then I realized that was some bullshit white-knighting, and Kayla didn't need to be looked after. She's taken apart a few people who have crossed her, and I got to see an in-person take-down at Sunshine.
 
 We had a vote amongst the group, and Kayla is now the FIG representative for the League - [assuming we get in](https://groups.google.com/forum/#!topic/php-fig/db0jvZJI5XQ). Last time they might have rudely assumed she was my puppet vote, but this time there seem to be no objections from the group and she will get to do her thing over there on our behalf.
 
@@ -52,7 +52,7 @@ We had a vote amongst the group, and Kayla is now the FIG representative for the
 
 [@frankdejonge](http://twitter.com/frankdejonge)
 
-Frank is a great guy. He's been to a CodeIgntier conference or two, we've been using each others code forever, and we are both alumni of the [FuelPHP](http://fuelphp.com/) core team.
+Frank is a great guy. He's been to a CodeIgniter conference or two, we've been using each others code forever, and we are both alumni of the [FuelPHP](http://fuelphp.com/) core team.
 
 Frank also has easily the most popular package on the League: [Flysystem](http://flysystem.thephpleague.com). Flysystem is the first League package to be included in the core of a framework, and not just any framework, but the most downloaded one: Laravel 5.
 
