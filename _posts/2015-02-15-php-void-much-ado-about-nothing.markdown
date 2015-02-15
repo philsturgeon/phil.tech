@@ -77,7 +77,7 @@ Ok, so this is just a consistency thing, that means we can now say "I will retur
 
 People are not as content as I would hope. Reddit had [more comments on this topic] than any other recent RFC, and a bunch of the core contributors seem unimpressed.
 
-[more comments on this topic]: 
+[more comments on this topic]: http://www.reddit.com/r/PHP/comments/2vu7n7/rfc_void_return_type/
 
 ### Adding a reserved word
 
