@@ -5,6 +5,7 @@ date: '2015-02-15 13:10:00 +0500'
 category: php
 tags: php return-types rfc
 comments: true
+excerpt: "A run through of the Return Void Type, why it can be useful and why some of the points against are not so strong to me."
 ---
 
 Recently [Return Types] were accepted for PHP 7, which makes me very happy. This RFC was a real work of art. [Levi Morrison] sidestepped various political land-mines, which had stopped previous attempts at this feature being approved since it was agreed return types should be added in 2005.

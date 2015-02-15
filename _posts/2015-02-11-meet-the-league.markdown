@@ -34,7 +34,7 @@ I've met this chap only a handful of times because he lives too damn far away, a
 
 Ben was responsible for building the brilliant [Sentry](https://cartalyst.com/manual/sentry) package for [Cartalyst](https://cartalyst.com/). While I have said several times to the owner of Cartalyst that I have disagreements with the idea of charging for Composer components, it is a source of top quality stuff, and Ben built a lot of it. 
 
-Ben was always a perfect person for the League for the same reason he did so well at Cartalyst; He shares my passion for framework agnostic code. His talk at Laracon EU 2014 called [Bridging the Gap](http://lanyrd.com/2013/laraconeu/scpfbm/) covers exactly this, and Sentry is often used as an example of an amazing framework agnostic package which still achieves framework integration.
+Ben was always a perfect person for the League for the same reason he did so well at Cartalyst; He shares my passion for framework agnostic code. His talk at Laracon EU 2013 called [Bridging the Gap](http://lanyrd.com/2013/laraconeu/scpfbm/) covers exactly this, and Sentry is often used as an example of an amazing framework agnostic package which still achieves framework integration.
 
 ### Kayla Daniels 
 
