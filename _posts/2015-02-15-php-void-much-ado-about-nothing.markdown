@@ -46,7 +46,7 @@ function someClass(): SomeClass {
 }
 {% endhighlight %}
 
-If the Scalar Type Hints RFC passes (it's an insanely tight race on Sunday, 15th of Feburary 2015) then of course we'd get proper scalar return type hints for PHP 7 too, so it would look like this:
+If the Scalar Type Hints RFC passes (it's an insanely tight race on Sunday, 15th of February 2015) then of course we'd get proper scalar return type hints for PHP 7 too, so it would look like this:
 
 {% highlight php %}
 function life(): int {
