@@ -125,7 +125,7 @@ function scoutsHonor() {
 
 Well, that method might do a _lot_ of somethings. It might end up being a few hundred lines long - which is wrong we know, but lets not pretend every PHP developer is writing perfectly concise readable code.
 
-Now at some point, somebody jumps in there and adds a return value and forgets to change the docblock. Again, not perfect I know, but this happens all the damn time_ and you know it.
+Now at some point, somebody jumps in there and adds a return value and forgets to change the docblock. Again, not perfect I know, but this happens _all the damn time_ and you know it.
 
 Well, now our API documentation says that this method doesn't return anything, but really it is the only way to get at the data you want. That's pretty damn annoying.
 
