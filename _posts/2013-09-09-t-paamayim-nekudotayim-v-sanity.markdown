@@ -15,7 +15,7 @@ comments: true
 disqus_identifier: t-paamayim-nekudotayim-v-sanity
 ---
 
-Anyone who has mentioned PHP Fractal of Bad Design to me knows I don't give it much credit. It's a list of complaints about loose-typing in general, some "its not Python" rants, lots of complaints about bugs that have been fixed, suggestions PHP doesn't have features which it has had for years and a _few_ examples of quirks that need to be worked on.
+Anyone who has mentioned PHP Fractal of Bad Design to me knows I don't give it much credit. It's a list of complaints about loose-typing in general, some "it's not Python" rants, lots of complaints about bugs that have been fixed, suggestions PHP doesn't have features which it has had for years and a _few_ examples of quirks that need to be worked on.
 
 Pretending PHP is perfect would obviously be ridiculous - it has its problems - but a list of issues being compiled gives interested developers a great chance to fix things. One such resource is [PHP Sadness](http://phpsadness.com/) brought to you by [Eric Wastl](http://twitter.com/topaz2078), to document valid bugs and freaky shit that PHP does. 
 
@@ -30,11 +30,11 @@ Looking at the top section of PHP Sadness are:
 - [#1 Unexpected T\_PAAMAYIM\_NEKUDOTAYIM](http://phpsadness.com/sad/1)
 - [#7 Parse error: syntax error, unexpected T_SL in…](http://phpsadness.com/sad/7)
 
-Those are both essentially the same "sadness" being reported, that an unrecognisable token used to display instead of showing something useful. For those of you who don't know, in PHP T\_PAAMAYIM\_NEKUDOTAYIM is the token name for "::", the static separator. It's Hebrew for double colon.
+Those are both essentially the same "sadness" being reported, that an unrecognisable token used to display instead of showing something useful. For those of you who don't know, in PHP `T_PAAMAYIM_NEKUDOTAYIM` is the token name for `::`, the static separator. It's Hebrew for double colon.
 
 Both of these have been "fixed" in PHP 5.4, but only partially. There is a little caveat in both:
 
-> PHP 5.4 still calls it T\_PAAMAYIM\_NEKUDOTAYIM, but includes '::' in the error message, making it only mildly less confusing
+> PHP 5.4 still calls it `T_PAAMAYIM_NEKUDOTAYIM`, but includes '::' in the error message, making it only mildly less confusing
 
 Everything in PHP is broken down from literal symbols into tokens, like `T_IF`, `T_ELSE`, `T_STRING`, `T_SL` and of course the crazy-looking `T_PAAMAYIM_NEKUDOTAYIM`. These are then handled by the parser, and if an unexpected order of things turns up you get an error message. That error message always used to be:
 
@@ -58,7 +58,7 @@ I asked on IRC and got this answer:
 
 > ekneuss: philsturgeon, the token name was kept around because conservative people felt that removing it would be too much of a change, and might confuse users.
 
-I understand that to get the "::" in the guys implementing this RFC had to keep displaying the token name to appease the conservatives on internals. That is a compromise and it is fair enough on their part, but as a PHP user (not a core contributor) I do not feel like it is of any relevance to me whatsoever.
+I understand that to get the `'::'` in the guys implementing this RFC had to keep displaying the token name to appease the conservatives on internals. That is a compromise and it is fair enough on their part, but as a PHP user (not a core contributor) I do not feel like it is of any relevance to me whatsoever.
 
 In other words: **I give zero fucks about the name of the token** - especially if it has a non-standard name. I understand that core developers want that, but it could easily be an extra logging output item, or some sort of default-off dev switch in the parser, or something.
 
@@ -66,7 +66,7 @@ I was interested, so I started digging into this decision and I came across an a
 
 ### A Trolls Tale
 
-A battle of epic proportions was held on PHP internals about this back in 2010, started off by ##php Freenode IRC operator [Chad Minick](http://twitter.com/cythrawll), suggesting that T\_PAAMAYIM\_NEKUDOTAYIM should be renamed. I don't care much about having it renamed because the core of PHP can do what it likes. I simply care about the separation of internals and user display. 
+A battle of epic proportions was held on PHP internals about this back in 2010, started off by ##php Freenode IRC operator [Chad Minick](http://twitter.com/cythrawll), suggesting that `T_PAAMAYIM_NEKUDOTAYIM` should be renamed. I don't care much about having it renamed because the core of PHP can do what it likes. I simply care about the separation of internals and user display. 
 
 For the same reason the people using one of my web-apps don't need to know what I name my variables, I am equally uninterested what the parser decides to nickname a semi-colon or an angle bracket in the parser.
 
@@ -74,12 +74,12 @@ This conversation was a perfect example of internals trolls going full-blast, an
 
 Chad opens with:
 
-> WTF is T\_PAAMAYIM\_NEKUDOTAYIM?
-
+> WTF is `T_PAAMAYIM_NEKUDOTAYIM`?
+> 
 > This has to be THE most asked question by new php developers when they
-come across it. Can we please change the token name to T\_DOUBLE\_COLON
+come across it. Can we please change the token name to `T_DOUBLE_COLON`
 so I don't have to hear about it constantly?
-
+> 
 > Those that disagree don't do enough PHP support to know how often it is
 asked. it's worth it.
 
@@ -105,7 +105,7 @@ If somebody is advanced enough to be using classes (I think about the only time 
 
 [Link](http://grokbase.com/p/php/php-internals/10aysaywpa/php-dev-rename-t-paamayim-nekudotayim-to-t-double-colon)
 
-Even in 2010, referencing a static class is hardly considered "advanced" usage. Copy, paste, mistype, T\_PAAMAYIM\_NEKUDOTAYIM. And it is broken, if you have to Google a parser error because its written in Hebrew then the parser is fucking broken. 
+Even in 2010, referencing a static class is hardly considered "advanced" usage. Copy, paste, mistype, `T_PAAMAYIM_NEKUDOTAYIM`. And it is broken, if you have to Google a parser error because its written in Hebrew then the parser is fucking broken. 
 
 This is roughly where PHP's closest thing to a BDFL [Rasmus Lerdorf](https://twitter.com/rasmus) beams into the conversation with a little history:
 
@@ -115,7 +115,7 @@ reminder that there are a lot of other languages in the world. People
 whose first language is not English, myself included, are forced to work
 with unfamiliar terms every day. I wouldn't mind having a few more
 non-English identifiers in PHP actually.
-
+>  
 > Well, and a third reason, I like it.
 
 [Link](http://grokbase.com/t/php/php-internals/10ayegjgg4/rename-t-paamayim-nekudotayim-to-t-double-colon#20101030gqhakkjqq1e9c5cpvc2kqr0870)
@@ -134,17 +134,17 @@ Stan Vass appears out of nowhere in a flash as a thunderbolt claps around intern
 
 > It's amazing to me this has become such a long discussion. The facts are
 simple:
-
+>
 > 1) People don't ask for the other parse errors even half as often as they as
-for T\_PAAMAYIM\_NEKUDOTAYIM
-> 2) They do so because it looks like gibberish to them, so it looks unlikely  
+for `T_PAAMAYIM_NEKUDOTAYIM`  
+> 2) They do so because it looks like gibberish to them, so it looks unlikely 
 > to be a common thing you can Google, nor it gives something recognizable to start with  
 > 3) Yes, to all who are not sure, more people know English than Hebrew.  
 > 4) Yes, we all acknowledge it's an easter egg joke that refers to the 
 creators of PHP. But that particular joke has outworn its welcome in the
 community after repeatedly causing support issues.
-
-> T\_DOUBLE\_COLON already exists as a constant in userland, so the jump to it
+>
+> `T_DOUBLE_COLON` already exists as a constant in userland, so the jump to it
 won't be an epic change. Let's do it as a proof that we're not a nerd
 gridlock bound to argue forever about even the most minor and obviously
 positive changes PHP can implement.
@@ -158,9 +158,9 @@ Right? Nope.
 Dennis Haarbrink has this to say:
 
 > Come on people, what exactly is the problem with a once-in-a-lifetime investment of 5 seconds of your time to google some stupid error message. Something you, as a developer, spend your life doing.
-
+> 
 > Please, stop complaining about a minor (yes, it is minor, use the fricking search engine!) annoyance and accept php's heritage.
-
+> 
 > And please understand, I do get where all the opponents are coming from, it is an unnecessary complicated error message (I agree that the language argument is a moot point, in the world of internet and programming in particular, English is the standard), but you google it once in your life and then you 'forget' about it. And if you can't remember the meaning of something like that, I hardly doubt you'd be a decent programmer anyway.
 
 [Link](http://grokbase.com/t/php/php-internals/10ayegjgg4/rename-t-paamayim-nekudotayim-to-t-double-colon#20101101xqghahzfyzb7wzfyvjz65ks5gc)
@@ -175,10 +175,10 @@ An excellent retort from Alexander Schrijver combines humor with "you're wrong" 
 
 > Its a minor change and an annoyance to a lot of people. Yes, by not changing
 this you'r annoying thousands of people.
-
+>
 > This isn't an easteregg either. This is a "lesson" as someone explained.
 eastereggs aren't visible to normal users.
-
+>
 > If you want teach people about Hebrew you obviously can do so. I don't see how
 that is the goal of a programming language, but that is an other issue. But
 don't come along and insult us with this bullshit.
@@ -187,14 +187,14 @@ don't come along and insult us with this bullshit.
 
 _**Side Note:** This line of conversation was mostly being slammed down with suggestions that the entire thing was "Cosmetic Nonsense", and instead folks were redirected to the [Lemon parser](https://wiki.php.net/rfc/lemon), which has been marked as "In progress" for years. I asked around and it turns out it was abandoned, so I poked the author to change the status to Abandoned so folks know whats up in the future._
 
-The whole idea that the ONLY way to resolve this is to go with a brand-new parser is potentially ridiculous. They were really suggesting there is NOTHING in the parser that could easily do a backwards look-up on the parser to say T\_PAAMAYIM\_NEKUDOTAYIM is "::", and output it as part of the error?
+The whole idea that the ONLY way to resolve this is to go with a brand-new parser is potentially ridiculous. They were really suggesting there is NOTHING in the parser that could easily do a backwards look-up on the parser to say `T_PAAMAYIM_NEKUDOTAYIM` is `::`, and output it as part of the error?
 
 Andi Gutmans casts a pro-PAAMAYIM attack along with some elitist drivel:
 
 > The first google entry when you search for it gives you the answer. It is actually unbelievably easy to find the answer via search. If a new PHP developer can't find it then maybe they shouldn't be writing code.
-
+>
 > This is a piece of history from the PHP 3 days and think it adds some character, a story (and history) to PHP. Don't think we should take this out after a good 12 years.
-
+>
 > I would prefer this was not changed.
 
 Oh good, it adds some character? That seems like a valid reason to keep speaking Hebrew to our international community for no reason, whilst keeping PHP the laughing stock of the entire same international community - except for _some_ of PHP internals crew. Thanks for that Andi.
@@ -209,9 +209,9 @@ Chad is revived and comes back to fight on:
 
 > It's the same argument everyone else is giving, and really it all comes
 down to this.:
-
+> 
 > Nostalgia is valued over clarity and consistency.
-
+> 
 > Do you guys REALLY want to claim that?
 
 [Link](http://grokbase.com/t/php/php-internals/10ayegjgg4/rename-t-paamayim-nekudotayim-to-t-double-colon/nested/page/2#20101030kvbc589enh40bg00hcxzng3yam)
@@ -220,31 +220,31 @@ down to this.:
 That produces a lot more "it aint broke so…" responses so I wont bother to highlight all of them. It's said by 4 different people and I'm getting bored of copying and pasting, but James Butler returns with his second "if it aint broke". He needs that printed on a t-shirt or something:
 
 > If it ain't broken don't fix it.
-
+>
 > Change for the sake of it is a bad thing. It does things like introduce bugs etc.
-
-> Q1) is it broken?
-> Q2) if yes exactly what is broken
-> Q3) does the proposes fix solve the root cause?
-
+>
+> Q1) is it broken?  
+> Q2) if yes exactly what is broken  
+> Q3) does the proposes fix solve the root cause?  
+>
 > I'm not sure changing the token name is the correct fix to people not knowing what the error means.
 
 [Link](http://grokbase.com/t/php/php-internals/10ayegjgg4/rename-t-paamayim-nekudotayim-to-t-double-colon/nested/page/2#201010307v0ty3w0y3km2ynjfq1qn3wp68)
 
 Let it be noted that at this point MULTIPLE people had suggested not actually renaming the token, but changing the error message. 
 
-Chad keeps on pushing through, like a snow-plow running on jet fuel
+Chad keeps on pushing through, like a snow-plow running on jet fuel:
 
 > Q1) yes, it is broken, people have to Google or ask around for a very
 unclear error message when for the most parts errors are (and should be)
 self explanatory.
-
+>
 > Q2) Two things are broken: Either the token is named badly, or the
 token names shouldn't show up in error messages at all and be replaced
 with something a bit more friendly.
-
+>
 > Q3) those two fixes above would probably fix that, yes.
-
+>
 > What is so hard to believe when people see UNEXPECTED T\_DOUBLE\_COLON on
 LINE 23 they are gonna look for a double colon on line 23? because they DO.
 
@@ -256,7 +256,7 @@ James Butler tries saying something different to his usual slogan but it doesn't
 
 > Are you supporting users who you provide a shared hosting embodiment too, and do you control binary installations on the environments? If so then possibly patching source for you installs maybe the easiest and quickest solution.
 If we knew the nature of your support requirements, then we could possibly suggest a better solution or be won round. (although internals isn't the place for that really)
-
+>
 > This is not meant to bait but possibly an improvement in your support process or docs might yield a solution?
 
 [Link](http://grokbase.com/p/php/php-internals/10ayn648kk/php-dev-rename-t-paamayim-nekudotayim-to-t-double-colon)
@@ -271,15 +271,15 @@ When all seems lost, a savior swoops down from the clouds riding atop a magical 
 
 > Instead of renaming the token, I prefer to associate a literal string to
 each token, to have a legible error message, without the T_ being shown.
-
+>
 > For example, we could use in the Bison grammar file:
 %token T\_PAAMAYIM\_NEKUDOTAYIM "::"
-
+>
 > So that the error message become:
-
+>
 > $ sapi/cli/php -r '::'
 > Parse error: syntax error, unexpected :: in Command line code on line 1
-
+>
 > Instead of the known "unexpected T\_PAAMAYIM\_NEKUDOTAYIM" one.
 
 [Link](http://grokbase.com/p/php/php-internals/10b1ew2nn4/php-dev-rename-t-paamayim-nekudotayim-to-t-double-colon)
@@ -299,13 +299,13 @@ Ferenc Kovacs is so confused he has to ask if its really happening, then posts a
 > Anybody else thinks that this thread is very similar to the last array
 dereferencing discussion?
 http://www.mail-archive.com/internals@lists.php.net/msg46789.html
-
+>
 > Somebody brought up the idea, most of the veterans tried to dismiss without
 discussion, pointing out, that its an old topic, and nothing will change,
 status quo, others tried to bend the thread to the lemon patch.
 and Felipe solved the original problem that everybody thought impossible, or
 much harder, than it was actually.
-
+>
 > so I think we should ask Felipe more about the unsolvable problems in PHP,
 and maybe we shouldn't stop discussions about old topics, because maybe the
 environment around the problems changed with time.
