@@ -17,39 +17,40 @@ _"warning: date(): It is not safe to rely on the system's timezone settings. You
 
 To fix this, you only need to edit the main index.php for your CodeIgniter application:
 
-`/*
-	|---------------------------------------------------------------
-	| DEFAULT TIMEZONE
-	|---------------------------------------------------------------
-	|
-	| Set the default timezone for date/time functions to use if
-	| none is set on the server.
-	|
-	*/
-	
-	
-	if( ! ini_get('date.timezone') )
-	{
-	   date_default_timezone_set('GMT');
-	} `
+{% highlight php %}
+/*
+ |---------------------------------------------------------------
+ | DEFAULT TIMEZONE
+ |---------------------------------------------------------------
+ |
+ | Set the default timezone for date/time functions to use if
+ | none is set on the server.
+ |
+ */
+
+if( ! ini_get('date.timezone') )
+{
+   date_default_timezone_set('GMT');
+}
+{% endhighlight %}
 
 This modification is something you will probably need to make for any CodeIgniter application running on PHP 5.3 and can easily be modified to your local timezone. There is a full list of supported timezones in the PHP manual [here](http://uk2.php.net/manual/en/timezones.php "Full list of supported timezones in PHP").
 
 Another tweak that might be worth trying (although not something I had an issue with on my apps) will be removing error messages for deprecated functions. I personally would prefer to see these so I know what to fix, but if you are trying to fix an app running on PHP 5.3 quickly, change your error reporting level in index.php like so:
 
-`/*
-	|---------------------------------------------------------------
-	| PHP ERROR REPORTING LEVEL
-	|---------------------------------------------------------------
-	|
-	| By default CI runs with error reporting set to ALL. For security
-	| reasons you are encouraged to change this when your site goes live.
-	| For more info visit: http://www.php.net/error_reporting
-	|
-	*/
-	
-	
-	error_reporting(E_ALL & ~E_DEPRECATED);`
+{% highlight php %}
+/*
+ |---------------------------------------------------------------
+ | PHP ERROR REPORTING LEVEL
+ |---------------------------------------------------------------
+ |
+ | By default CI runs with error reporting set to ALL. For security
+ | reasons you are encouraged to change this when your site goes live.
+ | For more info visit: http://www.php.net/error_reporting
+ |
+ */
+
+error_reporting(E_ALL & ~E_DEPRECATED);
+{% endhighlight %}
 
 Have you noticed any other problems when upgrading your CodeIgniter applications to PHP 5.3? If so (and the damn captchas are actually working...) please let me know in the comments.
-
