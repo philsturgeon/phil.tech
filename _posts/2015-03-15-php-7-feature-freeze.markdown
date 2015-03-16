@@ -30,7 +30,7 @@ They are being deprecated in PHP 7 and removed in PHP 8. I would have been ok wi
 
 ### Spaceship Operator
 
-_This RFC adds a new operator for combined comparison. Similar to `strcmp()` or `version_compare()` in behavior, but it can be used on all generic PHP values with the same semantics as `<`, `<=`, `==`, `>=`, `>`._
+_This RFC adds a new operator (`<=>`) for combined comparison. Similar to `strcmp()` or `version_compare()` in behavior, but it can be used on all generic PHP values with the same semantics as `<`, `<=`, `==`, `>=`, `>`._
 
 This is not something I'd use regularly, but it is certainly not useless as some have said. The [three-way comparison operator](https://en.wikipedia.org/wiki/Three-way_comparison) is useful for sorting, and that is about it.
 
