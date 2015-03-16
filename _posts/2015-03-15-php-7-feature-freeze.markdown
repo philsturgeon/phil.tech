@@ -25,7 +25,7 @@ They are being deprecated in PHP 7 and removed in PHP 8. I would have been ok wi
 
 - **RFC:** <https://wiki.php.net/rfc/remove_php4_constructors>
 - **Status:** Accepted
-- **Opinon:** Happy
+- **Opinion:** Happy
 
 
 ### Spaceship Operator
@@ -40,7 +40,7 @@ Either way, it's handy and whatever, Perl and Ruby have it. And Groovy, whatever
 
 - **RFC:** <https://wiki.php.net/rfc/combined-comparison-operator>
 - **Status:** Accepted
-- **Opinon:** Meh
+- **Opinion:** Meh
 
 
 ### Replacing current json extension with jsond
@@ -57,7 +57,7 @@ Well now it has been replaced at the PHP level instead of at the whim of the dis
 
 - **RFC:** <https://wiki.php.net/rfc/jsond>
 - **Status:** Accepted
-- **Opinon:** Why not
+- **Opinion:** Why not
 
 
 ### Return Type Declarations
@@ -70,7 +70,7 @@ While many of us are going to have to wait a little while before we use them for
 
 - **RFC:** <https://wiki.php.net/rfc/return_types>
 - **Status:** Accepted
-- **Opinon:** Whooooo!
+- **Opinion:** Whooooo!
 
 
 ### Void Types
@@ -83,7 +83,7 @@ It could come back at a later date, but it would have to be PHP 7.1 at this poin
 
 - **RFC:** <https://wiki.php.net/rfc/void_return_type>
 - **Status:** Withdrawn
-- **Opinon:** Sad Panda
+- **Opinion:** Sad Panda
 
 
 ### Skipping Optional Parameters for Functions
@@ -94,7 +94,7 @@ While I am glad Stas went to the trouble of making this, I am so much more glad 
 
 - **RFC:** <https://wiki.php.net/rfc/skipparams>
 - **Status:** Declined
-- **Opinon:** Thank f**k
+- **Opinion:** Thank f**k
 
 
 ## Currently Voting
@@ -126,7 +126,7 @@ I'd love to see the `in` operator make it **in**, but it's currently a 4 v 6 vot
 
 - **RFC:** <https://wiki.php.net/rfc/in_operator>
 - **Status:** Voting
-- **Opinon:** Love it
+- **Opinion:** Love it
 - **Chances:** Doubtful
 
 
@@ -153,7 +153,7 @@ Currently at 9 v 1, this looks set to pass. There is barely anything controversi
 
 - **RFC:** <https://wiki.php.net/rfc/internal_constructor_behaviour>
 - **Status:** Voting
-- **Opinon:** Spiffing
+- **Opinion:** Spiffing
 - **Chances:** 90%
 
 
@@ -178,7 +178,7 @@ Good. Simple. Smart.
 
 - **RFC:** <https://wiki.php.net/rfc/reclassify_e_strict>
 - **Status:** Voting
-- **Opinon:** Helpful
+- **Opinion:** Helpful
 - **Chances:** Strong
 
 
@@ -202,7 +202,7 @@ There have been a few discussions about changing things in this RFC, so it might
 
 - **RFC:** <https://wiki.php.net/rfc/strict_argcount>
 - **Status:** Voting
-- **Opinon:** Conflicted but learning +1
+- **Opinion:** Conflicted but learning +1
 - **Chances:** 50%
 
 
@@ -221,13 +221,13 @@ $pusher->setLogger(new class {
 });
 {% endhighlight %}
 
-This RFC is another Joe Watkins and Phil Sturgeon production. Joe likes to write the code, but doesn't always have the time or energy to get things through the RFC proceedure. I help out by writing tests, handling the RFC wiki entry, gathering feedback, discussing changes, etc.
+This RFC is another Joe Watkins and Phil Sturgeon production. Joe likes to write the code, but doesn't always have the time or energy to get things through the RFC procedure. I help out by writing tests, handling the RFC wiki entry, gathering feedback, discussing changes, etc.
 
 Clearly we don't make a bad team, as this one is steaming through the vote.
 
 - **RFC:** <https://wiki.php.net/rfc/anonymous_classes>
 - **Status:** Voting
-- **Opinon:** Nom nom nom
+- **Opinion:** Nom nom nom
 - **Status:** Very likely
 
 
