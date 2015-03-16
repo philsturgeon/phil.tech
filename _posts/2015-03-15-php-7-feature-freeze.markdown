@@ -221,7 +221,7 @@ $pusher->setLogger(new class {
 });
 {% endhighlight %}
 
-This RFC is another Joe Watkins and Phil Sturgeon production. Joe likes to write the code, but doesn't always have the time or energy to get things through the RFC proceedure. I help out by writing tests, handling the RFC wiki entry, gathering feedback, discussing changes, etc.
+This RFC is another Joe Watkins and Phil Sturgeon production. Joe likes to write the code, but doesn't always have the time or energy to get things through the RFC procedure. I help out by writing tests, handling the RFC wiki entry, gathering feedback, discussing changes, etc.
 
 Clearly we don't make a bad team, as this one is steaming through the vote.
 
