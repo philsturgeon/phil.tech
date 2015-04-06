@@ -5,6 +5,7 @@ date: '2015-01-28 7:14:00 +0500'
 category: api
 tags: http api dredd apiblueprint
 comments: true
+image: /assets/article_images/2015-01-28-dredd-api-testing-documentation/dredd.jpg
 excerpt: "If you have documentation for any sort of HTTP-based API, from a micro-service to a non-trivial RESTful API, if it has existed for more than a week it has got some mistakes in it. Documentation degrades over time. This article aims to help you ensure that your API documentation keeps entirely in line with the implementation, utilizing two tools: API Blueprint and Dredd."
 ---
 
@@ -134,7 +135,7 @@ This gives some great feedback on all sorts of potential screw-ups in your docum
 
 ## Limitations
 
-If you have no integration tests then this can be a good start, but it should not be relied on as your complete test-suite. There are a few reasons, but in part it comes down to API Blueprint; it is great, but it has limitations. 
+If you have no integration tests then this can be a good start, but it should not be relied on as your complete test-suite. There are a few reasons, but in part it comes down to API Blueprint; it is great, but it has limitations.
 
 For example, you can only have one request for each "URL" + "HTTP Method" combination. This has been a pain in the past when I have wanted to document multiple `POST /oauth/tokens` requests showing the various inputs and outputs for different OAuth grant types, but API Blueprint wouldn't let me.
 
