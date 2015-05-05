@@ -2,6 +2,7 @@
 layout: post
 title: 'PSR-2: The Tough Decision'
 category: php
+tags: psr2 php phpfig
 permalink: blog/2013/04/psr2-the-tough-decision
 excerpt: PSR-2 has been out for a while now, and even though developers from member
   projects (such as Joomla, Drupal, phpBB, CakePHP, Symfony and Zend) got together

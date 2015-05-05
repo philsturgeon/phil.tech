@@ -2,6 +2,7 @@
 layout: post
 title: 'Composer and PSR-0: Friends, Not Relatives'
 category: php
+tags: psr0 php phpfig composer
 permalink: blog/2013/05/composer-and-psr0-friends-not-relatives
 excerpt: As a huge proponent of Composer, a happy user of PSR-0 and a voting member
   on the PHP-FIG I get into plenty of conversations about all of them, and it worries
@@ -110,7 +111,7 @@ What will happen when a new autoloading standard is released? We'll be finding o
 
 To put it simply, PSR-X no longer translates underscores to directory separators (which was in there for legacy PEAR/Zend type stuff) and allows package developers to potentially skip out the PHP namespace by inferring it:
 
-* Symfony\Component\BrowserKit\Cookie => vendor/symfony/browser-kit/src/Cookie.php
+* `Symfony\Component\BrowserKit\Cookie` => `vendor/symfony/browser-kit/src/Cookie.php`
 
 For this to work there will be a slightly different sample implementation of the autoloader, which will accept arguments that basically convey the message that Symfony\Component\BrowserKit maps to vendor/symfony/browser-kit, and instead of requiring the extra folder structure it will just start looking for the next folder or file. In other words, you are simply deleting the Symfony/Components/BrowserKit folders and moving everything up a few folders. Simple!
 

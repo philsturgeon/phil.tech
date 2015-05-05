@@ -2,6 +2,7 @@
 layout: post
 title: Kapture is hiring
 category: php
+tags: php kapture
 permalink: blog/2013/04/kapture-is-hiring
 excerpt: Kapture is a Brooklyn-based company I've been working for this last year
   as Lead Engineer. We make an iPhone app which essentially rewards users for sharing

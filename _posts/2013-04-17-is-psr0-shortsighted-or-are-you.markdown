@@ -2,6 +2,7 @@
 layout: post
 title: Is PSR-0 Shortsighted, or are you?
 category: php
+tags: psr0 php phpfig
 permalink: blog/2013/04/is-psr0-shortsighted-or-are-you
 excerpt: One of the fun things about trying to support the PHP-FIG and all the good
   its doing, is seeing blog posts written complaining about it by people that just

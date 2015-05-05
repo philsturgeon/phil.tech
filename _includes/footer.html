@@ -1,17 +1,24 @@
 <!-- footer start -->
 
-<footer class="site-footer">
-
- 		<form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://tinyletter.com/philsturgeon" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/philsturgeon', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
- 			<p><label for="tlemail">Want to get my rants delivered straight to your inbox?</label></p><p><input type="email" style="width:200px" name="email" id="tlemail" /></p>
- 			<input type="hidden" value="1" name="embed"/>
- 			<input type="submit" value="Subscribe to Newsletter" />
-	 		<p><a class="subscribe" href="{{ "/feed.xml" | prepend: site.baseurl }}"> <span class="tooltip"> <i class="fa fa-rss"></i> Subscribe via RSS</span></a></p>
- 		</form>
-
-    <div class="inner">
-         <section class="copyright">All content copyright <a href="mailto:{{ site.email}}">{{ site.title }}</a> &copy; 2015 &bull; All rights reserved.</section>
-    </div>
+<footer class="footer" role="contentinfo">
+  <div class="footer-links">
+    <ul>
+      <li><h3>Content</h3></li>
+      <li><a href="/about/">About</a></li>
+      <li><a href="/books/">Books</a></li>
+    </ul>
+    <ul>
+      <li><h3>Follow Us</h3></li>
+      <li><a href="javascript:void(0)">Facebook</a></li>
+      <li><a href="javascript:void(0)">Twitter</a></li>
+      <li><a href="javascript:void(0)">YouTube</a></li>
+    </ul>
+    <ul>
+      <li><h3>Legal</h3></li>
+      <li><a href="javascript:void(0)">Terms and Conditions</a></li>
+      <li><a href="javascript:void(0)">Privacy Policy</a></li>
+    </ul>
+  </div>
 </footer>
 
 <script>

@@ -2,6 +2,7 @@
 layout: post
 title: 'PSR-2 v CodeSniffer PSR-2: A Success Story'
 category: php
+tags: psr2 php phpfig codesniffer
 permalink: blog/2013/10/psr2-v-codesniffer-psr2
 excerpt: I've had static analysis tools running in Sublime Text for a long time, but
   for most of that time I have had CodeSniffer and it's PSR-2 rules disabled. I couldn't
