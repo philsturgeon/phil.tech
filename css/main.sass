@@ -199,6 +199,7 @@ body
   text-align: center
   padding: $rs*3 0 0
   font-size: $rs/4*3
+  margin-bottom: $rs*2
   a
     color: #999
     text-decoration: none
@@ -733,16 +734,10 @@ pre
   $footer-link-color: transparentize($footer-color, 0.6)
   $footer-disclaimer-color: transparentize($footer-color, 0.6)
   background: $footer-background
-  padding: $base-spacing * 2 $gutter
+  padding: $base-spacing $gutter
   width: 100%
-  .footer-logo
-    margin-bottom: 2em
-    text-align: center
-    img
-      height: 3em
   .footer-links
     +clearfix
-    margin-bottom: $base-spacing
     +media($medium-screen)
       +shift(3)
   ul
@@ -769,10 +764,6 @@ pre
     font-size: 1em
     font-weight: 800
     margin-bottom: 0.4em
-  hr
-    border: 1px solid transparentize($footer-disclaimer-color, 0.3)
-    margin: 0 auto $base-spacing
-    width: 12em
   p
     color: $footer-disclaimer-color
     font-size: 0.9em

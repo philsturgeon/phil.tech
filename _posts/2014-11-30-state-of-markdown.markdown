@@ -3,7 +3,7 @@ layout: post
 title: The State of Markdown
 category: markdown
 redirect_from: /php/2014/11/30/state-of-markdown/
-tags: markdown commonmark php commonmark-php league
+tags: markdown commonmark php league
 date: '2014-11-30 13:19:00'
 comments: true
 ---
