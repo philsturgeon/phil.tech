@@ -38,12 +38,14 @@ Python do it, great, but _why_ does this help?
 Initially the FIG was only working on one PSR at a time. Sure, PSR-1 and PSR-2 landed at the same time, but that was only because PSR-2 was
 split off from PSR-1 to make PSR-1 a bit less controversial. They were not meant to be two different things at inception.
 
-### PSR Concurrency
+### Nicknames are weird
 
 After PSR-3, and before anything else was being worked on, peolpe referred to what is now PSR-4 as PSR-X or PSR-next. This was only meant
 to be a nickname and ended up sticking as a thing. Then people started saying things like PSR-C or PSR-Cache, and PSR-R was some 
 alternative to PSR-X, and it got fucking mental. Bloggers and people on twitter thought those names were legit what was going to be used, 
 and all hell broke loose when they found out it wasn't PSR-X anymore.
+
+### PSR Concurrency
 
 Now, with people working on caching, HTTP messaging, phpdoc, etc., there is even more room for confusion. We can't even
 shorten HTTP messaging because there have been discussions of a HTTP client in the past, so giving these all a single, stable number
