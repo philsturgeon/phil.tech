@@ -2,6 +2,7 @@
 layout: post
 title: Progress in the PHP-FIG
 category: php
+tags: php php-fig
 permalink: blog/2013/08/progress-in-the-phpfig
 excerpt: The PHP Framework Interoperability Group (PHP-FIG) has been around for 4
   years, and it's produced 4 PSR's, which to some is a sign of inevitable doom or
