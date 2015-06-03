@@ -16,6 +16,14 @@
   <meta property="og:name" content="{{ site.author }}">
   <meta property="og:image" content="{% if page.image %}{{ page.image }}{% else %}{{ site.author_image }}{% endif %}">
   <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt }}{% else %}{{ site.description }}{% endif %}">
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@philsturgeon">
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta name="twitter:creator" content="@philsturgeon">
+  <meta name="twitter:image:src" content="{% if page.image %}{{ page.image }}{% else %}{{ site.author_image }}{% endif %}">
+  <meta name="twitter:url" content="{{site.url}}">
+  <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt }}{% else %}{{ site.description }}{% endif %}">
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
