@@ -3,7 +3,7 @@ layout: post
 title: Introducing FuelPHP
 category: fuelphp
 permalink: blog/2011/01/introducing-fuelphp
-excerpt: " \n\tFuelPHP has been in development for the last two months but the new
+excerpt: "FuelPHP has been in development for the last two months but the new
   PHP 5.3 framework is nearly ready to see the light of day. We're just about to roll
   out the v1.0.0-beta1 and so far it is holding up pretty well. Another PHP framework
   you say? Read this article and I'll try to explain why you should be excited about
@@ -19,7 +19,7 @@ Now I know every developer and their dog has their own framework these days and 
 
 ### Why does the world need a new PHP framework?
 
-I'm a CodeIgniter fan and I have been for a long time. It is a brilliant, lightweight, configuration based framework which is fairly extend-able and doesn't force users to learn much to get going. It has great documentation and a brilliant community. The downside? It was created for PHP 4 and things like $this->load will always be a core part. CodeIgniter Reactor will help us make CodeIgniter better, but it will always be of a certain pattern. For most that is fine, we're just making something with sexy new PHP 5.3 syntax.
+I'm a CodeIgniter fan and I have been for a long time. It is a brilliant, lightweight, configuration based framework which is fairly extend-able and doesn't force users to learn much to get going. It has great documentation and a brilliant community. The downside? It was created for PHP 4 and things like `$this->load` will always be a core part. CodeIgniter Reactor will help us make CodeIgniter better, but it will always be of a certain pattern. For most that is fine, we're just making something with sexy new PHP 5.3 syntax.
 
 Like CodeIgniter, FuelPHP will be keeping things simple but moving to a better PHP 5 syntax. Sounds like Kohana right? Well... kinda. Kohana got a lot of things right in 2.x but the 3.x re-write was a confusing one. Lots of their syntax and libraries are confusing and although incredibly well written they are poorly documented.. Kohana generally leaves people feeling confused unless they are ready to dive into the source and work it out for themselves. For many that is fine, we are just trying to make things easier.
 
@@ -37,11 +37,13 @@ This is not just me, I'm not even in charge of the project. This project belong 
 
 #### Cascading File System
 
-We've borrowed the Cascading File System from Kohana and improved it greatly. The use of namespaces help to keep Core classes, App classes and Package classes from conflicting and we have added some path definitions to the auto-load logic to drastically speed up the ![Fuel Directory Structure](https://s3.amazonaws.com/philsturgeon-blog/Screen_shot_2011-01-04_at_18.14_.24_.png)calling of classes.
+We've borrowed the Cascading File System from Kohana and improved it greatly. The use of namespaces help to keep Core classes, App classes and Package classes from conflicting and we have added some path definitions to the auto-load logic to drastically speed up the calling of classes.
+
+![Fuel Directory Structure](/assets/article_images/2011-01-04-introducing-fuelphp/fuel-directory-structure.png)
 
 The Cascading File System is a hierarchy of similar directory structures that cascade. The hierarchy in used when a file is loaded by `Fuel::find_file()` and checks core, packages / modules, application. At a very basic level this means you can have default config in the core and your own config in the application but it opens up awesome new options for things like default base controllers.
 
-By default you have a [Controller\_Rest](http://fuelphp.com/docs/general/controllers/rest.html) and [Controller\_Template](http://fuelphp.com/docs/general/controllers/template.html) which any controller can extend instead of the usual "Controller" to get extra logic.
+By default you have a [`Controller_Rest`](http://fuelphp.com/docs/general/controllers/rest.html) and [`Controller_Template`](http://fuelphp.com/docs/general/controllers/template.html) which any controller can extend instead of the usual "Controller" to get extra logic.
 
 The way autoloader works means each `_` translates to being a `/` in the filepath. This means your controllers can do crazy stuff like:
 
@@ -103,7 +105,9 @@ Oil is the name of the command line utility in Fuel. Unlike some other framework
 
 > If you are not interested in using a command line utility with your application, do not run it. Nothing will ever be loaded and it will never slow your application down.
 
-[![Fuel Robots](https://s3.amazonaws.com/philsturgeon-blog/Screen_shot_2011-01-04_at_18.38_.56_.png)](https://s3.amazonaws.com/philsturgeon-blog/Screen_shot_2011-01-04_at_18.38_.56_.png)So what can it do?
+So what can it do?
+
+![Fuel Robots](/assets/article_images/2011-01-04-introducing-fuelphp/fuel-robots.png)
 
 Run [tasks](http://fuelphp.com/docs/general/tasks.html) which are similar to controllers but command line only. Controllers run on the command line too, but this is a more direct an "native" approach. Tasks are a neat way to create structured cron jobs that you don't want to be publicly accessible, or if you want to accept some basic input to your application over SSH. Why? Who knows, but you can!
 
@@ -121,4 +125,4 @@ We already have our [documentation](http://fuelphp.com/docs/) in place with not 
 
 Download it, give it a try and let me, Dan and the team know what you think! Swing by the IRC channel [#fuelphp](irc://irc.freenode.net/#fuelphp) to have a chat and if you find bugs you can put them on GitHub.
 
-> _ **Note:** Please do not take any of this article as me expressing any concern, issue or negative points about CodeIgniter. I still love the framework and use it every day. I am a man with many mistresses, hell I use Rails and still write in PHP. This is another new option, not a replacement. I'm not stopping working with CodeIgniter and am still contributing to [CodeIgniter Reactor](http://codeigniter.com/news/reactor_update/)._
+> **Note:** Please do not take any of this article as me expressing any concern, issue or negative points about CodeIgniter. I still love the framework and use it every day. I am a man with many mistresses, hell I use Rails and still write in PHP. This is another new option, not a replacement. I'm not stopping working with CodeIgniter and am still contributing to [CodeIgniter Reactor](http://codeigniter.com/news/reactor_update/).
