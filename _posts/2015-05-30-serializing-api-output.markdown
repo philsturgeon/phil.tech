@@ -52,7 +52,7 @@ Slightly more obscure things like password reset tokens being leaked can also le
 
 But it can get even more obscure. In this 'place' example, maybe a requirement filtered down from business asking you to add a 'contact email' which is for internal use only. If you've spent months getting these places on board and have built some unique contacts, you might not want to leak all of those email address to potential competitors.
 
-Yes, many ORMs have 'hidden' or 'visable' options to blacklist or whitelist various properties, but as time goes on the chances of keeping every potentially value hidden gets more and more unlikely, especially if you have a junior who doesn't know that one of these fields is taboo, and a tired peer reviewer lets it sneak through on a busy day.
+Yes, many ORMs have 'hidden' or 'visible' options to blacklist or whitelist various properties, but as time goes on the chances of keeping every potential value hidden gets more and more unlikely, especially if you have a junior who doesn't know that one of these fields is taboo, and a tired peer reviewer lets it sneak through on a busy day.
 
 An example of [Fractal] - a PHP serialization library I built to help me serialize my APIs - has this simple example:
 
@@ -103,7 +103,7 @@ To a weakly typed language that might not seem particularly important, but stric
 
 ActiveRecord in Rails will track what data type fields should be as they are added to the schema via migrations, but if these change - via accessors or by changing schema type - it will still cause problems.
 
-Using serialization like the example above, you can typecast your data to ensure it is the expect type on output, and that type will only change if you change it in the serializer.
+Using serialization like the example above, you can typecast your data to ensure it is the expected type on output, and that type will only change if you change it in the serializer.
 
 ## Renaming Fields
 
@@ -135,7 +135,7 @@ Depending on the mime-type you send, you can tell your serializer to send back t
 
 ## Solutions
 
-I could probably bang on with more reasons for days, but todays flight landed at 5am and the folks next to me kept me up all night.
+I could probably bang on with more reasons for days, but today's flight landed at 5am and the folks next to me kept me up all night.
 
 I have covered the 'why' for serialization, but not the 'how'. For that, take a look at these solutions:
 
