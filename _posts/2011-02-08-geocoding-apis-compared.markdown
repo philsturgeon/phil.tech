@@ -2,12 +2,12 @@
 layout: post
 title: Geocoding API's Compared
 category: 
-permalink: blog/2011/02/geocoding-apis-compared
-excerpt: " \n In this article I explain the pro's and con's of working with three
+redirect_from: /blog/2011/02/geocoding-apis-compared/
+excerpt: "In this article I explain the pro's and con's of working with three
   of the most popular free geocoding services around: Google Map's API, Yahoo PlaceFinder
   and SimpleGeo. This review goes beyond the \"I want this address on a map marker!\"
   junk most people do and goes on to explain some of the issues faced when using these
-  services in slightly \"out of the ordinary\" conditions. "
+  services in slightly \"out of the ordinary\" conditions."
 date: '2011-02-08 22:30:00'
 comments: true
 disqus_identifier: geocoding-apis-compared
@@ -62,4 +62,3 @@ Yahoo provides the easiest access to data as you can geocode both ways with just
 SimpleGeo clearly has massive potential and I am sure it will only get better in time. For now with it's incomplete data sets, limited official client libraries and use of oAuth for the entire API I can see the average developer having a tough time getting too far with it, but I will keep experimenting with SimpleGeo for TravlrApp as in the USA it seems to work very nicely and has great documentation.
 
 As always my comparison reviews have ended up being "use them all". They all have their pro's and con's and do certain jobs well. It's just a shame SimpleGeo does not do it all perfectly - yet.
-

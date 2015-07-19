@@ -2,7 +2,8 @@
 layout: post
 title: 'PHP API''s: Fractal of GOOD Design'
 category: php
-permalink: blog/2013/12/php-apis-fractal-of-good-design
+tags: api apisyouwonthate php fractal
+redirect_from: /blog/2013/12/php-apis-fractal-of-good-design/
 excerpt: Recently I started a new blog series called "Build API's That You Wont Hate".
   It was meant to be a fleshed out series based off of my experiences over the last
   several years building nontrivial RESTful API's for all sorts of clients. I didn't

@@ -2,7 +2,7 @@
 layout: post
 title: 'PHP-FIG: Autoloaders, Amendments and The &quot;15th Standard&quot;'
 category: php
-permalink: blog/2014/02/phpfig-autoloaders-amendments-and-the-15th-standard
+redirect_from: /blog/2014/02/phpfig-autoloaders-amendments-and-the-15th-standard/
 excerpt: Recently I've been putting in lots of time for bits around the PHP-FIG, and
   I wanted to highlight what they were, what they are and what I personally think
   needs to happen in the near future to make things better.

@@ -2,7 +2,8 @@
 layout: post
 title: Made in Production
 category: php
-permalink: blog/2014/03/made-in-production
+tags: madeinproduction doubleclaw php
+redirect_from: /blog/2014/03/made-in-production/
 excerpt: 'Late last summer I was riding my bike around the mountains of New Jersey.
   I''m not sure if it was exhaustion, the heat or the fact that I had run out of podcasts
   to listen to but I had an idea: I should get into the t-shirt sale business.'
