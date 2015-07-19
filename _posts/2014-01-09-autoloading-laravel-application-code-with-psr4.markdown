@@ -2,7 +2,7 @@
 layout: post
 title: Autoloading Laravel application code with PSR-4
 category: php
-permalink: blog/2014/01/autoloading-laravel-application-code-with-psr4
+redirect_from: /blog/2014/01/autoloading-laravel-application-code-with-psr4/
 excerpt: When you use Laravel it's very likely you autoload extra code than just the
   controllers/models that are autoloaded by default. Some use classmap, others use
   PSR-0. Well, now you can use PSR-4 too.

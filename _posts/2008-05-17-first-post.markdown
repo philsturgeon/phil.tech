@@ -2,10 +2,10 @@
 layout: post
 title: First Post
 category: personal
-permalink: blog/2008/05/first-post
 date: '2008-05-17 17:30:00'
 comments: true
 disqus_identifier: first-post
+redirect_from: /blog/2008/05/first-post/
 ---
 
 There are several reasons for starting this blog. Firstly as a way to keep track of all my tips,

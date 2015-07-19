@@ -2,7 +2,8 @@
 layout: post
 title: 'Benchmarking Codswallop: NodeJS v PHP'
 category: php
-permalink: blog/2013/11/benchmarking-codswallop-nodejs-v-php
+tags: php nodejs benchmarks fud
+redirect_from: /blog/2013/11/benchmarking-codswallop-nodejs-v-php/
 excerpt: Sometimes people link me to articles and ask for my opinions. This one was
   a real doozy.
 date: '2013-11-12 03:01:00'

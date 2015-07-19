@@ -2,7 +2,8 @@
 layout: post
 title: The &quot;Framework&quot; is Dead, Long live the Framework
 category: php
-permalink: blog/2014/01/the-framework-is-dead-long-live-the-framework
+tags: php frameworks
+redirect_from: /blog/2014/01/the-framework-is-dead-long-live-the-framework/
 excerpt: There have been a few posts over the last few months saying that the age
   of the framework is dead, and that Composer is the true savior, and other similar
   messages. This is half-true, but lots of people have been using the word "framework"

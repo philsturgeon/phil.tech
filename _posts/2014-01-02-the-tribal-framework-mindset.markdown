@@ -2,7 +2,8 @@
 layout: post
 title: The Tribal Framework Mindset
 category: php
-permalink: blog/2014/01/the-tribal-framework-mindset
+tags: php tribalism php-fig framework
+redirect_from: /blog/2014/01/the-tribal-framework-mindset/
 excerpt: The PHP community has made some amazing leaps forward in the last few years,
   but some folks still (intentionally, or unintentionally) are contributing towards
   the siloing of the PHP community into framework-specific sub-sections. We used to

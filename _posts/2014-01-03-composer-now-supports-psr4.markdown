@@ -2,13 +2,14 @@
 layout: post
 title: Composer now supports PSR-4
 category: php
-permalink: blog/2014/01/composer-now-supports-psr4
-excerpt: 'I haven''t really posted about PSR-4 here, but if you follow me on Twitter
-  or hang out on Reddit you''ve probably seen some news about it. PSR-4 was voted
-  in as an "accepted" PSR by the FIG in December. It took a little while to get done
+tags: php psr4 composer php-fig
+redirect_from: /blog/2014/01/composer-now-supports-psr4/
+excerpt: "I haven't really posted about PSR-4 here, but if you follow me on Twitter
+  or hang out on Reddit you've probably seen some news about it. PSR-4 was voted
+  in as an \"accepted\" PSR by the FIG in December. It took a little while to get done
   and went through a series of painful rewrites but when we have in the end is a document
   that reflects what this truly is: an improvement on PSR-0. Time to upgrade your
-  packages, but don''t release them just yet.'
+  packages, but don't release them just yet."
 date: '2014-01-03 23:27:00'
 comments: true
 disqus_identifier: composer-now-supports-psr4

@@ -2,7 +2,8 @@
 layout: post
 title: 'PHP API''s: Fractal of GOOD Design'
 category: php
-permalink: blog/2013/12/php-apis-fractal-of-good-design
+tags: api apisyouwonthate php fractal
+redirect_from: /blog/2013/12/php-apis-fractal-of-good-design/
 excerpt: Recently I started a new blog series called "Build API's That You Wont Hate".
   It was meant to be a fleshed out series based off of my experiences over the last
   several years building nontrivial RESTful API's for all sorts of clients. I didn't
@@ -155,7 +156,7 @@ This will allow you to send a query string parameter to Fractal, and enable URLs
 
 So I guess this article is saying two things.
 
-1. Check out [Fractal](https://github.com/php-loep/fractal). It's early, but has a lot of potential. 
-1. Buy my [ebook](https://leanpub.com/build-apis-you-wont-hate). It's going to get considerably better over time, but it's already got a lot of useful content.
+1. Check out [Fractal](https://fractal.thephpleague.com/). It's early, but has a lot of potential. 
+1. Buy my [ebook](http://apisyouwonthate.com/). It's going to get considerably better over time, but it's already got a lot of useful content.
 
 Get on Twitter with any feedback about the book or Fractal. @philsturgeon
