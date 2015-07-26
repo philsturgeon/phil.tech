@@ -27,7 +27,7 @@ Luckily my last job at [Kapture] - a trendy startup that went beeswax - and my n
 [PyroCMS]: http://pyrocms.com/
 [CodeIgniter]: http://codeigniter.com/
 [book about PyroCMS]: https://leanpub.com/catapultintopyrocms
-[book about APIs]: http://apisyouwonthate.com
+[book about APIs]: http://apisyouwonthate.com/
 [PHP Town Hall]: http://phptownhall.com/
 [PHP The Right Way]: http://phptherightway.com/
 [NodeJS agreed with me]: https://twitter.com/nodejs/status/400295942311534592

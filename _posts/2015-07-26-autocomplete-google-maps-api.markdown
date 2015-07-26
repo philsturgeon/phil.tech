@@ -135,7 +135,7 @@ Anyway, we allow a radius of 50 meters for now, and yes, looking at the image be
 
 See if you can spot what is happening in this image.
 
-![Nike HQs actually address vr. their advertised address](/assets/article_images/2015-07-26-autocomplete-google-maps-api/51-meter-difference.png)
+![Nike HQs actual address vrs. their advertised address](/assets/article_images/2015-07-26-autocomplete-google-maps-api/51-meter-difference.png)
 
 Yup, you guessed it. 1 One Bowerman Drive is 50.5 meters away from the seemingly arbitrary point on the map that Google decides to put the pin for the road One Bowerman Drive.
 
