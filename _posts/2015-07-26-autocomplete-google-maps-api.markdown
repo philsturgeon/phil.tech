@@ -55,7 +55,7 @@ Heh.
 
 ## Location Biasing
 
-A feature the web/iOS clients and business all requested rather early one was location-based biasing. This is the art of assuming that things near you are more relevant than things far away, which is pretty fair. Somebody in Florida probably doesn't drive to work in Texas, and definitely doesn't need to see shit in Alaska. 
+A feature the web/iOS clients and business all requested rather early on was location-based biasing. This is the art of assuming that things near you are more relevant than things far away, which is pretty fair. Somebody in Florida probably doesn't drive to work in Texas, and definitely doesn't need to see shit in Alaska. 
 
 If we were using the Google Places API then we'd be golden because you can just give them a `?near=lat,lng` and they'll work it out for you. Sadly, the Google Places API is not useful for us. Many work places outside of major companies are not on the places API, and obviously not many people have their homes in that API either.
 
