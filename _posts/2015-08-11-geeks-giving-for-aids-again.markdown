@@ -16,7 +16,7 @@ To reach the lofty goal of [$6,000 last year](http://fundraising.housingworks.or
 
 As you can see from this little widget, I have a long way to go with the fundraising goal of $5k:
 
-<iframe src="http://fundraising.housingworks.org/index.cfm?fuseaction=widgets.300x250thermo&participantID=2035" width="302" height="252" frameborder="0" scrolling="no"><a href="http://fundraising.housingworks.org/index.cfm?fuseaction=donorDrive.participant&participantID=2035">Make a Donation!</a></iframe>
+<iframe src="https://fundraising.housingworks.org/index.cfm?fuseaction=widgets.300x250thermo&participantID=2035" width="302" height="252" frameborder="0" scrolling="no"><a href="http://fundraising.housingworks.org/index.cfm?fuseaction=donorDrive.participant&participantID=2035">Make a Donation!</a></iframe>
 
 There are some awesome rewards in here, and a few copies of my book of course:
 
