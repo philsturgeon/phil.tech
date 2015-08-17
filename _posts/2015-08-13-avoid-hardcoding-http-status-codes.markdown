@@ -81,3 +81,5 @@ Nice and simple.
 There is some room for the PHP-FIG to improve this situation I think, as the PHP community does not have a single Rack-like system where all this stuff is done already.
 
 I don't mind how you go about avoiding hardcoded HTTP status codes in your projects, but please avoid doing it somehow.
+
+If you want more advice on HTTP/API stuff, grab a copy of my book [Build APIs You Won't Hate](http://apisyouwonthate.com/).
