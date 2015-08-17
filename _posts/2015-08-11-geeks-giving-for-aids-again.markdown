@@ -14,10 +14,6 @@ After a messed up 2014, I'm back to riding bikes, and I am happy to say that I w
 
 To reach the lofty goal of [$6,000 last year](http://fundraising.housingworks.org/index.cfm?fuseaction=donordrive.participant&participantID=1212) I enlisted [a huge chunk of the tech community](/blog/2013/07/geeks-giving-for-aids/) to help. I know you're all nice people and want to donate money to any cause that will stop people from suffering, but sometimes getting something back in return can help you fit that donation into your budgets.
 
-As you can see from this little widget, I have a long way to go with the fundraising goal of $5k:
-
-<iframe src="https://fundraising.housingworks.org/index.cfm?fuseaction=widgets.300x250thermo&participantID=2035" width="302" height="252" frameborder="0" scrolling="no"><a href="http://fundraising.housingworks.org/index.cfm?fuseaction=donorDrive.participant&participantID=2035">Make a Donation!</a></iframe>
-
 There are some awesome rewards in here, and a few copies of my book of course:
 
 > **$10** - Any _one_ of the following: 
@@ -38,6 +34,8 @@ There are some awesome rewards in here, and a few copies of my book of course:
 > * 50% off of a [PNWPHP 15 Conference](http://pnwphp.com/) ticket, worth $199 usually. I'll see you there.
 > * 100% off of any [_Servers for Hackers_](https://gumroad.com/serversforhackers) eBook bundle
 > * 50% off of a [Statamic](http://statamic.com/) Professional License
+
+Interested? [Make a donation](http://fundraising.housingworks.org/index.cfm?fuseaction=donordrive.participant&participantID=2035).
 
 I'm also offering consulting like last time around, but I'm not so sure anyone is as excited about that as they used to be when CodeIgniter was still a thing. 
 
