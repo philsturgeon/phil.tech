@@ -21,16 +21,11 @@ These books are there to help you with certain problems. If they sound good, gra
     {{ book.description | xml_escape | markdownify }}
     
     <div class="button-group">
-      {% if book.ebook_url %}
-      <a href="{{ book.ebook_url }}">
-        <button class="buy-book ebook">Buy eBook</button>
+      {% for link in book.links %}
+      <a href="{{ link.url }}">
+        <button class="buy-book {{ link.class }}">{{ link.label }}</button>
       </a>
-      {% endif %}
-      {% if book.paperback_url %}
-      <a href="{{ book.paperback_url }}">
-        <button class="buy-book paperback">Buy Paperback</button>
-      </a>
-      {% endif %}
+      {% endfor %}
     </div>
   </div>
 </div>
