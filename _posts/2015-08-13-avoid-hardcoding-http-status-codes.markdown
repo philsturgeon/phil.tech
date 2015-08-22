@@ -17,6 +17,13 @@ What is 409?
 
 If you answer without looking it up on [Dash](https://kapeli.com/dash) or [HTTP Status Dogs](http://httpstatusdogs.com) then you are a machine.
 
+Go has these built right into their main `net/http` library:
+
+``` golang
+http.StatusBadRequest
+http.StatusOK
+```
+
 Ruby on Rails utilizes Rack to help solve this problem. The [render option of Rails](http://guides.rubyonrails.org/layouts_and_rendering.html#the-status-option) offers a `:status` attribute, which defaults to `:ok` and can be set to any of the following options:
 
 Status | Symbol
