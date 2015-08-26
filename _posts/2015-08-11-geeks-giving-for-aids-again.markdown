@@ -16,24 +16,29 @@ To reach the lofty goal of [$6,000 last year](http://fundraising.housingworks.or
 
 There are some awesome rewards in here, and a few copies of my book of course:
 
-> **$10** - Any _one_ of the following: 
-> 
-> * A free copy of [_Build APIs You Won't Hate_](http://apisyouwonthate.com/) eBook
-> * 20% off of any [_Servers for Hackers_](https://gumroad.com/serversforhackers) eBook bundle
-> * A free copy of [_Vagrant CookBook_](https://leanpub.com/vagrantcookbook) eBook
-> 
-> **$25** - Any _one_ of the following: 
-> 
-> * 50% off of any [_Servers for Hackers_](https://gumroad.com/serversforhackers) eBook bundle
-> * 50% off of any _[Grumpy Learning](http://grumpy-learning.com/)_ eBooks
-> * A free copy of the [_PHP Pandas_](https://leanpub.com/php-pandas) eBook
-> * A free copy of the [_Vagrant CookBook and Build APIs You Won't Hate_](https://leanpub.com/b/vagrantapis) eBook bundle
->
-> **$60** - Any _one_ of the following: 
-> 
-> * 50% off of a [PNWPHP 15 Conference](http://pnwphp.com/) ticket, worth $199 usually. I'll see you there.
-> * 100% off of any [_Servers for Hackers_](https://gumroad.com/serversforhackers) eBook bundle
-> * 50% off of a [Statamic](http://statamic.com/) Professional License
+**$10** - Any _one_ of the following: 
+
+* A free copy of [_Build APIs You Won't Hate_](http://apisyouwonthate.com/) eBook
+* 20% off of any [_Servers for Hackers_](https://gumroad.com/serversforhackers) eBook bundle
+* A free copy of [_Smart and Gets Things Done_](http://www.amazon.com/Smart-Gets-Things-Done-Technical/dp/1590598385?ie=UTF8&s=books&qid=1181076229&sr=8-1) paperback
+* A free copy of [_Vagrant CookBook_](https://leanpub.com/vagrantcookbook) eBook
+
+**$25** - Any _one_ of the following: 
+
+* 50% off of any [_Servers for Hackers_](https://gumroad.com/serversforhackers) eBook bundle
+* 50% off of any _[Grumpy Learning](http://grumpy-learning.com/)_ eBooks
+* A free StackOverflow t-shirt* (Men's and Women's available)
+* A free copy of the [_PHP Pandas_](https://leanpub.com/php-pandas) eBook
+* A free copy of the [_Vagrant CookBook and Build APIs You Won't Hate_](https://leanpub.com/b/vagrantapis) eBook bundle
+
+![StackOverflow t-shirts](/assets/article_images/2015-08-11-geeks-giving-for-aids-again/stackoverflow-tshirts.png)
+
+**$60** - Any _one_ of the following: 
+
+* 50% off of a [PNWPHP 15 Conference](http://pnwphp.com/) ticket, worth $199 usually. I'll see you there.
+* 100% off of any [_Servers for Hackers_](https://gumroad.com/serversforhackers) eBook bundle
+* 50% off of a [Statamic](http://statamic.com/) Professional License
+
 
 Interested? [Make a donation](http://fundraising.housingworks.org/index.cfm?fuseaction=donordrive.participant&participantID=2035).
 
