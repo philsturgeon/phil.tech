@@ -15,11 +15,7 @@ disqus_identifier: pyrocms-reaches-final-v1.0
 
 _This article is a re-post from [pyrocms.com](http://pyrocms.com/), so when I say "we" I mean the PyroCMS development team and all of our [45ish amazing contributors](https://github.com/pyrocms/pyrocms/contributors)._
 
-Today we are incredibly pleased to announce the biggest update to PyroCMS in it's 14 months of it's open-source history. v1.0 may seem like a small jump in numbers from v0.9.9.7 but really this is more like a 2.0! Everything has been logically restructured, Dwoo has been replaced with an amazingly powerful [Tags and Plugin](http://pyrocms.com/documentation/#designers/tags.html) syntax and its all running much quicker, while looking considerably sexier.
-
-How much sexier? This much!
-
-[![PyroCMS v1.0 Dashboard with Google Stats](http://files.droplr.com/files/20662440/SD1P.Screen shot 2010-10-20 at 08:41:28.png)](http://files.droplr.com/files/20662440/SD1P.Screen shot 2010-10-20 at 08:41:28.png)
+Today we are incredibly pleased to announce the biggest update to PyroCMS in it's 14 months of it's open-source history. v1.0 may seem like a small jump in numbers from v0.9.9.7 but really this is more like a 2.0! Everything has been logically restructured, Dwoo has been replaced with an amazingly powerful [Tags and Plugin](http://pyrocms.com/documentation/#designers/tags.html) syntax and its all running much quicker, while looking considerably more awesome.
 
 The upgrade process from v0.9.9.7 is a little tricky but we made it as easy as we possible could with the upgrade script and a full [Upgrade Guide](http://pyrocms.com/documentation/#general/upgrades/0997_1.html) in the [new Documentation](http://pyrocms.com/documentation/).
 
