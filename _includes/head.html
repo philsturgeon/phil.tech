@@ -34,19 +34,4 @@
 
   <link rel="stylesheet" type="text/css" media="screen" href="{{ "/css/main.css"  | prepend: site.baseurl  }}" />
   <link rel="stylesheet" type="text/css" media="print" href="{{ "/css/print.css"  | prepend: site.baseurl  }}" />
-  
-  <script type="text/javascript">
-    var replacements = {
-      'fucked up': 'not right',
-      'fucking': 'f*ck*ng',
-      'shit': 'poo',
-      'white dudes': 'people like me'
-    }
-
-    for (search in replacements) {
-      var replacement = replacements[search];
-
-      document.body.innerHTML = document.body.innerHTML.replace(search, replacement);
-    }
-  </script>
 </head>
