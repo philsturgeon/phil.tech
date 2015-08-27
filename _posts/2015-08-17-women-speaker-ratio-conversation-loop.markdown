@@ -23,7 +23,7 @@ Assuming the gender ration is 10% women in the field then having 1 or 2 at a con
 
 > Women comprise 34% of web developers; 23% of programmers; 37% of database administrators; 20% of software developers; and 15% of information security analysts. (Department of Labor Current Population Survey, 2012)
 
-So if we're going with the representative argument, at conferences about web development, I'd expect 34% of the speakers to be women. At programming conferences I'd expect 23% of the speakers to be women. At database adminstrator conferences I'd expect... you get the idea.
+So if we're going with the representative argument, at conferences about web development, I'd expect 34% of the speakers to be women. At programming conferences I'd expect 23% of the speakers to be women. At database administrator conferences I'd expect... you get the idea.
 
 Simply put, the ratio argument does not hold up to the real world. We have a discrepancy. 
 
