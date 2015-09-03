@@ -26,7 +26,7 @@ What are the problems here?
 
 As a startup, you often have competitors. Letting those competitors know the size of your data set, and how many users you have in your system, could lead to some pretty embarrassing situations.
 
-Looking at the URL `GET /users/6138`, I can go to `GET /users/1`. If that shows me data, I can reasonably assume they have 6138 users, but to confirm I can easily make a script that `++$id` and counts every HTTP status `200`, and also counts things like 404 or 410, to give a accurate number of how many active users there are, and how many closed their account.
+Looking at the URL `GET /users/6138`, I can go to `GET /users/1`. If that shows me data, I can reasonably assume they have _at least_ 6138 users, but to find the total I can easily make a script that `++$id` and counts every HTTP status `200`, and also counts things like 404 or 410, to give a accurate number of how many active users there are, and how many closed their account.
 
 That could embarrass a larger company, or utterly destroy a small startup.
 
