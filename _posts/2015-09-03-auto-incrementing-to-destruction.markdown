@@ -54,21 +54,18 @@ They use a hidden secret key, without which the strings are not reversible, so t
 **PHP**
 
 * [Tiny](https://github.com/zackkitzmiller/tiny-php/) - based on code used by [Forrst](http://zurb.com/forrst), and built by the excellent [Zack Kitzmiller](https://twitter.com/zackkitzmiller)
-* [HashIDs](http://hashids.org/php/) - This is good too
 
 **Ruby**
 
 * [obfuscate_id](https://github.com/namick/obfuscate_id) - Rails only sorry other people, but looks good
-* [HashIDs](http://hashids.org/ruby/) - Oh look its back
 
 **Python**
 
 * [Opaque ID](https://github.com/marekweb/opaque-id) - Obfuscation for integer IDs
-* [HashIDs](http://hashids.org/python/) - Seriously?
 
-**JavaScript, Java, Scala, Perl, Swift, Clojure, Objective-C, C, C++11, Go, Erlang, Lua, Haskell, Elixir, Rust, ColdFusion, Groovy, Kotlin, Nim, VBA, ActionScript, CoffeeScript, Bash and for Node.js & .NET**
+**JavaScript, Python, Ruby, PHP, Java, Scala, Perl, Swift, Clojure, Objective-C, C, C++11, Go, Erlang, Lua, Haskell, Elixir, Rust, ColdFusion, Groovy, Kotlin, Nim, VBA, ActionScript, CoffeeScript, Bash and for Node.js & .NET**
 
-* [HashIDs](http://hashids.org/) - Ok calm down with the language support
+* [HashIDs](http://hashids.org/) - Apparently they're not so secure and the salt can be guessed from about 30 hashes, so probably don't use them, but if you're stuck for anything else...
 
 ### Universally Unique IDs
 
@@ -81,6 +78,8 @@ These can be used in place of usual IDs. They look a little bit like this:
 That, again, is not `++$id`-able. 
 
 On top of that, two records made at the exact same split second will not have the same UUID, which is where the "universally" bit comes in. You can use this for offline support, meaning you make an item locally, give it an UUID, then sync up with the database when your user gets out of the subway and you've maintained integrity of your IDs and your data at large. 
+
+**Update:** Performance for UUIDs was brought up on Twitter, and there is a common misconception that UUIDs are slow or terrible. Firstly, do not store UUIDs as a string (varchar or char). Store them as binary, and if you use something that prefers PKs to be ordered then you can use [ordered UUIDs](https://www.percona.com/blog/2014/12/19/store-uuid-optimized-way/).
 
 **PHP**
 
