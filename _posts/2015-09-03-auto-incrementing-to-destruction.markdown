@@ -47,7 +47,7 @@ There are some alternatives to this, which can be used in pretty much any scenar
 
 If you're stuck with 1, 2, 3 in your DB due to a picky ORM, or due to not wanting to change an existing schema and all the data that goes with it, you can keep your IDs and just "hide" them.
 
-Obfuscation allows you to turn a `1` into a `"df234FSafd"` and a `"p363fdte7"` into a `2364`. Your IDs stay the same, but the user cannot `++$id` anymore because `"df234FSafd" + 1` isn't a thing.
+Obfuscation allows you to turn a `1` into a `"df234FSafd"` and a `2364` into a `"p363fdte7"`. Your IDs stay the same, but the user cannot `++$id` anymore because `"df234FSafd" + 1` isn't a thing.
 
 They use a hidden secret key, without which the strings are not reversible, so they're relatively safe.
 
