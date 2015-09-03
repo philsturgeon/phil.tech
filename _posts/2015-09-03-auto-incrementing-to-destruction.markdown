@@ -88,7 +88,7 @@ On top of that, two records made at the exact same split second will not have th
 
 **Ruby**
 
-* [Ruby](http://ruby-doc.org/stdlib-2.2.3/libdoc/securerandom/rdoc/SecureRandom.html#method-c-uuid) - Built in!
+* [SecureRandom.uuid](http://ruby-doc.org/stdlib-2.2.3/libdoc/securerandom/rdoc/SecureRandom.html#method-c-uuid) - Built in!
 
 **Python**
 
@@ -106,7 +106,7 @@ Also rate limiting. If you require folks to register an app, you can limit their
 
 Then, if they do start trying to download your whole data set, it'll at least take them a long time, and again, hopefully give you a chance to notice suspect activity.
 
-How? Look for apps regularly hitting their rate limit. Look for stuff that is randomly search geo boxes moving across the map in an unnatural way (people don't move in a sweeting left to right grid pattern). 
+How? Look for apps regularly hitting their rate limit. Look for stuff that is randomly search geo boxes moving across the map in an unnatural way (people don't move in a sweeping left to right grid pattern). 
 
 Automate those detections, and fire off an email to the bastards trying to download your dataset. You'll have their email because they signed up, and if they're really daft they'll use their work email. I've seen that happen, and we had a nice little chat.
 
