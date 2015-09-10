@@ -1,0 +1,27 @@
+%footer.footer{role: "contentinfo"}
+  .footer-links
+    %ul.context
+      %li
+        %h3 Content
+      %li
+        %a{href: "/about"} About
+      %li
+        %a{href: "/books"} Books
+
+    %ul.follow
+      %li
+        %h3 Follow Me
+      %li
+        %a{href: "https://twitter.com/philsturgeon"} Twitter
+      %li
+        %a{href: "https://github.com/"} GitHub
+      %li
+        %a{href: "http://phptownhall.com/"} PHP Town Hall
+
+    %ul.recent_posts
+      %li
+        %h3 Recent Posts
+        %ul
+          - blog.articles[0...3].each do |article|
+            %li= link_to article.title, article
+  

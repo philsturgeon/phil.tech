@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+  <%= partial "includes/head.html" %>
+
+  <body>
+
+    <%= partial "includes/header" %>
+    <%= partial "includes/hero" %>
+
+    <!-- content start -->
+
+    <main class="content" role="main">
+      <article class="post">
+        <div class="noarticleimage">
+          <div class="post-meta">
+            <h1 class="post-title"><%=h current_page.data.title %></h1>
+          </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <section class="post-content">
+          <a name="topofpage"></a>
+          <%= yield %>
+        </section>
+      </article>
+
+    </main>
+    <div class="bottom-closer">
+      <div class="background-closer-image" style="background-image: url(<%= config.cover %>)">
+        Image
+      </div>
+      <div class="inner">
+        <h1 class="blog-title"><%=h config[:site_title] %></h1>
+        <h2 class="blog-description"><%=h config[:description] %></h2>
+        <a href="/" class="btn">Back to Overview</a>
+      </div>
+    </div>
+
+    <!-- content end -->
+
+    <%= partial "includes/footer" %>
+    <%= partial "includes/javascripts.html" %>
+
+  </body>
+
+</html>
