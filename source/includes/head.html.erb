@@ -23,13 +23,18 @@
   <% if current_page.data.title %>
   <meta property="og:title" content="<%= current_page.data.title %>" />
   <% end %>
-  <meta property="og:type" content="<%= current_article ? 'article' : 'website' %>" />
+  <% if current_article %>
+  <meta property="og:type" content="article" />
+  <meta property="article:author" content="<%= config.author[:name] %>" />
+  <meta property="og:description" content="<%=h current_article.summary %>" />
+  <% else %>
+  <meta property="og:type" content="website" />
+  <meta property="og:description" content="<%=h config.description %>" />
+  <% end %>
   <meta property="og:site_name" content="<%=h config.site_title %>" />
   <meta property="og:image" content="<%= config.site_root %><%= current_page.data.image ? current_page.data.image : config.author[:image] %>" />
   <meta property="og:url" content="<%= config.site_root + current_page.url %>" />
-  <meta property="og:description" content="<%=h current_article ? current_article.summary : config.description %>" />
   <meta property="og:locale" content="en_GB" />
-  <meta property="article:author" content="<%= config.author[:name] %>" />
   
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@philsturgeon">
