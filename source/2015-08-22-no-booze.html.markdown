@@ -1,12 +1,12 @@
 ---
 title: No Booze for a Month
-date: '2015-08-20 17:30:00'
+date: '2015-08-22 17:30:00'
 category: charity
 tags: cycling, charity, brakingaids
 comments: true
 ---
 
-In 5 weeks I'll be riding my bike a really long way to raise money for charity. Sadly, as I ride bikes all the time, nobody not so many people are interested in forking out. Luckily, I have a plan!
+In 5 weeks I'll be riding my bike a really long way to raise money for charity. Sadly, as I ride bikes all the time, not so many people are interested in forking out. Luckily, I have a plan!
 
 In addition to [offering tech/PHP related rewards](/charity/2015/08/11/geeks-giving-for-aids-again/) for cool free stuff, I thought I would go one step further to shock people into grabbing their wallets.
 
