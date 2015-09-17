@@ -2,7 +2,7 @@
 layout: post
 title: How to recover files in Eclipse
 category: 
-alias: blog/2009/01/How-to-recover-files-in-Eclipse
+alias: blog/2009/01/How-to-recover-files-in-Eclipse/
 excerpt: Accidentally deleted your working copy/local files and Ctrl + Z just won't
   get them back? Find out how to recover almost any file using Eclipse's built in
   history/version tracking feature.
@@ -26,4 +26,3 @@ Using a bit of common sense I managed to recover all of my files - all be it som
 When you are done just grab yourself a new working copy and copy your backed up files back to their original locations!
   
 This can be slightly laborious if you have been modifying several files, but in many cases it will be MUCH quicker than re-writing all of your code. 
-

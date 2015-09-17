@@ -2,7 +2,7 @@
 layout: post
 title: Deploying websites with Git
 category: git
-alias: blog/2010/02/Deploying-websites-with-Git
+alias: blog/2010/02/Deploying-websites-with-Git/
 excerpt: Use Git to deploy your web applications without having to faff with FTP synchronisation
   or manually working out which files need to be uploaded.
 date: '2010-02-23 14:59:00'
@@ -93,4 +93,3 @@ That's the hook completed.
 The possibilities with Git are insane. These are two very useful ways to deploy your websites and i'm sure there are other methods. If you have an even better way to get your code from local, through testing and then to live with minimum fuss, please let me know!
 
 _ **Note:** This article assumes you have [SSH keys set up](http://help.github.com/key-setup-redirect "Generating SSH Keys"). You will need too add your local SSH public key to the Git repository server and add your live servers SSH key to the Git repository server for the live server to contact it. If you wish to deploy directly from local to live, then you can add your local SSH key to the live server but most servers by default will just ask for your user password._
-

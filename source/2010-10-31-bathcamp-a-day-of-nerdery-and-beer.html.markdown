@@ -2,8 +2,8 @@
 layout: post
 title: 'BathCamp: A day of nerdery and beer'
 category: 
-alias: blog/2010/10/bathcamp-a-day-of-nerdery-and-beer
-excerpt: " \n\tI have been to several conferences, unconferences and local BathCamp
+alias: blog/2010/10/bathcamp-a-day-of-nerdery-and-beer/
+excerpt: "I have been to several conferences, unconferences and local BathCamp
   meets, but this years proper BathCamp was a real chuckle. BathCamp is BarCamp event
   which is basically a bunch of web geeks, some lightning talks, throw in some pizza,
   a free bar, some Family Fortunes and a lot of tweed and you've got the general idea.
@@ -29,4 +29,3 @@ One of my favourite talks was from a new Bath local: [Jack Fracklin](http://twit
 Elliott Kember was chased by a flying iPhone controlled robot, so much Pizza was eaten that Bath is still suffering a pizza shortage, sugar-filled vitamin water was consumed in such large quantity that I think most of us are now diabetic and I ended up pissed as a fart as usual.
 
 In all? A bloody good day, all thanks to the bearded "Tweed Wonder" that is [Julian Cheal](http://twitter.com/#!/juliancheal). Good work!
-

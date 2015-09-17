@@ -2,7 +2,7 @@
 layout: post
 title: BitBucket or GitHub? Use both!
 category: git
-alias: blog/2010/07/bitbucket-or-github
+alias: blog/2010/07/bitbucket-or-github/
 excerpt: 'Over the last few months I have seen several discussions by many developers
   - especially in the CodeIgniter community - about whether or not to convert their
   GitHub repo''s over to BitBucket. I say: why not use both?'
@@ -43,4 +43,3 @@ When you are in the config edit mode change default = to github = then add a new
 The one and only niggle I have spotted so far is that you can't delete your Git tags on a remote repo. I don't see that to be a major issue as normally you wouldn't need to delete one, you'd simply re-tag and push over the top. If you do the only option I have found is to quickly git clone your repo and remove it with git push origin :tagname.
 
 Give this a try and let me know how it goes for you. I find it really helpful, do you?
-

@@ -2,7 +2,7 @@
 layout: post
 title: PHP Format abstraction with a simple class
 category: php
-alias: blog/2011/02/php-format-abstraction-with-a-simple-class
+alias: blog/2011/02/php-format-abstraction-with-a-simple-class/
 excerpt: " \n Having a quiet night in before a long day of kayaking I thought I'd
   write some fun code instead of banging out the usual shit like I've been doing all
   day. Convert between Array, Object, JSON, XML, CSV and Serialized data and back
@@ -30,4 +30,3 @@ Convert between Array, Object, JSON, XML, CSV and Serialized data and back again
 Get it on [GitHub](http://github.com/philsturgeon/php-format).
 
 I've put it into FuelPHP and I'll commit to CodeIgniter 2.0 soon.
-

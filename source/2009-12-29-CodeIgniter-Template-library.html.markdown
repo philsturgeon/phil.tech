@@ -2,7 +2,7 @@
 layout: post
 title: CodeIgniter Template library
 category: codeigniter
-alias: blog/2009/12/CodeIgniter-Template-library
+alias: blog/2009/12/CodeIgniter-Template-library/
 excerpt: 'Working with multiple views in CodeIgniter has always been a pain. Out of
   the box CodeIgniter provides no real way of having a layout file or header/footer
   functionality. This library makes the whole process very easy and gives lots of
@@ -33,4 +33,3 @@ So that's lots of crazy stuff that to me has been very useful and should be for 
 The way it works is simple, you tell it what view you would like to load and tell it which layout to use, then it will wrap your view file with the layout suggested. By using the [MY\_Controller trick](http://codeigniter.com/wiki/MY_Controller_-_how_to_extend_the_CI_Controller/), you can set the name of the layout file for your entire application and by creating a Front\_Controller and Back\_Controller you can set different default layouts for your frontend or backend respectively. This is a big change for people not used to structuring their applications this way, but trust me it is worth it for several reasons I will go into in a later post.
 
 [Read more](/code/codeigniter-template "Template library for CodeIgniter") about this library to learn how it all works and see some code examples.
-

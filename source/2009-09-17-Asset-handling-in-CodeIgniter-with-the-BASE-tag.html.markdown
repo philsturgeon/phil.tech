@@ -2,7 +2,7 @@
 layout: post
 title: Asset handling in CodeIgniter with the BASE tag
 category: codeigniter
-alias: blog/2009/09/Asset-handling-in-CodeIgniter-with-the-BASE-tag
+alias: blog/2009/09/Asset-handling-in-CodeIgniter-with-the-BASE-tag/
 excerpt: There are many suggested ways to handle your assets in CodeIgniter (including
   my very own Asset library) but this solution has to be one of the easiest. Read
   on to find out what it is!
@@ -28,4 +28,3 @@ Now all your relative links will be relative to your base\_url. Brilliant!
 `<img src="images/logo.gif" alt="Logo" />`
 
 That will work fine, assuming your images are stored in public\_html/images. Use some common sense on that.
-

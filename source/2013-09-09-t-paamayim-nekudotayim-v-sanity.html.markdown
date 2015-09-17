@@ -2,7 +2,7 @@
 layout: post
 title: T_PAAMAYIM_NEKUDOTAYIM v Sanity
 category: php
-alias: blog/2013/09/t-paamayim-nekudotayim-v-sanity
+alias: blog/2013/09/t-paamayim-nekudotayim-v-sanity/
 excerpt: As somebody who has followed internals (and been hearing tales of woe from
   others) for a while, I've seen so many conversations with truly bizarre, irrelevant
   and trolly responses coming back from everyone all the way up to Rasmus himself.

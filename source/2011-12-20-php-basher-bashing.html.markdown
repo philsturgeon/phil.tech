@@ -2,8 +2,8 @@
 layout: post
 title: PHP Basher Bashing
 category: php
-alias: blog/2011/12/php-basher-bashing
-excerpt: " \n\tAnyone who has used PHP for a while knows that it has its ugly parts.
+alias: blog/2011/12/php-basher-bashing/
+excerpt: "Anyone who has used PHP for a while knows that it has its ugly parts.
   Recently I've seen a whole swathe of PHP-bashing articles and that would be fine
   if they were making a valid point, but some of it has just been - as I tweeted recently
   - \"absolute drivel\". He didn't like that very much so I thought I'd follow his

@@ -2,8 +2,8 @@
 layout: post
 title: The Most Important Conversation Ever
 category: php
-alias: blog/2013/01/most-important-conversation-ever
-excerpt: " \n\tThe world today has a lot of hot topics that need to be discussed.
+alias: blog/2013/01/most-important-conversation-ever/
+excerpt: "The world today has a lot of hot topics that need to be discussed.
   Washington needs to get together to help sort out the debt-ceiling to stop the US
   economy going down the drain, but the Democrats and the Republicans just cannot
   even vaguely get the conversation going because they are happy to just oppose each

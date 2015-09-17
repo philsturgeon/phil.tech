@@ -2,7 +2,7 @@
 layout: post
 title: PyroCMS v0.9.7.3 released
 category: pyrocms
-alias: blog/2009/12/PyroCMS-v0.9.7.3-released
+alias: blog/2009/12/PyroCMS-v0.9.7.3-released/
 excerpt: 'After a long wait the new stable PyroCMS has been released which adds German
   language support and a bunch of other bug-fixes. '
 date: '2009-12-07 18:13:00'
@@ -15,4 +15,3 @@ After a long wait the new stable PyroCMS has been released which adds German lan
 If you aren't already using PyroCMS because you heard about the Apache crashing PHP 5.3 bug: good news. This release should stop your server crashing on the final installer stage.
 
 More information over on [**pyrocms.com**](http://www.pyrocms.com/news/2009/12/PyroCMS-v0.9.7.3-released)
-

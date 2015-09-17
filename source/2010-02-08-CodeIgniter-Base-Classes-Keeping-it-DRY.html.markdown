@@ -2,19 +2,13 @@
 layout: post
 title: 'CodeIgniter Base Classes: Keeping it DRY'
 category: codeigniter
-alias: blog/2010/02/CodeIgniter-Base-Classes-Keeping-it-DRY
-excerpt: " \n\tMost applications in CodeIgniter will have various types of pages.
-  Logic for these types of pages is normally copied between all of their different
-  Controllers which means, for example,  if the way the admin area protection is handled
-  is changed there will be lots of Controllers to change and test. This logic can
-  instead be shared by some creative extending of the Controller class to create custom
-  Base Controllers like Public_Controller, Admin_Controller, etc. "
+alias: blog/2010/02/CodeIgniter-Base-Classes-Keeping-it-DRY/
 date: '2010-02-08 10:48:00'
 comments: true
 disqus_identifier: CodeIgniter-Base-Classes-Keeping-it-DRY
 ---
 
-Most applications in CodeIgniter will have various types of pages. The public frontend, a backend admin panel, perhaps some sort of moderator or staff panel, etc. Logic for these types of pages is normally copied between all of their different Controllers which means, for example,  if the way the admin area protection is handled is changed there will be lots of Controllers to change and test. This logic can instead be shared by some creative extending of the Controller class to create custom Base Controllers like Public\_Controller, Admin\_Controller, etc.
+Most applications in CodeIgniter will have various types of pages. The public frontend, a backend admin panel, perhaps some sort of moderator or staff panel, etc. Logic for these types of pages is normally copied between all of their different Controllers which means, for example,  if the way the admin area protection is handled is changed there will be lots of Controllers to change and test. This logic can instead be shared by some creative extending of the Controller class to create custom Base Controllers like `Public_Controller`, `Admin_Controller`, etc.
 
 #### WTF are you talking about?
 
@@ -140,4 +134,3 @@ And there you have it! In your Controller you'll have all your data set in MY\_C
 Base Controllers are a nice simple way to give you global data, logic and shared code which can be specific to a certain part of your site. They can do all sorts of crazy stuff which I will leave for you to think about.
 
 Please post your most inventive uses in the comments section.
-

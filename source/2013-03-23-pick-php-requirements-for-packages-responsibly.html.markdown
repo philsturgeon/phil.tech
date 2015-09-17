@@ -2,7 +2,7 @@
 layout: post
 title: Pick PHP Requirements for Packages Responsibly
 category: php
-alias: blog/2013/03/pick-php-requirements-for-packages-responsibly
+alias: blog/2013/03/pick-php-requirements-for-packages-responsibly/
 excerpt: Which version of PHP to use for anything is always much debated in the PHP
   community. I'm luck enough to have kissed sweet goodbye to PHP 5.2 a while back,
   but PHP 5.4 and PHP 5.3 are both actively used by different projects and recently

@@ -2,7 +2,7 @@
 layout: post
 title: ExpressionEngine 2.0 can finally have a Rest
 category: 
-alias: blog/2010/07/expressinengine2-rest
+alias: blog/2010/07/expressinengine2-rest/
 excerpt: My first ExpressionEngine 2.0 Add-on has been released, with the amazingly
   imaginative name "Rest". You can use it to integrate RESTful API's into your ExpressionEngine
   2.0 website. You can list Tweets, search for Digg articles, show off Flickr photographs
@@ -26,4 +26,3 @@ For an example of how this all works, you can have a [look here]({page_url(24)} 
 I'm really excited to have finally released a module and initial feedback has been positive. Yet another item I can cross off my list of [goals for 2010]({page_url(17)} "Goals").
 
 Let me know what you think of the module and I'll be happy to take any feedback into consideration. v1.1 is already underway with authentication support and improved support for Delicious (and dodgy HTTPS setups in general).
-

@@ -2,7 +2,7 @@
 layout: post
 title: Build your own VPS in the cloud
 category: linux
-alias: blog/2009/05/Build-your-own-VPS-in-the-cloud
+alias: blog/2009/05/Build-your-own-VPS-in-the-cloud/
 excerpt: After getting fed up with a clunky old VPS running a borked copy of CentOS
   5 I decided I wanted more control, a better OS, cheaper running costs and better
   reliability. Watch my screencast on how to set up an Ubuntu 8.04 cloud web server
@@ -35,4 +35,3 @@ Anyhow, enough of that. Time to see my slightly drunken screencast in action.
 <param name="src" value="http://blip.tv/play/g7lmgYLRQZeDBA.m4v">
 <embed width="653" height="364" src="http://blip.tv/play/g7lmgYLRQZeDBA.m4v" type="application/x-shockwave-flash"></embed>
 </object>
-

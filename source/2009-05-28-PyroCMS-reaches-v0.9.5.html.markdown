@@ -2,7 +2,7 @@
 layout: post
 title: PyroCMS reaches v0.9.5
 category: pyrocms
-alias: blog/2009/05/PyroCMS-reaches-v0.9.5
+alias: blog/2009/05/PyroCMS-reaches-v0.9.5/
 excerpt: PyroCMS reaches its nearly final stage. This release took care of many bugs
   known in v0.9.2 and has while it has not added in many amazing new features, it
   has improved the existing ones considerably.
@@ -29,4 +29,3 @@ Again, while this may not be a major release it certainly felt like one. I may h
 Also as a new direction I am focusing less on some of the modules like services, products, etc and moving my attention to pages, news, navigation and settings. I feel like these are the modules of core interest, and I will develop the rest as and when they are required by clients.
 
 As always, you can download PyroCMS from the [GitHub downloads](http://github.com/philsturgeon/pyrocms/downloads) page.
-

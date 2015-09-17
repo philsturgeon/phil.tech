@@ -2,8 +2,8 @@
 layout: post
 title: Do Things That Scare You
 category: personal
-alias: blog/2011/11/do-things-that-scare-you
-excerpt: " \n\tI was giving a short talks at DevXS in Lincoln this weekend based on
+alias: blog/2011/11/do-things-that-scare-you/
+excerpt: "I was giving a short talks at DevXS in Lincoln this weekend based on
   my Nomadic Web Development article and I was asked \"Where did you find the courage
   to quit your job, leave your flat and just go?\". I mumbled something about not
   being sure but I am really annoyed with myself for not coming up with a substantially
@@ -35,4 +35,3 @@ So it's onwards an upwards from here. I'll be taking feedback, improving, speaki
 In the mean time, if you'd like me to give a talk at your event on any of the subjects I can speak with authority: [FuelPHP](http://fuelphp.com), [PyroCMS](http://pyrocms.com), [CodeIgniter](http://codeigniter.com), Git, etc or even just want me for a little bit of training, get in touch via my contact form and we can makes some plans.
 
  
-

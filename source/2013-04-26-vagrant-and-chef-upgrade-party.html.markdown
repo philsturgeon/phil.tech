@@ -2,7 +2,7 @@
 layout: post
 title: 'Vagrant and Chef: Upgrade Party'
 category: devops
-alias: blog/2013/04/vagrant-and-chef-upgrade-party
+alias: blog/2013/04/vagrant-and-chef-upgrade-party/
 excerpt: The other day I thought to myself, I really should be using a RVM gemset
   for my "devops" repo, which contains all my Vagrant and Chef logic (along with submodules
   for everything else). This broke everything, but I got there in the end.

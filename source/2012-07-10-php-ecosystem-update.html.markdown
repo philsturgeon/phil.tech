@@ -2,7 +2,7 @@
 layout: post
 title: 'PHP: Ecosystem Update'
 category: php
-alias: blog/2012/07/php-ecosystem-update
+alias: blog/2012/07/php-ecosystem-update/
 excerpt: Don't worry guys, this isn't another PHP apologist or PHP hater blog. We've
   all had enough of those recently. This is a quick heads up on two projects that
   are doing what they can to make the PHP ecosystem a better place.

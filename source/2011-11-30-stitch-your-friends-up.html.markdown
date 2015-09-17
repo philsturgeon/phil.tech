@@ -2,8 +2,8 @@
 layout: post
 title: Stitch Your Friends Up
 category: personal
-alias: blog/2011/11/stitch-your-friends-up
-excerpt: " \n\tWhile I am on the ignite100 start-up incubator I have met some amazing
+alias: blog/2011/11/stitch-your-friends-up/
+excerpt: "While I am on the ignite100 start-up incubator I have met some amazing
   people in some brilliant start-ups. One of these start-ups is Givey: a \"social
   giving platform\" which allows donations via SMS, Twitter, etc. They have organised
   an event happening in Newcastle tonight called \"Stitch Your Friends Up\" where

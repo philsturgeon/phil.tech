@@ -2,7 +2,7 @@
 layout: post
 title: 5 Things CodeIgniter Cannot Do (without a rewrite)
 category: codeigniter
-alias: blog/2012/12/5-things-codeigniter-cannot-do-without-a-rewrite
+alias: blog/2012/12/5-things-codeigniter-cannot-do-without-a-rewrite/
 excerpt: CodeIgniter was build a long time ago and since its inception it has maintained
   the same API, without making sizable breaking changes through 3 major versions.
   Sadly, the API is at a point where it needs to be rewritten to support several fundamental

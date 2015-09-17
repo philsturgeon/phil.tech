@@ -2,8 +2,8 @@
 layout: post
 title: Pancake v2.0 - Invoice Clients in style
 category: 
-alias: blog/2011/01/pancake-v2.0-invoice-clients-in-style
-excerpt: " \n\tPancake Payments is a super awesome invoicing application that lives
+alias: blog/2011/01/pancake-v2.0-invoice-clients-in-style/
+excerpt: "Pancake Payments is a super awesome invoicing application that lives
   on your server and can be made to keep with your brands look and best of all there
   are no monthly fees! This application is built on CodeIgniter so it is modular,
   themable and really easy to extend if you feel the need. Even better it has been

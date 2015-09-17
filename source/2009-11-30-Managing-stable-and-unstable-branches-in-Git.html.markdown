@@ -2,7 +2,7 @@
 layout: post
 title: Managing stable and unstable branches in Git
 category: git
-alias: blog/2009/11/Managing-stable-and-unstable-branches-in-Git
+alias: blog/2009/11/Managing-stable-and-unstable-branches-in-Git/
 excerpt: 'Stable and unstable branches mean that while you work on a new version of
   your software, you maintain the current   version by working on bug-fixes and small
   tweaks. Find out how to achieve this using Git. '
@@ -85,4 +85,3 @@ If instead you wish to release the new major version, you need to make sure it h
 For most of you, that command is probably the most confusing of the lot. What this does it switch to master, merge in all of your v0.9.8-dev branch changes, tag the new release in the local repository and then push everything to your remote. Then right at the end it deletes the unstable branch and your transition is complete!
 
 That then means its time to blog, tweet then party. Your new version is out and that means go to the pub as quick as possible with your phone off so you don't have to worry about bug-fixes. Tomorrow - when the hangover wears off - it's time to go back to the start and begin working on your new stable and unstable versions.
-

@@ -2,7 +2,7 @@
 layout: post
 title: 'Package Watch: Image Management'
 category: php
-alias: blog/2012/09/package-watch-image-management
+alias: blog/2012/09/package-watch-image-management/
 excerpt: For years I was locked into using the same frameworks for everything, mainly
   because my clients were hiring me specifically to use CodeIgniter based on my reputation
   within the community.  Now that is not the case and I can build things however I

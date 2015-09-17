@@ -2,7 +2,7 @@
 layout: post
 title: Tips for a Subversion addict learning Git
 category: git
-alias: blog/2009/05/Tips-for-a-Subversion-addict-learning-Git
+alias: blog/2009/05/Tips-for-a-Subversion-addict-learning-Git/
 excerpt: I have been using Subversion for years and have come to know it like the
   back of my hand. Recently I began using Git and it was a much trickier transition
   than I had expected. Now I have finally found my feet with the basics of Git I thought
@@ -74,4 +74,3 @@ That said, installing Git on CentOS 5 was an absolute nightmare for me as well.
 If you are using Windows, give [SmartGit](http://www.syntevo.com/smartgit/ "Visual GUI for Windows & Git") a try. It actually makes the whole process rather painless.
 
 **Summary:** Git is one confusion S.O.B when you first start using it, but it soon begins to make sense if you stick with it. Read the manuals, use the command line and try to stop thinking like a Subversion user. Ignore what you know about Subversion and learn Git like it is something brand new. If you can't forget about Subversion then head my advice here and save yourself the headaches I have suffered the last 2 weeks.
-

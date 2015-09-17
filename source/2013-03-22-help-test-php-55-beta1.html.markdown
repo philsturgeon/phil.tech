@@ -2,7 +2,7 @@
 layout: post
 title: Help test PHP 5.5 beta1
 category: php
-alias: blog/2013/03/help-test-php-55-beta1
+alias: blog/2013/03/help-test-php-55-beta1/
 excerpt: Yesterday PHP.net announced the release of PHP 5.5 Beta-1. This is a great
   news after the concerns that merging Zend Optimizer would really slow things down,
   but the releases are still ticking along. So, what can you do to help out? Test

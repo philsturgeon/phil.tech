@@ -2,8 +2,8 @@
 layout: post
 title: '2010 for Phil Sturgeon: Year in Review'
 category: personal
-alias: blog/2010/12/2010-for-phil-sturgeon-year-in-review
-excerpt: " \n\tAnother year has passed and this has been the best yet. Most years
+alias: blog/2010/12/2010-for-phil-sturgeon-year-in-review/
+excerpt: "Another year has passed and this has been the best yet. Most years
   fly by without me having any real record of what I have achieved or where I need
   to improve to better myself, so this year I decided to set myself a list of goals
   to help shape my life. Find out how I did! "

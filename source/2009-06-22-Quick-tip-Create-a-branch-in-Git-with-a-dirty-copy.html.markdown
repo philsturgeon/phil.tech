@@ -2,7 +2,7 @@
 layout: post
 title: 'Quick tip: Create a branch in Git with a dirty copy'
 category: git
-alias: blog/2009/06/Quick-tip-Create-a-branch-in-Git-with-a-dirty-copy
+alias: blog/2009/06/Quick-tip-Create-a-branch-in-Git-with-a-dirty-copy/
 excerpt: We've all done it. Started working on a task, ticket or issue and realised
   we have forgotten to create a branch. Using git stash we can easily hide these changes,
   create a branch and then get the changes back.
@@ -30,4 +30,3 @@ We've all done it. Started working on a task, ticket or issue and realised we ha
 > git stash apply
 
 There you go, you are now ready to commit those files off to your new branch.
-

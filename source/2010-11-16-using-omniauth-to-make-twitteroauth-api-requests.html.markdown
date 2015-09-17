@@ -2,8 +2,8 @@
 layout: post
 title: Using OmniAuth to make Twitter/oAuth API requests
 category: rails
-alias: blog/2010/11/using-omniauth-to-make-twitteroauth-api-requests
-excerpt: " \n\tUsing the brilliant user system Devise and a gem called OmniAuth you
+alias: blog/2010/11/using-omniauth-to-make-twitteroauth-api-requests/
+excerpt: "Using the brilliant user system Devise and a gem called OmniAuth you
   can make a Rails application that logs in or registers users via Twitter, Facebook,
   Foursquare, etc with amazing ease. But once the user has authenticated their account,
   how do you go about actually interacting with the API? This article will answer
@@ -83,4 +83,3 @@ The next step is to actually make some requests using these saved credentials, w
 By pulling the content from current\_user.authentications (im finding the first as in my application they should only have one) I can grab the credentials and have full permissions to get their recent tweets, post new ones, see friends tweets, etc.
 
 Now I can tweak this, get stuff saved, faff with the JSON and take what I need. Working with Facebook or any other oAuth provider will work in an almost identical way, or you can install specific gems to interact with their API's if the direct approach is not as smooth as you'd like.
-

@@ -2,7 +2,7 @@
 layout: post
 title: 'Blooie: Chat has Changed'
 category: fuelphp
-alias: blog/2012/07/blooie-chat-has-changed
+alias: blog/2012/07/blooie-chat-has-changed/
 excerpt: 'The last few months have been pretty mad for me. As well as the usual client
   work for HappyNinjas, I''ve been flying backwards and forwards to America for various
   reasons, building business around PyroCMS as it spins off into its own American

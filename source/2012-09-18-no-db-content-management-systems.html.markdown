@@ -1,8 +1,8 @@
 ---
 layout: post
 title: No-DB Content Management Systems
-category: 
-alias: blog/2012/09/no-db-content-management-systems
+category: cms
+alias: blog/2012/09/no-db-content-management-systems/
 excerpt: If you're following many designers on Twitter then you'll notice that they've
   just started noticing flat-file (or "No-DB") content management systems. The basic
   idea is you swap out the database and complicated admin panels for a simple file

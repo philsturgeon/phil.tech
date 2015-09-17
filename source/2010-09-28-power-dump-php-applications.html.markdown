@@ -2,7 +2,7 @@
 layout: post
 title: Power dump() on your PHP applications
 category: php
-alias: blog/2010/09/power-dump-php-applications
+alias: blog/2010/09/power-dump-php-applications/
 excerpt: Application development going a bit slowly? Take a power dump() and get right
   back on track. This handy little PHP function will output the what, why, when, where
   of your variables and help you get back on track.
@@ -22,4 +22,3 @@ Using this handy function (which I have set up as a CodeIgniter debug\_helper or
 Thanks to the fact this shows the line number and file it was called from I also manage to avoid those annoying "where the hell did I put that debug?!" situations, which is one of the main causes of swearing in my office.
 
 Give it a try.
-

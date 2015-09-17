@@ -2,7 +2,7 @@
 layout: post
 title: Create an Admin panel with CodeIgniter
 category: codeigniter
-alias: blog/2009/07/Create-an-Admin-panel-with-CodeIgniter
+alias: blog/2009/07/Create-an-Admin-panel-with-CodeIgniter/
 excerpt: A topic I see come up on the CodeIgniter forums quite a lot is "How do I
   create an admin panel" in CodeIgniter? This article will show you the best structure
   for your admin panel, but leave the actual code to you.
@@ -66,4 +66,3 @@ If your front and back end applications share nothing in common and never will d
 Got any more methods to handle admin structures? Let me know in the comments.
 
     dashboard.php
-

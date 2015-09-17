@@ -3,7 +3,7 @@ layout: post
 title: Moving On
 category: php
 tags: career, codeigniter, fuelphp, kapture
-alias: blog/2012/09/moving-on
+alias: blog/2012/09/moving-on/
 excerpt: My entire career seems to have come from being a CodeIgniter developer, and
   a vocal one at that. Since then I have risen up through the ranks of CodeIgniter
   developers to be active in maintaining it, but with my new job I just don't need

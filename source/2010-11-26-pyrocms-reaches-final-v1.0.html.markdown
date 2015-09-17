@@ -2,8 +2,8 @@
 layout: post
 title: 'PyroCMS reaches final: v1.0'
 category: pyrocms
-alias: blog/2010/11/pyrocms-reaches-final-v1.0
-excerpt: " \n\tToday we are incredibly pleased to announce the biggest update to PyroCMS
+alias: blog/2010/11/pyrocms-reaches-final-v1.0/
+excerpt: "Today we are incredibly pleased to announce the biggest update to PyroCMS
   in it's 14 months of it's open-source history. v1.0 may seem like a small jump in
   numbers from v0.9.9.7 but really this is more like a 2.0! Everything has been logically
   restructured, Dwoo has been replaced with an amazingly powerful Tags and Plugin

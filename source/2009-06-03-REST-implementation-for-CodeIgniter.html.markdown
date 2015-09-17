@@ -2,7 +2,7 @@
 layout: post
 title: REST implementation for CodeIgniter
 category: codeigniter
-alias: blog/2009/06/REST-implementation-for-CodeIgniter
+alias: blog/2009/06/REST-implementation-for-CodeIgniter/
 excerpt: There have been 1 or 2 RESTful implementations for CodeIgniter  so far, but
   none of them have been flexible or clean enough. This is the first publicly available
   RESTful implementation for CodeIgniter.
@@ -63,4 +63,3 @@ As you can see there is plenty of flexibility here. You can use any of the follo
 - csv
 
 Within your REST controllers, remember you can access GET parameters through $this->get(), POST parameters through $this->post() and PUT parameters through $this->put().
-

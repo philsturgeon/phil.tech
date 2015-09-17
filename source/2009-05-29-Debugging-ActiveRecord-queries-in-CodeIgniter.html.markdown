@@ -2,7 +2,7 @@
 layout: post
 title: Debugging ActiveRecord queries in CodeIgniter
 category: codeigniter
-alias: blog/2009/05/Debugging-ActiveRecord-queries-in-CodeIgniter
+alias: blog/2009/05/Debugging-ActiveRecord-queries-in-CodeIgniter/
 excerpt: When you have an ActiveRecord call that just will not work, it can be a pain.
   To save asking questions on the CodeIgniter forums that you could answer yourself,
   try these steps.
@@ -30,4 +30,3 @@ a.) CodeIgniter is logged into MySQL with a different user who may not have the 
 b.) A condition is not being met in your model file or controller that is stopping the query from being run. Output values along the way.
 
 Debugging is a wonderful thing CodeIgniter fans, follow these steps and you'll solve any query issues you come across.
-

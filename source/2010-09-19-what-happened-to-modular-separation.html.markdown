@@ -2,7 +2,7 @@
 layout: post
 title: What happened to Modular Separation?
 category: codeigniter
-alias: blog/2010/09/what-happened-to-modular-separation
+alias: blog/2010/09/what-happened-to-modular-separation/
 excerpt: Modular Separation for CodeIgniter is no more. It has kicked the bucket,
   shuffled off the mortal coil, run down the curtain and joined the bleedin' choir
   invisible!! THIS IS AN EX-PARROT!!
@@ -22,4 +22,3 @@ Now he is back to developing he has merged Modular Separation back into Modular 
 The [Modular Extensions](http://codeigniter.com/wiki/Modular_Extensions_-_HMVC/) wiki page should contain everything you need to know about installation. It is essentially a case of replacing MY\_Router and MY\_Loader with the new ME code, and if you want HMVC you need to start using MX\_Controller.
 
 Enjoy.
-

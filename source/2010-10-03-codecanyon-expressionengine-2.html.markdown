@@ -2,7 +2,7 @@
 layout: post
 title: CodeCanyon's ExpressionEngine 2 section launches
 category: 
-alias: blog/2010/10/codecanyon-expressionengine-2
+alias: blog/2010/10/codecanyon-expressionengine-2/
 excerpt: CodeCanyon have launched their new ExpressionEngine 2 section along with
   a few of plugins from me. One of these is the long awaited, much anticipated Widgets
   module!
@@ -25,4 +25,3 @@ For other developers interested in releasing on CodeCanyon, remember that they h
 One thing I really want to avoid is a Devot:ee vrs CodeCanyon argument, as I still love those guys. Also to avoid pissing anyone off I’ll be keeping my Rest module on Devot:ee so nobody has to pay twice. If you do release anything on CodeCanyon you should of course link it on Devot:ee too as they currently have EVERY ExpressionEngine Add-on listed and that is no mean feat!
 
 Let’s not fight over this one, competition is good for everyone.
-

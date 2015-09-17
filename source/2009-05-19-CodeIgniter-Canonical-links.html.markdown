@@ -2,7 +2,7 @@
 layout: post
 title: CodeIgniter & Canonical links
 category: codeigniter
-alias: blog/2009/05/CodeIgniter-Canonical-links
+alias: blog/2009/05/CodeIgniter-Canonical-links/
 excerpt: I have recently starting using Google Analytic's to track this web-site and
   as such I have suddenly started to care about improving its SEO while creating Google
   Analytic friendly URL's.
@@ -78,4 +78,3 @@ I personally am a fan of method #2 method #3. Does anybody have any other funky 
 This is not the set-up that will work for everyone, as sometimes people want to have multiple URL's being tracked for a single content page. This happens quite a bit at work, but for my personal site and most of the sites using [PyroCMS](http://pyrocms.com/) I could see the advantages.
 
 As captcha's are still not working, please discuss this in the [CodeIgniter post](http://codeigniter.com/forums/viewthread/114862/) I set up for this article.
-

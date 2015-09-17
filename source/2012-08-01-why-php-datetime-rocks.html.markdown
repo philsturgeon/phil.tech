@@ -2,7 +2,7 @@
 layout: post
 title: Why PHP DateTime Rocks
 category: php
-alias: blog/2012/08/why-php-datetime-rocks
+alias: blog/2012/08/why-php-datetime-rocks/
 excerpt: Working as a freelancer and contractor sometimes I come across some code
   that is so terrible I have to laugh, then immediately tweet a screenshot for others
   to laugh. I think this is fairly healthy, but one reaction I get fairly often is

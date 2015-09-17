@@ -2,7 +2,7 @@
 layout: post
 title: 'CodeIgniter: What happens next?'
 category: codeigniter
-alias: blog/2010/10/what-happens-next
+alias: blog/2010/10/what-happens-next/
 excerpt: " \n Times have been hard for the developers of CodeIgniter - EllisLab and
   they have addressed this in a few ways: A spot on the ExpressionEngine Podcast,
   a few articles explaining the future of EllisLab and ExpressionEngine and how they
@@ -59,4 +59,3 @@ The most exciting thing is a funky little framework called [Fuel](http://fuelphp
 Something I have to stress is that this doesn't mean I'll be leaving CodeIgniter for good. [PyroCMS](http://codeigniter.com/) runs CodeIgniter 2.0 and that project is still moving forwards with great pace. I'll also be doing what I can to get people together for CICON2011 EU, UK and US (website coming soon) but I won't be doing a whole lot of anything else in CodeIgniter.
 
 I just need something more interesting to develop with; CodeIgniter is too simple and adverse to change to provide anything new and interesting for experienced PHP developers.
-

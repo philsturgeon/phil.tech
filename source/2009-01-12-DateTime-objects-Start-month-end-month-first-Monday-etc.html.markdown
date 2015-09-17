@@ -2,7 +2,7 @@
 layout: post
 title: DateTime objects - Start month, end month, first Monday, etc
 category: php
-alias: blog/2009/01/DateTime-objects-Start-month-end-month-first-Monday-etc
+alias: blog/2009/01/DateTime-objects-Start-month-end-month-first-Monday-etc/
 excerpt: Throw away `strtotime()` and `date()` and check out PHP's funky DateTime objects
   for much greater control over your dates.
 date: '2009-01-12 08:24:00'
@@ -36,4 +36,3 @@ if($first_monday->format('l') != 'Monday') $first_monday->modify('first monday')
 ~~~
 
 DateTime may have been around for a while now, but it's still not fully documented or even entirely complete on any of the PHP set-ups I have tried it on. Still waiting on `DateTime::diff()`.
-

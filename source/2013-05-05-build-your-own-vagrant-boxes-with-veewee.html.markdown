@@ -2,7 +2,7 @@
 layout: post
 title: Build your own Vagrant Boxes with VeeWee
 category: devops
-alias: blog/2013/05/build-your-own-vagrant-boxes-with-veewee
+alias: blog/2013/05/build-your-own-vagrant-boxes-with-veewee/
 excerpt: "The other day I posted an article about upgrading Chef and Vagrant, and
   the pains you can end up having by relying on third-party vagrant boxes instead
   of building your own with VeeWee. \n \nGetting started was initially confusing to

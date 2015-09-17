@@ -2,7 +2,7 @@
 layout: post
 title: 'Video: Set up a REST API with CodeIgniter'
 category: codeigniter
-alias: blog/2011/03/video-set-up-a-rest-api-with-codeigniter
+alias: blog/2011/03/video-set-up-a-rest-api-with-codeigniter/
 excerpt: " Tonight I started working on the RESTful API for PancakeApp - an invoicing
   system built in CodeIgniter - when I remembered how many people have been asking
   for help using REST_Controller. I wrote up an article on NetTuts last year hoping

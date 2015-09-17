@@ -2,7 +2,7 @@
 layout: post
 title: Puppet or Chef?
 category: devops
-alias: blog/2012/10/puppet-or-chef
+alias: blog/2012/10/puppet-or-chef/
 excerpt: Back in the UK at PHPNE this May I saw an awesome talk from Ian Chilton,
   who explained very simply why using Vagrant for your development environments was
   a good idea. He mentioned briefly server provisioning but didn't get fully into

@@ -2,13 +2,13 @@
 layout: post
 title: Distributed Architecture Faking with Vagrant
 category: devops
-alias: blog/2012/12/distributed-architecture-faking-with-vagrant
-excerpt: " Working for Kapture I've been charged with something I've never really
+alias: blog/2012/12/distributed-architecture-faking-with-vagrant/
+excerpt: "Working for Kapture I've been charged with something I've never really
   had to do before: Managing a big-ass architecture of different servers that all
   handle different tasks. Theoretically I've always known how it works, and I've worked
   in projects that have had these systems, but I've never been put in charge of how
   that whole situation works out. So this little web developer had to do a lot of
-  learning. \n\n   "
+  learning."
 date: '2012-12-02 02:29:00'
 comments: true
 disqus_identifier: distributed-architecture-faking-with-vagrant

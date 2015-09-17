@@ -2,7 +2,7 @@
 layout: post
 title: Clearing CodeIgniter session data
 category: codeigniter
-alias: blog/2009/08/Clearing-CodeIgniter-session-data
+alias: blog/2009/08/Clearing-CodeIgniter-session-data/
 excerpt: This article shows a few ways of clearing session data in CodeIgniter, including
   a non-documented approach which lets you wipe all session data without destroying
   the session.
@@ -28,4 +28,3 @@ Final option, and this is a hack. Normally in PHP 5 objects, people hide direct 
 ` foreach (array_keys($this->session->userdata) as $key) {   $this->session->unset_userdata($key); }`
 
 That is a very bad way to do things, as it will break when/if CodeIgniter eventually move their libraries to PHP 5 syntax. That will not been soon (nor does it need to be) but it will happen eventually.
-

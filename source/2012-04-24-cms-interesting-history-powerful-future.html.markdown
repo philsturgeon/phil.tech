@@ -2,7 +2,7 @@
 layout: post
 title: 'CMS: Interesting History, Powerful Future'
 category: php
-alias: blog/2012/04/cms-interesting-history-powerful-future
+alias: blog/2012/04/cms-interesting-history-powerful-future/
 excerpt: As a CMS developer on the PyroCMS team, a common problem I have to deal with
   on an almost daily basis is peoples strange fear of using a CMS as a base for a
   project. People often suggest the tools of my trade are not appropriate, are only

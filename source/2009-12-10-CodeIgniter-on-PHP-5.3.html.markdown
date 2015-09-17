@@ -2,8 +2,8 @@
 layout: post
 title: CodeIgniter on PHP 5.3
 category: codeigniter
-alias: blog/2009/12/CodeIgniter-on-PHP-5.3
-excerpt: " \n\tFind out how to make PHP 5.3 shut up complaining about \"warning: date():
+alias: blog/2009/12/CodeIgniter-on-PHP-5.3/
+excerpt: "Find out how to make PHP 5.3 shut up complaining about \"warning: date():
   It is not safe to rely on the system's timezone settings\" and deprecated functions
   in your CodeIgniter applications. "
 date: '2009-12-10 11:45:00'

@@ -2,7 +2,7 @@
 layout: post
 title: Testing and Contributing with Composer Packages
 category: php
-alias: blog/2013/05/testing-contributing-composer-packages
+alias: blog/2013/05/testing-contributing-composer-packages/
 excerpt: While Composer has been around for a while now, many packages are still in
   their infancy (&lt; 1.0) or sometimes are just not as feature filled as they could
   be. Pull requests are going to be a common thing for the PHP community to be doing

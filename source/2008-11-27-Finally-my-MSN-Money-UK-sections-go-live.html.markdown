@@ -2,7 +2,7 @@
 layout: post
 title: Finally, my MSN Money UK sections go live!
 category: personal
-alias: blog/2008/11/Finally-my-MSN-Money-UK-sections-go-live
+alias: blog/2008/11/Finally-my-MSN-Money-UK-sections-go-live/
 excerpt: The company I work for have a contract with MSN to create some new sections
   for MSN Money UK on the topics of Funds, Pensions and Currency services, and my
   task was to code them all...!
@@ -20,4 +20,3 @@ Well after weeks of struggling with Apache config files, CNAME rules, tricky red
 - **MSN Money UK - Currency _<small>Coming Soon</small>_** 
 
 Will be a nice bullet point to go on my CV methinks.
-

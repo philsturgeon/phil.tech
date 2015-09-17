@@ -2,8 +2,8 @@
 layout: post
 title: Upgrading to CodeIgniter 2.0
 category: codeigniter
-alias: blog/2010/05/upgrading-to-codeigniter-2.0
-excerpt: " \n\tThe CodeIgniter 2.0 branch is still coming together and has not yet
+alias: blog/2010/05/upgrading-to-codeigniter-2.0/
+excerpt: "The CodeIgniter 2.0 branch is still coming together and has not yet
   been released, but it is getting considerably more stable as time goes on. If you
   want a smooth ride upgrading your application to run on CodeIgniter 2.0 then read
   this guide. "
@@ -94,4 +94,3 @@ This didn't happen in previous CodeIgniter versions but in 2.0 if you enable $co
 ### Summary
 
 That should be it! Up and running on CodeIgniter 2.0. Most of you won't need to have bothered with all the steps but they are worth keeping in mind for the future. If you spot anything I have missed please pester me in one of the usual ways.
-

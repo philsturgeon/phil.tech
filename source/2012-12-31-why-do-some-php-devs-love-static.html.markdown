@@ -2,8 +2,8 @@
 layout: post
 title: Why do some PHP Developers &lt;3 Static APIs?
 category: php
-alias: blog/2012/12/why-do-some-php-devs-love-static
-excerpt: " \n\tThere are two kinds of PHP developers. Those who absolutely love static
+alias: blog/2012/12/why-do-some-php-devs-love-static/
+excerpt: "There are two kinds of PHP developers. Those who absolutely love static
   methods because they are easy to work with and those who think they are spawned
   by satan to test our devotion to proper programming practises.  This article is
   not intended to explain why static apis are ok, I instead hope to use my experience

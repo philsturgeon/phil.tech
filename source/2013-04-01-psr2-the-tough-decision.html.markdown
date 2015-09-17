@@ -3,7 +3,7 @@ layout: post
 title: 'PSR-2: The Tough Decision'
 category: php
 tags: psr2, php, php-fig
-alias: blog/2013/04/psr2-the-tough-decision
+alias: blog/2013/04/psr2-the-tough-decision/
 excerpt: PSR-2 has been out for a while now, and even though developers from member
   projects (such as Joomla, Drupal, phpBB, CakePHP, Symfony and Zend) got together
   and took part in a entirely fair vote to decide if tabs or spaces should be involved,

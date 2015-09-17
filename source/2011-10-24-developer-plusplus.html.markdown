@@ -2,8 +2,8 @@
 layout: post
 title: Developer++
 category: personal
-alias: blog/2011/10/developer-plusplus
-excerpt: " \n\tThis weekend I popped home to Bristol for Web Developers Conference
+alias: blog/2011/10/developer-plusplus/
+excerpt: "This weekend I popped home to Bristol for Web Developers Conference
   2011 and while I was mainly going to see a few friends I came away inspired to make
   some changes. Three of the talks at first seemed to be the common \"This is how
   I went from being an inexperienced dev to being part of an awesome company\" but

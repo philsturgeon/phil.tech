@@ -2,7 +2,7 @@
 layout: post
 title: PyroCMS - an open source CodeIgniter CMS
 category: pyrocms
-alias: blog/2009/05/PyroCMS-an-open-source-CodeIgniter-CMS
+alias: blog/2009/05/PyroCMS-an-open-source-CodeIgniter-CMS/
 excerpt: Finally my CMS is ready for the world. PyroCMS is a modular content management
   system built with CodeIgniter with speed and efficiency in mind.
 date: '2009-05-07 09:28:00'
@@ -50,4 +50,3 @@ It also has the foundation for multi-language support but many of the modules ha
 To keep track of updates to PyroCMS there are several ways to do it. You can [follow me on twitter](http://twitter.com/philsturgeon), watch the [GitHub code repo](http://github.com/philsturgeon/pyrocms) or watch the [Assembla space](http://www.assembla.com/spaces/pyrocms).
 
 Please [download it](http://github.com/philsturgeon/pyrocms/zipball/v0.9.1) and break it if you can. If you have any ideas please [e-mail me](contact), [tweet me](http://twitter.com/philsturgeon) or post them as [GitHub issues](http://github.com/philsturgeon/pyrocms/issues). I would love to include any good ideas you have.
-

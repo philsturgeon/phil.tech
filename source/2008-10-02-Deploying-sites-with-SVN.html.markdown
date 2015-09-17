@@ -2,7 +2,7 @@
 layout: post
 title: Deploying sites with SVN
 category: 
-alias: blog/2008/10/Deploying-sites-with-SVN
+alias: blog/2008/10/Deploying-sites-with-SVN/
 excerpt: Ever got fed up with FTP uploading multiple sites and forgetting which files
   need to go where? Sure you could delete the whole thing and upload it all, but that
   way you have downtime. I found a solution recently that works perfectly and is quick
@@ -47,4 +47,3 @@ $ svn update
 ~~~
 
 And there you have it. Each update you make will be deployed to your site when you run the svn update, minimum fuss.
-

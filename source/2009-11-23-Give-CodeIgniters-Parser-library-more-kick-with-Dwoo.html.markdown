@@ -2,7 +2,7 @@
 layout: post
 title: Give CodeIgniter's Parser library more kick with Dwoo
 category: codeigniter
-alias: blog/2009/11/Give-CodeIgniters-Parser-library-more-kick-with-Dwoo
+alias: blog/2009/11/Give-CodeIgniters-Parser-library-more-kick-with-Dwoo/
 excerpt: 'Dwoo is a PHP based templating engine aimed as a replacement for Smarty
   2.x using similar and alternative syntax. This implementation basically overrides
   the logic of the default parser with this more powerful system. '
@@ -22,4 +22,3 @@ So after a little head-scratching, we now have CodeIgniter-Dwoo. DwooParser? Dwo
 The Lead Developer of Dwoo contacted me about this implementation and it may way well be included in the Dwoo 1.2 release in place of the old one, so please test this out and let me know if you have any issues or suggestions.
 
 **[Dwoo implementation](/code/codeigniter-dwoo)** for CodeIgniter
-

@@ -2,7 +2,7 @@
 layout: post
 title: Great Battle, Wrong Field
 category: 
-alias: blog/2013/07/great-battle-wrong-field
+alias: blog/2013/07/great-battle-wrong-field/
 excerpt: Life is hard, opinions are hard, and fighting for your opinions and beliefs
   is the hardest. This is why it upsets me that so many people just get it totally
   wrong and cause more harm than good. These are the incidents when the wrong person

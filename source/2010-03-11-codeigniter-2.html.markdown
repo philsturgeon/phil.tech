@@ -2,8 +2,8 @@
 layout: post
 title: 'CodeIgniter 2.0: Everything you need to know'
 category: codeigniter
-alias: blog/2010/03/codeigniter-2
-excerpt: " \n\tIt has been 6 months since the last CodeIgniter minor update and 18
+alias: blog/2010/03/codeigniter-2/
+excerpt: "It has been 6 months since the last CodeIgniter minor update and 18
   months since the last major update. Through all this time we were given no information
   about the next release of CodeIgniter, but finally 2.0 is on the way. "
 date: '2010-03-11 17:42:00'
@@ -99,4 +99,3 @@ By the looks of it, CodeIgniter 2.0 brings along some brilliant new changes, a h
 For now, check out the [Changelog](http://bitbucket.org/ellislab/codeigniter/src/tip/user_guide/changelog.html) and subscribe to the [RSS feed](http://bitbucket.org/ellislab/codeigniter/rss/?token=b1ff7f584323d32165103f65e1bc60d6) or follow the [BitBucket project](http://bitbucket.org/ellislab/codeigniter/) to keep up to date with the progress.
 
 **Edit:** [Michael Wales](http://www.michaelwales.com/2010/03/codeigniter-2-0-and-mercurial-transition/) and [Elliot Haughin](http://www.haughin.com/2010/03/11/codeigniter-2-critical-changes-implications/) have also written their views on the new CodeIgniter 2.0 announcement. Read their articles to get a good base of opinions on the subject.
-

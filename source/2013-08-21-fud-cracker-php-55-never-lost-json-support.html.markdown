@@ -2,7 +2,7 @@
 layout: post
 title: 'FUD Cracker: PHP 5.5 never lost JSON support'
 category: php
-alias: blog/2013/08/fud-cracker-php-55-never-lost-json-support
+alias: blog/2013/08/fud-cracker-php-55-never-lost-json-support/
 excerpt: I'm posting this because I have accidentally been perpetuating some FUD,
   that PHP 5.5 has had its JSON support removed. It hasn't. This article is an apology
   for my involvement in any confusion and an explanation of what actually happened.

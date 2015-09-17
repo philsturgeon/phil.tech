@@ -2,8 +2,8 @@
 layout: post
 title: The CodeIgniter Community goes on holiday to NYC
 category: codeigniter
-alias: blog/2011/04/the-codeigniter-community-goes-on-holiday-to-nyc
-excerpt: " \n\tThe CodeIgniter Community has decided to have a little holiday this
+alias: blog/2011/04/the-codeigniter-community-goes-on-holiday-to-nyc/
+excerpt: "The CodeIgniter Community has decided to have a little holiday this
   summer, and head to New York for not just a meet up, but the biggest gathering of
   CodeIgniter developers to ever happen. There will be talks from the CodeIgniter
   Reactor Engineers, the EllisLab teams themselves and people involved in Forrst,
@@ -26,4 +26,3 @@ We've got a few of the top members of the CI community to say a few words about 
 Personally I can't wait. [Buy a ticket](http://ciconus.eventbrite.com) and I'll see you all there. The first round is on me.
 
 For more information on who is speaking check out the [CICON2011](http://cicon2011.com) website.
-

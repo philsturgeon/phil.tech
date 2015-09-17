@@ -2,7 +2,7 @@
 layout: post
 title: 'How to: Install Transmission CLI to Ubuntu Server'
 category: linux
-alias: blog/2009/02/How-to-Install-Transmission-CLI-to-Ubuntu-Server
+alias: blog/2009/02/How-to-Install-Transmission-CLI-to-Ubuntu-Server/
 excerpt: Learn how to set up the best BitTorrent client for your Ubuntu Server running
   on the command line. This guide will show you how to get a background daemon running
   on boot to download all your torrents without hogging your terminal like rTorrent,
@@ -177,4 +177,3 @@ Now you need to give it permission to be executed as a script and add it to the 
  `
 
 Done! Restart your machine and test it out. I will be writing a follow up article on how to add some great extra features to this program shortly, so keep an eye on the RSS feed.
-

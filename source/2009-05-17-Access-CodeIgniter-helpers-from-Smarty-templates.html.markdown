@@ -2,7 +2,7 @@
 layout: post
 title: Access CodeIgniter helpers from Smarty templates
 category: codeigniter
-alias: blog/2009/05/Access-CodeIgniter-helpers-from-Smarty-templates
+alias: blog/2009/05/Access-CodeIgniter-helpers-from-Smarty-templates/
 excerpt: Smarty by default has lots of useful functions - or modifiers - to help you
   modify your Smarty variables. Using this modifier, you can access any CodeIgniter
   helper in your view files.
@@ -24,4 +24,3 @@ Save that and try it out in one of your Smarty controlled view files. For exampl
 With Smarty modifiers, the item you are modifying is the first param. The modifier is called after a pipe character "|" and then more parameters are separated by ":". With this specific modifier, you list the helper, then the helper function, then as many params afterwards as you like.
 
 **[More on Smarty modifiers](http://www.smarty.net/manual/en/plugins.modifiers.php)**
-

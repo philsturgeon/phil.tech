@@ -2,8 +2,8 @@
 layout: post
 title: TravlrApp - An app for backpackers and web nomads
 category: 
-alias: blog/2011/05/travlrapp-an-app-for-backpackers-and-web-nomads
-excerpt: " \n\tThis summer I'll be travelling around U.S.A with nothing much more
+alias: blog/2011/05/travlrapp-an-app-for-backpackers-and-web-nomads/
+excerpt: "This summer I'll be travelling around U.S.A with nothing much more
   than a Greyhound coach pass, a laptop, a map and of course a smart-phone. On the
   way I'll be meeting developers, talking at a few offices offering Git/CodeIgniter/Fuel
   training and having several nerd-beers along the way. To help people see what I'm
@@ -49,4 +49,3 @@ I have a whole bunch of evil plans for TravlrApp. I want to do a lot of work wit
 These will all be part of Phase 2, right now Phase 1 is out there and available to anyone who gets an invite.
 
 Throw me a comment if you want an invitation code, I'll be sending out a batch tomorrow.
-

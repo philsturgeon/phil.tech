@@ -2,8 +2,8 @@
 layout: post
 title: New CodeIgniter Documentation = Unicorn Party
 category: codeigniter
-alias: blog/2011/10/new-codeigniter-documentation
-excerpt: " \n\tThe CodeIgniter Community has been crying out for EllisLab and the
+alias: blog/2011/10/new-codeigniter-documentation/
+excerpt: "The CodeIgniter Community has been crying out for EllisLab and the
   development team to be more open and forward with information, developments, roadmaps,
   etc and EllisLab have taken this to heart. Yesterday they put up a \"nightly build\"
   of the new documentation which has been worked on in a GitHub branch for months
@@ -45,4 +45,3 @@ As I've said, PDF export and search straight out of the box is bloody brilliant.
 ### Summary
 
 This is happening and it's a good thing. Every person making a complaint about a specific thing could just as easily say "I don't like X because of Y, can we make it work like Z?". Or, get involved. CodeIgniter is an open-source project after all. [Send a pull request](http://codeigniter.com/news/contribution_guide)! [This guy did](https://github.com/EllisLab/CodeIgniter/pull/536/files).
-

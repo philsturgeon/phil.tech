@@ -2,7 +2,7 @@
 layout: post
 title: 'How to: Multi-site CodeIgniter Set-up'
 category: codeigniter
-alias: blog/2009/06/How-to-Multi-site-CodeIgniter-Set-up
+alias: blog/2009/06/How-to-Multi-site-CodeIgniter-Set-up/
 excerpt: 'A few people have asked me recently about setting up CodeIgniter to run
   across multiple domains based on the same codebase, so here are a few tips on how
   to get this working on your CodeIgniter set-up. '
@@ -36,4 +36,3 @@ Now that CodeIgniter has its links working and it knows what site it is trying t
 The little snippet of code at the bottom will check to see if the SITE constant you have set matches up with a database group. If it doesn't, it will use the default configuration group.
 
 Your CodeIgniter set-up should now work with any domain you happen to point to it. You even run simple little if(SITE == 'example2') checks anywhere within your code to do special code for a certain site, although I would not recommend you doing this too heavily.
-

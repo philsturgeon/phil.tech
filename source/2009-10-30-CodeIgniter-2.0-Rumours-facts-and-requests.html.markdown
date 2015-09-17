@@ -2,7 +2,7 @@
 layout: post
 title: 'CodeIgniter "2.0": Rumours, facts and requests'
 category: codeigniter
-alias: blog/2009/10/CodeIgniter-2.0-Rumours-facts-and-requests
+alias: blog/2009/10/CodeIgniter-2.0-Rumours-facts-and-requests/
 excerpt: 'Ever since it was announced that ExpressionEngine 2.0 would be running on
   CodeIgniter, the forums have been jammed full of "CodeIgniter 2.0" questions. I
   have answer this so many times I wanted to clear things up and put some useful suggestions
@@ -87,4 +87,3 @@ Using the JavaScript library as an abstraction layer over the framework librarie
 ### What we wont see
 
 EllisLab will not drop PHP 4 overnight and rewrite the whole core. We wont be seeing any "Automatic DRUD generators" that require one command line prompt and integration with telepathic control. And we wont be seeing anything amazing until some time after the ExpressionEngine release at he start of December '09. So stop asking everyone and be patient. The only people who know wont tell you, and as soon as the code is available it will be in the SVN.
-

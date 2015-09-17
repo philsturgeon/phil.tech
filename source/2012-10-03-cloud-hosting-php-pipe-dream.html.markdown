@@ -2,7 +2,7 @@
 layout: post
 title: 'Cloud Hosting for PHP: The Eternal Pipe Dream'
 category: php
-alias: blog/2012/10/cloud-hosting-php-pipe-dream
+alias: blog/2012/10/cloud-hosting-php-pipe-dream/
 excerpt: This time last year I was extremely excited about the future of Heroku-style
   PHP hosting services (or PaaS), which would allow developers to quickly and easily
   set up small hosting environments that grow and scale horizontally and vertically

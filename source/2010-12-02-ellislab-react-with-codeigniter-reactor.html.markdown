@@ -2,8 +2,8 @@
 layout: post
 title: EllisLab react with CodeIgniter Reactor
 category: codeigniter
-alias: blog/2010/12/ellislab-react-with-codeigniter-reactor
-excerpt: " \n\tTwo weeks ago we had some interesting news from EllisLab about the
+alias: blog/2010/12/ellislab-react-with-codeigniter-reactor/
+excerpt: "Two weeks ago we had some interesting news from EllisLab about the
   planning of a \"Official CodeIgniter Community Branch\" in which \"CodeIgniter Deputies\"
   would be appointed to manage community contributions. That was pretty awesome, but
   today we've had some even better news about the future of CodeIgniter. That is:
@@ -56,4 +56,3 @@ Same as right now. Fork, commit and send a pull request! I am toying with the id
 Next year. First quarter of 2011. We have to plan, develop and create, but you can be certain our first order of business is raising the bug tracker to the ground. Fix  the old then improve the new!
 
 CodeIgniter is about to get exciting again guys, watch this space!
-

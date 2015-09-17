@@ -2,8 +2,8 @@
 layout: post
 title: Arguing on the Internet
 category: codeigniter
-alias: blog/2012/12/arguing-on-the-internet
-excerpt: " \n\tI have referenced Shawn McCool's blog a few times, \"Why CodeIgniter
+alias: blog/2012/12/arguing-on-the-internet/
+excerpt: "I have referenced Shawn McCool's blog a few times, \"Why CodeIgniter
   is Dead\" and people are wondering why I argued so hard against it back in May but
   then gave CodeIgniter such a hard time in my last article. For the record I'm not
   team CodeIgniter or team Laravel, I'm a PHP user who has some opinions, and some

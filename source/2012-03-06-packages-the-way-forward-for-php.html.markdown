@@ -2,8 +2,8 @@
 layout: post
 title: 'Packages: The Way Forward for PHP'
 category: php
-alias: blog/2012/03/packages-the-way-forward-for-php
-excerpt: " \n\tA package is a piece of reusable code that can be dropped into any
+alias: blog/2012/03/packages-the-way-forward-for-php/
+excerpt: "A package is a piece of reusable code that can be dropped into any
   application and be used without any tinkering to add functionality to that code.
   You don't need to know what is happening inside, only what the API for the class(es)
   are so that you can archive your goal. This is how most modern programming languages

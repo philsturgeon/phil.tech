@@ -2,7 +2,7 @@
 layout: post
 title: 'PHP 6: Pissing in the Wind'
 category: php
-alias: blog/2013/01/php-6-pissing-in-the-wind
+alias: blog/2013/01/php-6-pissing-in-the-wind/
 excerpt: This article is completely pointless, im just saying what everyone is thinking
   - just so we have a record of it. PHP is well known for having an inconsistent API
   when it comes to PHP functions. Anyone with an anti-PHP point of view will use this

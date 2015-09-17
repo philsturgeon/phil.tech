@@ -2,8 +2,8 @@
 layout: post
 title: 'Video: Pancake 3.1 overview'
 category: 
-alias: blog/2011/08/video-pancake-3.1-overview
-excerpt: " \n\tWe've been working hard on PancakeApp - a CodeIgniter-based Invoicing
+alias: blog/2011/08/video-pancake-3.1-overview/
+excerpt: "We've been working hard on PancakeApp - a CodeIgniter-based Invoicing
   system - and it's getting to be a real power-house of features. This is turning
   out to be more of a \"Freelancers Side-kick\" with not just invoicing but project
   management, time tracking and the starting of some great CRM features. The video
@@ -23,4 +23,3 @@ If you like the look of [PancakeApp](http://pancakeapp.com/) then take a look at
 I have set up a discount code for the first 10 sales to save you the price of a good beer. The code is "have\_a\_beer\_0811" and will knock $7 off the download price. [Go grab it](http://pancakeapp.com/)!
 
 Website: <u><a href="http://pancakeapp.com/" target="_blank">PancakeApp.com</a></u>
-

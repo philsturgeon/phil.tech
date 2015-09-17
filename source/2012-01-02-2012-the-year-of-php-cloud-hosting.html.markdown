@@ -2,8 +2,8 @@
 layout: post
 title: '2012: The year of PHP cloud hosting'
 category: php
-alias: blog/2012/01/2012-the-year-of-php-cloud-hosting
-excerpt: " \n\tCloud hosting is nothing new. Seeing as \"cloud\" is such a loosely
+alias: blog/2012/01/2012-the-year-of-php-cloud-hosting/
+excerpt: "Cloud hosting is nothing new. Seeing as \"cloud\" is such a loosely
   used term some will consider their VPS solutions on Slicehost or Rackspace to be
   \"cloud hosting\". Thats partially true, but this article covers how PHP is getting
   some serious attention in the PaaS (Platform as a Service) field. This year you

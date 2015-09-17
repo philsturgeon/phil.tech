@@ -2,8 +2,8 @@
 layout: post
 title: 'Drumbeat Festival: 3 days of awesome'
 category: 
-alias: blog/2010/11/drumbeat-festival-barcelona
-excerpt: " \n\tFor the last few days I have been in Barcelona at a brilliant event
+alias: blog/2010/11/drumbeat-festival-barcelona/
+excerpt: "For the last few days I have been in Barcelona at a brilliant event
   run by Mozilla called Drumbeat Festival with the slogan \"Learning, Freedom and
   the Web\". Unlike the normal Drumbeat events this was a two-day conference/festival
   and had 400 attendees. This event was focusing on a lot more than just web development
@@ -85,4 +85,3 @@ From what I could gather, its just somewhere (paid for by a membership fee) wher
  
 
 Things ended with a party, some Massively Multiplayer Thumb Wars, drinking, conversations and eventually a plane. In all this was a bloody brilliant week. Props to everyone in the Mozilla Drumbeat gang for pulling it off!
-

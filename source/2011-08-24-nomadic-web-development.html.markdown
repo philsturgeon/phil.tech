@@ -2,8 +2,8 @@
 layout: post
 title: Nomadic Web Development
 category: personal
-alias: blog/2011/08/nomadic-web-development
-excerpt: " \n\tAnyone following me on Twitter will have seen tweets coming in from
+alias: blog/2011/08/nomadic-web-development/
+excerpt: "Anyone following me on Twitter will have seen tweets coming in from
   all-over the place for the last few months. Am I on holiday? Nope! I've spent the
   last 4 months traveling USA and Canada doing a bit of work here and there. With
   freelance, a passive income and some training sessions here and there I am actually
@@ -109,4 +109,3 @@ If I could remember to do all that, drink a little less and work a little more I
 I decided to call it a day on the state-side leg of my wandering and come back to England after [CICON2011](http://cicon2011.com/) in NYC as the plane was already booked, but I'm still going. I have 3 weeks in London to get some work done with a friend then off to Newcastle for 3 months to take part in a start-up competition which has some nice investment already.
 
 Homeless and loving it!
-

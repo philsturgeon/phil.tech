@@ -2,7 +2,7 @@
 layout: post
 title: Getting on the GitHub bandwaggon
 category: git
-alias: blog/2009/03/Getting-on-the-GitHub-bandwaggon
+alias: blog/2009/03/Getting-on-the-GitHub-bandwaggon/
 excerpt: I have finally joined GitHub and I am pretty happy about the decision. It
   seemed like a bit of a silly fad at the start but it is definitely more than that
   and for me, solved a few problems in one. Mainly, how to run multiple projects based
@@ -49,4 +49,3 @@ Until I get this CMS ready for the world and into a public repository on GitHub,
  
 
 In the mean-time, if you are wondering about getting started with Git, check out GitHub's wonderful [list of guides](http://github.com/guides/home) covering everything on how to get started, to how to become a pro.
-

@@ -2,7 +2,7 @@
 layout: post
 title: Why CodeIgniter HTML helper functions rock
 category: codeigniter
-alias: blog/2009/12/Why-CodeIgniter-HTML-helper-functions-rock
+alias: blog/2009/12/Why-CodeIgniter-HTML-helper-functions-rock/
 excerpt: A complaint I often hear about CodeIgniter is one about HTML helper functions
   like form_open(), doctype() and img(). This post helps explain what they are and
   why they are useful.
@@ -11,11 +11,11 @@ comments: true
 disqus_identifier: Why-CodeIgniter-HTML-helper-functions-rock
 ---
 
-A complaint I often hear about CodeIgniter is one about HTML helper functions like form\_open(), doctype() and img().
+A complaint I often hear about CodeIgniter is one about HTML helper functions like `form_open()`, `doctype()` and `img()`.
 
 The complaint boils down to these points:
 
-- heading('Hello', 1) is ugly compared to <h1>Hello</h1>!
+- `heading('Hello', 1)` is ugly compared to `<h1>Hello</h1>!`
 - Putting HTML in PHP functions is "bad MVC".
 - My favourite "I know how to write HTML, I don't need a helper".
 
@@ -39,13 +39,19 @@ The main interest to me comes in the extra abstraction layer these HTML helpers 
 
 To explain what the f\*\*k I am talking about, I'll use an example.
 
-    <form action="<?php echo site_url('controller/method'); ?>" method="post">vrs<?php echo form_open('controller/method');
+~~~ php
+<form action="<?= site_url('controller/method') ?>" method="post">
 
-First you will see the standard HTML way to do it, with the site\_url() function used to create the link to the form action. Second you will see the form\_open() tag - and in this example its shorter too, wahey!
+// vrs
 
-I wanted a way to set accept-charset="UTF-8" in all my forms to help keep my data all <a href="/news/2009/08/UTF-8-support-for-CodeIgniter">UTF-8 in CodeIgniter</a>. If I was using just HTML then I would have to go through <strong>all</strong> my forms and add that in myself, which would be wasting time I could have spent at the pub.
+<?= form_open('controller/method') ?>
+```
 
-Instead, as CodeIgniter allows you to extend helpers, I just made my own slightly modified form\_open() in application/helpers/MY\_form\_helper.php which contained this logic. Because I was using PHP to wrap my useful data, I could make one simple change and update all of my <form> tags.
+First you will see the standard HTML way to do it, with the `site_url()` function used to create the link to the form action. Second you will see the `form_open()` tag - and in this example its shorter too, wahey!
+
+I wanted a way to set accept-charset="UTF-8" in all my forms to help keep my data all <a href="/blog/2009/08/UTF-8-support-for-CodeIgniter">UTF-8 in CodeIgniter</a>. If I was using just HTML then I would have to go through <strong>all</strong> my forms and add that in myself, which would be wasting time I could have spent at the pub.
+
+Instead, as CodeIgniter allows you to extend helpers, I just made my own slightly modified `form_open()` in `application/helpers/MY_form_helper.php` which contained this logic. Because I was using PHP to wrap my useful data, I could make one simple change and update all of my `<form>` tags.
 
 The main problem is people are looking at these HTML helper functions and seeing them purely as different syntax.
 
@@ -56,11 +62,10 @@ My example shows one useful application of this beyond shorter syntax, but there
 HTML helper functions.
 
 - Store your DOCTYPE in a config variable and update your entire site from XHTML 1.1 to HTML 5 easily
-- Developing your app with <h1>Something</h1> then realizing your headers in 500 different view files need <h1><span>Something</span></h1>
-- Fetching metadata from a database and outputting with meta()
-- Adding Google event tracking to images loaded with img()
+- Developing your app with `<h1>Something</h1>` then realizing your headers in 500 different view files need `<h1><span>Something</span></h1>`
+- Fetching metadata from a database and outputting with `meta()`
+- Adding Google event tracking to images loaded with `img()`
 - Set your page titles (display headers, not title tag) to use a config variable 1 to 6 in case your CMS needs to change what level the links are.
-- XSS protection for forms using form\_open() and form\_close(). Derek Allard hinted at this some time ago and I still hope to see it happen.
+- XSS protection for forms using `form_open()` and `form_close()`. Derek Allard hinted at this some time ago and I still hope to see it happen.
 
 There are all sorts of crazy things you can do with HTML helpers and while it might be hard to see their value before you have the "aha!" moment, it is a pain to realise you need to use them when it is too late.
-

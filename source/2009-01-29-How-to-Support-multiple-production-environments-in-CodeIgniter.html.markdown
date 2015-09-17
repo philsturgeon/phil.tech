@@ -2,7 +2,7 @@
 layout: post
 title: 'How to: Support multiple production environments in CodeIgniter'
 category: codeigniter
-alias: blog/2009/01/How-to-Support-multiple-production-environments-in-CodeIgniter
+alias: blog/2009/01/How-to-Support-multiple-production-environments-in-CodeIgniter/
 excerpt: Maintaining different configurations for CodeIgniter across multiple environments
   can be a pain. Find out how to support multiple config settings and create a instance-wide
   flag to let you know which environment is being used.

@@ -2,7 +2,7 @@
 layout: post
 title: 'CloudIgniter: Easy hosting for CodeIgniter'
 category: codeigniter
-alias: blog/2010/05/cloudigniter-hosting-for-codeigniter
+alias: blog/2010/05/cloudigniter-hosting-for-codeigniter/
 excerpt: Ever wanted to install PyroCMS or set up a CodeIgniter playground but don't
   know what the hell you are doing? The wonderful new hosting service CloudIgniter
   does it all for you. Read on to see what it's all about.
@@ -27,4 +27,3 @@ CloudIgniter really makes the entire process as easy as possible and whether you
 There are a few hidden gems too, such as the ability to [deploy your site with Git](/blog/2010/02/Deploying-websites-with-Git) thanks to Git being installed on the server. Another fantastic feature is that it comes with a pre-built .htaccess file meaning you can get CodeIgniter running without index.php in your URL's with minimum fuss. As somebody who is pretty active on the CodeIgniter forums and StackOverflow you would be amazed (or depressed) at how many issues people have with mod\_rewrite or using the wrong $config['uri\_protocol']. With CloudIgniter you know right from the word "go" you will have a compatible, working setup.
 
 [Sign up for the private beta](http://www.getcloudigniter.com/partner/philsturgeon) and when a spot becomes available you can have a play. This is a great service that I know I'll be using a lot in the future.
-

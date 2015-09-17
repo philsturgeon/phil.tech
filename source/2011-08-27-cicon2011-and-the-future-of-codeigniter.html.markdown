@@ -2,8 +2,8 @@
 layout: post
 title: CICON2011 and the future of CodeIgniter
 category: codeigniter
-alias: blog/2011/08/cicon2011-and-the-future-of-codeigniter
-excerpt: " \n\tCICON2011 happened and it was awesome. We had 100 CodeIgniter nerds
+alias: blog/2011/08/cicon2011-and-the-future-of-codeigniter/
+excerpt: "CICON2011 happened and it was awesome. We had 100 CodeIgniter nerds
   in the same place - which is the biggest collection of nerds since CICON2010 in
   the UK, but this event was so much better. We had a whole load of announcements
   that have changed the way the framework is contributed to and improved the whole
@@ -105,4 +105,3 @@ Kyle Farris: [CICON2011](http://www.flickr.com/photos/kylefarris/sets/7215762748
 Adam Fairholm: [Thoughts on CICON2011](http://blog.adamfairholm.com/thoughts-on-cicon2011/)  
  Frank Michel: [CICON2011](http://www.frankmichel.com/blog/article/cicon2011)  
  Greg Aker: [CodeIgniter Conference 2011 Roundup](http://www.gregaker.net/2011/aug/22/codeigniter_conference_2011_roundup/)
-

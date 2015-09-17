@@ -2,7 +2,7 @@
 layout: post
 title: Introducing FuelPHP
 category: fuelphp
-alias: blog/2011/01/introducing-fuelphp
+alias: blog/2011/01/introducing-fuelphp/
 excerpt: "FuelPHP has been in development for the last two months but the new
   PHP 5.3 framework is nearly ready to see the light of day. We're just about to roll
   out the v1.0.0-beta1 and so far it is holding up pretty well. Another PHP framework

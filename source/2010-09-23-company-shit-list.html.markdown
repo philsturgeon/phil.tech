@@ -2,7 +2,7 @@
 layout: post
 title: Sturgeons Shittiest Company Award '10
 category: personal
-alias: blog/2010/09/company-shit-list
+alias: blog/2010/09/company-shit-list/
 date: '2010-09-23 22:15:00'
 comments: true
 disqus_identifier: company-shit-list

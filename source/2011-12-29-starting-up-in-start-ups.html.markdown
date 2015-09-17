@@ -2,8 +2,8 @@
 layout: post
 title: Starting Up in Start-ups
 category: personal
-alias: blog/2011/12/starting-up-in-start-ups
-excerpt: " \n\tI spent the last three months working as a hired gun for a start-up
+alias: blog/2011/12/starting-up-in-start-ups/
+excerpt: "I spent the last three months working as a hired gun for a start-up
   in an incubator program called ignite100 and now I am back in the south-west for
   the holidays and I feel like I have learned so much in such a short space of time. Ignite100
   is a three month program run in Newcastle that helps teams create relationships

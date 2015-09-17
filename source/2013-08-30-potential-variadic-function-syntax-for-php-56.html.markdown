@@ -2,7 +2,7 @@
 layout: post
 title: Potential Variadic Function Syntax for PHP 5.6
 category: php
-alias: blog/2013/08/potential-variadic-function-syntax-for-php-56
+alias: blog/2013/08/potential-variadic-function-syntax-for-php-56/
 excerpt: 'An awesome RFC popped up the other day: Syntax for variadic functions, developed
   by Nikita Popov. I read through it and I loved it, but I did have to Google to see
   what the hell a variadic function was.'

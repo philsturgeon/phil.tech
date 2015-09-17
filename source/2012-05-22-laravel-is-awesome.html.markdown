@@ -2,7 +2,7 @@
 layout: post
 title: Laravel is Awesome
 category: php
-alias: blog/2012/05/laravel-is-awesome
+alias: blog/2012/05/laravel-is-awesome/
 excerpt: You might not expect to hear that from a CodeIgniter and FuelPHP developer,
   but it's true. Taylor has done a brilliant job writing code that is clean, functional
   and has built a huge community of smart developers in less than a year of active

@@ -2,8 +2,8 @@
 layout: post
 title: Tumbleweed?
 category: personal
-alias: blog/2011/06/tumbleweed
-excerpt: " \n\tAs you may have seen in my last article I'm currently off traveling
+alias: blog/2011/06/tumbleweed/
+excerpt: "As you may have seen in my last article I'm currently off traveling
   the world (well, North America for now at least) and I wanted to give people a quick
   update as to what is going on with various projects while that is happening. The
   good news is nothing is being dropped and everything is coming along really nicely,
@@ -55,4 +55,3 @@ Yup, still working for others and the most recent is the very exciting [MiCrowd]
 ### Summary
 
 I'm still getting things done, I'm just not shouting about it all quite as much as I used to. It'll be a long time before I'm back to throwing out new libraries and fun technical articles regularly, but fuck it, I'm traveling the world!
-

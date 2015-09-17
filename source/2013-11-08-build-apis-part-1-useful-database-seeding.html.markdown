@@ -2,7 +2,7 @@
 layout: post
 title: 'Build API''s That You Wont Hate: Part 1 - Useful Database Seeding'
 category: php
-alias: blog/2013/11/build-apis-part-1-useful-database-seeding
+alias: blog/2013/11/build-apis-part-1-useful-database-seeding/
 excerpt: A little while back I produced an article called Building a Decent API which
   was mostly a tongue-in-cheek list of things that I'd come across in other APIs that
   pissed me off, or that I had done myself and used my super-power of hindsight combined

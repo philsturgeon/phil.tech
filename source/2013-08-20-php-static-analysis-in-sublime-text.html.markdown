@@ -2,7 +2,7 @@
 layout: post
 title: PHP Static Analysis in Sublime Text
 category: php
-alias: blog/2013/08/php-static-analysis-in-sublime-text
+alias: blog/2013/08/php-static-analysis-in-sublime-text/
 excerpt: While learning Python I really enjoyed how Sublime Text 2 would shout at
   me for using too many empty lines, using tabs instead of spaces and even things
   like declaring unused local variables, importing modules that were never used, etc.

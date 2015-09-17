@@ -2,7 +2,7 @@
 layout: post
 title: 'How to: Create a Twitter feed with full syntax support'
 category: php
-alias: blog/2009/07/How-to-Create-a-Twitter-feed-with-full-syntax-support
+alias: blog/2009/07/How-to-Create-a-Twitter-feed-with-full-syntax-support/
 excerpt: 'If you have a project that you would like to add a Twitter feed to, but
   do not want to add in a massive library for the one feed, take a look at this very
   simple PHP snippet that will give you full synatx support. '
@@ -44,4 +44,3 @@ Instead of showing a users timeline you can use the same code to show search res
 > http://search.twitter.com/search.json?q=pyrocms
 
 Now, go forth and tweet!
-

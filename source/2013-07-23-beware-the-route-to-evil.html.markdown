@@ -2,7 +2,7 @@
 layout: post
 title: Beware the Route to Evil
 category: php
-alias: blog/2013/07/beware-the-route-to-evil
+alias: blog/2013/07/beware-the-route-to-evil/
 excerpt: As a programmer we should all be used to the fact that our personal preferences
   and habits are all subject to change. I used to be a big fan of Alman and tabs &gt;
   spaces, now I follow PSR-2 happily which contradicts those two rules and couldn't

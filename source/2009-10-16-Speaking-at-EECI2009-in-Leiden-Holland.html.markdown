@@ -2,7 +2,7 @@
 layout: post
 title: Speaking at EECI2009 in Leiden, Holland
 category: codeigniter
-alias: blog/2009/10/Speaking-at-EECI2009-in-Leiden-Holland
+alias: blog/2009/10/Speaking-at-EECI2009-in-Leiden-Holland/
 excerpt: As a massive fan of CodeIgniter I was pretty excited to be attending the
   EECI2009 conference in Leiden, Holland, as it would give me the chance to meet the
   EllisLabs development team and lots of other CodeIgniter nerds. Now as a last minute
@@ -23,4 +23,3 @@ After a week I have come up with an idea for the talk and I am pretty confident 
 For those of you interested in the talk, I will be posting my material and possibly a video of the talk on my blog afterwards.
 
 Wish me luck!
-

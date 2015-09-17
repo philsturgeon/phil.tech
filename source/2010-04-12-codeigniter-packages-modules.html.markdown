@@ -2,7 +2,7 @@
 layout: post
 title: CodeIgniter Packages != Modules
 category: codeigniter
-alias: blog/2010/04/codeigniter-packages-modules
+alias: blog/2010/04/codeigniter-packages-modules/
 excerpt: 'So many people are asking about the new Packages feature in CodeIgniter
   2.0 that I need to put this to bed. Packages are not modules, they are entirely
   different concepts and should not be confused. Hopefully that is enough convincing
@@ -66,4 +66,3 @@ I don't know if anything has changed in the last few months, but at [EECI2009](h
 We have an awesome new way to store our code in more places than just /application or /system, nothing more. Let's not get over-excited and stick to using existing modular systems if we need them.
 
 **Further reading:** For more information on what Packages can do, take a look at [Jamie Rumbelow's post](http://jamieonsoftware.com/blog/entry/wrap-me-up-and-put-me-in-a-box) on the subject. Notice even he gets a little confused between Modules and Packages, but submits to my reasoning in the end. ;-)
-

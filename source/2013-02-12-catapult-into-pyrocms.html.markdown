@@ -2,7 +2,7 @@
 layout: post
 title: Catapult into PyroCMS
 category: pyrocms
-alias: blog/2013/02/catapult-into-pyrocms
+alias: blog/2013/02/catapult-into-pyrocms/
 excerpt: 'It''s been a little while in the making, but my first book is out: Catapult
   into PyroCMS. This is being released as an eBook only at this point, but who knows
   what the future might hold.'

@@ -2,7 +2,7 @@
 layout: post
 title: Charging extra for iPhone tethering really that bad?
 category: 
-alias: blog/2009/06/Charging-extra-for-iPhone-tethering-really-that-bad
+alias: blog/2009/06/Charging-extra-for-iPhone-tethering-really-that-bad/
 excerpt: 'There seams to be a great deal of anger on the Internet over the new iPhone.
   I agree with the outrage over upgrade costs, but I have to disagree with iPhone
   fans complaining about the tethering costs. '
@@ -34,4 +34,3 @@ Finally, The extra cost may (if we are lucky) go towards upgrading their network
 Let's not complain straight away, this could be a good thing for all of us.
 
 That said, if they do not use this money to improve their networks: I will be the first to retract this post and fill the space with lots of rude words.
-

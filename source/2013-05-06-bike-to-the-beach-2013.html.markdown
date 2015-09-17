@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Bike to the Beach 2013
-category: personal
-alias: blog/2013/05/bike-to-the-beach-2013
+category: cycling
+alias: blog/2013/05/bike-to-the-beach-2013/
 excerpt: This June I will be participating in an annual fundraising bike ride to raise
   money for Autism awareness and research called Bike to the Beach. This bike ride
   goes all the way from Battery Park in Manhattan to the West Hamptons, which is a

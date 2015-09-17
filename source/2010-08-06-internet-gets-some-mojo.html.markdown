@@ -2,7 +2,7 @@
 layout: post
 title: The internet finally gets some Mojo
 category: 
-alias: blog/2010/08/internet-gets-some-mojo
+alias: blog/2010/08/internet-gets-some-mojo/
 excerpt: After several months of totally secret development and two months of private
   beta MojoMotor - an amazing new CMS from EllisLab - is out, and I'm finally allowed
   to talk about it!
@@ -26,4 +26,3 @@ I currently have three add-ons out, one paid and two free.
 **[Variables](http://github.com/philsturgeon/mojo-variables)** - GitHub
 
 Check it out, it's a great CMS for simple little sites. We've had the [CICON2010](http://cicon2010.com/) website running it for a while now and it was smooth even when in beta!
-

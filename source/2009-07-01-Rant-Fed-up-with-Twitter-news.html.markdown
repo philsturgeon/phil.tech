@@ -2,7 +2,7 @@
 layout: post
 title: 'Rant: Fed up with Twitter news!'
 category: 
-alias: blog/2009/07/Rant-Fed-up-with-Twitter-news
+alias: blog/2009/07/Rant-Fed-up-with-Twitter-news/
 excerpt: Is anybody else getting really bored of Twitter news? These days it seems
   to be everywhere; you cannot get away from it. Do you - like myself - find it really
   difficult to give a damn?
@@ -26,4 +26,3 @@ The whole world of media seems to think Twitter is the most amazing thing to hap
 The part that really sticks in my throat is that all is that articles are not just from teenage bloggers with nothing to write about. Many of these are from paid journalists working for companies such as like Time Magazine, Business Insider, Telegraph, CNN and plenty more. I really can't help but find it all completely ridiculous as there is so many more interesting things going on in the world wide web.
 
 I write this post in the hope that bloggers (both hobbyist and professional) out there will see it and perhaps realize how pathetic they are being. If you like Twitter, use it. If you don't then don't! Either way: well done, you have an opinion. Shut up writing about Twitter as it's old news now and nobody cares!
-

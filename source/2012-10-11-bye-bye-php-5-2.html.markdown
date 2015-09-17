@@ -2,8 +2,8 @@
 layout: post
 title: Bye Bye PHP 5.2
 category: php
-alias: blog/2012/10/bye-bye-php-5-2
-excerpt: " \n\tThe reason these applications do well is because PHP hosting has been
+alias: blog/2012/10/bye-bye-php-5-2/
+excerpt: "The reason these applications do well is because PHP hosting has been
   widely available for over a decade. Because PHP is on 90% of hosting setups from
   dedicated systems to cheap $4 a month deals, application developers have targeted
   PHP to help them reach their highest audience. Sadly, PHP hosts have always been

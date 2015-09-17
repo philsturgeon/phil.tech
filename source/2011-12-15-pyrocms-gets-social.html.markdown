@@ -2,8 +2,8 @@
 layout: post
 title: PyroCMS Gets Social!
 category: pyrocms
-alias: blog/2011/12/pyrocms-gets-social
-excerpt: " \n\tTwo months ago I was doing some client work that ended up with me creating
+alias: blog/2011/12/pyrocms-gets-social/
+excerpt: "Two months ago I was doing some client work that ended up with me creating
   NinjAuth - a generic authentication layer between FuelPHP's auth package and social
   networks. I've been working on it a fair bit on and off since then and in the last
   week I've ported it to CodeIgniter for use with PyroCMS and it's looking brilliant!

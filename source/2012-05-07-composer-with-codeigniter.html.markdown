@@ -2,7 +2,7 @@
 layout: post
 title: Composer with CodeIgniter
 category: php
-alias: blog/2012/05/composer-with-codeigniter
+alias: blog/2012/05/composer-with-codeigniter/
 excerpt: Composer is the best thing for PHP since sliced arrays and using it in your
   applications means you have easy access to a large selection of well written PHP
   packages that plug and play with any framework that supports PSR-0 namespacing.

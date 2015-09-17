@@ -2,8 +2,8 @@
 layout: post
 title: Building an iTunes feed with Octopress
 category: ruby
-alias: blog/2013/01/building-an-itunes-feed-with-octopress
-excerpt: " \n\t  \n \n\tOctopress is a great little CMS for hackers and it works on
+alias: blog/2013/01/building-an-itunes-feed-with-octopress/
+excerpt: "  \n \n\tOctopress is a great little CMS for hackers and it works on
   GitHub pages for free hosting, so a few PHP developers have been known to use it
   to smash together a basic site even thought it's using Ruby; Boo, hiss, etc. One
   site I've built with Octopress is for a new podcast I co-host with Ben Edmunds called

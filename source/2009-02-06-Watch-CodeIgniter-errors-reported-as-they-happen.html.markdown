@@ -2,7 +2,7 @@
 layout: post
 title: Watch CodeIgniter error's reported as they happen
 category: codeigniter
-alias: blog/2009/02/Watch-CodeIgniter-errors-reported-as-they-happen
+alias: blog/2009/02/Watch-CodeIgniter-errors-reported-as-they-happen/
 excerpt: How do you read your CodeIgniter error logs for your live site? Download
   them via FTP and open them up each time, scroll to the bottom and read? That sucks!
   Try tailing.

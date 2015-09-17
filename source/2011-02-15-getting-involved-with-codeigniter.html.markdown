@@ -2,8 +2,8 @@
 layout: post
 title: Getting involved with CodeIgniter
 category: codeigniter
-alias: blog/2011/02/getting-involved-with-codeigniter
-excerpt: " \n\tWhat makes Reactor so much more different than CodeIgniter has been
+alias: blog/2011/02/getting-involved-with-codeigniter/
+excerpt: "What makes Reactor so much more different than CodeIgniter has been
   in the past? Anyone can be involved whether you are a hard-core developer who is
   happy to jump into the codebase and start changing things and adding features, or
   a new user who just wants to request some new features, you can do this on the UserVoice
@@ -60,4 +60,3 @@ Also I've seen quite a few "CodeIgniter haz to haz _Sprockets_ because X and Y F
 CodeIgniter Reactor is here to stay and is a tool for good. It is lightweight, stable, useful and has a great following, but us Engineer folk are not going to spend our entire free time working on features for the hell of it, nor should we be expected or needed to. Everyone who wants and needs a feature in CodeIgniter has the equal opportunity to get their code into place and anybody who has been using CodeIgniter for more than a few months can dedicate something useful. As for the size of the changes, we are taking things slow for now and changes will eventually ramp up but nobody should be scared of using it.
 
 Now hopefully we can all stop posting about "the status of the community" or "the future of CodeIgniter" and having silly arguments on the forums and get back to writing some code. I'll have a sweet new version of [PyroCMS](http://pyrocms.com/) out fairly soon and [Pancake](http://pancakeapp.com/) 2.1 needs to get done. Both of which will be running on Reactor and taking full advantage of the new changes!
-

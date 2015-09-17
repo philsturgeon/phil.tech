@@ -2,8 +2,8 @@
 layout: post
 title: Why Write A New Framework?
 category: 
-alias: blog/2011/04/why-write-a-new-framework
-excerpt: " \n\tSo we all know that the internet is full of frameworks. They've been
+alias: blog/2011/04/why-write-a-new-framework/
+excerpt: "So we all know that the internet is full of frameworks. They've been
   the popular thing for the last 5 or 6 years and it seems to have become the \"barrier
   for entry\" or the \"passage of rights\" that 8 or 9 years ago used to be \"hey
   I just wrote a phpBB clone!\". There are plenty around but in this day in age, why
@@ -60,4 +60,3 @@ Well you can. I wrote [all of those features](/blog/2011/03/fuelphp-oil-introduc
 A framework is essentially a way to put all of your best practises into a single place so that you can reuse them over and over again. This should make you more efficient and make your time more financially viable to clients. If the framework you use slows you down or does not cater for the way you like to develop then sack it off and do your own thing. A vast majority of the framework community seems to have a massive fanboy attitude which is totally unnecessary. You can use a framework for a few years then change your mind and write a few apps in a different one. It doesn't make you a traitor, it just makes you a free thinking logical developer who uses the best tools for the job at the right time.
 
 Use whatever you like and don't be negative to anyone who wants to work in a different way. There is no one framework that does everything right for everyone and there never will be. I have my three favourites and I'll be using those until I change my mind. I prefer to have my options and you're welcome to yours, just don't tell me I'm wrong for wanting to work in the best way I can or I won't have anything polite to say.
-

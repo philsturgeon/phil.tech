@@ -3,7 +3,7 @@ layout: post
 title: 'Composer and PSR-0: Friends, Not Relatives'
 category: php
 tags: psr0, php, php-fig, composer
-alias: blog/2013/05/composer-and-psr0-friends-not-relatives
+alias: blog/2013/05/composer-and-psr0-friends-not-relatives/
 excerpt: As a huge proponent of Composer, a happy user of PSR-0 and a voting member
   on the PHP-FIG I get into plenty of conversations about all of them, and it worries
   me how much confusion there is in the community about these things not actually

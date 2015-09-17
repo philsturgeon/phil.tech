@@ -2,8 +2,8 @@
 layout: post
 title: My Thoughts on CICONF 2012 UK
 category: 
-alias: blog/2012/02/my-thoughts-on-ciconf-2012-uk
-excerpt: " \n\tIt's been a few days since CICONF and this is my first chance to get
+alias: blog/2012/02/my-thoughts-on-ciconf-2012-uk/
+excerpt: "It's been a few days since CICONF and this is my first chance to get
   my thoughts together after a few busy days. In all I am extremely pleased with the
   event, and so far I have seen nothing but positive feedback on the hash-tag and
   not heard any complaints. Winner!  "

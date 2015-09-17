@@ -2,7 +2,7 @@
 layout: post
 title: UTF-8 support for CodeIgniter
 category: codeigniter
-alias: blog/2009/08/UTF-8-support-for-CodeIgniter
+alias: blog/2009/08/UTF-8-support-for-CodeIgniter/
 excerpt: 'Writing a CodeIgniter application is easy. Writing a CodeIgniter application
   that supports all characters from multiple languages? Not so easy. Find out how
   to support UTF-8 content in CodeIgniter. '
@@ -59,4 +59,3 @@ I have used the config item instead of just putting in UTF-8 as it makes more se
 Now your CodeIgniter application is ready, you need to make sure your database GUI is too. I regularly use Navicat and phpMyAdmin and on both you can set the "MySQL connection collation", so make sure that is set to "utf8\_unicode\_ci" too or it could show characters wrong and will most likely corrupt your data as you work on it.
 
 For more help developing with UTF-8, take a look at " [Handling UTF-8 with PHP](http://www.phpwact.org/php/i18n/utf-8)" which will explain some of the problems of using the normal string functions on UTF-8 strings, then take a look at PHP's " [Multibyte String Functions](http://uk3.php.net/manual/en/ref.mbstring.php)" manual pages to learn how to handle your new happily stored UTF-8 data.
-

@@ -2,7 +2,7 @@
 layout: post
 title: Goodbye Matchbox, Hello Modular Separation
 category: codeigniter
-alias: blog/2009/11/Goodbye-Matchbox-Hello-Modular-Separation
+alias: blog/2009/11/Goodbye-Matchbox-Hello-Modular-Separation/
 excerpt: 'I''ve been using Matchbox in one of its many forms for several years - almost
   as long as I have been using CodeIgniter - and it got to the point where I could
   not use CodeIgniter without it. After all this time an alternative has come along
@@ -35,4 +35,3 @@ Modular Separation will match a result in the main config/routes.php file, then 
 I am not suggestion you drop Matchbox right now, I have no idea where is going and I may some day switch back. Right now however, I will be using Modular Separation and suggest you give it a try if you are starting a new project.
 
 <small>* Confusingly, Matchbox used to be called Modular Separation a year or two back, so be careful when looking around the web for details. The forum thread to look for help on the new Modular Separation (PHP 5) by wiredesignz is <a href="http://codeigniter.com/forums/viewthread/121820/">this one</a>.</small>
-

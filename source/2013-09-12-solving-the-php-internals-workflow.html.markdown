@@ -2,7 +2,7 @@
 layout: post
 title: Solving the PHP Internals Workflow
 category: php
-alias: blog/2013/09/solving-the-php-internals-workflow
+alias: blog/2013/09/solving-the-php-internals-workflow/
 excerpt: PHP internals has been a cold, harsh, unwelcome land for a long time, and
   it's coming to a head recently with mutliple vocal developers highlighting issues.
   While some are trying to resolve the actual medium through which conversations happens,

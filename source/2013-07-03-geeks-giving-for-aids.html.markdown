@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Geeks Giving for Aids
-category: 
-alias: blog/2013/07/geeks-giving-for-aids
+category: cycling
+alias: blog/2013/07/geeks-giving-for-aids/
 excerpt: After doing my 100 mile bike ride to raise money for autism research, I've
   decided to step things up a gear (ha) and go further in a bid to raise more. Next
   I will be riding the 285 miles from Boston to New York over 3 days, with the goal

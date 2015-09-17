@@ -2,7 +2,7 @@
 layout: post
 title: Why some people hate PHP
 category: php
-alias: blog/2012/12/why-some-people-hate-php
+alias: blog/2012/12/why-some-people-hate-php/
 excerpt: I answered a question on Quora a while ago, which was long enough to deserve
   it's own blog post. Basically I explain some of the reasons people hate on PHP so
   hard, and while some of them are founded there are plenty of unfounded reasons that

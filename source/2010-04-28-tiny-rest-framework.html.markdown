@@ -2,7 +2,7 @@
 layout: post
 title: Tiny REST framework in PHP
 category: php
-alias: blog/2010/04/tiny-rest-framework
+alias: blog/2010/04/tiny-rest-framework/
 excerpt: Based on Twiny framework and my CodeIgniter REST server I have created a  really
   simple RESTful framework that lets you use CodeIgniter style  controllers without
   any of the extra weight of using a whole framework.  It lets you handle GET, POST,
@@ -24,4 +24,3 @@ Anyway, if you like my `CodeIgniter REST_Controller` but do not always want to h
 For only $7, what do you have to lose?
 
 [Buy Tiny REST Framework](http://codecanyon.net/item/tiny-rest-framework/99263) from [CodeCanyon](http://codecanyon.net/)
-

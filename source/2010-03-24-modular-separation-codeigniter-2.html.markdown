@@ -2,7 +2,7 @@
 layout: post
 title: Modular Separation for CodeIgniter 2
 category: codeigniter
-alias: blog/2010/03/modular-separation-codeigniter-2
+alias: blog/2010/03/modular-separation-codeigniter-2/
 excerpt: 'Sadly CodeIgniter 2.0 did not bring any sort of modular/HMVC system to us,
   but luckily Modular Separation works for this new version with two minor tweaks.
   The new version has been published to GitHub. '
@@ -21,4 +21,3 @@ _ **Note:** In no way is this intended as theft of wiredesignz work. He is a bri
 
 _ **Update:** There was some confusion in this post with my wording. CodeIgniter 2.0 is not officially released yet, I am talking about the development code. DO NOT use CodeIgniter 2.0 on any live sites just yet, I will post an update when I feel confident enough to run CodeIgniter 2.0 on my live sites.  
 _
-

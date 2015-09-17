@@ -2,7 +2,7 @@
 layout: post
 title: 'How to: Clean username URL''s in CodeIgniter'
 category: codeigniter
-alias: blog/2009/01/How-to-Clean-username-URLs-in-CodeIgniter
+alias: blog/2009/01/How-to-Clean-username-URLs-in-CodeIgniter/
 excerpt: The URI segment system in CodeIgniter is a very handy thing, but sometimes
   not flexible enough to handle all your URL needs in one go. To have URL's like http://example.com/username
   and still maintain normal URI segment structure, read on.

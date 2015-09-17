@@ -1,7 +1,7 @@
 ---
 title: Creating proxies with Apache
 category: http
-alias: blog/2008/11/Creating-proxies-with-Apache
+alias: blog/2008/11/Creating-proxies-with-Apache/
 excerpt: Setting up HTTP proxies in Apache can be handy for many reasons. If you have
   a server at home, stream media using something like Orb, watch your torrents downloading
   with a remote URL or do any other similar activities, you may be slightly fed up

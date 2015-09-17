@@ -2,7 +2,7 @@
 layout: post
 title: Named Parameters in PHP
 category: php
-alias: blog/2013/09/named-parameters-in-php
+alias: blog/2013/09/named-parameters-in-php/
 excerpt: Converting a Python Twitter API package to PHP turned out to be more trouble
   than I initially expected due to the usage of Python's named parameters. This article
   uses the Twitter library as an example for why named parameters are important and

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Building a Decent API
-category: php
-alias: blog/2013/07/building-a-decent-api
+category: api
+alias: blog/2013/07/building-a-decent-api/
 excerpt: PHP developers are increasingly moving over to API development, as are a
   lot of server-side developers. It's a trend thats been happening for the last few
   years and it's getting to the point where everyone and their dog are putting articles

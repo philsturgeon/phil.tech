@@ -2,8 +2,8 @@
 layout: post
 title: 'NinjAuth: The Social Integration Package PHP has been dying for'
 category: fuelphp
-alias: blog/2011/09/ninjauth-social-integration-php
-excerpt: " \n\tIn the past I have never needed to implement oAuth into a PHP project.
+alias: blog/2011/09/ninjauth-social-integration-php/
+excerpt: "In the past I have never needed to implement oAuth into a PHP project.
   I have done it in Rails and boy it was easy thanks to OmniAuth. OmniAuth abstracts
   away so much of the grunt work that it takes about 5 minutes to add a new social
   network to your site, and 4 of those minutes are spent signing up for the API keys.
@@ -85,4 +85,3 @@ These packages were the fruit of some freelance work done in London for the last
 What I want from people reading this is for them to download it, give it a go and provide feedback, build support for new providers (try Foursquare it's pretty easy but I refuse to sign up for an account) and help me make it even better. I firmly believe OmniAuth is one of the best projects in Rails-world and there is no reason PHP users shouldn't have something so damned useful.
 
 _ **Update:** As Adam Fairholm quite rightly pointed out this is only for v1.1 which is still in development, but I have been using it for every client project in Fuel and it seems fine to me._
-

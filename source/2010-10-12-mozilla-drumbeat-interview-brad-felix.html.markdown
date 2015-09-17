@@ -2,7 +2,7 @@
 layout: post
 title: 'Mozilla Drumbeat Interview: Brad Felix'
 category: 
-alias: blog/2010/10/mozilla-drumbeat-interview-brad-felix
+alias: blog/2010/10/mozilla-drumbeat-interview-brad-felix/
 excerpt: 'With the awesome Mozilla Drumbeat festival less than a month away, I''ve
   been talking to one of the featured participants: Brad Felix, Chief Learning Officer
   of Flat World Knowledge.'
@@ -44,4 +44,3 @@ _I try to be pragmatic in life, so generally feel the need to view web as a driv
 _Once people gain access, the experience has to be efficient. For that we need tools and all of our favorite acronyms like IEP's, PLE's, PLN's, etc. which all basically enable the important shift from an educator-centric model to a student-centered one. I love the idea that educators and students can tailor a learning experience exactly according to their needs. With respect to Open Content and Drumbeat, in Barcelona we'll be working with some of these tools, including brand new ones from Flat World on the verge of release that really break new ground in terms of content customization and remix. Instructors will have incredible and dead-simple-to-use control over their course content._
 
 If this has piqued your interest, follow [@brad\_felix](http://twitter.com/brad_felix) on "the Twitters", check out the  [Flat World Knowledge](http://www.flatworldknowledge.com/) website and of course if you have yet to Register, [do it now](http://www.drumbeat.org/festival/register)!
-

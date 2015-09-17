@@ -2,7 +2,7 @@
 layout: post
 title: Goals for 2013
 category: 
-alias: blog/2013/01/goals-for-2013
+alias: blog/2013/01/goals-for-2013/
 excerpt: It's that time of year again. Well, it's nearly the end of January but building
   my list of random stupid things to do this year took me a little while to think
   up. 

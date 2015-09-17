@@ -2,8 +2,8 @@
 layout: post
 title: Managing CodeIgniter Packages with Git Submodules
 category: codeigniter
-alias: blog/2011/09/managing-codeigniter-packages-with-git-submodules
-excerpt: " \n\tWith CodeIgniter moving to GitHub we are starting to see a lot of CodeIgniter
+alias: blog/2011/09/managing-codeigniter-packages-with-git-submodules/
+excerpt: "With CodeIgniter moving to GitHub we are starting to see a lot of CodeIgniter
   developers wanting to learn more about Git, specifically how they can use it to
   improve their workflows, manage their applications and move away from the horrible
   days of copying and pasting updated libraries off a wiki. UCK. Sparks are helping
@@ -121,4 +121,3 @@ Commit that and you're done. Yay!
 ### Summary
 
 As with everything in Git it is initially confusing and potentially a little scary to try and work out, but once you get past the "WTFPALMFACE" section of learning you'll love this feature and find yourself using it all over the place.
-

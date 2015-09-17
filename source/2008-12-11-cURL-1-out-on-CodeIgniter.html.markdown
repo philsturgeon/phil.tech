@@ -2,7 +2,7 @@
 layout: post
 title: cURL 1 out on CodeIgniter
 category: codeigniter
-alias: blog/2008/12/cURL-1-out-on-CodeIgniter
+alias: blog/2008/12/cURL-1-out-on-CodeIgniter/
 excerpt: That title may be misleading but I just couldn't help myself... Puns aside,
   I decided it was time to write a nice clean cURL library for CodeIgniter to help
   with your automated browsing and remote page requests.
@@ -16,4 +16,3 @@ I noticed a support request for a cURL related question and decided it was time 
 Ahh well, my wheel is better!
 
 To take a look at my new-fangled [cURL library](http://codeigniter.com/wiki/Curl_library/) take a look at its page on the [CodeIgniter Wiki](http://codeigniter.com/wiki/)
-

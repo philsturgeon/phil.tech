@@ -2,7 +2,7 @@
 layout: post
 title: Send a Facebook Message with XMPP using Access Tokens in Python
 category: python
-alias: blog/2013/06/facebook-message-with-xmpp-access-tokens-python
+alias: blog/2013/06/facebook-message-with-xmpp-access-tokens-python/
 excerpt: Today I had a real tough time trying to work out how the hell I could send
   a Facebook message to a user with Python. I knew I needed the "xmpp_login" scope
   and I already had users access tokens being generated through a dev build of the
