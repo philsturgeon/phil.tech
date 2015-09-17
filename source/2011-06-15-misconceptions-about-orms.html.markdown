@@ -2,7 +2,7 @@
 layout: post
 title: Misconceptions about ORMs
 category: 
-alias: blog/2011/06/misconceptions-about-orms
+alias: blog/2011/06/misconceptions-about-orms/
 excerpt: " \"ORMs are overweight, slow, hard to work with, pointless and for people
   who don't know how to use SQL\". These are all arguments we have all heard - and
   in some cases in the past I have even used - but this is a stupid argument made

@@ -41,7 +41,7 @@ set :markdown_engine, :kramdown
 set :markdown, :fenced_code_blocks => true, :smartypants => true
 
 activate :alias
-activate :syntax, :line_numbers => true
+activate :syntax, :wrap => true
 
 ###
 # Blog settings
