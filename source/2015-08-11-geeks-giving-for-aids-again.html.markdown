@@ -50,6 +50,8 @@ Help me help other people. $5k is a huge amount of money, and I've only got a fe
 
 All the money sent via that portal goes straight to the charity, and they have a huge number of volunteers keeping costs of the ride the lowest I've seen. It's an amazing group of people and I'm excited to be riding with them again, but we have big goals to hit and we need you to help.
 
+_**Update 2015-09-21:** Your donations have been flooding in, and I am so grateful! A [few of](http://fundraising.housingworks.org/index.cfm?fuseaction=donorDrive.participant&participantID=2130) my [teammates](http://fundraising.housingworks.org/index.cfm?fuseaction=donorDrive.participant&participantID=1972) are struggling for donations as they aren't so lucky as to have these rewards. If you were going to donate to me, please donate to them! You'll still get a reward, just tell me who you donated to and it still counts!_
+
 * _Make a [donation](http://fundraising.housingworks.org/participant/philstu-15)_
 * _Find out more about the [BrakingAids Ride](http://brakingaidsride.org/)_
 * _Find out more about [HousingWorks](http://www.housingworks.org/)_
