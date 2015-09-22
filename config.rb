@@ -7,7 +7,6 @@ set :description, 'I used to contribute to the PHP-FIG, The League of Extraordin
 set :author, {
   name: 'Phil Sturgeon',
   image: '/images/author.jpg',
-  bio: "Phil has contributed to CodeIgniter, FuelPHP, Laravel and handfuls of other projects, to try and make the PHP community a better place.",
 }
 
 # social icons and sharing options

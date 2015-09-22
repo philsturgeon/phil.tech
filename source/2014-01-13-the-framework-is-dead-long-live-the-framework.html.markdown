@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The &quot;Framework&quot; is Dead, Long live the Framework
+title: The "Framework" is Dead, Long live the Framework
 category: php
 tags: php, frameworks
 alias: blog/2014/01/the-framework-is-dead-long-live-the-framework/

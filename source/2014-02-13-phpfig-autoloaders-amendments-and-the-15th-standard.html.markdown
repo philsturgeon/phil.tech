@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'PHP-FIG: Autoloaders, Amendments and The &quot;15th Standard&quot;'
+title: 'PHP-FIG: Autoloaders, Amendments and The "15th Standard"'
 category: php
 alias: blog/2014/02/phpfig-autoloaders-amendments-and-the-15th-standard/
 excerpt: Recently I've been putting in lots of time for bits around the PHP-FIG, and
@@ -47,7 +47,7 @@ I've seen some people piss and moan about PSR-4 and it's namespace prefix suppor
 
 > vendor/league/fractal/src/League/Fractal/Resource/Collection.php
 
-... can be shortened to this:
+Which can be shortened to this:
 
 > vendor/league/fractal/src/Resource/Collection.php
 

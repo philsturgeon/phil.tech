@@ -89,25 +89,25 @@
             </section>
         </footer>
         <div class="bottom-teaser cf">
-          <div class="isLeft">
+          <div class="more isLeft">
             <h5 class="index-headline featured"><span>Written by</span></h5>
             <section class="author">
               <div class="author-image" style="background-image: url(<%= config.author[:image] %>)">Blog Logo</div>
               <h4><%= config.author[:name] %></h4>
-              <p class="bio"><%=h config.author[:bio] %></p>
-              <hr>
-              <p class="published">Published <time datetime="<%= current_article.date %>"><%= current_article.date.strftime('%b %e %Y') %></time></p>
+              <p class="bio">I spend a lot of time urging people to learn more languages, and if that is a bit much learn another framework. Rails and Laravel are the same, and Go is a barrel of laughs.</p>
+              <p>Get out of your rut.</p>
             </section>
           </div>
-          <div class="isRight">
+          <div class="more isRight">
             <h5 class="index-headline featured"><span>More Writing</span></h5>
-            <footer class="site-footer">
-              <h4>Build APIs You Won't Hate</h4>
-              <p>Everyone and their dog wants an API, so you should probably learn how to build them.</p>
-              <p><a href="http://apisyouwonthate.com/">Buy it from LeanPub or Amazon</a></p>
-              <hr>
-              <p class="published">Published Feb 1 2014</p>
-            </footer>
+            <section class="author">
+              <a href="http://apisyouwonthate.com/">
+                <div class="book-image build-apis">Book Cover</div>
+                <h4>Build APIs You Won't Hate</h4>
+              </a>
+              <p class="bio">Everyone and their dog wants an API, so you should probably learn how to build them.</p>
+              <p><a href="http://apisyouwonthate.com/">Buy it from LeanPub or Amazon</a>.</p>
+            </section>
           </div>
         </div>
       </article>
