@@ -25,9 +25,9 @@ There are some awesome rewards in here, and a few copies of my book of course:
 
 **$25** - Any _one_ of the following: 
 
-* 50% off of any [_Servers for Hackers_](https://gumroad.com/serversforhackers) eBook bundle
 * 50% off of any _[Grumpy Learning](http://grumpy-learning.com/)_ eBooks
-* A free StackOverflow t-shirt* (Men's and Women's available)
+* 50% off of a [Runscope](http://runscope.com/) Small plan for 12 months, worth $79 p/m usually
+* 50% off of any [_Servers for Hackers_](https://gumroad.com/serversforhackers) eBook bundle* A free StackOverflow t-shirt* (Men's and Women's available)
 * A free copy of the [_PHP Pandas_](https://leanpub.com/php-pandas) eBook
 * A free copy of the [_Vagrant CookBook and Build APIs You Won't Hate_](https://leanpub.com/b/vagrantapis) eBook bundle
 
@@ -35,16 +35,17 @@ There are some awesome rewards in here, and a few copies of my book of course:
 
 **$60** - Any _one_ of the following: 
 
-* 50% off of a [PNWPHP 15 Conference](http://pnwphp.com/) ticket, worth $199 usually. I'll see you there.
+* <s>50% off of a <a href="http://pnwphp.com/">PNWPHP 15 Conference</a> ticket, worth $199 usually. I'll see you there!</s>
+* 50% off of a [Runscope](http://runscope.com/) Medium plan for 12 months, worth $199 p/m usually
 * 100% off of any [_Servers for Hackers_](https://gumroad.com/serversforhackers) eBook bundle
 * 50% off of a [Statamic](http://statamic.com/) Professional License
 
+> **$200** - Any _one_ of the following: 
+
+* 50% off of a [Runscope](http://runscope.com/) Large plan for 12 months, worth $599 p/m usually
+* One hour of Skype consultation on PHP, Rails, API design, Chef, Git, deployment tactics, whatever, from meeee
 
 Interested? [Make a donation](http://fundraising.housingworks.org/index.cfm?fuseaction=donordrive.participant&participantID=2035).
-
-I'm also offering consulting like last time around, but I'm not so sure anyone is as excited about that as they used to be when CodeIgniter was still a thing. 
-
-> **$200** - One hour of Skype consultation on PHP, Rails, API design, Chef, Git, deployment tactics, whatever, for you, or a group of your choosing. 
 
 Help me help other people. $5k is a huge amount of money, and I've only got a few weeks to get it done. Last minute and all that, but I've been injured for about 6 months now and had no idea if I could make it until a few days ago.
 
@@ -56,4 +57,4 @@ _**Update 2015-09-21:** Your donations have been flooding in, and I am so gratef
 * _Find out more about the [BrakingAids Ride](http://brakingaidsride.org/)_
 * _Find out more about [HousingWorks](http://www.housingworks.org/)_
 
-_**P.S:** If you would like to offer some rewards for these donations to help the charity get even more money, and get yourself a bit of marketing and increased sales as an extra reward, please [get in touch](mailto:me@philturgeon.uk)._
+_**P.S:** If you would like to offer some rewards for these donations to help the charity get even more money, and get yourself a bit of marketing and increased sales as an extra reward, please [get in touch](mailto:me@philsturgeon.uk)._
