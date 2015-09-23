@@ -8,10 +8,10 @@ excerpt: "Don't be fooled into thinking you can use HTTP status codes on their o
 ---
 
 I spotted an article called [Just learn Rails (Part 3) HTTP status codes](http://jakeyesbeck.com/2015/09/20/rails-http-status-codes/). It started off good, and I liked that it was teaching people to avoid hardcoding their HTTP status codes in code, using `:conflict` instead of `409` and the like.
+ 
+That is a good message to send, which is why I wrote an article on [exactly that](https://philsturgeon.uk/http/2015/08/16/avoid-hardcoding-http-status-codes/) last month.
 
-That is a good message to send, which I why I wrote an article on [exactly that](https://philsturgeon.uk/http/2015/08/16/avoid-hardcoding-http-status-codes/) last month.
-
-The article also stresses that you must not return errors on `200`, which even the insanity wolf will tell you.
+The article also stresses that you must not return errors on `200`, which only the insanity wolf would do.
 
 [![Insanity wolf hates errors on a 200](article_images/2015-09-23-http-status-codes-are-not-enough/insanity-wolf-errors.jpg)](https://speakerdeck.com/philsturgeon/api-pain-points-confoo-2015?slide=29)
 
@@ -95,7 +95,7 @@ How the flying shit would I know from just a 400 that that user doesn't have any
 
 The whole API does not rely on 400 errors over here, no, but even if you did find a more suitable status code I still would not know _exactly_ what was happening.
 
-If you make me work with an API that does not have errors, I'm not going coming to your birthday party.
+If you make me work with an API that does not have errors, I'm not coming to your birthday party.
 
 > If one were to continue down the naive path, returning hashes or strings by default for all responses, things would become messy quickly. That response structure unjustly handcuffs the API clients to be unnecessarily tolerant of ad-hoc text responses. But, if the API conforms to HTTP standards, a client knows exactly what each response means. Nothing is left up to the imagination, and no bright new developer can accidentally change the error key to Error and ruin everyone's day.
 
