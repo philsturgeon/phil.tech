@@ -3,12 +3,6 @@ pageable: true
 per_page: 20
 ---
 
-%header.blog-header
-  %a.blog-logo{href: "/", style: "background-image: url(#{config.logo})"}
-    =h config.site_title
-  %h1.blog-title=h config[:site_title]
-  %h2.blog-description=h config[:description]
-
 %main.content{role: "main"}
   .cf.frame
     %h3 Articles tagged '#{tagname}'

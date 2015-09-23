@@ -53,8 +53,8 @@ activate :blog do |blog|
   blog.permalink = "{category}/{year}/{month}/{day}/{title}"
   blog.summary_length = 250
   blog.summary_generator = Proc.new { |article, length, ellipsis|
-    if article.metadata[:excerpt]
-      article.metadata[:excerpt]
+    if article.data.excerpt
+      article.data.excerpt
     else    
       Nokogiri::HTML.parse(article.body).css('p').first.text
     end

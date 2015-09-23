@@ -4,6 +4,7 @@ date: '2015-09-23 21:00:00'
 category: http
 tags: http, api
 comments: true
+excerpt: "Don't be fooled into thinking you can use HTTP status codes on their own. You need to supplement them using error messages, with maybe some specific error codes of your own and links to documentation explaining what the problem is."
 ---
 
 I spotted an article called [Just learn Rails (Part 3) HTTP status codes](http://jakeyesbeck.com/2015/09/20/rails-http-status-codes/). It started off good, and I liked that it was teaching people to avoid hardcoding their HTTP status codes in code, using `:conflict` instead of `409` and the like.
