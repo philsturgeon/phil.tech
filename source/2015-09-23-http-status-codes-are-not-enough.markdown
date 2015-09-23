@@ -13,7 +13,7 @@ That is a good message to send, which I why I wrote an article on [exactly that]
 
 The article also stresses that you must not return errors on `200`, which even the insanity wolf will tell you.
 
-[![Insanity wolf hates errors on a 200](article_images/2015-09-23-http-status-codes-not-enough/insanity-wolf-errors.jpg)](https://speakerdeck.com/philsturgeon/api-pain-points-confoo-2015?slide=29)
+[![Insanity wolf hates errors on a 200](article_images/2015-09-23-http-status-codes-are-not-enough/insanity-wolf-errors.jpg)](https://speakerdeck.com/philsturgeon/api-pain-points-confoo-2015?slide=29)
 
 The problem with the article is when it gets to sarcastically pointing out error messages are an overly verbose waste of time, or needless novella. I pointed out the flaw in this logic using some jovially hyperbolic wording as I'm known to do, and in the end the chap suggested I didn't understand the article.
 
