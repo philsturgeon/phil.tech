@@ -19,7 +19,7 @@ Take the above viewpoint for a minute (dumb and entirely anecdotal as it is) and
 
 If we're going to say that we think there being 1 or 2 women speakers at a conference of 10 or 20 speakers is representative of the ratio of women actually in the field, then we're making an argument for accurate representation. We're saying the gender ratio on stage is that of the ratio in real life.
 
-Assuming the gender ration is 10% women in the field then having 1 or 2 at a conference of 10 or 20 speakers would be accurate, but here is a little statistic:
+Assuming the gender ratio is 10% women in the field then having 1 or 2 at a conference of 10 or 20 speakers would be accurate, but here is a little statistic:
 
 > Women comprise 34% of web developers; 23% of programmers; 37% of database administrators; 20% of software developers; and 15% of information security analysts. (Department of Labor Current Population Survey, 2012)
 
