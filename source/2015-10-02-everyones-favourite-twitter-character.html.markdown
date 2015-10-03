@@ -2,6 +2,7 @@
 title: Everyones Favourite Twitter Characters
 date: 2015-10-02 17:22 UTC
 tags: twitter
+comments: true
 ---
 
 Regularly, I make a general piece of advice, and the types of responses are pretty similar regardless of the actual conversation.
