@@ -34,11 +34,11 @@ Great that's a cool story, but you were lucky.
 
 > You can't even fix flat tyres? How stupid are you.
 
-A) I can change a flat on my racing bike in about 3 minutes thank you, which could do with some efficiency tweaking. I fumble with the tyre levers a bit, but I'm working on it.
+This general advice wasn't about me. As an beginner/intermediate biker, my friends might now know how to do that. Does the seller have a patch kit? Does my friend? 
 
-B) This general advice wasn't about me. As an beginner/intermediate biker, my friend should not be responsible for getting that bike into a test-ridable state before buying it, and using this opportunity to randomly attack is a strange move. 
+At a restaurant, if a steak is undercooked you'd ask them to cook it. If they say no then fuck them, I'm not gonna take it home and cook it myself. That's not how this works.
 
-Are you ok? Do you need a friend to talk to? It's not me, but... somebody probably likes you.
+Besides, using this opportunity to randomly attack is a strange move. Are you ok? Do you need a friend to talk to? It's not me, but... somebody probably likes you.
 
 ## The Lesley Gore
 
@@ -85,9 +85,8 @@ Wow ugh I meant bicycle I always talk about bicycles. Who are you and why are yo
 
 Yeah totally. That's a great tip, but why are you coming at this like it's an either/or? 
 
-"Flat tyres" mask problems. 
-
-Subtly damaged frames are also not great.
+- Flat tyres mask problems
+- Subtly damaged frames are also not great
 
 We could both sit around listing out 100 things to worry about, but just because you know one other edge case problem, it does not invalidate the problem I mentioned.
 
@@ -96,6 +95,12 @@ We could both sit around listing out 100 things to worry about, but just because
 > I've been selling bicycles for years now and I find this attitude disrespectful. Not all salesmen are trying to rip you off.
 
 Ugh yeah I meant assholes on Craigslist and that shitty bike store down the road that actually does. I've been in there, and my friends have told me tales of shitty bike shops and Craigslist wankers doing this too.
+
+## The Exception
+
+> That's dumb. What if that bike is a vintage Raleigh frame in the perfect colour, and I've been trying to find one for ages. Either way, the price is worth it just for the frame.
+
+Well, that sounds like a fairly good exception to my rather general advice. If you're happy to take that project on and do the work, or pay for it to be done, then yeah: get that bike. General advice _always_ has exceptions. That wouldn't exactly fit in the tweet.
 
 
 Certainly these people don't mean to be annoying, but damn, it's pretty annoying.  
