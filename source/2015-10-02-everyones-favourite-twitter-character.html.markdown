@@ -30,6 +30,16 @@ Ok expert, this was general advice, which doesn't apply to you clearly. Well don
 
 Great that's a cool story, but you were lucky.
 
+## The Elitist
+
+> You can't even fix flat tyres? How stupid are you.
+
+A) I can change a flat on my racing bike in about 3 minutes thank you, which could do with some efficiency tweaking. I fumble with the tyre levers a bit, but I'm working on it.
+
+B) This general advice wasn't about me. As an beginner/intermediate biker, my friend should not be responsible for getting that bike into a test-ridable state before buying it, and using this opportunity to randomly attack is a strange move. 
+
+Are you ok? Do you need a friend to talk to? It's not me, but... somebody probably likes you.
+
 ## The Lesley Gore
 
 > Don't tell me what to do! I'll buy any damn bike I want.
@@ -46,9 +56,9 @@ If we're out having a beer and I say "This beer is lovely." and you shout "WELL 
 
 ## The Patriot
 
-> I think you'll find it's "tires" you goon.
+> I think you'll find it's "tires".
 
-Words existed before the Webster dictionary buddy and tyres is perfectly valid if you're British. Google is also a thing if you're confused.
+Words existed before the Webster dictionary, and tyres is perfectly valid if you're British. Google is also a thing if you're confused.
 
 ## The Not Quite
 
@@ -68,6 +78,18 @@ Wow ugh I meant bicycle I always talk about bicycles. Who are you and why are yo
 > - Bob favourited a tweet you were mentioned in by The Mile Wide.
 > - Bob favourited another tweet you were mentioned in by The Mile Wide.
 > - Bob needs to get a fucking hobby because he's still favouriting any sort of tweet that disagrees with you and they all misunderstood what you said.
+
+## The Alternative
+
+> That's not the problem. The real problem is checking for kinks or bends in the frame or chainstay. That'll mess you up.
+
+Yeah totally. That's a great tip, but why are you coming at this like it's an either/or? 
+
+"Flat tyres" mask problems. 
+
+Subtly damaged frames are also not great.
+
+We could both sit around listing out 100 things to worry about, but just because you know one other edge case problem, it does not invalidate the problem I mentioned.
 
 ## The Bike Salesman
 
