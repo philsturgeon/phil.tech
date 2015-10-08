@@ -107,7 +107,3 @@ Then, if they do start trying to download your whole data set, it'll at least ta
 How? Look for apps regularly hitting their rate limit. Look for stuff that is randomly search geo boxes moving across the map in an unnatural way (people don't move in a sweeping left to right grid pattern). 
 
 Automate those detections, and fire off an email to the bastards trying to download your dataset. You'll have their email because they signed up, and if they're really daft they'll use their work email. I've seen that happen, and we had a nice little chat.
-
-<hr/>
-
-If you want more advice on HTTP/API stuff, grab a copy of my book [Build APIs You Won't Hate](http://apisyouwonthate.com/). You can get that eBook for free if you donate $10 to my next [charity bike ride](http://fundraising.housingworks.org/index.cfm?fuseaction=donordrive.participant&participantID=2035).

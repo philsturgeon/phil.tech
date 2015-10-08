@@ -154,8 +154,3 @@ en:
 Using this approach, you can catch global exceptions at a very high level for really generic things like this, and handle very specific exceptions in controllers. Hitting the method yourself works too of course. We even have some logic that turns validation errors into standard errors in this way.
 
 All of this allows for business logic to be translated into meaningful errors, all with useful computer _and_ human readable error codes, with a convenient `:match_accepted_by_non_paying_passenger` that corresponds to the full title and the error code. Then you're also providing the HTTP status via a symbol using `:precondition_failed` instead of just shoving a `412` in the controller.
-
-
-<hr/>
-
-If you want more advice on HTTP/API stuff, grab a copy of my book [Build APIs You Won't Hate](http://apisyouwonthate.com/). You can get that eBook for free if you donate $10 to my next [charity bike ride](http://fundraising.housingworks.org/index.cfm?fuseaction=donordrive.participant&participantID=2035).

@@ -6,9 +6,9 @@ tags: api blueprint, apiary, api, http, documentation
 comments: true
 ---
 
-When planning my talk and book on REST/HTTP API development, I ended up mentioning APIs towards the end, and flippantly said "Oh an API Blueprint is pretty good probably just use that." This is something I'd love to fix with a time machine, as these days I spec out an API in [API Blueprint](https://apiblueprint.org) before I get anywhere near the code. 
+When planning my talk and book on REST/HTTP API development, I ended up mentioning documentation towards the end, and flippantly said "Oh and API Blueprint is pretty good probably just use that." This is something I'd love to fix with a time machine, as these days I spec out an API in [API Blueprint](https://apiblueprint.org) before I get anywhere near the code. 
 
-Documentation first gives you and the team a chance to play around with what fields are coming and going, and you can even dump this documentation file into a collaborative editing tool like Dropbox Notes or have a Google Hangouts with a tmate session. When the API team and the clients (web, iOS, Android, etc.) have reached a good level of agreement, the contracts can be "locked-down" and put into Git, meaning changes are tracked and blame can be used for anyone who f**ks up the contract.
+Documentation-first gives you and the team a chance to play around with what fields are coming and going, and you can even dump this documentation file into a collaborative editing tool like Dropbox Notes or have a Google Hangouts with a tmate session. When the API team and the clients (web, iOS, Android, etc.) have reached a good level of agreement, the contracts can be "locked-down" and put into Git, meaning changes are tracked and blame can be used for anyone who f**ks up the contract.
 
 If your API documentation is then [tested with Dredd](https://philsturgeon.uk/api/2015/01/28/dredd-api-testing-documentation/), you know your contracts are holding up as expected over time.
 

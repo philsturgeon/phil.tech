@@ -61,6 +61,7 @@
           </div>
           <a name="topofpage"></a>
           <%= yield %>
+          <%= partial "includes/post-closing", locals: {article: current_article} %>
         </section>
         <footer class="post-footer">
             <section class="share">
