@@ -84,7 +84,7 @@ end
 page "/feed.xml", layout: false
 
 # Automatic image dimensions on image_tag helper
-activate :automatic_image_sizes
+# activate :automatic_image_sizes
 
 activate :directory_indexes
 
