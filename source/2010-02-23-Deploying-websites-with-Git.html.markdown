@@ -12,9 +12,9 @@ disqus_identifier: Deploying-websites-with-Git
 
 Back in 2008 I wrote an article describing how you can [use Subversion as a very simple deployment method](/blog/2008/10/deploying-sites-with-svn "Deploying sites with Subversion (SVN)") from your local box, through testing environments to your live servers. Since then I have been using Git to track all client work and personal projects, so I modified this approach to work with Git.
 
-It sounds a little crazy to some people, but really deploying websites with a version control system makes a lot of sense. When you develop on your local box you can change any number of files throughout a codebase and trying to manually remember what files have been changed can be a pain in the nadgers.
+It sounds a little crazy to some people, but really deploying websites with a version control system makes a lot of sense. When you develop on your local box you can change any number of files throughout a codebase and trying to manually remember what files have been changed can be a pain in the nads.
 
-You either need to use your VCS ( [Subversion](http://subversion.apache.org/ "Apache Subversion"), [Git](http://git-scm.com/ "Git: Fast Version Control"), [Mercurial](http://mercurial.selenic.com/ "Mercurial: Distributed Source Control Management"), etc) to give you a list of changes files so you can manually go around re-uploading each of them, but this can take a long time on a large application.
+You either need to use your VCS ([Subversion](http://subversion.apache.org/ "Apache Subversion"), [Git](http://git-scm.com/ "Git: Fast Version Control"), [Mercurial](http://mercurial.selenic.com/ "Mercurial: Distributed Source Control Management"), etc) to give you a list of changes files so you can manually go around re-uploading each of them, but this can take a long time on a large application.
 
 Another option is re-uploading your entire site through FTP which is even more annoying, if not potentially dangerous to live servers as it can destroy file permissions, remove user-uploaded content, confuse cache systems and show programming errors throughout the site as files are deleted and replaced by the FTP client.
 
@@ -28,31 +28,45 @@ The best part is that if you are already working with Git on your local box then
 
 #### Step 1: SSH into your server
 
-    $ ssh user@example.com
+~~~
+$ ssh user@example.com
+~~~
 
 #### Step 2: Install Git
 
-    $ sudo apt-get install git
+~~~
+$ sudo apt-get install git
+~~~
 
 Or use yum, aptitude, compile from source, etc.
 
 #### Step 3: Setup your repo's
 
-    $ cd /home/user/public_html$ git init$ git remote add origin git@github.com:philsturgeon/somerepo.git
+~~~
+$ cd /home/user/public_html
+$ git init
+$ git remote add origin git@github.com:philsturgeon/somerepo.git
+~~~
 
 This next command gets a little tricky if you already have your site running on this server. I have always used this method from the first deployment of Git managed sites, but you will probably need to delete any folders that will be managed by Git so they can be replaced. Of course be careful with backups and save any user uploaded content, but once that is done you wont have to worry about losing changes ever again.
 
-    $ git pull origin master
+~~~
+$ git pull origin master
+~~~
 
 #### Step 4: Deploy new changes
 
 Once you have made some changes you will need to send them back to your main repository
 
-    $ git commit -a -m "Lazy commit of new stuff"$ git push origin master
+~~~
+$ git commit -a -m "Lazy commit of new stuff"$ git push origin master
+~~~
 
 That will push everything to your repository, then SSH back into your live/testing server and pull the new changes.
 
-    $ git pull origin master
+~~~
+$ git pull origin master
+~~~
 
 That will pull the changes from the main repository to the local repo on the live/testing site.
 
@@ -62,29 +76,44 @@ I always SSH'ed in the pulled as that was how I used to do things when deploying
 
 You can push directly from your local box to the live website, or the testing server you are running Git on. On your local box you can simply add testing and live servers as another remote:
 
-    $ git remote add testing ssh://user@example.com/home/example/public_html$ git remote add live ssh://user@example.com/home/example/public_html$ git push origin master$ git push testing master
+~~~
+$ git remote add testing ssh://user@example.com/home/example/public_html
+$ git remote add live ssh://user@example.com/home/example/public_html
+$ git push origin master
+$ git push testing master
+~~~
 
 And then when you have tested these changes had no screwy effects on your testing server:
 
-    $ git push live master
+~~~
+$ git push live master
+~~~
 
 That means any time you make a change, you can commit it, push it back to the main codebase (GitHub, CodeBaseHQ, etc) then push it to the correct server(s). Sorted!
 
-_ **Update:** After posting it came to my attention that directly pushing to a repository like this appears to work from the push end, but it wont actually update the files on the live server. To get this to happen you need to create a post-receive hook._
+_**Update:** After posting it came to my attention that directly pushing to a repository like this appears to work from the push end, but it wont actually update the files on the live server. To get this to happen you need to create a post-receive hook._
 
-    $ ssh user@example.com$ cd /home/example/public_html$ vim .git/hooks/post-receive
+~~~
+$ ssh user@example.com
+$ cd /home/example/public_html
+$ vim .git/hooks/post-receive
+~~~
 
 The only thing in my post-receive hook was the default example, so I deleted it and added this:
 
-> #!/bin/sh  
->    
-> # Update the working tree after changes have been pushed here  
-> cd ..  
-> env -i git reset --hard
+~~~
+#!/bin/sh    
+
+# Update the working tree after changes have been pushed here  
+cd ..  
+env -i git reset --hard
+~~~
 
 Save that with Escape then :wq and you need to permission the hook so it can be executed:
 
-    $ chmod +x .git/hooks/post-receive
+~~~
+$ chmod +x .git/hooks/post-receive
+~~~
 
 That's the hook completed.
 

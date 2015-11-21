@@ -27,7 +27,7 @@ $ ssh user@yoursite.com
 2.) Get to your `public_web` root. This will probably be something like `/home/user/public_html/` but could vary.
 
 ~~~console
-$ cd /home/user/public\_html
+$ cd /home/user/public_html
 ~~~
 
 3.) Then simply check the repo out.
