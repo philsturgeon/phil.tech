@@ -39,7 +39,7 @@ Next, I'll outline everything I had to consider and implement to make this work 
 
 In the Apiary article they have an example `scripts/test` file:
 
-~~~console
+~~~
 #!/bin/sh
 ./node_modules/coffee-script/bin/coffee app.coffee &
 sleep 5
@@ -52,7 +52,7 @@ exit $RESULT
 
 I tweaked that and made a `bin/run_dredd` script to fit in with the other Rails executables:
 
-~~~console
+~~~
 #!/bin/sh
 RAILS_ENV=test bundle exec rake db:reset
 RAILS_ENV=test bundle exec rake db:fixtures:load
@@ -82,7 +82,7 @@ Our API would complain that the token was not for a user, or was not for that sp
 
 To make this work, I added some
 
-~~~js text %}
+~~~ text 
 ## Credit Card collection [/credit_cards]
 
 ### Create a Credit Card [POST]
@@ -111,7 +111,7 @@ Following the approach in Step 3, I just made a `billy_no_mates_access_token` wh
 
 CircleCI was perfectly happy to run Dredd with minimal cocking around:
 
-~~~js yaml %}
+~~~ yaml
 dependencies:
   post:
     - npm install -g dredd
@@ -127,7 +127,7 @@ I had to override the default command to allow multiple commands, and obviously 
 
 JSON syntax errors in examples, Markdown syntax errors and other problems can really mess you up, and Dredd is not always that hot at reporting them. There is another tool called [Snowcrash], which you can use directly once installed. If anything goes weird in your tests, try this command:
 
-~~~js sh %}
+~~~
 $ snowcrash apiary.apib
 ~~~
 
