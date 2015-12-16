@@ -77,7 +77,7 @@ I'm sorry.
 
 ## So break the API!
 
-Every project has to walk the line between "Never Change Anything" and "Fuck You Start Again". We've seen these changes rip communities apart at one end of the spectrum, and let others rot and fade away. While I am over the moon that CodeIgniter has not rewritten itself a million times (that would really screw with PyroCMS) the but there needs to be some sort of middle ground that just isn't happening.
+Every project has to walk the line between "Never Change Anything" and "Fuck You Start Again". We've seen these changes rip communities apart at one end of the spectrum, and let others rot and fade away. While I am over the moon that CodeIgniter has not rewritten itself a million times (that would really screw with PyroCMS), there needs to be some sort of middle ground and that just isn't happening.
 
 It's not that development just isn'y happening, because it is. CodeIgniter has had more bug fixes, tweaks, improvements and new features than any other version in history.
 

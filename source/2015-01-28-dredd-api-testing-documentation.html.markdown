@@ -80,7 +80,7 @@ When I first started with Dredd I was trying to send it the same access token fo
 
 Our API would complain that the token was not for a user, or was not for that specific service.
 
-To make this work, I added some
+To make this work, I added some different users, who all had their own access token:
 
 ~~~ text 
 ## Credit Card collection [/credit_cards]
