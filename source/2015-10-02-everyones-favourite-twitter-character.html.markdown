@@ -53,7 +53,7 @@ Ok do whatever just trying to help...
 
 Of course it's my opinion, it came out of _my_ face. 
 
-If we're out having a beer and I say "This beer is lovely." and you shout "WELL THAT'S YOUR OPINON" at me I'm not gonna hang out with you again. People speak from their point of view.
+If we're out having a beer and I say "This beer is lovely." and you shout "WELL THAT'S YOUR OPINION" at me I'm not gonna hang out with you again. People speak from their point of view.
 
 ## The Patriot
 
