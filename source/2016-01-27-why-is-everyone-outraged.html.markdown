@@ -99,11 +99,11 @@ If you want to say "I'm not sure about leader/follower, how about primary/second
 
 ![What I hear when people use politically correct as an insult](article_images/2016-01-27-why-is-everyone-outraged/politically-correct-what-sort-of-world.png)
 
-So, instead of freaking out about problems you don't understand, assuming everyone is just being overly sensitive, being absolutely awful to women when they point out reasons they feel uncomfortable in the tech community and then having the gall to suggest the reason there are far fewer women in the tech community is because they aren't as interested in tech... maybe take a few steps back and think about that whole situation.
+So, instead of freaking out about problems you don't understand, assuming everyone is just being overly sensitive, being absolutely awful to under-represented groups when they point out reasons they feel uncomfortable in the tech community, then having the gall to suggest there are far fewer of these people in the tech community because they aren't as interested in tech... maybe take a few steps back and think about that whole situation.
 
 Think really hard.
 
-Think really really hard.
+Think really _really_ hard.
 
 This post has a lot of relevance to the Code of Conduct conversation happening in the PHP community right now. I've got a lot more thoughts on that to come.
 
