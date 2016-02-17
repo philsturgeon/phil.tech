@@ -3,7 +3,7 @@ layout: post
 title: "The Importance of Serializing API Output"
 date: '2015-05-30 18:04:00'
 category: api
-tags: http, serialization, php, fractal, rails, ams
+tags: http, api, serialization, php, fractal, rails, ams
 comments: true
 excerpt: "One of the most important parts of building any sort of HTTP API is to serialize data before you
 output it, and hardly anyone does it."
@@ -23,7 +23,7 @@ MSDN says it like this:
 
 To PHP developers, they often consider serialization to be using the [`serialize()` function](http://php.net/serialize). Yes, this is one form of serialization, but it's not the only one. Another common serialization approach is of course to use the [`json_encode()` function](http://php.net/json_encode). These days modern frameworks will automatically convert any array returned from a controller method to JSON, meaning you don't even need to call `json_encode()` yourself.
 
-This can be a handy shortcut, but if you are building HTTP API (AJAX/RESTful/Hypermedia), then you need to be a bit more specific with what you are returning. 
+This can be a handy shortcut, but if you are building HTTP API (AJAX/RESTful/Hypermedia), then you need to be a bit more specific with what you are returning.
 
 The most common offender is this:
 
@@ -37,7 +37,7 @@ class PlaceController extends CoreController
     }
 }
 ~~~
-  
+
 Excuse the drastically simplified chunk of code here, but the point is we're taking a model (probably using an ORM) and returning the result directly.
 
 This seems fairly innocent, but leads to a range of problems.
@@ -67,7 +67,7 @@ $fractal = new Manager();
 // Ask the ORM for 10 books
 $books = Book::take(10)->get();
 
-// Turn this collection 
+// Turn this collection
 $resource = new Collection($books, function(array $book) {
     return [
         'id'      => (int) $book->id,
@@ -89,13 +89,13 @@ $resource = new Collection($books, function(array $book) {
 
 Yes, again it is overly simplified and uses callbacks instead of classes for the logic, but the general idea holds.
 
-There are tools out there for every language under the sun. I've worked with [ActiveModel Serializer] and it's almost identical. 
+There are tools out there for every language under the sun. I've worked with [ActiveModel Serializer] and it's almost identical.
 
 Regardless of the language you're using this week, I'd like to explain why doing this is so important. You can learn the how later, but this article is about the why.
 
 ## Attribute Data Types
 
-Many languages - PHP included - are pretty dumb when it comes to their data binding drivers. Things like MySQL and PostgreSQL have many data types: integer, float, boolean, etc, but everything that gets through to userland is just a string. 
+Many languages - PHP included - are pretty dumb when it comes to their data binding drivers. Things like MySQL and PostgreSQL have many data types: integer, float, boolean, etc, but everything that gets through to userland is just a string.
 
 Instead of `true` and `false` you see `"1"` and `"0"`, or maybe even `"t"` and `"f"`. Floats come out as `"-41.235"` instead of `-41.235`.
 
@@ -121,11 +121,11 @@ Instead, maybe using the repository pattern which has become so popular in Larav
 
 ## Versioning Serializers
 
-In the past I have versioned serializers for major versions. v1 and v2 of `FooSerializer` can both exist, which have different tests, and satisfy multiple API client needs perfectly. 
+In the past I have versioned serializers for major versions. v1 and v2 of `FooSerializer` can both exist, which have different tests, and satisfy multiple API client needs perfectly.
 
 ## Serializer Formats
 
-Something that Fractal has not yet smoothly achieved, but aims to fix for v1.0, is multiple format "adapters". This has been done pretty well in the Rails community, and you can send different headers to get totally different formats. 
+Something that Fractal has not yet smoothly achieved, but aims to fix for v1.0, is multiple format "adapters". This has been done pretty well in the Rails community, and you can send different headers to get totally different formats.
 
 - [JSON-API](http://jsonapi.org/)
 - [HAL](http://stateless.co/hal_specification.html)
@@ -148,9 +148,9 @@ I have covered the 'why' for serialization, but not the 'how'. For that, take a 
 
 I saw a great talk at RailsConf 2015 by my new friend [João Moura](https://twitter.com/joaomdmoura) called [AMS, API, Rails and a developer, a Love Story](https://www.youtube.com/watch?v=PqgQNgWdUB8), which will show off some of the cool functionality.
 
-Whichever system you pick, they all have roughly the same idea. 
+Whichever system you pick, they all have roughly the same idea.
 
-If you're making any sort of API, _please_ do this. 
+If you're making any sort of API, _please_ do this.
 
 An API is not just a proxy for SQL commands, it should be planned, considered and maintained carefully, and a simple change to your data store should not take down the entire network of applications and services.
 

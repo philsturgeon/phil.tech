@@ -3,7 +3,9 @@ layout: post
 title: RESTful Deletions, Restorations and Revisions
 category: rest
 alias: blog/2014/05/restful-deletions-restorations-and-revisions/
-excerpt: A friend asked me for some advice on how to approach building article revisions
+tags: http, api, rest
+excerpt: >
+  A friend asked me for some advice on how to approach building article revisions
   and restoring deleted content from API in a RESTful way. With most things, it didn't
   fit on Twitter, so I promised him a blog. 
 date: '2014-05-25 14:20:00'
@@ -11,13 +13,13 @@ comments: true
 disqus_identifier: restful-deletions-restorations-and-revisions
 ---
 
-Two weeks ago I posted [RESTful URLs: Actions Need Not Apply](/blog/2014/05/restful-urls-actions-need-not-apply) which was all about how the only action/verb to appear in the HTTP Request should be the HTTP Method itself (GET, POST, PUT, DELETE, HEAD, etc). 
+Two weeks ago I posted [RESTful URLs: Actions Need Not Apply](/blog/2014/05/restful-urls-actions-need-not-apply) which was all about how the only action/verb to appear in the HTTP Request should be the HTTP Method itself (GET, POST, PUT, DELETE, HEAD, etc).
 
-This was figured out as myself and others were working on complex use-cases which aren't the usual "apples" and "pears" crap a lot of API design material is based around. Simple APIs are simple, but trying to figure out "How do I make it RESTful" on more complex stuff like mass message sending can break your brain. 
+This was figured out as myself and others were working on complex use-cases which aren't the usual "apples" and "pears" crap a lot of API design material is based around. Simple APIs are simple, but trying to figure out "How do I make it RESTful" on more complex stuff like mass message sending can break your brain.
 
 Now that I'm "The REST Guy" to some in the PHP community, I've been getting a few questions about how to approach other challenges.
 
-The rules are: 
+The rules are:
 
 * No verbs in the URL
 * Input should look as much like output as possible
@@ -40,7 +42,7 @@ Chris had a set of routes like this:
 
 Pretty straight forward so far right? Get them all, create one, update an existing one and delete one. Cool.
 
-What happens if you want to restore a deleted article? 
+What happens if you want to restore a deleted article?
 
 Obviously if you have actually deleted it from the database (hard-delete) then tough cheese, but if the record exists in there somewhere
 with a changed status or a deleted_at field like in Laravel (soft-delete) then you can do this easily enough.
@@ -49,7 +51,7 @@ The two approaches I can see that follow all of the rules are this:
 
 ### Archive then Hard-Delete
 
-Delete should probably do what it says, actually delete the item. If delete is a destructive and unrecoverable action, then you will need to invent some other status for the article to exist in, which is still hidden from the API but not entirely gone from the database. 
+Delete should probably do what it says, actually delete the item. If delete is a destructive and unrecoverable action, then you will need to invent some other status for the article to exist in, which is still hidden from the API but not entirely gone from the database.
 
 ~~~ http
 PATCH /articles/foo HTTP/1.1  
@@ -61,20 +63,20 @@ Content-Type: application/json
 
 This would keep it available everywhere in the API, and you could get it if you wanted, or ignore it with filters. For example, running a `GET /articles?status=archived` could very easily get you archived items, and running `GET /articles?status=published` would get you the live ones.
 
-Making a `GET` request to an archived item still works fine, but you see `"status" : "archived"` in the body. 
+Making a `GET` request to an archived item still works fine, but you see `"status" : "archived"` in the body.
 
 If you then want to actually remove something from the system then you could use `DELETE /articles/foo` to remove it entirely.
 
 
 ## Soft-Delete and Restore
 
-In this approach we use `DELETE` to delete stuff and do not play around with a status field initially. 
+In this approach we use `DELETE` to delete stuff and do not play around with a status field initially.
 
 Once you delete it, it is gone. It will not show up in `GET /articles` regardless of any filter provided. If you try and call it up you get a 404 or a 410.
 
-This article is no longer amongst the general population of the API. 
+This article is no longer amongst the general population of the API.
 
-To win the game we need some way to see "deleted" content and restore them so maybe... just maybe `GET /articles/trashed`. 
+To win the game we need some way to see "deleted" content and restore them so maybe... just maybe `GET /articles/trashed`.
 
 The reason I think this works is because trashed items are a specific sub-set of articles. It does not just use a filter - because those articles are gone as far as the rest of the API is concerned - they are in a whole different place, and therefore a new resource with a new collection makes sense.
 
@@ -99,7 +101,7 @@ Offering a way to "Trash" or "Archive" or "Ban" a resource by changing the statu
 
 ## Multiple Revisions
 
-Another thing Chris asked about was how to promote and demote various revisions that relate to an article. 
+Another thing Chris asked about was how to promote and demote various revisions that relate to an article.
 
 He has these routes:
 
@@ -112,12 +114,12 @@ One rule mentioned above is:
 
 * Input should look as much like output as possible
 
-To me, it would be pretty handy if all revisions had a `"is_current"` value to let me know if this was the current revision. You can 
-add new ones and they might be promoted to the current automatically, or somebody might want to roll back the revision through an interface somewhere, but whatever happens the interface and the output will need to highlight the current revision. 
+To me, it would be pretty handy if all revisions had a `"is_current"` value to let me know if this was the current revision. You can
+add new ones and they might be promoted to the current automatically, or somebody might want to roll back the revision through an interface somewhere, but whatever happens the interface and the output will need to highlight the current revision.
 
 _**Aside:** This does not mean you literally need a field in the database called `is_current`. Maybe your articles table has a `revision_id` field in there pointing to the current revision in use. Your JSON input and output should not be a direct mapping or your SQL schema, so do not feel obliged to make this field._
 
-Because we have that field as output, it should not be that much of a stretch to assume we can PATCH on it. 
+Because we have that field as output, it should not be that much of a stretch to assume we can PATCH on it.
 
 If article `foo` has three revisions, this should be possible to make revision 2 the current revision:
 
