@@ -1,7 +1,7 @@
 ---
-title: Integration Testing a HTTP API
+title: Integration Testing a HTTP API in Rails
 date: 2016-02-25 03:35 UTC
-tags:
+tags: api, http, ruby, rails, testing, integration testing
 published: false
 ---
 

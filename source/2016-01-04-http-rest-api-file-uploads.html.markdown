@@ -1,7 +1,9 @@
 ---
 title: HTTP/REST API File Uploads
 date: 2016-01-04 05:52 EDT
+category: api
 tags: http, api, uploads
+alias: 2016/01/04/http-rest-api-file-uploads/
 ---
 
 File uploads are one thing that always feel rather complicated, and working out how to handle this in an API doesn't make life easier. For many programmers, this has been abstracted away behind the HTTP standard, HTML and convenient features in languages like PHP, that populate a `$_FILES` array for us to play with. This is not really how it works for an API.
@@ -12,7 +14,7 @@ I have come across a few main approaches to uploading files:
 2. Uploading just a file by itself, like an avatar for an existing user
 3. Uploading a file from a URL
 
-To many folks number 1 sounds like a perfect time to use multipart forms, but they really are a mess, and do not make as much sense for 2 and 3. 
+To many folks number 1 sounds like a perfect time to use multipart forms, but they really are a mess, and do not make as much sense for 2 and 3.
 
 ## Why Multipart Mostly Sucks
 
@@ -41,7 +43,7 @@ Content-Disposition: form-data; name="location"
 --MultipartBoundry--
 ~~~
 
-The fields are split up, as are the files, by the boundary separator. These requests can get pretty big with a fair number of fields, and it's not JSON. 
+The fields are split up, as are the files, by the boundary separator. These requests can get pretty big with a fair number of fields, and it's not JSON.
 
 We can do JSON, but it's a bit gross:
 
@@ -67,13 +69,13 @@ Content-Type: application/json
 
 Now, I know "a bit gross" is not a strong technical reason to do anything, but think about documenting this. Think about explaining to developers that you want to send JSON, not actual JSON but... some JSON in a string. Then think about how developers actually do that. The Postman HTTP client that I love to use has no option for that, and I'm not sure how many of my favourite gem/composer package HTTP clients can do it either.
 
-Then there's all the mucking around with setting a boundary, the complexity of building out expected responses for your integration tests, and all sorts of other things I'd rather not think about. 
+Then there's all the mucking around with setting a boundary, the complexity of building out expected responses for your integration tests, and all sorts of other things I'd rather not think about.
 
 So, how do we do it if not multipart form uploads?
 
 ## Method A: Direct File Upload
 
-Sending along JSON data and the image in one request is not always something that needs to happen. You can either split it into two requests, or you can just have the one request if you only need to infer a little bit of data from the request. 
+Sending along JSON data and the image in one request is not always something that needs to happen. You can either split it into two requests, or you can just have the one request if you only need to infer a little bit of data from the request.
 
 For example, direct image upload works for uploading avatars for a user:
 
@@ -114,13 +116,13 @@ The response here will have a simple body:
 }
 ~~~
 
-That `user` was inferred from the token, and the `image_url` is the resulting URL to the avatar that has been uploaded. Normally this would be a CDN URL of course, because you don't want your API responsible for handling asset downloads too. Probably. 
+That `user` was inferred from the token, and the `image_url` is the resulting URL to the avatar that has been uploaded. Normally this would be a CDN URL of course, because you don't want your API responsible for handling asset downloads too. Probably.
 
 ## Method B: Upload from URL
 
 Uploading images directly in the HTTP body was something that worked well for the mobile teams at [Ride](https://ride.com/), but the web team didn't have as much fun with it. It's probably down to the business requirements we have. Basically, the mobile teams were uploading user avatar images directly from the photo libraries on the device, and the web teams were pulling avatars from Facebook or Twitter.
 
-Even if we were doing things a little differently, there is no way for the web team to access the raw content of a full image using just browser-based JavaScript. They could probably do some madness to get it, but it seemed easier to just provide another option. The same endpoint, with the same logic behind it all, but add in support for a JSON payload: 
+Even if we were doing things a little differently, there is no way for the web team to access the raw content of a full image using just browser-based JavaScript. They could probably do some madness to get it, but it seemed easier to just provide another option. The same endpoint, with the same logic behind it all, but add in support for a JSON payload:
 
 ~~~
 POST /avatars HTTP/1.1
@@ -135,7 +137,7 @@ Content-Type: application/json
 
 That was literally all we needed to support externally to have it all work. Then internally I checked the content type, and either called a `read_from_string` method or a `read_from_url` method, which both do exactly what it says on the tin.
 
-Then of course the response will be identical to Method 1: 
+Then of course the response will be identical to Method 1:
 
 ~~~ json
 {
@@ -153,13 +155,13 @@ Supporting both might not be something you need to do, and you might start out o
 
 ## What about Meta Data?
 
-To go back to the list of different types of upload, you might have noticed we've not actually covered all three. 
+To go back to the list of different types of upload, you might have noticed we've not actually covered all three.
 
 1. Uploading a file with metadata, like an image with comments, categories, location, etc.
 2. Uploading just a file by itself, like an avatar for an existing user
 3. Uploading a file from a URL
 
-"Direct file upload" and "upload from URL" cover 2 and 3, but the first point is still not covered. By now you might be thinking "Dude, multipart!" but there is another way. 
+"Direct file upload" and "upload from URL" cover 2 and 3, but the first point is still not covered. By now you might be thinking "Dude, multipart!" but there is another way.
 
 YouTube video uploads are incredibly quirky and poorly documented. They hide their HTTP interactions behind poorly built SDKs (especially the PHP one, it hurts to look at), but their API does something I really like.
 
@@ -189,7 +191,7 @@ X-Upload-Content-Type: video/*
 }
 ~~~
 
-Here they upload all of the meta data for their video before sending it. This is another huge benefit over multipart, as this small and simple HTTP request has a much better chance of being successful first time than a request with a 1gb video in it. This small web request is likely to sneak through, and reduce the change of that title and description being lost, which is so so so annoying. 
+Here they upload all of the meta data for their video before sending it. This is another huge benefit over multipart, as this small and simple HTTP request has a much better chance of being successful first time than a request with a 1gb video in it. This small web request is likely to sneak through, and reduce the change of that title and description being lost, which is so so so annoying.
 
 Then, the HTTP response of the video contains a `Location` header with a URL to the video upload endpoint:
 
@@ -210,7 +212,7 @@ Content-Type: CONTENT_TYPE
 BINARY_FILE_DATA
 ~~~
 
-What's cool about this approach, is that URL _could_ be part of your main API, or it _could_ be a totally different service. It could be a direct-to-S3 URL, or some Go service, or anything. 
+What's cool about this approach, is that URL _could_ be part of your main API, or it _could_ be a totally different service. It could be a direct-to-S3 URL, or some Go service, or anything.
 
 Larger companies will be more prone to building a service to handle such files coming in, whilst smaller teams might want to keep things simple and let their API do the heavy lifting. The larger the file, the more likely you'll want to split that off, as having your API handle these huge files - even if the uploads are chunked - will keep the HTTP workers busy. Maintaining those connections might slow down a Rails-based API for a long time, for example, so having another service would help there.
 
