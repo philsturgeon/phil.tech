@@ -3,6 +3,7 @@ title: PUT vs PATCH vs JSON-PATCH
 date: 2016-05-03 02:21 UTC
 category: api
 tags: api, http, rest, patch, json-patch
+comments: true
 ---
 
 A question that is asked with increasing regularity in the [APIs You Won't Hate Slack Group](https://slack.apisyouwonthate.com/) is one which has been asked for years, but does not always have a good answer. The question is:

@@ -80,10 +80,10 @@
                     Previous:
                     <%= link_to current_article.previous_article.title, current_article.previous_article, class: 'button' %>
                 </p>
-              <% end %> 
-              <% if current_article.next_article %> 
+              <% end %>
+              <% if current_article.next_article %>
                 <p style="float:right">
-                    Next: 
+                    Next:
                     <%= link_to current_article.next_article.title, current_article.next_article, class: 'button' %>
                 </p>
               <% end %>
@@ -95,8 +95,7 @@
             <section class="author">
               <div class="author-image" style="background-image: url(<%= config.author[:image] %>)">Blog Logo</div>
               <h4><%= config.author[:name] %></h4>
-              <p class="bio">I spend a lot of time urging people to learn more languages, and if that is a bit much learn another framework. Rails and Laravel are the same, and Go is a barrel of laughs.</p>
-              <p>Get out of your rut.</p>
+              <p class="bio"><%= config.author[:description] %></p>
             </section>
           </div>
           <div class="more isRight">

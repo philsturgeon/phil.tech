@@ -2,7 +2,7 @@ set :site_title, 'Phil Sturgeon'
 set :site_root, 'https://philsturgeon.uk'
 set :logo, "/images/logo.jpg"
 set :cover, "/images/ciderphpants.jpg"
-set :description, 'I used to contribute to the PHP-FIG, The League of Extraordinary Packages, PHP The Right Way, CodeIgniter, FuelPHP, PyroCMS and a bunch of other stuff, but I gave it all up to join the circus'
+set :description, 'I used to contribute to the PHP-FIG, The League of Extraordinary Packages, PHP The Right Way, CodeIgniter, FuelPHP, PyroCMS and a bunch of other stuff, but I gave it all up to join the circus.'
 
 set :author, {
   name: 'Phil Sturgeon',
@@ -55,7 +55,7 @@ activate :blog do |blog|
   blog.summary_generator = Proc.new { |article, length, ellipsis|
     if article.data.excerpt
       article.data.excerpt
-    else    
+    else
       Nokogiri::HTML.parse(article.body).css('p').first.text
     end
   }
