@@ -60,7 +60,7 @@ activate :blog do |blog|
     end
   }
 
-  blog.taglink = "stuff/{tag}.html"
+  blog.taglink = "tag/{tag}.html"
   blog.tag_template = "tag.html"
   blog.calendar_template = "calendar.html"
 
