@@ -2,18 +2,18 @@
 title: HTTP Documentation with API Blueprint
 date: 2015-10-08 15:59 UTC
 category: api
-tags: api blueprint, apiary, api, http, documentation
+tags: api blueprint, apiary, api, http, dredd, documentation
 comments: true
 ---
 
-When planning my talk and book on REST/HTTP API development, I ended up mentioning documentation towards the end, and flippantly said "Oh and API Blueprint is pretty good probably just use that." This is something I'd love to fix with a time machine, as these days I spec out an API in [API Blueprint](https://apiblueprint.org) before I get anywhere near the code. 
+When planning my talk and book on REST/HTTP API development, I ended up mentioning documentation towards the end, and flippantly said "Oh and API Blueprint is pretty good probably just use that." This is something I'd love to fix with a time machine, as these days I spec out an API in [API Blueprint](https://apiblueprint.org) before I get anywhere near the code.
 
 Documentation-first gives you and the team a chance to play around with what fields are coming and going, and you can even dump this documentation file into a collaborative editing tool like Dropbox Notes or have a Google Hangouts with a tmate session. When the API team and the clients (web, iOS, Android, etc.) have reached a good level of agreement, the contracts can be "locked-down" and put into Git, meaning changes are tracked and blame can be used for anyone who f**ks up the contract.
 
 If your API documentation is then [tested with Dredd](https://philsturgeon.uk/api/2015/01/28/dredd-api-testing-documentation/), you know your contracts are holding up as expected over time.
 
-## Getting Started 
- 
+## Getting Started
+
 [Getting Started with API Blueprint](https://apiblueprint.org/#get-started) is fairly vague and open-ended. They teach you about Drafter which early on is totally irrelevant other than for syntax checking, which the Apiary live editor does a better job of doing. Getting Started is a lot different to what they have documented, so here is how I go about it.
 
 We'll assume for now that you want to use their hosted [Apiary](https://apiary.io/) platform, and I'll follow up with how to use alternatives in later articles.
@@ -92,7 +92,7 @@ Take a look at that in API Blueprint. Go ahead and use their editor with the liv
 ![Output of JSON response in Apiary](article_images/2015-10-08-http-documentation-with-api-blueprint/basic-json-output.png)
 
 Next, lets add another endpoint. We have `GET /places`, so lets add `GET /places/{id}` to get just a single place.
- 
+
 ~~~ md
 FORMAT: 1A
 # My API
@@ -138,7 +138,7 @@ FORMAT: 1A
 + Response 200 (application/json)
     + Attributes
         - places (array[Place])
-    
+
 ## GET /places/{id}
 
 + Parameters
@@ -181,7 +181,7 @@ Yep, we've defined data structures! Where? This bit:
 
 Here we have defined the name of two fields, given them default values (an optional but wise move) then given them the type.
 
-Because both `GET /places` and `GET /places/{id}` share this data structure (even though one is an array and the other is an object), we can expand on the fields and really improve the place documentation. 
+Because both `GET /places` and `GET /places/{id}` share this data structure (even though one is an array and the other is an object), we can expand on the fields and really improve the place documentation.
 
 ~~~ md
 # Data Structures
@@ -268,11 +268,11 @@ Bit of a description or intro, and an introduction to how to OAuth, etc.
 - created_at: `2015-01-07T14:03:43Z` (string, required) - ISO8601 date and time of when the rider was created.
 ~~~
 
-Looking good huh? We've got `PUT` and `DELETE` in there too now, showing off a `204` no less. 
+Looking good huh? We've got `PUT` and `DELETE` in there too now, showing off a `204` no less.
 
 Well, one thing left: Using `POST` to create a resource on the collection.
 
-The tough part here is that most `POST` requests involve sending partial representations, and letting the server fill in the gaps. To do that, our `Place` data structure falls over a little bit. 
+The tough part here is that most `POST` requests involve sending partial representations, and letting the server fill in the gaps. To do that, our `Place` data structure falls over a little bit.
 
 So, we can split them up a bit. Take a look at this full example to see what I changed:
 

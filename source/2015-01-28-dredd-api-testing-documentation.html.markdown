@@ -82,7 +82,7 @@ Our API would complain that the token was not for a user, or was not for that sp
 
 To make this work, I added some different users, who all had their own access token:
 
-~~~ text 
+~~~ text
 ## Credit Card collection [/credit_cards]
 
 ### Create a Credit Card [POST]
