@@ -37,10 +37,9 @@ set :js_dir, 'javascripts'
 set :images_dir, 'images'
 
 set :markdown_engine, :kramdown
-set :markdown, :fenced_code_blocks => true, :smartypants => true
 
 activate :alias
-activate :syntax, :wrap => true
+activate :syntax, wrap: true
 
 ###
 # Blog settings

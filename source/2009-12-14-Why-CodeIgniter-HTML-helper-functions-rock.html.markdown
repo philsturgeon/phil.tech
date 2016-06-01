@@ -45,7 +45,7 @@ To explain what the f\*\*k I am talking about, I'll use an example.
 // vrs
 
 <?= form_open('controller/method') ?>
-```
+~~~
 
 First you will see the standard HTML way to do it, with the `site_url()` function used to create the link to the form action. Second you will see the `form_open()` tag - and in this example its shorter too, wahey!
 
