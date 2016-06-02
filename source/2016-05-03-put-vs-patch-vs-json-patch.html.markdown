@@ -100,7 +100,7 @@ The main problem here is back to the conflict example above. If somebody else wa
 The same request as a `PATCH` could look something like this:
 
 ~~~
-PUT /trips/123
+PATCH /trips/123
 
 {
   "data": [{
