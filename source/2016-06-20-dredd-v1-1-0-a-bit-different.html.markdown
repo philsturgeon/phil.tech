@@ -23,8 +23,13 @@ it's great that they're starting to support both, especially as [Apiary supports
 
 One thing I noticed was support for the `nullable`. [Adam Kliment](https://twitter.com/ntmlk) - author of Dredd -
 created a [hack hook to support nullable][nullable-workaround], but it was very much a workaround. We had to shove a
-`#nullable` at the end of our API, but now - I think due to switching from Protagonist to [Fury.js] - we can remove
-the hook and the hacktag.
+`#nullable` at the end of the line.
+
+~~~ md
+- started_at: `2015-01-07T14:03:43Z` (string, nullable) - #nullable
+~~~
+
+Now - I think due to switching from Protagonist to [Fury.js] - we can remove the hook and the hacktag.
 
 ~~~ md
 - started_at: `2015-01-07T14:03:43Z` (string, nullable)
