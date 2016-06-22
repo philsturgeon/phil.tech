@@ -73,13 +73,14 @@ warn: Runtime compilation warning: Multiple responses, using first.
 
 Now, Dredd will give them all a go!
 
-The downside to Dredd trying to run new tests is that it will probably break your build. Because the request is using
-an identical request, the response will be identical, and the test will fail! Instead of getting a `415` here, we'll
+The downside to Dredd trying to run new tests is that it will probably break your build. Seeing as the request is built identically, the response will be identical, and the test will fail! Instead of getting a `415` here, we'll
 end up getting a `200`.
 
 To get around this I had to abandon multiple responses (boo!) and switch to using two request transactions, like this:
 
 ~~~ md
+## Avatar collection [/avatars]
+
 ### Upload an avatar [POST]
 
 + Request OK (application/json; charset=utf-8)
