@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Geeks Giving for Aids
-category: cycling
+category: charity
+tags: cycling, charity, brakingaids
 alias: blog/2013/07/geeks-giving-for-aids/
 excerpt: After doing my 100 mile bike ride to raise money for autism research, I've
   decided to step things up a gear (ha) and go further in a bid to raise more. Next
@@ -14,7 +15,7 @@ comments: true
 disqus_identifier: geeks-giving-for-aids
 ---
 
-After doing my [100 mile bike ride](http://philsturgeon.co.uk/blog/2013/06/biked-to-the-beach-2013) to raise money for [autism research](http://biketothebeach.kintera.org/faf/home/default.asp?ievent=1056864) I've decided to step things up a gear (ha) and go further in a bid to raise more. 
+After doing my [100 mile bike ride](http://philsturgeon.co.uk/blog/2013/06/biked-to-the-beach-2013) to raise money for [autism research](http://biketothebeach.kintera.org/faf/home/default.asp?ievent=1056864) I've decided to step things up a gear (ha) and go further in a bid to raise more.
 
 Next I will be riding the 285 miles from Boston to New York over 3 days, with the goal of raising money for Housing Works, who work with those struggling with HIV/AIDS and homelessness. This work is being done with the hope of one day putting AIDS behind us.
 
@@ -24,7 +25,7 @@ Last time I raised $700, so this time raising $7,000 seems like a reasonable mov
 
 Never having raised this much (or even attempted to) I asked the internet for advice on how I should approach it. [Jessica D'Amico](http://twitter.com/justjessdc) suggested I go for a Kickstarter-style approach, and while it was an excellent idea I had trouble thinking of what I could offer anyone in return for money (stop it).
 
-I then remembered I am part of the PHP community, which is full of fucking excellent people, who would probably help me out if I asked them nicely - and they really did. Some gave me cash, some gave me advice and many - unexpectedly - set me up with some discount codes for their various products and services. 
+I then remembered I am part of the PHP community, which is full of fucking excellent people, who would probably help me out if I asked them nicely - and they really did. Some gave me cash, some gave me advice and many - unexpectedly - set me up with some discount codes for their various products and services.
 
 Here is a list of rewards that I'll be handing out in return for various donation levels.
 

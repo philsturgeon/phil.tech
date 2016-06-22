@@ -1,9 +1,11 @@
 ---
 layout: post
 title: Biked to the Beach 2013
-category: cycling
+category: charity
+tags: cycling, charity, biketothebeach
 alias: blog/2013/06/biked-to-the-beach-2013/
-excerpt: Last month I posted about an upcoming bike century called Bike to the Beach.
+excerpt: >
+  Last month I posted about an upcoming bike century called Bike to the Beach.
   As lots of you were amazingly generous with sponsorship money I figured it would
   be rude not to post a review.
 date: '2013-06-12 14:28:00'
