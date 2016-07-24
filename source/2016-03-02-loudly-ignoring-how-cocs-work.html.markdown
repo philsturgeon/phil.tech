@@ -1,7 +1,7 @@
 ---
 title: Loudly Ignoring How CoCs Work
 date: 2016-03-02 03:23 UTC
-tags: coc, php
+tags: coc, php, humans
 comments: false
 ---
 

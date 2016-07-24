@@ -2,7 +2,7 @@
 title: The Ratio of Women Speakers in Tech
 date: '2015-08-17 21:00:00'
 category: feminism
-tags: equality, conferences, nahitsfine
+tags: equality, conferences, humans, nahitsfine
 comments: true
 alias: feminism/2015/08/16/women-speaker-ratio-conversation-loop/
 ---
@@ -11,11 +11,11 @@ There are a lot of my opinions and viewpoints that have changed over time. Some 
 
 I previously held an opinion like many of the folks in the PHP community, who are discussing this stuff now, which is: well there just _aren't_ that many women programmers!
 
-That seems fair right? There aren't many women speakers because there aren't many women programmers. Us menfolk have been to loads of conferences and seen hardly any women, we've worked in our startups and there might have been one, but the meetups are all dudes and everywhere we go it's mostly dudes! Right? 
+That seems fair right? There aren't many women speakers because there aren't many women programmers. Us menfolk have been to loads of conferences and seen hardly any women, we've worked in our startups and there might have been one, but the meetups are all dudes and everywhere we go it's mostly dudes! Right?
 
 _That used to be my opinion, and I've run multiple conferences in the past that were extremely male: cast, crew and audience. I could make my excuses, but I'm going to accept that I was ignorant and lazy. Everything in this article is the 180 mental flip I've come to over the last year or two with the help of some good friends._
 
-Take the above viewpoint for a minute (dumb and entirely anecdotal as it is) and go with it, because it's one I see a _lot_ of people hold. 
+Take the above viewpoint for a minute (dumb and entirely anecdotal as it is) and go with it, because it's one I see a _lot_ of people hold.
 
 If we're going to say that we think there being 1 or 2 women speakers at a conference of 10 or 20 speakers is representative of the ratio of women actually in the field, then we're making an argument for accurate representation. We're saying the gender ratio on stage is that of the ratio in real life.
 
@@ -25,13 +25,13 @@ Assuming the gender ratio is 10% women in the field then having 1 or 2 at a conf
 
 So if we're going with the representative argument, at conferences about web development, I'd expect 34% of the speakers to be women. At programming conferences I'd expect 23% of the speakers to be women. At database adminstrator conferences I'd expect... you get the idea.
 
-Simply put, the ratio argument does not hold up to the real world. We have a discrepancy. 
+Simply put, the ratio argument does not hold up to the real world. We have a discrepancy.
 
-Whenever anything is said in this conversation about the discrepancy, there are a lot of common responses that are traipsed out. 
+Whenever anything is said in this conversation about the discrepancy, there are a lot of common responses that are traipsed out.
 
 ## Getting 50% is just not possible
 
-Some people act like 50% is an unreasonable goal, and so give up on the whole idea and shut down anyone who talks about improving the situation at all. 
+Some people act like 50% is an unreasonable goal, and so give up on the whole idea and shut down anyone who talks about improving the situation at all.
 
 50% does not have to be the goal right now. Let's try and get way the hell past 10%.
 
@@ -46,13 +46,13 @@ Basically the thought process for some conference organizers (speaking as somebo
 3. Realize you don't have many women
 4. ???
 
-Some would say that at step 4, if you turn down some guys who _would_ give good talks to find women, then you are quota filling. 
+Some would say that at step 4, if you turn down some guys who _would_ give good talks to find women, then you are quota filling.
 
-Firstly, "quota filling" suggests that you're just throwing some women in there to avoid getting shouted at. 
+Firstly, "quota filling" suggests that you're just throwing some women in there to avoid getting shouted at.
 
 Let me be clear. Placing women on the stage _for the sake of having some women up there_ is not what many reasonable people are asking for. It's offensive to suggest that is why a decent ratio of women speakers is an objective. It is also quite obviously offensive (I would hope) to ask somebody to speak just because they are a women.
 
-It can also be damaging. If you have experienced men and a few inexperienced women you found to fill your "quota" then you're going to make those women look bad in front of a lot of people. 
+It can also be damaging. If you have experienced men and a few inexperienced women you found to fill your "quota" then you're going to make those women look bad in front of a lot of people.
 
 Getting any women you can find is not the point. Saying "oops, it looks like we got a bunch of dudes so far, lets see if we can make this a bit more balanced" is _not_ quota filling. It's rebalancing the scales of equality that are - for a myriad of reasons - way off base right now.
 
@@ -63,7 +63,7 @@ Secondly, quota filling is a shit idea because it gives folks a ready to use sli
 > There’s also no African Americans on the Edge Conference’s roster. I don’t see any people of (obvious) Hispanic descent. Why is no one up in arms over that?
 _-- [Women, Tech Conferences and the BullSh!t Surrounding It](https://sugarrae.com/rants-in-bitchland/women-tech-conferences-and-bs/)_
 
-Ha, right. If we start jamming people in based on one criteria, we're gonna have to start jamming people in based on another. 
+Ha, right. If we start jamming people in based on one criteria, we're gonna have to start jamming people in based on another.
 
 It's not about catering to every checkbox you can imagine, it's more about questioning why all of your speakers are of such a narrow demographic, and attempting to make things be a bit more representative of the field.
 
@@ -73,7 +73,7 @@ Just like with our stats on women in the field, surprisingly enough 95% of progr
 
 Some conference speaker selections are invitation based.
 
-Some conference speaker selections are CFP based. 
+Some conference speaker selections are CFP based.
 
 Most are realistically both, even if they do not advertise it.
 
@@ -83,7 +83,7 @@ If a conference is not doing a CFP and it only selects dudes then you fucked up.
 
 This may be true, and it may be down to a huge number of reasons. It may be that your conference board is just a bunch of dudes and they can't be bothered with another brofest. It could be you don't have a Code of Conduct and they're uninterested in supporting that, or it could be that your Twitter followship doesn't have many women in it for whatever reason and your marketing efforts were a bit lacking beyond you and your friends tweeting about it.
 
-Whatever the reasons, saying "We don't have any/many women because none/not many applied." is a total cop out and sometimes a bit of a convenient lie. 
+Whatever the reasons, saying "We don't have any/many women because none/not many applied." is a total cop out and sometimes a bit of a convenient lie.
 
 I've been approached a bunch of times by conference organizers – everything from local conferences in far away lands to some of the largest PHP conferences – saying "Hey Phil, we'd like you to speak at our conference."
 
@@ -96,7 +96,7 @@ I didn't go to all of them, but with the ones I did, sometimes I put a CFP in af
 
 ## We Got A Few [from sponsors and we had no say]!
 
-Often at conferences, the larger sponsors send people to speak, and a lot of these folks - in my experience - have been women (#NotAllDevEvangelists). This means that some (or depressingly sometimes all) of the female line-up is filled with sponsor provided folks. 
+Often at conferences, the larger sponsors send people to speak, and a lot of these folks - in my experience - have been women (#NotAllDevEvangelists). This means that some (or depressingly sometimes all) of the female line-up is filled with sponsor provided folks.
 
 Now, sponsor provided people are not a problem. Sure sometimes they just try and flog you their stuff, but many of these speakers are amazing, insightful and don't just bang on about their company.
 
@@ -106,7 +106,7 @@ Sadly when there are sponsor provided people flogging the product, the reaction 
 
 Just like with "quota filling", if there are just a few woman and they are not giving highly technical, it leaves a general bad impression of women as a whole.
 
-Besides, if as a conference you can't get past 10% when you have sponsor provided women speakers, then you're really fucking something up at a fundamental level. 
+Besides, if as a conference you can't get past 10% when you have sponsor provided women speakers, then you're really fucking something up at a fundamental level.
 
 ## Hiding the Real Problems
 
@@ -122,9 +122,9 @@ All this stuff is a problem, but aiming for a more representative number of fema
 
 ## Conferences are a Business
 
-I totally get this, being there in the past myself. 
+I totally get this, being there in the past myself.
 
-Conferences gotta make money. Conferences gotta get attendees to get that money. Attendees wanna see people that know smart stuff to convince their bosses or partners the money is worth being spent. 
+Conferences gotta make money. Conferences gotta get attendees to get that money. Attendees wanna see people that know smart stuff to convince their bosses or partners the money is worth being spent.
 
 This argument is used to explain that the hunt for a diverse lineup is irrelevant, because you just need to get bums on seats and known names are the best way to do that.
 
@@ -142,7 +142,7 @@ Finally, if _you_ could not do any better at your conference, maybe some outside
 
 ## Summary
 
-I don't think anyone here is trying to be a bad person. 
+I don't think anyone here is trying to be a bad person.
 
 I think the vast majority conference organizers are good people who are stressed out, and maybe aren't taking as many things into consideration as they could.
 
@@ -152,13 +152,13 @@ I think we should probably be having polite (probably private) words with confer
 
 I think it would be good if people raised the questions of why a conference is 95% white-dudes, but I think onlookers need to stop traipsing out the above shitty arguments when they do.
 
-I think most conference organizers need to expand their followship to include more women, and advertise outside their usual networks by approaching groups and organizations that are there to help with this. 
+I think most conference organizers need to expand their followship to include more women, and advertise outside their usual networks by approaching groups and organizations that are there to help with this.
 
 I think conference speakers should try to lend their privilege to others who are less known in general. Invited to speak at a conference but can't make it? Suggest a friend, who might not be a white-dude.
 
-I think a lot of us need to re-evaluate how many women there really are in programming, and start asking why we don't see them around as much. What is it conferences, meet-ups, startups, etc. are doing that makes it be so dude-centric? 
+I think a lot of us need to re-evaluate how many women there really are in programming, and start asking why we don't see them around as much. What is it conferences, meet-ups, startups, etc. are doing that makes it be so dude-centric?
 
-And while we all know /r/php can be a festering pile of bile-flavoured nonsense at times, [this thread](https://www.reddit.com/r/PHP/comments/30wati/looking_for_women_speakers_at_php_new_zealand/) is the problem with this conversation being had. So much ignorance in there, and one of the moderators [jumped in](https://www.reddit.com/r/PHP/comments/30wati/looking_for_women_speakers_at_php_new_zealand/cpx17ul) saying all this stuff and more. Apparently I am unfairly hostile to white-dudes. 
+And while we all know /r/php can be a festering pile of bile-flavoured nonsense at times, [this thread](https://www.reddit.com/r/PHP/comments/30wati/looking_for_women_speakers_at_php_new_zealand/) is the problem with this conversation being had. So much ignorance in there, and one of the moderators [jumped in](https://www.reddit.com/r/PHP/comments/30wati/looking_for_women_speakers_at_php_new_zealand/cpx17ul) saying all this stuff and more. Apparently I am unfairly hostile to white-dudes.
 
 I have a lot of work to do with [my podcast](http://phptownhall.com/) to stop it being such a cavalcade of white-dudes too. There's no high horse here, just a plea for attempts at progress, instead of a never-ending stream of "Nah, it's fine!".
 

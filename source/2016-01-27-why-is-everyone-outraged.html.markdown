@@ -1,7 +1,7 @@
 ---
 title: Why Is Everyone Outraged?
 date: 2016-01-27 01:29 UTC
-tags: equality, outrage, political correctness
+tags: equality, outrage, political correctness, humans
 comments: false
 ---
 

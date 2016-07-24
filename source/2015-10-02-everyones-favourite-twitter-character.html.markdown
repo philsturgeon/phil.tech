@@ -1,7 +1,7 @@
 ---
 title: Everyones Favourite Twitter Characters
 date: 2015-10-02 17:22 UTC
-tags: twitter
+tags: twitter, humans
 comments: true
 ---
 
