@@ -88,7 +88,7 @@ It's especially tough, when the negative actions of one person are not as clear 
 
 ## Summary
 
-Whatever we do, we need to stop turning these confused extreme voices into martyrs, and we need to make sure our concerns against the extremists are directed against the extremists alone. That way, when they're ranting off about conspiracies, there is less of a chance that people in the middle will give their paranoia any weight.
+Whatever we do, we need to stop turning these confused extreme voices into martyrs, and we need to make sure our concerns are against the views of some extremists are directed to the right place. That way, when they're ranting off about conspiracies, there is less of a chance that people in the middle will give their paranoia any weight.
 
 Too often I have said something like "Look at this jerk rallying Men’s Rights Activists against Code of Conducts." and had some random person say "How dare you suggest that anyone not entirely convinced about Code of Conducts is a Men’s Rights Activist?!"
 
