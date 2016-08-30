@@ -39,10 +39,6 @@ Some of those situations are _clearly_ not as severe as others, but they're all 
 
 I've many times pointed out how something is not ideal or a bit daft, then these people argue it forever. When I get frustrated with the circular bullshit arguments they're using to #NahItsFine me, they say I'm overreacting. If they'd put "Not ideal" and "I would like to know more" on their scale, along with "I disagree with that person but they could well be an extremist", then the world would be a far far better place.
 
-Initially saying "This thing is kinda lame" and then getting frustrated with assholes doesn't make you an asshole, it makes you human. The GamerGate crew (and a few of their ranks in the PHP community) have been intentionally winding people up, by using polite words but generally harassing and bullying in other ways. Then when you tell them to get stuffed, you're a monster who cannot hold a civil conversation about your differing opinions...
-
-![Pretending to want a respectful conversation and using respectful words whilst being an out and out bully in other ways? I'd rather swear and be honest instead of being a two-faced shit.](article_images/2016-01-27-why-is-everyone-outraged/sea-lioning.jpg)
-
 Sadly, people who are either malicious, or have been duped by the propagation of thus "Everyone is outraged" nonsense, will take any moderate view put out there by somebody else and see which end of their 0-1 scale it lands. If that results in 0 they'll spout a pile of bullshit at you and anything you do to try and counter it goes basically nowhere.
 
 Don't get me wrong, there _are_ some pretty daft things coming from people who I consider to be extremist in the politically correct debate. For example: my mother - as a teacher of young children in the UK - was forced to sing "Bah Bah Rainbow Sheep" with the kids, instead of "Bah Bah Black Sheep"...

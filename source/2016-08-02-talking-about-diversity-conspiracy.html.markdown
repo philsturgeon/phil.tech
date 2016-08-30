@@ -82,7 +82,7 @@ Beyond that, two "rudes" do not always equate. If somebody pushed you out the wa
 
 I'm not advocating fighting fire with fire (two rudes that equate) because that just gives ammo to the people who consider this to be a conspiracy. What I am saying, is that frustration in dealing with these people has to be understandable, even if not ideal, and that those witnessing frustration should not write off the argument based entirely on tone.
 
-[![This is called Sea Lioning, and it can be a real problem.](http://i3.kym-cdn.com/entries/icons/original/000/016/937/uvB-JDGx_400x400.jpeg)](http://knowyourmeme.com/memes/sea-lioning)
+[![This is called Sea Lioning, and it can be a real problem.](article_images/2016-01-27-why-is-everyone-outraged/sea-lioning.jpg)](http://knowyourmeme.com/memes/sea-lioning)
 
 It's especially tough, when the negative actions of one person are not as clear cut as a push or a direct insult. When somebody is just a bit of an ass for months / years, and somebody finally snaps, it's the person that snaps who appears to be the problem, and it can be tricky and require a lot of patience and goodwill to unravel how things got to that point.
 
@@ -99,4 +99,4 @@ It may not be a logical response given how words are supposed to work, but we ha
 I really have a lot of time to help people learn about this stuff, and wholeheartedly apologize to anyone who felt attacked during previous arguments with the small handful of the PHP community, who have gone so far off the rails they're entirely unable to be reasoned with anymore. You can always talk to me, about diversity, code of conducts, maybe somebody called you a bigot and you're not sure why, anything along these lines.
 
 
-_**P.S:** A huge thank you to everyone who took a look at this post before I put it out. All views in this article are my own, but I wanted perspective, and I always need a heavy amount of typos, and some of my sentences get fantastically long. Amongst others, [Derick Rethans](https://twitter.com/derickr), [Graham Daniels](https://twitter.com/greydnls) and [Margaret Staples](https://twitter.com/dead_lugosi) were a wonderful help._
+_**P.S:** A huge thank you to everyone who took a look at this post before I put it out. All views in this article are my own, but I wanted perspective, the usual plethora of typo corrections, and some of my sentences get fantastically long. Amongst others, [Derick Rethans](https://twitter.com/derickr), [Graham Daniels](https://twitter.com/greydnls), [Jenny Wong](https://twitter.com/miss_jwo) and [Margaret Staples](https://twitter.com/dead_lugosi) were a wonderful help._
