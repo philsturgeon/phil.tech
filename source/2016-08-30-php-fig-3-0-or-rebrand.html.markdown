@@ -7,7 +7,7 @@ tags: php, php-fig, psr7
 comments: true
 ---
 
-I'm tired of talking about the PHP-FIG. I don't want to, and [I won't have anything to do with it](https://groups.google.com/forum/#!topic/php-fig/SZS6LjKTAtw). Seeing as my timeline is full of old PHP friends shouting at each other, I'm wondering if I can mediate. I was involved in the PHP-FIG since 2012, and I have seen every conversation, been part of every decision, and know the reasoning for a lot of stuff, regardless of the result and my person preferences. Being so involved with this group for so long, I have a fair bit of context that other people are lacking.
+I'm tired of talking about the [PHP-FIG](http://www.php-fig.org/). I don't want to, and [I won't have anything to do with it](https://groups.google.com/forum/#!topic/php-fig/SZS6LjKTAtw). That said, as my timeline is full of old PHP friends shouting at each other, I'm wondering if I can mediate. I was involved in the PHP-FIG since 2012, and I have seen every conversation, been part of every decision, and know the reasoning for a lot of stuff, regardless of the result and my person preferences. Being so involved with this group for so long, I have a fair bit of context that other people are lacking.
 
 The latest of about four large conversations in the FIG is: whether or not a new organization should take its place. Seeing it framed in this way is odd, because I'm not sure anyone is literally proposing that.
 
@@ -15,9 +15,9 @@ The FIG used to be a tiny group, with a few people being involved with making de
 
 > The FIG stands for Framework Interoperability Group. The name until recently was “PHP Standards Group” but this was somewhat inaccurate of the intentions of the group.
 
-They went with the name Framework Interoperability Group, because they were a lot of frameworks at the time, but it wasn't long until that group grew to involve far more than frameworks. Content Management Systems joined the ranks, as did popular packages and other tools. These were frameworks, but the name stuck around because the group was gaining traction.
+They went with the name "Framework Interoperability Group", because they were a lot of frameworks at the time, but it wasn't long until that group grew to involve far more than frameworks. Content Management Systems joined the ranks, as did popular packages and other tools. These were not frameworks, but the name stuck around because the group was gaining traction and it didn't seem very important. Pretend it was called "The PHP Big-Ass/Relevant Project Interoperability Group".
 
-Regardless of the name, the goal of the FIG stayed the same for as long as I can remember, and it's important to remember the goals of the group were never framework-only:
+Regardless of the name, the goal of the FIG stayed the same for as long as I can remember:
 
 > The idea behind the group is for project representatives to talk about the commonalities between our projects and find ways we can work together. Our main audience is each other, but we’re very aware that the rest of the PHP community is watching. If other folks want to adopt what we’re doing they are welcome to do so, but that is not the aim. Nobody in the group wants to tell you, as a programmer, how to build your application.
 
@@ -37,7 +37,7 @@ Ignoring the multitude of other FIG dramas that (despite [one persons paranoid d
 
 ## FIG 3.0
 
-FIG 3.0 is the nickname of a specific new version of the FIG, which aims to solve a huge array of problems with the way it currently operates. I was one of the main proponents of FIG 2.0, writing most of what became the new [workflow bylaw](http://www.php-fig.org/bylaws/psr-workflow/). This ended what we referred to as FIG 1.0 (or "The Wild West"). FIG 3.0 is much closer to being a formal standards body, the tl:dr of which can be [found here](https://medium.com/@michaelcullumuk/fig-3-0-91dbfd21c93b#.jvrkqh193).
+FIG 3.0 is the nickname of a specific new version of the FIG, which aims to solve a huge array of problems with the way it currently operates. I was one of the main proponents of FIG 2.0, writing most of what became the new [workflow bylaw](http://www.php-fig.org/bylaws/psr-workflow/). This ended what we referred to as FIG 1.0 (or "The Wild West"). FIG 3.0 is much closer to being a formal standards body, the tl;dr of which can be [found here](https://medium.com/@michaelcullumuk/fig-3-0-91dbfd21c93b#.jvrkqh193).
 
 > **Current problems**  
 > 1. Everyone has equal say on FIG PSRs, no matter their expertise or their project’s relevance in the PSR’s problem space  
