@@ -12,18 +12,20 @@ For the third time, I will be doing a three-day ride from Boston to New York, al
 
 Two years in a row, a bunch of the tech community jumped on board together to raise [almost $6,000 one year](http://fundraising.housingworks.org/index.cfm?fuseaction=portal.home&participantID=1212) and [$5,325 another year](http://fundraising.housingworks.org/index.cfm?fuseaction=portal.home&participantID=2035).
 
-Once again I have enlisted [the help of my author/business-owner friends](/charity/2015/08/11/geeks-giving-for-aids-again/) to offer donation rewards. I know you're all nice people and want to donate money to any cause that will stop people from suffering, but sometimes getting something back in return can help you fit that donation into your budgets.
+Once again I have enlisted the help of my author/business-owner friends to offer donation rewards. I know you're all nice people and want to donate money to any cause that will stop people from suffering, but sometimes getting something back in return can help you fit that donation into your budgets.
 
 There are some awesome rewards in here, and a few copies of my book of course:
 
 **$10** - Any _one_ of the following:
 
 * A free copy of [_Build APIs You Won't Hate_](http://apisyouwonthate.com/) eBook
+* A free copy of [_The Majesty Of Vue.js_](https://leanpub.com/vuejs/c/geeksAgainstAids) eBook
 
 **$25** - Any _one_ of the following:
 
-* 50% off of any _[Grumpy Learning](http://grumpy-learning.com/)_ eBooks
 * A free copy of _[Scaling PHP](https://www.scalingphpbook.com/)_ eBook
+* 50% off of any _[Grumpy Learning](http://grumpy-learning.com/)_ eBooks
+* 50% off a copy of [_Servers for Hackers_](https://leanpub.com/serversforhackers) eBook
 
 **$200** - Any _one_ of the following:
 

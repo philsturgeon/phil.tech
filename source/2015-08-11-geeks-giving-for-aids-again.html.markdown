@@ -27,7 +27,8 @@ There are some awesome rewards in here, and a few copies of my book of course:
 
 * 50% off of any _[Grumpy Learning](http://grumpy-learning.com/)_ eBooks
 * 50% off of a [Runscope](http://runscope.com/) Small plan for 12 months, worth $79 p/m usually
-* 50% off of any [_Servers for Hackers_](https://gumroad.com/serversforhackers) eBook bundle* A free StackOverflow t-shirt* (Men's and Women's available)
+* 50% off of any [_Servers for Hackers_](https://gumroad.com/serversforhackers) eBook bundle
+* A free StackOverflow t-shirt* (Men's and Women's available)
 * A free copy of the [_PHP Pandas_](https://leanpub.com/php-pandas) eBook
 * A free copy of the [_Vagrant CookBook and Build APIs You Won't Hate_](https://leanpub.com/b/vagrantapis) eBook bundle
 
