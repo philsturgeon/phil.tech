@@ -19,7 +19,7 @@ There are some awesome rewards in here, and a few copies of my book of course:
 **$10** - Any _one_ of the following:
 
 * A free copy of [_Build APIs You Won't Hate_](http://apisyouwonthate.com/) eBook
-* A free copy of [_The Majesty Of Vue.js_](https://leanpub.com/vuejs/c/geeksAgainstAids) eBook
+* A free copy of [_The Majesty Of Vue.js_](https://leanpub.com/vuejs) eBook
 
 **$25** - Any _one_ of the following:
 
