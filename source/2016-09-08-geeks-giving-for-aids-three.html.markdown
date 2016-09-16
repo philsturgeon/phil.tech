@@ -5,7 +5,7 @@ date: '2016-09-08 13:33:00'
 category: charity
 tags: cycling, charity, brakingaids
 comments: true
-image: /images/article_images/2015-08-11-geeks-giving-for-aids-again/header.jpg
+image: /images/article_images/2016-09-08-geeks-giving-for-aids-three/header.jpg
 ---
 
 For the third time, I will be doing a three-day ride from Boston to New York, along with hundreds of amazing people. Everyone was in various levels of fitness and with various levels of interest in cycling, but everyone had come together with the aim of helping raise a shitload of money to help those living with HIV/Aids.

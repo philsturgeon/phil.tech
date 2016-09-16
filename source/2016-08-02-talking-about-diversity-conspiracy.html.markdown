@@ -7,7 +7,7 @@ comments: true
 
 This is part two of a blog series, about why the PHP community is having a rough time talking about diversity related issues (like code of conducts), and struggling to handle toxic behaviors from members.
 
-In [the previous article](https://philsturgeon.uk/2016/07/23/talking-about-diversity-marginalization/) I discussed one of the major problems in the conversation: negative assumptions about people who either bring up diversity or try to amplify marginalized voices, and how these assumptions lead to people being actively ignored, accused of lying, or otherwise having their contributions devalued.
+In [the previous article](/2016/07/23/talking-about-diversity-marginalization/) I discussed one of the major problems in the conversation: negative assumptions about people who either bring up diversity or try to amplify marginalized voices, and how these assumptions lead to people being actively ignored, accused of lying, or otherwise having their contributions devalued.
 
 In this article we're going to look at another problem with how conversations are currently happening (especially in tech communities).
 
