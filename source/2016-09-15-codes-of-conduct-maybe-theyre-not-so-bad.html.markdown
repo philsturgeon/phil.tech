@@ -4,7 +4,7 @@ date: 2016-09-15 15:47 UTC
 tags: humans, equality, coc, php
 comments: true
 excerpt: >
-  Code of Conducts are, for some reason, hated by a substantial portion of the tech community. For some people I think this comes down to the idea that they are silly and shouldn't be required. I entirely agree with the portion "they should not be required" and have made fun of them myself plenty when they started popping up at conferences a few years ago. Sadly, there is a reason we need warnings like "These peanuts may contain nuts" or "Hot coffee is hot". Some people are muppets, and do not know what being not being nice is. Some people know, and don't care.
+  Code of Conducts are, for some reason, hated by a substantial portion of the tech community. For some people I think this comes down to the idea that they are silly and shouldn't be required. I entirely agree with the portion "they should not be required" and have made fun of them myself plenty when they started popping up at conferences a few years ago. Sadly, there is a reason we need warnings like "These peanuts may contain nuts" or "Hot coffee is hot". Some people are muppets, and don't know what being "not nice" is. Some people know, and don't care.
 ---
 
 I've written a few articles about Code of Conducts, which are a hotly debated version of the Anti-Harassment policy you almost certainly signed at any job you've held since delivering newspapers. Before I grappled the subject head-on, I wanted to clear a few related points out of the way:
@@ -15,7 +15,7 @@ I've written a few articles about Code of Conducts, which are a hotly debated ve
 
 Now, onto CoCs themselves.
 
-Code of Conducts are, for some reason, hated by a substantial portion of the tech community. For some people I think this comes down to the idea that they are silly and shouldn't be required. I entirely agree with the portion "they should not be required" and have made fun of them myself plenty when they started popping up at conferences a few years ago. Sadly, there is a reason we need warnings like "These peanuts may contain nuts" or "Hot coffee is hot". Some people are muppets, and do not know what being not being nice is. Some people know, and don't care.
+Code of Conducts are, for some reason, hated by a substantial portion of the tech community. For some people I think this comes down to the idea that they are silly and shouldn't be required. I entirely agree with the portion "they should not be required" and have made fun of them myself plenty when they started popping up at conferences a few years ago. Sadly, there is a reason we need warnings like "These peanuts may contain nuts" or "Hot coffee is hot". Some people are muppets, and don't know what being "not nice" is. Some people know, and don't care.
 
 If people weren't having problems at conferences and participating in open-source projects, they would not be trying to solve those problems; unless you buy into the "SJW conspiracy theories" or "making it up for attention" dialogues I've explained away above.
 
