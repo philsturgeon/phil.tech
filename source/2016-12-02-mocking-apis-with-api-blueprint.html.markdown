@@ -1,8 +1,8 @@
 ---
-title: "Building REST APIs in Rails: Mocking APIs with API Blueprint"
+title: "Mocking APIs with API Blueprint"
 date: 2016-12-02 13:01 UTC
-category: building-rest-apis-in-rails
-tags: building-rest-apis-in-rails, http, api, apiblueprint, mocking
+category: api
+tags: building-rest-apis-in-rails, http, api, apiblueprint, video, mocking
 comments: true
 ---
 The second video in a pile of [LiveCoding.tv](http://livecoding.tv/philsturgeon/) videos shows how to use your API Blueprint documentation to mock APIs, and a few different ways of serving those mocks up to people.
