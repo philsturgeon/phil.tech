@@ -5,42 +5,27 @@ title: Speaking
 
 %p All my friends know I never shut up, and they're all happy when I bugger off to far flung corners of the world to talk somebody elses ear off for a bit.
 
-%h2 Upcoming
+- { upcoming: "Upcoming", past: "Past" }.each do |collection, header|
 
-- data.speaking.upcoming.each do |speak|
-  .module
-    %header.event-header
-      %h3
-        %a{href: speak.event.url}= speak.event.name
-      .event-meta
-        %p
-          = "#{speak.event.dates} in #{speak.city}, #{speak.country}"
+  %h2= header
 
-    - speak.talks.each do |talk|
-      %ul
-        %li
-          = data.talks.recycled[talk].name
+  - data.speaking[collection].each do |speak|
+    .talk
+      %header
+        %h1
+          %a{href: speak.event.url}=h speak.event.name
+        %p=h "#{speak.event.dates} in #{speak.city}, #{speak.country}"
 
-%h2 Past
+      %article.talk-content
+        - speak.talks.each do |talk|
+          %h3=h data.talks.recycled[talk].title
+          %p=h data.talks.recycled[talk].short
 
-- data.speaking.past.each do |speak|
-  .module
-    %header.event-header
-      %h3
-        %a{href: speak.event.url}= speak.event.name
-      .event-meta
-        %p
-          = "#{speak.event.dates} in #{speak.city}, #{speak.country}"
-
-    - speak.talks.each do |talk|
-      %ul
-        %li
-          = data.talks.recycled[talk].name
-          %ul
+          %div.button-group
             - if data.talks.recycled[talk].slides
-              %li
-                %a{href: data.talks.recycled[talk].slides} Slides
+              %a{href: data.talks.recycled[talk].slides}
+                %button.buy-book Slides
 
             - if data.talks.recycled[talk].video
-              %li
-                %a{href: data.talks.recycled[talk].video} Video
+              %a{href: data.talks.recycled[talk].video}
+                %button.buy-book Video
