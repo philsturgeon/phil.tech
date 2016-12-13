@@ -1,0 +1,18 @@
+recycled:
+  api-tales-of-woe-and-woah:
+    name: API Tales of Woe and Woah
+    slides: https://talks.philsturgeon.uk/tales-of-woe-and-woah
+
+  what-they-should-tell-you:
+    name: What They Should Have Told You About API Development
+    slides: https://talks.philsturgeon.uk/what-they-should-have-told-you-about-apis
+
+  building-extraordinary-packages:
+    name: Building Extraordinary Packages
+
+  go-workshop:
+    name: Sprinkle in Some Go for Fun and Profit
+
+  api-pain-points:
+    name: API Pain Points
+    slides: https://talks.philsturgeon.uk/api-pain-points.pdf

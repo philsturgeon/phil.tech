@@ -1,0 +1,46 @@
+---
+layout: page
+title: Speaking
+---
+
+%p All my friends know I never shut up, and they're all happy when I bugger off to far flung corners of the world to talk somebody elses ear off for a bit.
+
+%h2 Upcoming
+
+- data.speaking.upcoming.each do |speak|
+  .module
+    %header.event-header
+      %h3
+        %a{href: speak.event.url}= speak.event.name
+      .event-meta
+        %p
+          = "#{speak.event.dates} in #{speak.city}, #{speak.country}"
+
+    - speak.talks.each do |talk|
+      %ul
+        %li
+          = data.talks.recycled[talk].name
+
+%h2 Past
+
+- data.speaking.past.each do |speak|
+  .module
+    %header.event-header
+      %h3
+        %a{href: speak.event.url}= speak.event.name
+      .event-meta
+        %p
+          = "#{speak.event.dates} in #{speak.city}, #{speak.country}"
+
+    - speak.talks.each do |talk|
+      %ul
+        %li
+          = data.talks.recycled[talk].name
+          %ul
+            - if data.talks.recycled[talk].slides
+              %li
+                %a{href: data.talks.recycled[talk].slides} Slides
+
+            - if data.talks.recycled[talk].video
+              %li
+                %a{href: data.talks.recycled[talk].video} Video

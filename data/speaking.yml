@@ -1,0 +1,66 @@
+upcoming:
+  - talks:
+      - api-tales-of-woe-and-woah
+    city: Boston
+    country: United States
+    event:
+      name: A Day of REST Boston
+      url: https://adayofrest.hm/boston-2017/
+      dates: 9th March 2017
+
+past:
+  - talks:
+      - api-tales-of-woe-and-woah
+    city: São Paulo
+    country: Brazil
+    event:
+      name: PHP Conference Brasil 2016
+      url: http://www.phpconference.com.br
+      dates: 7th–11th December 2016
+
+  - talks:
+      - what-they-should-tell-you
+    city: Sofia
+    country: Bulgaria
+    event:
+      name: Bulgaria PHP Conference 2016
+      url: http://www.bgphp.org
+      dates: 7th–9th October 2016
+
+  - talks:
+      - building-extraordinary-packages
+    city: Miami
+    country: United States
+    event:
+      name: SunshinePHP 2016
+      url:
+      dates: 4th–6th February 2016
+
+  - talks:
+      - api-pain-points
+      - building-extraordinary-packages
+    city: Seattle
+    country: United States
+    event:
+      name: Pacific Northwest PHP
+      url: http://pnwphp.com
+      dates: 10th–12th September 2015
+
+  - talks:
+      - go-workshop
+      - building-extraordinary-packages
+    city: Wellington
+    country: New Zealand
+    event:
+      name: New Zealand PHP Conference 2015
+      url: http://2015.phpconference.org.nz
+      dates: 2nd–4th September 2015
+
+  - talks:
+      - api-pain-points
+    city: Portsmouth
+    country: United Kingdom
+    event:
+      name: PHP South Coast Conference 2015
+      url:
+      dates: 18th July 2015
