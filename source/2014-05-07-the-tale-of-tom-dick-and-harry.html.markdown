@@ -75,9 +75,9 @@ Learn what you reasonably can in the time you have available. You can't learn ev
 
 Try to learn **when** something is useful, but more importantly learn **when not** to use something. You don't need to use Vagrant for every project ever.
 
-For example, Vagrant is excellent. I wrote about how excellent Vagrant is and how it can avoid obscure problems on production. I forgot to write that I use MAMP for basic CMS projects because the CMSs have all been built to abstract away those differences and most of the time it doesn't matter.
+For example, Vagrant is excellent. I wrote about [how excellent Vagrant is](https://code.tutsplus.com/tutorials/vagrant-what-why-and-how--net-26500) and how it can avoid obscure problems on production. I forgot to write that I use MAMP for basic CMS projects because the CMSs have all been built to abstract away those differences, and most of the time it doesn't matter.
 
-I also forgot to mention that sometimes clients don't really feel like paying you the day/week it takes to get their architecture moved over and all of their other staff upgraded and switched over.
+I also forgot to mention that sometimes clients don't really feel like paying you the day/week it takes to get their architecture moved over, and all of their other staff upgraded and switched over.
 
 Vagrant is cool. Use it when it fits. Don't bother if its trouble.
 
