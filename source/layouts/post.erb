@@ -60,6 +60,7 @@
             <span class="post-reading-time"></span> read
           </div>
           <a name="topofpage"></a>
+          <%= partial "includes/post-top", locals: {article: current_article} %>
           <%= yield %>
           <%= partial "includes/post-closing", locals: {article: current_article} %>
         </section>

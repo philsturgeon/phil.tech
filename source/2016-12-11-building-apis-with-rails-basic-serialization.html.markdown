@@ -10,6 +10,8 @@ Third video in a pile of [LiveCoding.tv](http://livecoding.tv/philsturgeon/) vid
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/A4XLCSZBN24" frameborder="0" allowfullscreen></iframe>
 
+**[Source Code](https://github.com/philsturgeon/livecoding-apisyouwonthate/tree/master/episode-03-building-in-rails)**
+
 <hr/>
 
 ## Notes

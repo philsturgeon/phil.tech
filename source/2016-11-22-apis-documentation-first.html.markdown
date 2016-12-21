@@ -19,6 +19,8 @@ The first video is a topic I've covered a bit in the past: Documentation with AP
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Q00H6BPVNQI" frameborder="0" allowfullscreen></iframe>
 
+**[Source Code](https://github.com/philsturgeon/livecoding-apisyouwonthate/tree/master/episode-01-documentation-first)**
+
 ## Interested in a Proper Series?
 
 These rough videos will be replaced with a nicely recorded series, and to get updates about that, just let me know your email address.

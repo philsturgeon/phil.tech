@@ -13,9 +13,11 @@ _**Side-note:** That's what ["Build APIs You Won't Hate: eBook & Paperback"](htt
 
 One popular API specification tool is [API Blueprint](http://apiblueprint.com/), which is built by the folks over at [Apiary.io](https://apiary.io). Apiary will - amongst other things - give you a mock server without you needing to do anything. You simply use their editor to make your documentation, and they'll produce a mock server for you!
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Q00H6BPVNQI" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xRJovXtzLPc" frameborder="0" allowfullscreen></iframe>
 
 In the video I forgot how to ngrok, but I covered it in the notes below.
+
+**[Source Code](https://github.com/philsturgeon/livecoding-apisyouwonthate/tree/master/episode-02-mocking-apis)**
 
 ## Interested in a Proper Series?
 
