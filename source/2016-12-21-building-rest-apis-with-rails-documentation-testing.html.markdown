@@ -6,7 +6,7 @@ tags: building-rest-apis-in-rails, http, api, video, dredd
 comments: true
 ---
 
-Now that we've started building a very basic API, we should make sure that the documentation continues to keep up to date with our progress. Even better, we can use our documentation as a basic contract test, to make sure we aren't lying about what our API offers.
+Now that we've started building a very basic API, we should make sure that the documentation is kept up to date with our progress. Even better, we can use our documentation as a basic contract test, to make sure we aren't lying about what our API offers.
 
 I've written tutorials in the past about [how Dredd works](https://philsturgeon.uk/api/2015/01/28/dredd-api-testing-documentation/), so this video will just go over this stuff in a bit more detail.
 
@@ -30,7 +30,7 @@ Once installed, you can use its init function to set things up:
 dredd init
 ~~~
 
-With the correct values added, running dredd is a single command. The output can be a llittle verbose, so I like to pipe it to a log file:
+With the correct values added, running dredd is a single command. The output can be a little verbose, so I like to pipe it to a log file:
 
 ~~~
 dredd > log/dredd.log
