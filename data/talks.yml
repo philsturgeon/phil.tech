@@ -2,12 +2,12 @@ recycled:
   api-tales-of-woe-and-woah:
     title: API Tales of Woe and Woah
     short: Aimed at intermediates and advanced API developers, this skips the "how to use status codes" type of introductary stuff, and gets right into the funny stories of things going wrong.
-    slides: https://talks.philsturgeon.uk/tales-of-woe-and-woah
+    slides: https://talks.philsturgeon.uk/complete/tales-of-woe-and-woah
 
   what-they-should-tell-you:
     title: What They Should Have Told You About API Development
     short: "This talk focuses on design choices, such as: When to use REST, and when to use RPC."
-    slides: https://talks.philsturgeon.uk/what-they-should-have-told-you-about-apis
+    slides: https://talks.philsturgeon.uk/complete/what-they-should-have-told-you-about-apis
 
   building-extraordinary-packages:
     title: Building Extraordinary Packages
@@ -20,4 +20,4 @@ recycled:
   api-pain-points:
     title: API Pain Points
     short: About to start building your first API? This talk will give you some hints and tips to get started, with some horror stories of things that have gone wrong for myself and others.
-    slides: https://talks.philsturgeon.uk/api-pain-points.pdf
+    slides: https://talks.philsturgeon.uk/complete/api-pain-points/slides.pdf
