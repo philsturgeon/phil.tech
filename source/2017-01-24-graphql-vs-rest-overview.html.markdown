@@ -97,7 +97,7 @@ Although GraphQL and REST can (and should) version via evolution just as easily,
 
 ## GraphQL makes Deprecations Awesome
 
-One area where GraphQL excels is to make monitoring field usage incredibly easy at a technical level. GraphQL clients are forced to specify the fields they want returned in the query:
+One area where GraphQL excels is making monitoring field usage incredibly easy at a technical level. GraphQL clients are forced to specify the fields they want returned in the query:
 
 ~~~ http
 POST /graphql HTTP/1.1
@@ -138,7 +138,7 @@ _GraphQL making field deprecation easier was a point brought to my attention by 
 
 ## GraphQL Puts Client Performance First
 
-GraphQL is always the smallest possible request, whilst REST generally defaults to the fullest. It's common practice to offer options like `?fields=foo,bar` or partials. [Google recommend doing this for HTTP APIs](https://developers.google.com/google-apps/tasks/performance#partial), whatever that's worth.
+GraphQL is always the smallest possible response, whilst REST generally defaults to the fullest. It's common practice to offer options like `?fields=foo,bar` or partials. [Google recommend doing this for HTTP APIs](https://developers.google.com/google-apps/tasks/performance#partial), whatever that's worth.
 
 Even if a REST API returns only a basic partial by default, there are still more bits being transferred over the wire by default, than the GraphQL approach. If a client needs a field, they request it, and if the API adds a new field, clients don't get it, unless they discover that field in a blog post or whatever and add it to the GraphQL query.
 
