@@ -120,7 +120,7 @@ Here are the numbers:
 
 People like pretty graphs:
 
-<img src="https://dl.dropboxusercontent.com/u/37978558/blog/php-v-node-results.png" alt="Num. Seconds Passed v Page Number" style="width: 750px;"/>
+<img src="https://s3.amazonaws.com/philsturgeon-blog/php-v-node-results.png" alt="Num. Seconds Passed v Page Number" style="width: 750px;"/>
 
 ## Conclusions
 
@@ -134,7 +134,7 @@ I'm not going to say either system is faster, just that the massive gap in the o
 
 _**Update:** A few people have mentioned that Node by default will use maxConnections of 5, but setting it higher would make NodeJS run much quicker. As I said, I was sure NodeJS could go faster but I would never make assumptions about something I don't know much about. I re-ran the test and the results reflect these suggestions. Removing the blocking PHP approach (because obviously it's slow as shit) and running just the other three scripts looks like this:_
 
-<img src="https://dl.dropboxusercontent.com/u/37978558/blog/php-v-node-results2.png" alt="Num. Seconds Passed v Page Number" style="width: 750px;"/>
+<img src="https://s3.amazonaws.com/philsturgeon-blog/php-v-node-results2.png" alt="Num. Seconds Passed v Page Number" style="width: 750px;"/>
 
 _Look, they're the same. At this point it is just a network test. The speed between the two systems for handling this specific task is essentially identical, with both systems taking it in turns to "win" as they swap by about 0.3 seconds. This does not really effect any of the rest of the article, because it was assumed node could be tweaked to be more in line with PHP, I was never trying to suggest PHP was faster than node (even though a bunch of you seemed to think I did). Where did that come from?_
 
