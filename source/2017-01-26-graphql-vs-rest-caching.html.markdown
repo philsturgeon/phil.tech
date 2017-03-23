@@ -3,6 +3,7 @@ title: "GraphQL vs REST: Caching"
 date: 2017-01-26 22:16 UTC
 tags: graphql, rest, api, http, caching
 category: api
+comments: true
 ---
 
 Recently I wrote [GraphQL vs REST: Overview](/api/2017/01/24/graphql-vs-rest-overview/), giving a hype-free outline of the differences between [REST](https://en.wikipedia.org/wiki/Representational_state_transfer) and [GraphQL](http://graphql.org/). One section that would not have fit into that already lengthy article was caching, so I thought I'd fire that out next.
@@ -27,7 +28,7 @@ Ideally all three concepts would be used as often as possible, as doing slow thi
 
 Whenever you mentioning caching and speed, somebody will descend from the rafters screaming "Caching should not be used for performance!" Erf.
 
-Correct, caching should not be implemented to "make the endpoint load faster", because no matter how fast the cache implementation returns, unless the cache is warmed it is still going to have that initial slow load. Doing a slow thing once, then doing that same thing quicker after, is no good for those suffering the initial slow one request.
+Correct, caching should not be implemented to "make the endpoint load faster", because no matter how fast the cache implementation returns, unless the cache is warmed it is still going to have that initial slow load. Doing a slow thing once, then doing that same thing quicker after, is no good for those suffering the initial slow request.
 
 API developers should always attempt to optimize endpoints to perform quickly, making sure data is structured intelligently, in a way that is quick to query, has optimized indexes, using no computed values (or are computed ahead of time, etc.).
 
@@ -36,13 +37,13 @@ This article isn't going to confuse caching and performance, only focus on remov
 
 ## Using All The Caches
 
-Each of the three caching approaches mentioned are helpful in avoiding doing stuff unnecessarily. An endpoint-based API can start off adding `ETags` and `Cache-Control` tags in the application itself. The application can control if content is cacheable or not, for how long, and if the client is looking out for these things and handing the cache locally then they can use it.  
+Each of the three caching approaches mentioned are helpful in avoiding doing stuff unnecessarily. An endpoint-based API can start off adding `Etag` and `Cache-Control` tags in the application itself. The application can control if content is cacheable or not, for how long, allowing the client to look out for these rules and handle the cache locally (an iOS app for example, remembing a result and not making the same request again).
 
-Shoving network caching (HTTP cache proxies like Varnish, Squid or a hosted Varnish service called Fastly) in front of that application server can then save that application server work.
+Shoving network caching (HTTP cache proxies like Varnish, Squid or a hosted Varnish service called [Fastly](https://www.fastly.com/)) in front of that application server can then save that application server work.
 
-![A request being returned early by a varnish server. Source: [book.varnish-software.com](http://book.varnish-software.com/)](/images/article_images/2017-01-10-a-no-nonsense-comparison-of-graphql-and-rest/httpcachehit.png)
+![A request being returned early by a varnish server. -- book.varnish-software.com](/images/article_images/2017-01-26-graphql-vs-rest-caching/httpcachehit.png)
 
-![A request failing to find a match (a.k.a cache miss), and being passed on to the API server to fulfill. Source: [book.varnish-software.com](http://book.varnish-software.com/)](/images/article_images/2017-01-10-a-no-nonsense-comparison-of-graphql-and-rest/httpcachemiss.png)
+![A request failing to find a match (a.k.a cache miss), and being passed on to the API server to fulfill. -- book.varnish-software.com](/images/article_images/2017-01-26-graphql-vs-rest-caching/httpcachemiss.png)
 
 These tools can leverage HTTP headers like `Etag`, `Vary`, `Cache-Control` to handle cache validation, and know all the rules of HTTP, meaning this application caching can essentially be thrown in and function with very little effort from the API developers. Clients will get a speed boost without even having to implement their own client caching, even though they still could, and still should, as requesting data over the wire from the cache server is still slower than not requesting data.
 
@@ -71,14 +72,14 @@ REST is potentially onto a winner here. So long as application and network cachi
 
 The flip side of that coin is this: the more `customisable` an endpoint-based API becomes, the higher the cache miss rate, and the less useful network caching becomes for that API.
 
-Something I talked about a lot in the [GraphQL vs REST: Overview](https://philsturgeon.uk/api/2017/01/24/graphql-vs-rest-overview/) article is that REST is often considered to force the return of all the data, whilst GraphQL makes you specify the fields you would like returned. I explained the fact that REST APIs can absolutely do the same thing, but this can reduce the liklikehood of a cache hit.
+Something I talked about a lot in the [GraphQL vs REST: Overview](/api/2017/01/24/graphql-vs-rest-overview/) article is that REST is often considered to force the return of all the data, whilst GraphQL makes you specify the fields you would like returned. I explained the fact that REST APIs can absolutely do the same thing, but this can reduce the likelihood of a cache hit.
 
 Consider this example for an endpoint-based API with network caching, that offers sparse fieldsets:
 
 1. Client A requests `GET /turtles?fields=name,lifespan` responds in 200ms
-2. CLient B requests `GET /turtles?fields=name` 192ms
+2. Client B requests `GET /turtles?fields=name` 192ms
 
-Client B was hoping for a quicker response thanks to requesting a smaller response, which is kinda true as it shaved a bit of time off, but sadly it resulted in a cache miss as the network cache would consider those two URLs entirely dfferent requests. If the application caching was not set up appropriately, or the data is not something that is cacheable, then both requests would be fairly slow.
+Client B was hoping for a quicker response thanks to requesting a smaller response, which is kinda true as it shaved a bit of time off, but sadly it resulted in a cache miss as the network cache would consider those two URLs entirely different requests. If the application caching was not set up appropriately, or the data is not something that is cacheable, then both requests would be fairly slow.
 
 The same scenario for an endpoint-based API with network caching, that **does not** offer sparse fieldsets:
 
