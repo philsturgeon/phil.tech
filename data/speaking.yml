@@ -2,12 +2,12 @@ upcoming:
   - talks:
       - what-rails-can-teach-php
       - a-no-nonsense-graphql-and-rest-comparison
-    city: Boston
-    country: United States
+    city: Charlottetown
+    country: Canada
     event:
-      name: A Day of REST Boston
-      url: https://adayofrest.hm/boston-2017/
-      dates: 9th March 2017
+      name: Northeast PHP
+      url: http://2017.northeastphp.org/
+      dates: 9th-11th August 2017
 
 past:
   - talks:
