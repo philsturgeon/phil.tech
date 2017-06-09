@@ -1,6 +1,7 @@
 upcoming:
   - talks:
-      - api-tales-of-woe-and-woah
+      - what-rails-can-teach-php
+      - a-no-nonsense-graphql-and-rest-comparison
     city: Boston
     country: United States
     event:
@@ -9,6 +10,14 @@ upcoming:
       dates: 9th March 2017
 
 past:
+  - talks:
+      - api-tales-of-woe-and-woah
+    city: Boston
+    country: United States
+    event:
+      name: A Day of REST Boston
+      url: https://adayofrest.hm/boston-2017/
+      dates: 9th March 2017
   - talks:
       - api-tales-of-woe-and-woah
     city: São Paulo

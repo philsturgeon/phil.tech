@@ -1,4 +1,13 @@
 recycled:
+
+  what-rails-can-teach-php:
+    title: What Rails Can Teach PHP About Building APIs
+    short: As somebody who's built APIs with PHP since 2009, and built APIs with Rails for the last two years, the contrast in some of the tooling available is mind-blowing. Generating test data, spec-driven testing, simplistic state machines, serialization and deserialization in JSON-API, REPL debugging with breakpoints, file upload handlers, etc.
+
+  a-no-nonsense-graphql-and-rest-comparison:
+    title: A No Nonsense GraphQL and REST Comparison
+    short: Folks who don't understand what REST and HATEOAS mean keep acting like GraphQL is somehow a replacement. It is amazing, and I'll explain why, but they're two different things, used for different things!
+
   api-tales-of-woe-and-woah:
     title: API Tales of Woe and Woah
     short: Aimed at intermediates and advanced API developers, this skips the "how to use status codes" type of introductary stuff, and gets right into the funny stories of things going wrong.
