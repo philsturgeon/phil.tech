@@ -2,7 +2,7 @@ set :site_title, 'Phil Sturgeon'
 set :site_root, 'https://philsturgeon.uk'
 set :logo, "/images/logo.jpg"
 set :cover, "/images/cover.jpg"
-set :description, 'Platform Engineer @ WeWork who talks about APIs a lot. Programming Polyglot, Pragmatist, Centerist and Sarcasist. The League of Extraordinary Packages, PHP The Right Way, Ex-PHP-FIG, Ex-CodeIgniter, Ex-FuelPHP, Ex-PyroCMS.'
+set :description, 'Platform Engineer @ WeWork who talks about APIs a lot. Programming Polyglot, Pragmatist, Centerist and Sarcasist. Ex-The League of Extraordinary Packages, PHP The Right Way, Ex-PHP-FIG, Ex-CodeIgniter, Ex-FuelPHP, Ex-PyroCMS.'
 
 set :author, {
   name: 'Phil Sturgeon',
