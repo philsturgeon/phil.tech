@@ -1,8 +1,7 @@
 %hr
 
-
 - if article.tags.include? "graphql"
-  %p I've done a bit of a series on GraphQL, and a pragmatic take on its excellence:
+  %p More on GraphQL:
 
   %ul
     %li
@@ -14,8 +13,7 @@
     %li
       %a{href: '/api/2017/04/18/you-might-not-need-graphql/'} You Might Not Need GraphQL
 
-
-- if article.tags.include? "api"
+- if article.tags.include? "api" && article.metadata[:page]['hide_closing'] != true
   %p
     %em If you're into APIs, I've written a whole book called <a href="https://apisyouwonthate.com/?utm_source=philsturgeon.uk&utm_content=api-tag-footer">Build APIs You Won't Hate</a>, and it's available in ebook or paperback form! If programming books normally bore the crap out of you, this book is for you.
   %p
