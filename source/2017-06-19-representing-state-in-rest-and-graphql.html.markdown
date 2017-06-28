@@ -256,7 +256,7 @@ Check out this potential JSON response.
 
 Perfect!
 
-We now which HTTP method to use. We know what fields to send. We know the data types of the fields. We don't know a huge amount about what to put in those fields, but it's a start.
+We know which HTTP method to use. We know what fields to send. We know the data types of the fields. We don't know a huge amount about what to put in those fields, but it's a start.
 
 How easy would it be to hook that response up to an "Actions" dropdown, and dynamically have the interface built out from it? You could roll out certain features to your client applications _without touching the client code_.
 
