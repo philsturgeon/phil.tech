@@ -8,7 +8,7 @@ excerpt: "Don't be fooled into thinking you can use HTTP status codes on their o
 ---
 
 I spotted an article called [Just learn Rails (Part 3) HTTP status codes](http://jakeyesbeck.com/2015/09/20/rails-http-status-codes/). It started off good, and I liked that it was teaching people to avoid hardcoding their HTTP status codes in code, using `:conflict` instead of `409` and the like.
- 
+
 That is a good message to send, which is why I wrote an article on [exactly that](https://philsturgeon.uk/http/2015/08/16/avoid-hardcoding-http-status-codes/) last month.
 
 The article also stresses that you must not return errors on `200`, which only the insanity wolf would do.
@@ -37,7 +37,7 @@ class BooksController < ApplicationController
 end
 ~~~
 
-Fuck that! Am I unauthorized because I didn't provide a key or because the key was invalid? A developer can spend forever debugging 
+Fuck that! Am I unauthorized because I didn't provide a key or because the key was invalid? A developer can spend forever debugging
 that alone.
 
 > Alternatively, if extremely verbose and tedious error messages are the cat's pajamas to you, it is possible to use these symbols in conjunction with response bodies:
@@ -65,7 +65,7 @@ Error messages are not some over-the-top exercise, creating tedious reading and 
 > ### Brevity is underrated
 > This example has exposed the difference between a decent API and one that understands how HTTP should work. While the specific problem could be solved with CanCanCan, it is important to understand how and why those libraries work the way that they do.
 
-Absolutely, a good API should definitely use status codes appropriately, but the suggestion throughout this article is that suplimenting that HTTP status messages are a pain, or uneccessary. 
+Absolutely, a good API should definitely use status codes appropriately, but the suggestion throughout this article is that suplimenting that HTTP status messages are a pain, or uneccessary.
 
 Bunk. Bunk I say!
 
@@ -99,14 +99,14 @@ If you make me work with an API that does not have errors, I'm not coming to you
 
 > If one were to continue down the naive path, returning hashes or strings by default for all responses, things would become messy quickly. That response structure unjustly handcuffs the API clients to be unnecessarily tolerant of ad-hoc text responses. But, if the API conforms to HTTP standards, a client knows exactly what each response means. Nothing is left up to the imagination, and no bright new developer can accidentally change the error key to Error and ruin everyone's day.
 
-Returning error messages is not in the HTTP specification, so best not to do it ever? 
+Returning error messages is not in the HTTP specification, so best not to do it ever?
 
 I'll concede that my jimmies do get a little rustled when I see people making their own random ad-hoc error formats, especially when error messages for APIs are a solved problem with some great solutions:
 
 - [JSON-API: Errors](http://jsonapi.org/format/#errors)
 - [HTTP Problems](https://www.mnot.net/blog/2013/05/15/http_problem)
 
-Hilariously that last one [is an RFC](https://tools.ietf.org/html/draft-nottingham-http-problem-03), written largely the same chap responsible for most of the modern day HTTP specification, so, if we're into following specs with our APIs then we should probably be doing that.
+Hilariously that last one [is an RFC](https://tools.ietf.org/html/rfc7807), written largely the same chap responsible for most of the modern day HTTP specification, so, if we're into following specs with our APIs then we should probably be doing that.
 
 > Instead of capturing in text every single detail about why a request did not result in an expected response, use HTTP status codes and save the novella for another time.
 

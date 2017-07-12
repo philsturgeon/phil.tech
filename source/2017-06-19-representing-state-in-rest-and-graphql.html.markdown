@@ -174,7 +174,7 @@ What mime type should be put in `Accept`?
 
 There are a few ways HATEOAS can help.
 
-**OPTIONS + Meta Data**
+#### OPTIONS + Meta Data
 
 A client could call `OPTIONS /invoices/093b941d/payment_attempts` and get a response with metadata about the document.
 
@@ -182,7 +182,7 @@ What actions are available. What fields can be updated. What data do those field
 
 Sometimes people make [homegrown solutions](http://zacstewart.com/2012/04/14/http-options-method.html), and some folks leverage tools like [JSON Schema](http://json-schema.org/) for the fields part.
 
-**Hyper Schema**
+#### Hyper Schema
 
 Another approach is [JSON Hyper-Schema](http://json-schema.org/latest/json-schema-hypermedia.html), which is a draft spec. Is essentially an extension to JSON Schema, which adds `links` keywords! Instead of making your own `OPTIONS` metadata and linking to JSON Schema, this Hyper-Schema could be the entire OPTIONS response!
 
@@ -196,7 +196,7 @@ If hiding it behind options seems weird, you can also/either place a link in the
 
 Using metadata to let clients know what data they should send is very cool, as it offers a method for client-side validation which matches server-side validation perfectly. Now your various applications can use that JSON Schema to validate data locally before even trying the POST (saving time and reducing traffic to the server).
 
-**Hypermedia-friendly Formats**
+#### Hypermedia-friendly Formats
 
 Instead of two requests, another approach is combining the metadata with the response document. Our example so far has been using [JSON-API](http://jsonapi.org/), so to continue using that:
 
