@@ -104,7 +104,7 @@ Sadly when there are sponsor provided people flogging the product, the reaction 
 
 ![XKCD on "That guy sucks" vs. "Women suck"](http://imgs.xkcd.com/comics/how_it_works.png)
 
-Just like with "quota filling", if there are just a few woman and they are not giving highly technical, it leaves a general bad impression of women as a whole.
+Just like with "quota filling", if there are just a few woman and they are not giving particlarly technical talks, it leaves a general bad impression of women as a whole.
 
 Besides, if as a conference you can't get past 10% when you have sponsor provided women speakers, then you're really fucking something up at a fundamental level.
 

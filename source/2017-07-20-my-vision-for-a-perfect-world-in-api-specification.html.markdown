@@ -1,7 +1,9 @@
 ---
 title: Chasing the Perfect API Specification Workflow
-date: 2017-07-21 17:32 UTC
-tags:
+date: 2017-07-20 15:32 UTC
+tags: api, json-schema, api-specs
+category: api
+comments: true
 ---
 
 Documentation is a nice thing to have, but it is often treated as optional or superfluous, especially in teams where the clients and servers are managed by the same people. Here the code is considered the contract, so why define it again in documentation?
@@ -204,8 +206,11 @@ Never have I been happier to be wrong. I still think documentation should be con
 
 Plenty more work to be done.
 
-1. Show folks how to prototype with Open API (mock servers, etc.)
-1. Write a unit test for serializers to match a coresponding JSON Schema
-1. Implement [RSpec / JSON Schema matchers](https://robots.thoughtbot.com/validating-json-schemas-with-an-rspec-matcher) to simplify integration tests
+1. Focus on getting enough Open API v2.0 done that we at least have documentation
+1. Upgrade to v3.0 when it's out
+1. Generate `tests/contracts/foo.json` from `docs/definitions/foo.json` for now. Backwards as that is
+1. Implement [RSpec / JSON Schema matchers](https://robots.thoughtbot.com/validating-json-schemas-with-an-rspec-matcher) to simplify integration tests and coerce folks into keeping spec files up to date
 1. Sync Open API changes to a read-only Postman Collections
 1. Sync Open API changes to a read-only Paw Collections (so people can use either!)
+
+_I'm writing [a book about API specifications](https://leanpub.com/api-specification-aint-just-for-nerds), various formats, all that good stuff. It's a complicated world that I'm going to try and make simple for everyone._
