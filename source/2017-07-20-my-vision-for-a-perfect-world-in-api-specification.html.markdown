@@ -17,7 +17,7 @@ Certainly, with all the tooling around, API documentation seems like "another th
 1. Documentation
 1. Postman Collections
 
-Seems a bit redundant to have to build all these things, which for years has lead me to look for ways to simplify things. When documentation is considered an extra job, that job wont get done. If you can get entice developers with cool functionality (like automating some of the mundae work involved in the list above) then documentation can happen for free.
+Seems a bit redundant to have to build all these things, which for years has lead me to look for ways to simplify things. When documentation is considered an extra job, that job wont get done. If you can get entice developers with cool functionality (like automating some of the mundane work involved in the list above) then documentation can happen for free.
 
 A few months back I started to realize they could all be simplified by API specifications, writing contracts in one format, which can be used for a lot of different stuff: [JSON Schema](http://json-schema.org).
 
