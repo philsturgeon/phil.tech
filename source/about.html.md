@@ -3,30 +3,33 @@ layout: page
 title: About
 ---
 
-I've been programming since I was about 12, writing awful messes in spaghetti PHP. 14 years later and I have learned how to a) program in languages other than PHP, and, b) make PHP be a better place in a few small ways.
+I've been programming since I was about 12, writing awful messes in spaghetti PHP. 16 years later and I have learned how to a) program in a bunch of other languages, and, b) make PHP be a better place. Years have been shaved off my lifespan, fighting to help make better education resources, quality standards, and push new functionality into the core.
 
-I love to explore new technologies, try new methodologies, and keep building bigger & better things. I am not always a quick learner, but when I'm  smashing my head against a wall about something I can usually turn it around into easily digestible blogs, tutorials, screencasts or conference talks.
+Tech startups brought me from Bristol to Newcastle, finally to New York. [WeWork](https://wework.com) is offering me the chance to work on amazing stuff as a Platform Engineer, where I split my time between improving legacy services, and green field API development.
 
-Luckily my last job at [Kapture] - a trendy startup that went beeswax - and my new job with [Ride] - an awesome carpool company which has just launched - lets me do a lot of that. I've been writing a bunch of Rails, a fair bit of Go and using stuff I never got to use being a CodeIgniter-on-demand-freelance-monkey for way too many years.
+Our definition of Platform Engineer is: providing tools, APIs/services and guidelines that help all/many other development teams. It sits between Devops and Developer Happyness, which makes me happy. We're the oil that keeps the insanely big cogs turning.
 
-[Kapture]: http://mashable.com/2012/11/16/kapture/
-[Ride]: http://ride.com/
+The theme of the last few decades has been: taking on complex topics, breaking them down into undersandable chunks, then writing, podcasting, and blogging about it as much as possible. These days it's [REST](/tag/rest/), [GraphQL](/tag/graphql) and [API Specifications](/tag/api-specs).
+
+I love to teach, and if I'm not [speaking](/speaking/) at a conference near you, then maybe we can do some [remote consulting](https://clarity.fm/philsturgeon).
 
 ## Brags
 
-* Core team of [CodeIgniter] for a bit.
-* Founded [PyroCMS], then sold it.
-* One half of the [PHP Town Hall] podcast.
-* I done a [book about PyroCMS].
-* I done a [book about APIs] too.
-* I helped a lot out with [PHP The Right Way].
-* ... and we did [a book on that] too.
-* [NodeJS agreed with me] one time.
+* Core team of [CodeIgniter] for a bit
+* Founded [PyroCMS], then sold it
+* Used to be one half of the [PHP Town Hall] podcast
+* I done a [book about PyroCMS]
+* I done a [book about APIs] too
+* I helped a lot out with [PHP The Right Way]
+* ... and we did [a book on that] too
+* Started up [API Busters] podcast
+* [NodeJS agreed with me] one time
 
 [PyroCMS]: http://pyrocms.com/
 [CodeIgniter]: http://codeigniter.com/
 [book about PyroCMS]: https://leanpub.com/catapultintopyrocms
 [book about APIs]: http://apisyouwonthate.com/
+[API Busters]: http://apibusters.com/
 [PHP Town Hall]: http://phptownhall.com/
 [PHP The Right Way]: http://phptherightway.com/
 [NodeJS agreed with me]: https://twitter.com/nodejs/status/400295942311534592
