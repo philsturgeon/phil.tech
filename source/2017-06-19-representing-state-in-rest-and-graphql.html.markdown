@@ -4,7 +4,6 @@ date: 2017-06-19 22:56 UTC
 tags: hypermedia, hateoas, graphql, rest, api, http
 category: api
 comments: true
-hide_closing: true
 excerpt: It's very common for APIs to be treated like "databases over HTTP", with clients expected to infer state from a collection of boolean switches and date fields. Stop this with HATEOAS.
 ---
 

@@ -6,13 +6,17 @@
   %ul
     %li
       %a{href: '/api/2017/01/24/graphql-vs-rest-overview/'} GraphQL vs REST: Overview
-
     %li
       %a{href: '/api/2017/01/26/graphql-vs-rest-caching/'} GraphQL vs REST: Caching
-
     %li
       %a{href: '/api/2017/04/18/you-might-not-need-graphql/'} You Might Not Need GraphQL
+    %li
+      %a{href: '/api/2017/06/19/representing-state-in-rest-and-graphql/'} Representing State in REST and GraphQL
 
-- if article.tags.include? "api" && article.metadata[:page]['hide_closing'] != true
-  %p
-    %em If you're into APIs, I've written a whole book called <a href="https://apisyouwonthate.com/?utm_source=philsturgeon.uk&utm_content=api-tag-footer">Build APIs You Won't Hate</a>, and it's available in ebook or paperback form! If programming books normally bore the crap out of you, this book is for you.
+  - if article.metadata[:page]['hide_closing'] != true
+    %p
+      %em If you appreciate these articles and want me to keep them coming, fire some coins over, and maybe I'll even run the next one through a spell checker.
+    %p
+      %em
+        <strong>bitcoin</strong> - 1PNbuCjgATjaaHtq7zZKqe3FBL7ngyDi23<br/>
+        <strong>etherium</strong> - 0x507d6E943885a5AeD76Fa3C43dB5C73a0f1Dc792
