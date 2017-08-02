@@ -19,4 +19,4 @@ pageable: true
               %span{class: "post-tag-#{tag}"}
                 = link_to "##{tag}", tag_path(tag)
 
-= partial "includes/pagination", locals: {paginate: paginate, num_pages: num_pages, prev_page: prev_page, page_number: page_number, next_page: next_page}
+  = partial "includes/pagination", locals: {paginate: paginate, num_pages: num_pages, prev_page: prev_page, page_number: page_number, next_page: next_page}
