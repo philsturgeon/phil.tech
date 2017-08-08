@@ -66,7 +66,7 @@
         </section>
         <footer class="post-footer">
             <section class="share">
-              <% config.social.each do |network, social| %>
+              <% false && config.social.each do |network, social| %>
                 <% unless social[:share_url].nil? %>
                   <a class="icon-<%= social[:icon] %>" href="<%= share_link(network, current_article) %>"
                     onclick="window.open(this.href, '<%= social[:icon] %>-share', 'width=550,height=255');return false;">

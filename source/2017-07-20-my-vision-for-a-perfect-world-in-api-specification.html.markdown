@@ -213,4 +213,12 @@ Plenty more work to be done.
 1. Sync Open API changes to a read-only Postman Collections
 1. Sync Open API changes to a read-only Paw Collections (so people can use either!)
 
+## Update 2017-08-08
+
+When I discuss this "perfect workflow", I'm talking about my current needs. At work I want to get all the stuff above done, so that things at work are awesome. This caused me to miss out on two key important points.
+
+**Hypermedia:** I've not mentioned Hypermedia here. I'm still struggling to decide how API specification and hypermedia fit together, as it can live in the HTTP body or in the metadata. More on that in the future - but work does not use Hypermedia (yet)
+
+**GraphQL:** Theoretically with JSON Schema or Open API / Swagger as a base for our contracts we gain GraphQL almost for free via a multitude of converters. I'd love to experiment with tacking a GraphQL endpoint into an otherwise RESTish API, so the team can experiment at making their data highly querably (instead of the classic normalized approach) to avoid it being slow as dog-shit. That should help out data structuring in general as they do it, because without that work GraphQL and JSON-API-style includes are always going to suffer equally.
+
 _I'm writing [a book about API specifications](https://leanpub.com/api-specification-aint-just-for-nerds), various formats, all that good stuff. It's a complicated world that I'm going to try and make simple for everyone._
