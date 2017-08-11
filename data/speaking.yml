@@ -1,19 +1,30 @@
 upcoming:
 
+  - event:
+      name: RubyConf Colombia 2017
+      url: http://www.rubyconf.co/
+      dates: 7th–8th September 2017
+    city: Medellin
+    country: Colombia
+    talks:
+      # Dont actually know hahaha
+
 past:
 
-  - talks:
-      - slug: what-rails-can-teach-php
-        slides: https://talks.philsturgeon.uk/instances/nephp-17/what-rails-can-teach-php-about-building-apis/html
-      - slug: a-no-nonsense-graphql-and-rest-comparison
-        slides: https://talks.philsturgeon.uk/instances/nephp-17/a-no-nonsense-graphql-rest-comparison/html
-
-    city: Charlottetown
-    country: Canada
-    event:
+  - event:
       name: Northeast PHP
       url: http://2017.northeastphp.org/
       dates: 9th-11th August 2017
+    city: Charlottetown
+    country: Canada
+    talks:
+      - slug: what-rails-can-teach-php
+        slides: https://talks.philsturgeon.uk/instances/nephp-17/what-rails-can-teach-php-about-building-apis/html
+        feedback: https://joind.in/event/northeast-php-2017/what-rails-can-teach-php-about-building-apis
+
+      - slug: a-no-nonsense-graphql-and-rest-comparison
+        slides: https://talks.philsturgeon.uk/instances/nephp-17/a-no-nonsense-graphql-rest-comparison/html
+        feedback: https://joind.in/event/northeast-php-2017/a-no-nonsense-graphql-and-rest-comparison
 
   - city: Boston
     country: United States

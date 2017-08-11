@@ -20,4 +20,4 @@ title: Books
       .button-group
         - book.links.each do |link|
           %a{ href: link.url }
-            %button.buy-book{class: link["class"]}= link.label
+            %button.action{class: link["class"]}= link.label
