@@ -15,7 +15,7 @@ comments: true
 disqus_identifier: geeks-giving-for-aids
 ---
 
-After doing my [100 mile bike ride](http://philsturgeon.co.uk/blog/2013/06/biked-to-the-beach-2013) to raise money for [autism research](http://biketothebeach.kintera.org/faf/home/default.asp?ievent=1056864) I've decided to step things up a gear (ha) and go further in a bid to raise more.
+After doing my [100 mile bike ride](https://philsturgeon.uk/blog/2013/06/biked-to-the-beach-2013) to raise money for [autism research](http://biketothebeach.kintera.org/faf/home/default.asp?ievent=1056864) I've decided to step things up a gear (ha) and go further in a bid to raise more.
 
 Next I will be riding the 285 miles from Boston to New York over 3 days, with the goal of raising money for Housing Works, who work with those struggling with HIV/AIDS and homelessness. This work is being done with the hope of one day putting AIDS behind us.
 
