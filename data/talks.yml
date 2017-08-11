@@ -1,32 +1,27 @@
-recycled:
+what-rails-can-teach-php:
+  title: What Rails Can Teach PHP About Building APIs
+  short: As somebody who's built APIs with PHP since 2009, and built APIs with Rails for the last two years, the contrast in some of the tooling available is mind-blowing. Generating test data, spec-driven testing, simplistic state machines, serialization and deserialization in JSON-API, REPL debugging with breakpoints, file upload handlers, etc.
 
-  what-rails-can-teach-php:
-    title: What Rails Can Teach PHP About Building APIs
-    short: As somebody who's built APIs with PHP since 2009, and built APIs with Rails for the last two years, the contrast in some of the tooling available is mind-blowing. Generating test data, spec-driven testing, simplistic state machines, serialization and deserialization in JSON-API, REPL debugging with breakpoints, file upload handlers, etc.
+a-no-nonsense-graphql-and-rest-comparison:
+  title: A No Nonsense GraphQL and REST Comparison
+  short: Folks who don't understand what REST and HATEOAS mean keep acting like GraphQL is somehow a replacement. It is amazing, and I'll explain why, but they're two different things, used for different things!
 
-  a-no-nonsense-graphql-and-rest-comparison:
-    title: A No Nonsense GraphQL and REST Comparison
-    short: Folks who don't understand what REST and HATEOAS mean keep acting like GraphQL is somehow a replacement. It is amazing, and I'll explain why, but they're two different things, used for different things!
+api-tales-of-woe-and-woah:
+  title: API Tales of Woe and Woah
+  short: Aimed at intermediates and advanced API developers, this skips the "how to use status codes" type of introductary stuff, and gets right into the funny stories of things going wrong.
 
-  api-tales-of-woe-and-woah:
-    title: API Tales of Woe and Woah
-    short: Aimed at intermediates and advanced API developers, this skips the "how to use status codes" type of introductary stuff, and gets right into the funny stories of things going wrong.
-    slides: https://talks.philsturgeon.uk/complete/tales-of-woe-and-woah
+what-they-should-tell-you:
+  title: What They Should Have Told You About API Development
+  short: "This talk focuses on design choices, such as: When to use REST, and when to use RPC."
 
-  what-they-should-tell-you:
-    title: What They Should Have Told You About API Development
-    short: "This talk focuses on design choices, such as: When to use REST, and when to use RPC."
-    slides: https://talks.philsturgeon.uk/complete/what-they-should-have-told-you-about-apis
+building-extraordinary-packages:
+  title: Building Extraordinary Packages
+  short: Learn about the League of Extraordinary Packages, how it came to be, and how you can focus on building great quality PHP packages.
 
-  building-extraordinary-packages:
-    title: Building Extraordinary Packages
-    short: Learn about the League of Extraordinary Packages, how it came to be, and how you can focus on building great quality PHP packages.
+go-workshop:
+  title: Sprinkle in Some Go for Fun and Profit
+  short: A four hour workshop, to help those new to Go build an autocomplete service.
 
-  go-workshop:
-    title: Sprinkle in Some Go for Fun and Profit
-    short: A four hour workshop, to help those new to Go build an autocomplete service.
-
-  api-pain-points:
-    title: API Pain Points
-    short: About to start building your first API? This talk will give you some hints and tips to get started, with some horror stories of things that have gone wrong for myself and others.
-    slides: https://talks.philsturgeon.uk/complete/api-pain-points/slides.pdf
+api-pain-points:
+  title: API Pain Points
+  short: About to start building your first API? This talk will give you some hints and tips to get started, with some horror stories of things that have gone wrong for myself and others.

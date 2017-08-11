@@ -1,7 +1,13 @@
 upcoming:
+
+past:
+
   - talks:
-      - what-rails-can-teach-php
-      - a-no-nonsense-graphql-and-rest-comparison
+      - slug: what-rails-can-teach-php
+        slides: https://talks.philsturgeon.uk/instances/nephp-17/what-rails-can-teach-php-about-building-apis/html
+      - slug: a-no-nonsense-graphql-and-rest-comparison
+        slides: https://talks.philsturgeon.uk/instances/nephp-17/a-no-nonsense-graphql-rest-comparison/html
+
     city: Charlottetown
     country: Canada
     event:
@@ -9,67 +15,75 @@ upcoming:
       url: http://2017.northeastphp.org/
       dates: 9th-11th August 2017
 
-past:
-  - talks:
-      - api-tales-of-woe-and-woah
-    city: Boston
+  - city: Boston
     country: United States
     event:
       name: A Day of REST Boston
       url: https://adayofrest.hm/boston-2017/
       dates: 9th March 2017
-  - talks:
-      - api-tales-of-woe-and-woah
-    city: São Paulo
+    talks:
+      - slug: api-tales-of-woe-and-woah
+        slides: https://talks.philsturgeon.uk/instances/a-day-of-rest/api-tales-of-woe-and-woah/
+
+  - city: São Paulo
     country: Brazil
     event:
       name: PHP Conference Brasil 2016
       url: http://www.phpconference.com.br
       dates: 7th–11th December 2016
+    talks:
+      - slug: api-tales-of-woe-and-woah
+        slides: https://talks.philsturgeon.uk/instances/php-brazil-16/api-tales-of-woe-and-woah/
 
-  - talks:
-      - what-they-should-tell-you
-    city: Sofia
+  - city: Sofia
     country: Bulgaria
     event:
       name: Bulgaria PHP Conference 2016
       url: http://www.bgphp.org
       dates: 7th–9th October 2016
+    talks:
+      - slug: what-they-should-tell-you
+        slides: https://talks.philsturgeon.uk/content/what-they-should-have-told-you-about-apis/index.html
 
-  - talks:
-      - building-extraordinary-packages
     city: Miami
     country: United States
     event:
       name: SunshinePHP 2016
       url:
       dates: 4th–6th February 2016
+    talks:
+      - slug: building-extraordinary-packages
+        slides: https://talks.philsturgeon.uk/content/building-extraordinary-packages/slides.pdf
 
-  - talks:
-      - api-pain-points
-      - building-extraordinary-packages
-    city: Seattle
+  - city: Seattle
     country: United States
     event:
       name: Pacific Northwest PHP
       url: http://pnwphp.com
       dates: 10th–12th September 2015
+    talks:
+      - slug: api-pain-points
+        slides: https://talks.philsturgeon.uk/content/api-pain-points/slides.pdf
+      - slug: building-extraordinary-packages
+        slides: https://talks.philsturgeon.uk/content/building-extraordinary-packages/slides.pdf
 
-  - talks:
-      - go-workshop
-      - building-extraordinary-packages
-    city: Wellington
+  - city: Wellington
     country: New Zealand
     event:
       name: New Zealand PHP Conference 2015
       url: http://2015.phpconference.org.nz
       dates: 2nd–4th September 2015
+    talks:
+      - slug: go-workshop
+      - slug: building-extraordinary-packages
+        slides: https://talks.philsturgeon.uk/content/building-extraordinary-packages/slides.pdf
 
-  - talks:
-      - api-pain-points
-    city: Portsmouth
+  - city: Portsmouth
     country: United Kingdom
     event:
       name: PHP South Coast Conference 2015
       url:
       dates: 18th July 2015
+    talks:
+      - slug: api-pain-points
+        slides: https://talks.philsturgeon.uk/instances/php-south-coast-15/api-pain-points.pdf
