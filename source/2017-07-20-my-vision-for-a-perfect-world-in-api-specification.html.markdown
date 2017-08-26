@@ -1,7 +1,7 @@
 ---
 title: Chasing the Perfect API Specification Workflow
 date: 2017-07-20 15:32 UTC
-tags: api, json-schema, api-specs
+tags: api, json-schema, api-specs, openapi, raml
 category: api
 comments: true
 ---
