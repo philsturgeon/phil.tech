@@ -1,15 +1,16 @@
 upcoming:
 
+past:
+
   - event:
       name: RubyConf Colombia 2017
       url: http://www.rubyconf.co/
-      dates: 7th–8th September 2017
+      dates: 8th–9th September 2017
     city: Medellin
     country: Colombia
     talks:
-      # Dont actually know hahaha
-
-past:
+      - slug: a-no-nonsense-graphql-and-rest-comparison
+        slides: https://talks.philsturgeon.uk/instances/rubyconfco-17/a-no-nonsense-graphql-rest-comparison/html
 
   - event:
       name: Northeast PHP
