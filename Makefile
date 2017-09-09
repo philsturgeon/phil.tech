@@ -1,5 +1,6 @@
 build:
 	./bin/middleman build
 
+# I'm not happy about this, but had some bizarre issues and this fixes em. Fuck it.
 deploy:
-	./bin/middleman deploy -b
+	rm -rf build && mkdir build && ./bin/middleman deploy -b
