@@ -1,14 +1,31 @@
+http-caching:
+  title: "HTTP Caching: Improving Performance & Saving the Ice Caps"
+  short: >
+    HTTP Caching is something many people have heard of, and usually know a bit about but skip implementing in any
+    real way. Browsers are expected to do everything correctly by default, and backend systems don’t bother because
+
+    Redis Caching is apparently fine... Well it’s not. Balancing real-time information and avoiding making
+    unnecessary requests isn’t a pipe dream, and there are plenty of tools out there to help you get it done
+    right now.
+
 what-rails-can-teach-php:
   title: What Rails Can Teach PHP About Building APIs
-  short: As somebody who's built APIs with PHP since 2009, and built APIs with Rails for the last two years, the contrast in some of the tooling available is mind-blowing. Generating test data, spec-driven testing, simplistic state machines, serialization and deserialization in JSON-API, REPL debugging with breakpoints, file upload handlers, etc.
+  short: >
+    As somebody who's built APIs with PHP since 2009, and built APIs with Rails for the last two years, the contrast
+    in some of the tooling available is mind-blowing. Generating test data, spec-driven testing, simplistic state
+    machines, serialization and deserialization in JSON-API, REPL debugging with breakpoints, file upload handlers,
+    etc.
 
 a-no-nonsense-graphql-and-rest-comparison:
   title: A No Nonsense GraphQL and REST Comparison
-  short: Folks who don't understand what REST and HATEOAS mean keep acting like GraphQL is somehow a replacement. It is amazing, and I'll explain why, but they're two different things, used for different things!
+  short: >
+    Folks who don't understand what REST and HATEOAS mean keep acting like GraphQL is somehow a replacement.
+    It is amazing, and I'll explain why, but they're two different things, used for different things!
 
 api-tales-of-woe-and-woah:
   title: API Tales of Woe and Woah
-  short: Aimed at intermediates and advanced API developers, this skips the "how to use status codes" type of introductary stuff, and gets right into the funny stories of things going wrong.
+  short: >
+    Aimed at intermediates and advanced API developers, this skips the "how to use status codes" type of introductary stuff, and gets right into the funny stories of things going wrong.
 
 what-they-should-tell-you:
   title: What They Should Have Told You About API Development
@@ -16,7 +33,9 @@ what-they-should-tell-you:
 
 building-extraordinary-packages:
   title: Building Extraordinary Packages
-  short: Learn about the League of Extraordinary Packages, how it came to be, and how you can focus on building great quality PHP packages.
+  short: >
+    Learn about the League of Extraordinary Packages, how it came to be, and how you can focus on building
+    great quality PHP packages.
 
 go-workshop:
   title: Sprinkle in Some Go for Fun and Profit
@@ -24,4 +43,6 @@ go-workshop:
 
 api-pain-points:
   title: API Pain Points
-  short: About to start building your first API? This talk will give you some hints and tips to get started, with some horror stories of things that have gone wrong for myself and others.
+  short: >
+    About to start building your first API? This talk will give you some hints and tips to get started,
+    with some horror stories of things that have gone wrong for myself and others.

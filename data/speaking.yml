@@ -1,6 +1,17 @@
-upcoming:
+# upcoming:
 
 past:
+
+  - event:
+      name: PHP South West UK Meetup
+      url: https://phpsw.uk/
+      dates: 10th January 2018
+    city: Bristol
+    country: United Kingdom
+    talks:
+      - slug: http-caching
+        slides: https://talks.philsturgeon.uk/instances/phpsw-jan18/http-caching-to-save-the-polar-bears/html
+        feedback: http://joind.in/talk/ae67c
 
   - event:
       name: RubyConf Colombia 2017
