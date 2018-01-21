@@ -23,7 +23,7 @@ REST is an [architectural concept](https://www.ics.uci.edu/~fielding/pubs/disser
 
 GraphQL is a [query language](http://graphql.org/learn/queries/), [specification](http://facebook.github.io/graphql/), and [collection of tools](https://github.com/graphql/), designed to operate over a single endpoint via HTTP, optimizing for performance and flexibility.
 
-One of the [main tenants of REST](http://www.restapitutorial.com/lessons/whatisrest.html) is to utilize the uniform interface of the protocols it exists in. When utilizing HTTP, REST can leverage HTTP content-types, caching, status codes, etc., whereas GraphQL invents its own conventions.
+One of the [main tenets of REST](http://www.restapitutorial.com/lessons/whatisrest.html) is to utilize the uniform interface of the protocols it exists in. When utilizing HTTP, REST can leverage HTTP content-types, caching, status codes, etc., whereas GraphQL invents its own conventions.
 
 Another main focus for REST is hypermedia controls (a.k.a <a title="Hypermedia As The Engine Of Application State" href="https://en.wikipedia.org/wiki/HATEOAS">HATEOAS</a>), which lets a well designed client run around an API like a human runs around the Internet; starting with a search for "How to complete my tax returns", reading a perfectly relevant article, and after a few clicks ending up on BuzzFeed article about Miley Cyrus throwing Liam Hemsworth a "Weed-Themed" birthday party.
 
@@ -79,7 +79,7 @@ mutation addAvatar {
 
 Some will argue that this is more "clean", and it is, it's very clean, but being forced to create another service is overkill for smaller images, especially early on. Another approach is to upload directly to Amazon S3, forcing a dependency on clients and potentially letting your tokens leak, or... use multipart uploads, which are a super hacky approach that depends on if the server and various clients can even support it.
 
-This is one area where REST holds strong. Some would say that REST handling CRUD and arbitrary stuff is confusing, but this is a core tenant of what makes REST so useful. A REST API can do anything, not just send fields backwards and forwards - even if that is how REST is often used.
+This is one area where REST holds strong. Some would say that REST handling CRUD and arbitrary stuff is confusing, but this is a core tenet of what makes REST so useful. A REST API can do anything, not just send fields backwards and forwards - even if that is how REST is often used.
 
 ## Both GraphQL and REST Prefer Evolution
 

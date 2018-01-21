@@ -4,7 +4,7 @@ date: 2018-01-20 18:38 EDT
 tags: api, rest, rpc, soap, http2
 category: api
 comments: true
-excerpt: This article outlines a list of common misunderstandings about REST, so I thought it would be a nice opportunity to set the record straight on a bunch of them. The article is really just 100% misunderstandings, so lets learn some stuff!
+excerpt: The misunderstandings on REST continue, and I'm happy to explain them all up!
 ---
 
 One month after [A Response to REST is the new SOAP](https://philsturgeon.uk/api/2017/12/18/rest-confusion-explained/) and I'm still having a productive dialog with the author, helping him understand how REST works. I thought it might interest some of you too.
