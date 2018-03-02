@@ -108,13 +108,13 @@ Sturgeons Perfect Workflow Score: 57%
 
 Whilst wondering about getting green light to dig into contributing to these tools, I was sent [an article about the future of RAML](https://blogs.mulesoft.com/dev/api-dev/open-api-raml-better-together/). Basically RAML is getting out of the service modeling game, focusing instead on data modeling. This would place it as a competitor to JSON Schema, making it was less interesting to me.
 
-They were deciding to let the only remaining competitor handle service modeling: Open API.
+They were deciding to let the only remaining competitor handle service modeling: OpenAPI.
 
-## So What about Open API
+## So What about OpenAPI
 
-Open API (previously called Swagger) is a tool I've been actively avoiding for years. I ran across it first via a PHP annotation-to-HTML based tool, and the specification was probably v1.2. I really didn't like the tool, the workflow, the [Swagger UI](https://swagger.io/swagger-ui/), or anything about it at all.
+OpenAPI (previously called Swagger) is a tool I've been actively avoiding for years. I ran across it first via a PHP annotation-to-HTML based tool, and the specification was probably v1.2. I really didn't like the tool, the workflow, the [Swagger UI](https://swagger.io/swagger-ui/), or anything about it at all.
 
-That early negative association stuck with me for years, and I entirely ignored Swagger v2.0. Luckily these days "Open API" (the new name for Swagger) is a whole new world. v2.0 is loads better than v1.2, and whilst v2.0 requires some hacks to do anything useful (more on that in a second), the unfinished-but-imminent v3.0 is looking to solve the vast majority of issues in v2.0.
+That early negative association stuck with me for years, and I entirely ignored Swagger v2.0. Luckily these days "OpenAPI" (the new name for Swagger) is a whole new world. v2.0 is loads better than v1.2, and whilst v2.0 requires some hacks to do anything useful (more on that in a second), the unfinished-but-imminent v3.0 is looking to solve the vast majority of issues in v2.0.
 
 Luckily these days we can ignore Swagger UI (which still looks like it was designed by a developer who's really into RPC), and use one of these two amazing tools: [ReDoc](https://github.com/Rebilly/ReDoc) or [Spectacle](https://github.com/sourcey/spectacle).
 
@@ -124,21 +124,21 @@ Perfect isn't right, but it's close.
 
 ### JSON Schema Divergence
 
-Open API v2.0 was based on [JSON Schema Draft 4](https://tools.ietf.org/html/draft-zyp-json-schema-04), but it would be inaccurate to say Open API is JSON Schema. Open API v2.0 ended up being both a sub-set and a super-set of
+OpenAPI v2.0 was based on [JSON Schema Draft 4](https://tools.ietf.org/html/draft-zyp-json-schema-04), but it would be inaccurate to say OpenAPI is JSON Schema. OpenAPI v2.0 ended up being both a sub-set and a super-set of
 JSON Schema Draft v4, were some stuff is supported, some stuff is missing, and some stuff is _different_.
 
-Open API v3.0 will solve this a bit on release by deprecating some of their differences to match to JSON Schema way of doing things, but [not all have been resolved](https://github.com/OAI/OpenAPI-Specification/blob/OpenAPI.next/versions/3.0.md#properties).
+OpenAPI v3.0 will solve this a bit on release by deprecating some of their differences to match to JSON Schema way of doing things, but [not all have been resolved](https://github.com/OAI/OpenAPI-Specification/blob/OpenAPI.next/versions/3.0.md#properties).
 
-For example, v2.0 has no way to say "this field could be null". JSON Schema would let you write `type: ['string', 'null']`, but that would flag as invalid in an Open API validator. v3.0 will still not support this, instead offering [their own syntax](https://github.com/OAI/OpenAPI-Specification/blob/OpenAPI.next/versions/3.0.md#fixed-fields-20): `nullable: true`.
+For example, v2.0 has no way to say "this field could be null". JSON Schema would let you write `type: ['string', 'null']`, but that would flag as invalid in an OpenAPI validator. v3.0 will still not support this, instead offering [their own syntax](https://github.com/OAI/OpenAPI-Specification/blob/OpenAPI.next/versions/3.0.md#fixed-fields-20): `nullable: true`.
 
-Open API v3.0 will be out any minute, and so for it's been in feature freeze for a long time. The core team have for a while been saying they don't think JSON Schema is an ideal format, hinted that they don't think they need to stick to it, or might support multiple inputs and JSON Schema is just one of them. In some places some have also said that converging the with JSON Schema would make sense for `type` specifically, so I'm seeing very mixed signals about JSON Schema 100% compliance. We'll have to see what happens in 3.1.
+OpenAPI v3.0 will be out any minute, and so for it's been in feature freeze for a long time. The core team have for a while been saying they don't think JSON Schema is an ideal format, hinted that they don't think they need to stick to it, or might support multiple inputs and JSON Schema is just one of them. In some places some have also said that converging the with JSON Schema would make sense for `type` specifically, so I'm seeing very mixed signals about JSON Schema 100% compliance. We'll have to see what happens in 3.1.
 
-If JSON Schema is going to be part of my workflow, I'll have to use [a converter](https://github.com/garethr/openapi2jsonschema). This still feels a little backwards as I want the contracts written in JSON Schema and just referenced from the docs, but I'll need to build a JSON Schema to Open API converter for that... maybe I will.
+If JSON Schema is going to be part of my workflow, I'll have to use [a converter](https://github.com/garethr/openapi2jsonschema). This still feels a little backwards as I want the contracts written in JSON Schema and just referenced from the docs, but I'll need to build a JSON Schema to OpenAPI converter for that... maybe I will.
 
 
 ### The Void of Uselessness between v2.0 and v3.0
 
-Accepting the loss of JSON Schema as a source, I continued with the viability experiment. I initially struggled massively to convert a ~20 endpoint RESTish API from API Blueprint to Open API.
+Accepting the loss of JSON Schema as a source, I continued with the viability experiment. I initially struggled massively to convert a ~20 endpoint RESTish API from API Blueprint to OpenAPI.
 
 Crucial features missing from v2.0 like "this field could be null" really jammed a stick in my spokes.
 
@@ -162,7 +162,7 @@ Seeing as ReDoc supports `x-nullable`, it renders just fine, but Dredd does not 
 
 So, this is the sort of thing that happens when you rely on vendor extensions. I know that - and so does the CSS community - but this route is forced upon anyone during this v2.0 to v3.0 gap.
 
-Those oddities aside: so long as Open API v3.0 comes out soon, and the tooling supports it quickly, these weird quirks wont matter.
+Those oddities aside: so long as OpenAPI v3.0 comes out soon, and the tooling supports it quickly, these weird quirks wont matter.
 
 <ul>
   <li>
@@ -188,7 +188,7 @@ Those oddities aside: so long as Open API v3.0 comes out soon, and the tooling s
 
 Sturgeons Perfect Workflow Score: 86%
 
-That's v3.0 anyway. Open API v2.0 gets a score of 71% due to either losing Dredd or losing ReDoc.
+That's v3.0 anyway. OpenAPI v2.0 gets a score of 71% due to either losing Dredd or losing ReDoc.
 
 ## Getting People Involved
 
@@ -196,9 +196,9 @@ Initially I was just doing research, finding out how to achieve the dream workfl
 
 To get people excited I thought I would need to offer more than just documentation. API Blueprint got us that, but putting a lot of work in just to get documentation for services that are already in production is never going to be a task anyone jumps at.
 
-Trying to get JSON Schema files into the mix would get us at least the RSpec contract testing that I _knew_ people would be excited about, but with the divergence in Open API v2.0 I've had to kick that can down the road a little.
+Trying to get JSON Schema files into the mix would get us at least the RSpec contract testing that I _knew_ people would be excited about, but with the divergence in OpenAPI v2.0 I've had to kick that can down the road a little.
 
-What really surprised me was that people at work are really excited about getting their systems added to the doucmentation. We've ported a few Postman collections to Open API to get started, and I'm looking into other ways to get the ball rolling for some of the other teams, but we're up to 6 APIs and counting.
+What really surprised me was that people at work are really excited about getting their systems added to the doucmentation. We've ported a few Postman collections to OpenAPI to get started, and I'm looking into other ways to get the ball rolling for some of the other teams, but we're up to 6 APIs and counting.
 
 Never have I been happier to be wrong. I still think documentation should be considered a happy by-product of a well specified API, but if that documentation looks good enough it might just be enough to get people doing the grunt work.
 
@@ -206,12 +206,12 @@ Never have I been happier to be wrong. I still think documentation should be con
 
 Plenty more work to be done.
 
-1. Focus on getting enough Open API v2.0 done that we at least have documentation
+1. Focus on getting enough OpenAPI v2.0 done that we at least have documentation
 1. Upgrade to v3.0 when it's out
 1. Generate `tests/contracts/foo.json` from `docs/definitions/foo.json` for now. Backwards as that is
 1. Implement [RSpec / JSON Schema matchers](https://robots.thoughtbot.com/validating-json-schemas-with-an-rspec-matcher) to simplify integration tests and coerce folks into keeping spec files up to date
-1. Sync Open API changes to a read-only Postman Collections
-1. Sync Open API changes to a read-only Paw Collections (so people can use either!)
+1. Sync OpenAPI changes to a read-only Postman Collections
+1. Sync OpenAPI changes to a read-only Paw Collections (so people can use either!)
 
 ## Update 2017-08-08
 
@@ -219,6 +219,6 @@ When I discuss this "perfect workflow", I'm talking about my current needs. At w
 
 **Hypermedia:** I've not mentioned Hypermedia here. I'm still struggling to decide how API specification and hypermedia fit together, as it can live in the HTTP body or in the metadata. More on that in the future - but work does not use Hypermedia (yet)
 
-**GraphQL:** Theoretically with JSON Schema or Open API / Swagger as a base for our contracts we gain GraphQL almost for free via a multitude of converters. I'd love to experiment with tacking a GraphQL endpoint into an otherwise RESTish API, so the team can experiment at making their data highly querably (instead of the classic normalized approach) to avoid it being slow as dog-shit. That should help out data structuring in general as they do it, because without that work GraphQL and JSON-API-style includes are always going to suffer equally.
+**GraphQL:** Theoretically with JSON Schema or OpenAPI / Swagger as a base for our contracts we gain GraphQL almost for free via a multitude of converters. I'd love to experiment with tacking a GraphQL endpoint into an otherwise RESTish API, so the team can experiment at making their data highly querably (instead of the classic normalized approach) to avoid it being slow as dog-shit. That should help out data structuring in general as they do it, because without that work GraphQL and JSON-API-style includes are always going to suffer equally.
 
 _I'm writing [a book about API specifications](https://leanpub.com/api-specification-aint-just-for-nerds), various formats, all that good stuff. It's a complicated world that I'm going to try and make simple for everyone._
