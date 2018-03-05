@@ -98,8 +98,7 @@ As always there is more to be done.
 
 ### API Gateway Support
 
-
-Server-side validation might not be realistic, especially due to all the various frameworks that would need adapters built. So for now I'm talking to Kong about getting OpenAPI or JSON Schema support, where we can reference specs for specific requests to skip even bothering the application server.
+Server-side validation might not be entirely realistic for everyone, especially due to all the various frameworks that would need adapters built. So for now I'm talking to Kong about getting OpenAPI or JSON Schema support, where we can reference specs for specific requests to skip even bothering the application server.
 
 ![Sequence flow diagram showing API gateway validation skipping the application server](article_images/2018-03-01-api-specification-workflow-matures/api-gateway-json-schema.png)
 
@@ -125,6 +124,10 @@ If not I'll try to hook up `$ speccy edit` to launch one of the Node editors, an
 We really need a `speccy init` which will create a simple file structure, asking a few questions, and essentially making a hello world. Getting folks a basic file to play around with will be a lot more useful than asking them to start from scratch.
 
 Speccy also really [needs a config file](https://github.com/wework/speccy/issues/14), and somebody is threatening to [make a VS Code plugin](https://twitter.com/DanHerd/status/968221934591889413).
+
+### Client-side validation
+
+Not got around to getting anything into production, because... well 👆 & 👇, but I am currently seeking volunteers at work. I did whoever write up a whole [guide on using JSON Schema for client-side validation](https://blog.apisyouwonthate.com/the-many-amazing-uses-of-json-schema-client-side-validation-c78a11fbde45) using JavaScript, so let me know how it goes if you try it out.
 
 ### SDK Generation
 
@@ -152,7 +155,9 @@ For now you're stuck either trying to write a file thats valid for both systems 
 
 I'm getting pretty close to having a workflow I'm completely happy with for spec-first API design and development. As always walking the line between idealism and realism, suggesting one thing to folks to do for now, whilst trying to improve things for our future selves to transition to when the time is right.
 
-Having folks now writing OpenAPI v3.0 by hand is tough, but at least we're not on a myriad of vendor hacks shoved into some weird OpenAPI v2.0 with some v3.0 shimmed in nonsense... Postman Mirroring has got a few folks excited, and of those who are excited they're really being helped out with speccy. Finding a kick-ass editor to recommend will be ridiculously important in getting other people on board, and then adoption should stop being such an uphill battle.
+Having folks now writing OpenAPI v3.0 by hand is tough, but at least we're not on a myriad of vendor hacks shoved into some weird OpenAPI v2.0 with some v3.0 shimmed in nonsense... Postman Mirroring has got a few folks excited, and of those who are excited they're really being helped out with speccy.
+
+Finding a kick-ass editor to recommend will be ridiculously important in getting other people on board, and if we can get a few of those gold medal APIs to expose their JSON Schema objects for folks to client-side validate... getting folks to pour effort into specs should no longer be such an uphill battle.
 
 Then we just need to get better at keeping out docs up to date, with either API Gateway implementations or server-side validation with tools like SwaggerShield ensuring the incoming stuff is correct, and contract testing responses in the application.
 
