@@ -6,7 +6,7 @@ category: api
 comments: true
 ---
 
-This article is going to explain OpenAPI and JSON Schema, which I've been calling the subset/superset/sideset problem. It'll finish up explaining how we're going to solve it, and I'll write part 2 when it is solved.
+This article is going to explain the divergence between OpenAPI and JSON Schema, which I've been calling the subset/superset/sideset problem. It'll finish up explaining how we're going to solve it, and ~I'll write part 2 when it is solved~ [part two explains the solution][solution].
 
 <hr>
 
@@ -18,13 +18,13 @@ JSON Schema focuses on very flexible data modeling with the same sort of validat
 
 Over the last year I've been [chasing the perfect workflow](https://philsturgeon.uk/api/2017/07/20/my-vision-for-a-perfect-world-in-api-specification/), and one of my main requirements when evaluating the common API specs was JSON Schema support. The situation overall was pretty bleak, not just in supporting JSON Schema, but a lot of tooling was just... not great.
 
-Eight months after that article things are _better_, and the design-first API specification workflow I've been dreaming of [has been maturing](https://philsturgeon.uk/api/2018/03/01/api-specification-workflow-matures/) around me. to a point where I'm really happy about most stuff! OpenAPI v3 is viable thanks to loads of tools upgrading to support it (or at least having betas out), and I've [discovered tools](http://openapi.tools/) to fill some of the gaps in the workflow.
+Eight months after that article things are _better_, and the design-first API specification workflow I've been dreaming of [has been maturing](https://philsturgeon.uk/api/2018/03/01/api-specification-workflow-matures/) around me. to a point where I'm really happy about most stuff!
 
-Despite OpenAPI v3 closing the gap, the issue of JSON Schema divergence has not been resolved fully, and with newer drafts of JSON Schema coming out, the divergence is actually getting worse over time.
+OpenAPI is often described as an extension of JSON Schema, but both specs have changed over time and grown independently. OpenAPI v2 was based on JSON Schema draft v4 with a long list of deviations, but OpenAPI v3 shrank that list, upping their support to draft v5 and making the list of discrepancies shorter. Despite OpenAPI v3 closing the gap, the issue of JSON Schema divergence has not been resolved fully, and with newer drafts of JSON Schema coming out, the divergence is actually getting worse over time. Currently OpenAPI is still on draft 5, and JSON Schema has released draft 8.
 
 ![A list of caveats to the JSON Schema support in OpenAPI v3.0](images/article_images/2018-03-30-openapi-and-json-schema-divergence/json-schema-oai-differences.png)
 
-I've been kicking the can down the road for a long time, hoping that the folks at OpenAPI would resolve it relatively soon. In the mean-time I've been suggesting that folks find some way to convert one to the other, or try to write JSON Schema that _is_ compatible with OpenAPI.
+I've been punting this issue for a while in my articles and recommendations at work. The hope was that by the time folks at work had upgraded to v3, there might be a v3.1 out solving the situation, but that has not come to pass. Now I find myself suggesting folks find some way to convert one to the other, or try to write JSON Schema that _is_ compatible with OpenAPI.
 
 ![Carefully writing JSON Schema for your data model kiiiinda works](article_images/2018-03-30-openapi-and-json-schema-divergence/data-model-service-model.png)
 
@@ -90,4 +90,6 @@ So, with the problem well and truly understood and explained, let's get to work 
 
 Get in touch on [APIs You Won't Hate Slack](https://slack.apisyouwonthate.com/) if you're interested. We have #openapi, #json-schema and a bunch of other channels.
 
-**Part Two:** _I'll write it up when these tools are released._
+**Part Two:** [Problem Solved!][solution]
+
+[solution]: /api/2018/04/13/openapi-and-json-schema-divergence-solved/
