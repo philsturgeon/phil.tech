@@ -6,7 +6,7 @@ category: api
 comments: true
 ---
 
-In [my previous article](/api/2018/03/30/openapi-and-json-schema-divergence/) I explained the divergence between [OpenAPI](https://github.com/OAI/OpenAPI-Specification) and [JSON Schema](http://json-schema.org/) (a.k.a the subset/superset/sideset problem), and pointed out some solutions, one of which now exists, and another is on the way.
+My [previous article](/api/2018/03/30/openapi-and-json-schema-divergence/) explained the divergence between [OpenAPI](https://github.com/OAI/OpenAPI-Specification) and [JSON Schema](http://json-schema.org/) (a.k.a the subset/superset/sideset problem), and promised solutions. One of those solutions is a tangible thing, which you can install right now! The other is now ready for tool vendors to start considering.
 
 To briefly recap: OpenAPI v3 declares it supports JSON Schema, but there are [more caveats than I can ever remember](https://swagger.io/docs/specification/data-models/keywords/) to that.
 
