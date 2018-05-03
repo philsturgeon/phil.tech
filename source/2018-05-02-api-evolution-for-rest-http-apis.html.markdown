@@ -82,6 +82,8 @@ The date is a [HTTP date], and can be combined with a `Link: <http://foo.com/som
 
 Ruby on Rails has [wework/rails-sunset], and hopefully other frameworks will start adding this functionality. Open-source API Gateway system [Tyk](https://tyk.io/) is [adding support to an upcoming version](https://github.com/TykTechnologies/tyk/issues/1626).
 
+Clients then add a middleware to their HTTP calls, checking for Sunset headers. We do this with [faraday-sunset](https://github.com/wework/faraday-sunset) (Ruby), [Hunter Skrasek](https://twitter.com/HSkrasek/) made [guzzle-sunset](https://github.com/hskrasek/guzzle-sunset) (PHP), and anyone can write a thing that looks for a header and logs it to whatever logging thing they're using.
+
 [HTTP date]: https://tools.ietf.org/html/rfc7231#section-7.1.1.1
 [sunset-draft]: https://tools.ietf.org/html/draft-wilde-sunset-header-03
 [wework/rails-sunset]: https://github.com/wework/rails-sunset/
