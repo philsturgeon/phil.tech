@@ -50,7 +50,7 @@ Nothing broke for existing use cases, and new functionality was added seamlessly
 
 > We have too many old fields kicking around, we need to get rid of them.
 
-Deprecations can be communicated in a few ways for API's. For those using OpenAPI v3, you can mark it as `deprecated: true` in the documentation. That's no ideal, of course, as OpenAPI is usually human-readable documentation, sat out of band on a developer portal somewhere. Rarely are OpenAPI schemas shoved into the response like JSON Schema is, so programatically clients have no real way to access this.
+Deprecations can be communicated in a few ways for API's. For those using OpenAPI v3, you can mark it as `deprecated: true` in the documentation. That's no ideal, of course, as OpenAPI is usually human-readable documentation, sat out of band on a developer portal somewhere. Rarely are OpenAPI schemas shoved into the response like JSON Schema is, so programmatically clients have no real way to access this.
 
 JSON Schema is considering [adding a deprecated keyword](https://github.com/json-schema-org/json-schema-spec/issues/74), and oops I think I'm in charge of making that happen. I'll get back to doing that after this blog post. The idea here would be to pair the schema with a smart SDK (client code) which detects which fields are being used. If the schema marks the `foo` field as deprecated, and the client code then calls `$response->foo`, in PHP that could be snooped on with `function __get` (dynamic programming yaaaay) and fire off deprecation warnings on use.
 
@@ -62,7 +62,7 @@ All of that said, removing old fields is usually not all that much of a rush or 
 
 At a lot of startups, this sort of conceptual change is common. No number of new fields is going to help out here, as the whole "one record = one match = one driver + one passenger" concept was junk. We'd need to make it so folks could accept a carpool based on the group, and any one of those folks could drive on a given day.
 
-Luckily, business names often change fairly regularly in the sort of companies that have fundamental changes lie this. There is often a better word that folks have been itching to switch to, and evolution gives you a chance to leverage that change to your benefit.
+Luckily, business names often change fairly regularly in the sort of companies that have fundamental changes like this. There is often a better word that folks have been itching to switch to, and evolution gives you a chance to leverage that change to your benefit.
 
 Deprecating the whole concept of "matches", a new concept of "riders" can be created. This resource would track folks far beyond just being "matched", through the whole lifecycle of the carpool, thanks to a status field containing pending, active, inactive, blocked, etc.
 
@@ -80,17 +80,17 @@ Sunset: Sat, 31 Dec 2018 23:59:59 GMT
 
 The date is a [HTTP date], and can be combined with a `Link: <http://foo.com/something> rel="sunset"` which can be anything that might help a developer know what is going on. Maybe link to your API documentation for the new resource, the OpenAPI/JSON Schema definitions, or even a blog post explaining the change.
 
-Ruby on Rails has [wework/rails-sunset], and hopefully other frameworks will start adding this functionality. Open-source API Gateway system [Tyk](https://tyk.io/) is [adding support to an upcoming version](https://github.com/TykTechnologies/tyk/issues/1626).
+Ruby on Rails has [rails-sunset], and hopefully other frameworks will start adding this functionality. Open-source API Gateway system [Tyk](https://tyk.io/) is [adding support to an upcoming version](https://github.com/TykTechnologies/tyk/issues/1626).
 
 Clients then add a middleware to their HTTP calls, checking for Sunset headers. We do this with [faraday-sunset](https://github.com/wework/faraday-sunset) (Ruby), [Hunter Skrasek](https://twitter.com/HSkrasek/) made [guzzle-sunset](https://github.com/hskrasek/guzzle-sunset) (PHP), and anyone can write a thing that looks for a header and logs it to whatever logging thing they're using.
 
 [HTTP date]: https://tools.ietf.org/html/rfc7231#section-7.1.1.1
 [sunset-draft]: https://tools.ietf.org/html/draft-wilde-sunset-header-03
-[wework/rails-sunset]: https://github.com/wework/rails-sunset/
+[rails-sunset]: https://github.com/wework/rails-sunset/
 
 > Changing validation rules, something seemingly backwards compatible, like making the length of a field a little longer.
 
-Changing validation rules seems like it might be a backwards compatible change, but often it is not. Making a field a little longer for example, can lead to some interesting problems. As clients often bake validation rules into client applications based on whatever the documentation says, if that documentation changes they aren't going to notice, and that validation will mismatch on different clients.
+Changing validation rules seems like it might be a backwards compatible change, but often it is not. For example, making a string field accept a longer value can lead to some interesting problems. As clients often bake validation rules into client applications based on whatever the documentation says, if that documentation changes they aren't going to notice, and that validation will mismatch on different clients.
 
 Putting [client-side validation logic in JSON Schema](https://blog.apisyouwonthate.com/the-many-amazing-uses-of-json-schema-client-side-validation-c78a11fbde45
 ), and having clients use that as the basis for their validation, solves this problem and a whoooole lot more. Over time new JSON Schema files can be pushed, and clients will pick those up from the `Link` header as they go, giving seamless support for the new validation rules!
@@ -115,6 +115,10 @@ Content-Type: application/problem+json
 ```
 
 Clients will upgrade fairly quickly at this point.
+
+## More Power
+
+The above solutions are a little ad-hoc, and can lead to branched code paths with a bunch of ifs. You can feature flag some of this stuff to help keep things a little tidy, and another approach is to write up change as libraries, something [Stripe refer to as "declarative changes"](https://stripe.com/blog/api-versioning). This approach can be a little heavy handed, but it's something to keep in mind. 
 
 ## Summary
 
