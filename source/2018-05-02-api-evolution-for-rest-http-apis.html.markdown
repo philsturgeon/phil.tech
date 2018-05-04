@@ -15,7 +15,7 @@ Luckily, as always, tooling and standards for HTTP have been improving, and thes
 
 ## What is API Evolution
 
-API Evolution is the concept of striving to maintain the "I" in API, the request/response body, query parameters, general functionality, etc., only breaking them when you absolutely, _absolutely_, have to. It's the idea that API developers bending over backwards to maintain a contract, no matter how annoying that might be, is often more financially and logistically viable than dumping the workload a wide array of clients.
+API Evolution is the concept of striving to maintain the "I" in API, the request/response body, query parameters, general functionality, etc., only breaking them when you absolutely, _absolutely_, have to. It's the idea that API developers bending over backwards to maintain a contract, no matter how annoying that might be, is often more financially and logistically viable than dumping the workload onto a wide array of clients.
 
 At some point change cannot be prevented, so at that time evolution suggests you provide sensible warnings to clients, letting them know if a feature they're using is going away, and not bothering them otherwise.
 
