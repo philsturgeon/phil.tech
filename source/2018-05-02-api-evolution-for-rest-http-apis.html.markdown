@@ -12,13 +12,13 @@ Luckily, as always, tooling and standards for HTTP have been improving, and thes
 
 ## What is API Evolution
 
-API Evolution is the concept of striving to maintain the "I" in API, the request/response body, query parameters, general functionality, etc., only breaking them when you absolutely, _absolutely_, have to. It's the idea that API developers bending over backwards to maintain a contract, no matter how annoying that might be, is often more financially and logistically viable than dumping onto a wide array of clients.
+API Evolution is the concept of striving to maintain the "I" in API, the request/response body, query parameters, general functionality, etc., only breaking them when you absolutely, _absolutely_, have to. It's the idea that API developers bending over backwards to maintain a contract, no matter how annoying that might be, is often more financially and logistically viable than dumping the workload a wide array of clients.
 
 At some point change cannot be prevented, so at that time evolution suggests you provide sensible warnings to clients, letting them know if a feature they're using is going away, and not bothering them otherwise.
 
 ## Examples
 
-> The field `name` exists, and that needs to be splint into `first_name` and `last_name`.
+> The field `name` exists, and that needs to be split into `first_name` and `last_name`.
 
 Easy enough. However the data is handled internally (splitting on first space or last space or some other [falsehood defying assumption](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/)) you now have two new fields.
 
@@ -40,13 +40,13 @@ When folks `POST` or `PATCH` to your API, if they send a `name` you can convert 
 
 > The field `price` needs to stop being dollars/pounds/whatever as we're starting to support currencies that don't fit into "unit" and "subunit".
 
-Switching to an integer to place your cents, pence, etc. would be just as much of a "Fallacies Programmers Think About Currencies](https://gist.github.com/rgs/6509585) as using float dollars/pounds, etc., some folks like to use "micros", a concept explained well here by [Sift Science](https://support.siftscience.com/hc/en-us/articles/203869406-The-amount-field). In this case, the new field could easily be called `price_micros`.
+Switching to an integer to place your cents, pence, etc. would be just as much of a [Fallacies Programmers Think About Currencies](https://gist.github.com/rgs/6509585) as using float dollars/pounds, etc. To support the widest array of currencies, some folks like to use "micros", a concept explained well here by [Sift Science](https://support.siftscience.com/hc/en-us/articles/203869406-The-amount-field). In this case, the new field could easily be called `price_micros`.
 
 Want to keep it simple and go with cents, pence, etc.? Fine, `price_subunits` will do. If somebody grumps about that and you want a more concise name, just call it `amount` and point folks towards that field instead. A thesaurus is handy.
 
 Why don't we just outright change this value from dollars to micros? because then we'd start charging $1,000,000 for stuff that should only cost $1, and folks probably wouldn't like that.
 
-Now clients can either send the `price` field, and it'll convert. This will only work for the older currencies, and if `currency` is a field in the resource (or something nearby) then it's easy enough to support `price` for whatever initial currencies you had (dollar/pound/euro) and throw an error if somebody tries using price for these newer currencies, pointing them instead to the micro field.
+Now clients can either send the `price` field, and it'll convert, or send the new `price_micros` field. If `currency` is a field in the resource (or something nearby) then it's easy enough to support `price` for whatever initial currencies you had (dollar/pound/euro) and throw an error if somebody tries using price for these newer currencies, pointing them instead to the micro field.
 
 Nothing broke for existing use cases, and new functionality was added seamlessly.
 
@@ -60,7 +60,7 @@ GraphQL has the advantage when it comes to field deprecation for sure, as their 
 
 All of that said, removing old fields is usually not all that much of a rush or an issue. Over time new developers will be writing new integrations, looking at your new documentation that tells them to use the new field, and your developer newsletters or changelogs just let them know to move away from it over time.
 
-> A carpooling company that has "matches" as a relationship between "drivers" and "passengers", suggesting folks who could ride together, containing properties like "passenger_id" and "driver_id". Now we need multiple drivers, so this whole matches concept is garbage.
+> A carpooling company that has "matches" as a relationship between "drivers" and "passengers", suggesting folks who could ride together, containing properties like "passenger_id" and "driver_id". Now we need to support carpools that can have multiple drivers (i.e: Frank and Sally both take it in turns to drive), so this whole matches concept is garbage.
 
 At a lot of startups, this sort of conceptual change is common. No number of new fields is going to help out here, as the whole "one record = one match = one driver + one passenger" concept was junk. We'd need to make it so folks could accept a carpool based on the group, and any one of those folks could drive on a given day.
 
@@ -68,7 +68,7 @@ Luckily, business names often change fairly regularly in the sort of companies t
 
 Deprecating the whole concept of "matches", a new concept of "riders" can be created. This resource would track folks far beyond just being "matched", through the whole lifecycle of the carpool, thanks to a status field containing pending, active, inactive, blocked, etc.
 
-By creating this a new `/riders` endpoint, this new resource can have a brand new representation. As always, the same database fields can be used internally, the same internal alerting tools are used for letting folks know about matches (v1 app) or new pending riders (v2 app). The API can create and update "matches" through this new "riders" interface. Clients can then use either one, and the code just figures itself out in the background. Over time the refactoring can be done to move the internal logic more towards riders, and your [integration tests / contract tests](https://blog.apisyouwonthate.com/tricking-colleagues-into-writing-documentation-via-contract-testing-206308b47e05) will confirm that things aren't changing on the outside.
+By creating the `/riders` endpoint, this resource can have a brand new representation. As always, the same database fields can be used internally, the same internal alerting tools are used for letting folks know about matches (v1 app) or new pending riders (v2 app). The API can create and update "matches" through this new "riders" interface. Clients can then use either one, and the code just figures itself out in the background. Over time the refactoring can be done to move the internal logic more towards riders, and your [integration tests / contract tests](https://blog.apisyouwonthate.com/tricking-colleagues-into-writing-documentation-via-contract-testing-206308b47e05) will confirm that things aren't changing on the outside.
 
 > [@cebe](https://github.com/philsturgeon/philsturgeon.github.io/pull/30#discussion_r185912780) how would the matches endpoint return data where there is more than one driver? If the data does not fit the endpoint anymore, it must be broken or fail for such data[?]
 
@@ -100,16 +100,17 @@ Clients then add a middleware to their HTTP calls, checking for Sunset headers. 
 [sunset-draft]: https://tools.ietf.org/html/draft-wilde-sunset-header-03
 [rails-sunset]: https://github.com/wework/rails-sunset/
 
-> Changing validation rules, something seemingly backwards compatible, like making the length of a field a little longer.
+> We need to change some validation rules, but the clients have rules baked in. How do we let them know change is coming?
 
-Changing validation rules seems like it might be a backwards compatible change, but often it is not. For example, making a string field accept a longer value can lead to some interesting problems. As clients often bake validation rules into client applications based on whatever the documentation says, if that documentation changes they aren't going to notice, and that validation will mismatch on different clients.
+Certain validation rules are very clearly breaking. For example, lowering the maximum length of a string field would break clients who are expecting to be able to send longer names. Folks would have to shorten the field on certain devices which would be really weird, especially as the client may well be showing it as valid, only to then surface an error from the API.
 
-Putting [client-side validation logic in JSON Schema](https://blog.apisyouwonthate.com/the-many-amazing-uses-of-json-schema-client-side-validation-c78a11fbde45
-), and having clients use that as the basis for their validation, solves this problem and a whoooole lot more. Over time new JSON Schema files can be pushed, and clients will pick those up from the `Link` header as they go, giving seamless support for the new validation rules!
+Other rules may _seem_ like they're backwards compatible, but can still break clients in all sorts of ways. For example, making a string field accept a longer value can lead to problems where an out-of-date client is expecting a length of 20, but an up-to-date client has already been used to get that field up to 40. Again they user would find that data is valid on one device, but be stuck unable to submit the form on another device.
+
+Baking validation rules into client applications based on whatever the documentation says is brittle, so moving [client-side validation logic to server-defined JSON Schema](https://blog.apisyouwonthate.com/the-many-amazing-uses-of-json-schema-client-side-validation-c78a11fbde45) can solve these problems, and a bunch more. It also makes evolution a whole bunch easier, because this is just another category of change you are automatically communicating to client applications, without any developers needing to get involved.
 
 > Deprecating a specific type of authentication from an endpoint, it's time to say goodbye to HTTP Basic Auth.
 
-If they the client is making a request with an authorization header, they have some sort of account. If during the signup for that account you've asked them for an email, you can contact them. If you've not got any way to contact them... tough. Monitor how many folks are using HTTP basic, blog about it, shove some videos up, and eventually you're just going to have to turn it off.
+If the client is making a request with an authorization header, they have some sort of account. If during the signup for that account you've asked them for an email, you can contact them. If you've not got any way to contact them... tough. Monitor how many folks are using HTTP basic, blog about it, shove some videos up, and eventually you're just going to have to turn it off.
 
 The only other approach to helping out here is an SDK. If you slide some deprecation notices into the code months ahead of the cutoff date, you can throw some warnings saying the code is no longer going to work. This gives you a fighting chance for anyone that keeps a bit up to date. For those that don't, you don't have much choice.
 
@@ -130,13 +131,13 @@ Clients will upgrade fairly quickly at this point.
 
 ## More Power
 
-The above solutions are a little ad-hoc, and can lead to branched code paths with a bunch of ifs. You can feature flag some of this stuff to help keep things a little tidy, and another approach is to write up change as libraries, something [Stripe refer to as "declarative changes"](https://stripe.com/blog/api-versioning). This approach can be a little heavy handed, but it's something to keep in mind.
+The above solutions are a little ad-hoc, and can lead to branched code paths with a bunch of if statements. You can feature flag some of this stuff to help keep things a little tidy, and another approach is to write up change as libraries, something [Stripe refer to as "declarative changes"](https://stripe.com/blog/api-versioning). This approach can be a little heavy handed, but it's something to keep in mind.
 
 ## Summary
 
 Evolution involves thinking a little differently to how you approach change. Often there are simple things you can do to keep clients ticking along, and whilst clients will have to change at _some point_, the whole goal here is to allow them a decent amount of time to make that switch, with the minimal change possible during that change, and **no lock-step deploys** required.
 
-And yes, whilst making a new endpoint to switch `/matches` and `/riders` is essentially the same as `/v1/matches` and `/v2/matches`, you've skipped the [quagmire of tradeoffs](https://blog.apisyouwonthate.com/api-versioning-has-no-right-way-f3c75457c0b7) between global versioning, resource versioning, or **gulp** method versioning. Global versioning has it's place, but so does evolution.
+And yes, whilst making a new endpoint to switch `/matches` and `/riders` is essentially the same as `/v1/matches` and `/v2/matches`, you've skipped the [quagmire of tradeoffs](https://blog.apisyouwonthate.com/api-versioning-has-no-right-way-f3c75457c0b7) between global versioning, resource versioning, or **gulp** method versioning. Global versioning has its place, but so does evolution.
 
 Think about it this way. If implementing some change takes twice as long for API developers compared to other versioning approaches, but save 6 or 7 client developer teams from having to do a while bunch of work, testing, etc. to chase new versions, this has been worthwhile to the company in terms of engineering hours spent.
 
