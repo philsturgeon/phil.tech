@@ -12,7 +12,7 @@ Luckily, as always, tooling and standards for HTTP have been improving, and thes
 
 ## What is API Evolution
 
-API Evolution is the concept of striving to maintain the "I" in API, the request/response body, query parameters, general functionality, etc., only breaking them when you absolutely, _absolutely_, have to. It's the idea that API developers bending over backwards to maintain a contract, not matter how annoying that might be, is often more financially and logistically viable than dumping onto a wide array of clients.
+API Evolution is the concept of striving to maintain the "I" in API, the request/response body, query parameters, general functionality, etc., only breaking them when you absolutely, _absolutely_, have to. It's the idea that API developers bending over backwards to maintain a contract, no matter how annoying that might be, is often more financially and logistically viable than dumping onto a wide array of clients.
 
 At some point change cannot be prevented, so at that time evolution suggests you provide sensible warnings to clients, letting them know if a feature they're using is going away, and not bothering them otherwise.
 
@@ -40,9 +40,11 @@ When folks `POST` or `PATCH` to your API, if they send a `name` you can convert 
 
 > The field `price` needs to stop being dollars/pounds/whatever as we're starting to support currencies that don't fit into "unit" and "subunit".
 
-Ok! [Currencies are hard](https://gist.github.com/rgs/6509585), so this sort of thing is not uncommon. Let's start [using micros](https://support.siftscience.com/hc/en-us/articles/203869406-The-amount-field) instead.
+Switching to an integer to place your cents, pence, etc. would be just as much of a "Fallacies Programmers Think About Currencies](https://gist.github.com/rgs/6509585) as using float dollars/pounds, etc., some folks like to use "micros", a concept explained well here by [Sift Science](https://support.siftscience.com/hc/en-us/articles/203869406-The-amount-field). In this case, the new field could easily be called `price_micros`.
 
-We don't want to just outright change this value from dollars to cents because then we'd start charging $1,000,000 for stuff that should only cost $1, and folks probably wouldn't like that. Let's make a new field: `price_micros`.
+Want to keep it simple and go with cents, pence, etc.? Fine, `price_subunits` will do. If somebody grumps about that and you want a more concise name, just call it `amount` and point folks towards that field instead. A thesaurus is handy.
+
+Why don't we just outright change this value from dollars to micros? because then we'd start charging $1,000,000 for stuff that should only cost $1, and folks probably wouldn't like that.
 
 Now clients can either send the `price` field, and it'll convert. This will only work for the older currencies, and if `currency` is a field in the resource (or something nearby) then it's easy enough to support `price` for whatever initial currencies you had (dollar/pound/euro) and throw an error if somebody tries using price for these newer currencies, pointing them instead to the micro field.
 
@@ -67,6 +69,16 @@ Luckily, business names often change fairly regularly in the sort of companies t
 Deprecating the whole concept of "matches", a new concept of "riders" can be created. This resource would track folks far beyond just being "matched", through the whole lifecycle of the carpool, thanks to a status field containing pending, active, inactive, blocked, etc.
 
 By creating this a new `/riders` endpoint, this new resource can have a brand new representation. As always, the same database fields can be used internally, the same internal alerting tools are used for letting folks know about matches (v1 app) or new pending riders (v2 app). The API can create and update "matches" through this new "riders" interface. Clients can then use either one, and the code just figures itself out in the background. Over time the refactoring can be done to move the internal logic more towards riders, and your [integration tests / contract tests](https://blog.apisyouwonthate.com/tricking-colleagues-into-writing-documentation-via-contract-testing-206308b47e05) will confirm that things aren't changing on the outside.
+
+> [@cebe](https://github.com/philsturgeon/philsturgeon.github.io/pull/30#discussion_r185912780) how would the matches endpoint return data where there is more than one driver? If the data does not fit the endpoint anymore, it must be broken or fail for such data[?]
+
+I actually entirely forgot, but ex-coworker and API mastermind [Nicolás Hock-Isaza](https://github.com/philsturgeon/philsturgeon.github.io/pull/30#discussion_r185948655) was on hand to answer.
+
+_If I remember correctly, we only exposed the first driver [match] to the older apps. If the user accepted it, great... The other [driver riders] would be denied...
+
+If the user rejected the first one, we would show the next one, and the next one, and the next one..._
+
+All it takes is a little ingenuity, and API evolution isn't so scary.
 
 > We have all these old endpoints hanging around, can we get rid of these slightly more intelligently than just sending some emails?
 
@@ -118,7 +130,7 @@ Clients will upgrade fairly quickly at this point.
 
 ## More Power
 
-The above solutions are a little ad-hoc, and can lead to branched code paths with a bunch of ifs. You can feature flag some of this stuff to help keep things a little tidy, and another approach is to write up change as libraries, something [Stripe refer to as "declarative changes"](https://stripe.com/blog/api-versioning). This approach can be a little heavy handed, but it's something to keep in mind. 
+The above solutions are a little ad-hoc, and can lead to branched code paths with a bunch of ifs. You can feature flag some of this stuff to help keep things a little tidy, and another approach is to write up change as libraries, something [Stripe refer to as "declarative changes"](https://stripe.com/blog/api-versioning). This approach can be a little heavy handed, but it's something to keep in mind.
 
 ## Summary
 
