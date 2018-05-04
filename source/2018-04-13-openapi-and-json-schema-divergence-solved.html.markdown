@@ -1,5 +1,5 @@
 ---
-title: "OpenAPI and JSON Schema Divergence: Part 2"
+title: "Solving OpenAPI and JSON Schema Divergence"
 date: 2018-04-13 13:44 UTC
 tags: api, json-schema, api-specs, openapi
 category: api

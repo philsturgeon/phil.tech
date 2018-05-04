@@ -27,7 +27,7 @@ Easy enough. However the data is handled internally (splitting on first space or
 
 The serializer can change from outputting just their name, to outputting all three fields:
 
-```
+~~~
 class UserSerializer
   include FastJsonapi::ObjectSerializer
 
@@ -37,7 +37,7 @@ class UserSerializer
     "#{object.first_name} #{object.last_name}"
   end
 end
-```
+~~~
 
 When folks `POST` or `PATCH` to your API, if they send a `name` you can convert it, if they send `first_name` and `last_name` it'll get picked up fine on the serializer. Job done.
 
@@ -89,9 +89,9 @@ Yes! API Endpoints can be marked with a `Sunset` header to signal deprecation (a
 
 The [Sunset header][sunset-draft] is an in-development HTTP response header that is aiming to standardize how URLs are marked for deprecation. tl;dr it looks a bit like this:
 
-```
+~~~
 Sunset: Sat, 31 Dec 2018 23:59:59 GMT
-```
+~~~
 
 The date is a [HTTP date], and can be combined with a `Link: <http://foo.com/something> rel="sunset"` which can be anything that might help a developer know what is going on. Maybe link to your API documentation for the new resource, the OpenAPI/JSON Schema definitions, or even a blog post explaining the change.
 
@@ -119,7 +119,7 @@ The only other approach to helping out here is an SDK. If you slide some depreca
 
 Shoving a clear error into your HTTP response (here using the amazing [RFC 7807: Problems for HTTP APIs](https://tools.ietf.org/html/rfc7807)):
 
-```
+~~~
 HTTP/1.1 403 Forbidden
 Content-Type: application/problem+json
 
@@ -128,7 +128,7 @@ Content-Type: application/problem+json
   "title": "Basic authentication is no longer supported",
   "detail": "HTTP Basic has been deprecated since January, 1st 2018, and was removed May, 1st 2018. Applications should switch to OAuth to resume service."
 }
-```
+~~~
 
 Clients will upgrade fairly quickly at this point.
 
@@ -144,6 +144,6 @@ Evolution involves thinking a little differently to how you approach change. Oft
 
 And yes, whilst making a new endpoint to switch `/matches` and `/riders` is essentially the same as `/v1/matches` and `/v2/matches`, you've skipped the [quagmire of tradeoffs](https://blog.apisyouwonthate.com/api-versioning-has-no-right-way-f3c75457c0b7) between global versioning, resource versioning, or **gulp** method versioning. Global versioning has its place, but so does evolution.
 
-Think about it this way. If implementing some change takes twice as long for API developers compared to other versioning approaches, but save 6 or 7 client developer teams from having to do a while bunch of work, testing, etc. to chase new versions, this has been worthwhile to the company in terms of engineering hours spent.
+Think about it this way. If implementing some change takes twice as long for API developers compared to other versioning approaches, but save 6 or 7 client developer teams from having to do a whole bunch of work, testing, etc. to chase new versions, this has been worthwhile to the company in terms of engineering hours spent.
 
 If you've only got a small number of clients (maybe an iOS and Android version) of an API that changes drastically every year or two, then global versioning is clearly the way to go.
