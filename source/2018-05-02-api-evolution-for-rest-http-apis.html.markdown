@@ -129,6 +129,8 @@ Content-Type: application/problem+json
 
 Clients will upgrade fairly quickly at this point.
 
+[Google Maps are doing this](https://cloud.google.com/maps-platform/user-guide/). 🤷‍♂️
+
 ## More Power
 
 The above solutions are a little ad-hoc, and can lead to branched code paths with a bunch of if statements. You can feature flag some of this stuff to help keep things a little tidy, and another approach is to write up change as libraries, something [Stripe refer to as "declarative changes"](https://stripe.com/blog/api-versioning). This approach can be a little heavy handed, but it's something to keep in mind.
