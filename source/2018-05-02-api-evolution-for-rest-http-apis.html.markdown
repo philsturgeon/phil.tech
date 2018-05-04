@@ -1,7 +1,10 @@
 ---
 title: API Evolution for REST/HTTP APIs
 date: 2018-05-02 21:01 UTC
-tags:
+tags: evolution, versioning, rest, api, http, api-design
+category: api
+comments: true
+excerpt: API Evolution is making a comeback these days with GraphQL and gRPC advocates shouting about it. Whatever API paradigm or implementation you subscribe to, evolution is available to you. REST advocates have been recommending API evolution for decades, so let's take a look at how that can work.
 ---
 
 There are a lot of pro's and con's to various approaches to API versioning, but that has been covered in depth before: _[API Versioning Has No "Right" Way](https://blog.apisyouwonthate.com/api-versioning-has-no-right-way-f3c75457c0b7)_.
