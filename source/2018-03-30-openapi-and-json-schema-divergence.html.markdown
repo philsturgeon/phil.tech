@@ -70,15 +70,19 @@ Basically I'm going to flip [openapi-to-json-schema](https://github.com/mikunn/o
 
 A simple CLI package that will take a JSON Schema draft 4 file, and make it perfectly OpenAPI friendly, stripping out any keywords that would cause harm.
 
-### json-schema-migrator
+**Update 2018-05-17:** Done! Here is [json-schema-to-openapi-schema](https://github.com/wework/json-schema-to-openapi-schema)
+
+### json-schema-translator
 
 Henry Andrews (author of JSON Schema) is going to release this package, to convert files from any draft version to any other by stepping up and down. This will be really handy for all sorts of things, the most obvious use being upgrading schema files when new drafts come out.
 
 This package will be used by json-schema-to-openapi to accept input in any JSON Schema draft version, and migrate it to v5 before converting to OpenAPI.
 
+**Update 2018-05-17:** Almost done! Here is [json-schema-tools](https://github.com/cloudflare/json-schema-tools/), which contains a bunch of stuff including [json-schema-walker](https://github.com/cloudflare/json-schema-tools/tree/master/workspaces/json-schema-walker), for stepping through subschemas and all sorts of handy stuff. [json-schema-translator](https://github.com/cloudflare/json-schema-tools/tree/master/workspaces/json-schema-transform) is still being developed, so subscribe to this repo for updates.
+
 ### Speccy to the rescue
 
-Right now Speccy has a few commans: lint, serve, resolve.
+Right now Speccy has a few commands: lint, serve, resolve.
 
 Lint checks the files are valid, serve creates a HTTP server and renders your docs with ReDoc, and resolve pulls in all the $ref's to create one mega-file. All of these commands could support a `-j / --json-schema` switch, which would send all `.json` files off to json-schema-to-openapi.
 
