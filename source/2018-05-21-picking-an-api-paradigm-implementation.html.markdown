@@ -24,9 +24,9 @@ As you can see a direct comparison between any of these things is difficult, but
 
 ## Why?
 
-Seeing as every paradigm has has gone through a few years of being the hot trend, then they pass to the left, and it all circles around over, and over, and over again. Often a new implementation will be the thing that makes a paradigm the hot thing again, like gRPC.
+Every paradigm has gone through a few years of being the hot trend, then they pass to the left, and it all circles around over, and over, and over again. Often a new implementation will be the thing that makes a paradigm the hot thing again, like gRPC.
 
-With gRPC basically being modern SOAP, both of which are RPC with a required type system in there, RPC is back in the lime light, when it was shunned for decades. Jumping on the latest hot trend for your API is a great way to build something you (or your team) end up really resenting, so finding away to logically help folks make informed decisions is important.
+With gRPC basically being modern SOAP, both of which are RPC with a required type system in there, RPC is back in the lime light, when it was shunned for decades. Jumping on the latest hot trend for your API is a great way to build something you (or your team) end up really resenting, so finding a way to logically help folks make informed decisions is important.
 
 ## Making Decisions
 
