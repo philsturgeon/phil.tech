@@ -22,6 +22,7 @@ past:
     talks:
       - slug: a-no-nonsense-graphql-and-rest-comparison
         slides: https://talks.philsturgeon.uk/instances/rubyconfco-17/a-no-nonsense-graphql-rest-comparison/html
+        video: https://www.youtube.com/watch?v=vgm_uGmspMI
 
   - event:
       name: Northeast PHP
@@ -68,7 +69,7 @@ past:
       - slug: what-they-should-tell-you
         slides: https://talks.philsturgeon.uk/content/what-they-should-have-told-you-about-apis/index.html
 
-    city: Miami
+  - city: Miami
     country: United States
     event:
       name: SunshinePHP 2016
