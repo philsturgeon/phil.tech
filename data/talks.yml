@@ -1,3 +1,16 @@
+design-first-apis:
+  title: "Design First APIs"
+  short: >
+    First we write the API specs, mock it up to see if its any good, then we write the code, and keep it in line via contract testing.
+
+
+when-dependenices-go-wild:
+  title: "Circuit Breakers: When Depndecies Go Wild!"
+  short: >
+    Is your architecture an octopus orgy of unstable sytems, where one domino can fall and knock over everything else? This
+    talk looks at timeouts, retries and circuit breakers, to add control to the chaos.
+
+
 http-caching:
   title: "HTTP Caching: Improving Performance & Saving the Ice Caps"
   short: >

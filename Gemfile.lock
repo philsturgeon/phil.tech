@@ -44,6 +44,7 @@ GEM
     i18n (0.7.0)
     json (2.1.0)
     kramdown (1.16.2)
+    libv8 (3.16.14.19)
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -119,6 +120,7 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
+    ref (2.0.0)
     rouge (1.11.1)
     sass (3.4.25)
     sprockets (2.12.4)
@@ -132,6 +134,9 @@ GEM
       sprockets (~> 2.0)
       tilt (~> 1.1)
     temple (0.8.0)
+    therubyracer (0.12.3)
+      libv8 (~> 3.16.14.15)
+      ref
     thor (0.20.0)
     thread_safe (0.3.6)
     tilt (1.4.1)
@@ -149,6 +154,7 @@ PLATFORMS
 
 DEPENDENCIES
   builder (~> 3.0)
+  execjs
   kramdown (~> 1.8)
   middleman (~> 3.4)
   middleman-alias
@@ -157,7 +163,8 @@ DEPENDENCIES
   middleman-deploy (~> 1.0)
   middleman-google-analytics (~> 1.1)
   middleman-syntax (~> 2.1)
-  nokogiri (~> 1.6.6)
+  nokogiri (~> 1.6)
+  therubyracer
 
 BUNDLED WITH
-   1.16.1
+   1.17.2
