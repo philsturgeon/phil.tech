@@ -3,6 +3,16 @@
 past:
 
   - event:
+      name: PHP Gent
+      url: https://www.meetup.com/phpgent/events/past/
+      dates: 13th December 2018
+    city: Gent
+    country: Belgium
+    talks:
+      - slug: when-dependenices-go-wild
+        slides:  https://talks.philsturgeon.uk/instances/2018-12-apidays/circuit-breakers-when-dependenices-go-wild.pdf
+
+  - event:
       name: API Days Paris 2018
       url: https://www.apidays.co/paris
       dates: 11th-12th December 2018
@@ -13,16 +23,7 @@ past:
         slides:  https://talks.philsturgeon.uk/instances/2018-12-apidays/design-first-apis
       - slug: when-dependenices-go-wild
         slides:  https://talks.philsturgeon.uk/instances/2018-12-apidays/circuit-breakers-when-dependenices-go-wild.pdf
-
-  - event:
-      name: PHP Gent
-      url: https://www.meetup.com/phpgent/events/past/
-      dates: 13th December 2018
-    city: Gent
-    country: Belgium
-    talks:
-      - slug: when-dependenices-go-wild
-        slides:  https://talks.philsturgeon.uk/instances/2018-12-apidays/circuit-breakers-when-dependenices-go-wild.pdf
+        video: https://www.youtube.com/watch?v=oVtufG8Cu3U
 
   - event:
       name: API City 2018
