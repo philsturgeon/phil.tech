@@ -165,6 +165,3 @@ DEPENDENCIES
   middleman-syntax (~> 2.1)
   nokogiri (~> 1.6)
   therubyracer
-
-BUNDLED WITH
-   1.17.2

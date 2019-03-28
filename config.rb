@@ -2,7 +2,7 @@ set :site_title, 'Phil Sturgeon'
 set :site_root, 'https://philsturgeon.uk'
 set :logo, "/images/logo.jpg"
 set :cover, "/images/cover.jpg"
-set :description, 'Platform Engineer @ WeWork who talks about APIs a lot. Programming Polyglot, Pragmatist, Centerist and Sarcasist. Ex-The League of Extraordinary Packages, PHP The Right Way, Ex-PHP-FIG, Ex-CodeIgniter, Ex-FuelPHP, Ex-PyroCMS.'
+set :description, 'I build API Design tools for Stoplight.io, write about REST/RPC/GraphQL APIs, live on a bike, and occasionally upset hordes of mens rights activists on Reddit.'
 
 set :author, {
   name: 'Phil Sturgeon',
@@ -18,12 +18,6 @@ set :social, {
     share_url: 'https://twitter.com/share',
     share_title: '?text=',
     share_link: "&amp;url=",
-  },
-  facebook: {
-    icon:	'facebook',
-    share_url: 'https://www.facebook.com/sharer.php',
-    share_title: '?t=',
-    share_link: "&amp;u=",
   },
   github: {
     icon:	'github',
