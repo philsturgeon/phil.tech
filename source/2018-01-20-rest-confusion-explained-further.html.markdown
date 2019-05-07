@@ -7,7 +7,7 @@ comments: true
 excerpt: The misunderstandings on REST continue, and I'm happy to explain them all up!
 ---
 
-One month after [A Response to REST is the new SOAP](https://philsturgeon.uk/api/2017/12/18/rest-confusion-explained/) and I'm still having a productive dialog with the author, helping him understand how REST works. I thought it might interest some of you too.
+One month after [A Response to REST is the new SOAP](https://phil.tech/api/2017/12/18/rest-confusion-explained/) and I'm still having a productive dialog with the author, helping him understand how REST works. I thought it might interest some of you too.
 
 **Pakal de Bonchamp**
 

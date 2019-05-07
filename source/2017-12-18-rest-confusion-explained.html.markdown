@@ -21,7 +21,7 @@ That's a fairly different goal from what REST sets out to achieve: stability of 
 
 This should not have been true, RPC is still valid and I use it regularly for servers that have no reason to be REST, like action-based microservices, or anything similar to the [Slack Web API](https://api.slack.com/web) (which is proudly and quite rightly RPC).
 
-Bandwagon jumping is a problem, and we see this with new technologies, all the time. I wrote [A Tale of Tom, Dick and Harry](https://philsturgeon.uk/2014/05/07/the-tale-of-tom-dick-and-harry/), where the three characters advocate tech, and some of them do it recklessly. A lot of REST advocates in the past have played the role of Dick in that story, but remember to separate issues with REST itself, from those with the people pushing it willy nilly onto everything.
+Bandwagon jumping is a problem, and we see this with new technologies, all the time. I wrote [A Tale of Tom, Dick and Harry](https://phil.tech/2014/05/07/the-tale-of-tom-dick-and-harry/), where the three characters advocate tech, and some of them do it recklessly. A lot of REST advocates in the past have played the role of Dick in that story, but remember to separate issues with REST itself, from those with the people pushing it willy nilly onto everything.
 
 > From then on, every API we had to expose or consume became a new challenge; not to say a testimony to insanity.
 
@@ -60,7 +60,7 @@ Whatever the resource is called is the name of the URL.
 
 > How do you express the diversity of error conditions, using the very limited bunch of HTTP codes?
 
-Now you are confusing HTTP and REST, which is common but not correct. HTTP is a transportation layer, and as such you are expected to use the HTTP status codes to portray the category of error as far as HTTP is concerned, then application specific issues become a job for your application. I wrote an [article about this](https://philsturgeon.uk/http/2015/09/23/http-status-codes-are-not-enough/) too.
+Now you are confusing HTTP and REST, which is common but not correct. HTTP is a transportation layer, and as such you are expected to use the HTTP status codes to portray the category of error as far as HTTP is concerned, then application specific issues become a job for your application. I wrote an [article about this](https://phil.tech/http/2015/09/23/http-status-codes-are-not-enough/) too.
 
 tl;dr: is that HTTP error codes are like an exception. Just like getting a 400 is not enough, neither is getting an `ArgumentError` or any other exception name. You then need to get code if you're a computer, or get message if you're a human, and use that metadata to establish the specifics.
 
@@ -93,7 +93,7 @@ This is an assertion without much merit in my opinion. GET is absolutely dangero
 
 > You want to use PUT to update your resource? OK, but some Holy Specifications state that the data input has to be a “complete resource”, i.e follow the same schema as the corresponding GET output. So what do you do with the numerous read-only parameters returned by GET (creation time, last update time, server-generated token…)? You omit them and violate the PUT principles?
 
-This sounds like a frustration born from not understanding the purpose of PUT. It is designed to avoid conflicts as you mention, and as I explain in my article [PUT vs PATCH vs JSON-PATCH](https://philsturgeon.uk/api/2016/05/03/put-vs-patch-vs-json-patch/), here is a scenario where using PUT will lead to reverting data.
+This sounds like a frustration born from not understanding the purpose of PUT. It is designed to avoid conflicts as you mention, and as I explain in my article [PUT vs PATCH vs JSON-PATCH](https://phil.tech/api/2016/05/03/put-vs-patch-vs-json-patch/), here is a scenario where using PUT will lead to reverting data.
 
 **1.) Initial state**
 
@@ -130,7 +130,7 @@ PUT /foos/123
 
 If both fields start `false`, and each request only intends to update one field, little do they know they are clobbering the results and essentially reverting them each time. Instead of ending up with both values being true, you'll simply have whatever the last request was, which is going to be "field1": false and "field2": true.
 
-PUT is great for things like [file uploads](https://philsturgeon.uk/api/2016/01/04/http-rest-api-file-uploads/) for a users avatar for example, you can reattempt multiple times (on timeout or failure), and you'll not have to worry about having two images (like you would if you had `POST uploadImage(userId)`).
+PUT is great for things like [file uploads](https://phil.tech/api/2016/01/04/http-rest-api-file-uploads/) for a users avatar for example, you can reattempt multiple times (on timeout or failure), and you'll not have to worry about having two images (like you would if you had `POST uploadImage(userId)`).
 
 So, if you want idempotent actions, then yes you want PUT, and you absolutely need to provide the entire body. If you want to update just a bit, use PATCH.
 

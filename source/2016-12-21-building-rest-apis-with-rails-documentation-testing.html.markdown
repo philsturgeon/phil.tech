@@ -8,7 +8,7 @@ comments: true
 
 Now that we've started building a very basic API, we should make sure that the documentation is kept up to date with our progress. Even better, we can use our documentation as a basic contract test, to make sure we aren't lying about what our API offers.
 
-I've written tutorials in the past about [how Dredd works](https://philsturgeon.uk/api/2015/01/28/dredd-api-testing-documentation/), so this video will just go over this stuff in a bit more detail.
+I've written tutorials in the past about [how Dredd works](https://phil.tech/api/2015/01/28/dredd-api-testing-documentation/), so this video will just go over this stuff in a bit more detail.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dJXTWVuE89Q" frameborder="0" allowfullscreen></iframe>
 

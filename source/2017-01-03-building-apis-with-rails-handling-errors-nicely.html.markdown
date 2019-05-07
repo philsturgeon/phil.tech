@@ -15,7 +15,7 @@ status code, but there is a lot more to it than that. Errors need to be human re
 
 Outputting a string is a good way to make it human readable, but is not good enough for computers. Do not force other developers to substring match your error messages just because you were lazy.
 
-A HTTP status code can help computers get an idea of what _sort_ of error is happening, but [is not enough by itself](https://philsturgeon.uk/http/2015/09/23/http-status-codes-are-not-enough/).
+A HTTP status code can help computers get an idea of what _sort_ of error is happening, but [is not enough by itself](https://phil.tech/http/2015/09/23/http-status-codes-are-not-enough/).
 Status codes are only a category of error. In most applications, multiple errors on the same endpoint could
 share the same status code, so an application-specific error code should be used too.
 

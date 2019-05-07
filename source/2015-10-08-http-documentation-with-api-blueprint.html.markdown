@@ -10,7 +10,7 @@ When planning my talk and book on REST/HTTP API development, I ended up mentioni
 
 Documentation-first gives you and the team a chance to play around with what fields are coming and going, and you can even dump this documentation file into a collaborative editing tool like Dropbox Notes or have a Google Hangouts with a tmate session. When the API team and the clients (web, iOS, Android, etc.) have reached a good level of agreement, the contracts can be "locked-down" and put into Git, meaning changes are tracked and blame can be used for anyone who f**ks up the contract.
 
-If your API documentation is then [tested with Dredd](https://philsturgeon.uk/api/2015/01/28/dredd-api-testing-documentation/), you know your contracts are holding up as expected over time.
+If your API documentation is then [tested with Dredd](https://phil.tech/api/2015/01/28/dredd-api-testing-documentation/), you know your contracts are holding up as expected over time.
 
 ## Getting Started
 

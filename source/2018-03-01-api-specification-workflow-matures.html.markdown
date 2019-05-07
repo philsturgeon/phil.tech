@@ -8,7 +8,7 @@ comments: true
 
 Back in October I wrote _[Chasing the Perfect API Specification Workflow]_, which was a huge article about the state of the API specification world. One person trying to figure out a good workflow, in a sea of alternative specifications, with incomplete tooling, making it hard to see a solution for all the partial bits of functionality.
 
-[Chasing the Perfect API Specification Workflow]: https://philsturgeon.uk/api/2017/07/20/my-vision-for-a-perfect-world-in-api-specification/
+[Chasing the Perfect API Specification Workflow]: https://phil.tech/api/2017/07/20/my-vision-for-a-perfect-world-in-api-specification/
 
 RAML and API Blueprint fell short of my requirements very quickly, and OpenAPI v3 was not available at the time of writing.
 
@@ -22,7 +22,7 @@ The initial requirements:
 - Documentation testing to confirm docs arent lies
 - SDK Generators with customisable templates
 
-OpenAPI v2.0 scored a 71% for those requirements, and the drastically improved (but frustratingly out of reach) OpenAPI v3.0 scored 86%. Tooling seemed very slow to move to OpenAPI v3, and [a month after v3.0 was launched](https://philsturgeon.uk/api/2017/08/26/one-month-since-openapi-v3-0/), pretty much nothing supported it.
+OpenAPI v2.0 scored a 71% for those requirements, and the drastically improved (but frustratingly out of reach) OpenAPI v3.0 scored 86%. Tooling seemed very slow to move to OpenAPI v3, and [a month after v3.0 was launched](https://phil.tech/api/2017/08/26/one-month-since-openapi-v3-0/), pretty much nothing supported it.
 
 JSON Schema divergence was huge, and with v2 missing oneOf, allOf, etc. it was difficult to write good specs for APIs with more "dynamic" contracts. At work we battled through the best we could, building as much documentation with OpenAPI v2 as possible. We actually did fairly well, but it was a stack of hacks and vendor extensions. It was painful to teach and depressing to use, but now, thankfully, we're on OpenAPI v3.0!!
 

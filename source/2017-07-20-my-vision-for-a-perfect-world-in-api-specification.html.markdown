@@ -24,11 +24,11 @@ A few months back I started to realize they could all be simplified by API speci
 Here are the requirements for my imagined perfect workflow.
 
 - One source of truth where developers need to update stuff
-- [API Design / Prototyping](https://philsturgeon.uk/api/2016/11/22/apis-documentation-first/) - Design first, code later when you've agreed on contracts
+- [API Design / Prototyping](https://phil.tech/api/2016/11/22/apis-documentation-first/) - Design first, code later when you've agreed on contracts
 - [Beautiful documentation for humans](https://stripe.com/docs/api) built without any effort
 - [Validate payloads before you send em](https://code.tutsplus.com/tutorials/validating-data-with-json-schema-part-1--cms-25343) on the client side
 - RSpec matchers providing [contract testing API responses](https://robots.thoughtbot.com/validating-json-schemas-with-an-rspec-matcher)
-- Documentation testing to [confirm docs arent lies](https://philsturgeon.uk/api/2015/01/28/dredd-api-testing-documentation/)
+- Documentation testing to [confirm docs arent lies](https://phil.tech/api/2015/01/28/dredd-api-testing-documentation/)
 - [SDK Generators](https://apimatic.io/) with customisable templates
 
 I've been on a mission to make this happen, and after months of research I've found it doesn't exist _just yet_. Luckily it's bloody close.

@@ -9,7 +9,7 @@ excerpt: "Don't be fooled into thinking you can use HTTP status codes on their o
 
 I spotted an article called [Just learn Rails (Part 3) HTTP status codes](http://jakeyesbeck.com/2015/09/20/rails-http-status-codes/). It started off good, and I liked that it was teaching people to avoid hardcoding their HTTP status codes in code, using `:conflict` instead of `409` and the like.
 
-That is a good message to send, which is why I wrote an article on [exactly that](https://philsturgeon.uk/http/2015/08/16/avoid-hardcoding-http-status-codes/) last month.
+That is a good message to send, which is why I wrote an article on [exactly that](https://phil.tech/http/2015/08/16/avoid-hardcoding-http-status-codes/) last month.
 
 The article also stresses that you must not return errors on `200`, which only the insanity wolf would do.
 
@@ -117,7 +117,7 @@ I'll take vague hints, a brief description and a link to some docs, or any one o
 The specifics of how you throw these vary by language, framework, and personal preference. Here is an approach we use in Rails:
 
 ~~~ ruby
-class ApplicationController < ActionController::Base  
+class ApplicationController < ActionController::Base
   rescue_from 'User::MissingPaymentDetails' do |exception|
     render_json_error(
       :match_accepted_by_non_paying_passenger,

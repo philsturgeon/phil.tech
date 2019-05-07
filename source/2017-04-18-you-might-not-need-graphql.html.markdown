@@ -6,7 +6,7 @@ category: api
 comments: true
 ---
 
-After writing about how [GraphQL and REST differ](https://philsturgeon.uk/api/2017/01/24/graphql-vs-rest-overview/) in various regards, and taking a closer look at [caching in particular](https://philsturgeon.uk/api/2017/01/26/graphql-vs-rest-caching/), I wanted to write about how you can get some of the benefits of GraphQL into an existing endpoint-based API.
+After writing about how [GraphQL and REST differ](https://phil.tech/api/2017/01/24/graphql-vs-rest-overview/) in various regards, and taking a closer look at [caching in particular](https://phil.tech/api/2017/01/26/graphql-vs-rest-caching/), I wanted to write about how you can get some of the benefits of GraphQL into an existing endpoint-based API.
 
 It's finally live, and over on the [Runscope blog](https://blog.runscope.com/posts/you-might-not-need-graphql).
 

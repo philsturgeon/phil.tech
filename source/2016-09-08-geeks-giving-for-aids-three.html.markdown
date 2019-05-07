@@ -45,4 +45,4 @@ It's an amazing group of people, and I'm excited to be riding with them again. W
 * _Find out more about the [BrakingAids Ride](http://brakingaidsride.org/)_
 * _Find out more about [HousingWorks](http://www.housingworks.org/)_
 
-_**P.S:** If you would like to offer some rewards for these donations to help the charity get even more money, and get yourself a bit of marketing and increased sales as an extra reward, please [get in touch](mailto:me@philsturgeon.uk)._
+_**P.S:** If you would like to offer some rewards for these donations to help the charity get even more money, and get yourself a bit of marketing and increased sales as an extra reward, please [get in touch](mailto:me@phil.tech)._

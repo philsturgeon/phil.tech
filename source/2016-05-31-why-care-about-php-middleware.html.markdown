@@ -107,7 +107,7 @@ Other than the specific technical details of the interface, the only question le
 
 The assertion that middleware is "only five minutes of work" is quite off, and the idea that it is unproven is just not accurate. Middleware has been insanely useful in many other languages. I've used it in Ruby and Go extensively, and I'm excited to see it come to PHP in a useful way.
 
-Chatting with Taylor the idea of "middleware is only five minutes of work" is based on the idea that there is a single, generic, framework agnostic package for whatever needs to be done. Now, I'm excited to hear Laravelfolk suggest this because normally I'm wanting those people to think this way. In the past I've [begged people to build framework agnostic code](https://philsturgeon.uk/php/2014/01/02/the-tribal-framework-mindset/) instead of tying it to Laravel.
+Chatting with Taylor the idea of "middleware is only five minutes of work" is based on the idea that there is a single, generic, framework agnostic package for whatever needs to be done. Now, I'm excited to hear Laravelfolk suggest this because normally I'm wanting those people to think this way. In the past I've [begged people to build framework agnostic code](https://phil.tech/php/2014/01/02/the-tribal-framework-mindset/) instead of tying it to Laravel.
 
 Even _if_ we can rely on there being a single, generic, framework agnostic package for literally anything me might want to build into our middleware, the idea that it would only be five minutes of work is still just not.
 
@@ -175,7 +175,7 @@ Most middleware implementations offer the ability to pile up a bunch of classes 
 ~~~ php
 <?php
 
-Equip\Application::build()  
+Equip\Application::build()
 // ...
 ->setMiddleware([
     Relay\Middleware\ResponseSender::class,

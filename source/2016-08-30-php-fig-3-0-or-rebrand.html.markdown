@@ -39,11 +39,11 @@ Ignoring the multitude of other FIG dramas that (despite [one persons paranoid d
 
 FIG 3.0 is the nickname of a specific new version of the FIG, which aims to solve a huge array of problems with the way it currently operates. I was one of the main proponents of FIG 2.0, writing most of what became the new [workflow bylaw](http://www.php-fig.org/bylaws/psr-workflow/). This ended what we referred to as FIG 1.0 (or "The Wild West"). FIG 3.0 is much closer to being a formal standards body, the tl;dr of which can be [found here](https://medium.com/@michaelcullumuk/fig-3-0-91dbfd21c93b#.jvrkqh193).
 
-> **Current problems**  
-> 1. Everyone has equal say on FIG PSRs, no matter their expertise or their project’s relevance in the PSR’s problem space  
-> 2. There are lots of clever awesome people involved in the FIG who are not project representatives  
-> 3. Member projects find it difficult to engage in everything going on in the FIG  
-> 4. There is an ongoing question if the FIG produces PSRs for member projects or for the wider community; especially when the wider community pays it so much attention due to its de-facto status as ‘the php standards body’.  
+> **Current problems**
+> 1. Everyone has equal say on FIG PSRs, no matter their expertise or their project’s relevance in the PSR’s problem space
+> 2. There are lots of clever awesome people involved in the FIG who are not project representatives
+> 3. Member projects find it difficult to engage in everything going on in the FIG
+> 4. There is an ongoing question if the FIG produces PSRs for member projects or for the wider community; especially when the wider community pays it so much attention due to its de-facto status as ‘the php standards body’.
 
 Before this specific implementation was fleshed out, another one of the main proponents of the FIG 3.0 (who was was the 2nd largest contributor to FIG 2.0) was [talking about structure problems in 2015](https://groups.google.com/forum/#!topic/php-fig/oqO1ZH5tJKU%5B1-25%5D).
 
@@ -75,4 +75,4 @@ I do hear rumblings of a smaller, leaner, better group setting up shop with some
 
 Either way, the current PHP-FIG is an absolute garbage fire, and y'all need to stop shouting at each other on Twitter long enough to put it out.
 
-There is still a positive future available for the PHP-FIG, and lots of great standards left for it to work on. The [HTTP Middleware stuff](https://philsturgeon.uk/php/2016/05/31/why-care-about-php-middleware/) might be working as its own [http-interop group](https://github.com/http-interop) for now, if the FIG can unfuck itself somewhat, then they can get back to working on some amazing new things.
+There is still a positive future available for the PHP-FIG, and lots of great standards left for it to work on. The [HTTP Middleware stuff](https://phil.tech/php/2016/05/31/why-care-about-php-middleware/) might be working as its own [http-interop group](https://github.com/http-interop) for now, if the FIG can unfuck itself somewhat, then they can get back to working on some amazing new things.

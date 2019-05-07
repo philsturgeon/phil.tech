@@ -80,7 +80,7 @@ More can be added pretty easily by adding them to the correct oauth package then
 
 The oauth2 package has been [ported to CodeIgniter](https://github.com/philsturgeon/codeigniter-oauth2) and Calvin is working on making the [codeigniter-oauth](http://getsparks.org/packages/codeigniter-oauth/versions/HEAD/show) Spark more awesome. Porting NinjAuth for CodeIgniter would be remarkably simple, but without a user package it's pretty pointless. I'll probably just write a blog about how to make your own in CI and use whatever user system you like. PyroCMS can expect to pick up a few sweet features from this code, potentially for v1.4 or v1.5.
 
-These packages were the fruit of some freelance work done in London for the last few weeks (keeping up my [Nomadic Web Development](https://philsturgeon.uk/blog/2011/08/nomadic-web-development) lifestyle of hostel living with hot French girls) and they will all become crucial parts of the next few applications I build.
+These packages were the fruit of some freelance work done in London for the last few weeks (keeping up my [Nomadic Web Development](https://phil.tech/blog/2011/08/nomadic-web-development) lifestyle of hostel living with hot French girls) and they will all become crucial parts of the next few applications I build.
 
 What I want from people reading this is for them to download it, give it a go and provide feedback, build support for new providers (try Foursquare it's pretty easy but I refuse to sign up for an account) and help me make it even better. I firmly believe OmniAuth is one of the best projects in Rails-world and there is no reason PHP users shouldn't have something so damned useful.
 

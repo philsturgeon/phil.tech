@@ -56,7 +56,7 @@ Others do `?full=true` and have a "Basic" and "Full" serializer for the same res
 
 ## Reasonable Cache Hits, Partial Customization
 
-One solution to make your endpoint-based API responses partially customizable is... partials!  
+One solution to make your endpoint-based API responses partially customizable is... partials!
 
 Google have been recommending this solution for years as a common best practice, and YouTube was doing before that.
 
@@ -152,7 +152,7 @@ So, anyone reading this who's been hearing a lot about GraphQL would think: REST
 
 Well no. REST provides these trade-offs for you to consider, and GraphQL forces your hand into the one option that it allows: high customization and no [network] cachability.
 
-As discussed in [GraphQL vs REST: Caching](https://philsturgeon.uk/api/2017/01/26/graphql-vs-rest-caching/), GraphQL does not work with existing HTTP endpoint-based network caching tools, so the only client options fall on the client attempting to handle it with very little insight, and cache invalidation/expires potentially being very different in two different clients, or your data all has to be restructured to support potentially any call, with any huge amount of nesting, and all of the serialization that comes with it.
+As discussed in [GraphQL vs REST: Caching](https://phil.tech/api/2017/01/26/graphql-vs-rest-caching/), GraphQL does not work with existing HTTP endpoint-based network caching tools, so the only client options fall on the client attempting to handle it with very little insight, and cache invalidation/expires potentially being very different in two different clients, or your data all has to be restructured to support potentially any call, with any huge amount of nesting, and all of the serialization that comes with it.
 
 REST suggests you to make targeted endpoints with a very specific goal in mind, that handle the specific set of data in a performant way and offer a bunch of caching metadata for network tools to leverage. This should not be seen as a negative point, especially with HTTP/2 removing the issue of "multiple handshakes = slow".
 

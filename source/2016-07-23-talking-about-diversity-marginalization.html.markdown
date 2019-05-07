@@ -56,7 +56,7 @@ We all have our biases, and they're really hard to notice, _let alone work past_
 
 Nobody is perfect, we all have our biases. All most people want is for you to open your mind, listen to one another, and stop acting like it’s your job to convince everyone that things are currently fine. They might be fine for you (regardless of your age, gender, sexual orientation, etc), but when other people raise their concerns it's important not to assume they have a shitty motive for doing so.
 
-Many marginalized people such as women and POC will suffer an array of problems in tech that the average white-dude developer will never experience. I used to think these things didn't happen, but when I saw a few things for myself, and started listening to the things happening to my friends, coworkers, and peers online, [it blew my mind](https://philsturgeon.uk/2014/05/31/the-pocket-guide-to-sexism-in-tech/).
+Many marginalized people such as women and POC will suffer an array of problems in tech that the average white-dude developer will never experience. I used to think these things didn't happen, but when I saw a few things for myself, and started listening to the things happening to my friends, coworkers, and peers online, [it blew my mind](https://phil.tech/2014/05/31/the-pocket-guide-to-sexism-in-tech/).
 
 If I just shouted "NO IT’S FINE" at these people I would become part of the problem, instead of an ally in training.
 
@@ -64,6 +64,6 @@ If I just shouted "NO IT’S FINE" at these people I would become part of the pr
 
 My central concern is that solution seeking discussions of legitimate problems are being sidelined, because of some peoples unhelpful assumptions and biases.
 
-I mentioned a few of these unhelpful assumptions above (liars, attention seeking, ulterior motives, etc.), and have written before about another: [blaming a grossly exaggerated "outrage culture"](https://philsturgeon.uk/2016/01/27/why-is-everyone-outraged/).
+I mentioned a few of these unhelpful assumptions above (liars, attention seeking, ulterior motives, etc.), and have written before about another: [blaming a grossly exaggerated "outrage culture"](https://phil.tech/2016/01/27/why-is-everyone-outraged/).
 
 There are loads of reasons people have for avoiding self-reflection or a change of world view when it comes to marginalization, but the strangest so far is the idea of a "social justice conspiracy". I will attempt to explain how these extremist viewpoints came to get a foothold in the PHP community, despite being entirely false. Then we can look at the problems, and see if there are some solutions.

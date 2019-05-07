@@ -115,8 +115,8 @@ Great job from the Dredd contributors, I saw [Honza Javorek]'s name show up a wh
 
 [Apiary Inc.]: https://apiary.io/
 [Ride]: https://ride.com/
-[dredd-article]: https://philsturgeon.uk/api/2015/01/28/dredd-api-testing-documentation/
-[apiblueprint-article]: https://philsturgeon.uk/api/2015/10/08/http-documentation-with-api-blueprint/
+[dredd-article]: https://phil.tech/api/2015/01/28/dredd-api-testing-documentation/
+[apiblueprint-article]: https://phil.tech/api/2015/10/08/http-documentation-with-api-blueprint/
 [v1.1.0]: https://github.com/apiaryio/dredd/releases/tag/v1.1.0
 [API Blueprint]: https://apiblueprint.org/
 [experimental support for Swagger]: https://github.com/apiaryio/dredd#supported-api-description-formats
