@@ -2,7 +2,7 @@ set :site_title, 'Phil Sturgeon'
 set :site_root, 'https://phil.tech'
 set :logo, "/images/logo.jpg"
 set :cover, "/images/cover.jpg"
-set :description, 'I build API Design tools for Stoplight.io, write about REST/RPC/GraphQL APIs, live on a bike, and occasionally upset hordes of mens rights activists on Reddit.'
+set :description, 'I build API Design tools for Stoplight.io, write about pragmatic API design, systems architecture, live on a bike, and occasionally upset hordes of mens rights activists on Reddit.'
 
 set :author, {
   name: 'Phil Sturgeon',

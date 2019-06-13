@@ -2,7 +2,7 @@
   cover: https://s3.amazonaws.com/titlepages.leanpub.com/build-apis-you-wont-hate/large?1430434506
   slogan: Everyone and their dog wants an API, so you should probably learn how to build them.
   description: Tasked with building an API for your company but don't have a clue where to start? Taken over an existing API and hate it? Built your own API and still hate it? This book is for you.
-  links: 
+  links:
     - label: Buy eBook
       class: ebook
       url: https://leanpub.com/build-apis-you-wont-hate
@@ -17,7 +17,7 @@
   cover: https://s3.amazonaws.com/titlepages.leanpub.com/catapultintopyrocms/large?1425546208
   slogan: PyroCMS is one of the most popular and widely used CMSs out there. Learn how to use it.
   description: How do I build websites with PyroCMS? How can I build themes and custom add-ons to push Pyro further? Go from noob to PyroCMS pro over your morning coffee; the first eBook, by the chap that built the CMS.
-  links: 
+  links:
     - label: Buy eBook
       class: ebook
       url: https://leanpub.com/catapultintopyrocms
@@ -26,7 +26,7 @@
   cover: https://s3.amazonaws.com/titlepages.leanpub.com/phptherightway/large?1425544606
   slogan: Your guide to PHP best practices, coding standards, and authoritative tutorials.
   description: As soon as I saw what Josh Lockhart and Kris Jordan were doing with PHP The Right Way I jumped on board and threw a lot of content in. Since then I have been a collaborator on the project, and along with many other contributors we put together a huge resource of modern information. This free ebook respects the contributions of that website licence, but makes the content available in eBook form, PDF, Kindle, etc.
-  links: 
+  links:
     - label: Buy eBook
       class: ebook
       url: https://leanpub.com/phptherightway
