@@ -1,26 +1,5 @@
 %footer.footer{role: "contentinfo"}
   .footer-links
-    %ul.context
-      %li
-        %h3 Content
-      %li
-        %a{href: "/about"} About
-      %li
-        %a{href: "/books"} Books
-      %li
-        %a{href: "/speaking"} Speaking
-
-    %ul.follow
-      %li
-        %h3 Follow Me
-      %li
-        %a{href: "https://twitter.com/philsturgeon"} Twitter
-      %li
-        %a{href: "https://github.com/philsturgeon"} GitHub
-      %li
-        %a{href: "http://apibusters.com/"} API Busters Podcast
-      %li
-        %a{href: "http://phil.bike/"} Phil.Bike
 
     %ul.recent_posts
       %li
@@ -28,3 +7,15 @@
         %ul
           - blog.articles[0...3].each do |article|
             %li= link_to article.title, article
+
+    %ul.other
+      %li
+        %h3 Other
+      %li
+        %a{href: "https://edenprojects.org/user/philsturgeon/"} 🌲 Buy me a tree
+      %li
+        %a{href: "https://phil.bike/"} 🚵‍♂️ Bike Nomading
+      %li
+        %a{href: "https://twitter.com/philsturgeon"} 💻 Twitter
+      %li
+        %a{href: "https://apisyouwonthate.com/"} 🛠 APIs You Won't Hate
