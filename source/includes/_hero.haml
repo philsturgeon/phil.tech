@@ -8,15 +8,17 @@
   %h1.blog-title=h config[:site_title]
   %h2.blog-description=h config[:description]
   .custom-links
+    %a{href: "https://edenprojects.org/user/philsturgeon/"} 🌲
+    &nbsp;&nbsp;·&nbsp;&nbsp;
     - config.social.each do |x, social|
       - if social[:url]
         %a{class: "icon-social[:icon]", href: social[:url]}
           %i.fa{class: "fa-#{social[:icon]}"}
         &nbsp;&nbsp;·&nbsp;&nbsp;
-    %a{href: "/about/"} About
-    &nbsp;&nbsp;·&nbsp;&nbsp;
     %a{href: "/books/"} Books
     &nbsp;&nbsp;·&nbsp;&nbsp;
     %a{href: "/speaking/"} Speaking
     &nbsp;&nbsp;·&nbsp;&nbsp;
     %a{href: "https://calendly.com/philsturgeon"} Consulting
+    &nbsp;&nbsp;·&nbsp;&nbsp;
+    %a{href: "/about/"} About
