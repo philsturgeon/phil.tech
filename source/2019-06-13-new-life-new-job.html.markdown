@@ -16,9 +16,10 @@ for pretty much no reason, with absolutely zero fault-tolerance anywhere.
 
 A lot of 2018 was spent trying to figure out a good workflow for API
 specifications, as there was zero documentation there and nobody had a clue how
-anything worked. This lead to people building out new endpoints for every new
-client because they were scared to trey and use the old ones, which slowed down
-projects, and wasted significant amount of money.
+anything worked. This lead to people [building out new
+endpoints](/blog/api-versioning-has-no-right-way) for every new client because
+they were scared to try and use the old ones, which slowed down projects, and
+wasted significant amount of money.
 
 The workflow had to cover prototyping, docs, mocks, contract testing, and after
 a lot of research, open-sourcing, and team-work, we [figured it
@@ -45,13 +46,13 @@ asked if they had a place for me on the team. The response was "yeah we'd been
 meaning to ask but weren't sure how to bring it up!" and the most natural hiring
 ever happened.
 
-So I handed in my notice at WeWork January, sold all my stuff, gave Stowford the turtle
-to a racing mate, went riding bikes in the [Canary
-Islands](https://phil.bike/canary-islands-tenerife-gran-canaria/) all February to
-unwind, and have been working remotely and [riding across Europe for the last two months](https://phil.bike/euro-trip-two-months/).
+So I handed in my notice at WeWork in January, sold all my stuff, gave Stowford
+the turtle to a racing mate, went riding bikes in the [Canary
+Islands](https://phil.bike/canary-islands-tenerife-gran-canaria/) all February
+to unwind, and have been working remotely for Stoplight whilst [riding across
+Europe](https://phil.bike/euro-trip-two-months/) for the last two months.
 
 ![Progress from Spain to Germany in the least direct route](article_images/2019-06-13-new-life-new-job/route.png)
-
 
 It's been going just as ridiculously as you might expect.
 
