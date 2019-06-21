@@ -3,18 +3,18 @@ layout: page
 title: Books
 ---
 
-%p Look, I know every developer out there is trying to jam their book down your throat and wanging on about how it will change your life, but I'm not going to do that.
-
-%p These books are there to help you with certain problems. If they sound good, grab a copy and help me pay off two years worth of bloody tax after the last job utterly arsed my finances by selfishly going beeswax.
+%p Sometimes I write things even longer than a huge article.
 
 - data.books.each do |book|
   .book
-    %h1=h book.title
+    %a{ href: book.links.first.url }
+      %h1=h "#{book.title} (#{book.year})"
     %h2
       %p=h book.slogan
     .book-image
       %figure.image
-        %img{src: book.cover, alt: h("#{book.title} Cover"), 'data-no-caption' => true}
+        %a{ href: book.links.first.url }
+          %img{src: book.cover, alt: h("#{book.title} Cover"), 'data-no-caption' => true}
     .book-content
       %p=h book.description
       .button-group

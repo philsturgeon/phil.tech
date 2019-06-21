@@ -1,32 +1,63 @@
+- title: Surviving Other People's APIs
+  cover: /images/surviving.jpeg
+  year: 2019
+  slogan:  "\"Just pull that from the API\" they said. \"It'll be easy!\" they said."
+  description: >-
+    API Developers focus so much on designing and building their APIs, yet often
+    we seem to forget the folks on the other end of the line. You, the frontend
+    and backend "client developers" trying to integrate the data and functionality into
+    your own work, often get left with junky docs, or no docs. This book is your
+    guide to navigating a plethora of potential pitfalls and booby traps, and learning
+    how to integrate fancy API features like HATEOAS, GraphQL, HTTP/2, etc.
+  links:
+    - label: Pre-order eBook
+      class: ebook
+      url: https://apisyouwonthate.com/books/surviving-other-peoples-apis/
+
 - title: Build APIs You Won't Hate
-  cover: https://s3.amazonaws.com/titlepages.leanpub.com/build-apis-you-wont-hate/large?1430434506
+  cover: /images/build1.png
+  year: 2014
   slogan: Everyone and their dog wants an API, so you should probably learn how to build them.
-  description: Tasked with building an API for your company but don't have a clue where to start? Taken over an existing API and hate it? Built your own API and still hate it? This book is for you.
+  description: >-
+    Tasked with building an API for your company but don't have a clue where to
+    start? Taken over an existing API and hate it? Built your own API and still
+    hate it? This book is for you.
   links:
     - label: Buy eBook
       class: ebook
-      url: https://leanpub.com/build-apis-you-wont-hate
-    - label: Paperback (US)
+      url: https://apisyouwonthate.com/books/build-apis-you-wont-hate
+    - label: Amazon (US)
       class: paperback
       url: https://www.amazon.com/Build-APIs-You-Wont-Hate/dp/0692232699/
-    - label: Paperback (UK)
+    - label: Amazon (UK)
       class: paperback
       url: https://www.amazon.co.uk/dp/0692232699/
+    - label: Amazon (De)
+      class: paperback
+      url: https://www.amazon.de/Build-APIs-You-Wont-Hate/dp/0692232699
+
+- title: "PHP: The \"Right\" Way"
+  cover: https://s3.amazonaws.com/titlepages.leanpub.com/phptherightway/large?1425544606
+  year: 2013
+  slogan: Your guide to PHP best practices, coding standards, and authoritative tutorials.
+  description: >-
+    As soon as I saw what Josh Lockhart and Kris Jordan were doing with PHP The
+    Right Way I jumped on board and threw a lot of content in. Since then I have
+    been a collaborator on the project, and along with many other contributors
+    we put together a huge resource of modern information. This free ebook
+    respects the contributions of that website licence, but makes the content
+    available in eBook form, PDF, Kindle, etc.
+  links:
+    - label: Buy eBook
+      class: ebook
+      url: https://leanpub.com/phptherightway
 
 - title: Catapult into PyroCMS
   cover: https://s3.amazonaws.com/titlepages.leanpub.com/catapultintopyrocms/large?1425546208
-  slogan: PyroCMS is one of the most popular and widely used CMSs out there. Learn how to use it.
+  year: 2012
+  slogan: PyroCMS v2 was a popular PHP/CodeIgniter CMS, which has been rewritten. Free historical book!
   description: How do I build websites with PyroCMS? How can I build themes and custom add-ons to push Pyro further? Go from noob to PyroCMS pro over your morning coffee; the first eBook, by the chap that built the CMS.
   links:
     - label: Buy eBook
       class: ebook
       url: https://leanpub.com/catapultintopyrocms
-
-- title: "PHP: The \"Right\" Way"
-  cover: https://s3.amazonaws.com/titlepages.leanpub.com/phptherightway/large?1425544606
-  slogan: Your guide to PHP best practices, coding standards, and authoritative tutorials.
-  description: As soon as I saw what Josh Lockhart and Kris Jordan were doing with PHP The Right Way I jumped on board and threw a lot of content in. Since then I have been a collaborator on the project, and along with many other contributors we put together a huge resource of modern information. This free ebook respects the contributions of that website licence, but makes the content available in eBook form, PDF, Kindle, etc.
-  links:
-    - label: Buy eBook
-      class: ebook
-      url: https://leanpub.com/phptherightway
