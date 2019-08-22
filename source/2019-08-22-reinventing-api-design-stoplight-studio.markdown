@@ -14,7 +14,7 @@ Not just an editor, Studio has linting and mocking built into it, leveraging our
 
 This thing is an absolute game changer for API Design, and something I've been waiting for since I found out about it somewhere in 2018. Let me tell you why.
 
-Before joining Stoplight I was working at WeWork. I joined WeWork in 2016 when a friend said "Phil, please help, all of our APIs are terrible." I could see why, there was no planning process, peolpe just started writing `rails new whatever` mid meeting and they'd all just see where that went. There were ~50 APIs and 80 devs, we were hiring more people and flinging out APIs faster than people could keep up with. None of this stuff ever got documented, so devs were constantly building and maintaining new APIs because they didn't know how the old ones worked. Of course there was no documentation.
+Before joining Stoplight I was working at WeWork. I joined WeWork in 2016 after a friend said "Phil, all of our APIs are terrible, you should come and help us." I could see why, there was no planning process, peolpe just started writing `rails new whatever` mid meeting and they'd all just see where that went. There were ~50 APIs and 80 devs, we were hiring more people and flinging out APIs faster than people could keep up with. None of this stuff ever got documented, so devs were constantly building and maintaining new APIs because they didn't know how the old ones worked. Of course there was no documentation.
 
 Whilst I don't believe anyone seriously tried, the sort of awkward dynamic payload stuff that WeWork had a lot of made it difficult to write docs with API Blueprint - the old king of API description formats. Seeing as many people were unexcited by the concept of docs (despite 20-30% of our development budget going on pointless rewrites which could have been avoided with docs) I was trying to sweeten the deal with other things like mocks and contract testing too.
 
@@ -50,4 +50,4 @@ I could go on. Being able to solve all these problems with a free tool is the be
 
 Give [Studio](https://stoplight.io/studio) a try. There's a [web version](https://stoplight.io/p/studio) if you don't want to jump straight to downloading stuff, and yes, the web version can git clone!
 
-_Like my writing? Buy me a tree, or [buy 30 they're only $0.10](https://offset.earth/philsturgeon)._
+_Support my articles and the planet: [Buy me a tree](https://offset.earth/philsturgeon), or buy 30 - they're only $0.10._
