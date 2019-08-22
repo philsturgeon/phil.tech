@@ -9,8 +9,9 @@ You Won't Hate](https://apisyouwonthate.com/blog) and
 [phil.bike](https://philk.bike) more than here.
 
 2017 was mostly spent putting out fires at WeWork as an API designer and
-architect, helping to debug and stabilize their tightly coupled deathstar
-architecture, which was [constantly
+architect, helping to debug and stabilize their tightly coupled [deathstar
+architecture](https://developer.ibm.com/courses-center/business-service-microservices-dependencies-death-star-dwc024/),
+which was [constantly
 crashing](https://apisyouwonthate.com/blog/taking-a-timeout-from-poor-performance)
 for pretty much no reason, with absolutely zero fault-tolerance anywhere.
 
@@ -49,8 +50,8 @@ ever happened.
 So I handed in my notice at WeWork in January, sold all my stuff, gave Stowford
 the turtle to a racing mate, went riding bikes in the [Canary
 Islands](https://phil.bike/canary-islands-tenerife-gran-canaria/) all February
-to unwind, and have been working remotely for Stoplight whilst [riding across
-Europe](https://phil.bike/euro-trip-two-months/) for the last two months.
+to unwind. Since March I have been working remotely for Stoplight, whilst [riding across
+Europe](https://phil.bike/euro-trip-two-months/).
 
 ![Progress from Spain to Germany in the least direct route](article_images/2019-06-13-new-life-new-job/route.png)
 
@@ -75,13 +76,5 @@ part of my job. 😲
 Give it another month or two and you'll be tired of scooping your jaw off the
 floor at what we're building. 🙌
 
-_Also whilst I'm cycling around I'm trying to raise awareness about how easy
-carbon offsetting can be. Trying to start a new thing to replace "Buy me a
-coffee" for anyone who is in a position to do so. Add this to your repos, save
-the world._
-
-[![](https://img.shields.io/static/v1.svg?label=%F0%9F%8C%B3&message=buy%20me%20a%20tree&color=green)](https://edenprojects.org/user/philsturgeon/)
-
-~~~
-[![](https://img.shields.io/static/v1.svg?label=%F0%9F%8C%B3&message=buy%20me%20a%20tree&color=green)](https://edenprojects.org/user/your-username-here/)
-~~~
+_Also whilst I'm cycling around I'm trying to raise awareness about how [easy and beneficial
+carbon offsetting can be](https://phil.bike/trees)._
