@@ -3,6 +3,16 @@
 past:
 
   - event:
+      name: API City 2019
+      url: https://2019.apicity.io/
+      dates: September 5th 2018
+    city: Seattle
+    country: USA
+    talks:
+      - slug: api-descriptions-as-production-code
+        slides:  http://talks.phil.tech/instances/2019-08-api-city/html/
+
+  - event:
       name: PHP Gent
       url: https://www.meetup.com/phpgent/events/past/
       dates: 13th December 2018
@@ -10,7 +20,7 @@ past:
     country: Belgium
     talks:
       - slug: when-dependenices-go-wild
-        slides:  https://talks.philsturgeon.uk/instances/2018-12-apidays/circuit-breakers-when-dependenices-go-wild.pdf
+        slides:  https://talks.phil.tech/instances/2018-12-apidays/circuit-breakers-when-dependenices-go-wild.pdf
 
   - event:
       name: API Days Paris 2018
@@ -20,20 +30,20 @@ past:
     country: France
     talks:
       - slug: design-first-apis
-        slides:  https://talks.philsturgeon.uk/instances/2018-12-apidays/design-first-apis
+        slides:  https://talks.phil.tech/instances/2018-12-apidays/design-first-apis
       - slug: when-dependenices-go-wild
-        slides:  https://talks.philsturgeon.uk/instances/2018-12-apidays/circuit-breakers-when-dependenices-go-wild.pdf
+        slides:  https://talks.phil.tech/instances/2018-12-apidays/circuit-breakers-when-dependenices-go-wild.pdf
         video: https://www.youtube.com/watch?v=oVtufG8Cu3U
 
   - event:
       name: API City 2018
       url: https://www.apidays.co/paris
-      dates: 11th-12th December 2018
+      dates: September 2018
     city: Seattle
     country: USA
     talks:
       - slug: design-first-apis
-        slides: https://talks.philsturgeon.uk/instances/2018-10-apicity/html
+        slides: https://talks.phil.tech/instances/2018-10-apicity/html
 
   - event:
       name: PHP South West UK Meetup
@@ -43,7 +53,7 @@ past:
     country: United Kingdom
     talks:
       - slug: http-caching
-        slides: https://talks.philsturgeon.uk/instances/2018-01-phpsw/http-caching-to-save-the-polar-bears/html
+        slides: https://talks.phil.tech/instances/2018-01-phpsw/http-caching-to-save-the-polar-bears/html
         feedback: http://joind.in/talk/ae67c
 
   - event:
@@ -54,7 +64,7 @@ past:
     country: Colombia
     talks:
       - slug: a-no-nonsense-graphql-and-rest-comparison
-        slides: https://talks.philsturgeon.uk/instances/2017-09-rubyconfco/a-no-nonsense-graphql-rest-comparison/html
+        slides: https://talks.phil.tech/instances/2017-09-rubyconfco/a-no-nonsense-graphql-rest-comparison/html
         video: https://www.youtube.com/watch?v=vgm_uGmspMI
 
   - event:
@@ -65,11 +75,11 @@ past:
     country: Canada
     talks:
       - slug: what-rails-can-teach-php
-        slides: https://talks.philsturgeon.uk/instances/2017-08-nephp/what-rails-can-teach-php-about-building-apis/html
+        slides: https://talks.phil.tech/instances/2017-08-nephp/what-rails-can-teach-php-about-building-apis/html
         feedback: https://joind.in/event/northeast-php-2017/what-rails-can-teach-php-about-building-apis
 
       - slug: a-no-nonsense-graphql-and-rest-comparison
-        slides: https://talks.philsturgeon.uk/instances/2017-08-nephp/a-no-nonsense-graphql-rest-comparison/html
+        slides: https://talks.phil.tech/instances/2017-08-nephp/a-no-nonsense-graphql-rest-comparison/html
         feedback: https://joind.in/event/northeast-php-2017/a-no-nonsense-graphql-and-rest-comparison
 
   - city: Boston
@@ -80,7 +90,7 @@ past:
       dates: 9th March 2017
     talks:
       - slug: api-tales-of-woe-and-woah
-        slides: https://talks.philsturgeon.uk/instances/2017-03-a-day-of-rest/api-tales-of-woe-and-woah/
+        slides: https://talks.phil.tech/instances/2017-03-a-day-of-rest/api-tales-of-woe-and-woah/
 
   - city: São Paulo
     country: Brazil
@@ -90,7 +100,7 @@ past:
       dates: 7th–11th December 2016
     talks:
       - slug: api-tales-of-woe-and-woah
-        slides: https://talks.philsturgeon.uk/instances/2016-php-brazil/api-tales-of-woe-and-woah/
+        slides: https://talks.phil.tech/instances/2016-php-brazil/api-tales-of-woe-and-woah/
 
   - city: Sofia
     country: Bulgaria
@@ -100,7 +110,7 @@ past:
       dates: 7th–9th October 2016
     talks:
       - slug: what-they-should-tell-you
-        slides: https://talks.philsturgeon.uk/content/what-they-should-have-told-you-about-apis/index.html
+        slides: https://talks.phil.tech/content/what-they-should-have-told-you-about-apis/index.html
 
   - city: Miami
     country: United States
@@ -110,7 +120,7 @@ past:
       dates: 4th–6th February 2016
     talks:
       - slug: building-extraordinary-packages
-        slides: https://talks.philsturgeon.uk/content/building-extraordinary-packages/slides.pdf
+        slides: https://talks.phil.tech/content/building-extraordinary-packages/slides.pdf
 
   - city: Seattle
     country: United States
@@ -120,9 +130,9 @@ past:
       dates: 10th–12th September 2015
     talks:
       - slug: api-pain-points
-        slides: https://talks.philsturgeon.uk/content/api-pain-points/slides.pdf
+        slides: https://talks.phil.tech/content/api-pain-points/slides.pdf
       - slug: building-extraordinary-packages
-        slides: https://talks.philsturgeon.uk/content/building-extraordinary-packages/slides.pdf
+        slides: https://talks.phil.tech/content/building-extraordinary-packages/slides.pdf
 
   - city: Wellington
     country: New Zealand
@@ -133,7 +143,7 @@ past:
     talks:
       - slug: go-workshop
       - slug: building-extraordinary-packages
-        slides: https://talks.philsturgeon.uk/content/building-extraordinary-packages/slides.pdf
+        slides: https://talks.phil.tech/content/building-extraordinary-packages/slides.pdf
 
   - city: Portsmouth
     country: United Kingdom
@@ -143,4 +153,4 @@ past:
       dates: 18th July 2015
     talks:
       - slug: api-pain-points
-        slides: https://talks.philsturgeon.uk/instances/2015-php-south-coast/api-pain-points.pdf
+        slides: https://talks.phil.tech/instances/2015-php-south-coast/api-pain-points.pdf

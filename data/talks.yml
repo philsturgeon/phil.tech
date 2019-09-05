@@ -1,3 +1,11 @@
+api-descriptions-as-production-code:
+  title: "API Descriptions as Production Code"
+  short: >
+    Lots of developers are aware they can use API descriptions for docs and
+    mocking, but they often have this concern about “keeping specs in sync with
+    code”. Learn how to reuse these description docs to drastically simplify 
+    validation, in client-side, server-side, and even at the API gateway.
+
 design-first-apis:
   title: "Design First APIs"
   short: >
