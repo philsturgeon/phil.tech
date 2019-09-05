@@ -50,7 +50,7 @@ Some would say that at step 4, if you turn down some guys who _would_ give good 
 
 Firstly, "quota filling" suggests that you're just throwing some women in there to avoid getting shouted at.
 
-Let me be clear. Placing women on the stage _for the sake of having some women up there_ is not what many reasonable people are asking for. It's offensive to suggest that is why a decent ratio of women speakers is an objective. It is also quite obviously offensive (I would hope) to ask somebody to speak just because they are a women.
+Let me be clear. Placing women on the stage _for the sake of having some women up there_ is not what many reasonable people are asking for. It's offensive to suggest that is why a decent ratio of women speakers is an objective. It is also quite obviously offensive (I would hope) to ask somebody to speak just because they are a woman.
 
 It can also be damaging. If you have experienced men and a few inexperienced women you found to fill your "quota" then you're going to make those women look bad in front of a lot of people.
 
@@ -104,7 +104,7 @@ Sadly when there are sponsor provided people flogging the product, the reaction 
 
 ![XKCD on "That guy sucks" vs. "Women suck"](http://imgs.xkcd.com/comics/how_it_works.png)
 
-Just like with "quota filling", if there are just a few woman and they are not giving particlarly technical talks, it leaves a general bad impression of women as a whole.
+Just like with "quota filling", if there are just a few women and they are not giving particularly technical talks, it leaves a general bad impression of women as a whole.
 
 Besides, if as a conference you can't get past 10% when you have sponsor provided women speakers, then you're really fucking something up at a fundamental level.
 
