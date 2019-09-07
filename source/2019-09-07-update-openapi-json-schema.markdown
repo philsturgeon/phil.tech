@@ -3,7 +3,6 @@ title: Update on OpenAPI and JSON Schema
 date: 2019-09-07
 tags: api design, openapi, json schema, api descriptions
 comments: true
-disqus_identifier: the-tale-of-tom-dick-and-harry
 ---
 
 The API design space is booming right now, with OpenAPI and JSON Schema tooling seriously growing up. My [new job at Stoplight.io](/2019/06/13/new-life-new-job/) is letting me channel passion for improving this space, and the whole team has been crushing it. We released a new API description document linter ([Spectral](https://stoplight.io/open-source/spectral/)), a damn intelligent mock-server ([Prism](https://stoplight.io/open-source/prism/)), and an [amazing OpenAPI & JSON Schema editor](/2019/08/22/reinventing-api-design-stoplight-studio/) called [Stoplight Studio](https://stoplight.io/studio). This last one is just exceptional, and is the culmination of a years work by a whole lot of people.
@@ -24,7 +23,7 @@ We could fork json-schema-to-openapi-schema and maintain it at [Stoplight](https
 
 ## Alternative Schemas
 
-The OpenAPI Initiative have bi-weekly calls, with a group called the "OpenAPI Technical Steering Committee". For a while there was discussion about "Alternative Schema" being championed by the excellent Darrell Miller. The idea was that OpenAPI v3.1 would add a new `alternativeSchema` keyword, and you could specify `"schemaTye: jsonSchema`, `xmlSchema`, or various other relevant schema languages.
+The OpenAPI Initiative have bi-weekly calls, with a group called the "OpenAPI Technical Steering Committee". For a while there was discussion about "Alternative Schema" being championed by the excellent Darrel Miller. The idea was that OpenAPI v3.1 would add a new `alternativeSchema` keyword, and you could specify `"schemaTye: jsonSchema`, `xmlSchema`, or various other relevant schema languages.
 
 Alternative Schemas sounded great back in April 2018. I'd join the calls for an hour every two weeks, but when things went to hell for me at WeWork I shoved off to [ride bikes up and down volcanos for a month](/canary-islands-tenerife-gran-canaria/). When I got back to work the Alternative Schemas proposal had morphed into something incredibly complex, and IMHO not very useful for end users, and awful for tooling vendors too.
 
@@ -40,14 +39,14 @@ Some folks are concerned about pegging OpenAPI v3.1 to a draft, but draft proces
 
 Upgrading will be simple for OpenAPI, its tooling vendors, and the users of those tools. There are two "breaking changes" between 5 and 2019-09 that OpenAPI can abstract away for its users: `exclusiveMinimum` and `exclusiveMaximum`. In draft 5 they were modifiers, and now they are distinct values.
 
-```
+~~~yaml
 # draft 5
 minimum: 10
 exclusiveMinimum: true
 
 # draft 2019-09
 exclusiveMinimum: 10
-```
+~~~
 
 OpenAPI v3.1 can easily support both, detecting if its a boolean or an integer. Then the only changes OpenAPI tool vendors need support are support for the various new JSON Schema keywords, like:
 
@@ -86,13 +85,13 @@ Back in June the OpenAPI TSC were game to see what updating to modern JSON Schem
 
 This PR was too confusing so I made another ([#1977](https://github.com/OAI/OpenAPI-Specification/pull/1977)) that focuses on the changes to the specification, and we can figure out the implementation as a vocab later. 
 
-Sadly around about the time I got this PR done, the bi-weekly calls took a summer break.  Darrell and I made some progress asynchronously via PR comments, and I went hunting for feedback on the OpenAPI Slack. There were some concerns from two static language code generator tooling developers, talking about how they struggle to use keywords that allow dynamic payloads like allOf and oneOf.
+Sadly around about the time I got this PR done, the bi-weekly calls took a summer break.  Darrel and I made some progress asynchronously via PR comments, and I went hunting for feedback on the OpenAPI Slack. There were some concerns from two static language code generator tooling developers. The gist of their concerns were that they already struggle to support dynamic payloads with keywords like `allOf` (OAS2) and `oneOf` (OAS3) so adding more things like "type arrays" (e.g: `type: ["string", "null"]`) would be a problem, even though that keyword is long-form for oneOf with a type of string or a type of null.
 
 Without getting into it too in depth: JSON is a dynamic data format, and JSON supports things which do not translate into simple idiomatic Java or C++. A JSON API response might contain a `{ data: {} }` which is a single object or an array of objects. An object might return an object of arbitrary user-generated keys and values, which need to be described generically with `patternProperties` or similar. Folks using [API evolution](https://apisyouwonthate.com/blog/api-evolution-for-rest-http-apis/) might have changed `coordinates: "lat,lng"` from a string to an array: `coordinates: ["lat", "lon"]`, deprecating the string but supporting both until client had update.
 
-These dynamic payloads can be handled in any programming language, it is just tricker in static languages. I understand that, but given the choice between "Making life slightly harder for tool vendors" and "Keeping things super confusing for all users of OpenAPI regardless of what language they use" the latter should be unanimous, and sadly it is not. 
+These dynamic payloads can be handled in any programming language, it is just tricker in static languages. I understand that, but given the choice between "Making life slightly harder for tool vendors" and "Keeping things super confusing for all users of OpenAPI regardless of what language they use" the latter should be a unanimous vote. 
 
-More on this another time, but for now at least the OpenAPI folks are not blocking JSON Schema update for v3.1, they are focusing on a concerpt called "OpenAPI profiles" which may or may not happen, but either way will hopefully let the JSON Schema update progress.
+More on this another time, but for now at least the two folks who had concerns are not blocking JSON Schema update for v3.1. They are focusing on a concept called "OpenAPI profiles" which may or may not happen, but either way will hopefully let the JSON Schema update progress.
 
 Now September is here the calls will start up again soon. We missed it Friday due to a lot of us being at API City 2019, but the next call should happen. I'm gonna avoid getting heat exhaustion so I don't have to try and give presentations while the room is spinning, and hopefully we can get [#1977](https://github.com/OAI/OpenAPI-Specification/pull/1977) merged; having OpenAPI v3.1 commit to supporting modern JSON Schema as a light superset, instead of a customized/subset/superset of a very old draft. 🙌
 
