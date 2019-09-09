@@ -89,7 +89,7 @@ Sadly around about the time I got this PR done, the bi-weekly calls took a summe
 
 Without getting into it too in depth: JSON is a dynamic data format, and JSON supports things which do not translate into simple idiomatic Java or C++. A JSON API response might contain a `{ data: {} }` which is a single object or an array of objects. An object might return an object of arbitrary user-generated keys and values, which need to be described generically with `patternProperties` or similar. Folks using [API evolution](https://apisyouwonthate.com/blog/api-evolution-for-rest-http-apis/) might have changed `coordinates: "lat,lng"` from a string to an array: `coordinates: ["lat", "lon"]`, deprecating the string but supporting both until client had update.
 
-These dynamic payloads can be handled in any programming language, it is just tricker in static languages. I understand that, but given the choice between "Making life slightly harder for tool vendors" and "Keeping things super confusing for all users of OpenAPI regardless of what language they use" the latter should be a unanimous vote. 
+These dynamic payloads can be handled in any programming language, it is just tricker in static languages. I understand that, but given the choice between "Making life slightly harder for tool vendors" and "Keeping things super confusing for all users of OpenAPI regardless of what language they use" the former should be a unanimous vote, even from us tooling vendors. 
 
 More on this another time, but for now at least the two folks who had concerns are not blocking JSON Schema update for v3.1. They are focusing on a concept called "OpenAPI profiles" which may or may not happen, but either way will hopefully let the JSON Schema update progress.
 
