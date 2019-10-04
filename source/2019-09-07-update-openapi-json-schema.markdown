@@ -1,9 +1,13 @@
 ---
 title: Update on OpenAPI and JSON Schema
-date: 2019-09-07
+date: 2019/09-07
 tags: api design, openapi, json schema, api descriptions
 comments: true
 ---
+
+_**TLDR added 2019-10-03:** JSON Schema Draft 2019/09 is out, and [OpenAPI v3.1 looks likely](https://github.com/OAI/OpenAPI-Specification/issues/2025) to have [#1977](https://github.com/OAI/OpenAPI-Specification/pull/1977) included - which brings full JSON Schema Draft 2019/09 support. So when will OpenAPI v3.1 come out? Tough to say, but there is talk of maybe getting an RC1 out in a few weeks, and the more complex things like overlays may well be punted to a later RC, or v3.2. Things are looking incredibly positive._
+
+<hr/>
 
 The API design space is booming right now, with OpenAPI and JSON Schema tooling seriously growing up. My [new job at Stoplight.io](/2019/06/13/new-life-new-job/) is letting me channel passion for improving this space, and the whole team has been crushing it. We released a new API description document linter ([Spectral](https://stoplight.io/open-source/spectral/)), a damn intelligent mock-server ([Prism](https://stoplight.io/open-source/prism/)), and an [amazing OpenAPI & JSON Schema editor](/2019/08/22/reinventing-api-design-stoplight-studio/) called [Stoplight Studio](https://stoplight.io/studio). This last one is just exceptional, and is the culmination of a years work by a whole lot of people.
 
@@ -25,7 +29,7 @@ We could fork json-schema-to-openapi-schema and maintain it at [Stoplight](https
 
 The OpenAPI Initiative have bi-weekly calls, with a group called the "OpenAPI Technical Steering Committee". For a while there was discussion about "Alternative Schema" being championed by the excellent Darrel Miller. The idea was that OpenAPI v3.1 would add a new `alternativeSchema` keyword, and you could specify `"schemaTye: jsonSchema`, `xmlSchema`, or various other relevant schema languages.
 
-Alternative Schemas sounded great back in April 2018. I'd join the calls for an hour every two weeks, but when things went to hell for me at WeWork I shoved off to [ride bikes up and down volcanos for a month](/canary-islands-tenerife-gran-canaria/). When I got back to work the Alternative Schemas proposal had morphed into something incredibly complex, and IMHO not very useful for end users, and awful for tooling vendors too.
+Alternative Schemas sounded great back in April 2018. I'd join the calls for an hour every two weeks, but when things went to hell for me at WeWork I shoved off to [ride bikes up and down volcanoes for a month](/canary-islands-tenerife-gran-canaria/). When I got back to work the Alternative Schemas proposal had morphed into something incredibly complex, and IMHO not very useful for end users, and awful for tooling vendors too.
 
 It allowed for mixed OpenAPI Schema and JSON Schema objects in a very confusing way, meaning JSON Schema keywords were being applied as special keywords in OpenAPI Schema Object, essentially being "extra validation" for an OpenAPI object, which... is not ideal. For anyone interested I have [given constructive criticism on the OpenAPI Specification repo](https://github.com/OAI/OpenAPI-Specification/issues/1943), and do plan to follow it up with an Alternative Alternative Schema proposal as part of my work at Stoplight in the next few months.
 
@@ -33,18 +37,18 @@ In the mean time it's been my suggestion that AS is punted to OpenAPI v4.0, with
 
 ## JSON Schema Alignment in OpenAPI v3.1
 
-JSON Schema is finishing up some work around `$id` and `$anchor`, then it can tag up the next draft. Dropping the old non-standard versioning schema of 1-7, the next draft was referred to as draft 8 for a while, but is going to be `JSON Schema Draft 2019-09`. It has no major changes, but drastically simplifies a lot of the language to make the JSON Schema spec easier to read.
+JSON Schema ~is finishing up some work around `$id` and `$anchor`, then it can tag up the next draft~ have finished the latest draft! Dropping the old non-standard versioning schema of 1-7, the next draft was referred to as draft 8 for a while, the latest draft is called "JSON Schema Draft 2019/09". It has no major changes, but drastically simplifies a lot of the language to make the JSON Schema spec easier to read.
 
-Some folks are concerned about pegging OpenAPI v3.1 to a draft, but draft process is almost finished now. With this draft almost out there, there will be on more, then the one after that is expected to be something equivilent to v1.0.0-RC1. We are considering our options with IETF and W3C who may want some amount of change to be considered, but things are getting pretty close now, to a point where sticking to draft 5 is considerably more damaging than any perceived downside to upgrading to modern JSON Schema.
+Some folks are concerned about pegging OpenAPI v3.1 to a draft, but draft process is almost finished now. With this draft almost out there, there will be on more, then the one after that is expected to be something equivalent to v1.0.0-RC1. We are considering our options with IETF and W3C who may want some amount of change to be considered, but things are getting pretty close now, to a point where sticking to draft 5 is considerably more damaging than any perceived downside to upgrading to modern JSON Schema.
 
-Upgrading will be simple for OpenAPI, its tooling vendors, and the users of those tools. There are two "breaking changes" between 5 and 2019-09 that OpenAPI can abstract away for its users: `exclusiveMinimum` and `exclusiveMaximum`. In draft 5 they were modifiers, and now they are distinct values.
+Upgrading will be simple for OpenAPI, its tooling vendors, and the users of those tools. There are two "breaking changes" between 5 and 2019/09 that OpenAPI can abstract away for its users: `exclusiveMinimum` and `exclusiveMaximum`. In draft 5 they were modifiers, and now they are distinct values.
 
 ~~~yaml
 # draft 5
 minimum: 10
 exclusiveMinimum: true
 
-# draft 2019-09
+# draft 2019/09
 exclusiveMinimum: 10
 ~~~
 
@@ -55,9 +59,9 @@ OpenAPI v3.1 can easily support both, detecting if its a boolean or an integer. 
 - `examples` instead of just `example`
 - `if / then / else` sugar on allOf / oneOf
 
-Whilst JSON Schema was listening to feedback from its user base and adding this new functionality, we have also been trying to get closer to OpenAPI. JSON Schema added `readOnly` and `writeOnly`, keywords, and I recently got `deprecated` into 2019-09. 🙌
+Whilst JSON Schema was listening to feedback from its user base and adding this new functionality, we have also been trying to get closer to OpenAPI. JSON Schema added `readOnly` and `writeOnly`, keywords, and I recently got `deprecated` into 2019/09. 🙌
 
-2019-09 added vocabularies, which is a feature designed with projects like OpenAPI (and AsyncAPI) in mind. The OpenAPI Schema Object can become a Vocabulary, extend the "Core" and "Validation" vocabularies, ignoring JSON Hyper Schema completely, and describing behavior for the 4 extra keywords and 2 "modified" ones:
+2019/09 added vocabularies, which is a feature designed with projects like OpenAPI (and AsyncAPI) in mind. The OpenAPI Schema Object can become a Vocabulary, extend the "Core" and "Validation" vocabularies, ignoring JSON Hyper Schema completely, and describing behavior for the 4 extra keywords and 2 "modified" ones:
 
 - `nullable`
 - `discriminator`
@@ -94,6 +98,8 @@ These dynamic payloads can be handled in any programming language, it is just tr
 More on this another time, but for now at least the two folks who had concerns are not blocking JSON Schema update for v3.1. They are focusing on a concept called "OpenAPI profiles" which may or may not happen, but either way will hopefully let the JSON Schema update progress.
 
 Now September is here the calls will start up again soon. We missed it Friday due to a lot of us being at API City 2019, but the next call should happen. I'm gonna avoid getting heat exhaustion so I don't have to try and give presentations while the room is spinning, and hopefully we can get [#1977](https://github.com/OAI/OpenAPI-Specification/pull/1977) merged; having OpenAPI v3.1 commit to supporting modern JSON Schema as a light superset, instead of a customized/subset/superset of a very old draft. 🙌
+
+_**Update 2019-10-03:** JSON Schema Draft 2019/09 was launched, and [OpenAPI v3.1 looks likely](https://github.com/OAI/OpenAPI-Specification/issues/2025) to have [#1977](https://github.com/OAI/OpenAPI-Specification/pull/1977) included - which brings full JSON Schema Draft 2019/09 support. So when will OpenAPI v3.1 come out? Tough to say, but there is talk of maybe getting an RC1 out in a few weeks, and the more complex things like overlays may well be punted to a later RC, or v3.2. Things are looking incredibly positive._
 
 ## Further Reading
 
