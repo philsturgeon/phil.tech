@@ -5,9 +5,9 @@ tags: api design, openapi, json schema, api descriptions
 comments: true
 ---
 
-_**TLDR added 2019-10-03:** JSON Schema Draft 2019/09 is out, and [OpenAPI v3.1 looks likely](https://github.com/OAI/OpenAPI-Specification/issues/2025) to have [#1977](https://github.com/OAI/OpenAPI-Specification/pull/1977) included - which brings full JSON Schema Draft 2019/09 support. So when will OpenAPI v3.1 come out? Tough to say, but there is talk of maybe getting an RC1 out in a few weeks, and the more complex things like overlays may well be punted to a later RC, or v3.2. Things are looking incredibly positive._
+Short version: JSON Schema Draft 2019/09 was published, and [OpenAPI v3.1 looks likely](https://github.com/OAI/OpenAPI-Specification/issues/2025) to have [#1977](https://github.com/OAI/OpenAPI-Specification/pull/1977) included - which brings full JSON Schema Draft 2019/09 support. So when will OpenAPI v3.1 come out? Tough to say, but there is talk of maybe getting an RC1 out in a few weeks, and the more complex things like overlays may well be punted to a later RC, or v3.2. Things are looking incredibly positive.
 
-<hr/>
+<hr>
 
 The API design space is booming right now, with OpenAPI and JSON Schema tooling seriously growing up. My [new job at Stoplight.io](/2019/06/13/new-life-new-job/) is letting me channel passion for improving this space, and the whole team has been crushing it. We released a new API description document linter ([Spectral](https://stoplight.io/open-source/spectral/)), a damn intelligent mock-server ([Prism](https://stoplight.io/open-source/prism/)), and an [amazing OpenAPI & JSON Schema editor](/2019/08/22/reinventing-api-design-stoplight-studio/) called [Stoplight Studio](https://stoplight.io/studio). This last one is just exceptional, and is the culmination of a years work by a whole lot of people.
 
@@ -99,7 +99,7 @@ More on this another time, but for now at least the two folks who had concerns a
 
 Now September is here the calls will start up again soon. We missed it Friday due to a lot of us being at API City 2019, but the next call should happen. I'm gonna avoid getting heat exhaustion so I don't have to try and give presentations while the room is spinning, and hopefully we can get [#1977](https://github.com/OAI/OpenAPI-Specification/pull/1977) merged; having OpenAPI v3.1 commit to supporting modern JSON Schema as a light superset, instead of a customized/subset/superset of a very old draft. 🙌
 
-_**Update 2019-10-03:** JSON Schema Draft 2019/09 was launched, and [OpenAPI v3.1 looks likely](https://github.com/OAI/OpenAPI-Specification/issues/2025) to have [#1977](https://github.com/OAI/OpenAPI-Specification/pull/1977) included - which brings full JSON Schema Draft 2019/09 support. So when will OpenAPI v3.1 come out? Tough to say, but there is talk of maybe getting an RC1 out in a few weeks, and the more complex things like overlays may well be punted to a later RC, or v3.2. Things are looking incredibly positive._
+_**Update 2019-10-03:** JSON Schema Draft 2019/09 was published, and [OpenAPI v3.1 looks likely](https://github.com/OAI/OpenAPI-Specification/issues/2025) to have [#1977](https://github.com/OAI/OpenAPI-Specification/pull/1977) included - which brings full JSON Schema Draft 2019/09 support. So when will OpenAPI v3.1 come out? Tough to say, but there is talk of maybe getting an RC1 out in a few weeks, and the more complex things like overlays may well be punted to a later RC, or v3.2. Things are looking incredibly positive._
 
 ## Further Reading
 
