@@ -3,9 +3,19 @@
 past:
 
   - event:
+      name: API The Docs
+      url: https://apithedocs.org/amsterdam-2019
+      dates: October 10th, 2019
+    city: Amsterdam
+    country: Netherlands
+    talks:
+      - slug: api-descriptions-as-production-code
+        slides:  http://talks.phil.tech/instances/2019-10-api-the-docs/html/
+
+  - event:
       name: API City 2019
       url: https://2019.apicity.io/
-      dates: September 5th 2018
+      dates: September 5th 2019
     city: Seattle
     country: USA
     talks:
