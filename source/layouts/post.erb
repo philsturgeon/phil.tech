@@ -96,7 +96,20 @@
             <section class="author">
               <div class="author-image" style="background-image: url(<%= config.author[:image] %>)">Blog Logo</div>
               <h4><%= config.author[:name] %></h4>
-              <p class="bio"><%= config.description %></p>
+              <p class="bio">
+                <%= config.description %>
+                <br>
+                <br>
+                <a href="https://offset.earth/philsturgeon/">🌲</a>
+                &nbsp;&nbsp;·&nbsp;&nbsp;
+                <a class="icon-social[:icon]" href="https://twitter.com/philsturgeon">
+                <i class="fa fa-twitter"></i>
+                </a>
+                &nbsp;&nbsp;·&nbsp;&nbsp;
+                <a class="icon-social[:icon]" href="https://github.com/philsturgeon">
+                <i class="fa fa-github"></i>
+                </a>
+              </p>
             </section>
           </div>
           <div class="more isRight">
