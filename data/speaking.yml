@@ -3,9 +3,29 @@
 past:
 
   - event:
+      name: API Days Paris
+      url: http://evn.im/HyDGT
+      dates: 9th-11th December 2019
+    city: Paris
+    country: France
+    talks:
+      - slug: api-descriptions-as-production-code
+        slides:  http://talks.phil.tech/instances/2019-12-api-days-paris/html/
+
+  - event:
+      name: API Specification Conference 2019
+      url: https://asc2019.sched.com/
+      dates: 15th-17th October 2019
+    city: Vancouver
+    country: USA
+    talks:
+      - slug: api-descriptions-as-production-code
+        slides:  http://talks.phil.tech/instances/2019-10-asc/html/
+
+  - event:
       name: API The Docs
       url: https://apithedocs.org/amsterdam-2019
-      dates: October 10th, 2019
+      dates: 10th October 2019
     city: Amsterdam
     country: Netherlands
     talks:
@@ -15,7 +35,7 @@ past:
   - event:
       name: API City 2019
       url: https://2019.apicity.io/
-      dates: September 5th 2019
+      dates: 5th September 2019
     city: Seattle
     country: USA
     talks:
