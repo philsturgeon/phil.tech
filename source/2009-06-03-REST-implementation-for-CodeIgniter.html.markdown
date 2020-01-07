@@ -21,19 +21,19 @@ I have seen 1 or 2 RESTful implementations for CodeIgniter but the syntax and me
 
 **Finally** , REST controllers should be able to output the response in many number of formats. These formats should be specified by the requester and not set in stone within the code. This means a REST controller needs to detect the desired format in two different ways.
 
-- via the **$\_SERVER['HTTP\_ACCEPT']** variable. This will allow cURL, telnet, etc to specify a method through standard HTTP headers. This is the recommended REST way.
+- via the `$_SERVER['HTTP_ACCEPT']` variable. This will allow cURL, telnet, etc to specify a method through standard HTTP headers. This is the recommended REST way.
 - via the URL. This allows browsers and systems not using cURL, telnet, etc to make very basic requests to receive different formats.
-- via the controller. Adding "public $rest\_format = 'json';" will make that one controller default to json if nothing is provided by given via URL or HTTP\_ACCEPT.
+- via the controller. Adding `"public $rest_format = 'json';"` will make that one controller default to json if nothing is provided by given via URL or `HTTP_ACCEPT`.
 
 It took a great deal more thought and consideration than it did actual implementation. Here is the code I have used to get my CodeIgniter RESTful implementation working, tested and complete.
 
-[application/libraries/REST\_Controller.php](http://github.com/philsturgeon/codeigniter-restserver/raw/master/application/libraries/REST_Controller.php "CodeIgniter REST controller") - This new controller type will contain all of the logic for our new REST controllers.
+[application/libraries/REST_Controller.php](http://github.com/philsturgeon/codeigniter-restserver/raw/master/application/libraries/REST_Controller.php) - This new controller type will contain all of the logic for our new REST controllers.
 
-[application/config/rest.php](http://github.com/philsturgeon/codeigniter-restserver/raw/master/application/config/rest.php "CodeIgniter REST controller") - Control login restrictions and caching for your REST server.
+[application/config/rest.php](http://github.com/philsturgeon/codeigniter-restserver/raw/master/application/config/rest.php) - Control login restrictions and caching for your REST server.
 
-[application/controllers/api/example.php](http://github.com/philsturgeon/codeigniter-restserver/raw/master/application/controllers/api/example.php "Example REST API controller for CodeIgniter") - This is an example of a REST controller with some basic user data. This can be called anything you like and be placed in Matchbox modules, sub-directories, whatever.
+[application/controllers/api/example.php](http://github.com/philsturgeon/codeigniter-restserver/raw/master/application/controllers/api/example.php) - This is an example of a REST controller with some basic user data. This can be called anything you like and be placed in Matchbox modules, sub-directories, whatever.
 
-### Useage
+### Usage
 
 Now it is all set up and ready go. Crack open your browser and try URL's in these formats to see what happens:
 
