@@ -8,9 +8,9 @@ date: '2019-12-28'
 
 Over the years I've used about 20 different web application frameworks (tool-kits for making server-side applications), contributed to a few, and maintained a couple of popular ones. I've got a bit of a theory that many developers are introduced to new methodologies as and when their framework deliver it to them. 
 
-Whilst this might sound like cargo-cult culture, I get it, developers are busy people. User manuals showing how DDD, TDD, Event Sourcing, or whatever, works is much easier to understand when shown in the context of a framework you're already familiar with. 
+Whilst this might sound like cargo-cult culture, I get it, developers are busy people. User manuals showing how to do DDD, TDD, Event Sourcing, or whatever, is much easier to understand in the context of a framework you're already familiar with. 
 
-These days many WAFs are either primarily designed to create APIs, or have an "API mode" to cut out non-API related bootstrapping, for cookies, sessions, views, etc.
+These days many frameworks are either primarily designed to create APIs, or have an "API mode" to cut out non-API related bootstrapping, for cookies, sessions, views, etc.
 
 We all know technology moves fast, but the world of API development has changed drastically, and quickly too. Many web application frameworks _never_ solved the API problems of the HTTP/1.1 era particularly well, and forced a lot of work onto the application developers which could have easily been solved with some built in convenience methods. With HTTP/2 mature and widely available, and HTTP/3 coming out soon, there is a lot more they could be doing to help. Some still don't have HTTP/1.1 particularly well covered.
 
