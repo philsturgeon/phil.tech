@@ -199,7 +199,7 @@ Anyone who used to think writing OpenAPI was hard was probably doing it before [
 One of the biggest fundamental changes in ye oldé APIs of HTTP/1.1 is the concerns of "lots of HTTP calls" leading to API developers mushing loads of JSON together.
 
 > Several API formats and architecture including GraphQL, JSON:API and HAL try to solve the under-fetching problem by allowing the client to ask the server to embed related resources in the main HTTP response. Basically, the server will create a big JSON document containing the main requested resource and all its requested relations as nested objects. This solution aims to limit costly round-trip between the client and the server, and is (almost) the only efficient solution when using HTTP/1. However, this hack introduces unnecessary complexity and hurts HTTP cache mechanisms. Also, it isn't necessary anymore with HTTP/2!
-> -- [Kevin Dunglass, Vulcain](https://github.com/dunglas/vulcain/blob/master/docs/graphql.md).
+> -- [Kévin Dunglas, Vulcain](https://github.com/dunglas/vulcain/blob/master/docs/graphql.md).
 
 Even though [HTTP/2 was published](https://tools.ietf.org/html/rfc7540) in 2015, most frameworks only support the most basic bit: multiplexing. Nothing is required of a framework to support multiplexing, it's a network-level feature enabled by the client, web server (nginx), application server (rack, unicorn, etc.) 
 
@@ -209,7 +209,7 @@ Server Push lets API developers solve over-fetching, having them design more sim
 
 [![](images/article_images/2019-12-28-modern-web-api-frameworks/vulcain-push.png)](https://vulcain.rocks)
 
-API developers back in the HTTP/1.1 days would [include every tangentially related resource](https://apisyouwonthate.com/blog/lets-stop-building-apis-around-a-network-hack/ in a single response to avoid clients having to make multiple requests, and this was slow and annoying for clients who didn't need that extra data. If some of that data was computed, or highly volatile and therefore tricky to cache, the whole resource would be slow every time, instead of it being broken into some cacheable and some uncacheable resources. 
+API developers back in the HTTP/1.1 days would [include every tangentially related resource](https://apisyouwonthate.com/blog/lets-stop-building-apis-around-a-network-hack/) in a single response to avoid clients having to make multiple requests, and this was slow and annoying for clients who didn't need that extra data. If some of that data was computed, or highly volatile and therefore tricky to cache, the whole resource would be slow every time, instead of it being broken into some cacheable and some uncacheable resources. 
 
 For example, at my previous employer, the `/users/fred` resource contained all of their locale information, various public profiles, information about the company they worked for, subscription information, which buildings they had access to, and other information about those buildings. The subscriptions and building information were both fetched from other APIs which were down half the time, and even when they were up they were slow, which effected the performance of this API, and... heh that company is a book in and of itself... 
 
@@ -286,7 +286,7 @@ function onRequest (req, res) {
 }
 ~~~
 
-The frameworks for Go and NodeJS just make this pushing a little easier, maybe add some helper methods, and hook it up with their serialization logic. More on that below.
+The frameworks for Go and NodeJS have a lot done for them, so they just need to make this pushing a little easier, maybe add some helper methods, and hook it up with their serialization logic.
 
 ## Network Caching
 
@@ -343,7 +343,7 @@ If a web API doesn't have any caching helpers built in, it's not particularly us
 
 When I'm looking for a framework to use, I see how much of this I can get done, as any API I build is going to need HTTP caching, HTTP/2 with server push, serialization, deserialization, OpenAPI-based validation, standard error formats, and support for message formats like JSON:API. If there is not first-party or third-party tooling around which solves these issues, I am going to recommend another framework that does.
 
-Not everyone spends as much time thinking about API development solutions as myself, and I get that. Many developers might have not heard of some of these concepts, and many others maybe be aware of them but unsure how to implement them easily. Some developers might not want to introduce an advanced concept that their less experienced colleagues will struggle with. This is where frameworks have always shone, helping less experienced people do more advanced stuff with a simple, well documented interface.
+Not everyone spends as much time thinking about API development solutions as myself, and I get that. Many developers might have not heard of some of these concepts. Other developers may be familiar, but unsure how to implement them easily. Some developers might not want to introduce an advanced concept that their less experienced colleagues will struggle with. This is where frameworks have always shone, helping less experienced people do more advanced stuff with a simple, well documented interface.
 
 Maybe we see more API-specific frameworks emerging, and the more generalist web application frameworks continue the way they are. That said, with the growing trend for API-first development, more and more backend developers switching to primarily API development. I feel like the need for generalist frameworks is somewhat in decline, meaning the need for proper API support is going to be more important now than ever.
 
