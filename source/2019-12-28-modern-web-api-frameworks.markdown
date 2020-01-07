@@ -50,9 +50,9 @@ These are all agnostic tools which require a bit of boilerplate to get running i
 
 ## Standard Errors
 
-A lot of frameworks invent their own rando-JSON error format, or expect users to create their own. A surprising number of APIs will emit HTML error messages which confuse the API consumer; they just see "Invalid JSON token <" and no further explanation until they dig into the network traffic... 
+A surprising number of APIs will emit HTML error messages which confuse the API consumer; they just see "Invalid JSON token <" and no further explanation until they dig into the network traffic... 
 
-Frameworks which do emit JSON errors usually create their own unique error formats:
+Most of the remaining frameworks which do output JSON for errors will just go ahead and invent their own rando-JSON error format, or expect users to create their own.
 
 ~~~ json
 {
