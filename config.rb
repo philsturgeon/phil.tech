@@ -22,7 +22,7 @@ set :social, {
   github: {
     icon:	'github',
     url:	'https://github.com/philsturgeon',
-    desc:	'Fork me on GitHub',
+    desc:	'See What Im Working On GitHub',
   }
 }
 

@@ -1,17 +1,17 @@
 ---
 title: Update on OpenAPI and JSON Schema
-date: 2019/09-07
+date: 2019-09-07
 tags: api design, openapi, json schema, api descriptions
 comments: true
 ---
 
-Short version: JSON Schema Draft 2019/09 was published, and [OpenAPI v3.1 looks likely](https://github.com/OAI/OpenAPI-Specification/issues/2025) to have [#1977](https://github.com/OAI/OpenAPI-Specification/pull/1977) included - which brings full JSON Schema Draft 2019/09 support. So when will OpenAPI v3.1 come out? Tough to say, but there is talk of maybe getting an RC1 out in a few weeks, and the more complex things like overlays may well be punted to a later RC, or v3.2. Things are looking incredibly positive.
+_**Update 2020-02-02:** JSON Schema Draft 2019-09 has been published for a while, and after much deliberation we got the folks at OpenAPI to merge [#1977](https://github.com/OAI/OpenAPI-Specification/pull/1977) for v3.1. This will make OpenAPI a small superset, and no longer a subset/superset/sideset. Of those five keywords, two are deprecated (`nullable` and `example`). Latest estimate for v3.1.0-RC1 is end of February, so tooling vendors should get to work on upgrading support for JSON Schema 2019-09 and the other OpenAPI v3.1 changes._
 
 <hr>
 
 The API design space is booming right now, with OpenAPI and JSON Schema tooling seriously growing up. My [new job at Stoplight.io](/2019/06/13/new-life-new-job/) is letting me channel passion for improving this space, and the whole team has been crushing it. We released a new API description document linter ([Spectral](https://stoplight.io/open-source/spectral/)), a damn intelligent mock-server ([Prism](https://stoplight.io/open-source/prism/)), and an [amazing OpenAPI & JSON Schema editor](/2019/08/22/reinventing-api-design-stoplight-studio/) called [Stoplight Studio](https://stoplight.io/studio). This last one is just exceptional, and is the culmination of a years work by a whole lot of people.
 
-The majority of the [design-first workflow](https://apisyouwonthate.com/blog/weworks-api-specification-workflow/) I've been talking about is being solved, meaning you can just replace your hampster-powered duct-taped docs/mocks/linting/governance nonsense with free Stoplight tools. 
+The majority of the [design-first workflow](https://apisyouwonthate.com/blog/weworks-api-specification-workflow/) I've been talking about is being solved, meaning you can just replace your hamster-powered duct-taped docs/mocks/linting/governance nonsense with free Stoplight tools. 
 
 Sadly there is still a huge problem in the API design space which we've not yet managed to solve: OpenAPI v3.0 and JSON Schema are still only _mostly_ compatible, and that little difference is substantial enough to cause big problems for a lot of people. 
 
@@ -37,18 +37,18 @@ In the mean time it's been my suggestion that AS is punted to OpenAPI v4.0, with
 
 ## JSON Schema Alignment in OpenAPI v3.1
 
-JSON Schema ~is finishing up some work around `$id` and `$anchor`, then it can tag up the next draft~ have finished the latest draft! Dropping the old non-standard versioning schema of 1-7, the next draft was referred to as draft 8 for a while, the latest draft is called "JSON Schema Draft 2019/09". It has no major changes, but drastically simplifies a lot of the language to make the JSON Schema spec easier to read.
+JSON Schema ~is finishing up some work around `$id` and `$anchor`, then it can tag up the next draft~ have finished the latest draft! Dropping the old non-standard versioning schema of 1-7, the next draft was referred to as draft 8 for a while, the latest draft is called "JSON Schema Draft 2019-09". It has no major changes, but drastically simplifies a lot of the language to make the JSON Schema spec easier to read.
 
 Some folks are concerned about pegging OpenAPI v3.1 to a draft, but draft process is almost finished now. With this draft almost out there, there will be on more, then the one after that is expected to be something equivalent to v1.0.0-RC1. We are considering our options with IETF and W3C who may want some amount of change to be considered, but things are getting pretty close now, to a point where sticking to draft 5 is considerably more damaging than any perceived downside to upgrading to modern JSON Schema.
 
-Upgrading will be simple for OpenAPI, its tooling vendors, and the users of those tools. There are two "breaking changes" between 5 and 2019/09 that OpenAPI can abstract away for its users: `exclusiveMinimum` and `exclusiveMaximum`. In draft 5 they were modifiers, and now they are distinct values.
+Upgrading will be simple for OpenAPI, its tooling vendors, and the users of those tools. There are two "breaking changes" between 5 and 2019-09 that OpenAPI can abstract away for its users: `exclusiveMinimum` and `exclusiveMaximum`. In draft 5 they were modifiers, and now they are distinct values.
 
 ~~~yaml
 # draft 5
 minimum: 10
 exclusiveMinimum: true
 
-# draft 2019/09
+# draft 2019-09
 exclusiveMinimum: 10
 ~~~
 
@@ -59,9 +59,9 @@ OpenAPI v3.1 can easily support both, detecting if its a boolean or an integer. 
 - `examples` instead of just `example`
 - `if / then / else` sugar on allOf / oneOf
 
-Whilst JSON Schema was listening to feedback from its user base and adding this new functionality, we have also been trying to get closer to OpenAPI. JSON Schema added `readOnly` and `writeOnly`, keywords, and I recently got `deprecated` into 2019/09. 🙌
+Whilst JSON Schema was listening to feedback from its user base and adding this new functionality, we have also been trying to get closer to OpenAPI. JSON Schema added `readOnly` and `writeOnly`, keywords, and I recently got `deprecated` into 2019-09. 🙌
 
-2019/09 added vocabularies, which is a feature designed with projects like OpenAPI (and AsyncAPI) in mind. The OpenAPI Schema Object can become a Vocabulary, extend the "Core" and "Validation" vocabularies, ignoring JSON Hyper Schema completely, and describing behavior for the 4 extra keywords and 2 "modified" ones:
+2019-09 added vocabularies, which is a feature designed with projects like OpenAPI (and AsyncAPI) in mind. The OpenAPI Schema Object can become a Vocabulary, extend the "Core" and "Validation" vocabularies, ignoring JSON Hyper Schema completely, and describing behavior for the 4 extra keywords and 2 "modified" ones:
 
 - `nullable`
 - `discriminator`
@@ -99,7 +99,10 @@ More on this another time, but for now at least the two folks who had concerns a
 
 Now September is here the calls will start up again soon. We missed it Friday due to a lot of us being at API City 2019, but the next call should happen. I'm gonna avoid getting heat exhaustion so I don't have to try and give presentations while the room is spinning, and hopefully we can get [#1977](https://github.com/OAI/OpenAPI-Specification/pull/1977) merged; having OpenAPI v3.1 commit to supporting modern JSON Schema as a light superset, instead of a customized/subset/superset of a very old draft. 🙌
 
-_**Update 2019-10-03:** JSON Schema Draft 2019/09 was published, and [OpenAPI v3.1 looks likely](https://github.com/OAI/OpenAPI-Specification/issues/2025) to have [#1977](https://github.com/OAI/OpenAPI-Specification/pull/1977) included - which brings full JSON Schema Draft 2019/09 support. So when will OpenAPI v3.1 come out? Tough to say, but there is talk of maybe getting an RC1 out in a few weeks, and the more complex things like overlays may well be punted to a later RC, or v3.2. Things are looking incredibly positive._
+_**Update 2019-10-03:** JSON Schema Draft 2019-09 was published, and [OpenAPI v3.1 looks likely](https://github.com/OAI/OpenAPI-Specification/issues/2025) to have [#1977](https://github.com/OAI/OpenAPI-Specification/pull/1977) included - which brings full JSON Schema Draft 2019-09 support. So when will OpenAPI v3.1 come out? Tough to say, but there is talk of maybe getting an RC1 out in a few weeks, and the more complex things like overlays may well be punted to a later RC, or v3.2. Things are looking incredibly positive._
+
+_**Update 2020-02-02:** JSON Schema Draft 2019-09 has been published for a while, and after much deliberation we got the folks at OpenAPI to merge [#1977](https://github.com/OAI/OpenAPI-Specification/pull/1977) for v3.1. This will make OpenAPI a small superset, and no longer a subset/superset/sideset. Of those five keywords, two are deprecated (`nullable` and `example`). Latest estimate for v3.1.0-RC1 is end of February, so tooling vendors should get to work on upgrading support for JSON Schema 2019-09 and the other OpenAPI v3.1 changes._
+
 
 ## Further Reading
 

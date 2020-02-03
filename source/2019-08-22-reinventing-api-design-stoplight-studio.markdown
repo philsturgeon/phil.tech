@@ -49,5 +49,3 @@ Now, after months and months of hard work by the whole team, [Stoplight Studio](
 I could go on. Being able to solve all these problems with a free tool is the best thing, and its by no means the end of the story. Now that we've absolutely nailed API design for the individuals there will be even more focus on teams, collaboration, and sharing/reuse of components like models. That's not even mentioning governance. 😱
 
 Give [Studio](https://stoplight.io/studio) a try. There's a [web version](https://stoplight.io/p/studio) if you don't want to jump straight to downloading stuff, and yes, the web version can git clone!
-
-_Support my articles and the planet: [Buy me a tree](https://offset.earth/philsturgeon), or buy 30 - they're only $0.10._

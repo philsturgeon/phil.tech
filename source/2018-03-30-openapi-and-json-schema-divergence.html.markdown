@@ -8,6 +8,8 @@ comments: true
 
 This article is going to explain the divergence between OpenAPI and JSON Schema, which I've been calling the subset/superset/sideset problem. It'll finish up explaining how we're going to solve it, and ~I'll write part 2 when it is solved~ [part two explains the solution][solution].
 
+_**Update 2020-02-02:** JSON Schema Draft 2019-09 has been published for a while, and after much deliberation we got the folks at [OpenAPI](https://github.com/OAI/OpenAPI-Specification/issues/2025) to merge [#1977](https://github.com/OAI/OpenAPI-Specification/pull/1977) for  v3.1. Latest estimate for v3.1.0-RC1 is end of February, so tooling vendors should get to work on upgrading support for JSON Schema 2019-09 and the other OpenAPI v3.1 changes._
+
 <hr>
 
 Whenever talking about API specifications it is impossible to avoid mentioning OpenAPI and JSON Schema. They're the two main solutions for any sort of API that doesn't have a type system forcibly jammed into it by default.
