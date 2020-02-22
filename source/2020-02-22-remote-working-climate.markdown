@@ -36,7 +36,7 @@ For me, instead of a 1-2 hour each-way hell-commute, I cycle 3-4 hours a day. Th
 
 ## "Looking Your Best" is Unsustainable
 
-There are countless other benefits, even the seemingly irrelevant "less time/money on makeup" has wins. Lots of makeup uses palm oil, which comes from deforesting million of hectares of rainforest, which are usually [habitat for orangutans](https://orangutanfoundation.org.au/palm-oil/). We're losing a football field of rainforest every bloody second for things like this. Anything that helps reduce demand for palm oil is going to help us breath, and maybe we will still have orangutans in 2025.
+There are countless other benefits, even the seemingly irrelevant "less time/money on makeup" has wins. Lots of makeup uses palm oil, which comes from deforesting million of hectares of rainforest, which are usually [habitat for orangutans](https://orangutanfoundation.org.au/palm-oil/). We're losing a football field of rainforest [every bloody second](https://www.bloomberg.com/graphics/climate-change-data-green/) for things like this. Anything that helps reduce demand for palm oil is going to help us breath, and maybe we will still have orangutans in 2025.
 
 This same idea extends to other parts of our appearances, like clothing. The fashion industry produces 10% of the worlds carbon emissions, and despite peoples best intentions, 85% of clothing donations end up in landfill.
 
@@ -150,7 +150,7 @@ Getting a days work done while you float over the sea, and you can walk around a
 
 ## Finding Remote Jobs
 
-In your next 1:1 why not raise the question of remote working. Explain that you're terrified the world is on track for a 5°C warmup which is drastically worse than all scientists had ever thought possible, resulting in billions of deaths within the next 100 years, and that letting you work from your couch seems like an easy win to everyones benefit.
+In your next 1:1 why not raise the question of remote working. Explain that you're terrified the world is on track for a 5°C warmup which is drastically worse than all scientists had ever thought possible, resulting in billions of premature deaths, and that letting you work from your couch seems like an easy win to everyones benefit.
 
 Starting off a few days a week is a great way to slide into remote working, and if things go well more people on more teams could start working from home more often. Maybe the company can downsize their offices, or at least hold off on that expansion they've been dreading.
 
@@ -179,6 +179,6 @@ There are a million ideas for how to do that on [Protect Earth](https://protect.
 - Limit the number of rooms and buildings requiring heating.
 - Swap homes with people and stay with friends to avoid hotels.
 - [Track your footprint](https://north-app.com/) and try to lower it by 10% every month.
-- [Offset whatever footprint is left](https://offset.earth/), ideally offset more to make up for that shit mate we all have who doesn't care.
+- [Offset whatever footprint is left](https://offset.earth/), ideally offset more to make up for that shit mate we all have who doesn't care if we lose the [remaining half of the coral reefs](https://www.bloomberg.com/graphics/2019-coral-reefs-at-risk/?srnd=green).
 
 _For more information about working from the road, listen to [Parallel Passion: Episode 34](https://www.parallelpassion.com/34). If you're interested in the bike tour itself, check out my other blog [phil.bike](https://phil.bike/). Or follow [@philsturgeon](https://twitter.com/philsturgeon) on Twitter for a firehose of both._
