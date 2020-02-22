@@ -20,11 +20,11 @@ Regardless of the transportation you choose: Car, train, bike, hoverboard; going
 
 ![](images/article_images/2020-02-22-remote-work-climate/car.png)
 
-The average annual carbon footprint is 10 tonnes in many developed countries, and in America it's 15-20 tonnes. The recommended sustainable footprint for a habitable planet is ~2 tonnes, so... fuck! Driving alone is enough to sail straight past that target, meaning if you even breath at any point in the year you're actively contributing to [150 million peoples homes being underwater by 2050](https://www.globalchange.gov/browse/multimedia/projected-sea-level-rise-and-flooding-2050).
+The average annual carbon footprint is 10 tonnes in many developed countries, and in America it's 15-20 tonnes. The recommended sustainable footprint for a habitable planet is ~2 tonnes, so... fuck! Driving alone is enough to sail straight past that target, meaning if you even breathe at any point in the year you're actively contributing to [150 million peoples homes being underwater by 2050](https://www.globalchange.gov/browse/multimedia/projected-sea-level-rise-and-flooding-2050).
 
 ![](images/article_images/2020-02-22-remote-work-climate/footprint-guide.jpg)
 
-Trains are better for the environment (depending on the power source) and with your hands freed up for entertainment or other productive tasks, but going to the same train station every day is not the best. Even if you love cycling, riding the same route every day to and from the same bloody office gets very mundane very quickly. 
+Trains are [better for the environment than flying](https://www.bbc.com/news/science-environment-49349566), the exact improvement of course depending on the power source. With your hands freed up for entertainment or other productive tasks, but going to the same train station every day is not the best. Even if you love cycling, riding the same route every day to and from the same bloody office gets very mundane very quickly. 
 
 The average American commutes for an hour each way to and from work. For example, my mate used to drive from south New Jersey to Brooklyn every day, which is a 1hr drive when traffic is normal. That is 6kg (13lb) of CO2 emissions of each way. That is 240kg (530lb) a _month_, and over 262 working days that's a ridiculous 3,144kg (6,931lb) of CO2 emissions. That is 3.14 tonnes, just to go to the office, 1 tonne over what the entire annual footprint needs to be.
 
@@ -32,7 +32,7 @@ Imagine if more people just... **didn't**.
 
 If you simply work from home, you can just not do that. If you're a digital nomad, you can also just not do that. Wherever it is you are is somewhere you can work, and if you stick to sustainable transportation methods like electric trains or bikes, you can slash your footprint massively. 
 
-For me, instead of a 1-2 hour each-way hell-commute, I ride 3-4 hours a day. That usually lets me get 60-80km a day. Sometimes I do the whole thing in the morning, sometimes I work a few hours over breakfast and have one big midday ride, sometimes I do one hour on, one hour off. It all depends on my calendar, the terrain, and the weather. For best results, I try keep Alp crossings to the weekend.
+For me, instead of a 1-2 hour each-way hell-commute, I cycle 3-4 hours a day. That usually lets me get 60-80km a day. Sometimes I do the whole ride in the morning, sometimes I work a few hours over breakfast and have one big midday ride, sometimes I do one hour on, one hour off. It all depends on my calendar, the terrain, the weather, and if I'm riding solo, or with company. For best results, I try keep Alp crossings to the weekend. 
 
 ## "Looking Your Best" is Unsustainable
 
