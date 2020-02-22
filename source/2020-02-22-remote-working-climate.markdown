@@ -14,9 +14,9 @@ Not being forced to center your entire life around getting to a specific place e
 
 Getting out of the daily grind and riding around all of Europe has given me a chance to think about a lot of things, mainly how [serious the climate crisis is](https://offset.earth/articles/climate-emergency/climate-change-by-bike). This motivated me to [fundraise planting a shitload of trees](https://offset.earth/philsturgeon), and strive to reduce my own carbon footprint as much as possible. All of this freedom, time to think, and ability to reduce my footprint was made possible thanks to [Stoplight](stoplight.io/) supporting remote work, and I'd like to talk about how you can do the same.
 
-## Commuting Sucks and Kills Us All
+## Commuting Sucks
 
-Commuting sucks, regardless of the transportation you choose. Car, train, bike, hoverboard; going to the same place every single day is uninteresting at best. 
+Regardless of the transportation you choose: Car, train, bike, hoverboard; going to the same place every single day is uninteresting at best. 
 
 ![](images/article_images/2020-02-22-remote-work-climate/car.png)
 
