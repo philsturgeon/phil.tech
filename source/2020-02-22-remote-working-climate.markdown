@@ -42,7 +42,7 @@ This same idea extends to other parts of our appearances, like clothing. The fas
 
 I've never cared about fashion. I used to be mistaken for a bike messenger and get told to use the service entrance at my own office, but now I barely buy clothes at all. I own one pair of trousers, two t-shirts, two pairs of boxers, two pairs of socks, one cold weather cycling top & bottom, one warm weather cycling top & bottom, a few pairs of gloves, and a beanie. That's it. I've learned to repair them, initially just so I didn't have to worry about finding replacements on the road, but now for the environmental benefits too. 
 
-After all who gives a shit how I look when I'm bike nomading? I get work done on the side of the road, park benches, cafes, wherever I feel like stopping. I'm happy in my Power Ranger costume, and nobody else seems to care.
+After all, who gives a shit how I look when I'm bike nomading? I get work done on the side of the road, park benches, cafes, wherever I feel like stopping. I'm happy in my Power Ranger costume, and nobody else seems to care.
 
 ![](images/article_images/2020-02-22-remote-work-climate/road-work.jpg)
 
@@ -144,13 +144,13 @@ Emissions data from Department for Transport (DfT):
 * Ferry car passenger: 0.13kg CO2e per passenger km
 * Flights, domestic: 0.3kg CO2e per passenger km
 
-> Every journey is different, but ferry about ten times less polluting [than flying], if travelling by bike. — **Source**: [@FlightFree2020 on Twitter](https://twitter.com/FlightFree2020/status/1213165841753214977)
+> Every journey is different, but ferry about ten times less polluting [than flying], if travelling by bike. — **Source**: [@FlightFree2020](https://twitter.com/FlightFree2020/status/1213165841753214977)
 
 Getting a days work done while you float over the sea, and you can walk around as much as you like without raising suspicions of an air marshal. If you gotta go somewhere and the train won't handle the wet bits, then taking a ferry is a reasonable choice, and with decent Internet you don't need to take a vacation day for the voyage.
 
 ## Finding Remote Jobs
 
-In your next 1:1 why not raise the question of remote working. Explain that you're terrified the world is on track for a 5°C warmup which is drastically worse than all scientists had ever thought possible, resulting in billions of premature deaths, and that letting you work from your couch seems like an easy win to everyones benefit.
+In your next 1:1 why not raise the question of remote working. Explain that you're terrified the world is on track for a 5°C warmup which is drastically worse than the most nilist scientists thought probable, resulting in millions of heat-deaths and worse, and that letting you work from your couch seems like an easy win to everyones benefit.
 
 Starting off a few days a week is a great way to slide into remote working, and if things go well more people on more teams could start working from home more often. Maybe the company can downsize their offices, or at least hold off on that expansion they've been dreading.
 
