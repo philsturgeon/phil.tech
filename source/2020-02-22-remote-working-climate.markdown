@@ -38,9 +38,9 @@ For me, instead of a 1-2 hour each-way hell-commute, I cycle 3-4 hours a day. Th
 
 There are countless other benefits, even the seemingly irrelevant "less time/money on makeup" has wins. Lots of makeup uses palm oil, which comes from deforesting million of hectares of rainforest, which are usually [habitat for orangutans](https://orangutanfoundation.org.au/palm-oil/). We're losing a football field of rainforest [every bloody second](https://www.bloomberg.com/graphics/climate-change-data-green/) for things like this. Anything that helps reduce demand for palm oil is going to help us breath, and maybe we will still have orangutans in 2025.
 
-This same idea extends to other parts of our appearances, like clothing. The fashion industry produces 10% of the worlds carbon emissions, and despite peoples best intentions, 85% of clothing donations end up in landfill.
+This same idea extends to other parts of our appearances, like clothing. The fashion industry [produces 10% of the worlds carbon emissions](https://www.worldbank.org/en/news/feature/2019/09/23/costo-moda-medio-ambiente), and despite peoples best intentions, 85% of clothing donations end up in landfill.
 
-I've never been into fashion, but now I barely buy clothes at all. I own one pair of trousers, two t-shirts, two pairs of boxers, two pairs of socks, one cold weather cycling top & bottom, one warm weather cycling top & bottom, a few pairs of gloves, and a beanie. That's it. I've learned to repair them, initially just so I didn't have to worry about finding replacements on the road, but now for the environmental benefits too. 
+I've never cared about fashion. I used to be mistaken for a bike messenger and get told to use the service entrance at my own office, but now I barely buy clothes at all. I own one pair of trousers, two t-shirts, two pairs of boxers, two pairs of socks, one cold weather cycling top & bottom, one warm weather cycling top & bottom, a few pairs of gloves, and a beanie. That's it. I've learned to repair them, initially just so I didn't have to worry about finding replacements on the road, but now for the environmental benefits too. 
 
 After all who gives a shit how I look when I'm bike nomading? I get work done on the side of the road, park benches, cafes, wherever I feel like stopping. I'm happy in my Power Ranger costume, and nobody else seems to care.
 
