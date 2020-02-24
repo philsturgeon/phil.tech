@@ -150,9 +150,9 @@ Getting a days work done while you float over the sea, and you can walk around a
 
 ## Finding Remote Jobs
 
-In your next 1:1 why not raise the question of remote working. Explain that you're terrified the world is on track for a 5°C warmup which is drastically worse than the most nilist scientists thought probable, resulting in millions of heat-deaths and worse, and that letting you work from your couch seems like an easy win to everyones benefit.
+In your next 1:1 why not raise the question of remote working. Explain that you're terrified the world is on track for a 5°C warmup which is drastically worse than the most nilist scientists thought probable, resulting in millions of heat-deaths and worse, and that letting you work from your couch more often seems like an easy win to everyones benefit.
 
-Starting off a few days a week is a great way to slide into remote working, and if things go well more people on more teams could start working from home more often. Maybe the company can downsize their offices, or at least hold off on that expansion they've been dreading.
+Maybe start off with remote Fridays to see how it goes, then if it goes well it could be a few days a week. Easing into remote working is still a reduction in how much you need to commute, and if things go well more people on more teams could start working from home more often. Maybe the company can downsize their offices, or at least hold off on that expansion they've been dreading.
 
 If your company don't give a shit about your existential concerns then you probably don't want to work there anyway. There are a plethora of sites around for finding remote-friendly companies up remote jobs, so escape the commute with a quick search on any of these.
 
