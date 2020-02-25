@@ -12,7 +12,7 @@ gem 'middleman-syntax', "~> 2.1"
 
 gem 'execjs'
 gem 'therubyracer'
-gem 'nokogiri', '~> 1.6'
+gem 'nokogiri', '~> 1.10'
 gem 'kramdown', '~> 1.8'
 
 # For feed.xml.builder
