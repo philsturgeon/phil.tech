@@ -92,7 +92,7 @@ If that seems terrible to you, there's some way more mainstream approaches to ge
 
 ### Mates House
 
-There is one element of working from home which can mess up your carbon footprint: when you're in an office and the house is empty, you've got your heating/cooling turned off (or you bloody well should have). Many people collectively getting benefits from one bigger industrial air conditioning system is likely better than everyone's house being heated or cooled independently. 
+There is one element of working from home which can mess up your carbon footprint: when you're in an office and the house is empty, you've got your heating/cooling turned off (or you bloody well should have). Many people collectively getting benefits from one bigger industrial air conditioning system is likely better than [everyone's house being heated or cooled independently](https://www.bbc.com/worklife/article/20200218-why-working-from-home-might-be-less-sustainable). 
 
 There are a few ways you can reduce the impact here, like improving insulation and natural solutions like [planting shade trees](https://www.arborday.org/trees/climatechange/summershade.cfm), working from a single room and only heating/cooling that, etc.
 
