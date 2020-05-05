@@ -143,18 +143,19 @@ const IndexPage: React.FC<IndexProps> = props => {
   );
 };
 
+// NOTE: for logo, add below to query
+// logo: file(relativePath: { eq: "img/ghost-logo.png" }) {
+//   childImageSharp {
+//     # Specify the image processing specifications right in the query.
+//     # Makes it trivial to update as your page's design changes.
+//     fixed {
+//       ...GatsbyImageSharpFixed
+//     }
+//   }
+// }
 export const pageQuery = graphql`
   query blogPageQuery($skip: Int!, $limit: Int!) {
-    logo: file(relativePath: { eq: "img/ghost-logo.png" }) {
-      childImageSharp {
-        # Specify the image processing specifications right in the query.
-        # Makes it trivial to update as your page's design changes.
-        fixed {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
-    header: file(relativePath: { eq: "img/blog-cover.png" }) {
+    header: file(relativePath: { eq: "img/cover.jpg" }) {
       childImageSharp {
         # Specify the image processing specifications right in the query.
         # Makes it trivial to update as your page's design changes.

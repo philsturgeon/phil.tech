@@ -2,7 +2,7 @@ export interface WebsiteConfig {
   title: string;
   description: string;
   coverImage?: string;
-  logo: string;
+  // logo: string;
   /**
    * Specifying a valid BCP 47 language helps screen readers announce text properly.
    * See: https://dequeuniversity.com/rules/axe/2.2/valid-lang
@@ -49,10 +49,10 @@ export interface WebsiteConfig {
 }
 
 const config: WebsiteConfig = {
-  title: 'Ghost',
-  description: 'The professional publishing platform',
-  coverImage: 'img/blog-cover.png',
-  logo: 'img/ghost-logo.png',
+  title: 'Phil Sturgeon',
+  description: 'I build API Design tools for Stoplight.io, write about pragmatic API design, systems architecture, live on a bike, and occasionally upset hordes of mens rights activists on Reddit.',
+  coverImage: 'img/cover.jpg',
+  // logo: 'img/ghost-logo.png',   // NOTE: uncomment to use logo instead of title
   lang: 'en',
   siteUrl: 'https://gatsby-casper.netlify.com',
   facebook: 'https://www.facebook.com/ghost',
