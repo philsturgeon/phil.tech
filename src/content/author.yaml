@@ -1,0 +1,22 @@
+- id: Ghost
+  avatar: avatars/ghost.png
+  bio: The professional publishing platform
+  twitter: TryGhost
+  facebook: ghost
+  website: https://ghost.org/
+  location: San Francisco
+- id: Another Author
+  avatar: avatars/ghost.png
+  bio: This is another test author with a profile background image
+  twitter: TryGhost
+  facebook: ghost
+  website: https://ghost.org/
+  location: San Francisco
+  profile_image: img/alex-knight-326705-unsplash.jpg
+- id: Phil
+  avatar: avatars/phil.jpg
+  profile_image: "avatars/phil-profile.jpg"
+  bio: I got into distance cycling and racing whilst living in NYC for the last 7 years, but they kicked me out so I'm doing a lap of Europe.
+  twitter: philsturgeon
+  website: https://phil.bike/
+  location: Spain
