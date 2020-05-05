@@ -179,13 +179,14 @@ export const PostFullContent = styled.section`
   }
 
   code {
-    padding: 0 5px 2px;
+    padding: 1px 5px;
     font-size: 0.8em;
     line-height: 1em;
     font-weight: 400 !important;
     /* background: var(--whitegrey); */
-    background: ${colors.whitegrey};
+    background: ${colors.inlinecode};
     border-radius: 3px;
+    border 1px solid ${colors.inlinecodeborder};
   }
 
   p code {
@@ -517,8 +518,6 @@ export const PostFullContent = styled.section`
   /* Taken from overreacted https://github.com/gaearon/overreacted.io/blob/942b41555f5e5ccbb5f93f6c26142cd90b314236/src/utils/global.css#L68 */
   code[class*='language-'],
   pre[class*='language-'] {
-    color: white;
-    background: none;
     font-family: Consolas, Menlo, Monaco, source-code-pro, Courier New, monospace;
     font-feature-settings: normal;
     text-align: left;

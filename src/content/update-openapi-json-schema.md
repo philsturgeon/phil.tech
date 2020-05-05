@@ -29,7 +29,7 @@ We could fork json-schema-to-openapi-schema and maintain it at [Stoplight](https
 
 ## Alternative Schemas
 
-The OpenAPI Initiative have bi-weekly calls, with a group called the "OpenAPI Technical Steering Committee". For a while there was discussion about "Alternative Schema" being championed by the excellent Darrel Miller. The idea was that OpenAPI v3.1 would add a new `alternativeSchema` keyword, and you could specify `"schemaTye: jsonSchema`, `xmlSchema`, or various other relevant schema languages.
+The OpenAPI Initiative have bi-weekly calls, with a group called the "OpenAPI Technical Steering Committee". For a while there was discussion about "Alternative Schema" being championed by the excellent Darrel Miller. The idea was that OpenAPI v3.1 would add a new `alternativeSchema` keyword, and you could specify `schemaTye: jsonSchema`, `xmlSchema`, or various other relevant schema languages.
 
 Alternative Schemas sounded great back in April 2018. I'd join the calls for an hour every two weeks, but when things went to hell for me at WeWork I shoved off to [ride bikes up and down volcanoes for a month](/canary-islands-tenerife-gran-canaria/). When I got back to work the Alternative Schemas proposal had morphed into something incredibly complex, and IMHO not very useful for end users, and awful for tooling vendors too.
 
