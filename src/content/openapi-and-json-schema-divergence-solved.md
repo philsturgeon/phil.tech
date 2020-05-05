@@ -1,9 +1,10 @@
 ---
+layout: post
+author: [Phil]
 title: "Solving OpenAPI and JSON Schema Divergence"
-date: 2018-04-13 13:44 UTC
-tags: api, json-schema, api-specs, openapi
-category: api
-comments: true
+date: 2018-04-13
+tags: [api, json-schema, api-specs, openapi]
+# comments: true
 ---
 
 _**Update 2020-02-02:** This article has been replaced entirely, as the proposed workaround was written into a now abandoned project Speccy, and the long-term proposed solution "Alternative Schemas" has been punted to a later version of OpenAPI due to [complications with the form it took](https://github.com/OAI/OpenAPI-Specification/issues/1943)._

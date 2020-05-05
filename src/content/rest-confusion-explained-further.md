@@ -1,15 +1,16 @@
 ---
+layout: post
+author: [Phil]
 title: Still Going on REST is the new SOAP
-date: 2018-01-20 18:38 EDT
-tags: api, rest, rpc, soap, http2
-category: api
-comments: true
 excerpt: The misunderstandings on REST continue, and I'm happy to explain them all up!
+date: 2018-01-20
+tags: [api, rest, rpc, soap, http2]
+# comments: true
 ---
 
 One month after [A Response to REST is the new SOAP](https://phil.tech/api/2017/12/18/rest-confusion-explained/) and I'm still having a productive dialog with the author, helping him understand how REST works. I thought it might interest some of you too.
 
-**Pakal de Bonchamp**
+## Pakal de Bonchamp
 
 Thanks for the lengthy article - we unexpectedly agree on many things. I'll try to summarize my thoughts about this (and the tons of comments on social media) in a complementary post, but I just take the opportunity to clarify some dubious (but minor) points here
 
@@ -26,8 +27,7 @@ By the way, RFC7386 states that it suits APIs which "do not make use of explicit
 
 If anything, these two details show that RESTfulness can be a moving, fuzzy, treacherous jungle for the unwary developer.
 
-
-**Me**
+## Me
 
 For DELETE, I would suggest that using folks interpretations of it from StackOverflow is what got us into a lot of mess with HTTP and REST in general. I too was confused after reading incorrect assumptions on StackOverflow, and I have had to correct myself many times. 2616 was replaced because some stuff was unclear, and now that we have clarifications there should be no more confusion.
 
@@ -37,7 +37,7 @@ Overall, folks were a bit wobbly interpreting HTTP through old RFCs like 2616, w
 
 None of that (confusion about HTTP, DELETE, PATCH, or any other RFCs) has a single solitary thing to do with REST, which is still a fantastic concept if you can understand that it's offering far far FAR more than RPC. Sometimes you don't can benefit greatly from REST, sometimes RPC is just the ticket, but confusing the two then blaming REST for the confusion is not going to help anything. :)
 
-**Pakal**
+## Pakal
 
 Please, is there any other source of information than this 46 minutes audio-only podcast, to explain Hateoas? I understand nothing to this endless talk http://apibusters.com/003-w... (I'm not an English native), and web articles I've crossed always remain in the "theory" to avoid facing real life problems.
 
@@ -53,7 +53,7 @@ I've had a good laugh with the page "https://api.foxycart.com/re..." btw.
 "Property helpers are links to various helpers for determining default values for resource properties along with other helpful API information. [..] Properties: This result varies per helper and may change over time. Please see the API browser for more details."
 Isn't that a way of telling API consumers "we do what we want, just adapt to our changes when they happen"!?
 
-**Me Again!**
+## Me Again!
 
 Thanks for coming back for another chat Pakal. I've been meaning to get transcripts on the podcast, and I will absolutely do that. Audio only is no good for many people.
 

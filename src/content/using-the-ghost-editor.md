@@ -1,10 +1,10 @@
 ---
 layout: post
-title: 'Using The Ghost Editor'
 author: [Ghost]
-tags: ['Getting Started']
+title: 'Using The Ghost Editor'
 image: img/writing.jpg
-date: '2015-02-02T23:46:37.121Z'
+date: '2010-02-02T23:46:37.121Z'
+tags: ['Getting Started']
 draft: false
 ---
 

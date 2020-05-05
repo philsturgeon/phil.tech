@@ -1,12 +1,10 @@
 ---
 layout: post
+author: [Ghost]
 title: A Full and Comprehensive Style Test
 image: img/testimg-cover.jpg
-author: [Ghost]
-date: 2018-09-30T07:03:47.149Z
-tags:
-  - Tests
-  - Other
+date: 2010-09-30T07:03:47.149Z
+tags: [tests, other]
 ---
 
 Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.

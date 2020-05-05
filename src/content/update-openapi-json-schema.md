@@ -3,11 +3,7 @@ layout: post
 author: [Phil]
 title: Update on OpenAPI and JSON Schema
 date: 2019-09-07
-tags:
-- api design
-- openapi
-- json schema
-- api descriptions
+tags: [api design, openapi, json schema, api descriptions]
 # comments: true TODO: whats this for?
 ---
 

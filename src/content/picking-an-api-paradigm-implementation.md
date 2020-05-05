@@ -1,7 +1,9 @@
 ---
+layout: post
+author: [Phil]
 title: Picking the right API Paradigm
-date: 2018-05-21 22:14 UTC
-tags: rpc, soap, graphql, rest, api design, architecture
+date: 2018-05-21
+tags: [rpc, soap, graphql, rest, api design, architecture]
 ---
 
 A while back I wrote an article called [Understanding RPC, REST and GraphQL](https://blog.apisyouwonthate.com/understanding-rpc-rest-and-graphql-2f959aadebe7) which outlined the "what" in how these various approaches differ. This got a few people thinking I was saying REST was drastically superior in all ways, which is a common conclusion when folks hear me describe REST as a layer of abstractions on top of RPC... More abstractions does not mean definitively "better", sometimes that's going to be overkill, so let's look at when you might want to use which.
@@ -38,13 +40,13 @@ Too much choice is no good for anyone, so we decided to choose one implementatio
 
 ## Here Goes!
 
-[![Decision flow diagram for picking between gRPC, REST or GraphQL](images/article_images/2018-05-21-picking-a-paradigm/dfd.png)](images/article_images/2018-05-21-picking-a-paradigm/dfd.png)
+[![Decision flow diagram for picking between gRPC, REST or GraphQL](img/2018-05-21-picking-a-paradigm/dfd.png)](img/2018-05-21-picking-a-paradigm/dfd.png)
 
 Wait, what is that "context boundary" thing all about?! Basically, it's the idea that whenever a the line is crossed between any imaginary boundary, a few more layers of abstraction should be used to help with the longevity of the system. REST provides those layers of abstraction, and GraphQL provides a few too.
 
 That boundary could be as simple as another team/department/company, or a group of systems that just shouldn't know about each other. Things within the context can treat their own APIs like "private classes" in programming languages, they can change whenever they want, spin up and down, delete, evolve, change, who cares. When going to another context... probably use things like REST (with Hypermedia and JSON Schema) to help those clients last longer without needing developer involvement for most change.
 
-![](images/article_images/2018-05-21-picking-a-paradigm/bounded-context.png)
+![](img/2018-05-21-picking-a-paradigm/bounded-context.png)
 
 This bounded context bit is really the crux of a lot of the deciding between when to use gRPC, and when to use something else. Internally you can do whatever you want, but when there's a chance that the developers involved in clients and servers not in close communication (when they have other priorities in the sprint, are on a work retreat, or literally don't know each other or have any way to communicate), these layers of abstraction become a lot more useful.
 

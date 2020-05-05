@@ -1,10 +1,11 @@
 ---
+layout: post
+author: [Phil]
 title: API Evolution for REST/HTTP APIs
-date: 2018-05-02 21:01 UTC
-tags: evolution, versioning, rest, api, http, api-design
-category: api
-comments: true
 excerpt: API Evolution is making a comeback these days with GraphQL and gRPC advocates shouting about it. Whatever API paradigm or implementation you subscribe to, evolution is available to you. REST advocates have been recommending API evolution for decades, so let's take a look at how that can work.
+date: 2018-05-02
+tags: [evolution, versioning, rest, api, http, api-design]
+comments: true
 ---
 
 There are a lot of pros and cons to various approaches to API versioning, but that has been covered in depth before: _[API Versioning Has No "Right" Way](https://blog.apisyouwonthate.com/api-versioning-has-no-right-way-f3c75457c0b7)_.
@@ -59,7 +60,7 @@ Deprecations can be communicated in a few ways for API's. For those using OpenAP
 
 JSON Schema is considering [adding a deprecated keyword](https://github.com/json-schema-org/json-schema-spec/issues/74), and oops I think I'm in charge of making that happen. I'll get back to doing that after this blog post. The idea here would be to pair the schema with a smart SDK (client code) which detects which properties are being used. If the schema marks the `foo` field as deprecated, and the client code then calls `$response->foo`, the SDK can raise a deprecation warning. This is achieved by inspecting the schema file at runtime if you offer your schemas in the `Link` header, or at compile time if you're distributing schema files with the SDK.
 
-![A visualization of how property deprecation works for GraphQL.](images/article_images/2018-05-02-api-evolution-for-rest-http-apis/graphql-evolution.gif)
+![A visualization of how property deprecation works for GraphQL.](img/2018-05-02-api-evolution-for-rest-http-apis/graphql-evolution.gif)
 
 GraphQL has the advantage when it comes to property deprecation for sure, as their type system demands clients to specify the properties they want. By knowing which clients are requesting a deprecated property, you can either reach out to that client (manually or automatically), or shove some warnings into the response somewhere to let them know they're asking for a thing which is going away. This is the sort of advantage you get when your type system, clients, etc. are all part of the same package, but HTTP in general can achieve this same functionality through standards.
 

@@ -1,9 +1,10 @@
 ---
+layout: post
+author: [Phil]
 title: "Design-first API Specification Workflow Matures"
-date: 2018-03-01 07:47 UTC
-tags: api, json-schema, api-specs, openapi
-category: api
-comments: true
+date: 2018-03-01
+tags: [api, json-schema, api-specs, openapi]
+# comments: true
 ---
 
 Back in October I wrote _[Chasing the Perfect API Specification Workflow]_, which was a huge article about the state of the API specification world. One person trying to figure out a good workflow, in a sea of alternative specifications, with incomplete tooling, making it hard to see a solution for all the partial bits of functionality.
@@ -100,7 +101,7 @@ As always there is more to be done.
 
 Server-side validation might not be entirely realistic for everyone, especially due to all the various frameworks that would need adapters built. So for now I'm talking to Kong about getting OpenAPI or JSON Schema support, where we can reference specs for specific requests to skip even bothering the application server.
 
-![Sequence flow diagram showing API gateway validation skipping the application server](article_images/2018-03-01-api-specification-workflow-matures/api-gateway-json-schema.png)
+![Sequence flow diagram showing API gateway validation skipping the application server](img/2018-03-01-api-specification-workflow-matures/api-gateway-json-schema.png)
 
 Solving this at a higher level is appealing as it avoids the need to write 15 different framework plugins in 9 different languages, but that makes confirming the request validation in integration tests a little harder. We might need to move to API monitoring tests instead for that, but... I digress.
 

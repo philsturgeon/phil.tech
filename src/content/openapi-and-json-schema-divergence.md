@@ -1,9 +1,10 @@
 ---
+layout: post
+author: [Phil]
 title: "OpenAPI and JSON Schema Divergence: Part 1"
-date: 2018-03-30 16:44 UTC
-tags: api, json-schema, api-specs, openapi
-category: api
-comments: true
+date: 2018-03-30
+tags: [api, json-schema, api-specs, openapi]
+# comments: true
 ---
 
 This article is going to explain the divergence between OpenAPI and JSON Schema, which I've been calling the subset/superset/sideset problem. It'll finish up explaining how we're going to solve it, and ~I'll write part 2 when it is solved~ [part two explains the solution][solution].
@@ -24,11 +25,11 @@ Eight months after that article things are _better_, and the design-first API sp
 
 OpenAPI is often described as an extension of JSON Schema, but both specs have changed over time and grown independently. OpenAPI v2 was based on JSON Schema draft v4 with a long list of deviations, but OpenAPI v3 shrank that list, upping their support to draft v5 and making the list of discrepancies shorter. Despite OpenAPI v3 closing the gap, the issue of JSON Schema divergence has not been resolved fully, and with newer drafts of JSON Schema coming out, the divergence is actually getting worse over time. Currently OpenAPI is still on draft 5, and JSON Schema has released draft 8.
 
-![A list of caveats to the JSON Schema support in OpenAPI v3.0](images/article_images/2018-03-30-openapi-and-json-schema-divergence/json-schema-oai-differences.png)
+![A list of caveats to the JSON Schema support in OpenAPI v3.0](img/2018-03-30-openapi-and-json-schema-divergence/json-schema-oai-differences.png)
 
 I've been punting this issue for a while in my articles and recommendations at work. The hope was that by the time folks at work had upgraded to v3, there might be a v3.1 out solving the situation, but that has not come to pass. Now I find myself suggesting folks find some way to convert one to the other, or try to write JSON Schema that _is_ compatible with OpenAPI.
 
-![Carefully writing JSON Schema for your data model kiiiinda works](article_images/2018-03-30-openapi-and-json-schema-divergence/data-model-service-model.png)
+![Carefully writing JSON Schema for your data model kiiiinda works](img/2018-03-30-openapi-and-json-schema-divergence/data-model-service-model.png)
 
 The latter can be done, but eventually you'll get bit by something. At work we've been writing JSON Schema files, using them for contract testing and a bunch of other stuff, then rendering them as part of our OpenAPI Docs with ReDoc. ReDoc will let you use `type: [string, null]`, but now we've got [Speccy](https://github.com/wework/speccy) linting our packages, it's reporting that as invalid OpenAPI...
 

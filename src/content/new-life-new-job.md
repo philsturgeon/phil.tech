@@ -3,11 +3,7 @@ layout: post
 author: [Phil]
 title: New Life, New Job, New Domain
 date: 2019-06-13
-tags: 
-- personal
-- career
-- api design
-- stoplight.io
+tags: [personal, career, api design, stoplight.io]
 ---
 
 This blog has been a bit quiet for the last two years, with me blogging on [APIs
