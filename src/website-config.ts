@@ -54,9 +54,9 @@ const config: WebsiteConfig = {
   coverImage: 'img/cover.jpg',
   // logo: 'img/ghost-logo.png',   // NOTE: uncomment to use logo instead of title
   lang: 'en',
-  siteUrl: 'https://gatsby-casper.netlify.com',
+  siteUrl: 'https://phil.tech/',
   facebook: 'https://www.facebook.com/ghost',
-  twitter: 'https://twitter.com/tryghost',
+  twitter: 'https://twitter.com/philsturgeon',
   showSubscribe: true,
   mailchimpAction: 'https://twitter.us19.list-manage.com/subscribe/post?u=a89b6987ac248c81b0b7f3a0f&amp;id=7d777b7d75',
   mailchimpName: 'b_a89b6987ac248c81b0b7f3a0f_7d777b7d75',
