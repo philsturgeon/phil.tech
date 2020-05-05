@@ -40,7 +40,6 @@ module.exports = {
           'gatsby-remark-copy-linked-files',
           'gatsby-remark-smartypants',
           'gatsby-remark-abbr',
-          '@weknow/gatsby-remark-twitter',
           {
             resolve: 'gatsby-remark-images',
             options: {
@@ -48,6 +47,23 @@ module.exports = {
               quality: 100,
             },
           },
+          {
+            resolve: `@raae/gatsby-remark-oembed`,
+            options: {
+              providers: {
+                include: [
+                  'Twitter',
+                  'Instagram',
+                  'YouTube',
+                  'Vimeo',
+                ],
+                settings: {
+                  // Ex. Show all Twitter embeds with the dark theme
+                  // Twitter: { theme: 'dark' },
+                },
+              },
+            },
+          }
         ],
       },
     },

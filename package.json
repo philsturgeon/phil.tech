@@ -18,7 +18,7 @@
     "@emotion/styled": "10.0.27",
     "@emotion/styled-base": "10.0.31",
     "@nfront/global-styles": "^1.2.1",
-    "@weknow/gatsby-remark-twitter": "^0.2.3",
+    "@raae/gatsby-remark-oembed": "^0.1.1",
     "classnames": "2.2.6",
     "cssnano": "4.1.10",
     "date-fns": "2.12.0",
