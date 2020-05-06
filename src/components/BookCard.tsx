@@ -11,11 +11,11 @@ export interface BookCardProps {
     description: string;
     slogan: string;
     year: number;
-    links: {
+    links: Array<{
       label: string;
       class: string;
       url: string;
-    }
+    }>
   }
 }
 
