@@ -1,7 +1,5 @@
-# upcoming:
-
-past:
-
+# - upcoming:
+- past:
   - event:
       name: API Days Paris
       url: http://evn.im/HyDGT
