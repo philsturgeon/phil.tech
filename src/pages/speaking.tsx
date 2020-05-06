@@ -5,7 +5,7 @@ import { Helmet } from 'react-helmet';
 import { css } from '@emotion/core';
 
 import { Footer } from '../components/Footer';
-// import { BookCard } from '../components/BookCard';
+import { TalkCard } from '../components/TalkCard';
 import SiteNav from '../components/header/SiteNav';
 import { PostFullContent } from '../components/PostContent';
 import { Wrapper } from '../components/Wrapper';
@@ -38,35 +38,28 @@ const PageTemplate = css`
 
 
 const Speaking: React.FC = () => {
-  const { allSpeakingYaml } = useStaticQuery(
-    graphql`
-      query {
-        allSpeakingYaml {
-          edges {
-            node {
-              past {
-                city
-                country
-                event {
-                  dates
-                  name
-                  url
-                }
-                talks {
-                  feedback
-                  slides
-                  video
-                  slug
-                }
-              }
-            }
-          }
-        }
-      }
-    `
-  )
-  console.log("TEST: ", allSpeakingYaml);
-
+  // const { contentYaml } = useStaticQuery(
+  //   graphql`
+  //     query {
+  //       contentYaml {
+  //         past {
+  //           city
+  //           country
+  //           event {
+  //             dates
+  //             name
+  //             url
+  //           }
+  //           talks {
+  //             short
+  //             title
+  //           }
+  //         }
+  //       }
+  //     }
+  //   `
+  // )
+  // console.log("TEST: ", contentYaml);
 
   return( 
   <IndexLayout>
@@ -90,13 +83,12 @@ const Speaking: React.FC = () => {
 
             <PostFullContent className="post-full-content">
               <div className="post-content">
-                {/* Books go here */}
-                {allSpeakingYaml.edges.map(book => {
-                  // filter out drafts in production
-                  // return (
-                  //   <BookCard key={book.id} book={book.node} />
-                  // );
-                })}
+                {/* {contentYaml.past.map((talk, index) => {
+                  return (
+                    <TalkCard key={index} talk={talk.node} />
+                  );
+                })} */}
+                <TalkCard talk={"hello"} slug="api-descriptions-as-production-code" />
               </div>
             </PostFullContent>
           </article>
