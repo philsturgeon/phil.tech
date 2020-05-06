@@ -1,16 +1,7 @@
-import { format } from 'date-fns';
-import { Link } from 'gatsby';
-import Img from 'gatsby-image';
-import _ from 'lodash';
-import { lighten } from 'polished';
 import React from 'react';
 
 import { css } from '@emotion/core';
-import styled from '@emotion/styled';
-
 import { colors } from '../styles/colors';
-import { PageContext } from '../templates/post';
-import { AuthorList } from './AuthorList';
 
 export interface BookCardProps {
   book: {
