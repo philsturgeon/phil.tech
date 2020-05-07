@@ -3,6 +3,7 @@ import { graphql, useStaticQuery } from 'gatsby';
 
 import { css } from '@emotion/core';
 import { colors } from '../styles/colors';
+import { fonts } from '../styles/fonts';
 
 import { TalkButtons } from '../components/TalkButtons';
 
@@ -70,7 +71,11 @@ export const TalkCard: React.FC<TalkCardProps> = ({ talk }) => {
 };
 
 const TalkCardStyles = css`
-  // none
+  // h2, h3 {
+  //   font-family: ${fonts.sansserif};
+  // }
+  // font-family: ${fonts.serif};
+  // font-family: 'Merriweather', serif;
 `;
 
 const TalkCardHeader = css`

@@ -104,7 +104,6 @@ export interface PageContext {
 }
 
 const PageTemplate: React.FC<PageTemplateProps> = props => {
-  console.log("PROPS: ", props);
   
   const post = props.data.markdownRemark;
   let width = '';
