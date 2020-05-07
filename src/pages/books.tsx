@@ -61,7 +61,6 @@ const Books: React.FC = () => {
       }
     `
   )
-  console.log("TEST: ", allBooksYaml);
 
 
   return( 

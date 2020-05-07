@@ -22,7 +22,6 @@ export interface BookCardProps {
 }
 
 export const BookCard: React.FC<BookCardProps> = ({book}) => {
-  // console.log("BOOK: ", book);
 
   return (
     <article className='book-card' css={BookCardStyles}>

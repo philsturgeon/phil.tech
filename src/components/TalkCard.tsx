@@ -70,25 +70,14 @@ export const TalkCard: React.FC<TalkCardProps> = ({ talk }) => {
 };
 
 const TalkCardStyles = css`
-  // display: grid;
-  // grid-template-columns: 1fr 3fr;
-  // column-gap: 1em;
-  // grid-template-areas: 
-  //     "book-header book-header"
-  //     "book-image book-content";
+  // none
 `;
 
 const TalkCardHeader = css`
-  grid-area: talk-header;
+  // grid-area: talk-header;
 `;
 
 const TalkCardContent = css`
-  grid-area: talk-content;
+  // grid-area: talk-content;
 
-  a.book {
-    border: 1px solid silver;
-    border-radius: 3px;
-    padding: 4px 6px;
-    box-shadow: none;
-  }
 `;
