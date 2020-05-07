@@ -38,11 +38,35 @@ const PageTemplate = css`
 
 
 const Speaking: React.FC = () => {
-  const { contentYaml } = useStaticQuery(
+  // const { contentYaml } = useStaticQuery(
+  //   graphql`
+  //     query {
+  //       contentYaml {
+  //         past {
+  //           city
+  //           country
+  //           event {
+  //             dates
+  //             name
+  //             url
+  //           }
+  //           talks {
+  //             feedback
+  //             slides
+  //             slug
+  //             video
+  //           }
+  //         }
+  //       }
+  //     }
+  //   `
+  // )
+
+  const { allSpeakingYaml } = useStaticQuery(
     graphql`
       query {
-        contentYaml {
-          past {
+        allSpeakingYaml {
+          nodes {
             city
             country
             event {
@@ -50,20 +74,22 @@ const Speaking: React.FC = () => {
               name
               url
             }
+            past
             talks {
-              feedback
               slides
               slug
-              video
             }
           }
         }
       }
     `
   )
-  console.log("SPEAKING: ", contentYaml);
-
+  console.log("SPEAKING: ", allSpeakingYaml);
   // TODO: Here filter for the past talks first
+  const pastDates = allSpeakingYaml.nodes.filter(date => date.past);
+  const upcomingDates = allSpeakingYaml.nodes.filter(date => !date.past);
+  console.log(upcomingDates, pastDates);
+  
 
   return( 
   <IndexLayout>
@@ -87,11 +113,25 @@ const Speaking: React.FC = () => {
 
             <PostFullContent className="post-full-content">
               <div className="post-content">
-                {contentYaml.past.map((talk, index) => {
-                  return (
-                    <TalkCard key={index} talk={talk} />
-                  );
-                })}
+                
+                {upcomingDates && <section>
+                  <h2>Upcoming</h2>
+                  {upcomingDates.map((talk, index) => {
+                    return (
+                      <TalkCard key={index} talk={talk} />
+                    );
+                  })} 
+                </section>}
+                
+                {pastDates && <section>
+                  <h2>Past</h2>
+                  {pastDates.map((talk, index) => {
+                    return (
+                      <TalkCard key={index} talk={talk} />
+                    );
+                  })} 
+                </section>}
+                
               </div>
             </PostFullContent>
           </article>
