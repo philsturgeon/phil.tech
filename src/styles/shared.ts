@@ -307,3 +307,12 @@ export const NoImage = css`
     }
   }
 `;
+
+export const ButtonGroupStyles = css`
+  a.book-button, a.talk-button {
+    border: 1px solid silver;
+    border-radius: 3px;
+    padding: 4px 6px;
+    box-shadow: none;
+  }
+`;

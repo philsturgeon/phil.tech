@@ -1,8 +1,6 @@
 import React from 'react';
-import { graphql, useStaticQuery } from 'gatsby';
 
-import { css } from '@emotion/core';
-import { colors } from '../styles/colors';
+import { ButtonGroupStyles } from '../styles/shared';
 
 export interface TalkButtonsProps {
   buttons: {
@@ -14,10 +12,9 @@ export interface TalkButtonsProps {
 }
 
 export const TalkButtons: React.FC<TalkButtonsProps> = ({ buttons }) => {  
-  // console.log("BUTTONS: ", buttons);
 
   return (
-    <div className="button-group">
+    <div className="button-group" css={ButtonGroupStyles}>
       {Object.keys(buttons).map(key => {
           if(buttons[key] && key !== 'slug'){
             return(

@@ -3,6 +3,8 @@ import React from 'react';
 import { css } from '@emotion/core';
 import { colors } from '../styles/colors';
 
+import { ButtonGroupStyles } from '../styles/shared';
+
 export interface BookCardProps {
   book: {
     title: string;
@@ -35,10 +37,10 @@ export const BookCard: React.FC<BookCardProps> = ({book}) => {
       </div>
       <div className='book-content' css={BookCardContent}>
         <p>{book.description}</p>
-        <div>
+        <div className="button-group" css={ButtonGroupStyles}>
           {book.links.map(button => {
             return (
-              <a href={button.url} className={`book ${button.class}`}>
+              <a href={button.url} className={`book-button ${button.class}`}>
                 {button.label}
               </a>
             )
@@ -73,11 +75,4 @@ const BookCardImage = css`
 
 const BookCardContent = css`
   grid-area: book-content;
-
-  a.book {
-    border: 1px solid silver;
-    border-radius: 3px;
-    padding: 4px 6px;
-    box-shadow: none;
-  }
 `;

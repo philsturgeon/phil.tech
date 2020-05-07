@@ -3,6 +3,7 @@ import { graphql, useStaticQuery } from 'gatsby';
 
 import { css } from '@emotion/core';
 import { colors } from '../styles/colors';
+
 import { TalkButtons } from '../components/TalkButtons';
 
 export interface TalkCardProps {
@@ -93,11 +94,3 @@ const TalkCardContent = css`
     box-shadow: none;
   }
 `;
-
-// export const query = graphql`
-//   query($slug: String) {
-//     contentYaml(talks: {elemMatch: {talk: {slug: {eq: $slug}}}}) {
-//       id
-//     }
-//   }
-// `;
