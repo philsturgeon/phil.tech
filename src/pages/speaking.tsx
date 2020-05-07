@@ -38,28 +38,32 @@ const PageTemplate = css`
 
 
 const Speaking: React.FC = () => {
-  // const { contentYaml } = useStaticQuery(
-  //   graphql`
-  //     query {
-  //       contentYaml {
-  //         past {
-  //           city
-  //           country
-  //           event {
-  //             dates
-  //             name
-  //             url
-  //           }
-  //           talks {
-  //             short
-  //             title
-  //           }
-  //         }
-  //       }
-  //     }
-  //   `
-  // )
-  // console.log("TEST: ", contentYaml);
+  const { contentYaml } = useStaticQuery(
+    graphql`
+      query {
+        contentYaml {
+          past {
+            city
+            country
+            event {
+              dates
+              name
+              url
+            }
+            talks {
+              feedback
+              slides
+              slug
+              video
+            }
+          }
+        }
+      }
+    `
+  )
+  console.log("SPEAKING: ", contentYaml);
+
+  // TODO: Here filter for the past talks first
 
   return( 
   <IndexLayout>
@@ -83,12 +87,11 @@ const Speaking: React.FC = () => {
 
             <PostFullContent className="post-full-content">
               <div className="post-content">
-                {/* {contentYaml.past.map((talk, index) => {
+                {contentYaml.past.map((talk, index) => {
                   return (
-                    <TalkCard key={index} talk={talk.node} />
+                    <TalkCard key={index} talk={talk} />
                   );
-                })} */}
-                <TalkCard talk={"hello"} slug="api-descriptions-as-production-code" />
+                })}
               </div>
             </PostFullContent>
           </article>
