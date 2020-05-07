@@ -1,14 +1,13 @@
-# upcoming:
-# past:
-- event:
-    name: Upcoming Event
-    url: http://evn.im/HyDGT
-    dates: 1st January 2030
-  city: X
-  country: Futurama
-  talks:
-    - slug: api-descriptions-as-production-code
-      slides:  http://talks.phil.tech/instances/2019-12-api-days-paris/html/
+# NOTE: past is now a boolean value on the event
+# - event:
+#     name: Upcoming Event
+#     url: http://evn.im/HyDGT
+#     dates: 1st January 2030
+#   city: X
+#   country: Futurama
+#   talks:
+#     - slug: api-descriptions-as-production-code
+#       slides:  http://talks.phil.tech/instances/2019-12-api-days-paris/html/
 
 - event:
     name: API Days Paris

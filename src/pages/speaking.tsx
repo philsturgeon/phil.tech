@@ -114,7 +114,7 @@ const Speaking: React.FC = () => {
             <PostFullContent className="post-full-content">
               <div className="post-content">
                 
-                {upcomingDates && <section>
+                {upcomingDates.len > 0 && <section>
                   <h2>Upcoming</h2>
                   {upcomingDates.map((talk, index) => {
                     return (
@@ -131,7 +131,7 @@ const Speaking: React.FC = () => {
                     );
                   })} 
                 </section>}
-                
+
               </div>
             </PostFullContent>
           </article>
