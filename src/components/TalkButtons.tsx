@@ -15,10 +15,10 @@ export const TalkButtons: React.FC<TalkButtonsProps> = ({ buttons }) => {
 
   return (
     <div className="button-group" css={ButtonGroupStyles}>
-      {Object.keys(buttons).map(key => {
+      {Object.keys(buttons).map((key, index) => {
           if(buttons[key] && key !== 'slug'){
             return(
-              <a className="talk-button" href={buttons[key]}>{key}</a>
+              <a key={index} className="talk-button" href={buttons[key]}>{key}</a>
             )
           }
       })}

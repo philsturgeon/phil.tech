@@ -21,47 +21,7 @@ import {
 import { NoImage, PostFull, PostFullHeader, PostFullTitle } from '../templates/post';
 import { colors } from '../styles/colors';
 
-const PageTemplate = css`
-  .site-main {
-    margin-top: 64px;
-    padding-bottom: 4vw;
-    background: #fff;
-  }
-
-  @media (prefers-color-scheme: dark) {
-    .site-main {
-      /* background: var(--darkmode); */
-      background: ${colors.darkmode};
-    }
-  }
-`;
-
-
 const Speaking: React.FC = () => {
-  // const { contentYaml } = useStaticQuery(
-  //   graphql`
-  //     query {
-  //       contentYaml {
-  //         past {
-  //           city
-  //           country
-  //           event {
-  //             dates
-  //             name
-  //             url
-  //           }
-  //           talks {
-  //             feedback
-  //             slides
-  //             slug
-  //             video
-  //           }
-  //         }
-  //       }
-  //     }
-  //   `
-  // )
-
   const { allSpeakingYaml } = useStaticQuery(
     graphql`
       query {
@@ -84,11 +44,10 @@ const Speaking: React.FC = () => {
       }
     `
   )
-  console.log("SPEAKING: ", allSpeakingYaml);
-  // TODO: Here filter for the past talks first
+
+  // separate past and upcoming talks
   const pastDates = allSpeakingYaml.nodes.filter(date => date.past);
   const upcomingDates = allSpeakingYaml.nodes.filter(date => !date.past);
-  console.log(upcomingDates, pastDates);
   
 
   return( 
@@ -116,7 +75,7 @@ const Speaking: React.FC = () => {
                 
                 {upcomingDates.len > 0 && <section>
                   <h2>Upcoming</h2>
-                  {upcomingDates.map((talk, index) => {
+                  {upcomingDates.map((talk: object, index: number) => {
                     return (
                       <TalkCard key={index} talk={talk} />
                     );
@@ -125,7 +84,7 @@ const Speaking: React.FC = () => {
                 
                 {pastDates && <section>
                   <h2>Past</h2>
-                  {pastDates.map((talk, index) => {
+                  {pastDates.map((talk: object, index: number) => {
                     return (
                       <TalkCard key={index} talk={talk} />
                     );
@@ -142,5 +101,21 @@ const Speaking: React.FC = () => {
   </IndexLayout>
   );
 };
+
+const PageTemplate = css`
+  .site-main {
+    margin-top: 64px;
+    padding-bottom: 4vw;
+    background: #fff;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .site-main {
+      /* background: var(--darkmode); */
+      background: ${colors.darkmode};
+    }
+  }
+`;
+
 
 export default Speaking;

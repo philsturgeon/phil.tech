@@ -25,7 +25,7 @@ export interface TalkCardProps {
 }
 
 export const TalkCard: React.FC<TalkCardProps> = ({ talk }) => {
-  console.log("TALK: ", talk);
+
   const { allTalksYaml } = useStaticQuery(
     graphql`
       query {
@@ -39,7 +39,7 @@ export const TalkCard: React.FC<TalkCardProps> = ({ talk }) => {
       }
     `
   )
-  console.log("TEST: ", allTalksYaml);
+
   const dateAndPlace = `${talk.event.dates} in ${talk.city}, ${talk.country}`;
 
   return (
@@ -51,14 +51,12 @@ export const TalkCard: React.FC<TalkCardProps> = ({ talk }) => {
         <p>{dateAndPlace}</p>
       </header>
       <div className='talk-content' css={TalkCardContent}>
-        {talk.talks.map(talkInfo => {
-          console.log("INFO: ", talkInfo);
+        {talk.talks.map((talkInfo, index) => {
           const talkData = allTalksYaml.nodes.filter(info => info.slug === talkInfo.slug)[0]
-          console.log("DATA: ", talkData);
 
           if(talkData){
             return (
-              <div>  
+              <div key={index}>  
                 <h3>{talkData.title}</h3>
                 <p>{talkData.short}</p>
                 <TalkButtons buttons={talkInfo} />
