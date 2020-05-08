@@ -31,7 +31,7 @@ export const PostCard: React.FC<PostCardProps> = ({ post, large = false }) => {
       }`}
       css={[PostCardStyles, large && PostCardLarge]}
     >
-      {post.frontmatter.image && (
+      {post.frontmatter.image && large && (
         <Link className="post-card-image-link" css={PostCardImageLink} to={post.fields.slug}>
           <PostCardImage className="post-card-image">
             {post.frontmatter?.image?.childImageSharp?.fluid && (
@@ -59,9 +59,9 @@ export const PostCard: React.FC<PostCardProps> = ({ post, large = false }) => {
           </PostCardExcerpt>
         </Link>
         <PostCardMeta className="post-card-meta">
-          <AuthorList authors={post.frontmatter.author} tooltip="small" />
+          {/* <AuthorList authors={post.frontmatter.author} tooltip="small" /> */}
           <PostCardBylineContent className="post-card-byline-content">
-            <span>
+            {/* <span>
               {post.frontmatter.author.map((author, index) => {
                 return (
                   <React.Fragment key={author.id}>
@@ -70,7 +70,7 @@ export const PostCard: React.FC<PostCardProps> = ({ post, large = false }) => {
                   </React.Fragment>
                 );
               })}
-            </span>
+            </span> */}
             <span className="post-card-byline-date">
               <time dateTime={datetime}>{displayDatetime}</time>{' '}
               <span className="bull">&bull;</span> {post.timeToRead} min read
@@ -84,15 +84,17 @@ export const PostCard: React.FC<PostCardProps> = ({ post, large = false }) => {
 
 const PostCardStyles = css`
   position: relative;
-  // flex: 1 1 301px;
+  flex: 1 1 301px;
   display: flex;
-  // flex-direction: column;
-  // overflow: hidden;
-  // margin: 0 0 40px;
+  flex-direction: column;
+  overflow: hidden;
+  margin: 0 0 40px;
   padding: 0 20px 40px;
-  // min-height: 220px;
+  min-height: 220px;
   border-bottom: 1px solid ${lighten('0.12', colors.lightgrey)};
   background-size: cover;
+  // width: 60%;
+  // margin: 0 auto;
 
   @media (prefers-color-scheme: dark) {
     /* border-bottom-color: color(var(--darkmode) l(+8%)); */
@@ -221,7 +223,7 @@ const PostCardBylineContent = styled.div`
   flex: 1 1 50%;
   display: flex;
   flex-direction: column;
-  margin: 4px 0 0 10px;
+  // margin: 4px 0 0 10px;
   /* color: color(var(--midgrey) l(+10%)); */
   color: ${lighten('0.1', colors.midgrey)};
   font-size: 1.2rem;
