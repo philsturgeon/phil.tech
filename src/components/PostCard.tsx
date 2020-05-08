@@ -84,14 +84,13 @@ export const PostCard: React.FC<PostCardProps> = ({ post, large = false }) => {
 
 const PostCardStyles = css`
   position: relative;
-  flex: 1 1 301px;
+  // flex: 1 1 301px;
   display: flex;
-  flex-direction: column;
-  overflow: hidden;
-  margin: 0 0 40px;
+  // flex-direction: column;
+  // overflow: hidden;
+  // margin: 0 0 40px;
   padding: 0 20px 40px;
-  min-height: 220px;
-  /* border-bottom: 1px solid color(var(--lightgrey) l(+12%)); */
+  // min-height: 220px;
   border-bottom: 1px solid ${lighten('0.12', colors.lightgrey)};
   background-size: cover;
 

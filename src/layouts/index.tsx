@@ -6,6 +6,7 @@ import { lighten } from 'polished';
 // @ts-ignore
 import favicon from '../../src/favicon.ico';
 import { colors } from '../styles/colors';
+import { fonts } from '../styles/fonts';
 
 interface IndexProps {
   className?: string;
@@ -332,6 +333,7 @@ const IndexLayout: React.FC<IndexProps> = props => {
           dl,
           blockquote {
             margin: 0 0 1.5em 0;
+            font-family: ${fonts.serif};
           }
 
           ol,
@@ -425,6 +427,7 @@ const IndexLayout: React.FC<IndexProps> = props => {
             line-height: 1.15;
             font-weight: 600;
             text-rendering: optimizeLegibility;
+            font-family: ${fonts.sansserif};
           }
 
           h1 {
