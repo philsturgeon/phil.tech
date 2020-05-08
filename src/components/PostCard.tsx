@@ -238,9 +238,11 @@ const PostCardBylineContent = styled.div`
   // font-weight: 400;
   letter-spacing: 0.2px;
   // text-transform: uppercase;
+  // TODO: Cleanup all of these
 
   span.post-card-byline-date > span {
     margin: 0 5px ;
+    font-size: 10px;
   }
 
   a {

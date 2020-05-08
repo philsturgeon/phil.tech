@@ -49,14 +49,18 @@ export const SiteTitle = styled.h1`
   }
 `;
 
-export const SiteDescription = styled.h2`
-  z-index: 10;
-  margin: 0;
+export const SiteDescription = styled.div`
+  // z-index: 10;
+  // margin: 0;
   padding: 5px 0;
   font-size: 2.1rem;
   line-height: 1.4em;
-  font-weight: 400;
-  opacity: 0.8;
+  // opacity: 0.8;
+
+  h2 {
+    width: 76%;
+    font-weight: 500;
+  }
 
   @media (max-width: 500px) {
     font-size: 1.8rem;
@@ -108,6 +112,7 @@ export const SocialLinkFb = css`
 `;
 
 export const SiteHeader = css``;
+// TODO: remove everywhere
 
 export const SiteHeaderContent = styled.div`
   z-index: 100;
@@ -115,7 +120,7 @@ export const SiteHeaderContent = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 6vw 3vw;
+  // padding: 6vw 3vw;
   min-height: 200px;
   max-height: 340px;
 `;
@@ -123,7 +128,7 @@ export const SiteHeaderContent = styled.div`
 export const SiteHeaderStyles = css`
   position: relative;
   /* margin-top: 64px; */
-  padding-bottom: 12px;
+  // padding-bottom: 12px;
   color: #fff;
   /* background: color(var(--darkgrey) l(-5%)) no-repeat center center; */
   background: ${lighten('-0.05', colors.darkgrey)} no-repeat center center;
