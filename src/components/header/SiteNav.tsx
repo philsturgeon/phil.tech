@@ -25,6 +25,7 @@ interface SiteNavState {
 }
 
 class SiteNav extends React.Component<SiteNavProps, SiteNavState> {
+  // TODO: remove all this unused stuff
   subscribe = React.createRef<SubscribeModal>();
   titleRef = React.createRef<HTMLSpanElement>();
   lastScrollY = 0;
@@ -96,7 +97,13 @@ class SiteNav extends React.Component<SiteNavProps, SiteNavState> {
                 <Link to="/about">About</Link>
               </li>
               <li role="menuitem">
-                <Link to="/tags/getting-started/">Getting Started</Link>
+                <Link to="/books/">Books</Link>
+              </li>
+              <li role="menuitem">
+                <Link to="/speaking/">Speaking</Link>
+              </li>
+              <li role="menuitem">
+                <Link to="/speaking/">Consulting</Link>
               </li>
             </ul>
             {isPost && (
@@ -120,9 +127,18 @@ class SiteNav extends React.Component<SiteNavProps, SiteNavState> {
                 <Facebook />
               </a>
             )} */}
+            <a
+                className="social-link emoji"
+                css={SocialLink}
+                href={config.offset}
+                target="_blank"
+                title="Offset"
+                rel="noopener noreferrer"
+              >
+                🌲
+              </a>
             {config.github && (
               <a
-                className="social-link-fb"
                 css={SocialLink}
                 href={config.github}
                 target="_blank"
@@ -177,7 +193,8 @@ const SiteNavStyles = css`
   align-items: flex-start;
   overflow-y: hidden;
   height: 64px;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
+  font-weight: 500;
 `;
 
 const SiteNavLeft = styled.div`
@@ -189,8 +206,8 @@ const SiteNavLeft = styled.div`
   -webkit-overflow-scrolling: touch;
   margin-right: 10px;
   padding: 10px 0 80px;
-  font-weight: 500;
-  letter-spacing: 0.2px;
+  // font-weight: 500;
+  // letter-spacing: 0.2px;
   text-transform: uppercase;
   white-space: nowrap;
 
@@ -225,9 +242,9 @@ const NavStyles = css`
   li a {
     position: relative;
     display: block;
-    padding: 12px 12px;
+    padding: 12px;
     color: #fff;
-    opacity: 0.8;
+    opacity: 0.9;
     transition: opacity 0.35s ease-in-out;
   }
 

@@ -38,7 +38,7 @@ export const SiteMain = css`
 
 export const SiteTitle = styled.h1`
   z-index: 10;
-  margin: 0 0 0 -2px;
+  margin: 0 0px 0 -2px;
   padding: 0;
   font-size: 5rem;
   line-height: 1em;
@@ -52,14 +52,15 @@ export const SiteTitle = styled.h1`
 export const SiteDescription = styled.div`
   // z-index: 10;
   // margin: 0;
-  padding: 5px 0;
-  font-size: 2.1rem;
-  line-height: 1.4em;
+  // padding: 5px 0;
+  // font-size: 2.1rem;
+  // line-height: 1.4em;
   // opacity: 0.8;
 
   h2 {
     width: 76%;
     font-weight: 500;
+    line-height: 1.4em;
   }
 
   @media (max-width: 500px) {
@@ -76,11 +77,11 @@ export const PostFeed = css`
   display: flex;
   flex-wrap: wrap;
   margin: 0 -20px;
-  padding: 50px 0 0;
+  // padding: 50px 0 0;
   background: #fff;
 
   /* Special Template Styles */
-  padding: 40px 0 5vw;
+  // padding: 0px 0 5vw;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
 
@@ -97,6 +98,13 @@ export const SocialLink = css`
 
   :hover {
     opacity: 1;
+    text-decoration: none;
+  }
+
+  &.emoji {
+    // color: transparent; 
+    color: transparent; 
+    text-shadow: 0 0 0 #fff;
   }
 
   svg {

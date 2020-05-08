@@ -108,6 +108,9 @@ const PostCardStyles = css`
 `;
 
 const PostCardLarge = css`
+  border-bottom: none;
+  padding: 10px 20px 10px;
+
   @media (min-width: 795px) {
     flex: 1 1 100%;
     flex-direction: row;
