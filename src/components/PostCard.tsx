@@ -67,9 +67,10 @@ export const PostCard: React.FC<PostCardProps> = ({ post, large = false }) => {
               })}
             </span> */}
             <span className="post-card-byline-date">
-              <time dateTime={datetime}>{displayDatetime}</time>{' '}
-              <span className="bull">&bull;</span> {post.timeToRead} min read
-              <span className="bull">&bull;</span> {post.frontmatter.tags && (
+              <time dateTime={datetime}>{displayDatetime}</time>
+              <span className="bull">&bull;</span>{post.timeToRead} min read
+              <span className="bull">&bull;</span>
+              {post.frontmatter.tags && (
                 <PostCardPrimaryTag className="post-card-primary-tag">
                   {post.frontmatter.tags[0]}
                 </PostCardPrimaryTag>
@@ -84,17 +85,21 @@ export const PostCard: React.FC<PostCardProps> = ({ post, large = false }) => {
 
 const PostCardStyles = css`
   position: relative;
-  flex: 1 1 301px;
+  flex: 1 1 501px;
   display: flex;
   flex-direction: column;
   overflow: hidden;
   // margin: 0 0 40px;
-  padding: 0 20px 40px;
+  padding: 10px 20px 30px;
   // min-height: 220px;
   border-bottom: 1px solid ${lighten('0.12', colors.lightgrey)};
   background-size: cover;
   // width: 60%;
   // margin: 0 auto;
+
+  p {
+    font-size: 1.8rem;
+  }
 
   @media (prefers-color-scheme: dark) {
     /* border-bottom-color: color(var(--darkmode) l(+8%)); */
@@ -147,7 +152,7 @@ const PostCardLarge = css`
 
     .post-card-excerpt p {
       margin-bottom: 1.5em;
-      font-size: 1.8rem;
+      // font-size: 1.8rem;
       line-height: 1.5em;
     }
   }
@@ -185,20 +190,9 @@ const PostCardContentLink = css`
   }
 `;
 
-const PostCardPrimaryTag = styled.div`
-  display: inline-block;
-  margin: 0 0 0.2em;
-  /* color: var(--blue); */
-  color: ${colors.blue};
-  font-size: 1.2rem;
-  font-weight: 500;
-  letter-spacing: 0.2px;
-  // text-transform: uppercase;
-`;
-
 const PostCardTitle = styled.h2`
   margin: 0 0 0.4em;
-  line-height: 1.15em;
+  line-height: 1.4em;
   transition: color 0.2s ease-in-out;
 
   @media (prefers-color-scheme: dark) {
@@ -207,7 +201,7 @@ const PostCardTitle = styled.h2`
 `;
 
 const PostCardExcerpt = styled.section`
-  font-family: Georgia, serif;
+  // font-family: Georgia, serif;
 
   @media (prefers-color-scheme: dark) {
     /* color: color(var(--midgrey) l(+10%)); */
@@ -218,7 +212,18 @@ const PostCardExcerpt = styled.section`
 const PostCardMeta = styled.footer`
   display: flex;
   align-items: flex-start;
-  padding: 0;
+  // padding: 0;
+`;
+
+const PostCardPrimaryTag = styled.div`
+  display: inline-block;
+  // margin: 0 0 0.2em;
+  color: ${colors.orange};
+  // font-size: 1.2rem;
+  font-weight: 500;
+  // letter-spacing: 0.2px;
+  // text-transform: uppercase;
+  text-transform: capitalize;
 `;
 
 const PostCardBylineContent = styled.div`
@@ -228,14 +233,14 @@ const PostCardBylineContent = styled.div`
   // margin: 4px 0 0 10px;
   /* color: color(var(--midgrey) l(+10%)); */
   color: ${lighten('0.1', colors.midgrey)};
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   line-height: 1.4em;
-  font-weight: 400;
+  // font-weight: 400;
   letter-spacing: 0.2px;
   // text-transform: uppercase;
 
-  span {
-    margin: 0;
+  span.post-card-byline-date > span {
+    margin: 0 5px ;
   }
 
   a {
@@ -255,31 +260,31 @@ const PostCardHeader = styled.header`
   margin: 15px 0 0;
 `;
 
-export const StaticAvatar = css`
-  display: block;
-  overflow: hidden;
-  margin: 0 0 0 -6px;
-  width: 34px;
-  height: 34px;
-  border: #fff 2px solid;
-  border-radius: 100%;
+// export const StaticAvatar = css`
+//   display: block;
+//   overflow: hidden;
+//   margin: 0 0 0 -6px;
+//   width: 34px;
+//   height: 34px;
+//   border: #fff 2px solid;
+//   border-radius: 100%;
 
-  @media (prefers-color-scheme: dark) {
-    /* border-color: color(var(--darkgrey) l(+2%)); */
-    border-color: ${lighten('0.02', colors.darkgrey)};
-  }
-`;
+//   @media (prefers-color-scheme: dark) {
+//     /* border-color: color(var(--darkgrey) l(+2%)); */
+//     border-color: ${lighten('0.02', colors.darkgrey)};
+//   }
+// `;
 
-export const AuthorProfileImage = css`
-  display: block;
-  width: 100%;
-  height: 100%;
-  /* background: color(var(--lightgrey) l(+10%)); */
-  background: ${lighten('0.1', colors.lightgrey)};
-  border-radius: 100%;
-  object-fit: cover;
+// export const AuthorProfileImage = css`
+//   display: block;
+//   width: 100%;
+//   height: 100%;
+//   /* background: color(var(--lightgrey) l(+10%)); */
+//   background: ${lighten('0.1', colors.lightgrey)};
+//   border-radius: 100%;
+//   object-fit: cover;
 
-  @media (prefers-color-scheme: dark) {
-    background: ${colors.darkmode};
-  }
-`;
+//   @media (prefers-color-scheme: dark) {
+//     background: ${colors.darkmode};
+//   }
+// `;

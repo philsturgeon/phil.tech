@@ -38,7 +38,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       createNodeField({
         node,
         name: 'primaryTag',
-        value: primaryTag || '',
+        value: primaryTag || 'api', // api as default tag
       });
     }
   }
