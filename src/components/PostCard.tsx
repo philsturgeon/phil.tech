@@ -47,11 +47,6 @@ export const PostCard: React.FC<PostCardProps> = ({ post, large = false }) => {
       <PostCardContent className="post-card-content">
         <Link className="post-card-content-link" css={PostCardContentLink} to={post.fields.slug}>
           <PostCardHeader className="post-card-header">
-            {post.frontmatter.tags && (
-              <PostCardPrimaryTag className="post-card-primary-tag">
-                {post.frontmatter.tags[0]}
-              </PostCardPrimaryTag>
-            )}
             <PostCardTitle className="post-card-title">{post.frontmatter.title}</PostCardTitle>
           </PostCardHeader>
           <PostCardExcerpt className="post-card-excerpt">
@@ -74,6 +69,11 @@ export const PostCard: React.FC<PostCardProps> = ({ post, large = false }) => {
             <span className="post-card-byline-date">
               <time dateTime={datetime}>{displayDatetime}</time>{' '}
               <span className="bull">&bull;</span> {post.timeToRead} min read
+              <span className="bull">&bull;</span> {post.frontmatter.tags && (
+                <PostCardPrimaryTag className="post-card-primary-tag">
+                  {post.frontmatter.tags[0]}
+                </PostCardPrimaryTag>
+              )}
             </span>
           </PostCardBylineContent>
         </PostCardMeta>
@@ -157,7 +157,8 @@ const PostCardImageLink = css`
   position: relative;
   display: block;
   overflow: hidden;
-  border-radius: 5px 5px 0 0;
+  // border-radius: 5px 5px 0 0;
+  border-radius: 2px;
 `;
 
 const PostCardImage = styled.div`
@@ -185,6 +186,7 @@ const PostCardContentLink = css`
 `;
 
 const PostCardPrimaryTag = styled.div`
+  display: inline-block;
   margin: 0 0 0.2em;
   /* color: var(--blue); */
   color: ${colors.blue};
