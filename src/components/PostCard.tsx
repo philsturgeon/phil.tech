@@ -193,7 +193,7 @@ const PostCardPrimaryTag = styled.div`
   font-size: 1.2rem;
   font-weight: 500;
   letter-spacing: 0.2px;
-  text-transform: uppercase;
+  // text-transform: uppercase;
 `;
 
 const PostCardTitle = styled.h2`
@@ -232,7 +232,7 @@ const PostCardBylineContent = styled.div`
   line-height: 1.4em;
   font-weight: 400;
   letter-spacing: 0.2px;
-  text-transform: uppercase;
+  // text-transform: uppercase;
 
   span {
     margin: 0;
