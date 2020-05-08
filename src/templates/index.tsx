@@ -54,7 +54,8 @@ const IndexPage: React.FC<IndexProps> = props => {
   const { width, height } = props.data.header.childImageSharp.fixed;
 
   return (
-    <IndexLayout css={HomePosts}>
+    // <IndexLayout css={HomePosts}>
+    <IndexLayout>
       <Helmet>
         <html lang={config.lang} />
         <title>{config.title}</title>
