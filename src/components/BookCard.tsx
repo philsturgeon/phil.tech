@@ -56,7 +56,7 @@ const BookCardStyles = css`
   grid-template-areas: 
       "book-header book-header"
       "book-image book-content";
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
 
   @media (max-width: 795px) {
     display: block;

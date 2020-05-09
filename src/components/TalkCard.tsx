@@ -76,6 +76,7 @@ const TalkCardStyles = css`
   // }
   // font-family: ${fonts.serif};
   // font-family: 'Merriweather', serif;
+  margin-bottom: 4rem;
 `;
 
 const TalkCardHeader = css`
