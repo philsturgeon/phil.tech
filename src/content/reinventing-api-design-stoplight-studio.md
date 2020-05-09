@@ -3,7 +3,9 @@ layout: post
 author: [Phil]
 title: Reinventing API Design with Stoplight Studio
 date: 2019-08-22
+image: img/2019-08-22-reinventing-api-design-stoplight-studio/editor.png
 tags: [api development, openapi, api design, stoplight.io]
+featured: true
 ---
 
 Two months ago I teased that [Stoplight](http://stoplight.io/) was about to release something big, and yesterday we announced [Stoplight Studio](http://stoplight.io/studio) - an OpenAPI and standalone JSON Schema editor, which just so happens to be visually stunning and completely free.

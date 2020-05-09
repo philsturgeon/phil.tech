@@ -6,7 +6,6 @@ date: 2017-01-24
 tags: [graphql, rest, api, http]
 category: api
 # comments: true
-featured: true
 ---
 
 A few months back I wrote [a comparison between RPC and REST](https://www.smashingmagazine.com/2016/09/understanding-rest-and-rpc-for-http-apis/) for Smashing Magazine, and now I want to talk about the differences between REST and GraphQL: the new kid on the block.
