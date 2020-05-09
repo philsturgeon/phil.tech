@@ -85,9 +85,7 @@ const Books: React.FC = () => {
 
             <PostFullContent className="post-full-content">
               <div className="post-content">
-                {/* Books go here */}
                 {allBooksYaml.edges.map(book => {
-                  // filter out drafts in production
                   return (
                     <BookCard key={book.id} book={book.node} />
                   );

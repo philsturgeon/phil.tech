@@ -1,7 +1,6 @@
 import React from 'react';
 
 import { css } from '@emotion/core';
-import { colors } from '../styles/colors';
 
 import { ButtonGroupStyles } from '../styles/shared';
 
@@ -57,6 +56,7 @@ const BookCardStyles = css`
   grid-template-areas: 
       "book-header book-header"
       "book-image book-content";
+  margin-bottom: 3rem;
 `;
 
 const BookCardHeader = css`
