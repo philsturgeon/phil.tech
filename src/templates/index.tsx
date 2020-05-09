@@ -125,7 +125,7 @@ const IndexPage: React.FC<IndexProps> = props => {
         </SiteDescription>
         <main id="site-main" css={[SiteMain, outer]}>
           <div css={[inner, Posts]}>
-            <h3 css={HomeSubtitles}>Featured Posts</h3>
+            {featuredPosts.length > 0 && <h3 css={HomeSubtitles}>Featured Posts</h3>}
             <div css={[PostFeed]}>
               {featuredPosts.map((post, index) => {
                 // filter out drafts in production
