@@ -120,8 +120,10 @@ const IndexPage: React.FC<IndexProps> = props => {
             </SiteHeaderContent>
           </div>
         </div>
-        <SiteDescription css={inner}>
-          <h2>{config.description}</h2>
+        <SiteDescription css={outer}>
+          <div css={inner}>
+            <h2>{config.description}</h2>
+          </div>
         </SiteDescription>
         <main id="site-main" css={[SiteMain, outer]}>
           <div css={[inner, Posts]}>
@@ -234,7 +236,6 @@ export const pageQuery = graphql`
 `;
 
 const HomeSubtitles = css`
-  // margin: 0;
   font-weight: 600;
 `;
 
