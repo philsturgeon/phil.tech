@@ -9,7 +9,7 @@ import { Author } from '../templates/post';
 
 export interface MetaContentProps {
   author: Author[];
-  datetime: Date;
+  datetime: string;
   displayDatetime: string;
   home: boolean;
   tags: Array<string>;

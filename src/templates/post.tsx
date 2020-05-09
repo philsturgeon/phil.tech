@@ -186,7 +186,6 @@ const PageTemplate: React.FC<PageTemplateProps> = props => {
         </header>
         <main id="site-main" className="site-main" css={[SiteMain, outer]}>
           <div css={inner}>
-            {/* TODO: no-image css tag? */}
             <article css={[PostFull, !post.frontmatter.image && NoImage]}>
               <PostFullHeader className="post-full-header">
                 <PostFullTitle className="post-full-title">{post.frontmatter.title}</PostFullTitle>
@@ -204,15 +203,6 @@ const PageTemplate: React.FC<PageTemplateProps> = props => {
                 </PostFullByline>
               </PostFullHeader>
 
-              {post.frontmatter.image && post.frontmatter.image.childImageSharp && (
-                <PostFullImage>
-                  <Img
-                    style={{ height: '100%' }}
-                    fluid={post.frontmatter.image.childImageSharp.fluid}
-                    alt={post.frontmatter.title}
-                  />
-                </PostFullImage>
-              )}
               <PostContent htmlAst={post.htmlAst} />
 
               {/* The big email subscribe modal content */}
@@ -285,22 +275,9 @@ export const PostFullHeader = styled.header`
   }
 `;
 
-const PostFullTags = styled.section`
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  /* color: var(--midgrey); */
-  color: ${colors.midgrey};
-  font-size: 1.3rem;
-  line-height: 1.4em;
-  font-weight: 600;
-  text-transform: uppercase;
-`;
-
 const PostFullCustomExcerpt = styled.p`
   margin: 20px 0 0;
   color: var(--midgrey);
-  font-family: Georgia, serif;
   font-size: 2.3rem;
   line-height: 1.4em;
   font-weight: 300;
@@ -319,7 +296,7 @@ const PostFullCustomExcerpt = styled.p`
 const PostFullByline = styled.div`
   display: flex;
   justify-content: space-between;
-  margin: 35px 0 0;
+  margin: 15px 0 0;
   padding-top: 15px;
   /* border-top: 1px solid color(var(--lightgrey) l(+10%)); */
   border-top: 1px solid ${lighten('0.1', colors.lightgrey)};
@@ -392,30 +369,6 @@ export const PostFullTitle = styled.h1`
 
   @media (prefers-color-scheme: dark) {
     color: rgba(255, 255, 255, 0.9);
-  }
-`;
-
-const PostFullImage = styled.figure`
-  margin: 25px 0 50px;
-  height: 800px;
-  background: ${colors.lightgrey} center center;
-  background-size: cover;
-  border-radius: 5px;
-
-  @media (max-width: 1170px) {
-    margin: 25px -6vw 50px;
-    border-radius: 0;
-    img {
-      max-width: 1170px;
-    }
-  }
-
-  @media (max-width: 800px) {
-    height: 400px;
-  }
-  @media (max-width: 500px) {
-    margin-bottom: 4vw;
-    height: 350px;
   }
 `;
 
