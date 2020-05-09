@@ -12,9 +12,9 @@ export const Footer: React.FC = () => {
     <footer css={[outer, SiteFooter]}>
       <div css={[inner, SiteFooterContent]}>
         <SiteFooterNav>
-          <a>🌲 Buy me a tree</a>
-          <a>🚴‍♂️ Bike Nomading</a>
-          <a>🛠️ APIs You Won't Hate</a>
+          <a href={config.offset} target="_blank" rel="noopener noreferrer">🌲 Buy me a tree</a>
+          <a href="https://phil.bike/" target="_blank" rel="noopener noreferrer">🚵‍♂️ Bike Nomading</a>
+          <a href="https://apisyouwonthate.com/" target="_blank" rel="noopener noreferrer">🛠️ APIs You Won't Hate</a>
         </SiteFooterNav>
         <SiteFooterNav>
           {config.twitter && (
@@ -42,7 +42,9 @@ const SiteFooter = css`
   padding-top: 25px;
   padding-bottom: 25px;
   color: #fff;
-  background: ${setLightness('0.0015', colors.darkgrey)};
+  // background: ${setLightness('0.0015', colors.darkgrey)};
+  background: #536878; 
+  // TODO: Add to colors if it sticks
 `;
 
 const SiteFooterContent = css`
