@@ -6,6 +6,7 @@ excerpt: With the slow but sure rise in remote working, let's leverage this fant
 date: 2020-02-22
 image: img/2020-02-22-remote-work-climate/cover.jpg
 tags: [climate]
+featured: true
 ---
 
 Companies are stepping up to [go carbon neutral](https://www.climateneutral.org/certified-brands) ([or even carbon negative](https://blogs.microsoft.com/blog/2020/01/16/microsoft-will-be-carbon-negative-by-2030/)), and the number of [big companies offering remote work](https://www.forbes.com/sites/alexandratalty/2019/01/15/work-from-home-2019-the-top-100-companies-for-remote-jobs/#d580efe15444) is on the rise, but [remote work in the States is still only 3-5%](https://lp.buffer.com/state-of-remote-work-2020). With most of the world ([especially the U.S.](https://ourworldindata.org/uploads/2019/10/Cumulative-CO2-treemap.png)) desperately needing to sort its carbon footprint out, remote working might just be a big piece of the puzzle.

@@ -10,6 +10,8 @@ export interface SubscribeProps {
   title: string;
 }
 
+// TODO: delete all this rubbish
+
 export const Subscribe: React.FC<SubscribeProps> = props => {
   return (
     <SubscribeFormSection>

@@ -53,6 +53,9 @@ export interface IndexProps {
 const IndexPage: React.FC<IndexProps> = props => {
   const { width, height } = props.data.header.childImageSharp.fixed;
 
+  const featuredPosts = props.data.allMarkdownRemark.edges.filter(edge => edge.node.frontmatter.featured);
+  const allPosts = props.data.allMarkdownRemark.edges.filter(edge => !edge.node.frontmatter.featured);
+
   return (
     // <IndexLayout css={HomePosts}>
     <IndexLayout>
@@ -122,20 +125,19 @@ const IndexPage: React.FC<IndexProps> = props => {
           <div css={[inner, Posts]}>
             <h3 css={HomeSubtitles}>Featured Posts</h3>
             <div css={[PostFeed]}>
-              {props.data.allMarkdownRemark.edges.slice(0,1).map((post, index) => {
+              {featuredPosts.map((post, index) => {
                 // filter out drafts in production
-                // TODO: make this properly featured
                 return (
                   (post.node.frontmatter.draft !== true ||
                     process.env.NODE_ENV !== 'production') && (
-                    <PostCard key={post.node.fields.slug} post={post.node} large={index === 0} />
+                    <PostCard key={post.node.fields.slug} post={post.node} large={true} />
                   )
                 );
               })}
             </div>
             <h3 css={HomeSubtitles}>All Posts</h3>
             <div css={[PostFeed]}>
-              {props.data.allMarkdownRemark.edges.slice(1,20).map((post, index) => {
+              {allPosts.map((post, index) => {
                 // filter out drafts in production
                 return (
                   (post.node.frontmatter.draft !== true ||
@@ -196,6 +198,7 @@ export const pageQuery = graphql`
             tags
             draft
             excerpt
+            featured
             image {
               childImageSharp {
                 fluid(maxWidth: 3720) {
