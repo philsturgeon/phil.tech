@@ -97,6 +97,11 @@ const PostCardStyles = css`
   // width: 60%;
   // margin: 0 auto;
 
+  // TODO: double-check this doesn't mess up on odd numbers
+  &:last-of-type, &:nth-last-child(2) {
+    border-bottom: none;
+  }
+
   p {
     font-size: 1.8rem;
   }

@@ -51,6 +51,8 @@ export interface IndexProps {
 }
 
 const IndexPage: React.FC<IndexProps> = props => {
+  console.log("PROPS: ", props);
+  
   const { width, height } = props.data.header.childImageSharp.fixed;
 
   const featuredPosts = props.data.allMarkdownRemark.edges.filter(edge => edge.node.frontmatter.featured);
