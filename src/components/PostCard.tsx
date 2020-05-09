@@ -58,7 +58,7 @@ export const PostCard: React.FC<PostCardProps> = ({ post, large = false }) => {
             datetime={datetime}
             displayDatetime={displayDatetime}
             home={true}
-            tags={post.frontmatter.tags}
+            tags={post.frontmatter.tags.slice(0,1)}
             timeToRead={post.timeToRead}
           />
         </PostCardMeta>

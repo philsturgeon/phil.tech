@@ -37,20 +37,35 @@ export const MetaContent: React.FC<MetaContentProps> = ({author, datetime, displ
         <span className="bull">&bull;</span>{timeToRead} min read
         <span className="bull">&bull;</span>
         {tags && (
-          <PrimaryTag className="post-card-primary-tag">
-            {displayTags}
-          </PrimaryTag>
+          <Tags className="post-card-primary-tag">
+            {tags.map(tag => {
+              return(
+                <Link to={`/tags/${tag}`}>{tag}</Link>
+              )
+            })}
+          </Tags>
         )}
       </span>
     </MetaContentDiv>
   );
 };
 
-const PrimaryTag = styled.div`
+const Tags = styled.div`
   display: inline-block;
-  color: ${colors.orange};
-  font-weight: 500;
-  text-transform: capitalize;
+
+
+  a {
+    color: ${colors.orange};
+    font-weight: 500;
+    text-transform: capitalize;
+
+    &::after {
+      content: ", "
+    }
+    &:last-of-type::after {
+      content: none
+    }
+  }
 `;
 
 const MetaContentDiv = styled.div`
