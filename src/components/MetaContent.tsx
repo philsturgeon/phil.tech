@@ -40,7 +40,7 @@ export const MetaContent: React.FC<MetaContentProps> = ({author, datetime, displ
           <Tags className="post-card-primary-tag">
             {tags.map(tag => {
               return(
-                <Link to={`/tags/${tag}`}>{tag}</Link>
+                <Link to={`/tags/${tag.replace(/\s+/g, '-')}`}>{tag}</Link>
               )
             })}
           </Tags>
