@@ -100,6 +100,7 @@ export interface PageContext {
     draft?: boolean;
     tags: string[];
     author: Author[];
+    featured: boolean;
   };
 }
 
