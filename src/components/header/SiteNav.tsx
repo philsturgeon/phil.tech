@@ -103,7 +103,7 @@ class SiteNav extends React.Component<SiteNavProps, SiteNavState> {
                 <Link to="/speaking/">Speaking</Link>
               </li>
               <li role="menuitem">
-                <Link to="/speaking/">Consulting</Link>
+                <a href="https://calendly.com/philsturgeon" target="_blank">Consulting</a>
               </li>
             </ul>
             {isPost && (
@@ -115,18 +115,6 @@ class SiteNav extends React.Component<SiteNavProps, SiteNavState> {
         </SiteNavLeft>
         <SiteNavRight>
           <SocialLinks>
-            {/* {config.facebook && (
-              <a
-                className="social-link-fb"
-                css={[SocialLink, SocialLinkFb]}
-                href={config.facebook}
-                target="_blank"
-                title="Facebook"
-                rel="noopener noreferrer"
-              >
-                <Facebook />
-              </a>
-            )} */}
             <a
                 className="social-link emoji"
                 css={SocialLink}
