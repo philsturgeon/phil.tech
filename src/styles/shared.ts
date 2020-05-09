@@ -326,24 +326,21 @@ export const NoImage = css`
 `;
 
 export const ButtonGroupStyles = css`
+  display: inline-block;
+  border: 1px solid silver;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
 
   a.book-button, a.talk-button {
-    border-bottom: 1px solid silver;
-    border-top: 1px solid silver;
-    border-left: 1px solid silver;
+    border-right: 1px solid silver;
     padding: 4px 6px;
     box-shadow: none;
     font-size: smaller;
 
-    &:first-of-type {
-      border-top-left-radius: 3px;
-      border-bottom-left-radius: 3px;
-    }
-
     &:last-of-type {
-      border-top-right-radius: 3px;
-      border-bottom-right-radius: 3px;
-      border-right: 1px solid silver;
+      border-right: none;
     }
   }
 `;

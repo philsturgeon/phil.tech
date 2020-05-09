@@ -57,6 +57,18 @@ const BookCardStyles = css`
       "book-header book-header"
       "book-image book-content";
   margin-bottom: 3rem;
+
+  @media (max-width: 795px) {
+    display: block;
+
+    div.book-image {
+
+      img {
+        max-width: 260px;
+        margin: 0 auto 20px;
+      }
+    }
+  }
 `;
 
 const BookCardHeader = css`
