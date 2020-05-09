@@ -50,7 +50,7 @@ export const ReadNextCard: React.FC<ReadNextProps> = props => {
                 </h4>
                 <ReadNextCardMeta className="read-next-card-meta">
                   <p>
-                    <time dateTime={datetime}>{displayDatetime}</time> - {n.node.timeToRead} min
+                    <time dateTime={datetime}>{displayDatetime}</time> &bull; {n.node.timeToRead} min
                     read
                   </p>
                 </ReadNextCardMeta>
@@ -78,10 +78,6 @@ const ReadNextCardArticle = styled.article`
   overflow: hidden;
   margin: 0 25px 50px;
   padding: 25px;
-  /* background: linear-gradient(
-    color(var(--darkgrey) l(+2%)),
-    color(var(--darkgrey) l(-5%))
-  ); */
   background: linear-gradient(
     ${lighten('0.02', colors.darkgrey)},
     ${lighten('-0.05', colors.darkgrey)}
@@ -146,7 +142,7 @@ const ReadNextCardContent = styled.div`
     flex-direction: column;
     align-items: flex-start;
     margin: 0;
-    padding: 20px 0;
+    padding: 15px 0;
     border-bottom: rgba(255, 255, 255, 0.1);
   }
 

@@ -21,23 +21,23 @@ export const MetaContent: React.FC<MetaContentProps> = ({author, datetime, displ
 
   return (
     <MetaContentDiv className="post-card-byline-content">
-      {author && <span>
-        {author.map((author, index) => {
-          return (
-            <React.Fragment key={author.id}>
-              <Link to={`/author/${_.kebabCase(author.id)}/`}>{author.id}</Link>
-              {author.length - 1 > index && ', '}
-            </React.Fragment>
-          );
-        })}
-        <span className="bull">&bull;</span>
-      </span>}
-      <span className="post-card-byline-date">
+      <div className="post-card-byline-meta">
+        {author && <span>
+          {author.map((author, index) => {
+            return (
+              <React.Fragment key={author.id}>
+                <Link to={`/author/${_.kebabCase(author.id)}/`} className="author">{author.id}</Link>
+                {author.length - 1 > index && ', '}
+              </React.Fragment>
+            );
+          })}
+          <span className="bull">&bull;</span>
+        </span>}
         <time dateTime={datetime}>{displayDatetime}</time>
         <span className="bull">&bull;</span>{timeToRead} min read
         <span className="bull">&bull;</span>
         {tags && (
-          <Tags className="post-card-primary-tag">
+          <Tags className="post-card-tags">
             {tags.map(tag => {
               return(
                 <Link to={`/tags/${_.kebabCase(tag)}`}>{tag}</Link>
@@ -45,14 +45,13 @@ export const MetaContent: React.FC<MetaContentProps> = ({author, datetime, displ
             })}
           </Tags>
         )}
-      </span>
+      </div>
     </MetaContentDiv>
   );
 };
 
 const Tags = styled.div`
-  display: inline-block;
-
+  display: inline;
 
   a {
     color: ${colors.orange};
@@ -78,12 +77,12 @@ const MetaContentDiv = styled.div`
   line-height: 1.4em;
   letter-spacing: 0.2px;
 
-  span > span {
+  div.post-card-byline-meta span.bull {
     margin: 0 5px ;
     font-size: 10px;
   }
 
-  a {
+  a.author {
     color: ${lighten('0.2', colors.darkgrey)};
     font-weight: 600;
   }

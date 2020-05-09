@@ -1,4 +1,4 @@
-import { lighten } from 'polished';
+import { lighten, darken } from 'polished';
 import React from 'react';
 
 import styled from '@emotion/styled';
@@ -52,8 +52,7 @@ export const ReadNext: React.FC<ReadNextProps> = props => {
 
 const ReadNextAside = styled.aside`
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  /* background: color(var(--darkgrey) l(-5%)); */
-  background: ${lighten('-0.05', colors.darkgrey)};
+  background: ${darken('0.10', colors.darkgrey)};
 
   .post-card {
     padding-bottom: 0;
@@ -75,29 +74,23 @@ const ReadNextAside = styled.aside`
     opacity: 1;
   }
   .post-card-excerpt {
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.8);
   }
   .static-avatar {
     border-color: #000;
   }
   .post-card-byline-content {
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.8);
   }
   .post-card-byline-content a {
     color: rgba(255, 255, 255, 0.8);
-  }
-  .author-avatar {
-    border-color: ${lighten('-0.05', colors.darkgrey)};
-  }
-  .author-profile-image {
-    background: ${lighten('-0.05', colors.darkgrey)};
   }
 
   @media (max-width: 650px) {
     .post-card {
       flex: 1 1 auto;
-      margin: 25px;
-      padding: 25px 0 0;
+      margin: 15px 25px;
+      padding: 5px 0 5px;
       border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     }
   }
@@ -110,7 +103,7 @@ const ReadNextFeed = styled.div`
   margin: 0 -25px;
   padding: 60px 0 0 0;
 
-  @media (max-width: 650px) {
+  @media (max-width: 1040px) {
     display: block;
   }
 `;

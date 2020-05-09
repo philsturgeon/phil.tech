@@ -65,7 +65,6 @@ export const SiteDescription = styled.div`
 
   @media (max-width: 500px) {
     font-size: 1.8rem;
-    color: red;
 
     h2 {
       width: 100%;
