@@ -114,7 +114,7 @@ class SiteNav extends React.Component<SiteNavProps, SiteNavState> {
         <SiteNavRight>
           <SocialLinks>
             <a
-                className="social-link emoji"
+                className="emoji offset"
                 css={SocialLink}
                 href={config.offset}
                 target="_blank"

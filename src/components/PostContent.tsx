@@ -38,6 +38,10 @@ export const PostFullContent = styled.section`
   line-height: 1.6em;
   background: #fff;
 
+  .twitter-tweet {
+    margin: 0 auto;
+  }
+
   @media (max-width: 1170px) {
     padding: 0 11vw;
   }
