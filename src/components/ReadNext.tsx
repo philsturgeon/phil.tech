@@ -56,6 +56,7 @@ const ReadNextAside = styled.aside`
 
   .post-card {
     padding-bottom: 0;
+    padding-top: 0;
     border-bottom: none;
   }
   .post-card:after {
@@ -101,7 +102,7 @@ const ReadNextFeed = styled.div`
   justify-content: space-between;
   // flex: 1 1 501px;
   margin: 0 -25px;
-  padding: 60px 0 0 0;
+  padding: 30px 0;
 
   @media (max-width: 1040px) {
     display: block;
