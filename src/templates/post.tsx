@@ -20,6 +20,7 @@ import { colors } from '../styles/colors';
 import { inner, outer, SiteMain } from '../styles/shared';
 import config from '../website-config';
 import { AuthorList } from '../components/AuthorList';
+import { MetaContent } from '../components/MetaContent';
 
 export interface Author {
   id: string;
@@ -189,19 +190,12 @@ const PageTemplate: React.FC<PageTemplateProps> = props => {
             {/* TODO: no-image css tag? */}
             <article css={[PostFull, !post.frontmatter.image && NoImage]}>
               <PostFullHeader className="post-full-header">
-                <PostFullTags className="post-full-tags">
-                  {post.frontmatter.tags && post.frontmatter.tags.length > 0 && (
-                    <Link to={`/tags/${_.kebabCase(post.frontmatter.tags[0])}/`}>
-                      {post.frontmatter.tags[0]}
-                    </Link>
-                  )}
-                </PostFullTags>
                 <PostFullTitle className="post-full-title">{post.frontmatter.title}</PostFullTitle>
                 <PostFullCustomExcerpt className="post-full-custom-excerpt">
                   {post.frontmatter.excerpt}
                 </PostFullCustomExcerpt>
                 <PostFullByline className="post-full-byline">
-                  <section className="post-full-byline-content">
+                  {/* <section className="post-full-byline-content">
                     <AuthorList authors={post.frontmatter.author} tooltip="large" />
                     <section className="post-full-byline-meta">
                       <h4 className="author-name">
@@ -212,15 +206,28 @@ const PageTemplate: React.FC<PageTemplateProps> = props => {
                         ))}
                       </h4>
                       <div className="byline-meta-content">
-                        <time className="byline-meta-date" dateTime={datetime}>
-                          {displayDatetime}
-                        </time>
-                        <span className="byline-reading-time">
-                          <span className="bull">&bull;</span> 20 min
+                        <span className="post-card-byline-date">
+                          <time dateTime={datetime}>{displayDatetime}</time>
+                          <span className="bull">&bull;</span>{post.timeToRead} min read
+                          <span className="bull">&bull;</span>
+                          <PostFullTags className="post-full-tags">
+                            {post.frontmatter.tags && post.frontmatter.tags.length > 0 && (
+                              <Link to={`/tags/${_.kebabCase(post.frontmatter.tags[0])}/`}>
+                                {post.frontmatter.tags[0]}
+                              </Link>
+                            )}
+                          </PostFullTags>
                         </span>
                       </div>
-                    </section>
-                  </section>
+                    </section> 
+                  </section>*/}
+                  <MetaContent
+                    author={post.frontmatter.author}
+                    datetime={datetime}
+                    displayDatetime={displayDatetime}
+                    tags={post.frontmatter.tags}
+                    timeToRead={post.timeToRead}
+                  />
                 </PostFullByline>
               </PostFullHeader>
 

@@ -11,6 +11,7 @@ import styled from '@emotion/styled';
 import { colors } from '../styles/colors';
 import { PageContext } from '../templates/post';
 import { AuthorList } from './AuthorList';
+import { MetaContent } from '../components/MetaContent';
 
 export interface PostCardProps {
   post: PageContext;
@@ -55,7 +56,7 @@ export const PostCard: React.FC<PostCardProps> = ({ post, large = false }) => {
         </Link>
         <PostCardMeta className="post-card-meta">
           {/* <AuthorList authors={post.frontmatter.author} tooltip="small" /> */}
-          <PostCardBylineContent className="post-card-byline-content">
+          {/* <PostCardBylineContent className="post-card-byline-content"> */}
             {/* <span>
               {post.frontmatter.author.map((author, index) => {
                 return (
@@ -66,7 +67,7 @@ export const PostCard: React.FC<PostCardProps> = ({ post, large = false }) => {
                 );
               })}
             </span> */}
-            <span className="post-card-byline-date">
+            {/* <span className="post-card-byline-date">
               <time dateTime={datetime}>{displayDatetime}</time>
               <span className="bull">&bull;</span>{post.timeToRead} min read
               <span className="bull">&bull;</span>
@@ -76,7 +77,13 @@ export const PostCard: React.FC<PostCardProps> = ({ post, large = false }) => {
                 </PostCardPrimaryTag>
               )}
             </span>
-          </PostCardBylineContent>
+          </PostCardBylineContent> */}
+          <MetaContent
+            datetime={datetime}
+            displayDatetime={displayDatetime}
+            tags={post.frontmatter.tags}
+            timeToRead={post.timeToRead}
+          />
         </PostCardMeta>
       </PostCardContent>
     </article>
