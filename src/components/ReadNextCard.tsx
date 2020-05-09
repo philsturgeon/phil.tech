@@ -72,8 +72,8 @@ export const ReadNextCard: React.FC<ReadNextProps> = props => {
 
 const ReadNextCardArticle = styled.article`
   position: relative;
-  flex: 0 1 326px;
-  display: flex;
+  // flex: 0 1 326px;
+  // display: flex;
   flex-direction: column;
   overflow: hidden;
   margin: 0 25px 50px;

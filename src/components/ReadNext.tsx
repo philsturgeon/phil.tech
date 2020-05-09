@@ -40,9 +40,10 @@ export const ReadNext: React.FC<ReadNextProps> = props => {
       <div css={inner}>
         <ReadNextFeed className="read-next-feed">
           {showRelatedPosts && <ReadNextCard tags={props.tags} relatedPosts={props.relatedPosts} />}
-
-          {props.pageContext.prev && <PostCard post={props.pageContext.prev} />}
-          {props.pageContext.next && <PostCard post={props.pageContext.next} />}
+          <div>
+            {props.pageContext.prev && <PostCard post={props.pageContext.prev} />}
+            {props.pageContext.next && <PostCard post={props.pageContext.next} />}
+          </div>
         </ReadNextFeed>
       </div>
     </ReadNextAside>
@@ -104,7 +105,12 @@ const ReadNextAside = styled.aside`
 
 const ReadNextFeed = styled.div`
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  // flex: 1 1 501px;
   margin: 0 -25px;
   padding: 60px 0 0 0;
+
+  @media (max-width: 650px) {
+    display: block;
+  }
 `;
