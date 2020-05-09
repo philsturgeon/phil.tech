@@ -6,12 +6,12 @@ import { css } from '@emotion/core';
 import styled from '@emotion/styled';
 
 import { colors } from '../../styles/colors';
+import { fonts } from '../../styles/fonts';
 import { SocialLink, SocialLinkFb } from '../../styles/shared';
 import config from '../../website-config';
-// import { Facebook } from '../icons/facebook';
 import { Twitter } from '../icons/twitter';
 import { Github } from '../icons/github';
-import { SubscribeModal } from '../subscribe/SubscribeModal';
+// import { SubscribeModal } from '../subscribe/SubscribeModal';
 import { SiteNavLogo } from './SiteNavLogo';
 
 interface SiteNavProps {
@@ -82,14 +82,12 @@ class SiteNav extends React.Component<SiteNavProps, SiteNavState> {
   };
 
   render(): JSX.Element {
-    const { isHome = false, isPost = false, post = {} } = this.props;
+    const { isPost = false, post = {} } = this.props;
     return (
       <nav css={SiteNavStyles}>
         <SiteNavLeft className="site-nav-left">
-          {/* {!isHome && <SiteNavLogo />} */}
           <SiteNavContent css={[this.state.showTitle ? HideNav : '']}>
             <ul css={NavStyles} role="menu">
-              {/* TODO: mark current nav item - add class nav-current */}
               <li role="menuitem">
                 <Link to="/">Home</Link>
               </li>
@@ -148,6 +146,7 @@ class SiteNav extends React.Component<SiteNavProps, SiteNavState> {
               </a>
             )}
           </SocialLinks>
+
           {/* {config.showSubscribe && (
             <SubscribeButton onClick={this.openModal}>Subscribe</SubscribeButton>
           )}
@@ -278,34 +277,35 @@ const SocialLinks = styled.div`
   align-items: center;
 `;
 
-const SubscribeButton = styled.a`
-  display: block;
-  padding: 4px 10px;
-  margin: 0 0 0 10px;
-  border: #fff 1px solid;
-  color: #fff;
-  line-height: 1em;
-  border-radius: 10px;
-  opacity: 0.8;
+// const SubscribeButton = styled.a`
+//   display: block;
+//   padding: 4px 10px;
+//   margin: 0 0 0 10px;
+//   border: #fff 1px solid;
+//   color: #fff;
+//   line-height: 1em;
+//   border-radius: 10px;
+//   opacity: 0.8;
 
-  :hover {
-    text-decoration: none;
-    opacity: 1;
-    cursor: pointer;
-  }
-`;
+//   :hover {
+//     text-decoration: none;
+//     opacity: 1;
+//     cursor: pointer;
+//   }
+// `;
 
 const NavPostTitle = styled.span`
   visibility: hidden;
   position: absolute;
   top: 9px;
-  color: #fff;
+  color: ${colors.white};
   font-size: 1.7rem;
   font-weight: 400;
   text-transform: none;
   opacity: 0;
   transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
   transform: translateY(175%);
+  font-family: ${fonts.headers};
 
   .dash {
     left: -25px;
