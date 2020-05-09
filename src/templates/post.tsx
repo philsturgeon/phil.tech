@@ -1,5 +1,5 @@
 import { format } from 'date-fns';
-import { graphql, Link } from 'gatsby';
+import { graphql } from 'gatsby';
 import Img, { FluidObject } from 'gatsby-image';
 import * as _ from 'lodash';
 import { lighten, setLightness } from 'polished';
@@ -19,7 +19,6 @@ import IndexLayout from '../layouts';
 import { colors } from '../styles/colors';
 import { inner, outer, SiteMain } from '../styles/shared';
 import config from '../website-config';
-import { AuthorList } from '../components/AuthorList';
 import { MetaContent } from '../components/MetaContent';
 
 export interface Author {
@@ -195,32 +194,6 @@ const PageTemplate: React.FC<PageTemplateProps> = props => {
                   {post.frontmatter.excerpt}
                 </PostFullCustomExcerpt>
                 <PostFullByline className="post-full-byline">
-                  {/* <section className="post-full-byline-content">
-                    <AuthorList authors={post.frontmatter.author} tooltip="large" />
-                    <section className="post-full-byline-meta">
-                      <h4 className="author-name">
-                        {post.frontmatter.author.map(author => (
-                          <Link key={author.id} to={`/author/${_.kebabCase(author.id)}/`}>
-                            {author.id}
-                          </Link>
-                        ))}
-                      </h4>
-                      <div className="byline-meta-content">
-                        <span className="post-card-byline-date">
-                          <time dateTime={datetime}>{displayDatetime}</time>
-                          <span className="bull">&bull;</span>{post.timeToRead} min read
-                          <span className="bull">&bull;</span>
-                          <PostFullTags className="post-full-tags">
-                            {post.frontmatter.tags && post.frontmatter.tags.length > 0 && (
-                              <Link to={`/tags/${_.kebabCase(post.frontmatter.tags[0])}/`}>
-                                {post.frontmatter.tags[0]}
-                              </Link>
-                            )}
-                          </PostFullTags>
-                        </span>
-                      </div>
-                    </section> 
-                  </section>*/}
                   <MetaContent
                     author={post.frontmatter.author}
                     datetime={datetime}

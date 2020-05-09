@@ -5,15 +5,19 @@ import { Link } from 'gatsby';
 import { colors } from '../styles/colors';
 import styled from '@emotion/styled';
 
+import { Author } from '../templates/post';
+
 export interface MetaContentProps {
-  author: any;
-  datetime: any;
-  displayDatetime: any;
-  tags: any;
-  timeToRead: any;
+  author: Author[];
+  datetime: Date;
+  displayDatetime: string;
+  home: boolean;
+  tags: Array<string>;
+  timeToRead: number;
 }
 
-export const MetaContent: React.FC<MetaContentProps> = ({author, datetime, displayDatetime, tags, timeToRead}) => {
+export const MetaContent: React.FC<MetaContentProps> = ({author, datetime, displayDatetime, home, tags, timeToRead}) => {
+  const displayTags = home? tags[0]: tags.join(', ');
 
   return (
     <MetaContentDiv className="post-card-byline-content">
@@ -34,7 +38,7 @@ export const MetaContent: React.FC<MetaContentProps> = ({author, datetime, displ
         <span className="bull">&bull;</span>
         {tags && (
           <PrimaryTag className="post-card-primary-tag">
-            {tags[0]}
+            {displayTags}
           </PrimaryTag>
         )}
       </span>

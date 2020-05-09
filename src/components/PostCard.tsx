@@ -10,7 +10,6 @@ import styled from '@emotion/styled';
 
 import { colors } from '../styles/colors';
 import { PageContext } from '../templates/post';
-import { AuthorList } from './AuthorList';
 import { MetaContent } from '../components/MetaContent';
 
 export interface PostCardProps {
@@ -22,7 +21,7 @@ export const PostCard: React.FC<PostCardProps> = ({ post, large = false }) => {
   const date = new Date(post.frontmatter.date);
   // 2018-08-20
   const datetime = format(date, 'yyyy-MM-dd');
-  // 20 AUG 2018
+  // 20 Aug 2018
   const displayDatetime = format(date, 'dd LLL yyyy');
 
   return (
@@ -55,32 +54,10 @@ export const PostCard: React.FC<PostCardProps> = ({ post, large = false }) => {
           </PostCardExcerpt>
         </Link>
         <PostCardMeta className="post-card-meta">
-          {/* <AuthorList authors={post.frontmatter.author} tooltip="small" /> */}
-          {/* <PostCardBylineContent className="post-card-byline-content"> */}
-            {/* <span>
-              {post.frontmatter.author.map((author, index) => {
-                return (
-                  <React.Fragment key={author.id}>
-                    <Link to={`/author/${_.kebabCase(author.id)}/`}>{author.id}</Link>
-                    {post.frontmatter.author.length - 1 > index && ', '}
-                  </React.Fragment>
-                );
-              })}
-            </span> */}
-            {/* <span className="post-card-byline-date">
-              <time dateTime={datetime}>{displayDatetime}</time>
-              <span className="bull">&bull;</span>{post.timeToRead} min read
-              <span className="bull">&bull;</span>
-              {post.frontmatter.tags && (
-                <PostCardPrimaryTag className="post-card-primary-tag">
-                  {post.frontmatter.tags[0]}
-                </PostCardPrimaryTag>
-              )}
-            </span>
-          </PostCardBylineContent> */}
           <MetaContent
             datetime={datetime}
             displayDatetime={displayDatetime}
+            home={true}
             tags={post.frontmatter.tags}
             timeToRead={post.timeToRead}
           />
@@ -230,48 +207,48 @@ const PostCardMeta = styled.footer`
   // padding: 0;
 `;
 
-const PostCardPrimaryTag = styled.div`
-  display: inline-block;
-  // margin: 0 0 0.2em;
-  color: ${colors.orange};
-  // font-size: 1.2rem;
-  font-weight: 500;
-  // letter-spacing: 0.2px;
-  // text-transform: uppercase;
-  text-transform: capitalize;
-`;
+// const PostCardPrimaryTag = styled.div`
+//   display: inline-block;
+//   // margin: 0 0 0.2em;
+//   color: ${colors.orange};
+//   // font-size: 1.2rem;
+//   font-weight: 500;
+//   // letter-spacing: 0.2px;
+//   // text-transform: uppercase;
+//   text-transform: capitalize;
+// `;
 
-const PostCardBylineContent = styled.div`
-  flex: 1 1 50%;
-  display: flex;
-  flex-direction: column;
-  // margin: 4px 0 0 10px;
-  /* color: color(var(--midgrey) l(+10%)); */
-  color: ${lighten('0.1', colors.midgrey)};
-  font-size: 1.4rem;
-  line-height: 1.4em;
-  // font-weight: 400;
-  letter-spacing: 0.2px;
-  // text-transform: uppercase;
-  // TODO: Cleanup all of these
+// const PostCardBylineContent = styled.div`
+//   flex: 1 1 50%;
+//   display: flex;
+//   flex-direction: column;
+//   // margin: 4px 0 0 10px;
+//   /* color: color(var(--midgrey) l(+10%)); */
+//   color: ${lighten('0.1', colors.midgrey)};
+//   font-size: 1.4rem;
+//   line-height: 1.4em;
+//   // font-weight: 400;
+//   letter-spacing: 0.2px;
+//   // text-transform: uppercase;
+//   // TODO: Cleanup all of these
 
-  span.post-card-byline-date > span {
-    margin: 0 5px ;
-    font-size: 10px;
-  }
+//   span.post-card-byline-date > span {
+//     margin: 0 5px ;
+//     font-size: 10px;
+//   }
 
-  a {
-    /* color: color(var(--darkgrey) l(+20%)); */
-    color: ${lighten('0.2', colors.darkgrey)};
-    font-weight: 600;
-  }
+//   a {
+//     /* color: color(var(--darkgrey) l(+20%)); */
+//     color: ${lighten('0.2', colors.darkgrey)};
+//     font-weight: 600;
+//   }
 
-  @media (prefers-color-scheme: dark) {
-    a {
-      color: rgba(255, 255, 255, 0.75);
-    }
-  }
-`;
+//   @media (prefers-color-scheme: dark) {
+//     a {
+//       color: rgba(255, 255, 255, 0.75);
+//     }
+//   }
+// `;
 
 const PostCardHeader = styled.header`
   margin: 15px 0 0;
