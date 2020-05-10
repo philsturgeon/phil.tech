@@ -17,7 +17,6 @@ export interface MetaContentProps {
 }
 
 export const MetaContent: React.FC<MetaContentProps> = ({author, datetime, displayDatetime, home, tags, timeToRead}) => {
-  const displayTags = home? tags[0]: tags.join(', ');
 
   return (
     <MetaContentDiv className="post-card-byline-content">

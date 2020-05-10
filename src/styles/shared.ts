@@ -206,14 +206,12 @@ export const NoImage = css`
   .no-image {
     // padding-top: 0;
     // padding-bottom: 0;
-    /* color: var(--darkgrey); */
     color: ${colors.darkgrey};
     background: #fff;
     opacity: 1;
   }
 
   .no-image .site-description {
-    /* color: var(--midgrey); */
     color: ${colors.midgrey};
     opacity: 1;
   }

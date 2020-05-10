@@ -225,7 +225,7 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(
-      filter: { frontmatter: { draft: { ne: true } } }
+      filter: { frontmatter: { draft: { ne: true }, layout: {eq: "post"} } }
       sort: { fields: [frontmatter___date], order: DESC }
       limit: 2000
     ) {
