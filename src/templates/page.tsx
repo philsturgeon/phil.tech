@@ -8,6 +8,7 @@ import { css } from '@emotion/core';
 import styled from '@emotion/styled';
 
 import { Footer } from '../components/Footer';
+import { Seo } from '../components/Seo';
 import SiteNav, { SiteNavMain } from '../components/header/SiteNav';
 import PostContent from '../components/PostContent';
 import { Wrapper } from '../components/Wrapper';
@@ -41,7 +42,11 @@ const PageTemplate: React.FC<PageTemplateProps> = props => {
 
   return (
     <IndexLayout className="page-template">
-      <Helmet>
+      <Seo
+        post={page}
+        pathContext={props.pathContext}
+      />
+      {/* <Helmet>
         <html lang={config.lang} />
         <title>{page.frontmatter.title}</title>
 
@@ -74,7 +79,7 @@ const PageTemplate: React.FC<PageTemplateProps> = props => {
         )}
         {width && <meta property="og:image:width" content={width} />}
         {height && <meta property="og:image:height" content={height} />}
-      </Helmet>
+      </Helmet> */}
       <Wrapper css={PageTemplateStyles}>
         <header className="site-header">
           <div css={[outer, SiteNavMain]}>
@@ -169,6 +174,9 @@ export const query = graphql`
       html
       htmlAst
       frontmatter {
+        author {
+          id
+        }
         date
         description
         title

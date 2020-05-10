@@ -1,5 +1,6 @@
 ---
 layout: page
+author: [Phil]
 title: About
 date: 2018-01-01
 description: Learn about me and my projects.
