@@ -1,9 +1,9 @@
 import { graphql, useStaticQuery } from 'gatsby';
 import React from 'react';
-import { Helmet } from 'react-helmet';
 
 import { css } from '@emotion/core';
 
+import { Seo } from '../components/Seo';
 import { Footer } from '../components/Footer';
 import { TalkCard } from '../components/TalkCard';
 import SiteNav from '../components/header/SiteNav';
@@ -21,7 +21,7 @@ import {
 import { NoImage, PostFull, PostFullHeader, PostFullTitle } from '../templates/post';
 import { colors } from '../styles/colors';
 
-const Speaking: React.FC = () => {
+const Speaking: React.FC = (props) => {
   const { allSpeakingYaml } = useStaticQuery(
     graphql`
       query {
@@ -48,13 +48,14 @@ const Speaking: React.FC = () => {
   // separate past and upcoming talks
   const pastDates = allSpeakingYaml.nodes.filter(date => date.past);
   const upcomingDates = allSpeakingYaml.nodes.filter(date => !date.past);
-  
 
   return( 
   <IndexLayout>
-    <Helmet>
-      <title>Speaking</title>
-    </Helmet>
+    <Seo 
+      title="Speaking"
+      description="My latest public talks and upcoming speaking dates."
+      path={props.path}
+    />
     <Wrapper css={PageTemplate}>
       <header className="site-archive-header no-image" css={[SiteHeader, SiteArchiveHeader]}>
         <div css={[outer, SiteNavMain]}>

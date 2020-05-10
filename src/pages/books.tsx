@@ -1,9 +1,9 @@
 import { graphql, useStaticQuery } from 'gatsby';
 import React from 'react';
-import { Helmet } from 'react-helmet';
 
 import { css } from '@emotion/core';
 
+import { Seo } from '../components/Seo';
 import { Footer } from '../components/Footer';
 import { BookCard } from '../components/BookCard';
 import SiteNav from '../components/header/SiteNav';
@@ -37,7 +37,9 @@ const PageTemplate = css`
 `;
 
 
-const Books: React.FC = () => {
+const Books: React.FC = (props) => {
+  console.log("PROPS: ", props);
+  
   const { allBooksYaml } = useStaticQuery(
     graphql`
       query {
@@ -65,9 +67,12 @@ const Books: React.FC = () => {
 
   return( 
   <IndexLayout>
-    <Helmet>
-      <title>Books</title>
-    </Helmet>
+    <Seo 
+      title="Books"
+      description="My latest books"
+      path={props.path}
+    />
+
     <Wrapper css={PageTemplate}>
       <header className="site-archive-header no-image" css={[SiteHeader, SiteArchiveHeader]}>
         <div css={[outer, SiteNavMain]}>
