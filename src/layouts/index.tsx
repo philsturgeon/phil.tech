@@ -4,7 +4,7 @@ import { Global, css } from '@emotion/core';
 import { lighten } from 'polished';
 
 // @ts-ignore
-import favicon from '../../src/favicon.ico';
+import favicon from '../../src/content/img/favicon.jpg';
 import { colors } from '../styles/colors';
 import { fonts } from '../styles/fonts';
 
