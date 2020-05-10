@@ -86,7 +86,7 @@ export const PostFeed = css`
   background: #fff;
 
   /* Special Template Styles */
-  // padding: 0px 0 5vw;
+  padding: 0px 0 3vw;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
 
@@ -204,8 +204,8 @@ export const SiteArchiveHeader = css`
 
 export const NoImage = css`
   .no-image {
-    padding-top: 0;
-    padding-bottom: 0;
+    // padding-top: 0;
+    // padding-bottom: 0;
     /* color: var(--darkgrey); */
     color: ${colors.darkgrey};
     background: #fff;
