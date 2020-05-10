@@ -4,6 +4,7 @@ import { css } from '@emotion/core';
 import styled from '@emotion/styled';
 
 import { colors } from './colors';
+import { fonts } from './fonts';
 
 export const outer = css`
   position: relative;
@@ -335,9 +336,9 @@ export const ButtonGroupStyles = css`
 
   a.book-button, a.talk-button {
     border-right: 1px solid silver;
-    padding: 4px 6px;
+    padding: 3px 8px;
     box-shadow: none;
-    font-size: smaller;
+    font-size: 14px;
 
     &:last-of-type {
       border-right: none;

@@ -85,6 +85,7 @@ const Books: React.FC = () => {
 
             <PostFullContent className="post-full-content">
               <div className="post-content">
+                <p>Sometimes I write things even longer than a huge article.</p>
                 {allBooksYaml.edges.map(book => {
                   return (
                     <BookCard key={book.id} book={book.node} />

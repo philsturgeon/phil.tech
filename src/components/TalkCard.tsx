@@ -84,6 +84,11 @@ const TalkCardHeader = css`
 `;
 
 const TalkCardContent = css`
-  // grid-area: talk-content;
+  div {
+    margin-bottom: 1rem;
 
+    p {
+      margin-bottom: 2rem;
+    }
+  }
 `;
