@@ -2,8 +2,6 @@ import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
 
 import { css } from '@emotion/core';
-import { colors } from '../styles/colors';
-import { fonts } from '../styles/fonts';
 
 import { TalkButtons } from '../components/TalkButtons';
 
@@ -45,7 +43,7 @@ export const TalkCard: React.FC<TalkCardProps> = ({ talk }) => {
 
   return (
     <article className='talk-card' css={TalkCardStyles}>
-      <header css={TalkCardHeader}>
+      <header>
         <h2>
           <a href={talk.event.url}>{talk.event.name}</a>
         </h2>
@@ -71,16 +69,7 @@ export const TalkCard: React.FC<TalkCardProps> = ({ talk }) => {
 };
 
 const TalkCardStyles = css`
-  // h2, h3 {
-  //   font-family: ${fonts.sansserif};
-  // }
-  // font-family: ${fonts.serif};
-  // font-family: 'Merriweather', serif;
   margin-bottom: 4rem;
-`;
-
-const TalkCardHeader = css`
-  // grid-area: talk-header;
 `;
 
 const TalkCardContent = css`

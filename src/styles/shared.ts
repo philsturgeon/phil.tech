@@ -334,6 +334,10 @@ export const ButtonGroupStyles = css`
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
 
+  a.talk-button {
+    text-transform: capitalize;
+  }
+
   a.book-button, a.talk-button {
     border-right: 1px solid silver;
     padding: 3px 8px;
