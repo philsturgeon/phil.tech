@@ -4,7 +4,6 @@ import { css } from '@emotion/core';
 import styled from '@emotion/styled';
 
 import { colors } from './colors';
-import { fonts } from './fonts';
 
 export const outer = css`
   position: relative;
@@ -44,6 +43,7 @@ export const SiteTitle = styled.h1`
   font-size: 5rem;
   line-height: 1em;
   font-weight: 600;
+  text-transform: capitalize;
 
   @media (max-width: 500px) {
     font-size: 4.2rem;
@@ -255,7 +255,7 @@ export const NoImage = css`
     position: relative;
     margin-top: 64px;
     padding-bottom: 12px;
-    color: #fff;
+    // color: #fff;
     /* background: color(var(--darkgrey) l(-5%)) no-repeat center center; */
     background-size: cover;
   }

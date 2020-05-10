@@ -6,14 +6,14 @@ import { PageContext } from '../templates/post';
 
 export interface SeoProps {
   post: PageContext;
-  width: string;
-  height: string;
+  width?: string;
+  height?: string;
   pathContext: {
     slug: string;
   };
-  title: string;
-  description: string;
-  path: string;
+  title?: string;
+  description?: string;
+  path?: string;
 }
 
 export const Seo: React.FC<SeoProps> = ({post, width, height, pathContext, title, description, path}) => {

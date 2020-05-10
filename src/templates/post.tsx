@@ -314,7 +314,6 @@ const PostFullByline = styled.div`
 
 export const PostFullTitle = styled.h1`
   margin: 0 0 0.2em;
-  color: ${setLightness('0.05', colors.darkgrey)};
   @media (max-width: 500px) {
     margin-top: 0.2em;
     font-size: 3.3rem;

@@ -4,6 +4,7 @@ import styled from '@emotion/styled';
 import { css } from '@emotion/core';
 import { FluidObject } from 'gatsby-image';
 
+import { Seo } from '../components/Seo';
 import { Footer } from '../components/Footer';
 import SiteNav from '../components/header/SiteNav';
 import { PostCard } from '../components/PostCard';
@@ -87,34 +88,11 @@ const Author: React.FC<AuthorTemplateProps> = props => {
 
   return (
     <IndexLayout>
-      <Helmet>
-        <html lang={config.lang} />
-        <title>
-          {author.id} - {config.title}
-        </title>
-        <meta name="description" content={author.bio} />
-        <meta property="og:site_name" content={config.title} />
-        <meta property="og:type" content="profile" />
-        <meta property="og:title" content={`${author.id} - ${config.title}`} />
-        <meta property="og:url" content={config.siteUrl + props.pathContext.slug} />
-        <meta property="article:publisher" content="https://www.facebook.com/ghost" />
-        <meta property="article:author" content="https://www.facebook.com/ghost" />
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:title" content={`${author.id} - ${config.title}`} />
-        <meta name="twitter:url" content={config.siteUrl + props.pathContext.slug} />
-        {config.twitter && (
-          <meta
-            name="twitter:site"
-            content={`@${config.twitter.split('https://twitter.com/')[1]}`}
-          />
-        )}
-        {config.twitter && (
-          <meta
-            name="twitter:creator"
-            content={`@${config.twitter.split('https://twitter.com/')[1]}`}
-          />
-        )}
-      </Helmet>
+      <Seo
+        title={`${author.id} - ${config.title}`}
+        description={author.bio}
+        path={props.path}
+      />
       <Wrapper css={NoImage}>
         <header className="site-archive-header no-image" css={[SiteHeader, SiteArchiveHeader]}>
           <div css={[outer, SiteNavMain]}>
@@ -128,7 +106,7 @@ const Author: React.FC<AuthorTemplateProps> = props => {
               <SiteHeaderContent css={AuthorHeader} className="site-header-content">
                 <img
                   style={{ marginTop: '8px' }}
-                  css={[AuthorProfileImage, AuthorProfileBioImage]}
+                  css={[AuthorProfileImage, AuthorProfileBioImage, HiddenMobile]}
                   src={props.data.authorYaml.avatar.childImageSharp.fluid.src}
                   alt={author.id}
                 />
@@ -282,6 +260,11 @@ const AuthorHeader = css`
   align-items: flex-start;
   padding: 10vw 0 10px;
   align-items: center;
+
+  h2 {
+    max-width: 760px;
+  }
+  
   @media (max-width: 500px) {
     padding: 10px 0 0;
 
@@ -353,7 +336,6 @@ const AuthHeaderContent = styled.div`
   }
 `;
 
-// .site-header-content .author-profile-image
 const AuthorProfileBioImage = css`
   z-index: 10;
   flex-shrink: 0;

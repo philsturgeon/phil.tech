@@ -13,6 +13,7 @@
   website: https://ghost.org/
   location: San Francisco
   profile_image: img/alex-knight-326705-unsplash.jpg
+# NOTE: Phil to write bio for this site
 - id: Phil
   avatar: avatars/phil.jpg
   profile_image: "avatars/phil-profile.jpg"

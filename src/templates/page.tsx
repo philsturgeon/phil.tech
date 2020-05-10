@@ -1,6 +1,5 @@
 import { graphql } from 'gatsby';
 import * as _ from 'lodash';
-import { setLightness } from 'polished';
 import React from 'react';
 
 import { css } from '@emotion/core';
@@ -119,7 +118,6 @@ export const PageFullHeader = styled.header`
 
 export const PageFullTitle = styled.h1`
   margin: 0 0 0.2em;
-  color: ${setLightness('0.05', colors.darkgrey)};
   @media (max-width: 500px) {
     margin-top: 0.2em;
     font-size: 3.3rem;
