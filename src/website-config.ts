@@ -57,7 +57,7 @@ const config: WebsiteConfig = {
   coverImage: 'img/cover.jpg',
   // logo: 'img/ghost-logo.png',   // NOTE: uncomment to use logo instead of title
   lang: 'en',
-  siteUrl: 'https://phil.tech/',
+  siteUrl: 'https://phil.tech',
   github: 'https://github.com/philsturgeon',
   twitter: 'https://twitter.com/philsturgeon',
   offset: 'https://offset.earth/philsturgeon/',

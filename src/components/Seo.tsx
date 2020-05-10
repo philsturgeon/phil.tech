@@ -2,16 +2,18 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 
 import config from '../website-config';
+import { PageContext } from '../templates/post';
 
 export interface SeoProps {
-  post: any;
-  width: any;
-  height: any;
-  pathContext: any;
+  post: PageContext;
+  width: string;
+  height: string;
+  pathContext: {
+    slug: string;
+  };
 }
 
 export const Seo: React.FC<SeoProps> = ({post, width, height, pathContext}) => {
-  console.log("PROPS: ", post, width, height, pathContext, post.frontmatter.author);
   
   return(
     <Helmet>
@@ -24,7 +26,6 @@ export const Seo: React.FC<SeoProps> = ({post, width, height, pathContext}) => {
       <meta property="og:title" content={post.frontmatter.title} />
       <meta property="og:description" content={post.excerpt || post.frontmatter.description} />
       <meta property="og:url" content={config.siteUrl + pathContext.slug} />
-      {/* TODO: should this have a / in front? */}
       {post.frontmatter.image && post.frontmatter.image.childImageSharp && (
         <meta
           property="og:image"

@@ -2,7 +2,6 @@ import { graphql } from 'gatsby';
 import * as _ from 'lodash';
 import { setLightness } from 'polished';
 import React from 'react';
-import { Helmet } from 'react-helmet';
 
 import { css } from '@emotion/core';
 import styled from '@emotion/styled';
@@ -15,7 +14,6 @@ import { Wrapper } from '../components/Wrapper';
 import IndexLayout from '../layouts';
 import { colors } from '../styles/colors';
 import { inner, outer, SiteMain } from '../styles/shared';
-import config from '../website-config';
 
 
 interface PageTemplateProps {
@@ -37,8 +35,6 @@ interface PageTemplateProps {
 
 const PageTemplate: React.FC<PageTemplateProps> = props => {
   const page = props.data.markdownRemark;
-  let width = '';
-  let height = '';
 
   return (
     <IndexLayout className="page-template">
@@ -46,40 +42,6 @@ const PageTemplate: React.FC<PageTemplateProps> = props => {
         post={page}
         pathContext={props.pathContext}
       />
-      {/* <Helmet>
-        <html lang={config.lang} />
-        <title>{page.frontmatter.title}</title>
-
-        <meta name="description" content={page.frontmatter.description} />
-        <meta property="og:site_name" content={config.title} />
-        <meta property="og:type" content="article" />
-        <meta property="og:title" content={page.frontmatter.title} />
-        <meta property="og:description" content={page.frontmatter.description} />
-        <meta property="og:url" content={config.siteUrl + props.pathContext.slug} />
-        <meta property="article:published_time" content={page.frontmatter.date} />
-        {config.facebook && <meta property="article:publisher" content={config.facebook} />}
-        {config.facebook && <meta property="article:author" content={config.facebook} />}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={page.frontmatter.title} />
-        <meta name="twitter:description" content={page.frontmatter.description} />
-        <meta name="twitter:url" content={config.siteUrl + props.pathContext.slug} />
-        <meta name="twitter:label1" content="Written by" />
-        <meta name="twitter:label2" content="Filed under" />
-        {config.twitter && (
-          <meta
-            name="twitter:site"
-            content={`@${config.twitter.split('https://twitter.com/')[1]}`}
-          />
-        )}
-        {config.twitter && (
-          <meta
-            name="twitter:creator"
-            content={`@${config.twitter.split('https://twitter.com/')[1]}`}
-          />
-        )}
-        {width && <meta property="og:image:width" content={width} />}
-        {height && <meta property="og:image:height" content={height} />}
-      </Helmet> */}
       <Wrapper css={PageTemplateStyles}>
         <header className="site-header">
           <div css={[outer, SiteNavMain]}>
