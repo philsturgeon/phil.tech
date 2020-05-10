@@ -1,8 +1,6 @@
-import { format } from 'date-fns';
 import { graphql } from 'gatsby';
-import Img, { FluidObject } from 'gatsby-image';
 import * as _ from 'lodash';
-import { lighten, setLightness } from 'polished';
+import { setLightness } from 'polished';
 import React from 'react';
 import { Helmet } from 'react-helmet';
 
@@ -18,140 +16,50 @@ import { colors } from '../styles/colors';
 import { inner, outer, SiteMain } from '../styles/shared';
 import config from '../website-config';
 
-// export interface Author {
-//   id: string;
-//   bio: string;
-//   avatar: {
-//     children: Array<{
-//       fluid: FluidObject;
-//     }>;
-//   };
-// }
 
 interface PageTemplateProps {
   pathContext: {
     slug: string;
   };
   data: {
-    // logo: {
-    //   childImageSharp: {
-    //     fixed: any;
-    //   };
-    // };
     markdownRemark: {
       html: string;
       htmlAst: any;
-      // excerpt: string;
-      // timeToRead: string;
       frontmatter: {
+        date: string;
+        description: string;
         title: string;
-        // date: string;
-        // userDate: string;
-        // image: {
-        //   childImageSharp: {
-        //     fluid: any;
-        //   };
-        // };
-        // excerpt: string;
-        // tags: string[];
-        // author: Author[];
       };
     };
-    // relatedPosts: {
-    //   totalCount: number;
-    //   edges: Array<{
-    //     node: {
-    //       timeToRead: number;
-    //       frontmatter: {
-    //         title: string;
-    //         date: string;
-    //       };
-    //       fields: {
-    //         slug: string;
-    //       };
-    //     };
-    //   }>;
-    // };
   };
-  // pageContext: {
-  //   prev: PageContext;
-  //   next: PageContext;
-  // };
 }
 
-// export interface PageContext {
-//   excerpt: string;
-//   timeToRead: number;
-//   fields: {
-//     slug: string;
-//   };
-//   frontmatter: {
-//     image: {
-//       childImageSharp: {
-//         fluid: FluidObject;
-//       };
-//     };
-//     excerpt: string;
-//     title: string;
-//     date: string;
-//     draft?: boolean;
-//     tags: string[];
-//     author: Author[];
-//     featured: boolean;
-//   };
-// }
-
 const PageTemplate: React.FC<PageTemplateProps> = props => {
-  
-  const post = props.data.markdownRemark;
+  const page = props.data.markdownRemark;
   let width = '';
   let height = '';
-  if (post.frontmatter.image && post.frontmatter.image.childImageSharp) {
-    width = post.frontmatter.image.childImageSharp.fluid.sizes.split(', ')[1].split('px')[0];
-    height = String(Number(width) / post.frontmatter.image.childImageSharp.fluid.aspectRatio);
-  }
 
   return (
-    <IndexLayout className="post-template">
+    <IndexLayout className="page-template">
       <Helmet>
         <html lang={config.lang} />
-        <title>{post.frontmatter.title}</title>
+        <title>{page.frontmatter.title}</title>
 
-        {/* <meta name="description" content={post.excerpt} /> */}
+        <meta name="description" content={page.frontmatter.description} />
         <meta property="og:site_name" content={config.title} />
         <meta property="og:type" content="article" />
-        <meta property="og:title" content={post.frontmatter.title} />
-        {/* <meta property="og:description" content={post.excerpt} /> */}
+        <meta property="og:title" content={page.frontmatter.title} />
+        <meta property="og:description" content={page.frontmatter.description} />
         <meta property="og:url" content={config.siteUrl + props.pathContext.slug} />
-        {/* {post.frontmatter.image && post.frontmatter.image.childImageSharp && (
-          <meta
-            property="og:image"
-            content={`${config.siteUrl}${post.frontmatter.image.childImageSharp.fluid.src}`}
-          />
-        )} */}
-        {/* <meta property="article:published_time" content={post.frontmatter.date} /> */}
-        {/* not sure if modified time possible */}
-        {/* <meta property="article:modified_time" content="2018-08-20T15:12:00.000Z" /> */}
-        {/* {post.frontmatter.tags && (
-          <meta property="article:tag" content={post.frontmatter.tags[0]} />
-        )} */}
-
+        <meta property="article:published_time" content={page.frontmatter.date} />
         {config.facebook && <meta property="article:publisher" content={config.facebook} />}
         {config.facebook && <meta property="article:author" content={config.facebook} />}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={post.frontmatter.title} />
-        {/* <meta name="twitter:description" content={post.excerpt} /> */}
+        <meta name="twitter:title" content={page.frontmatter.title} />
+        <meta name="twitter:description" content={page.frontmatter.description} />
         <meta name="twitter:url" content={config.siteUrl + props.pathContext.slug} />
-        {/* {post.frontmatter.image && post.frontmatter.image.childImageSharp && (
-          <meta
-            name="twitter:image"
-            content={`${config.siteUrl}${post.frontmatter.image.childImageSharp.fluid.src}`}
-          />
-        )} */}
         <meta name="twitter:label1" content="Written by" />
-        {/* <meta name="twitter:data1" content={post.frontmatter.author.id} /> */}
         <meta name="twitter:label2" content="Filed under" />
-        {/* {post.frontmatter.tags && <meta name="twitter:data2" content={post.frontmatter.tags[0]} />} */}
         {config.twitter && (
           <meta
             name="twitter:site"
@@ -167,22 +75,22 @@ const PageTemplate: React.FC<PageTemplateProps> = props => {
         {width && <meta property="og:image:width" content={width} />}
         {height && <meta property="og:image:height" content={height} />}
       </Helmet>
-      <Wrapper css={PostTemplate}>
+      <Wrapper css={PageTemplateStyles}>
         <header className="site-header">
           <div css={[outer, SiteNavMain]}>
             <div css={inner}>
-              <SiteNav isPost post={post.frontmatter} />
+              <SiteNav isPost post={page.frontmatter} />
             </div>
           </div>
         </header>
         <main id="site-main" className="site-main" css={[SiteMain, outer]}>
           <div css={inner}>
-            <article css={[PostFull]}>
-              <PostFullHeader className="post-full-header">
-                <PostFullTitle className="post-full-title">{post.frontmatter.title}</PostFullTitle>
-              </PostFullHeader>
+            <article css={[PageFull]}>
+              <PageFullHeader className="post-full-header">
+                <PageFullTitle className="post-full-title">{page.frontmatter.title}</PageFullTitle>
+              </PageFullHeader>
 
-              <PostContent htmlAst={post.htmlAst} />
+              <PostContent htmlAst={page.htmlAst} />
             </article>
           </div>
         </main>
@@ -192,22 +100,20 @@ const PageTemplate: React.FC<PageTemplateProps> = props => {
   );
 };
 
-const PostTemplate = css`
+const PageTemplateStyles = css`
   .site-main {
     margin-top: 64px;
-    background: #fff;
     padding-bottom: 4vw;
   }
 
   @media (prefers-color-scheme: dark) {
     .site-main {
-      /* background: var(--darkmode); */
       background: ${colors.darkmode};
     }
   }
 `;
 
-export const PostFull = css`
+export const PageFull = css`
   position: relative;
   z-index: 50;
 `;
@@ -223,7 +129,7 @@ export const NoImage = css`
   }
 `;
 
-export const PostFullHeader = styled.header`
+export const PageFullHeader = styled.header`
   position: relative;
   margin: 0 auto;
   padding: 70px 150px 40px;
@@ -244,91 +150,7 @@ export const PostFullHeader = styled.header`
   }
 `;
 
-const PostFullCustomExcerpt = styled.p`
-  margin: 20px 0 0;
-  color: var(--midgrey);
-  font-size: 2.4rem;
-  line-height: 1.4em;
-  font-weight: 300;
-
-  @media (max-width: 500px) {
-    font-size: 1.9rem;
-    line-height: 1.5em;
-  }
-
-  @media (prefers-color-scheme: dark) {
-    /* color: color(var(--midgrey) l(+10%)); */
-    color: ${lighten('0.1', colors.midgrey)};
-  }
-`;
-
-const PostFullByline = styled.div`
-  display: flex;
-  justify-content: space-between;
-  margin: 15px 0 0;
-  padding-top: 15px;
-  /* border-top: 1px solid color(var(--lightgrey) l(+10%)); */
-  border-top: 1px solid ${lighten('0.1', colors.lightgrey)};
-
-  .post-full-byline-content {
-    flex-grow: 1;
-    display: flex;
-    align-items: flex-start;
-  }
-
-  .post-full-byline-content .author-list {
-    justify-content: flex-start;
-    padding: 0 12px 0 0;
-  }
-
-  .post-full-byline-meta {
-    margin: 2px 0 0;
-    /* color: color(var(--midgrey) l(+10%)); */
-    color: ${lighten('0.1', colors.midgrey)};
-    font-size: 1.2rem;
-    line-height: 1.2em;
-    letter-spacing: 0.2px;
-    text-transform: uppercase;
-  }
-
-  .post-full-byline-meta h4 {
-    margin: 0 0 3px;
-    font-size: 1.3rem;
-    line-height: 1.4em;
-    font-weight: 500;
-  }
-
-  .post-full-byline-meta h4 a {
-    /* color: color(var(--darkgrey) l(+10%)); */
-    color: ${lighten('0.1', colors.darkgrey)};
-  }
-
-  .post-full-byline-meta h4 a:hover {
-    /* color: var(--darkgrey); */
-    color: ${colors.darkgrey};
-  }
-
-  .post-full-byline-meta .bull {
-    display: inline-block;
-    margin: 0 4px;
-    opacity: 0.6;
-  }
-
-  @media (prefers-color-scheme: dark) {
-    /* border-top-color: color(var(--darkmode) l(+15%)); */
-    border-top-color: ${lighten('0.15', colors.darkmode)};
-
-    .post-full-byline-meta h4 a {
-      color: rgba(255, 255, 255, 0.75);
-    }
-
-    .post-full-byline-meta h4 a:hover {
-      color: #fff;
-    }
-  }
-`;
-
-export const PostFullTitle = styled.h1`
+export const PageFullTitle = styled.h1`
   margin: 0 0 0.2em;
   color: ${setLightness('0.05', colors.darkgrey)};
   @media (max-width: 500px) {
@@ -342,65 +164,14 @@ export const PostFullTitle = styled.h1`
 `;
 
 export const query = graphql`
-  query($slug: String, $primaryTag: String) {
-    logo: file(relativePath: { eq: "img/ghost-logo.png" }) {
-      childImageSharp {
-        fixed {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
+  query($slug: String) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       htmlAst
-      excerpt
-      timeToRead
       frontmatter {
-        title
-        userDate: date(formatString: "D MMMM YYYY")
         date
-        tags
-        excerpt
-        image {
-          childImageSharp {
-            fluid(maxWidth: 3720) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-        author {
-          id
-          bio
-          avatar {
-            children {
-              ... on ImageSharp {
-                fluid(quality: 100, srcSetBreakpoints: [40, 80, 120]) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-    relatedPosts: allMarkdownRemark(
-      filter: { frontmatter: { tags: { in: [$primaryTag] }, draft: { ne: true } } }
-      limit: 3
-    ) {
-      totalCount
-      edges {
-        node {
-          id
-          timeToRead
-          excerpt
-          frontmatter {
-            title
-            date
-          }
-          fields {
-            slug
-          }
-        }
+        description
+        title
       }
     }
   }

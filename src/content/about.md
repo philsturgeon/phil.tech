@@ -1,9 +1,8 @@
 ---
 layout: page
 title: About
-# author: [Phil]
-# date: 2020-02-22
-# tags: [climate]
+date: 2018-01-01
+description: Learn about me and my projects.
 ---
 
 I've been programming since I was about 12, writing awful messes in spaghetti PHP. 19 years later and I have learned how to a) program in a bunch of other languages, and, b) make PHP be a better place. Years have been shaved off my lifespan, fighting to help make better education resources, quality standards, and push new functionality into the core.

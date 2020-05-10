@@ -115,15 +115,9 @@ exports.createPages = async ({ graphql, actions }) => {
     throw new Error(result.errors);
   }
 
-  // Create post pages
-  // const posts = result.data.allMarkdownRemark.edges;
-  // console.log("POSTS BEFORE: ", posts.length);
-  
+  // separate markdown posts from pages
   const posts = result.data.allMarkdownRemark.edges.filter(edge => edge.node.fields.layout === 'post');
-  console.log("POSTS: ", posts.length);
-
   const pages = result.data.allMarkdownRemark.edges.filter(edge => edge.node.fields.layout === 'page');
-  console.log("PAGES: ", pages.length);
 
   // Create paginated index
   const postsPerPage = 12;
@@ -142,13 +136,11 @@ exports.createPages = async ({ graphql, actions }) => {
     });
   });
 
+  // Create post pages
   posts.forEach(({ node }, index) => {
     const { slug, layout } = node.fields;
     const prev = index === 0 ? null : posts[index - 1].node;
     const next = index === posts.length - 1 ? null : posts[index + 1].node;
-
-    console.log("COMPONENT: ", path.resolve(`./src/templates/${layout || 'post'}.tsx`));
-    
 
     createPage({
       path: slug,
@@ -207,8 +199,6 @@ exports.createPages = async ({ graphql, actions }) => {
   const pageTemplate = path.resolve('./src/templates/page.tsx');
   pages.forEach(edge => {
     const { slug } = edge.node.fields;
-    console.log("PAGE SLUG: ", slug);
-    
     createPage({
       path: slug,
       component: pageTemplate,
