@@ -116,7 +116,14 @@ exports.createPages = async ({ graphql, actions }) => {
   }
 
   // Create post pages
-  const posts = result.data.allMarkdownRemark.edges;
+  // const posts = result.data.allMarkdownRemark.edges;
+  // console.log("POSTS BEFORE: ", posts.length);
+  
+  const posts = result.data.allMarkdownRemark.edges.filter(edge => edge.node.fields.layout === 'post');
+  console.log("POSTS: ", posts.length);
+
+  const pages = result.data.allMarkdownRemark.edges.filter(edge => edge.node.fields.layout === 'page');
+  console.log("PAGES: ", pages.length);
 
   // Create paginated index
   const postsPerPage = 12;
@@ -140,6 +147,9 @@ exports.createPages = async ({ graphql, actions }) => {
     const prev = index === 0 ? null : posts[index - 1].node;
     const next = index === posts.length - 1 ? null : posts[index + 1].node;
 
+    console.log("COMPONENT: ", path.resolve(`./src/templates/${layout || 'post'}.tsx`));
+    
+
     createPage({
       path: slug,
       // This will automatically resolve the template to a corresponding
@@ -151,7 +161,7 @@ exports.createPages = async ({ graphql, actions }) => {
       // template.
       //
       // Note that the template has to exist first, or else the build will fail.
-      component: path.resolve(`./src/templates/${layout || 'post'}.tsx`),
+      component: path.resolve(`./src/templates/${layout || 'post'}.tsx`),      
       context: {
         // Data passed to context is available in page queries as GraphQL variables.
         slug,
@@ -189,6 +199,21 @@ exports.createPages = async ({ graphql, actions }) => {
       component: authorTemplate,
       context: {
         author: edge.node.id,
+      },
+    });
+  });
+
+  // Create regular pages
+  const pageTemplate = path.resolve('./src/templates/page.tsx');
+  pages.forEach(edge => {
+    const { slug } = edge.node.fields;
+    console.log("PAGE SLUG: ", slug);
+    
+    createPage({
+      path: slug,
+      component: pageTemplate,
+      context: {
+        slug
       },
     });
   });

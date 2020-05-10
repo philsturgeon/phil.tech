@@ -12,99 +12,96 @@ import styled from '@emotion/styled';
 import { Footer } from '../components/Footer';
 import SiteNav, { SiteNavMain } from '../components/header/SiteNav';
 import PostContent from '../components/PostContent';
-import { ReadNext } from '../components/ReadNext';
-// import { Subscribe } from '../components/subscribe/Subscribe';
 import { Wrapper } from '../components/Wrapper';
 import IndexLayout from '../layouts';
 import { colors } from '../styles/colors';
 import { inner, outer, SiteMain } from '../styles/shared';
 import config from '../website-config';
-import { MetaContent } from '../components/MetaContent';
 
-export interface Author {
-  id: string;
-  bio: string;
-  avatar: {
-    children: Array<{
-      fluid: FluidObject;
-    }>;
-  };
-}
+// export interface Author {
+//   id: string;
+//   bio: string;
+//   avatar: {
+//     children: Array<{
+//       fluid: FluidObject;
+//     }>;
+//   };
+// }
 
-interface PostTemplateProps {
+interface PageTemplateProps {
   pathContext: {
     slug: string;
   };
   data: {
-    logo: {
-      childImageSharp: {
-        fixed: any;
-      };
-    };
+    // logo: {
+    //   childImageSharp: {
+    //     fixed: any;
+    //   };
+    // };
     markdownRemark: {
       html: string;
       htmlAst: any;
-      excerpt: string;
-      timeToRead: string;
+      // excerpt: string;
+      // timeToRead: string;
       frontmatter: {
         title: string;
-        date: string;
-        userDate: string;
-        image: {
-          childImageSharp: {
-            fluid: any;
-          };
-        };
-        excerpt: string;
-        tags: string[];
-        author: Author[];
+        // date: string;
+        // userDate: string;
+        // image: {
+        //   childImageSharp: {
+        //     fluid: any;
+        //   };
+        // };
+        // excerpt: string;
+        // tags: string[];
+        // author: Author[];
       };
     };
-    relatedPosts: {
-      totalCount: number;
-      edges: Array<{
-        node: {
-          timeToRead: number;
-          frontmatter: {
-            title: string;
-            date: string;
-          };
-          fields: {
-            slug: string;
-          };
-        };
-      }>;
-    };
+    // relatedPosts: {
+    //   totalCount: number;
+    //   edges: Array<{
+    //     node: {
+    //       timeToRead: number;
+    //       frontmatter: {
+    //         title: string;
+    //         date: string;
+    //       };
+    //       fields: {
+    //         slug: string;
+    //       };
+    //     };
+    //   }>;
+    // };
   };
-  pageContext: {
-    prev: PageContext;
-    next: PageContext;
-  };
+  // pageContext: {
+  //   prev: PageContext;
+  //   next: PageContext;
+  // };
 }
 
-export interface PageContext {
-  excerpt: string;
-  timeToRead: number;
-  fields: {
-    slug: string;
-  };
-  frontmatter: {
-    image: {
-      childImageSharp: {
-        fluid: FluidObject;
-      };
-    };
-    excerpt: string;
-    title: string;
-    date: string;
-    draft?: boolean;
-    tags: string[];
-    author: Author[];
-    featured: boolean;
-  };
-}
+// export interface PageContext {
+//   excerpt: string;
+//   timeToRead: number;
+//   fields: {
+//     slug: string;
+//   };
+//   frontmatter: {
+//     image: {
+//       childImageSharp: {
+//         fluid: FluidObject;
+//       };
+//     };
+//     excerpt: string;
+//     title: string;
+//     date: string;
+//     draft?: boolean;
+//     tags: string[];
+//     author: Author[];
+//     featured: boolean;
+//   };
+// }
 
-const PostTemplate: React.FC<PostTemplateProps> = props => {
+const PageTemplate: React.FC<PageTemplateProps> = props => {
   
   const post = props.data.markdownRemark;
   let width = '';
@@ -114,53 +111,47 @@ const PostTemplate: React.FC<PostTemplateProps> = props => {
     height = String(Number(width) / post.frontmatter.image.childImageSharp.fluid.aspectRatio);
   }
 
-  const date = new Date(post.frontmatter.date);
-  // 2018-08-20
-  const datetime = format(date, 'yyyy-MM-dd');
-  // 20 AUG 2018
-  const displayDatetime = format(date, 'dd LLL yyyy');
-
   return (
     <IndexLayout className="post-template">
       <Helmet>
         <html lang={config.lang} />
         <title>{post.frontmatter.title}</title>
 
-        <meta name="description" content={post.excerpt} />
+        {/* <meta name="description" content={post.excerpt} /> */}
         <meta property="og:site_name" content={config.title} />
         <meta property="og:type" content="article" />
         <meta property="og:title" content={post.frontmatter.title} />
-        <meta property="og:description" content={post.excerpt} />
+        {/* <meta property="og:description" content={post.excerpt} /> */}
         <meta property="og:url" content={config.siteUrl + props.pathContext.slug} />
-        {post.frontmatter.image && post.frontmatter.image.childImageSharp && (
+        {/* {post.frontmatter.image && post.frontmatter.image.childImageSharp && (
           <meta
             property="og:image"
             content={`${config.siteUrl}${post.frontmatter.image.childImageSharp.fluid.src}`}
           />
-        )}
-        <meta property="article:published_time" content={post.frontmatter.date} />
+        )} */}
+        {/* <meta property="article:published_time" content={post.frontmatter.date} /> */}
         {/* not sure if modified time possible */}
         {/* <meta property="article:modified_time" content="2018-08-20T15:12:00.000Z" /> */}
-        {post.frontmatter.tags && (
+        {/* {post.frontmatter.tags && (
           <meta property="article:tag" content={post.frontmatter.tags[0]} />
-        )}
+        )} */}
 
         {config.facebook && <meta property="article:publisher" content={config.facebook} />}
         {config.facebook && <meta property="article:author" content={config.facebook} />}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={post.frontmatter.title} />
-        <meta name="twitter:description" content={post.excerpt} />
+        {/* <meta name="twitter:description" content={post.excerpt} /> */}
         <meta name="twitter:url" content={config.siteUrl + props.pathContext.slug} />
-        {post.frontmatter.image && post.frontmatter.image.childImageSharp && (
+        {/* {post.frontmatter.image && post.frontmatter.image.childImageSharp && (
           <meta
             name="twitter:image"
             content={`${config.siteUrl}${post.frontmatter.image.childImageSharp.fluid.src}`}
           />
-        )}
+        )} */}
         <meta name="twitter:label1" content="Written by" />
-        <meta name="twitter:data1" content={post.frontmatter.author.id} />
+        {/* <meta name="twitter:data1" content={post.frontmatter.author.id} /> */}
         <meta name="twitter:label2" content="Filed under" />
-        {post.frontmatter.tags && <meta name="twitter:data2" content={post.frontmatter.tags[0]} />}
+        {/* {post.frontmatter.tags && <meta name="twitter:data2" content={post.frontmatter.tags[0]} />} */}
         {config.twitter && (
           <meta
             name="twitter:site"
@@ -176,7 +167,7 @@ const PostTemplate: React.FC<PostTemplateProps> = props => {
         {width && <meta property="og:image:width" content={width} />}
         {height && <meta property="og:image:height" content={height} />}
       </Helmet>
-      <Wrapper css={PostTemplateStyles}>
+      <Wrapper css={PostTemplate}>
         <header className="site-header">
           <div css={[outer, SiteNavMain]}>
             <div css={inner}>
@@ -186,44 +177,22 @@ const PostTemplate: React.FC<PostTemplateProps> = props => {
         </header>
         <main id="site-main" className="site-main" css={[SiteMain, outer]}>
           <div css={inner}>
-            <article css={[PostFull, !post.frontmatter.image && NoImage]}>
+            <article css={[PostFull]}>
               <PostFullHeader className="post-full-header">
                 <PostFullTitle className="post-full-title">{post.frontmatter.title}</PostFullTitle>
-                <PostFullCustomExcerpt className="post-full-custom-excerpt">
-                  {post.frontmatter.excerpt}
-                </PostFullCustomExcerpt>
-                <PostFullByline className="post-full-byline">
-                  <MetaContent
-                    author={post.frontmatter.author}
-                    datetime={datetime}
-                    displayDatetime={displayDatetime}
-                    tags={post.frontmatter.tags}
-                    timeToRead={post.timeToRead}
-                  />
-                </PostFullByline>
               </PostFullHeader>
 
               <PostContent htmlAst={post.htmlAst} />
-
-              {/* The big email subscribe modal content */}
-              {/* {config.showSubscribe && <Subscribe title={config.title} />} */}
             </article>
           </div>
         </main>
-
-        <ReadNext
-          tags={post.frontmatter.tags}
-          relatedPosts={props.data.relatedPosts}
-          pageContext={props.pageContext}
-        />
-
         <Footer />
       </Wrapper>
     </IndexLayout>
   );
 };
 
-const PostTemplateStyles = css`
+const PostTemplate = css`
   .site-main {
     margin-top: 64px;
     background: #fff;
@@ -437,4 +406,4 @@ export const query = graphql`
   }
 `;
 
-export default PostTemplate;
+export default PageTemplate;

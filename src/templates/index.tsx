@@ -56,7 +56,10 @@ const IndexPage: React.FC<IndexProps> = props => {
   const { width, height } = props.data.header.childImageSharp.fixed;
 
   const featuredPosts = props.data.allMarkdownRemark.edges.filter(edge => edge.node.frontmatter.featured);
+  console.log("FEATURED POSTS: ", featuredPosts);
   const allPosts = props.data.allMarkdownRemark.edges.filter(edge => !edge.node.frontmatter.featured);
+  console.log("POSTS: ", allPosts);
+  
 
   return (
     // <IndexLayout css={HomePosts}>
@@ -189,7 +192,7 @@ export const pageQuery = graphql`
     }
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { draft: { ne: true } } }
+      filter: { frontmatter: { draft: { ne: true }, layout: {eq: "post"} } }
       limit: $limit
       skip: $skip
     ) {
