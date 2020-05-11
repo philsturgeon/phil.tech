@@ -98,9 +98,9 @@ const ReadNextAside = styled.aside`
 `;
 
 const ReadNextFeed = styled.div`
-  display: flex;
-  justify-content: space-between;
-  // flex: 1 1 501px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 2rem;
   margin: 0 -25px;
   padding: 30px 0;
 

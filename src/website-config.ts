@@ -55,7 +55,7 @@ const config: WebsiteConfig = {
   title: 'Phil Sturgeon',
   description: 'I build API Design tools for Stoplight.io, write about pragmatic API design, systems architecture, live on a bike, and occasionally upset hordes of mens rights activists on Reddit.',
   coverImage: 'img/cover.jpg',
-  // logo: 'img/ghost-logo.png',   // NOTE: uncomment to use logo instead of title
+  // logo: 'img/ghost-logo.png',
   lang: 'en',
   siteUrl: 'https://phil.tech',
   github: 'https://github.com/philsturgeon',
