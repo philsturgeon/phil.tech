@@ -38,8 +38,10 @@ export const ReadNext: React.FC<ReadNextProps> = props => {
   return (
     <ReadNextAside className="read-next" css={outer}>
       <div css={inner}>
-        <ReadNextFeed className="read-next-feed">
+        <ReadNextFeed className={showRelatedPosts? "read-next-feed": "read-next-feed no-related"}>
           {showRelatedPosts && <ReadNextCard tags={props.tags} relatedPosts={props.relatedPosts} />}
+          
+          
           <div>
             {props.pageContext.prev && <PostCard post={props.pageContext.prev} />}
             {props.pageContext.next && <PostCard post={props.pageContext.next} />}
@@ -103,6 +105,15 @@ const ReadNextFeed = styled.div`
   grid-gap: 2rem;
   margin: 0 -25px;
   padding: 30px 0;
+
+  
+  @media (min-width: 1040px) {
+    &.no-related {
+      display: block;
+      max-width: 80%;
+      margin: 0 auto;
+    }
+  }
 
   @media (max-width: 1040px) {
     display: block;
