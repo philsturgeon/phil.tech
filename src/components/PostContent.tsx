@@ -39,6 +39,7 @@ export const PostFullContent = styled.section`
 
   .twitter-tweet {
     margin: 0 auto;
+    margin-bottom: 25px !important;
   }
 
   @media (max-width: 1170px) {
