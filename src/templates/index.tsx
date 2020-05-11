@@ -1,7 +1,6 @@
 import { graphql } from 'gatsby';
 import { FixedObject } from 'gatsby-image';
 import React from 'react';
-import { Helmet } from 'react-helmet';
 
 import { css } from '@emotion/core';
 
@@ -57,7 +56,6 @@ const IndexPage: React.FC<IndexProps> = props => {
   const allPosts = props.data.allMarkdownRemark.edges.filter(edge => !edge.node.frontmatter.featured);
 
   return (
-    // <IndexLayout css={HomePosts}>
     <IndexLayout>
       <Seo
         width={width}
@@ -77,7 +75,7 @@ const IndexPage: React.FC<IndexProps> = props => {
         >
           <div css={inner}>
             <SiteNav isHome />
-            <SiteHeaderContent className="site-header-conent">
+            <SiteHeaderContent className="site-header-content">
               <SiteTitle className="site-title">
                 {props.data.logo ? (
                   <img
@@ -138,16 +136,6 @@ const IndexPage: React.FC<IndexProps> = props => {
   );
 };
 
-// NOTE: for logo, add below to query
-// logo: file(relativePath: { eq: "img/ghost-logo.png" }) {
-//   childImageSharp {
-//     # Specify the image processing specifications right in the query.
-//     # Makes it trivial to update as your page's design changes.
-//     fixed {
-//       ...GatsbyImageSharpFixed
-//     }
-//   }
-// }
 export const pageQuery = graphql`
   query blogPageQuery($skip: Int!, $limit: Int!) {
     header: file(relativePath: { eq: "img/cover.jpg" }) {
@@ -155,6 +143,15 @@ export const pageQuery = graphql`
         # Specify the image processing specifications right in the query.
         # Makes it trivial to update as your page's design changes.
         fixed(width: 2000, quality: 100) {
+          ...GatsbyImageSharpFixed
+        }
+      }
+    }
+    logo: file(relativePath: { eq: "img/ghost-logo.png" }) {
+      childImageSharp {
+        # Specify the image processing specifications right in the query.
+        # Makes it trivial to update as your page's design changes.
+        fixed {
           ...GatsbyImageSharpFixed
         }
       }
@@ -210,63 +207,5 @@ export const pageQuery = graphql`
 const HomeSubtitles = css`
   font-weight: 600;
 `;
-
-// const HomePosts = css`
-//   @media (min-width: 795px) {
-//     .post-card-large {
-//       flex: 1 1 100%;
-//       flex-direction: row;
-//       padding-bottom: 40px;
-//       min-height: 280px;
-//       border-top: 0;
-//     }
-
-//     .post-card-large .post-card-title {
-//       margin-top: 0;
-//       font-size: 3.2rem;
-//     }
-
-//     .post-card-large:not(.no-image) .post-card-header {
-//       margin-top: 0;
-//     }
-
-//     .post-card-large .post-card-image-link {
-//       position: relative;
-//       flex: 1 1 auto;
-//       margin-bottom: 0;
-//       min-height: 380px;
-//     }
-
-//     .post-card-large .post-card-image {
-//       position: absolute;
-//       width: 100%;
-//       height: 100%;
-//     }
-
-//     .post-card-large .post-card-content {
-//       flex: 0 1 361px;
-//       justify-content: center;
-//     }
-
-//     .post-card-large .post-card-title {
-//       margin-top: 0;
-//       font-size: 3.2rem;
-//     }
-
-//     .post-card-large .post-card-content-link {
-//       padding: 0 0 0 40px;
-//     }
-
-//     .post-card-large .post-card-meta {
-//       padding: 0 0 0 40px;
-//     }
-
-//     .post-card-large .post-card-excerpt p {
-//       margin-bottom: 1.5em;
-//       font-size: 1.8rem;
-//       line-height: 1.5em;
-//     }
-//   }
-// `;
 
 export default IndexPage;
