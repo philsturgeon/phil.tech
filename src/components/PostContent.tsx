@@ -125,6 +125,11 @@ export const PostFullContent = styled.section`
     line-height: 1.6em;
   }
 
+  // specific workaround for gifs in markdown which aren't wrapped by gatsby image
+  p > img {
+    width: 100%;
+  }
+
   img,
   video {
     display: block;
