@@ -14,10 +14,12 @@ export interface SeoProps {
   title?: string;
   description?: string;
   path?: string;
+  image?: string;
 }
 
-export const Seo: React.FC<SeoProps> = ({post, width, height, pathContext, title, description, path}) => {
+export const Seo: React.FC<SeoProps> = ({post, width, height, pathContext, title, description, path, image}) => {
   const urlPath = pathContext? pathContext.slug : path;
+  const imagePath = post && post.frontmatter.image? post.frontmatter.image.childImageSharp.fluid.src : image;
   
   return(
     <Helmet>
@@ -29,11 +31,11 @@ export const Seo: React.FC<SeoProps> = ({post, width, height, pathContext, title
       <meta property="og:type" content="article" />
       <meta property="og:title" content={title || post.frontmatter.title} />
       <meta property="og:description" content={description || post.excerpt || post.frontmatter.description} />
-      <meta property="og:url" content={config.siteUrl + urlPath} />
-      {post && post.frontmatter.image && post.frontmatter.image.childImageSharp && (
+      <meta property="og:url" content={config.siteUrl + urlPath } />
+      {imagePath && (
         <meta
           property="og:image"
-          content={`${config.siteUrl}${post.frontmatter.image.childImageSharp.fluid.src}`}
+          content={`${config.siteUrl}${imagePath}`}
         />
       )}
       {post && <meta property="article:published_time" content={post.frontmatter.date} />}
@@ -71,6 +73,9 @@ export const Seo: React.FC<SeoProps> = ({post, width, height, pathContext, title
       )}
       {width && <meta property="og:image:width" content={width} />}
       {height && <meta property="og:image:height" content={height} />}
+      {config.googleSiteVerification && (
+        <meta name="google-site-verification" content={config.googleSiteVerification} />
+      )}
     </Helmet>
   )
 };
