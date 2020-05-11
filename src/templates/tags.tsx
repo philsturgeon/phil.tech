@@ -37,11 +37,6 @@ interface TagTemplateProps {
         node: {
           id: string;
           description: string;
-          image?: {
-            childImageSharp: {
-              fluid: FluidObject;
-            };
-          };
         };
       }>;
     };
@@ -119,13 +114,6 @@ export const pageQuery = graphql`
         node {
           id
           description
-          image {
-            childImageSharp {
-              fluid(maxWidth: 3720) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
         }
       }
     }
