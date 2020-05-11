@@ -276,7 +276,7 @@ They continue to fit their "add item" link in with the usual expectations for co
 
 A [recent talk from Mike Amundsen](http://www.ustream.tv/recorded/102891495) goes through a number of topics, but specifically Hypermedia (HATEOAS) as a collection of affordances (potential actions that can taken). This quote was up in there:
 
-<img src="When I say hypertext, I mean the simultaneous presentation of information and controls such as that the information becomes the affordance through which the user obtains choices and selects actions. by Roy Fielding, 2008" src="img/2017-06-15-representing-state-in-rest-and-graphql/information-and-controls.png" class="data-no-caption" />
+![When I say hypertext, I mean the simultaneous presentation of information and controls such as that the information becomes the affordance through which the user obtains choices and selects actions. by Roy Fielding, 2008](img/2017-06-15-representing-state-in-rest-and-graphql/information-and-controls.png)
 
 Information and actions, displayed up to a user through a self-documenting format of awesomeness, with a selection of links that turn a well-tuned client into a crawler instead of just being a CRUD exchange... well that's the whole point of REST.
 
