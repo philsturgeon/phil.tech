@@ -36,7 +36,6 @@ export const PostFullContent = styled.section`
   min-height: 230px;
   font-size: 2rem;
   line-height: 1.6em;
-  background: #fff;
 
   .twitter-tweet {
     margin: 0 auto;
@@ -159,7 +158,7 @@ export const PostFullContent = styled.section`
   blockquote {
     margin: 0 0 1.5em;
     padding: 0 1.5em;
-    border-left: #3eb0ef 3px solid;
+    border-left: ${colors.orange} 3px solid;
   }
   @media (max-width: 500px) {
     blockquote {
@@ -184,7 +183,6 @@ export const PostFullContent = styled.section`
     font-size: 0.8em;
     line-height: 1em;
     font-weight: 400 !important;
-    /* background: var(--whitegrey); */
     background: ${colors.inlinecode};
     border-radius: 3px;
   }
