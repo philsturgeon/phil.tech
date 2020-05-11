@@ -187,11 +187,11 @@ export const PostFullContent = styled.section`
     /* background: var(--whitegrey); */
     background: ${colors.inlinecode};
     border-radius: 3px;
-    border 1px solid ${colors.inlinecodeborder};
   }
 
-  p code {
+  p code, li code {
     word-break: break-all;
+    border: 1px solid ${colors.inlinecodeborder};
   }
 
   pre {
