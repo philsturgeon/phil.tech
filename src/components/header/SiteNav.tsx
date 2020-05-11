@@ -147,10 +147,10 @@ class SiteNav extends React.Component<SiteNavProps, SiteNavState> {
             )}
           </SocialLinks>
 
-          {/* {config.showSubscribe && (
+          {config.showSubscribe && (
             <SubscribeButton onClick={this.openModal}>Subscribe</SubscribeButton>
           )}
-          {config.showSubscribe && <SubscribeModal ref={this.subscribe} />} */}
+          {config.showSubscribe && <SubscribeModal ref={this.subscribe} />}
         </SiteNavRight>
       </nav>
     );
