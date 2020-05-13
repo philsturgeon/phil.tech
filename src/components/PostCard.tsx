@@ -57,8 +57,8 @@ export const PostCard: React.FC<PostCardProps> = ({ post, large = false }) => {
           <MetaContent
             datetime={datetime}
             displayDatetime={displayDatetime}
-            home={true}
-            tags={post.frontmatter.tags.slice(0,1)}
+            // on home page we only want to show first tag
+            tags={post.frontmatter.tags.length > 0? post.frontmatter.tags.slice(0,1): []}
             timeToRead={post.timeToRead}
           />
         </PostCardMeta>

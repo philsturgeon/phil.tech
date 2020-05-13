@@ -11,12 +11,11 @@ export interface MetaContentProps {
   author: Author[];
   datetime: string;
   displayDatetime: string;
-  home: boolean;
   tags: Array<string>;
   timeToRead: number;
 }
 
-export const MetaContent: React.FC<MetaContentProps> = ({author, datetime, displayDatetime, home, tags, timeToRead}) => {
+export const MetaContent: React.FC<MetaContentProps> = ({author, datetime, displayDatetime, tags, timeToRead}) => {
 
   return (
     <MetaContentDiv className="post-card-byline-content">
@@ -34,8 +33,8 @@ export const MetaContent: React.FC<MetaContentProps> = ({author, datetime, displ
         </span>}
         <time dateTime={datetime}>{displayDatetime}</time>
         <span className="bull">&bull;</span>{timeToRead} min read
-        <span className="bull">&bull;</span>
-        {tags && (
+        {tags.length > 0 && <span className="bull">&bull;</span>}
+        {tags.length > 0 && (
           <Tags className="post-card-tags">
             {tags.map(tag => {
               return(
