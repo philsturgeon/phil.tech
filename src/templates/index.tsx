@@ -55,6 +55,9 @@ const IndexPage: React.FC<IndexProps> = props => {
   const featuredPosts = props.data.allMarkdownRemark.edges.filter(edge => edge.node.frontmatter.featured);
   const allPosts = props.data.allMarkdownRemark.edges.filter(edge => !edge.node.frontmatter.featured);
 
+  console.log("POSTS: ", allPosts);
+  
+
   return (
     <IndexLayout>
       <Seo

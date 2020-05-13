@@ -33,8 +33,8 @@ export const MetaContent: React.FC<MetaContentProps> = ({author, datetime, displ
         </span>}
         <time dateTime={datetime}>{displayDatetime}</time>
         <span className="bull">&bull;</span>{timeToRead} min read
-        {tags.length > 0 && <span className="bull">&bull;</span>}
-        {tags.length > 0 && (
+        {tags && tags.length > 0 && <span className="bull">&bull;</span>}
+        {tags && tags.length > 0 && (
           <Tags className="post-card-tags">
             {tags.map(tag => {
               return(
