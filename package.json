@@ -27,6 +27,7 @@
     "gatsby": "2.20.36",
     "gatsby-image": "2.3.5",
     "gatsby-plugin-canonical-urls": "2.2.4",
+    "gatsby-plugin-disqus": "^1.1.4",
     "gatsby-plugin-emotion": "4.2.3",
     "gatsby-plugin-feed": "2.4.4",
     "gatsby-plugin-global-styles": "^1.0.17",

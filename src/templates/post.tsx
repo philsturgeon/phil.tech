@@ -4,6 +4,7 @@ import Img, { FluidObject } from 'gatsby-image';
 import * as _ from 'lodash';
 import { lighten, setLightness } from 'polished';
 import React from 'react';
+import { Disqus, CommentCount } from 'gatsby-plugin-disqus';
 
 import { css } from '@emotion/core';
 import styled from '@emotion/styled';
@@ -106,8 +107,9 @@ export interface PageContext {
 }
 
 const PostTemplate: React.FC<PostTemplateProps> = props => {
-  
+  console.log("PROPS: ", props);
   const post = props.data.markdownRemark;
+  console.log("POST: ", post);
   let width = '';
   let height = '';
   if (post.frontmatter.image && post.frontmatter.image.childImageSharp) {
@@ -120,6 +122,14 @@ const PostTemplate: React.FC<PostTemplateProps> = props => {
   const datetime = format(date, 'yyyy-MM-dd');
   // 20 AUG 2018
   const displayDatetime = format(date, 'dd LLL yyyy');
+
+  const disqusConfig = {
+    url: `${config.siteUrl + props.pathContext.slug}`,
+    identifier: post.id,
+    title: post.frontmatter.title,
+  };
+  // Remote ID = "fdda2f5d-06a7-520d-8bdf-62cfc35b1b4f"
+  console.log("disqusConfig: ", disqusConfig);
 
   return (
     <IndexLayout className="post-template">
@@ -158,6 +168,10 @@ const PostTemplate: React.FC<PostTemplateProps> = props => {
 
               <PostContent htmlAst={post.htmlAst} />
 
+              {/* TODO: Do we want comment count? */}
+              {/* <CommentCount config={disqusConfig} placeholder={'...'} /> */}
+              <Disqus config={disqusConfig} />
+
               {/* The big email subscribe modal content */}
               {config.showSubscribe && <Subscribe title={config.title} />}
             </article>
@@ -194,6 +208,10 @@ const PostTemplateStyles = css`
 export const PostFull = css`
   position: relative;
   z-index: 50;
+
+  #disqus_thread {
+    padding: 0 150px 4vw;
+  }
 `;
 
 export const NoImage = css`
@@ -334,6 +352,7 @@ export const query = graphql`
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
+      id
       html
       htmlAst
       excerpt
