@@ -7,9 +7,10 @@ excerpt: >
   you leave it out? 
 date: '2014-11-04 22:14:00'
 # TODO: tags
-# comments: true
-# disqus_identifier: composer-its-almost-always-about-the-lock-file
-# alias: blog/2014/11/composer-its-almost-always-about-the-lock-file/
+comments: true
+disqus_identifier: composer-its-almost-always-about-the-lock-file
+alias: blog/2014/11/composer-its-almost-always-about-the-lock-file/ # first migration
+alias_1: php/2014/11/04/composer-its-almost-always-about-the-lock-file/ #second migration
 ---
 
 [Davey Shafik](https://twitter.com/dshafik) wrote a great article for [EngineYard](https://engineyard.com/) called [Composer: It’s All About the Lock File](https://blog.engineyard.com/2014/composer-its-all-about-the-lock-file).

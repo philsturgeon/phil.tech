@@ -12,12 +12,17 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   // eslint-disable-next-line default-case
   switch (node.internal.type) {
     case 'MarkdownRemark': {
-      const { permalink, layout, primaryTag } = node.frontmatter;
+      const { permalink, layout, primaryTag, date } = node.frontmatter;
       const { relativePath } = getNode(node.parent);
-
+      
+      let year = new Date(date);
+      year = year.getFullYear();
       let slug = permalink;
-
-      if (!slug) {
+      
+      // add year to blog post paths
+      if (!slug && layout === 'post') {
+        slug = `/${year}/${relativePath.replace('.md', '')}/`;
+      } else {
         slug = `/${relativePath.replace('.md', '')}/`;
       }
 
