@@ -16,6 +16,17 @@ const Pagination: React.FunctionComponent<PaginationProps> = ({ currentPage, num
   const prevPage = currentPage - 1 === 1 ? '/' : (currentPage - 1).toString();
   const nextPage = (currentPage + 1).toString();
 
+  const pageList = Array.from(Array(numPages),(x,i)=>i)
+  
+  let pageListDisplay; 
+  if(currentPage < 3){
+    pageListDisplay = pageList.slice(0, 3)
+  } else if (currentPage > pageList.length - 3){
+    pageListDisplay = pageList.slice(pageList.length - 3, pageList.length)
+  } else {
+    pageListDisplay = pageList.slice(currentPage - 2, currentPage + 1)
+  }
+
   return (
     <nav css={navCss}>
       <div>
@@ -26,11 +37,13 @@ const Pagination: React.FunctionComponent<PaginationProps> = ({ currentPage, num
           </Link>
         )}
 
-        {Array.from({ length: numPages }, (_, i) => (
-          <Link key={`pagination-number${i + 1}`} className={i + 1 === currentPage ? 'active' : ''} to={`/${i === 0 ? '' : i + 1}`}>
-            {i + 1}
-          </Link>
-        ))}
+        {pageListDisplay.map(num => {
+          return(
+            <Link key={`pagination-number${num + 1}`} className={num + 1 === currentPage ? 'active' : ''} to={`/${num === 0 ? '' : num + 1}`}>
+              {num + 1}
+            </Link>
+          )
+        })}
 
         {!isLast && (
           <Link to={nextPage} rel="next">
