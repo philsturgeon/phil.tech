@@ -25,7 +25,6 @@ interface SiteNavState {
 }
 
 class SiteNav extends React.Component<SiteNavProps, SiteNavState> {
-  // TODO: remove all this unused stuff
   subscribe = React.createRef<SubscribeModal>();
   titleRef = React.createRef<HTMLSpanElement>();
   lastScrollY = 0;

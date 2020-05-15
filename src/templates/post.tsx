@@ -109,9 +109,7 @@ export interface PageContext {
 }
 
 const PostTemplate: React.FC<PostTemplateProps> = props => {
-  console.log("PROPS: ", props);
   const post = props.data.markdownRemark;
-  console.log("POST: ", post);
   let width = '';
   let height = '';
   if (post.frontmatter.image && post.frontmatter.image.childImageSharp) {
@@ -130,7 +128,6 @@ const PostTemplate: React.FC<PostTemplateProps> = props => {
     identifier: post.frontmatter.disqus_identifier,
     title: post.frontmatter.title,
   };
-  console.log("disqusConfig: ", disqusConfig);
 
   return (
     <IndexLayout className="post-template">

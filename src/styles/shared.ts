@@ -23,7 +23,6 @@ export const SiteNavMain = css`
   right: 0;
   left: 0;
   z-index: 1000;
-  /* background: color(var(--darkgrey) l(-5%)); */
   background: ${lighten('-0.05', colors.darkgrey)};
 `;
 
@@ -51,12 +50,6 @@ export const SiteTitle = styled.h1`
 `;
 
 export const SiteDescription = styled.div`
-  // z-index: 10;
-  // margin: 0;
-  // padding: 5px 0;
-  // font-size: 2.1rem;
-  // line-height: 1.4em;
-  // opacity: 0.8;
 
   h2 {
     width: 76%;
@@ -82,7 +75,6 @@ export const PostFeed = css`
   display: flex;
   flex-wrap: wrap;
   margin: 0 -20px;
-  // padding: 50px 0 0;
   background: #fff;
 
   /* Special Template Styles */
@@ -106,8 +98,7 @@ export const SocialLink = css`
     text-decoration: none;
   }
 
-  &.emoji {
-    // color: transparent; 
+  &.emoji { 
     color: transparent; 
     text-shadow: 0 0 0 #fff;
   }
@@ -125,7 +116,6 @@ export const SocialLinkFb = css`
 `;
 
 export const SiteHeader = css``;
-// TODO: remove everywhere
 
 export const SiteHeaderContent = styled.div`
   z-index: 100;
@@ -133,17 +123,13 @@ export const SiteHeaderContent = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  // padding: 6vw 3vw;
   min-height: 200px;
   max-height: 340px;
 `;
 
 export const SiteHeaderStyles = css`
   position: relative;
-  /* margin-top: 64px; */
-  // padding-bottom: 12px;
   color: #fff;
-  /* background: color(var(--darkgrey) l(-5%)) no-repeat center center; */
   background: ${lighten('-0.05', colors.darkgrey)} no-repeat center center;
   background-size: cover;
 
@@ -204,8 +190,6 @@ export const SiteArchiveHeader = css`
 
 export const NoImage = css`
   .no-image {
-    // padding-top: 0;
-    // padding-bottom: 0;
     color: ${colors.darkgrey};
     background: #fff;
     opacity: 1;
@@ -255,7 +239,6 @@ export const NoImage = css`
     position: relative;
     margin-top: 64px;
     padding-bottom: 12px;
-    // color: #fff;
     /* background: color(var(--darkgrey) l(-5%)) no-repeat center center; */
     background-size: cover;
   }
