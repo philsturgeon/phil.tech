@@ -10,7 +10,7 @@ date: '2009-09-17 12:21:00'
 comments: true
 disqus_identifier: Asset-handling-in-CodeIgniter-with-the-BASE-tag
 alias: blog/2009/09/Asset-handling-in-CodeIgniter-with-the-BASE-tag/
-alias: codeigniter/2009/09/17/asset-handling-in-codeigniter-with-the-base-tag/
+alias_1: codeigniter/2009/09/17/asset-handling-in-codeigniter-with-the-base-tag/
 ---
 
 There are many suggested ways to handle your assets (CSS, images, JavaScript, etc) in CodeIgniter including my very own [Asset library](http://github.com/philsturgeon/codeigniter-asset "CodeIgniter Asset library - Load CSS, images & JavaScript easily"). Some people use paths relative to the web root like this:

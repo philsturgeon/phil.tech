@@ -27,7 +27,7 @@ Two small things to mention first, then on to the "meat" of the article.
 
 ### It looks ugly
 
-If you are reading this you are quite likely a programmer who stares at PHP for large amounts of time. Who cares if it does not look as clean as plain HTML in your view files? As far as readability goes, if a designer was to look at heading() im sure it would make perfect sense to them as much as a <h1>.
+If you are reading this you are quite likely a programmer who stares at PHP for large amounts of time. Who cares if it does not look as clean as plain HTML in your view files? As far as readability goes, if a designer was to look at heading() im sure it would make perfect sense to them as much as a `<h1>`.
 
 ### MVC pattern
 

@@ -57,7 +57,9 @@ A strange thing that many CodeIgniter users seem to do is create a blog module, 
 
 Right now to get at the blog admin you would have to go to http://example.com/blog/admin which may well be fine with you. If not, you can add the following routes to your **application/config/routes.php** to swap the segments around and emulate a /admin/ folder.
 
-` $route['admin/([a-zA-Z_-]+)/(:any)'] = '$1/admin/$2'; $route['admin/login'] = 'admin/login'; $route['admin/logout'] = 'admin/logout'; $route['admin/([a-zA-Z_-]+)'] = '$1/admin/index'; $route['admin'] = 'admin'; `
+~~~php
+$route['admin/([a-zA-Z_-]+)/(:any)'] = '$1/admin/$2'; $route['admin/login'] = 'admin/login'; $route['admin/logout'] = 'admin/logout'; $route['admin/([a-zA-Z_-]+)'] = '$1/admin/index'; $route['admin'] = 'admin';
+~~~
 
 This way you have your admin controllers kept with the frontend controllers, you are sharing models, libraries and helpers and you still have some nice URL's.
 

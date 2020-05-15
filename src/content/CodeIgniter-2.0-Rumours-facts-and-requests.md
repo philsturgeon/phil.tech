@@ -14,7 +14,7 @@ alias: blog/2009/10/CodeIgniter-2.0-Rumours-facts-and-requests/
 alias_1: codeigniter/2009/10/30/codeigniter-2.0-rumours-facts-and-requests/
 ---
 
-_ **Update 22/03/2010:** Now that CodeIgniter 2.0 development code has been release this article is irrelevant. Please have a look at [CodeIgniter 2.0: Everything you need to know](/blog/2010/03/codeigniter-2)._
+**Update 22/03/2010:** _Now that CodeIgniter 2.0 development code has been release this article is irrelevant. Please have a look at [CodeIgniter 2.0: Everything you need to know](/blog/2010/03/codeigniter-2)._
 
 Ever since it was announced that ExpressionEngine 2.0 would be running on CodeIgniter, the forums have been jammed full of "CodeIgniter 2.0" questions. I have answer this so many times I wanted to clear things up. I have jammed this post full of "CodeIgniter 2.0" keywords so hopefully this will be the first thing these muppets spot - if they are smart enough to even Google search a query before posting it on the forums... again.
 
@@ -26,7 +26,7 @@ This started off a brilliant follow-up topic, named _ [CodeIgniter 2.1](http://c
 
 I figured, instead of just ranting about it, I could use this opportunity to discuss what is, what is not and what **should** be going into CodeIgniter over the next few versions. This list is compiled from the Bug Report section of the forums, #codeigniter IRC chat room and a few replies to [@philsturgeon](http://twitter.com/philsturgeon).
 
-_ **Note:** I have filtered quite a few "Can I haz YouTubes?!" from this list._
+**Note:** _I have filtered quite a few "Can I haz YouTubes?!" from this list._
 
 ### Confirmed features
 

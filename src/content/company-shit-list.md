@@ -28,7 +28,7 @@ This company is a fucking joke on so many levels.
 
 This week was a ridiculous problem with me trying to find out what settings I would need to set up my router after a reset. Are they using DHCP? PPPoE? PPPoV? Who knows, so I phoned up. I had 4 people try to explain to me that I needed to set up Wi-Fi to get it working. Bare in mind I am using a Linux server hardwired into my router 5 meters away, and this was working perfectly before I reset the router to factory default. I gave in and let them talk me through the WiFi setup, then when that magically didn't work they decided that I needed a new router.
 
-![Far Side Midvale School For The Gifted](/images/article_images/2010-09-23-company-shit-list/far_side_school_for_the_gifted.jpg)
+![Far Side Midvale School For The Gifted](img/2010-09-23-company-shit-list/far_side_school_for_the_gifted.jpg)
 
 Their worst offense was about a year ago. I switched from BT to Virgin and had to wait 8 weeks while they did some construction work to get a cable to my door. Fair enough, I can wait 8 weeks. The problem was the company that handled the construction just pretended to do the work and didn't actually bother. Virgin had to apply for planning permission: another 8 week wait. Repeat this process 3 or 4 times and I ended up waiting SIX MONTHS for internet. As a web developer, having the internet is slightly more than fucking convenient, good work guys.
 

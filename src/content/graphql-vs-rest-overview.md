@@ -4,7 +4,6 @@ author: [Phil]
 title: "GraphQL vs REST: Overview"
 date: 2017-01-24
 tags: [graphql, rest, api, http]
-category: api
 comments: true
 disqus_identifier: graphql-vs-rest-overview
 alias_1: api/2017/01/24/graphql-vs-rest-overview/

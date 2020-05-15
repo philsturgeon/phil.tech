@@ -19,7 +19,9 @@ To save asking questions on the CodeIgniter forums that you could solve yourself
 
 1.) Output the final query and see if it looks right. Do this after your model call or within the model after $this->db->get().
 
-` // Clear any existing output (optional) ob_clean(); echo $this->db->last_query(); // Stop PHP from doing anything else (optional) exit(); `
+~~~php
+// Clear any existing output (optional) ob_clean(); echo $this->db->last_query(); // Stop PHP from doing anything else (optional) exit();
+~~~
 
 2.) If it looks fine, try running it in phpMyAdmin or another GUI.
 

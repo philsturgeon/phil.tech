@@ -12,7 +12,7 @@ alias: blog/2009/05/PyroCMS-an-open-source-CodeIgniter-CMS/
 # alias_1: nope - this was broken due to frontmatter error
 ---
 
-_ **Update 01/06/08:** A newer version of PyroCMS [is now available](http://github.com/philsturgeon/pyrocms/downloads "Version 0.9.5 of PyroCMS (a CodeIgniter Content Management system) is now available") which fixes many bugs and issues of the version linked to in this article and greatly improves speed, stability and useability of the admin panel. There is also now a homepage which links to the demo and download details at [pyrocms.com](http://pyrocms.com/ "PyroCMS website - A CodeIgniter CMS")._
+**Update 01/06/08:** _A newer version of PyroCMS [is now available](http://github.com/philsturgeon/pyrocms/downloads "Version 0.9.5 of PyroCMS (a CodeIgniter Content Management system) is now available") which fixes many bugs and issues of the version linked to in this article and greatly improves speed, stability and useability of the admin panel. There is also now a homepage which links to the demo and download details at [pyrocms.com](http://pyrocms.com/ "PyroCMS website - A CodeIgniter CMS")._
 
 This CMS has been in development for a long time and is the main reason for my lack of posting recently. Since I decided this should be released open source I have been pouring all of my "online time" into getting this ready for the public.  
   

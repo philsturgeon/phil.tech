@@ -45,7 +45,9 @@ Now, here are are two possibilities.
 
 This method basically shows Google crawlers and Google Analytic the same URL; the URL that a user _should _be using to view this page.
 
-`echo '<link rel="canonical" href="' . site_url( $this->uri->uri_string() ) . '" />';`
+~~~php
+echo '<link rel="canonical" href="' . site_url( $this->uri->uri_string() ) . '" />';
+~~~
 
 **Pro's:** This would make sure EVERY page had a correctly formed URL for the page no matter what URI they accessed the page from.
 
@@ -55,21 +57,31 @@ This method basically shows Google crawlers and Google Analytic the same URL; th
 
 Well it seems to make Google search and Google Analytic happy we are going to need two different approaches. This method will insert the full correct URL if a robot comes to the site to crawl for links, and insert the link we'd like to see show in Google Analytic if it is a normal user.
 
-`if ($this->agent->is_robot()) \{   echo '<link rel="canonical" href="' . site_url( $this->uri->uri_string() ) .'" />'; } else \{   echo '<meta name="canonical" content="'. base_url().implode('/', $this->uri->rsegment_array()) . '" />'; }`
+~~~php
+if ($this->agent->is_robot()) {
+  echo '<link rel="canonical" href="' . site_url( $this->uri->uri_string() ) .'" />'; 
+  } else {   
+  echo '<meta name="canonical" content="'. base_url().implode('/', $this->uri->rsegment_array()) . '" />'; 
+  }
+~~~
 
 **Pro's:** The pro's of Method 1 but also uses will display the basic CodeIgniter URI even if the URL is masked behind a Route.
 
 **Con's:** If you use routes for content drilldown such as "news/2009/04/Article-name" then it will show up as "news/article/Articlename". This may or may not be a bad thing.
 
-**_Update:_** _ These first two methods require you to use [a piece of JavaScript](http://erikvold.com/blog/index.cfm/2009/4/23/relcanonical-and-google-analytics) written by [Erik Vold](http://erikvold.com/) to enable Google Analytics to register canonical links. I had not realised Google Analytics would pay no attention to a canonical link until I showed this article to a member of the web marketing team at work. I have added this 3rd method to cover this._
+**Update:** _These first two methods require you to use [a piece of JavaScript](http://erikvold.com/blog/index.cfm/2009/4/23/relcanonical-and-google-analytics) written by [Erik Vold](http://erikvold.com/) to enable Google Analytics to register canonical links. I had not realised Google Analytics would pay no attention to a canonical link until I showed this article to a member of the web marketing team at work. I have added this 3rd method to cover this._
 
 ### Method #3: Routed URL's for Analytic, Parsed URL's for Robots (direct aproach)
 
 As it turns out Google Analytic could not care less about your canonical links by default, we can give Google bots and Google Analytic two totally different values. We can set the current user-facing URI as a canonical link in the HTML, then insert the fully routed URI segments straight to Google Analytic.
 
-`echo '<link rel="canonical" href="' . site_url( $this->uri->uri_string() ) . '" />';`
+~~~php
+echo '<link rel="canonical" href="' . site_url( $this->uri->uri_string() ) . '" />';
+~~~
 
-` <script type="text/javascript"> try { var pageTracker = _gat._getTracker("UA-XXXXXXX-YY"); pageTracker._trackPageview("<?=base_url().implode('/', $this->uri->rsegment_array();?>")); } catch(err){} </script> `
+~~~html
+<script type="text/javascript"> try { var pageTracker = _gat._getTracker("UA-XXXXXXX-YY"); pageTracker._trackPageview("<?=base_url().implode('/', $this->uri->rsegment_array();?>")); } catch(err){} </script> 
+~~~
 
 **Pro's:** Same as method #2 but doesn't require any extra JavaScript. You are simply passing a CodeIgniter value straight into code that is already there.
 
