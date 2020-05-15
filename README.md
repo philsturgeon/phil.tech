@@ -4,9 +4,7 @@ This is a GatsbyJS blog, where I talk about programming and whatnot. It's live u
 
 Feel free to open issues if you run into trouble or have suggestions. Pull Requests are always welcome.
 
-<!-- ### Deploy to Netlify
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/scttcper/gatsby-casper)
+<!-- 
 
 ## How to configure Google Analytics
 

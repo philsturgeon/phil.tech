@@ -1,9 +1,8 @@
 {
-  "name": "gatsby-casper",
-  "description": "Casper for gatsby",
+  "name": "phil-tech",
+  "description": "phil-tech gatsby blog",
   "version": "0.0.0",
   "private": true,
-  "author": "Scott Cooper <scttcper@gmail.com>",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
