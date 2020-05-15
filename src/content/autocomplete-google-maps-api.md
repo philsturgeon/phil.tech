@@ -4,7 +4,9 @@ author: [Phil]
 title: Geographic Fun with Google Maps API
 date: 2015-07-26 10:04:00+00:00
 tags: [geo, maps, google]
-# comments: true
+comments: true
+disqus_identifier: autocomplete-google-maps-api
+alias_1: geo/2015/07/26/autocomplete-google-maps-api/
 ---
 
 I’ve been working at [Ride.com](https://ride.com/) since October 2014, and I’ve got to do some awesome stuff with them. As far as my job has been concerned, the first 4-5 months were entirely green field development. As a team we built multiple services to compliment a central API, and with the help of some other gophers at the company I built most of a little Go service to handle various autocomplete requirements.

@@ -7,9 +7,10 @@ excerpt: 'Late last summer I was riding my bike around the mountains of New Jers
   I''m not sure if it was exhaustion, the heat or the fact that I had run out of podcasts
   to listen to but I had an idea: I should get into the t-shirt sale business.'
 date: '2014-03-13 18:23:00'
-# alias: blog/2014/03/made-in-production/
-# comments: true
-# disqus_identifier: made-in-production
+comments: true
+disqus_identifier: made-in-production
+alias: blog/2014/03/made-in-production/
+alias_1: php/2014/03/13/made-in-production/
 ---
 
 Late last summer I was riding my bike around the mountains of New Jersey. I'm not sure if it was exhaustion, the heat or the fact that I had run out of podcasts to listen to but I had an idea: I should get into the t-shirt sale business.

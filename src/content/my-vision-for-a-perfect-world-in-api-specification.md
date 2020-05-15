@@ -4,7 +4,9 @@ author: [Phil]
 title: Chasing the Perfect API Specification Workflow
 date: 2017-07-20
 tags: [api, json-schema, api-specs, openapi, raml]
-# comments: true
+comments: true
+disqus_identifier: my-vision-for-a-perfect-world-in-api-specification
+alias_1: api/2017/07/20/my-vision-for-a-perfect-world-in-api-specification/
 ---
 
 Documentation is a nice thing to have, but it is often treated as optional or superfluous, especially in teams where the clients and servers are managed by the same people. Here the code is considered the contract, so why define it again in documentation?

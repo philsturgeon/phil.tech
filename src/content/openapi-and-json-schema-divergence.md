@@ -4,7 +4,9 @@ author: [Phil]
 title: "OpenAPI and JSON Schema Divergence: Part 1"
 date: 2018-03-30
 tags: [api, json-schema, api-specs, openapi]
-# comments: true
+comments: true
+disqus_identifier: openapi-and-json-schema-divergence
+alias_1: api/2018/03/30/openapi-and-json-schema-divergence/
 ---
 
 This article is going to explain the divergence between OpenAPI and JSON Schema, which I've been calling the subset/superset/sideset problem. It'll finish up explaining how we're going to solve it, and ~I'll write part 2 when it is solved~ [part two explains the solution][solution].

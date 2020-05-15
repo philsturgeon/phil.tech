@@ -4,8 +4,10 @@ author: [Phil]
 title: "Made in Production II: Learning and Improving"
 date: 2016-01-22 00:08:00+00:00
 tags: [madeinproduction, doubleclaw, php]
-# comments: true
 image: img/2016-01-22-made-in-production-ii-learning-and-improving/beautiful-ben-marks-double-claw.jpg
+comments: true
+disqus_identifier: made-in-production-ii-learning-and-improving
+alias_1: 2016/01/22/made-in-production-ii-learning-and-improving/
 ---
 
 [Made in Production](http://madeinproduction.com/) has been something that my BFF [Zack](https://twitter.com/zackkitzmiller) and I have been working on for a while. We had the idea to start selling super-niche programming t-shirts in 2013, we finally got the store up and running on some janky Python in 2014, then shut it down after a few months due to a slew of unforeseen problems. Now the site is back and better than ever, and I thought I'd tell you lot a story. 

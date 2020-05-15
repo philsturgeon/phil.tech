@@ -4,7 +4,9 @@ author: [Phil]
 title: One Month Since OpenAPI v3.0
 date: 2017-08-26
 tags: [api, json-schema, api-specs, openapi]
-# comments: true
+comments: true
+disqus_identifier: one-month-since-openapi-v3-0
+alias_1: api/2017/08/26/one-month-since-openapi-v3-0/
 ---
 
 Last month today [OpenAPI v3.0 was released](https://www.openapis.org/blog/2017/07/26/the-oai-announces-the-openapi-specification-3-0-0), and not only is there [a lot of cool stuff](https://blog.readme.io/an-example-filled-guide-to-swagger-3-2/), but it unblocks some akward situations with vendor prefixes and other lacking features. I was hoping the tooling would be hot on its tails. Progress is being made in all of the repositories I've got my eyes on, but sadly v3.0 support is not there yet.

@@ -5,7 +5,9 @@ title: "PHP-FIG: 3.0 or Rebrand"
 date: 2016-08-30 14:48:00+00:00
 image: img/2016-08-30-php-fig-3-0-or-rebrand/misunderstanding-mallard.jpg
 tags: [php, php-fig, psr7]
-# comments: true
+comments: true
+disqus_identifier: php-fig-3-0-or-rebrand
+alias_1: php/2016/08/30/php-fig-3-0-or-rebrand/
 ---
 
 I'm tired of talking about the [PHP-FIG](http://www.php-fig.org/). I don't want to, and [I won't have anything to do with it](https://groups.google.com/forum/#!topic/php-fig/SZS6LjKTAtw). That said, as my timeline is full of old PHP friends shouting at each other, I'm wondering if I can mediate. I was involved in the PHP-FIG since 2012, and I have seen every conversation, been part of every decision, and know the reasoning for a lot of stuff, regardless of the result and my person preferences. Being so involved with this group for so long, I have a fair bit of context that other people are lacking.

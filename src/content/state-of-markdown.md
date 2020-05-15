@@ -4,8 +4,10 @@ author: [Phil]
 title: The State of Markdown
 tags: [markdown, commonmark, php, league]
 date: '2014-11-30 13:19:00'
-# comments: true
-# alias: php/2014/11/30/state-of-markdown/
+comments: true
+disqus_identifier: state-of-markdown
+alias: : php/2014/11/30/state-of-markdown/
+alias_1: : php/2014/11/30/state-of-markdown/
 ---
 
 The answer to "What is the State of Markdown?" is "Yes, it's a f**king state."

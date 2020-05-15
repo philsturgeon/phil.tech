@@ -4,9 +4,11 @@ author: [Phil]
 title: "Dredd: Do Your HTTP API Justice"
 date: 2015-01-28 07:14:00+00:00
 tags: [http, api, dredd, apiblueprint]
-# comments: true
 image: img/2015-01-28-dredd-api-testing-documentation/dredd.jpg
 excerpt: "If you have documentation for any sort of HTTP-based API, from a micro-service to a non-trivial RESTful API, if it has existed for more than a week it has got some mistakes in it. Documentation degrades over time. This article aims to help you ensure that your API documentation keeps entirely in line with the implementation, utilizing two tools: API Blueprint and Dredd."
+comments: true
+disqus_identifier: dredd-api-testing-documentation
+alias_1: api/2015/01/28/dredd-api-testing-documentation/
 ---
 
 If you have documentation for any sort of HTTP-based API, from a micro-service to a non-trivial RESTful API, if it has existed for more than a week it has got some mistakes in it. Documentation degrades over time. This article aims to help you ensure that your API documentation keeps entirely in line with the implementation, utilizing two tools: [API Blueprint] and [Dredd].

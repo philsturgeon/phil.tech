@@ -4,9 +4,9 @@ author: [Phil]
 title: "Building REST APIs with Rails: Basic Serialization"
 date: 2016-12-11 00:24:23+00:00
 tags: [building-rest-apis-in-rails, http, api, ams, video, serialization]
-# comments: true
-# TODO: what is this meant to be?
-# alias: api/2016/12/11/building-apis-with-rails-basic-serialization/
+comments: true
+disqus_identifier: building-rest-apis-with-rails-documentation-testing
+alias_1: api/2016/12/11/building-apis-with-rails-basic-serialization/
 ---
 
 Third video in a pile of [LiveCoding.tv](http://livecoding.tv/philsturgeon/) videos, shows how to use [ActiveModel Serializer](https://github.com/rails-api/active_model_serializers/blob/master/docs/general/getting_started.md) to shape the output of your resources. I totally forgot how links work, so watch me flap around trying to get it working and chuckle as I flail.

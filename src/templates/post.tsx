@@ -171,7 +171,7 @@ const PostTemplate: React.FC<PostTemplateProps> = props => {
 
               {/* NOTE: Commented out until ad problem solves */}
               {/* <CommentCount config={disqusConfig} placeholder={'...'} /> */}
-              {post.frontmatter.comments && <Disqus config={disqusConfig} />}
+              {/* {post.frontmatter.comments && <Disqus config={disqusConfig} />} */}
 
               {/* The big email subscribe modal content */}
               {config.showSubscribe && <Subscribe title={config.title} />}

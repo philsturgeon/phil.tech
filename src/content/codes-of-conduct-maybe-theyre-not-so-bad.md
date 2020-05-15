@@ -4,9 +4,11 @@ author: [Phil]
 title: "Codes of Conduct: Maybe They're Not So Bad?"
 date: 2016-09-15
 tags: [humans, equality, coc, php]
-# comments: true
 excerpt: >
   Code of Conducts are, for some reason, hated by a substantial portion of the tech community. For some people I think this comes down to the idea that they are silly and shouldn't be required. I entirely agree with the portion "they should not be required" and have made fun of them myself plenty when they started popping up at conferences a few years ago. Sadly, there is a reason we need warnings like "These peanuts may contain nuts" or "Hot coffee is hot". Some people are muppets, and don't know what being "not nice" is. Some people know, and don't care.
+comments: true
+disqus_identifier: codes-of-conduct-maybe-theyre-not-so-bad
+alias_1: 2016/09/15/codes-of-conduct-maybe-theyre-not-so-bad/
 ---
 
 I've written a few articles about Code of Conducts, which are a hotly debated version of the Anti-Harassment policy you almost certainly signed at any job you've held since delivering newspapers. Before I grappled the subject head-on, I wanted to clear a few related points out of the way:

@@ -4,7 +4,9 @@ author: [Phil]
 title: "PHP Town Hall: Code of Conduct"
 date: 2016-02-15 13:14:50+00:00
 tags: [code of conduct, php, equality]
-# comments: false
+comments: false
+disqus_identifier: episode-48-code-of-conduct
+alias_1: 2016/02/15/episode-48-code-of-conduct/
 ---
 
 The other week I wrote an article called [Why is Everyone Outraged?](/2016/01/27/why-is-everyone-outraged/), where I explained how the media often manufactures outrage, making it seem worse out there than it really is. This outrage narrative leads some people to think the world is being taken over by evil SJWs, whilst that is generally not at all the case.

@@ -4,7 +4,9 @@ author: [Phil]
 title: Update on OpenAPI and JSON Schema
 date: 2019-09-07
 tags: [api design, openapi, json schema, api descriptions]
-# comments: true TODO: whats this for?
+comments: true
+disqus_identifier: update-openapi-json-schema
+alias_1: 2019/09/07/update-openapi-json-schema/
 ---
 
 _**Update 2020-02-02:** JSON Schema Draft 2019-09 has been published for a while, and after much deliberation we got the folks at OpenAPI to merge [#1977](https://github.com/OAI/OpenAPI-Specification/pull/1977) for v3.1. This will make OpenAPI a small superset, and no longer a subset/superset/sideset. Of those five keywords, two are deprecated (`nullable` and `example`). Latest estimate for v3.1.0-RC1 is end of February, so tooling vendors should get to work on upgrading support for JSON Schema 2019-09 and the other OpenAPI v3.1 changes._

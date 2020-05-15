@@ -4,7 +4,9 @@ author: [Phil]
 title: Happily Stepping into the Shadows
 date: 2015-05-21 10:04:00+00:00
 tags: [career, php, ride]
-# comments: true
+comments: true
+disqus_identifier: happily-stepping-into-the-shadows
+alias_1: career/2015/05/21/happily-stepping-into-the-shadows/
 ---
 
 Anyone who knows me better than my Twitter profile will know I have a love/hate relationship with my reputation, and the online persona that goes with it. 

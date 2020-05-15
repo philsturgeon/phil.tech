@@ -10,9 +10,10 @@ excerpt: I was doing a little consulting for a company while I was out in South 
   of slashes and squiggles would appease the RESTful Overlords, and avoid them throwing
   lightning bolts down from upon high.
 date: '2014-05-11 20:36:00'
-# alias: blog/2014/05/restful-urls-actions-need-not-apply/
-# comments: true
-# disqus_identifier: restful-urls-actions-need-not-apply
+comments: true
+disqus_identifier: restful-urls-actions-need-not-apply
+alias: blog/2014/05/restful-urls-actions-need-not-apply/
+alias_1: rest/2014/05/11/restful-urls-actions-need-not-apply/
 ---
 
 I was doing a little consulting for a company while I was out in South Africa and we played the game. You fire SOAP functionality at me, and I write down RESTful endpoints. This was rapid-fire API design with 20 people in the room.

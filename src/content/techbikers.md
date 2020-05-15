@@ -4,7 +4,9 @@ author: [Phil]
 title: "TechBikers 2016"
 date: 2016-06-22 16:08:00+00:00
 tags: [charity, cycling, biketothebeach]
-# comments: true
+comments: true
+disqus_identifier: techbikers
+alias_1: charity/2016/06/22/techbikers/
 ---
 
 When I'm not making stupid jokes on Twitter, or in a bar, or making stupid jokes on Twitter from a bar, I'm usually riding bikes. I do this because exploring is a hobby, and the adrenaline of going [life-threateningly fast](https://www.youtube.com/watch?v=nZTy5cKm6Hg) is addictive. Sometimes, I ride much farther for charities.

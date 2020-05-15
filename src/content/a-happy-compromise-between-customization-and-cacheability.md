@@ -5,7 +5,9 @@ title: A Happy Compromise Between Customization and Cacheability
 excerpt: With endpoint-based APIs you get to choose if you want increased likelihood of network cache hits, or the ability to slim down the response. The two goals are mutually exclusive, but there is a compromise that can be made.
 date: 2017-08-13
 tags: [hypermedia, hateoas, graphql, rest, api, http]
-# comments: true
+comments: true
+disqus_identifier: a-happy-compromise-between-customization-and-cacheability
+alias_1: api/2017/08/13/a-happy-compromise-between-customization-and-cacheability/
 ---
 
 With endpoint-based APIs (REST, RESTish, SOAP, RPC, AJAX-ish junk, etc.) you get to choose if you want increased likelihood of network cache hits, or the ability to slim down the response. The two goals are mutually exclusive.

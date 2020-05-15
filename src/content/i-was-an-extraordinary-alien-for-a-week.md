@@ -6,9 +6,10 @@ tags: [personal, visa, usa]
 excerpt: A personal write-up of something I've not been able to talk about for a while.
   Probably the most complicated year of my life.
 date: '2014-08-04 20:51:00'
-# alias: blog/2014/08/i-was-an-extraordinary-alien-for-a-week/
-# comments: true
-# disqus_identifier: i-was-an-extraordinary-alien-for-a-week
+comments: true
+disqus_identifier: i-was-an-extraordinary-alien-for-a-week
+alias: blog/2014/08/i-was-an-extraordinary-alien-for-a-week/
+alias_1: personal/2014/08/04/i-was-an-extraordinary-alien-for-a-week/
 ---
 
 The last seven months have been a weird time.

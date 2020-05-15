@@ -4,10 +4,12 @@ author: [Phil]
 title: "The Importance of Serializing API Output"
 date: 2015-05-30 18:04:00+00:00
 tags: [http, api, serialization, php, fractal, rails, ams]
-# comments: true
 excerpt: "One of the most important parts of building any sort of HTTP API is to serialize data before you
 output it, and hardly anyone does it."
 image: img/2015-05-30-serializing-api-output/cover.jpg
+comments: true
+disqus_identifier: serializing-api-output
+alias_1: api/2015/05/30/serializing-api-output/
 ---
 
 I've given the [API Pain Points](https://www.youtube.com/watch?v=3W7bQj6OdLU) talk a bazillion times over the last year. In just 2015 I gave it at:

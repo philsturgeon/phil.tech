@@ -4,8 +4,10 @@ author: [Phil]
 title: 'Treehouse: PHP Standards and Best Practices'
 tags: [php, treehouse, education]
 date: '2014-11-25 12:05:00'
-# comments: true
 image: img/2014-11-25-treehouse-standards-best-practices/camera.jpg
+comments: true
+disqus_identifier: treehouse-standards-best-practices
+alias_1: php/2014/11/25/treehouse-standards-best-practices/
 ---
 
 A while ago [Treehouse] got in touch with me, and asked me if I would be interested in working with them on a video course. They wanted more PHP-related content, and they had heard I knew a thing or two about that.

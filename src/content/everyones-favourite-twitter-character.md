@@ -4,7 +4,9 @@ author: [Phil]
 title: Everyones Favourite Twitter Characters
 date: 2015-10-02 17:22:00+00:00
 tags: [twitter, humans]
-# comments: true
+comments: true
+disqus_identifier: everyones-favourite-twitter-character
+alias_1: 2015/10/02/everyones-favourite-twitter-character/
 ---
 
 Regularly, I make a general piece of advice, and the types of responses are pretty similar regardless of the actual conversation.

@@ -7,9 +7,10 @@ excerpt: There are a few major, important conversations happening in the PHP int
   mailing list as we speak... and then there is the discussion about calling the version
   that comes after PHP 5 either PHP 6 or PHP 7. Um?
 date: '2014-07-23 15:24:00'
-# alias: blog/2014/07/neverending-muppet-debate-of-php-6-v-php-7/
-# comments: true
-# disqus_identifier: neverending-muppet-debate-of-php-6-v-php-7
+comments: true
+disqus_identifier: neverending-muppet-debate-of-php-6-v-php-7
+alias: blog/2014/07/neverending-muppet-debate-of-php-6-v-php-7/
+alias_1: php/2014/07/23/neverending-muppet-debate-of-php-6-v-php-7/
 ---
 
 > **Update 12/12/2014:** The answer is now of course [PHP 7].

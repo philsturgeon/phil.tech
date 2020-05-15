@@ -9,9 +9,10 @@ excerpt: Today I had somebody explain to me on Reddit that they just didn't beli
   and still, apparently that was just anecdotal - which was somehow not relevant.
   He wanted cold, hard proof. This is me trying out a little thing called Google.
 date: '2014-05-31 22:24:00'
-# alias: blog/2014/05/the-pocket-guide-to-sexism-in-tech/
-# comments: true
-# disqus_identifier: the-pocket-guide-to-sexism-in-tech
+comments: true
+disqus_identifier: the-pocket-guide-to-sexism-in-tech
+alias: blog/2014/05/the-pocket-guide-to-sexism-in-tech/
+alias_1: 2014/05/31/the-pocket-guide-to-sexism-in-tech/
 ---
 
 Today I had somebody explain to me that they just didn't believe there was a problem with sexism in tech. They flat out said it is not a thing. I explained things I have seen and heard with my own eyes and ears in various jobs and events and still, apparently that was just anecdotal and was somehow not relevant, because maybe I was lying? He wanted cold, hard proof.

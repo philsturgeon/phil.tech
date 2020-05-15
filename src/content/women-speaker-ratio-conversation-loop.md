@@ -4,8 +4,10 @@ author: [Phil]
 title: The Ratio of Women Speakers in Tech
 date: 2015-08-17 21:00:00+00:00
 tags: [feminism, equality, conferences, humans, nahitsfine]
-# comments: true
-# alias: feminism/2015/08/16/women-speaker-ratio-conversation-loop/
+comments: true
+disqus_identifier: women-speaker-ratio-conversation-loop
+alias: feminism/2015/08/16/women-speaker-ratio-conversation-loop/
+alias_1: feminism/2015/08/17/women-speaker-ratio-conversation-loop/
 ---
 
 There are a lot of my opinions and viewpoints that have changed over time. Some slowly and naturally, and some sharp and sudden like a wet mackerel to the face. One is on the ratio of women speakers when it comes to tech conferences.

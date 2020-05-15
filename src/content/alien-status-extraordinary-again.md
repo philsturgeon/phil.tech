@@ -7,10 +7,10 @@ excerpt: A few months ago I wrote a bit of an emotional article about my visa st
   here it is.
 tags: [personal]
 date: '2014-11-15 22:08:00'
-# TODO: what is disqus identifier?
-# alias: blog/2014/11/alien-status-extraordinary-again/
-# comments: true
-# disqus_identifier: alien-status-extraordinary-again
+comments: true
+disqus_identifier: alien-status-extraordinary-again
+alias: blog/2014/11/alien-status-extraordinary-again/
+alias_1: personal/2014/11/15/alien-status-extraordinary-again/
 ---
 
 A few months ago I wrote a bit of an [emotional article about my visa status,](/blog/2014/08/i-was-an-extraordinary-alien-for-a-week) and how I was in a bit of a pickle. A few people since have wanted an update, so here it is.

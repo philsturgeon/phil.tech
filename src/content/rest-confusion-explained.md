@@ -5,7 +5,9 @@ title: A Response to REST is the new SOAP
 excerpt: This article outlines a list of common misunderstandings about REST, so I thought it would be a nice opportunity to set the record straight on a bunch of them. The article is really just 100% misunderstandings, so lets learn some stuff!
 date: 2017-12-18
 tags: [api, rest, rpc, soap, http2]
-# comments: true
+comments: true
+disqus_identifier: rest-confusion-explained
+alias_1: api/2017/12/18/rest-confusion-explained/
 ---
 
 Enough people have asked me about the article _[REST is the new SOAP](https://medium.com/@pakaldebonchamp/rest-is-the-new-soap-97ff6c09896d)_ that I felt it justifies a write up. Before I get started, I want to be clear that I hold no grudge against the author, and if any frustration leaks out in my writing I'd like to apologize in advance.

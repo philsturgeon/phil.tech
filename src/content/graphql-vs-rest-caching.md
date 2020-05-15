@@ -4,7 +4,9 @@ author: [Phil]
 title: "GraphQL vs REST: Caching"
 date: 2017-01-26
 tags: [graphql, rest, api, http, caching]
-# comments: true
+comments: true
+disqus_identifier: graphql-vs-rest-caching
+alias_1: api/2017/01/26/graphql-vs-rest-caching/
 ---
 
 Recently I wrote [GraphQL vs REST: Overview](/api/2017/01/24/graphql-vs-rest-overview/), giving a hype-free outline of the differences between [REST](https://en.wikipedia.org/wiki/Representational_state_transfer) and [GraphQL](http://graphql.org/). One section that would not have fit into that already lengthy article was caching, so I thought I'd fire that out next.

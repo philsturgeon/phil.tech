@@ -4,8 +4,10 @@ author: [Phil]
 title: "PHP Void: Much Ado About Nothing"
 date: 2015-02-15 13:10:00+00:00
 tags: [php, return-types, rfc]
-# comments: true
 excerpt: "A run through of the Return Void Type, why it can be useful and why some of the points against are not so strong to me."
+comments: true
+disqus_identifier: php-void-much-ado-about-nothing
+alias_1: php/2015/02/15/php-void-much-ado-about-nothing/
 ---
 
 Recently [Return Types] were accepted for PHP 7, which makes me very happy. This RFC was a real work of art. [Levi Morrison] sidestepped various political land-mines, which had stopped previous attempts at this feature being approved since it was agreed return types should be added in 2005.

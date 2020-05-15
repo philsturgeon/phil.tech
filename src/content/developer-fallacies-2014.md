@@ -4,7 +4,9 @@ author: [Phil]
 title: Developer Fallacies of 2014
 date: 2015-01-10 11:22:00+00:00
 tags: [php, php-fig, thephpleague, isdead]
-# comments: true
+comments: true
+disqus_identifier: developer-fallacies-2014
+alias_1: php/2015/01/10/developer-fallacies-2014/
 ---
 
 Some people like to take a quick walk down memory lane in January, and post their highlights of the previous year.

@@ -4,7 +4,9 @@ author: [Phil]
 title: "Building APIs with Rails: Handling Errors Nicely"
 date: 2017-01-03
 tags: [building-rest-apis-in-rails, rspec, rails, video]
-# comments: true
+comments: true
+disqus_identifier: building-apis-with-rails-handling-errors-nicely
+alias_1: api/2017/01/03/building-apis-with-rails-handling-errors-nicely/
 ---
 
 Ignoring one session covering [basic CRUD and deserialization](https://www.youtube.com/watch?v=GpNEbw33GL8) using [ActiveModel::Serializer](https://github.com/rails-api/active_model_serializers/blob/master/docs/general/deserialization.md

@@ -4,8 +4,10 @@ author: [Phil]
 title: "Tips on Sidekiq Queues"
 date: 2016-11-16 22:49:00+00:00
 tags: [sidekiq, ruby, rails, async]
-# alias: 2016/11/16/sidekiqing-your-queue-in-the-nuts/
-# comments: true
+comments: true
+disqus_identifier: tips-on-sidekiq-queues
+alias: 2016/11/16/sidekiqing-your-queue-in-the-nuts/
+alias_1: 2016/11/16/tips-on-sidekiq-queues/
 ---
 
 Sidekiq is great. It's a really handy way to take slow stuff that your application is doing like uploading images or sending emails, and

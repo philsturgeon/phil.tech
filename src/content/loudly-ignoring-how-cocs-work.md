@@ -4,7 +4,9 @@ author: [Phil]
 title: Loudly Ignoring How CoCs Work
 date: 2016-03-02 03:23:00+00:00
 tags: [coc, php, humans]
-# comments: false
+comments: false
+disqus_identifier: loudly-ignoring-how-cocs-work
+alias_1: 2016/03/02/loudly-ignoring-how-cocs-work/
 ---
 
 Paul Jones recently wrote an article called [

@@ -4,7 +4,9 @@ author: [Phil]
 title: "Auto-Incrementing IDs: Giving your Data Away"
 date: 2015-09-03 13:47:00+00:00
 tags: [http, api]
-# comments: true
+comments: true
+disqus_identifier: auto-incrementing-to-destruction
+alias_1: 2015/09/03/auto-incrementing-to-destruction/
 ---
 
 Something we're always taught as developers, usually by tutorials or via the defaults in various ORM tools, is every SQL table needs an auto-incrementing ID. This is a weirdly common fallacy, enforced by old tutorials, new tutorials and half-arsed tooling in various forms. Why are auto-incrementing IDs a problem? Because it means people can download your database. 

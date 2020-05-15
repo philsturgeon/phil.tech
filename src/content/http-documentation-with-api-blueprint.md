@@ -4,7 +4,9 @@ author: [Phil]
 title: HTTP Documentation with API Blueprint
 date: 2015-10-08 15:59:00+00:00
 tags: [api blueprint, apiary, api, http, dredd, documentation]
-# comments: true
+comments: true
+disqus_identifier: http-documentation-with-api-blueprint
+alias_1: api/2015/10/08/http-documentation-with-api-blueprint/
 ---
 
 When planning my talk and book on REST/HTTP API development, I ended up mentioning documentation towards the end, and flippantly said "Oh and API Blueprint is pretty good probably just use that." This is something I'd love to fix with a time machine, as these days I spec out an API in [API Blueprint](https://apiblueprint.org) before I get anywhere near the code.

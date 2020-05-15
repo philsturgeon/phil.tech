@@ -4,8 +4,10 @@ author: [Phil]
 title: Why Care About PHP Middleware?
 date: 2016-05-31 14:38:00+00:00
 tags: [php, psr7, psr15, phpfig, http-middleware, http]
-# comments: true
-# alias: 2016/05/31/why-care-about-php-middleware/
+comments: true
+disqus_identifier: why-care-about-php-middleware
+alias: 2016/05/31/why-care-about-php-middleware/
+alias_1: php/2016/05/31/why-care-about-php-middleware/
 ---
 
 Recently there has been a lot of buzz about HTTP middleware in PHP. Since [PSR-7][psr7] was accepted, everyone and their friend Sherly has been knocking out middleware implementations, some of them stunning, some of them half-arsed, and some of them rolled into existing frameworks. HTTP Middleware is a wonderful thing, but the [PHP-FIG] is working on a specific standard for middleware, which will standardise this mess of implementations. Some folks don't seem to think that would be useful.

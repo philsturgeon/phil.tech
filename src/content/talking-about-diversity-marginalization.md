@@ -4,10 +4,12 @@ author: [Phil]
 title: "Talking About Diversity: Marginalization"
 date: 2016-07-23 18:49:00+00:00
 tags: [humans, equality, nahitsfine, php]
-# comments: true
-# alias: 2016/07/23/talking-about-diversity-motivation/
 excerpt: >
   Recently in the PHP community there have been a lot of conversations about social justice, mostly fueled by the relatively recent suggestions of PHP adopting a Code of Conduct. Conversations solving problems faced by marginalized groups in PHP should be seen as a great thing, but unfortunately these conversations are not happening in a healthy way at all.
+comments: true
+disqus_identifier: talking-about-diversity-marginalization
+alias: 2016/07/23/talking-about-diversity-motivation/
+alias_1: 2016/07/23/talking-about-diversity-marginalization/
 ---
 
 The other week I was out doing a charity bike ride; a Breast Cancer benefit from London to Cambridge. It was a lovely ride with a new group of cyclists I'd befriended on another ride. I was riding on a borrowed bike which clearly had some mechanical trouble, and I was trying to ride 20mph+ while stuck on the middle crank.

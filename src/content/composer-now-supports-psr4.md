@@ -10,9 +10,10 @@ excerpt: "I haven't really posted about PSR-4 here, but if you follow me on Twit
   that reflects what this truly is: an improvement on PSR-0. Time to upgrade your
   packages, but don't release them just yet."
 date: '2014-01-03 23:27:00'
-# alias: blog/2014/01/composer-now-supports-psr4/
-# comments: true
-# disqus_identifier: composer-now-supports-psr4
+comments: true
+disqus_identifier: composer-now-supports-psr4
+alias: blog/2014/01/composer-now-supports-psr4/
+alias_1: php/2014/01/03/composer-now-supports-psr4/
 ---
 
 I haven't really posted about PSR-4 here other than as a footnote in [this old article](/blog/2013/05/composer-and-psr0-friends-not-relatives), but if you follow me on Twitter or hang out on Reddit you've probably seen some news about it. 

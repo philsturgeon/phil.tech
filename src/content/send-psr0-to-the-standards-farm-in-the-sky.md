@@ -8,9 +8,10 @@ excerpt: This article attempts to convince you that deprecating the PSR-0 auto-l
   a problemless wonderland of happy benefits, in the hope that when I try to get this
   done on the FIG mailing list, people will be happy about it instead of sad or rage-mode.
 date: '2014-07-19 16:21:00'
-# alias: blog/2014/07/send-psr0-to-the-standards-farm-in-the-sky/
-# comments: true
-# disqus_identifier: send-psr0-to-the-standards-farm-in-the-sky
+comments: true
+disqus_identifier: send-psr0-to-the-standards-farm-in-the-sky
+alias: blog/2014/07/send-psr0-to-the-standards-farm-in-the-sky/
+alias_1: php/2014/07/19/send-psr0-to-the-standards-farm-in-the-sky/
 ---
 
 This article attempts to convince you that deprecating the PSR-0 auto-loading standard in favor of the PSR-4 auto-loading standard is not only a good idea, but a problem-less wonderland of happy benefits, in the hope that when I try to get this done on the FIG mailing list, people will be happy about it instead of sad or rage-mode.

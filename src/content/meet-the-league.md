@@ -4,8 +4,10 @@ author: [Phil]
 title: "Meet the League"
 date: 2015-02-11 21:11:00+00:00
 tags: [thephpleague, league, php]
-# comments: true
 excerpt: "Dear PHP Community: These are the folks behind The League of Extraordinary Packages, who you should know, but maybe do not."
+comments: true
+disqus_identifier: meet-the-league
+alias_1: api/2015/02/11/meet-the-league/
 ---
 
 A few months ago I wrote [What is The League of Extraordinary Packages?](/php/2014/10/16/what-is-the-league-of-extraordinary-packages/), and it was clearly written in a defensive tone. I wanted to explain a few things about [the League](http://thephpleague.com/) because people were attacking it in weird ways. 

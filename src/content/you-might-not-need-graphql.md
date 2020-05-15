@@ -4,7 +4,9 @@ author: [Phil]
 title: You Might Not Need GraphQL
 date: 2017-04-18
 tags: [graphql, rest, api, http]
-# comments: true
+comments: true
+disqus_identifier: you-might-not-need-graphql
+alias_1: api/2017/04/18/you-might-not-need-graphql/
 ---
 
 After writing about how [GraphQL and REST differ](https://phil.tech/api/2017/01/24/graphql-vs-rest-overview/) in various regards, and taking a closer look at [caching in particular](https://phil.tech/api/2017/01/26/graphql-vs-rest-caching/), I wanted to write about how you can get some of the benefits of GraphQL into an existing endpoint-based API.

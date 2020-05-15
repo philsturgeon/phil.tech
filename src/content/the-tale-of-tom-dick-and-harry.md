@@ -5,9 +5,11 @@ title: The Tale of Tom, Dick and Harry
 excerpt: This article describes three fictional characters as they all learn how various
   tools and methodologies work in the world of technology, internets and programming.
 date: '2014-05-07 21:21:00'
-# comments: true
-# alias: blog/2014/05/the-tale-of-tom-dick-and-harry/
-# disqus_identifier: the-tale-of-tom-dick-and-harry
+# tags: TODO: ?
+comments: true
+disqus_identifier: the-tale-of-tom-dick-and-harry
+alias: blog/2014/05/the-tale-of-tom-dick-and-harry/
+alias_1: 2014/05/07/the-tale-of-tom-dick-and-harry/
 ---
 
 This article describes three fictional characters as they all learn how various tools and methodologies work in the world of technology, internets and programming.

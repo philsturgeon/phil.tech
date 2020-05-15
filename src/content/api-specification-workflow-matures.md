@@ -4,7 +4,9 @@ author: [Phil]
 title: "Design-first API Specification Workflow Matures"
 date: 2018-03-01
 tags: [api, json-schema, api-specs, openapi]
-# comments: true
+comments: true
+disqus_identifier: api-specification-workflow-matures
+alias_1: api/2018/03/01/api-specification-workflow-matures/
 ---
 
 Back in October I wrote _[Chasing the Perfect API Specification Workflow]_, which was a huge article about the state of the API specification world. One person trying to figure out a good workflow, in a sea of alternative specifications, with incomplete tooling, making it hard to see a solution for all the partial bits of functionality.

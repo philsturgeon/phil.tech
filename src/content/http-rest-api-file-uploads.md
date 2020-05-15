@@ -4,7 +4,9 @@ author: [Phil]
 title: HTTP/REST API File Uploads
 date: 2016-01-04 05:52:00+00:00
 tags: [api, http, uploads]
-# alias: 2016/01/04/http-rest-api-file-uploads/
+disqus_identifier: http-rest-api-file-uploads
+alias: 2016/01/04/http-rest-api-file-uploads/
+alias_1: api/2016/01/04/http-rest-api-file-uploads/
 ---
 
 File uploads are one thing that always feel rather complicated, and working out how to handle this in an API doesn't make life easier. For many programmers, this has been abstracted away behind the HTTP standard, HTML and convenient features in languages like PHP, that populate a `$_FILES` array for us to play with. This is not really how it works for an API.

@@ -7,10 +7,11 @@ excerpt: I've been talking recently about what The League of Extraordinary Packa
   syndrome to help the community focus on quality instead of quantity. Today I noticed
   a new pet-peeve.
 date: '2014-10-21 12:21:00'
-# TODO: no tags? Ask Phil.
-# comments: true
-# disqus_identifier: describe-your-php-component
-# alias: blog/2014/10/describe-your-php-component/
+# TODO: no tags? 
+comments: true
+disqus_identifier: describe-your-php-component
+alias: blog/2014/10/describe-your-php-component/
+alias_1: blog/2014/10/describe-your-php-component/
 ---
 
 I've been talking recently about what [The League of Extraordinary Packages](/blog/2014/10/what-is-the-league-of-extraordinary-packages) is up to, and made a plea to [avoid "Not Invented Here" syndrome](/blog/2014/10/php-wars-attack-of-the-clones) to help the community focus on quality instead of quantity. Today I came across a new pet-peeve. 

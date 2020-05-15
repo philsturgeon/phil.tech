@@ -8,9 +8,10 @@ excerpt: >
   and restoring deleted content from API in a RESTful way. With most things, it didn't
   fit on Twitter, so I promised him a blog. 
 date: '2014-05-25 14:20:00'
-# alias: blog/2014/05/restful-deletions-restorations-and-revisions/
-# comments: true
-# disqus_identifier: restful-deletions-restorations-and-revisions
+comments: true
+disqus_identifier: restful-deletions-restorations-and-revisions
+alias: blog/2014/05/restful-deletions-restorations-and-revisions/
+alias_1: rest/2014/05/25/restful-deletions-restorations-and-revisions/
 ---
 
 Two weeks ago I posted [RESTful URLs: Actions Need Not Apply](/blog/2014/05/restful-urls-actions-need-not-apply) which was all about how the only action/verb to appear in the HTTP Request should be the HTTP Method itself (GET, POST, PUT, DELETE, HEAD, etc).

@@ -4,7 +4,9 @@ author: [Phil]
 title: No Booze for a Month
 date: 2015-08-22 17:30:00+00:00
 tags: [cycling, charity, brakingaids]
-# comments: true
+comments: true
+disqus_identifier: no-booze
+alias_1: charity/2015/08/22/no-booze/
 ---
 
 In 5 weeks I'll be riding my bike a really long way to raise money for charity. Sadly, as I ride bikes all the time, not so many people are interested in forking out. Luckily, I have a plan!

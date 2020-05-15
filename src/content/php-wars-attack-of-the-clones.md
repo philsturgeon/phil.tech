@@ -8,9 +8,10 @@ excerpt: 'In the last article I said I wanted to write about when its a good ide
   does what I want, and if so, can I use it? Should I release a PR or make my own?
   Why should I maybe avoid writing something that already exists?'
 date: '2014-10-20 16:20:00'
-# alias: blog/2014/10/php-wars-attack-of-the-clones/
-# comments: true
-# disqus_identifier: php-wars-attack-of-the-clones
+comments: true
+disqus_identifier: php-wars-attack-of-the-clones
+alias: blog/2014/10/php-wars-attack-of-the-clones/
+alias_1: php/2014/10/20/php-wars-attack-of-the-clones/
 ---
 
 In the last article I said I wanted to write about when its a good idea to release a component. A lot of this comes down to: is there one out there that does what I want, and if so, can I use it?

@@ -4,7 +4,9 @@ author: [Phil]
 title: "Talking About Diversity: Conspiracy"
 date: 2016-08-02 18:49:00+00:00
 tags: [humans, equality, nahitsfine, php]
-# comments: true
+comments: true
+disqus_identifier: talking-about-diversity-conspiracy
+alias_1: 2016/08/02/talking-about-diversity-conspiracy/
 ---
 
 This is part two of a blog series, about why the PHP community is having a rough time talking about diversity related issues (like code of conducts), and struggling to handle toxic behaviors from members.

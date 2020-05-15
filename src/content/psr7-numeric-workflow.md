@@ -4,9 +4,11 @@ author: [Phil]
 title: "A Quick Note on PSR Numbering"
 date: 2015-05-05 18:04:00+00:00
 tags: [php, php-fig, psr7]
-# comments: true
 excerpt: "The last PSR from the FIG to be sent out into the world, to be used by whoever felt like using it, was PSR-4: Autoloader. Now people are starting
 to hear about PSR-7, and they're starting to lolphp, wondering what has happened to PSR-5 and PSR-6."
+comments: true
+disqus_identifier: psr7-numeric-workflow
+alias_1: php/2015/05/05/psr7-numeric-workflow/
 ---
 
 The last PSR from the FIG to be sent out into the world, to be used by whoever felt like using it, was [PSR-4: Autoloader]. Now people are starting

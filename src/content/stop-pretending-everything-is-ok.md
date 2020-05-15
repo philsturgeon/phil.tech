@@ -10,9 +10,10 @@ excerpt: We work in an industry where far too many people pretend that everythin
   and never admit that it became outdated. That is unrealistic bullshit and I am asking
   you to stop.
 date: '2014-08-15 22:10:00'
-# alias: blog/2014/08/stop-pretending-everything-is-ok/
-# comments: true
-# disqus_identifier: stop-pretending-everything-is-ok
+comments: true
+disqus_identifier: stop-pretending-everything-is-ok
+alias: blog/2014/08/stop-pretending-everything-is-ok/
+alias_1: personal/2014/08/15/stop-pretending-everything-is-ok/
 ---
 
 We work in an industry where far too many people pretend that everything is O.K. We pretend that sexism isn't rife. We pretend that startup failures are a "success" in some way. We ignore negative feedback and only publish success. We pretend that our work is amazing and worry too much about how it was a good idea, and never admit that it became outdated.

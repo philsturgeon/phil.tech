@@ -4,7 +4,9 @@ author: [Phil]
 title: "Dredd v1.1.0: A Bit Different"
 date: 2016-06-20 18:11:00+00:00
 tags: [http, api, dredd, apiblueprint]
-# comments: true
+comments: true
+disqus_identifier: dredd-v1-1-0-a-bit-different
+alias_1: api/2016/06/20/dredd-v1-1-0-a-bit-different/
 ---
 
 A new version of Dredd - the API Documentation testing tool from [Apiary Inc.] - has been released, and it has changed

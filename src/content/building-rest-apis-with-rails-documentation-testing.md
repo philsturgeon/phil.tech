@@ -4,14 +4,15 @@ author: [Phil]
 title: "Building APIs with Rails: Documentation Testing"
 date: 2016-12-11 11:59:23
 tags: [building-rest-apis-in-rails, http, api, video, dredd]
-# comments: true
+comments: true
+disqus_identifier: building-rest-apis-with-rails-documentation-testing
+alias_1: api/2016/12/21/building-rest-apis-with-rails-documentation-testing/
 ---
 
 Now that we've started building a very basic API, we should make sure that the documentation is kept up to date with our progress. Even better, we can use our documentation as a basic contract test, to make sure we aren't lying about what our API offers.
 
 I've written tutorials in the past about [how Dredd works](https://phil.tech/api/2015/01/28/dredd-api-testing-documentation/), so this video will just go over this stuff in a bit more detail.
 
-<!-- TODO: Youtube? -->
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dJXTWVuE89Q" frameborder="0" allowfullscreen></iframe>
 
 **[Source Code](https://github.com/philsturgeon/livecoding-apisyouwonthate/tree/master/episode-04-contract-testing-with-dredd)**

@@ -36,9 +36,9 @@ export const MetaContent: React.FC<MetaContentProps> = ({author, datetime, displ
         {tags && tags.length > 0 && <span className="bull">&bull;</span>}
         {tags && tags.length > 0 && (
           <Tags className="post-card-tags">
-            {tags.map(tag => {
+            {tags.map((tag, index) => {
               return(
-                <Link to={`/tags/${_.kebabCase(tag)}`}>{tag}</Link>
+                <Link key={index} to={`/tags/${_.kebabCase(tag)}`}>{tag}</Link>
               )
             })}
           </Tags>

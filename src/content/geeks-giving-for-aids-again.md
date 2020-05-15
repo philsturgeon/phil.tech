@@ -4,8 +4,10 @@ author: [Phil]
 title: 'Geeks Giving for Aids: 2015'
 date: 2015-08-11 21:30:00+00:00
 tags: [cycling, charity, brakingaids]
-# comments: true
 image: img/2015-08-11-geeks-giving-for-aids-again/header.jpg
+comments: true
+disqus_identifier: geeks-giving-for-aids-again
+alias_1: charity/2015/08/11/geeks-giving-for-aids-again/
 ---
 
 Back in 2013 I did a three-day ride from Boston to New York, along with hundreds of amazing people. Everyone was in various levels of fitness and with various levels of interest in cycling, all who had come together with the aim of helping raise a shitload of money to help those living with HIV/Aids.

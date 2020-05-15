@@ -4,7 +4,9 @@ author: [Phil]
 title: "PHP 7 Feature Freeze"
 date: 2015-03-15 12:10:00+00:00
 tags: [php, internals, php7]
-# comments: true
+comments: true
+disqus_identifier: php-7-feature-freeze
+alias_1: php/2015/03/15/php-7-feature-freeze/
 ---
 
 Today was the feature freeze for PHP 7. That means no new votes can be started for a feature that is aimed at PHP 7.0, and would instead have to go into PHP 7.1.

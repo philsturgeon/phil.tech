@@ -4,6 +4,8 @@ author: [Phil]
 title: Picking the right API Paradigm
 date: 2018-05-21
 tags: [rpc, soap, graphql, rest, api design, architecture]
+disqus_identifier: picking-an-api-paradigm-implementation
+alias_1: 2018/05/21/picking-an-api-paradigm-implementation/
 ---
 
 A while back I wrote an article called [Understanding RPC, REST and GraphQL](https://blog.apisyouwonthate.com/understanding-rpc-rest-and-graphql-2f959aadebe7) which outlined the "what" in how these various approaches differ. This got a few people thinking I was saying REST was drastically superior in all ways, which is a common conclusion when folks hear me describe REST as a layer of abstractions on top of RPC... More abstractions does not mean definitively "better", sometimes that's going to be overkill, so let's look at when you might want to use which.

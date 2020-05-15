@@ -4,8 +4,10 @@ author: [Phil]
 title: "API Documentation: Do it First"
 date: 2016-11-22 03:58:23+00:00
 tags: [building-rest-apis-in-rails, http, api, apiblueprint, video]
-# comments: true
-# alias: building-rest-apis-in-rails/2016/11/22/building-rest-apis-in-rails-documentation-first/
+comments: true
+disqus_identifier: apis-documentation-first
+alias: building-rest-apis-in-rails/2016/11/22/building-rest-apis-in-rails-documentation-first/
+alias_1: api/2016/11/22/apis-documentation-first/
 ---
 
 Two years ago I finished the first edition of [Build APIs You Won't Hate](https://apisyouwonthate.com), and since then I've worked on bigger and better projects, using my API experience, honing some approaches, and throwing out some approaches entirely.

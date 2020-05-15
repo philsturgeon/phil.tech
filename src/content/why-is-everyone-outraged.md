@@ -5,6 +5,8 @@ title: Why Is Everyone Outraged?
 date: 2016-01-27 01:29:00+00:00
 tags: [equality, outrage, political correctness, humans]
 comments: false
+disqus_identifier: why-is-everyone-outraged
+alias_1: 2016/01/27/why-is-everyone-outraged/
 ---
 
 There have been about twenty articles I want to write about equality in tech, and they all end up crossing over into one big mess. I'm going to start unpicking these articles into a series, and I want to start by asking this question.

@@ -3,8 +3,10 @@ layout: post
 author: [Phil]
 title: Deploying with Git-Flow, Tags and CircleCI
 date: 2015-11-20 23:53:00+00:00
-# TODO: no tag? Check with Phil
+# TODO: no tag?
 tags: []
+disqus_identifier: deploying-with-git-flow-tags-and-circleci
+alias_1: 2015/11/20/deploying-with-git-flow-tags-and-circleci/
 ---
 
 Want an integrated deployment process that sends tags off to the right environment (QA or Production) automatically as soon as they're pushed to Git? Read on!

@@ -4,7 +4,9 @@ author: [Phil]
 title: Avoid Hardcoding HTTP Status Codes
 date: 2015-08-16 21:53:00+00:00
 tags: [http, api]
-# comments: true
+comments: true
+disqus_identifier: avoid-hardcoding-http-status-codes
+alias_1: http/2015/08/16/avoid-hardcoding-http-status-codes/
 ---
 
 A lot of things in programming are argued to death, but one subject where people almost unanimously agree is that magic numbers can be a pain in the ass, and they should be avoided whenever possible. Sadly when it comes to HTTP status codes, people keep on hardcoding them, and it leads to all sorts of confusion.

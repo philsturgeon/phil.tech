@@ -4,8 +4,10 @@ author: [Phil]
 title: "Twatty Fallacies when Fox and Friends talk Flags"
 date: 2015-07-04 18:04:00+00:00
 tags: [politics, usa, racism]
-# comments: true
 excerpt: Usually this blog is about programming. I try to stick to what I know, but one thing I have a lot of experience with is pointing out shit arguments used to defend nonsense. The USA has been suffering from a bout of nonsense after the awful Charleston shooting, and here are my thoughts on that.
+comments: true
+disqus_identifier: twatty-fallacies-fox-charleston-shooting
+alias_1: politics/2015/07/04/twatty-fallacies-fox-charleston-shooting/
 ---
 
 Usually this blog is about programming. I try to stick to what I know, but one thing I have a lot of experience with is pointing out shit arguments used to defend nonsense. Whether it is excuses to [keep a single PHP error message in Hebrew](/blog/2013/09/t-paamayim-nekudotayim-v-sanity/), or [rebuking wildly inaccurate claims that NodeJS is magically faster than PHP](/blog/2013/11/benchmarking-codswallop-nodejs-v-php/), I find myself doing the same thing: calling bullshit on nonsense arguments.

@@ -6,9 +6,10 @@ tags: [php]
 excerpt: This is the story of group of friends, who decided to write some code, but
   somehow confused and angered everyone with a keyboard.
 date: '2014-10-16 14:00:00'
-# alias: blog/2014/10/what-is-the-league-of-extraordinary-packages/
-# comments: true
-# disqus_identifier: what-is-the-league-of-extraordinary-packages
+comments: true
+disqus_identifier: what-is-the-league-of-extraordinary-packages
+alias: blog/2014/10/what-is-the-league-of-extraordinary-packages/
+alias_1: php/2014/10/16/what-is-the-league-of-extraordinary-packages/
 ---
 
 This is the story of group of friends, who decided to write some code, but somehow confused and angered everyone with a keyboard.
