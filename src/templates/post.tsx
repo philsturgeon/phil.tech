@@ -59,6 +59,8 @@ interface PostTemplateProps {
         excerpt: string;
         tags: string[];
         author: Author[];
+        comments?: boolean;
+        disqus_identifier: string;
       };
     };
     relatedPosts: {
@@ -125,10 +127,9 @@ const PostTemplate: React.FC<PostTemplateProps> = props => {
 
   const disqusConfig = {
     url: `${config.siteUrl + props.pathContext.slug}`,
-    identifier: post.id,
+    identifier: post.frontmatter.disqus_identifier,
     title: post.frontmatter.title,
   };
-  // Remote ID = "fdda2f5d-06a7-520d-8bdf-62cfc35b1b4f"
   console.log("disqusConfig: ", disqusConfig);
 
   return (
@@ -168,9 +169,9 @@ const PostTemplate: React.FC<PostTemplateProps> = props => {
 
               <PostContent htmlAst={post.htmlAst} />
 
-              {/* TODO: Do we want comment count? */}
+              {/* NOTE: Commented out until ad problem solves */}
               {/* <CommentCount config={disqusConfig} placeholder={'...'} /> */}
-              <Disqus config={disqusConfig} />
+              {post.frontmatter.comments && <Disqus config={disqusConfig} />}
 
               {/* The big email subscribe modal content */}
               {config.showSubscribe && <Subscribe title={config.title} />}
@@ -363,6 +364,8 @@ export const query = graphql`
         date
         tags
         excerpt
+        comments
+        disqus_identifier
         image {
           childImageSharp {
             fluid(maxWidth: 3720) {

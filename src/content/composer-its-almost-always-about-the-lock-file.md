@@ -1,7 +1,7 @@
 ---
 layout: post
 author: [Phil]
-title: 'Composer: It's ALMOST Always About the Lock File'
+title: "Composer: It's ALMOST Always About the Lock File"
 excerpt: > 
   When is it a good idea to commit your composer.lock file, and when should 
   you leave it out? 
