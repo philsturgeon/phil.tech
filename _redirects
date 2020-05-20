@@ -1,2 +1,22 @@
 # old middleman feed was here
 /feed.xml       /rss.xml
+
+# take old tags out of the URL
+/career/*       /:splat
+/charity/*      /:splat
+/api/*          /:splat
+/cms/*          /:splat
+/codeigniter/*  /:splat
+/devops/*       /:splat
+/feminism/*     /:splat
+/fuelphp/*      /:splat
+/http/*         /:splat
+/markdown/*     /:splat
+/personal/*     /:splat
+/politics/*     /:splat
+/pyrocms/*      /:splat
+/python/*       /:splat
+/php/*          /:splat
+/rails/*        /:splat
+/rest/*         /:splat
+/ruby/*         /:splat
