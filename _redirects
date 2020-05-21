@@ -1,22 +1,25 @@
 # old middleman feed was here
-/feed.xml       /rss.xml
+/feed.xml /rss.xml
+
+# old tagless posts
+/20:year/:month/:date/:slug /20:year/:slug
 
 # take old tags out of the URL
-/api/*          /:splat
-/career/*       /:splat
-/charity/*      /:splat
-/cms/*          /:splat
-/codeigniter/*  /:splat
-/devops/*       /:splat
-/feminism/*     /:splat
-/fuelphp/*      /:splat
-/http/*         /:splat
-/markdown/*     /:splat
-/personal/*     /:splat
-/politics/*     /:splat
-/pyrocms/*      /:splat
-/python/*       /:splat
-/php/*          /:splat
-/rails/*        /:splat
-/rest/*         /:splat
-/ruby/*         /:splat
+/api/:year/:month/:date/:slug           /:year/:slug
+/career/:year/:month/:date/:slug        /:year/:slug
+/charity/:year/:month/:date/:slug       /:year/:slug
+/cms/:year/:month/:date/:slug           /:year/:slug
+/codeigniter/:year/:month/:date/:slug   /:year/:slug
+/devops/:year/:month/:date/:slug        /:year/:slug
+/feminism/:year/:month/:date/:slug      /:year/:slug
+/fuelphp/:year/:month/:date/:slug       /:year/:slug
+/http/:year/:month/:date/:slug          /:year/:slug
+/markdown/:year/:month/:date/:slug      /:year/:slug
+/personal/:year/:month/:date/:slug      /:year/:slug
+/politics/:year/:month/:date/:slug      /:year/:slug
+/pyrocms/:year/:month/:date/:slug       /:year/:slug
+/python/:year/:month/:date/:slug        /:year/:slug
+/php/:year/:month/:date/:slug           /:year/:slug
+/rails/:year/:month/:date/:slug         /:year/:slug
+/rest/:year/:month/:date/:slug          /:year/:slug
+/ruby/:year/:month/:date/:slug          /:year/:slug
