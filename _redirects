@@ -2,9 +2,9 @@
 /feed.xml       /rss.xml
 
 # take old tags out of the URL
+/api/*          /:splat
 /career/*       /:splat
 /charity/*      /:splat
-/api/*          /:splat
 /cms/*          /:splat
 /codeigniter/*  /:splat
 /devops/*       /:splat
