@@ -1,8 +1,8 @@
 # old middleman feed was here
-/feed.xml /rss.xml
+/feed.xml                               /rss.xml
 
 # old tagless posts
-/20:year/:month/:date/:slug /20:year/:slug
+/20:year/:month/:date/:slug             /20:year/:slug
 
 # take old tags out of the URL
 /api/:year/:month/:date/:slug           /:year/:slug
