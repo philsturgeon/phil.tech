@@ -3,3 +3,83 @@
 
 [[plugins]]
   package = "netlify-plugin-gatsby-cache"
+
+[[redirects]]
+  from = "/feed.xml"
+  to = "/rss.xml"
+
+[[redirects]]
+  from = "/api/:year/:month/:date/:slug"
+  to = "/:year/:slug"
+
+[[redirects]]
+  from = "/career/:year/:month/:date/:slug"
+  to = "/:year/:slug"
+
+[[redirects]]
+  from = "/charity/:year/:month/:date/:slug"
+  to = "/:year/:slug"
+
+[[redirects]]
+  from = "/cms/:year/:month/:date/:slug"
+  to = "/:year/:slug"
+
+[[redirects]]
+  from = "/codeigniter/:year/:month/:date/:slug"
+  to = "/:year/:slug"
+
+[[redirects]]
+  from = "/devops/:year/:month/:date/:slug"
+  to = "/:year/:slug"
+
+[[redirects]]
+  from = "/feminism/:year/:month/:date/:slug"
+  to = "/:year/:slug"
+
+[[redirects]]
+  from = "/fuelphp/:year/:month/:date/:slug"
+  to = "/:year/:slug"
+
+[[redirects]]
+  from = "/http/:year/:month/:date/:slug"
+  to = "/:year/:slug"
+
+[[redirects]]
+  from = "/markdown/:year/:month/:date/:slug"
+  to = "/:year/:slug"
+
+[[redirects]]
+  from = "/personal/:year/:month/:date/:slug"
+  to = "/:year/:slug"
+
+[[redirects]]
+  from = "/politics/:year/:month/:date/:slug"
+  to = "/:year/:slug"
+
+[[redirects]]
+  from = "/pyrocms/:year/:month/:date/:slug"
+  to = "/:year/:slug"
+
+[[redirects]]
+  from = "/python/:year/:month/:date/:slug"
+  to = "/:year/:slug"
+
+[[redirects]]
+  from = "/php/:year/:month/:date/:slug"
+  to = "/:year/:slug"
+
+[[redirects]]
+  from = "/rails/:year/:month/:date/:slug"
+  to = "/:year/:slug"
+
+[[redirects]]
+  from = "/rest/:year/:month/:date/:slug"
+  to = "/:year/:slug"
+
+[[redirects]]
+  from = "/ruby/:year/:month/:date/:slug"
+  to = "/:year/:slug"
+
+[[redirects]]
+  from = "/20:year/:month/:date/:slug"
+  to = "/20:year/:slug"
