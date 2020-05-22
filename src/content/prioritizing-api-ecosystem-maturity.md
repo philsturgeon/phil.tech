@@ -72,7 +72,9 @@ When enough teams were on the way with OpenAPI, I started the next phase.
 
 I lived in NewRelic for a few months. It was everywhere but entirely underutilized. Every API you opened up was clearly struggling, but nobody was looking, and when they did they were looking at average times not percentiles so an app that looked good was actually struggling and nobody could see. No alerts were set up.
 
-Basically I picked a few of the largest upstream APIs and went to work on them. There were some folks saying it needed to be rewritten in gRPC, some suggesting GraphQL was the only way to save it, but this RESTish HTTP/1 mess of mega payloads had far bigger problems. Comically the three slowest endpoints were `GET /v1/users/{id}`, `GET /v2/users/{uuid}` and `GET /v3/users/{uuid}`, which all had their own unique challenges. 
+I baked [timeout logic](https://apisyouwonthate.com/blog/taking-a-timeout-from-poor-performance) into the WeWork-branded HTTP client that was used either directly, or via various SDKs. At first the max timeout was set to 20s, because there were some API endpoints that would genuinely take 20s to respond. We fixed the errors as we popped up, then tweaked it down to 15s.
+
+From there I picked two of the largest upstream APIs and went to work on them. There were some folks saying it needed to be rewritten in gRPC, some suggesting GraphQL was the only way to save it, but this RESTish [HTTP/1 mess of mega payloads](https://apisyouwonthate.com/blog/lets-stop-building-apis-around-a-network-hack) had far bigger problems. Comically the three slowest endpoints were `GET /v1/users/{id}`, `GET /v2/users/{uuid}` and `GET /v3/users/{uuid}`, which all had their own unique challenges. 
 
 Working with [Tom Clark](https://twitter.com/itstomclark) - an evil genius with Ruby and Postgres optimizations - we figured out 100 different changes to be made, with everything from DB indexes to object allocation making big wins here and there. After a few weeks we'd got the worst offending endpoints down from the 2s-10s range, and everything under 1s. 
 
