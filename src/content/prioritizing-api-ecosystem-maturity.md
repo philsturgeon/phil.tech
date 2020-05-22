@@ -9,7 +9,7 @@ date: '2020-05-22 10:00:00'
 comments: true
 ---
 
-In the first week of working at WeWork in 2016 I rather quickly discovered that the entire architecture was a total mess...
+When I started working at WeWork back in 2016 I rather quickly discovered that the entire architecture was a total mess... Over the course of the 18 months I managed to stay there, we fixed a whole lot of that mess.
 
 APIs were built for a specific client and useless for other clients, so seeing a v6 for a service only a year or two old wasn't unheard of.
 
