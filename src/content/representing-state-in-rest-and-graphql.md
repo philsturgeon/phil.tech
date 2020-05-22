@@ -7,7 +7,6 @@ date: 2017-06-19
 tags: [hypermedia, hateoas, graphql, rest, api, http]
 comments: true
 disqus_identifier: representing-state-in-rest-and-graphql
-alias_1: api/2017/06/19/representing-state-in-rest-and-graphql/
 ---
 
 Representing state is a complex thing. At my last two jobs, it's been very common for APIs to be treated like "databases over HTTP". The fields are sent up and down from the server to multiple mobile/web apps, and there's not too much else going on.

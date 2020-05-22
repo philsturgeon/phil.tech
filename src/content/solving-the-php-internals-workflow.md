@@ -11,8 +11,6 @@ excerpt: PHP internals has been a cold, harsh, unwelcome land for a long time, a
 date: '2013-09-12 01:44:00'
 comments: true
 disqus_identifier: solving-the-php-internals-workflow
-alias: blog/2013/09/solving-the-php-internals-workflow/
-alias_1: php/2013/09/12/solving-the-php-internals-workflow/
 ---
 
 On Monday I posted a [tale of woe](/blog/2013/09/t-paamayim-nekudotayim-v-sanity), which like any good tale had a moral at the end.

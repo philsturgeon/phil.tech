@@ -7,7 +7,6 @@ date: 2018-01-20
 tags: [api, rest, rpc, soap, http2]
 comments: true
 disqus_identifier: rest-confusion-explained-further
-alias_1: api/2018/01/20/rest-confusion-explained-further/
 ---
 
 One month after [A Response to REST is the new SOAP](https://phil.tech/api/2017/12/18/rest-confusion-explained/) and I'm still having a productive dialog with the author, helping him understand how REST works. I thought it might interest some of you too.
