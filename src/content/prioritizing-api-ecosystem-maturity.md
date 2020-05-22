@@ -33,11 +33,11 @@ Everything was the lowest quality RESTish API, not a single actual REST API ther
 
 The web and mobile versions of the same client were full of duplicated logic that would show different options for the same user because somebody forgot to add the 8th condition to an if statement, no shared logic.
 
-## 😳
+## So... 😳
 
 There was a lot of work to be done, but getting this all in the right order was important due to basically working on this alone, with 80-150 developers who were all just focused on tight deadlines and mostly not on quality. How do you pick what to work on when and in what order?
 
-Using actual REST would have solved many of their client-side logic mismatch issues, thanks to the concept of REST being a state machine over HTTP (HATEOAS = A++ at this).
+Using [actual REST](https://apisyouwonthate.com/blog/rest-and-hypermedia-in-2019) would have solved many of their client-side logic mismatch issues, thanks to the concept of REST being a [state machine over HTTP](https://apisyouwonthate.com/blog/representing-state-in-rest-and-graphql) (HATEOAS = A++ at this).
 
 HTTP/2 would have solved their HTTP/1-based fears over "going over the wire" more than once.
 
