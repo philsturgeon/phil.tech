@@ -11,9 +11,10 @@ comments: true
 
 When I started working at WeWork back in 2016 I rather quickly discovered that the entire architecture was a total mess... Over the course of the 18 months I managed to stay there, we fixed a whole lot of that mess.
 
-APIs were built for a specific client and useless for other clients, so seeing a v6 for a service only a year or two old wasn't unheard of.
 
-No APIs were documented so people would just build a new version of whatever resource they needed. If `/v2/users` existed and the GET was fine but the POST needed to change, they'd make a `POST /v3/users` and let everyone keep using the `/v2/users` forever. Or vice versa. There was no pattern to any of it. You might hit a v1, v2, v3 and v6 endpoint in the same client codebase.
+No APIs were documented so people would just build a new version of whatever resource they needed. If `/v2/users` existed and the GET was fine but the POST needed to change, they'd make a `POST /v3/users` and let everyone keep using the `GET /v2/users` forever. Or vice versa. There was no pattern to any of it. You might hit a v1, v2, v3 and v6 endpoint in the same client codebase.
+
+APIs were built based on what the team thought one client would need, but usually ended up being unusable for other clients, so seeing a v6 for a service only a year or two old wasn't unheard of.
 
 Every API (and API version) would use whatever data format and error format it liked, meaning you could be hitting multiple error formats in the same codebase. Customers seeing "Error: [object]" was common.
 
