@@ -11,7 +11,6 @@ comments: true
 
 When I started working at WeWork back in 2016 I rather quickly discovered that the entire architecture was a total mess... Over the course of the 18 months I managed to stay there, we fixed a whole lot of that mess.
 
-
 No APIs were documented so people would just build a new version of whatever resource they needed. If `/v2/users` existed and the GET was fine but the POST needed to change, they'd make a `POST /v3/users` and let everyone keep using the `GET /v2/users` forever. Or vice versa. There was no pattern to any of it. You might hit a v1, v2, v3 and v6 endpoint in the same client codebase.
 
 APIs were built based on what the team thought one client would need, but usually ended up being unusable for other clients, so seeing a v6 for a service only a year or two old wasn't unheard of.
@@ -40,9 +39,9 @@ There was a lot of work to be done, but getting this all in the right order was 
 
 Using [actual REST](https://apisyouwonthate.com/blog/rest-and-hypermedia-in-2019) would have solved many of their client-side logic mismatch issues, thanks to the concept of REST being a [state machine over HTTP](https://apisyouwonthate.com/blog/representing-state-in-rest-and-graphql) (HATEOAS = A++ at this).
 
-HTTP/2 would have solved their HTTP/1-based fears over "going over the wire" more than once.
+[HTTP/2 would have solved their HTTP/1-based fears](https://apisyouwonthate.com/blog/lets-stop-building-apis-around-a-network-hack) over "going over the wire" more than once.
 
-API evolution would have helped avoid v13 for minor nonsense.
+[API evolution](https://apisyouwonthate.com/blog/api-evolution-for-rest-http-apis) would have helped avoid v13 for minor nonsense.
 
 In the end this was the approach:
 
@@ -51,7 +50,7 @@ In the end this was the approach:
 3. Drain the swamp
 4. Create a Style Guide
 
-## Document the Existing Mess
+## 1. Document the Existing Mess
 
 I asked around for people interested in documenting APIs using OpenAPI. The reasoning here is that its rather hard to fix problems you can't see, and having no visibility into which APIs are using which data formats, versioning schemes, what data looks like where, is hard if you're messing around in code or packet sniffing.
 
@@ -61,7 +60,7 @@ Regardless, we got a bunch of people to create OpenAPI descriptions, converting 
 
 We picked the biggest, most important, most used APIs first, and eventually others got involved wanted to "do the right thing".
 
-For teams with multiple APIs I recommended documenting the latest version of their API, and for the APIs with bizarre method+resource versioning (GET /v3/users & POST /v2/users) they should document all of the latest methods. 
+For teams with multiple API versions I recommended documenting the latest version of their API, and for the APIs with bizarre method+resource versioning (`GET /v3/users` & `POST /v2/users`) they should document all of the latest methods. 
 
 The goal was not to immediately solve many problems, and it would have been easy to get bogged down in making everything lovely, but we had to stay focused on just documenting the existing mess.
 
@@ -93,7 +92,7 @@ The first endpoint stayed the same, bloated with infinite information, but we ad
 
 That locale endpoint solved a performance issue for the other megamonolith: B would hit A on `/users/{uuid}` to find out the locale (`en-GB`, `pt-BR`) and get 489657 lines of JSON back, some of which required a call back to B. This self dependency meant if either started to get slow they'd both just crash, and that was happening for _no reason_. Moving the locale information to its own endpoint sped things up _and_ avoided the self dependency.
 
-We then also shoved `Cache-Control` headers on these endpoints, easily providing HTTP Caching to happen on the client side, and on Fastly too, which was already there just being ignored by most APIs. This sped up every client who [enabled HTTP caching middleware](https://apisyouwonthate.com/blog/speeding-up-apis-apps-smart-toasters-with-http-response-caching) in the HTTP clients with a one line change on their part.
+We then also shoved `Cache-Control` headers on these endpoints, easily providing HTTP Caching to happen on the client side, and on [Fastly](https://www.fastly.com/) too, which was already there just being ignored by most APIs. This sped up every client who [enabled HTTP caching middleware](https://apisyouwonthate.com/blog/speeding-up-apis-apps-smart-toasters-with-http-response-caching) in the HTTP clients with a one line change on their part.
 
 Taking literally the slowest (and most important) API in the entire company and getting most of it quicker than the next fastest API got some attention from people, which helped with the next steps.
 
@@ -127,9 +126,9 @@ Reducing the surface area of problems for API teams meant they had more time on 
 
 When you've got an ecosystem of terrible APIs, with inconsistent naming, overlaping terminology (account means 5 different things), inconsistent data formats, and a myriad of other problems, you need to educate people in how to make an API better. I'm not going to tell everyone at WeWork to read my book (although I did see it sat on a few desks), but I tried really hard to educate by starting an "API Guild", doing various training sessions with teams, talking to team leads one-on-one about why problems happened, trawling postmortems to find ways things could have been avoided, then writing it all down in a big old style guide. 
 
-The style guide started in [Gitbook](https://gitbook.io/) 
+The style guide started in [Gitbook](https://gitbook.io/) as a very opinionated "How to best buid APIs at WeWork" guide. Instead of teaching the various pros and cons of all the ways of doing something and hoping people came to a good decision, it pretty much said "Do X, maaaaaaaaybe Y for these reasons", because two approaches were better than infinite unique snowflakes.
 
-Creating a style guide could say awesome things like:
+Boiled down it said various things like:
 
 - Error formats must be [RFC 7807](https://tools.ietf.org/html/rfc7807) or [JSON:API Errors](https://jsonapi.org/examples/#error-objects-basics).
 - Pagination should be Cursor-based not Page-based.
@@ -141,7 +140,7 @@ Creating a style guide could say awesome things like:
 
 Then I set to work writing automated tooling which would sniff for as much of this as possible, creating a tool called "Speccy", which has now been replaced with [Spectral](https://stoplight.io/spectral).
 
-Custom rules can be created using a simple DSL, and you can even create custom functons with JavaScript when that DSL is not enough, meaning rules like this could be made:
+Custom rules can be created using a simple DSL, and you can even create custom functions with JavaScript when that DSL is not enough, meaning rules like this could be made:
 
 - This endpoint is missing a `Cache-Control` header.
 - This API description has three different versions in it, please deprecate the oldest.
@@ -156,7 +155,7 @@ I've been talking a lot about API Design First over the last few years here and 
 
 Folks would submit their plan for a new API or a new version, then the automated style guide would provide a bunch of feedback, and we'd be able to ask more questions for far more interesting things like:
 
-> Where is that data coming from? A local DB or... AGH you're "syncing" thousands of records from another service hourly? _Please do not!_
+> Where is that data coming from? A local DB or... AGH you're "syncing" thousands of records from another service hourly with polling? _Please do not you'll kill it!_
 
 Learn more about [automated style guides](https://apisyouwonthate.com/blog/automated-style-guides-for-rest-graphql-and-grpc) over here.
 
