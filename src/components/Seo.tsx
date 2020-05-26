@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet';
 
 import config from '../website-config';
 import { PageContext } from '../templates/post';
-import favicon from '../content/img/favicon.jpg'
+import defaultImage from '../content/img/favicon.jpg'
 
 export interface SeoProps {
   post: PageContext;
@@ -19,7 +19,6 @@ export interface SeoProps {
 }
 
 export const Seo: React.FC<SeoProps> = ({post, width, height, pathContext, title, description, path, image}) => {
-  const defaultImage = favicon;
   const urlPath = pathContext? pathContext.slug : path;
   const imagePath = post && post.frontmatter.image? post.frontmatter.image.childImageSharp.fluid.src : image || defaultImage;  
   
