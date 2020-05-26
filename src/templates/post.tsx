@@ -164,6 +164,16 @@ const PostTemplate: React.FC<PostTemplateProps> = props => {
                 </PostFullByline>
               </PostFullHeader>
 
+              {post.frontmatter.image && post.frontmatter.image.childImageSharp && (
+                <PostFullImage>
+                  <Img
+                    style={{ height: '100%' }}
+                    fluid={post.frontmatter.image.childImageSharp.fluid}
+                    alt={post.frontmatter.title}
+                  />
+                </PostFullImage>
+              )}
+
               <PostContent htmlAst={post.htmlAst} />
 
               {/* NOTE: Commented out until ad problem solves */}
@@ -241,6 +251,28 @@ export const PostFullHeader = styled.header`
 
   @media (max-width: 500px) {
     padding: 20px 0 35px;
+  }
+`;
+
+const PostFullImage = styled.figure`
+  margin: 25px 0 50px;
+  height: 800px;
+  background: ${colors.lightgrey} center center;
+  background-size: cover;
+  border-radius: 5px;
+  @media (max-width: 1170px) {
+    margin: 25px -6vw 50px;
+    border-radius: 0;
+    img {
+      max-width: 1170px;
+    }
+  }
+  @media (max-width: 800px) {
+    height: 400px;
+  }
+  @media (max-width: 500px) {
+    margin-bottom: 4vw;
+    height: 350px;
   }
 `;
 

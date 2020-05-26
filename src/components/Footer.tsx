@@ -15,6 +15,7 @@ export const Footer: React.FC = () => {
           <a href={config.offset} target="_blank" rel="noopener noreferrer">🌲 Buy me a tree</a>
           <a href="https://phil.bike/" target="_blank" rel="noopener noreferrer">🚵‍♂️ Bike Nomading</a>
           <a href="https://apisyouwonthate.com/" target="_blank" rel="noopener noreferrer">🛠️ APIs You Won't Hate</a>
+          <span>🌍 Protect Earth</span>
         </SiteFooterNav>
         <SiteFooterNav>
           {config.twitter && (
@@ -41,7 +42,6 @@ const SiteFooter = css`
   position: relative;
   padding-top: 25px;
   padding-bottom: 25px;
-  // background: ${setLightness('0.0015', colors.darkgrey)};
   background: #536878; 
 `;
 
@@ -59,20 +59,17 @@ const SiteFooterContent = css`
     color: rgba(255, 255, 255, 1);
     text-decoration: none;
   }
-  @media (max-width: 650px) {
-    flex-direction: column;
-  }
 `;
 
 const SiteFooterNav = styled.nav`
   display: flex;
 
-  a {
+  a, span {
     position: relative;
     margin-left: 20px;
   }
 
-  a:before {
+  a:before, span:before {
     content: '';
     position: absolute;
     top: 11px;
@@ -83,6 +80,7 @@ const SiteFooterNav = styled.nav`
     background: #fff;
     border-radius: 100%;
   }
+
   a:first-of-type {
     margin-left: 0px;
 
@@ -94,6 +92,17 @@ const SiteFooterNav = styled.nav`
   @media (max-width: 650px) {
     a:first-of-type {
       margin-left: 0;
+    }
+
+    display: block;
+    
+    a, span {
+      display: block;
+      margin-left: 0;
+    }
+
+    a:before, span:before {
+      content: none;
     }
   }
 `;

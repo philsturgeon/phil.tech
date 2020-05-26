@@ -116,7 +116,7 @@ const PostCardLarge = css`
     }
 
     .post-card-content {
-      flex: 0 1 361px;
+      flex: 0 1 451px;
       justify-content: center;
     }
 

@@ -82,13 +82,14 @@ class SiteNav extends React.Component<SiteNavProps, SiteNavState> {
 
   render(): JSX.Element {
     const { isPost = false, post = {} } = this.props;
+
     return (
       <nav css={SiteNavStyles}>
         <SiteNavLeft className="site-nav-left">
           <SiteNavContent css={[this.state.showTitle ? HideNav : '']}>
             <ul css={NavStyles} role="menu">
               <li role="menuitem">
-                <Link to="/">Home</Link>
+                <Link to="/">Phil.tech</Link>
               </li>
               <li role="menuitem">
                 <Link to="/about">About</Link>
@@ -162,7 +163,6 @@ export const SiteNavMain = css`
   right: 0;
   left: 0;
   z-index: 1000;
-  /* background: color(var(--darkgrey) l(-5%)) */
   background: ${darken('0.05', colors.darkgrey)};
 
   @media (max-width: 700px) {

@@ -36,9 +36,9 @@ export const BookCard: React.FC<BookCardProps> = ({book}) => {
       <div className='book-content' css={BookCardContent}>
         <p>{book.description}</p>
         <div className="button-group" css={ButtonGroupStyles}>
-          {book.links.map(button => {
+          {book.links.map((button, index) => {
             return (
-              <a href={button.url} className={`book-button ${button.class}`}>
+              <a key={index} href={button.url} className={`book-button ${button.class}`}>
                 {button.label}
               </a>
             )
