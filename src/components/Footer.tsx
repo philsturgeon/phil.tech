@@ -15,6 +15,7 @@ export const Footer: React.FC = () => {
           <a href={config.offset} target="_blank" rel="noopener noreferrer">🌲 Buy me a tree</a>
           <a href="https://phil.bike/" target="_blank" rel="noopener noreferrer">🚵‍♂️ Bike Nomading</a>
           <a href="https://apisyouwonthate.com/" target="_blank" rel="noopener noreferrer">🛠️ APIs You Won't Hate</a>
+          <span>🌍 Protect Earth</span>
         </SiteFooterNav>
         <SiteFooterNav>
           {config.twitter && (
@@ -67,12 +68,12 @@ const SiteFooterContent = css`
 const SiteFooterNav = styled.nav`
   display: flex;
 
-  a {
+  a, span {
     position: relative;
     margin-left: 20px;
   }
 
-  a:before {
+  a:before, span:before {
     content: '';
     position: absolute;
     top: 11px;
@@ -83,6 +84,7 @@ const SiteFooterNav = styled.nav`
     background: #fff;
     border-radius: 100%;
   }
+
   a:first-of-type {
     margin-left: 0px;
 
