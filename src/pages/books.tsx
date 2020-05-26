@@ -38,6 +38,7 @@ const PageTemplate = css`
 
 
 const Books: React.FC = (props) => {
+  
   const { allBooksYaml } = useStaticQuery(
     graphql`
       query {
@@ -62,46 +63,45 @@ const Books: React.FC = (props) => {
     `
   )
 
-
   return( 
-  <IndexLayout>
-    <Seo 
-      title="Books"
-      description="My latest books"
-      path={props.path}
-    />
+    <IndexLayout>
+      <Seo 
+        title="Books"
+        description="My latest books"
+        path={props.path}
+      />
 
-    <Wrapper css={PageTemplate}>
-      <header className="site-archive-header no-image" css={[SiteHeader, SiteArchiveHeader]}>
-        <div css={[outer, SiteNavMain]}>
-          <div css={inner}>
-            <SiteNav isHome={false} />
+      <Wrapper css={PageTemplate}>
+        <header className="site-archive-header no-image" css={[SiteHeader, SiteArchiveHeader]}>
+          <div css={[outer, SiteNavMain]}>
+            <div css={inner}>
+              <SiteNav isHome={false} />
+            </div>
           </div>
-        </div>
-      </header>
-      <main id="site-main" className="site-main" css={[SiteMain, outer]}>
-        <div css={inner}>
-          <article className="post page" css={[PostFull, NoImage]}>
-            <PostFullHeader className="post-full-header">
-              <PostFullTitle className="post-full-title">Books</PostFullTitle>
-            </PostFullHeader>
+        </header>
+        <main id="site-main" className="site-main" css={[SiteMain, outer]}>
+          <div css={inner}>
+            <article className="post page" css={[PostFull, NoImage]}>
+              <PostFullHeader className="post-full-header">
+                <PostFullTitle className="post-full-title">Books</PostFullTitle>
+              </PostFullHeader>
 
-            <PostFullContent className="post-full-content">
-              <div className="post-content">
-                <p>Sometimes I write things even longer than a huge article.</p>
-                {allBooksYaml.edges.map(book => {
-                  return (
-                    <BookCard key={book.id} book={book.node} />
-                  );
-                })}
-              </div>
-            </PostFullContent>
-          </article>
-        </div>
-      </main>
-      <Footer />
-    </Wrapper>
-  </IndexLayout>
+              <PostFullContent className="post-full-content">
+                <div className="post-content">
+                  <p>Sometimes I write things even longer than a huge article.</p>
+                  {allBooksYaml.edges.map(book => {
+                    return (
+                      <BookCard key={book.node.id} book={book.node} />
+                    );
+                  })}
+                </div>
+              </PostFullContent>
+            </article>
+          </div>
+        </main>
+        <Footer />
+      </Wrapper>
+    </IndexLayout>
   );
 };
 
