@@ -38,8 +38,6 @@ const PageTemplate = css`
 
 
 const Books: React.FC = (props) => {
-  console.log("PROPS: ", props);
-  
   const { allBooksYaml } = useStaticQuery(
     graphql`
       query {
