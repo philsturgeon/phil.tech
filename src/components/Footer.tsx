@@ -12,10 +12,10 @@ export const Footer: React.FC = () => {
     <footer css={[outer, SiteFooter]}>
       <div css={[inner, SiteFooterContent]}>
         <SiteFooterNav>
-          <a href={config.offset} target="_blank" rel="noopener noreferrer">🌲 Buy me a tree</a>
-          <a href="https://phil.bike/" target="_blank" rel="noopener noreferrer">🚵‍♂️ Bike Nomading</a>
+          <a href="https://protect.earth/" target="_blank" rel="noopener noreferrer">🌍 Protect Earth</a>
           <a href="https://apisyouwonthate.com/" target="_blank" rel="noopener noreferrer">🛠️ APIs You Won't Hate</a>
-          <span>🌍 Protect Earth</span>
+          <a href="https://phil.bike/" target="_blank" rel="noopener noreferrer">🚵‍♂️ Bike Nomading</a>
+          <a href={config.offset} target="_blank" rel="noopener noreferrer">🌲 Buy me a tree</a>
         </SiteFooterNav>
         <SiteFooterNav>
           {config.twitter && (
@@ -42,7 +42,7 @@ const SiteFooter = css`
   position: relative;
   padding-top: 25px;
   padding-bottom: 25px;
-  background: #536878; 
+  background: #536878;
 `;
 
 const SiteFooterContent = css`
@@ -88,14 +88,14 @@ const SiteFooterNav = styled.nav`
       display: none;
     }
   }
-  
+
   @media (max-width: 650px) {
     a:first-of-type {
       margin-left: 0;
     }
 
     display: block;
-    
+
     a, span {
       display: block;
       margin-left: 0;
@@ -106,4 +106,3 @@ const SiteFooterNav = styled.nav`
     }
   }
 `;
-
