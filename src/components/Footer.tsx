@@ -42,7 +42,6 @@ const SiteFooter = css`
   position: relative;
   padding-top: 25px;
   padding-bottom: 25px;
-  // background: ${setLightness('0.0015', colors.darkgrey)};
   background: #536878; 
 `;
 
@@ -59,9 +58,6 @@ const SiteFooterContent = css`
   a:hover {
     color: rgba(255, 255, 255, 1);
     text-decoration: none;
-  }
-  @media (max-width: 650px) {
-    flex-direction: column;
   }
 `;
 
@@ -96,6 +92,17 @@ const SiteFooterNav = styled.nav`
   @media (max-width: 650px) {
     a:first-of-type {
       margin-left: 0;
+    }
+
+    display: block;
+    
+    a, span {
+      display: block;
+      margin-left: 0;
+    }
+
+    a:before, span:before {
+      content: none;
     }
   }
 `;
