@@ -9,21 +9,21 @@ disqus_identifier: openapi-and-json-schema-divergence
 alias_1: api/2018/03/30/openapi-and-json-schema-divergence/
 ---
 
-This article is going to explain the divergence between OpenAPI and JSON Schema, which I've been calling the subset/superset/sideset problem. It'll finish up explaining how we're going to solve it, and ~I'll write part 2 when it is solved~ [part two explains the solution][solution].
+This article is going to explain the divergence between OpenAPI and JSON Schema, which I've been calling the subset/superset/sideset problem. It'll finish up explaining how we're going to solve it, and [part two explains the solution][solution].
 
-_**Update 2020-02-02:** JSON Schema Draft 2019-09 has been published for a while, and after much deliberation we got the folks at [OpenAPI](https://github.com/OAI/OpenAPI-Specification/issues/2025) to merge [#1977](https://github.com/OAI/OpenAPI-Specification/pull/1977) for  v3.1. Latest estimate for v3.1.0-RC1 is end of February, so tooling vendors should get to work on upgrading support for JSON Schema 2019-09 and the other OpenAPI v3.1 changes._
+_**Update 2020-02-02:** JSON Schema Draft 2019-09 has been published for a while, and after much deliberation we got the folks at OpenAPI to merge [#1977](https://github.com/OAI/OpenAPI-Specification/pull/1977) for v3.1. Latest estimate for v3.1.0-RC1 is end of February, so tooling vendors should get to work on upgrading support for JSON Schema 2019-09 and the other OpenAPI v3.1 changes._
 
 <hr>
 
-Whenever talking about API specifications it is impossible to avoid mentioning OpenAPI and JSON Schema. They're the two main solutions for any sort of API that doesn't have a type system forcibly jammed into it by default.
+Whenever talking about API description formats it is impossible to avoid mentioning OpenAPI and JSON Schema. They're the two main solutions for any sort of API that doesn't have a type system forcibly jammed into it by default.
 
-Often you'll need OpenAPI for one thing, and JSON Schema for another. OpenAPI has [amazing API documentation tools](https://blog.apisyouwonthate.com/turning-contracts-into-beautiful-documentation-deac7013af18), fancy SDK generators, and handles loads of API-specific functionality that JSON Schema doesn't even go near. It also has a focus on keeping this static, for strictly typed languages, where properties should be 1 type and 1 type only.
+Often you'll need OpenAPI for one thing, and JSON Schema for another. OpenAPI has [amazing API documentation tools](https://apisyouwonthate.com/blog/turning-contracts-into-beautiful-documentation), fancy SDK generators, and handles loads of API-specific functionality that JSON Schema doesn't even go near. It also has a focus on keeping this static, for strictly typed languages, where properties should be 1 type and 1 type only.
 
-JSON Schema focuses on very flexible data modeling with the same sort of validation vocabulary as OpenAPI, but for more flexible data sets. Whilst it doesn't focus just on APIs, by using more advanced vocabularies like [JSON Hyper-Schema](https://blog.apisyouwonthate.com/getting-started-with-json-hyper-schema-184775b91f) it can model a fully RESTful API and its hypermedia controls (HATEOAS). JSON Schema can [offer server-defined client-side validation](https://blog.apisyouwonthate.com/the-many-amazing-uses-of-json-schema-client-side-validation-c78a11fbde45), and a bunch of other fantastic stuff that OpenAPI doesn't really aim to do.
+JSON Schema focuses on very flexible data modeling with the same sort of validation vocabulary as OpenAPI, but for more flexible data sets. Whilst it doesn't focus just on APIs, by using more advanced vocabularies like [JSON Hyper-Schema](https://apisyouwonthate.com/blog/getting-started-with-json-hyper-schema) it can model a fully RESTful API and its hypermedia controls (HATEOAS). JSON Schema can [offer server-defined client-side validation](https://apisyouwonthate.com/blog/the-many-amazing-uses-of-json-schema-client-side-validation), and a bunch of other fantastic stuff that OpenAPI doesn't really aim to do.
 
 Over the last year I've been [chasing the perfect workflow](https://phil.tech/api/2017/07/20/my-vision-for-a-perfect-world-in-api-specification/), and one of my main requirements when evaluating the common API specs was JSON Schema support. The situation overall was pretty bleak, not just in supporting JSON Schema, but a lot of tooling was just... not great.
 
-Eight months after that article things are _better_, and the design-first API specification workflow I've been dreaming of [has been maturing](https://phil.tech/api/2018/03/01/api-specification-workflow-matures/) around me. to a point where I'm really happy about most stuff!
+Eight months after that article things are _better_, and the API design-first workflow I've been dreaming of [has been maturing](https://phil.tech/api/2018/03/01/api-specification-workflow-matures/) around me to a point where I'm really happy about most stuff!
 
 OpenAPI is often described as an extension of JSON Schema, but both specs have changed over time and grown independently. OpenAPI v2 was based on JSON Schema draft v4 with a long list of deviations, but OpenAPI v3 shrank that list, upping their support to draft v5 and making the list of discrepancies shorter. Despite OpenAPI v3 closing the gap, the issue of JSON Schema divergence has not been resolved fully, and with newer drafts of JSON Schema coming out, the divergence is actually getting worse over time. Currently OpenAPI is still on draft 5, and JSON Schema has released draft 8.
 
@@ -35,7 +35,7 @@ I've been punting this issue for a while in my articles and recommendations at w
 
 The latter can be done, but eventually you'll get bit by something. At work we've been writing JSON Schema files, using them for contract testing and a bunch of other stuff, then rendering them as part of our OpenAPI Docs with ReDoc. ReDoc will let you use `type: [string, null]`, but now we've got [Speccy](https://github.com/wework/speccy) linting our packages, it's reporting that as invalid OpenAPI...
 
-~~~ shell
+```shell
 $ speccy lint docs/openapi.yml
 Specification schema is invalid.
 
@@ -43,7 +43,7 @@ Specification schema is invalid.
 expected Array [ 'string', 'null' ] to be a string
     expected Array [ 'string', 'null' ] to have type string
         expected 'object' to be 'string'
-~~~
+```
 
 If I change that to valid OpenAPI and use `type: string` with `nullable: true` instead, validators like Speccy will be happy, but my JSON Schema contract tests will break as they no longer know that `null` is an acceptable value for that field.
 
@@ -51,15 +51,15 @@ This error was the final straw for me. At work I have been recommending everyone
 
 After grumping at Darrel Miller (a contributor to OpenAPI) and others on the [APIs You Won't Hate slack](https://slack.apisyouwonthate.com/), some good ideas started to pop up. Darrel is going to try and draft up an extension to OpenAPI that could theoretically end up in a future version - like 3.1 or 4.0:
 
-~~~ yaml
+```yaml
 x-oas-draft-alternate-schema:
- schemaType: json-schema-07
- schemaRef:  ./myrealschema.json
-~~~
+  schemaType: json-schema-07
+  schemaRef: ./myrealschema.json
+```
 
 This would allow support for various JSON Schema drafts, and any other data model you can think of; including protobuf. The decisions of which data model formats to support would be in the hands of tool vendors. Of course this would increase work for these vendors, and decrease portability for a while as you can only use tools that support your alternate schea, but ultimately solve a _lot_ of problems.
 
-There's some stuff to flesh out, and obvious limitations around which schemas can $ref which other schemas, but there is definitely a solution here. It'll take some time to get it done, and in that time we all need a solution.
+There's some stuff to flesh out, and obvious limitations around which schemas can \$ref which other schemas, but there is definitely a solution here. It'll take some time to get it done, and in that time we all need a solution.
 
 One approach would be trying to use OpenAPI for all the things, write validators and RSpec tools that do this, but we'd have to be 100% OpenAPI for everything, and we'd never get to play with client validation, Hyper-Schema, etc.
 
@@ -89,7 +89,7 @@ This package will be used by json-schema-to-openapi to accept input in any JSON 
 
 Right now Speccy has a few commands: lint, serve, resolve.
 
-Lint checks the files are valid, serve creates a HTTP server and renders your docs with ReDoc, and resolve pulls in all the $ref's to create one mega-file. All of these commands could support a `-j / --json-schema` switch, which would send all `.json` files off to json-schema-to-openapi.
+Lint checks the files are valid, serve creates a HTTP server and renders your docs with ReDoc, and resolve pulls in all the \$ref's to create one mega-file. All of these commands could support a `-j / --json-schema` switch, which would send all `.json` files off to json-schema-to-openapi.
 
 Conversion this way should avoid the need for a build step. Changing the JSON Schema data model files mean anything you're using JSON Schema for (contract testing for example) are already happy.
 
