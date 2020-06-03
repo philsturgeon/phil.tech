@@ -9,6 +9,14 @@
   to = "/rss.xml"
 
 [[redirects]]
+  from = "/2016/:month/:date/:slug"
+  to = "/2016/:slug"
+
+[[redirects]]
+  from = "/2017/:month/:date/:slug"
+  to = "/2017/:slug"
+
+[[redirects]]
   from = "/2018/:month/:date/:slug"
   to = "/2018/:slug"
 
@@ -91,7 +99,3 @@
 [[redirects]]
   from = "/ruby/:year/:month/:date/:slug"
   to = "/:year/:slug"
-
-[[redirects]]
-  from = "/20:year/:month/:date/:slug"
-  to = "/20:year/:slug"
