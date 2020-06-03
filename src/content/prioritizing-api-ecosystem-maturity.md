@@ -157,9 +157,11 @@ Folks would submit their plan for a new API or a new version, then the automated
 
 Learn more about [automated style guides](https://apisyouwonthate.com/blog/automated-style-guides-for-rest-graphql-and-grpc) over here.
 
-## Summary
+This is a lot of the reason I've been talking about API Design First so much for the last few years. We had to hack a lot of stuff together to [create a workflow](https://apisyouwonthate.com/blog/weworks-api-specification-workflow) that covered docs, mocks, automation, and gave feedback to designers whilst designing the thing. Luckily this is all much easier to do now, because after turning things around at WeWork I joined Stoplight to [reinvent this whole API Design First workflow](https://phil.tech/2019/reinventing-api-design-stoplight-studio/) and the tooling that makes it possible. 
 
-This is a lot of the reason I've been talking about API Design First so much for the last few years. We had to hack a lot of stuff together to [create a workflow](https://apisyouwonthate.com/blog/weworks-api-specification-workflow) that covered docs, mocks, automation, and gave feedback to designers whilst designing the thing.
+Planning and being able to reason about those plans before sinking time into building complex codebases, and having certainty that they wouldn't change without people noticing during the development and prototyping phases really helps get a handle on a messy ecosystem, but getting there takes a lot of work.
+
+## Summary
 
 There's loads of things API designers and developers talk about, all of which solve many problems, but it's always important to know how and when to wield them. 
 
