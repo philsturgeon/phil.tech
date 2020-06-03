@@ -9,6 +9,18 @@
   to = "/rss.xml"
 
 [[redirects]]
+  from = "/2018/:month/:date/:slug"
+  to = "/2018/:slug"
+
+[[redirects]]
+  from = "/2019/:month/:date/:slug"
+  to = "/2019/:slug"
+
+[[redirects]]
+  from = "/2020/:month/:date/:slug"
+  to = "/2020/:slug"
+
+[[redirects]]
   from = "/api/:year/:month/:date/:slug"
   to = "/:year/:slug"
 
