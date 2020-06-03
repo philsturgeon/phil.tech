@@ -11,6 +11,7 @@ module.exports = {
     'MarkdownRemark.frontmatter.author': 'AuthorYaml',
   },
   plugins: [
+    'gatsby-plugin-netlify-cache',
     'gatsby-plugin-sitemap',
     {
       resolve: 'gatsby-plugin-sharp',
@@ -80,7 +81,7 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-transformer-yaml',
     'gatsby-plugin-feed',
-    `gatsby-plugin-twitter`,
+    'gatsby-plugin-twitter',
     {
       resolve: 'gatsby-plugin-postcss',
       options: {
@@ -106,10 +107,10 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-disqus`,
+      resolve: 'gatsby-plugin-disqus',
       options: {
-        shortname: `philsturgeon`
-      }
+        shortname: 'philsturgeon',
+      },
     },
   ],
 };
