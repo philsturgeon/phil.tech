@@ -1,8 +1,9 @@
 import { graphql } from 'gatsby';
-import { FixedObject } from 'gatsby-image';
+import { FixedObject, FluidObject } from 'gatsby-image';
 import React from 'react';
 
 import { css } from '@emotion/core';
+import BackgroundImage from 'gatsby-background-image'
 
 import { Seo } from '../components/Seo';
 import { Footer } from '../components/Footer';
@@ -39,7 +40,7 @@ export interface IndexProps {
     };
     header: {
       childImageSharp: {
-        fixed: FixedObject;
+        fluid: FluidObject;
       };
     };
     allMarkdownRemark: {
@@ -51,27 +52,22 @@ export interface IndexProps {
 }
 
 const IndexPage: React.FC<IndexProps> = props => {
-  const { width, height } = props.data.header.childImageSharp.fixed;
   const featuredPosts = props.data.allMarkdownRemark.edges.filter(edge => edge.node.frontmatter.featured);
   const allPosts = props.data.allMarkdownRemark.edges.filter(edge => !edge.node.frontmatter.featured);
 
   return (
     <IndexLayout>
       <Seo
-        width={width}
-        height={height}
         description={config.description}
         title={config.title}
         path={props.path}
-        image={`${props.data.header.childImageSharp.fixed.src}`}
+        image={`${props.data.header.childImageSharp.fluid.src}`}
       />
       <Wrapper>
-        <div
+        <BackgroundImage
           css={[outer, SiteHeader, SiteHeaderStyles]}
           className="site-header-background"
-          style={{
-            backgroundImage: `url('${props.data.header.childImageSharp.fixed.src}')`,
-          }}
+          fluid={props.data.header.childImageSharp.fluid}
         >
           <div css={inner}>
             <SiteNav isHome />
@@ -89,7 +85,8 @@ const IndexPage: React.FC<IndexProps> = props => {
               </SiteTitle>
             </SiteHeaderContent>
           </div>
-        </div>
+        </BackgroundImage>
+
         <SiteDescription css={outer}>
           <div css={inner}>
             <h2>{config.description}</h2>
@@ -140,10 +137,8 @@ export const pageQuery = graphql`
   query blogPageQuery($skip: Int!, $limit: Int!) {
     header: file(relativePath: { eq: "img/cover.jpg" }) {
       childImageSharp {
-        # Specify the image processing specifications right in the query.
-        # Makes it trivial to update as your page's design changes.
-        fixed(width: 2000, quality: 100) {
-          ...GatsbyImageSharpFixed
+        fluid(quality: 100, maxWidth: 1720) {
+          ...GatsbyImageSharpFluid
         }
       }
     }
