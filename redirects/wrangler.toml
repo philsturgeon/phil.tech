@@ -1,0 +1,5 @@
+name = "redirects"
+type = "javascript"
+account_id = "3bdec2b3113ec98d0fc055d1392d627f"
+zone_id = "24275124c02bd507a8c6113b3601a3aa"
+route = "phil.tech/*"

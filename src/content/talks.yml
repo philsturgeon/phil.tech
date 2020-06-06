@@ -1,0 +1,66 @@
+- slug: api-descriptions-as-production-code
+  title: "API Descriptions as Production Code"
+  short: >
+      Lots of developers are aware they can use API descriptions for docs and
+      mocking, but they often have this concern about “keeping specs in sync with
+      code”. Learn how to reuse these description docs to drastically simplify 
+      validation, in client-side, server-side, and even at the API gateway.
+
+- slug: design-first-apis
+  title: "Design First APIs"
+  short: >
+    First we write the API specs, mock it up to see if its any good, then we write the code, and keep it in line via contract testing.
+
+- slug: when-dependenices-go-wild
+  title: "Circuit Breakers: When Depndecies Go Wild!"
+  short: >
+      Is your architecture an octopus orgy of unstable sytems, where one domino can fall and knock over everything else? This
+      tatlk looks at timeouts, retries and circuit breakers, to add control to the chaos.
+
+- slug: http-caching
+  title: "HTTP Caching: Improving Performance & Saving the Ice Caps"
+  short: >
+    HTTP Caching is something many people have heard of, and usually know a bit about but skip implementing in any
+    real way. Browsers are expected to do everything correctly by default, and backend systems don’t bother because
+    Redis Caching is apparently fine... Well it’s not. Balancing real-time information and avoiding making
+    unnecessary requests isn’t a pipe dream, and there are plenty of tools out there to help you get it done
+    right now.
+
+- slug: what-rails-can-teach-php
+  title: What Rails Can Teach PHP About Building APIs
+  short: >
+    As somebody who's built APIs with PHP since 2009, and built APIs with Rails for the last two years, the contrast
+    in some of the tooling available is mind-blowing. Generating test data, spec-driven testing, simplistic state
+    machines, serialization and deserialization in JSON-API, REPL debugging with breakpoints, file upload handlers,
+    etc.
+
+- slug: a-no-nonsense-graphql-and-rest-comparison
+  title: A No Nonsense GraphQL and REST Comparison
+  short: >
+    Folks who don't understand what REST and HATEOAS mean keep acting like GraphQL is somehow a replacement.
+    It is amazing, and I'll explain why, but they're two different things, used for different things!
+
+- slug: api-tales-of-woe-and-woah
+  title: API Tales of Woe and Woah
+  short: >
+    Aimed at intermediates and advanced API developers, this skips the "how to use status codes" type of introductary stuff, and gets right into the funny stories of things going wrong.
+
+- slug: what-they-should-tell-you
+  title: What They Should Have Told You About API Development
+  short: "This talk focuses on design choices, such as: When to use REST, and when to use RPC."
+
+- slug: building-extraordinary-packages
+  title: Building Extraordinary Packages
+  short: >
+    Learn about the League of Extraordinary Packages, how it came to be, and how you can focus on building
+    great quality PHP packages.
+
+- slug: go-workshop
+  title: Sprinkle in Some Go for Fun and Profit
+  short: A four hour workshop, to help those new to Go build an autocomplete service.
+
+- slug: api-pain-points
+  title: API Pain Points
+  short: >
+    About to start building your first API? This talk will give you some hints and tips to get started,
+    with some horror stories of things that have gone wrong for myself and others.

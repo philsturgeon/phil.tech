@@ -1,0 +1,7 @@
+- id: Phil
+  avatar: avatars/phil.jpg
+  profile_image: "avatars/phil-profile.jpg"
+  bio: I build API Design tools for Stoplight.io, write about pragmatic API design, systems architecture, live on a bike, and occasionally upset hordes of mens rights activists on Reddit.
+  twitter: philsturgeon
+  website: https://phil.bike/
+  location: Spain
