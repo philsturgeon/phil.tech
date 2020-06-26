@@ -1,7 +1,7 @@
 ---
 layout: post
 author: [Phil]
-title: T_PAAMAYIM_NEKUDOTAYIM v Sanity
+title: WTF is T_PAAMAYIM_NEKUDOTAYIM
 tags: [php]
 excerpt: As somebody who has followed internals (and been hearing tales of woe from
   others) for a while, I've seen so many conversations with truly bizarre, irrelevant
@@ -12,9 +12,6 @@ excerpt: As somebody who has followed internals (and been hearing tales of woe f
   madness that internals can host.
 date: '2013-09-09 20:57:00'
 comments: true
-disqus_identifier: t-paamayim-nekudotayim-v-sanity
-alias: blog/2013/09/t-paamayim-nekudotayim-v-sanity/
-alias_1: php/2013/09/09/t-paamayim-nekudotayim-v-sanity/
 ---
 
 Anyone who has mentioned PHP Fractal of Bad Design to me knows I don't give it much credit. It's a list of complaints about loose-typing in general, some "it's not Python" rants, lots of complaints about bugs that have been fixed, suggestions PHP doesn't have features which it has had for years and a _few_ examples of quirks that need to be worked on.
