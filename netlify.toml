@@ -9,6 +9,10 @@
   to = "/rss.xml"
 
 [[redirects]]
+  from = "/speaking"
+  to = "/talks"
+
+[[redirects]]
   from = "/2016/:month/:date/:slug"
   to = "/2016/:slug"
 

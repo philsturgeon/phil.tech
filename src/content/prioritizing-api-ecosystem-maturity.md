@@ -3,9 +3,11 @@ layout: post
 author: [Phil]
 title: Refactoring an entire API Ecosystem
 tags: [architecture]
+image: img/2020-05-22-prioritizing-api-ecosystem-maturity/cover.jpg
 excerpt: 
   You've joined a huge company and the entire API ecosystem is a complete mess, how do you prioritize what needs to be done in order to unf**k the whole thing? API Descriptions, REST, API Evolution, Circuit Breakers, HTTP/2, HTTP Caching, gRPC, GraphQL, what is going to help and when do you do it?
 date: '2020-05-22 10:00:00'
+featured: true
 comments: true
 ---
 

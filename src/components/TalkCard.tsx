@@ -19,8 +19,8 @@ export interface TalkCardProps {
       slides: string;
       slug: string;
       video: string;
-    }>
-  }
+    }>;
+  };
 }
 
 export const TalkCard: React.FC<TalkCardProps> = ({ talk }) => {
@@ -42,25 +42,25 @@ export const TalkCard: React.FC<TalkCardProps> = ({ talk }) => {
   const dateAndPlace = `${talk.event.dates} in ${talk.city}, ${talk.country}`;
 
   return (
-    <article className='talk-card' css={TalkCardStyles}>
+    <article className="talk-card" css={TalkCardStyles}>
       <header>
         <h2>
           <a href={talk.event.url}>{talk.event.name}</a>
         </h2>
         <p>{dateAndPlace}</p>
       </header>
-      <div className='talk-content' css={TalkCardContent}>
+      <div className="talk-content" css={TalkCardContent}>
         {talk.talks.map((talkInfo, index) => {
           const talkData = allTalksYaml.nodes.filter(info => info.slug === talkInfo.slug)[0]
 
-          if(talkData){
+          if (talkData) {
             return (
-              <div key={index}>  
+              <div key={index}>
                 <h3>{talkData.title}</h3>
                 <p>{talkData.short}</p>
                 <TalkButtons buttons={talkInfo} />
               </div>
-            )
+            );
           }
         })}
       </div>

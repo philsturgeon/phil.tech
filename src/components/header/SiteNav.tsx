@@ -98,10 +98,10 @@ class SiteNav extends React.Component<SiteNavProps, SiteNavState> {
                 <Link to="/books/">Books</Link>
               </li>
               <li role="menuitem">
-                <Link to="/speaking/">Speaking</Link>
+                <Link to="/talks/">Talks</Link>
               </li>
               <li role="menuitem">
-                <a href="https://calendly.com/philsturgeon" target="_blank">Consulting</a>
+                <a href="https://calendly.com/philsturgeon" target="_blank" rel="noopener noreferrer">Consulting</a>
               </li>
             </ul>
             {isPost && (
@@ -114,15 +114,15 @@ class SiteNav extends React.Component<SiteNavProps, SiteNavState> {
         <SiteNavRight>
           <SocialLinks>
             <a
-                className="emoji offset"
-                css={SocialLink}
-                href={config.offset}
-                target="_blank"
-                title="Offset"
-                rel="noopener noreferrer"
-              >
-                🌲
-              </a>
+              className="emoji offset"
+              css={SocialLink}
+              href={config.offset}
+              target="_blank"
+              title="Offset"
+              rel="noopener noreferrer"
+            >
+              🌲
+            </a>
             {config.github && (
               <a
                 css={SocialLink}

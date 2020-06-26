@@ -11,16 +11,16 @@ export interface TalkButtonsProps {
   }
 }
 
-export const TalkButtons: React.FC<TalkButtonsProps> = ({ buttons }) => {  
+export const TalkButtons: React.FC<TalkButtonsProps> = ({ buttons }) => {
 
   return (
     <div className="button-group" css={ButtonGroupStyles}>
       {Object.keys(buttons).map((key, index) => {
-          if(buttons[key] && key !== 'slug'){
-            return(
-              <a key={index} className="talk-button" href={buttons[key]}>{key}</a>
-            )
-          }
+        return (buttons[key] && key !== 'slug') ? (
+          <a key={index} className="talk-button" href={buttons[key]}>
+            {key.charAt(0).toUpperCase() + key.slice(1)}
+          </a>
+        ) : '';
       })}
     </div>
   );

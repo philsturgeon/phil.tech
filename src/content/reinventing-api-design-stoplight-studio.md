@@ -5,7 +5,6 @@ title: Reinventing API Design with Stoplight Studio
 date: 2019-08-22
 image: img/2019-08-22-reinventing-api-design-stoplight-studio/editor.png
 tags: [api development, openapi, api design, stoplight.io]
-featured: true
 disqus_identifier: reinventing-api-design-stoplight-studio
 ---
 
