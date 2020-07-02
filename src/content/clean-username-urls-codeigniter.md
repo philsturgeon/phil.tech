@@ -37,7 +37,7 @@ The way I like to do this is to add a URL suffix in the config file (meaning add
 
 **Step 2:** Add/edit your .htaccess file and add the highlighted rule:
 
-~~~ apache
+~~~apacheconf
 Options +FollowSymLinks
 RewriteEngine on
 RewriteBase /

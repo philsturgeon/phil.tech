@@ -47,14 +47,14 @@ While provisioning Chef throws out this error:
 
 A little Googling took me to [StackOverflow](http://stackoverflow.com/questions/11325479/how-to-control-the-version-of-chef-that-vagrant-uses-to-provision-vms) (funny that) and the solution worked nicely:
 
-~~~console
+~~~bash
 $ vagrant up --no-provision 
 $ vagrant ssh
 ~~~
 
 When inside the vagrant box:
 
-~~~console
+~~~bash
 $ sudo dpkg --purge chef chef-full
 $ wget -O - https://opscode.com/chef/install.sh | sudo bash
 $ sudo apt-get update && sudo aptitude safe-upgrade
@@ -71,7 +71,7 @@ That took care of my Chef complaints perfectly, and I got to update my boxes. Ag
     
 It turns out the command I ran to update Chef wiped out the Virtual Box Guest Additions. A quick chat on the IRC pointed me to the [Troubleshooting section](http://docs-v1.vagrantup.com/v1/docs/troubleshooting.html) (thanks [Chris Boden](https://twitter.com/boden_c)) and the first answer took care of this almost perfectly.
 
-~~~console
+~~~bash
 $ sudo /etc/init.d/vboxadd setup
 ~~~
 

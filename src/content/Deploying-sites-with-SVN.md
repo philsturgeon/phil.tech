@@ -22,29 +22,29 @@ This step-by-step guide will assume [SVN binaries are already installed](http://
 
 1.) [Log in via Putty or Terminal](http://intranet.cs.man.ac.uk/software/cs-ssh/cs-ssh-ref.php):
 
-~~~console
+~~~bash
 $ ssh user@yoursite.com
 ~~~
 
 2.) Get to your `public_web` root. This will probably be something like `/home/user/public_html/` but could vary.
 
-~~~console
+~~~bash
 $ cd /home/user/public_html
 ~~~
 
 3.) Then simply check the repo out.
 
-~~~console
+~~~bash
 $ svn co http://svn.whatever.com/repo/trunk .
 ~~~
 
-DONT forget the full stop as that says to use the current directory and not create a new sub-directory.
+_*Do not*_ forget the full stop as that says to use the current directory and not create a new sub-directory.
 
 4.) Do work.
 
 5.) Update your site:
 
-~~~console
+~~~bash
 $ svn update
 ~~~
 

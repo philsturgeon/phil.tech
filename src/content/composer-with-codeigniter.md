@@ -30,7 +30,7 @@ Sadly Laravel have not announced any plans to exclusively support Composer out o
 
 Navigate to your project and install composer:
 
-~~~console
+~~~bash
 $ cd /path/to/my/project
 $ curl -s http://getcomposer.org/installer | php
 ~~~
@@ -39,7 +39,7 @@ You could instead use [Homebrew](http://mxcl.github.com/homebrew/) to install co
 
 __Update: __ It turns out the homebrew package is pretty old. I installed a few weeks previous to this post, but users are having problems. Use the .phar method for now.
 
-~~~console
+~~~bash
 $ brew install composer
 ~~~
 
@@ -62,13 +62,13 @@ This will add a requirement for the Buzz package, which is a handy HTTP Request 
 
 To actually install these files to your CodeIgniter project you simply run the install command:
 
-~~~console
+~~~bash
 $ composer.phar install
 ~~~
 
 If you have installed via Homebrew then this will be:
 
-~~~console
+~~~bash
 $ composer install
 ~~~
 

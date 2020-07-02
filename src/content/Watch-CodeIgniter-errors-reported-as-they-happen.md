@@ -23,13 +23,13 @@ $config['log_threshold'] = 4;
 
 **Step #2:** Then set your CodeIgniter log to be writeable by the server (you have probably already done this, but let's just make sure).
 
-~~~console
+~~~bash
 $ chmod 777 ./codeigniter/logs
 ~~~
 
 **Step #3:** Now for the important one. This will show changes to the log file as they happen. Hit enter to add some clear space, and Ctrl + C to break out of the stream.
 
-~~~console
+~~~bash
 $ tail -f ./codeigniter/logs/log-YYYY-MM-DD.php
 ~~~
 

@@ -18,14 +18,14 @@ Yesterday PHP.net announced the release of PHP 5.5 Beta-1. This is a great news 
 
 If you're on Ubuntu you can run these commands:
 
-~~~console
+~~~bash
 $ sudo apt-get install re2c  
 $ sudo apt-get install bison
 ~~~
 
 If you're on OSX then you can install using Homebrew:
 
-~~~console
+~~~bash
 $ sudo brew install re2c  
 $ sudo brew install bison
 ~~~
@@ -34,7 +34,7 @@ Thinking about running any of this on Windows makes my brain itch, so you'll hav
 
 With those tools installed simply clone the repo, build and run tests:
 
-~~~console
+~~~bash
 $ cd /tmp  
 $ git clone http://git.php.net/repository/php-src.git -b PHP-5.5  
 $ cd php-src  
