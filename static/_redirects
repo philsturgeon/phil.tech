@@ -1,103 +1,29 @@
-[build]
-  publish = "public"
+/feed.xml /rss.xml
+/speaking /talks
 
-[[plugins]]
-  package = "netlify-plugin-gatsby-cache"
-
-[[redirects]]
-  from = "/feed.xml"
-  to = "/rss.xml"
-
-[[redirects]]
-  from = "/speaking"
-  to = "/talks"
-
-[[redirects]]
-  from = "/2016/:month/:date/:slug"
-  to = "/2016/:slug"
-
-[[redirects]]
-  from = "/2017/:month/:date/:slug"
-  to = "/2017/:slug"
-
-[[redirects]]
-  from = "/2018/:month/:date/:slug"
-  to = "/2018/:slug"
-
-[[redirects]]
-  from = "/2019/:month/:date/:slug"
-  to = "/2019/:slug"
-
-[[redirects]]
-  from = "/2020/:month/:date/:slug"
-  to = "/2020/:slug"
-
-[[redirects]]
-  from = "/api/:year/:month/:date/:slug"
-  to = "/:year/:slug"
-
-[[redirects]]
-  from = "/career/:year/:month/:date/:slug"
-  to = "/:year/:slug"
-
-[[redirects]]
-  from = "/charity/:year/:month/:date/:slug"
-  to = "/:year/:slug"
-
-[[redirects]]
-  from = "/cms/:year/:month/:date/:slug"
-  to = "/:year/:slug"
-
-[[redirects]]
-  from = "/codeigniter/:year/:month/:date/:slug"
-  to = "/:year/:slug"
-
-[[redirects]]
-  from = "/devops/:year/:month/:date/:slug"
-  to = "/:year/:slug"
-
-[[redirects]]
-  from = "/feminism/:year/:month/:date/:slug"
-  to = "/:year/:slug"
-
-[[redirects]]
-  from = "/fuelphp/:year/:month/:date/:slug"
-  to = "/:year/:slug"
-
-[[redirects]]
-  from = "/http/:year/:month/:date/:slug"
-  to = "/:year/:slug"
-
-[[redirects]]
-  from = "/markdown/:year/:month/:date/:slug"
-  to = "/:year/:slug"
-
-[[redirects]]
-  from = "/personal/:year/:month/:date/:slug"
-  to = "/:year/:slug"
-
-[[redirects]]
-  from = "/politics/:year/:month/:date/:slug"
-  to = "/:year/:slug"
-
-[[redirects]]
-  from = "/pyrocms/:year/:month/:date/:slug"
-  to = "/:year/:slug"
-
-[[redirects]]
-  from = "/python/:year/:month/:date/:slug"
-  to = "/:year/:slug"
-
-[[redirects]]
-  from = "/php/:year/:month/:date/:slug"
-  to = "/:year/:slug"
-
-[[redirects]]
-  from = "/rails/:year/:month/:date/:slug"
-  to = "/:year/:slug"
-
+/2016/:month/:date/:slug /2016/:slug
+/2017/:month/:date/:slug /2017/:slug
+/2018/:month/:date/:slug /2018/:slug
+/2019/:month/:date/:slug /2019/:slug
+/2020/:month/:date/:slug /2020/:slug
+/api/:year/:month/:date/:slug /:year/:slug
+/career/:year/:month/:date/:slug /:year/:slug
+/charity/:year/:month/:date/:slug /:year/:slug
+/cms/:year/:month/:date/:slug /:year/:slug
+/codeigniter/:year/:month/:date/:slug /:year/:slug
+/devops/:year/:month/:date/:slug /:year/:slug
+/feminism/:year/:month/:date/:slug /:year/:slug
+/fuelphp/:year/:month/:date/:slug /:year/:slug
+/http/:year/:month/:date/:slug /:year/:slug
+/markdown/:year/:month/:date/:slug /:year/:slug
+/personal/:year/:month/:date/:slug /:year/:slug
+/politics/:year/:month/:date/:slug /:year/:slug
+/pyrocms/:year/:month/:date/:slug /:year/:slug
+/python/:year/:month/:date/:slug /:year/:slug
+/php/:year/:month/:date/:slug /:year/:slug
+/rails/:year/:month/:date/:slug /:year/:slug
 /rest/:year/:month/:date/:slug /:year/:slug
-
 /ruby/:year/:month/:date/:slug /:year/:slug
 
+# article renames
 /2013/t-paamayim-nekudotayim-v-sanity /2013/wtf-is-t-paamayim-nekudotayim
