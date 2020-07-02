@@ -4,13 +4,14 @@ const path = require('path');
 module.exports = {
   siteMetadata: {
     title: 'Phil.tech',
-    description: "Phil's tech blog",
+    description: 'Computers, green tech, humans, and technical writing.',
     siteUrl: 'https://phil.tech', // full path to blog - no ending slash
   },
   mapping: {
     'MarkdownRemark.frontmatter.author': 'AuthorYaml',
   },
   plugins: [
+    'gatsby-plugin-netlify',
     'gatsby-plugin-netlify-cache',
     'gatsby-plugin-sitemap',
     {

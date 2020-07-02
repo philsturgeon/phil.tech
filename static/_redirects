@@ -96,14 +96,8 @@
   from = "/rails/:year/:month/:date/:slug"
   to = "/:year/:slug"
 
-[[redirects]]
-  from = "/rest/:year/:month/:date/:slug"
-  to = "/:year/:slug"
+/rest/:year/:month/:date/:slug /:year/:slug
 
-[[redirects]]
-  from = "/ruby/:year/:month/:date/:slug"
-  to = "/:year/:slug"
+/ruby/:year/:month/:date/:slug /:year/:slug
 
-[[redirects]]
-  from = "/2013/t-paamayim-nekudotayim-v-sanity"
-  to = "/2013/wtf-is-t-paamayim-nekudotayim"
+/2013/t-paamayim-nekudotayim-v-sanity /2013/wtf-is-t-paamayim-nekudotayim
