@@ -11,6 +11,8 @@ draft: false
 disqus_identifier: remote-working-climate
 ---
 
+> **Update 2020-07-02:** This article was written before the COVID-19 pandemic lockdowns were put in place, but this article has only become more accurate since then, with other scientists and environmental types publishing similar articles. ["Remote work is a huge opportunity for high-impact climate policy"](https://qz.com/work/1851226/remote-work-is-a-form-of-high-impact-climate-policy/), ["The Climate Case for Working From Home"](https://heated.world/p/the-climate-case-for-working-from), and ["Working from home is erasing carbon emissions — but for how long?"](https://grist.org/climate/working-from-home-is-erasing-carbon-emissions-but-for-how-long/).
+
 Companies are stepping up to [go carbon neutral](https://www.climateneutral.org/certified-brands) ([or even carbon negative](https://blogs.microsoft.com/blog/2020/01/16/microsoft-will-be-carbon-negative-by-2030/)), and the number of [big companies offering remote work](https://www.forbes.com/sites/alexandratalty/2019/01/15/work-from-home-2019-the-top-100-companies-for-remote-jobs/#d580efe15444) is on the rise, but [remote work in the States is still only 3-5%](https://lp.buffer.com/state-of-remote-work-2020). With most of the world ([especially the U.S.](https://ourworldindata.org/uploads/2019/10/Cumulative-CO2-treemap.png)) desperately needing to sort its carbon footprint out, remote working might just be a big piece of the puzzle.
 
 https://twitter.com/chris_herd/status/1217413669484548096
@@ -25,15 +27,17 @@ Regardless of the transportation you choose: Car, train, bike, hoverboard; going
 
 ![](img/2020-02-22-remote-work-climate/car.png)
 
-The average annual carbon footprint is 10 tonnes in many developed countries, and in America it's 15-20 tonnes. The recommended sustainable footprint for a habitable planet is ~2 tonnes, so... fuck! Driving alone is enough to sail straight past that target, meaning if you even breathe at any point in the year you're actively contributing to [150 million peoples homes being underwater by 2050](https://www.globalchange.gov/browse/multimedia/projected-sea-level-rise-and-flooding-2050).
+The average annual carbon footprint is 10 tonnes in many developed countries, and in America it's 16.5 tonnes according to the [World Bank](https://data.worldbank.org/indicator/EN.ATM.CO2E.PC). The recommended individual sustainable footprint for a habitable planet is ~2 tonnes, so... fuck! Driving alone is enough to sail straight past that target, meaning if you even breathe at any point in the year you're actively contributing to [150 million peoples homes being underwater by 2050](https://www.globalchange.gov/browse/multimedia/projected-sea-level-rise-and-flooding-2050).
 
 ![](img/2020-02-22-remote-work-climate/footprint-guide.jpg)
 
-Trains are [better for the environment than flying](https://www.bbc.com/news/science-environment-49349566), the exact improvement of course depending on the power source. With your hands freed up for entertainment or other productive tasks, but going to the same train station every day is not the best. Even if you love cycling, riding the same route every day to and from the same bloody office gets very mundane very quickly. 
+Trains are [have a lower impact on the environment than flying](https://www.bbc.com/news/science-environment-49349566), the exact improvement depending on the power source.
+
+Having your hands freed up on the commute allows for entertainment and other productive tasks, but going to the same train station every day is not the best. Similarly even if you love rollerblading, walking, or cycling, riding the same route every day to and from the same bloody office gets very mundane very quickly. 
 
 The average American commutes for an hour each way to and from work. For example, my mate used to drive from south New Jersey to Brooklyn every day, which is a 1hr drive when traffic is normal. That is 6kg (13lb) of CO2 emissions of each way. That is 240kg (530lb) a _month_, and over 262 working days that's a ridiculous 3,144kg (6,931lb) of CO2 emissions. That is 3.14 tonnes, just to go to the office, 1 tonne over what the entire annual footprint needs to be.
 
-Imagine if more people just... **didn't**. 
+Imagine if more people just... **didn't** commute. 
 
 If you simply work from home, you can just not do that. If you're a digital nomad, you can also just not do that. Wherever it is you are is somewhere you can work, and if you stick to sustainable transportation methods like electric trains or bikes, you can slash your footprint massively. 
 
