@@ -21,7 +21,7 @@ If you answer without looking it up on [Dash](https://kapeli.com/dash) or [HTTP 
 
 Go has these built right into their main `net/http` library:
 
-~~~ golang
+~~~ go
 http.StatusBadRequest
 http.StatusOK
 ~~~

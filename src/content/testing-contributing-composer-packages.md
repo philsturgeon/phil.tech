@@ -25,7 +25,7 @@ So, how do you run their test suite and add your own tests?
 
 You want to go two levels deep for this one and install composer inside the package itself:
 
-~~~console
+~~~bash
 cd myapp/vendor/laravel/framework
 curl -sS https://getcomposer.org/installer | php
 ~~~
@@ -34,7 +34,7 @@ If you've installed Composer globally by renaming it to /usr/bin/composer then y
 
 Then you want to run Composer and have it install all of the packages dependencies. Normally these will be lumped into your main `myapp/vendor/` folder when you run the main composer install, but this will just install all the packages and any dev stuff it needs to complete its unit tests in the current directory:
 
-~~~console
+~~~bash
 ./composer.phar install --dev
 ~~~
 
@@ -42,13 +42,13 @@ Then you want to run Composer and have it install all of the packages dependenci
 
 With the --dev dependencies installed you can easily run whatever test suite the package developer has set up - which is most likely (at the very least) going to be PHPUnit.
 
-~~~console
+~~~bash
 ./vendor/bin/phpunit
 ~~~
 
 This should run their tests, as long as the core of the package has a phpunit.xml file. If the phpunit.xml is elsewhere (maybe in a build/ folder for Jenkins or whatever) then simply reference the location with the -c option:
 
-~~~console
+~~~bash
 ./vendor/bin/phpunit -c build/phpunit.xml
 ~~~
 
@@ -89,7 +89,7 @@ You've written the feature. Time to share it with the world!
 
 Go to the main repo (in this case github.com/laravel/framework) and click Fork. Copy the Git+SSH URL then hop into the terminal and do this:
 
-~~~console
+~~~bash
 git checkout -b feature/kittens
 git add src/Fluffy.php src/Snuggles.php
 git commit -m "More kittens."

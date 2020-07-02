@@ -47,7 +47,7 @@ PaaS services such as PHP Fog and Pagoda Box take care of all of this for you. C
 
 Deploying my sites has become as simple as running one command:
 
-~~~console
+~~~bash
 $ git push production master
 ~~~
 

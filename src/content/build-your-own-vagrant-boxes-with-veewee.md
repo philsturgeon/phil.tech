@@ -24,7 +24,7 @@ Getting started was initially confusing to me, as I knew VeeWee was a gem, so I 
 
 So, to get going the best thing to do is clone the VeeWee repo, which creates a new RVM gemset for you. This is a whole separate are probably in ~/Development or something:
 
-~~~console
+~~~bash
 git clone git@github.com:jedi4ever/veewee.git
 ~~~
 
@@ -32,13 +32,13 @@ git clone git@github.com:jedi4ever/veewee.git
 
 When this is done if you have RVM set up to check for .rvmrc files it will ask you if you wish to trust this new gemset. If you see this, hit "y" to approve. If this message is not displayed (because you are not looking for .rvmrc files) then go and [set that up](https://rvm.io/rvm/install/). It should be something like:
 
-~~~console
+~~~bash
 echo "source $HOME/.rvm/scripts/rvm" >> ~/.bash_profile
 ~~~
 
 With your gemset alive, you may well be told you need to install Ruby 1.9.2, which may or may not work:
 
-~~~console
+~~~bash
 rvm install ruby-1.9.2-p320
 ~~~
 
@@ -50,7 +50,7 @@ _I've sent that version bump in as a [pull request](https://github.com/jedi4ever
 
 Pop back out of the folder and back in:
 
-~~~console
+~~~bash
 cd ..
 cd veewee
 ~~~
@@ -59,7 +59,7 @@ This is a janky way to get your command line using the gemset, as it will have f
 
 Now install the gems VeeWee requires with bundler:
 
-~~~console
+~~~bash
 bundle install
 ~~~
 
@@ -69,37 +69,37 @@ This section is pretty much just a regurgitation of the wonderful documentation 
 
 See what templates are available:
 
-~~~console
+~~~bash
 bundle exec veewee vbox templates | grep -i ubuntu
 ~~~
 	
 Give up and use Ubuntu for everything:
 
-~~~console
+~~~bash
 bundle exec veewee vbox define 'quantal64' 'ubuntu-12.10-server-amd64'
 ~~~
 	
 Kick off the build process. Once you've confirmed the download you might as well go for a walk, because it will be going for close to an hour:
 
-~~~console
+~~~bash
 bundle exec veewee vbox build 'quantal64' 
 ~~~
 
 That is the worst of it done. Export just builds up the box and shoves it in the working directory:
 
-~~~console
+~~~bash
 bundle exec veewee vbox export 'quantal64'
 ~~~
 	
 Then add it to Vagrant:
 
-~~~console
+~~~bash
 vagrant box add 'quantal64' 'quantal64'
 ~~~
 	
 I already had a box with this name, so I just killed it off then re-ran the box add:
 
-~~~console
+~~~bash
 rm -rf ~/.vagrant.d/boxes/quantal64 
 ~~~
 	
@@ -107,7 +107,7 @@ rm -rf ~/.vagrant.d/boxes/quantal64
 
 This step depends on how you're doing things. The VeeWee docs suggest you can just do:
 
-~~~console
+~~~bash
 cd ~/Development/myapp
 vagrant init 'quantal64'
 vagrant up	
@@ -126,7 +126,7 @@ config.vm.box_url = "/Users/phil/Development/veewee/quantal64.box"
 
 Now boot your box:
 
-~~~console
+~~~bash
 vagrant up
 ~~~
 

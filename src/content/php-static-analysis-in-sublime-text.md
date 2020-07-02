@@ -33,16 +33,16 @@ There are several tools we'll be using: [PHP Mess Detector](http://phpmd.org/), 
 
 <s>_Depending on how you have PEAR installed, you might need to prefix these commands with `sudo`._</s>
 
-~~~console
+~~~bash
 $ pear channel-discover pear.phpmd.org
 $ pear channel-discover pear.pdepend.org
-$ pear install --alldeps phpmd/PHP\_PMD
-$ pear install PHP\_CodeSniffer
+$ pear install --alldeps phpmd/PHP_PMD
+$ pear install PHP_CodeSniffer
 ~~~
 
 **Update 13/12/2013:** The reason I originally suggested PEAR was down to homebrew doing some fairly odd shit when I tried installing these packages. It was trying to install a .phar but PHP was not allowed to create a phar itself, so I had to switch phar.readonly to Off in php.ini. It might be worth doing that - just to avoid PEAR - so once you've made the change run this:
 
-~~~console
+~~~bash
 $ brew tap josegonzalez/homebrew-php
 $ brew install phpmd
 $ brew install php-code-sniffer
@@ -57,7 +57,7 @@ You'll need to go to "Preferences > Package Settings > PHP CodeSniffer > Setting
 
 ~~~js
 // Show the errors in the quick panel so you can then goto line
-"phpcs\_show\_quick_panel": false,
+"phpcs_show_quick_panel": false,
 ~~~
 
 Switching that to false will avoid the obnoxious pop-up that lists all errors in your face. Sometimes you want to ignore a few errors, this won't let you.
@@ -65,13 +65,13 @@ Switching that to false will avoid the obnoxious pop-up that lists all errors in
 ~~~js
 // It seems python/sublime cannot always find the phpcs application
 // If empty, then use PATH version of phpcs, else use the set value
-"phpcs\_executable\_path": "/usr/bin/phpcs",
+"phpcs_executable_path": "/usr/bin/phpcs",
 ~~~
 
 Set the full path to phpcs. You can use `which phpcs` for this.
 
 ~~~js
-"phpcs\_additional\_args": {
+"phpcs_additional_args": {
     "--standard": "psr2",
     "-n": ""
 },
@@ -81,21 +81,21 @@ Because you know you love spaces over tabs.
 
 ~~~js
 // Path to where you have the php-cs-fixer installed
-"php\_cs\_fixer\_executable\_path": "/usr/local/bin/php-cs-fixer",
+"php_cs_fixer_executable_path": "/usr/local/bin/php-cs-fixer",
 ~~~
 
 Find the fixer.
 
 ~~~js
 // Are we going to run php -l over the file?
-"phpcs\_linter\_run": true,
+"phpcs_linter_run": true,
 ~~~
 
 Here is the linting we were taking about.
 
 ~~~js
 // Execute phpmd
-"phpmd\_run": true,
+"phpmd_run": true,
 ~~~
 
 Will shout at you for producing stupidly complex functions and methods. If it says a method is complicated, try splitting it in half.
@@ -103,7 +103,7 @@ Will shout at you for producing stupidly complex functions and methods. If it sa
 ~~~js
 // It seems python/sublime cannot always find the phpmd application
 // If empty, then use PATH version of phpmd, else use the set value
-"phpmd\_executable\_path": "/usr/bin/phpmd",
+"phpmd_executable_path": "/usr/bin/phpmd",
 ~~~
 
 Tell Sublime where phpmd is.
