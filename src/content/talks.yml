@@ -3,8 +3,18 @@
   short: >
       Lots of developers are aware they can use API descriptions for docs and
       mocking, but they often have this concern about “keeping specs in sync with
-      code”. Learn how to reuse these description docs to drastically simplify 
+      code”. Learn how to reuse these description docs to drastically simplify
       validation, in client-side, server-side, and even at the API gateway.
+
+- slug: automating-api-style-guides
+  title: "Automating API Style Guides"
+  short: >
+      Creating consistent, quality APIs is a tough job, especially as ecosystems
+      move past 100 APIs and beyond. API Style Guides can help, but developers
+      rarely read them, and those that do don't always remember everything.
+      API Design Reviews and Governance tooling is maturing to help solve this,
+      automating API Style Guides allowing teams to introduce new guidance over time. Learn
+      how to roll this out at your company easily.
 
 - slug: design-first-apis
   title: "Design First APIs"

@@ -7,7 +7,28 @@
 #   country: Futurama
 #   talks:
 #     - slug: api-descriptions-as-production-code
-#       slides: http://talks.phil.tech/instances/2019-12-api-days-paris/html/
+#       slides: https://talks.phil.tech/instances/2019-12-api-days-paris/html/
+
+- event:
+    name: API Days INTERFACE
+    url: https://web.archive.org/web/20200630171035/https://www.apidays.co/interface
+    dates: 1st July 2020
+  country: Online
+  talks:
+    - slug: automating-api-style-guides
+      slides: https://talks.phil.tech/instances/2020-07-api-days-interface/slides.pdf
+  past: true
+
+- event:
+    name: PHP South Wales Meetup
+    url: https://www.meetup.com/PHP-South-Wales/events/271029683
+    dates: 30th June 2020
+  country: Online
+  talks:
+    - slug: api-descriptions-as-production-code
+      slides: https://talks.phil.tech/instances/2020-06-30-php-south-wales/slides.pdf
+      video: https://www.youtube.com/watch?v=nfkppuQ-Eg0
+  past: true
 
 - event:
     name: API Days Paris
@@ -17,7 +38,7 @@
   country: France
   talks:
     - slug: api-descriptions-as-production-code
-      slides: http://talks.phil.tech/instances/2019-12-api-days-paris/html/
+      slides: https://talks.phil.tech/instances/2019-12-api-days-paris/html/
   past: true
 
 - event:
@@ -28,7 +49,7 @@
   country: USA
   talks:
     - slug: api-descriptions-as-production-code
-      slides: http://talks.phil.tech/instances/2019-10-asc/html/
+      slides: https://talks.phil.tech/instances/2019-10-asc/html/
   past: true
 
 - event:
@@ -39,7 +60,7 @@
   country: Netherlands
   talks:
     - slug: api-descriptions-as-production-code
-      slides: http://talks.phil.tech/instances/2019-10-api-the-docs/html/
+      slides: https://talks.phil.tech/instances/2019-10-api-the-docs/html/
       video: https://www.youtube.com/watch?v=s36AWjufRMU
   past: true
 
@@ -51,7 +72,7 @@
   country: USA
   talks:
     - slug: api-descriptions-as-production-code
-      slides: http://talks.phil.tech/instances/2019-08-api-city/html/
+      slides: https://talks.phil.tech/instances/2019-08-api-city/html/
   past: true
 
 - event:
