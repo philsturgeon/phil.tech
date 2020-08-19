@@ -38,7 +38,7 @@ const PageTemplate = css`
 
 
 const Books: React.FC = (props) => {
-  
+
   const { allBooksYaml } = useStaticQuery(
     graphql`
       query {
@@ -63,9 +63,9 @@ const Books: React.FC = (props) => {
     `
   )
 
-  return( 
+  return (
     <IndexLayout>
-      <Seo 
+      <Seo
         title="Books"
         description="My latest books"
         path={props.path}
