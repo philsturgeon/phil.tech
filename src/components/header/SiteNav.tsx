@@ -7,12 +7,12 @@ import styled from '@emotion/styled';
 
 import { colors } from '../../styles/colors';
 import { fonts } from '../../styles/fonts';
-import { SocialLink, SocialLinkFb } from '../../styles/shared';
+import { SocialLink } from '../../styles/shared';
 import config from '../../website-config';
 import { Twitter } from '../icons/twitter';
 import { Github } from '../icons/github';
 // import { SubscribeModal } from '../subscribe/SubscribeModal';
-import { SiteNavLogo } from './SiteNavLogo';
+// import { SiteNavLogo } from './SiteNavLogo';
 
 interface SiteNavProps {
   isHome?: boolean;

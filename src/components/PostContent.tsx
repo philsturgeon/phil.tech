@@ -172,6 +172,15 @@ export const PostFullContent = styled.section`
     }
   }
 
+  figure {
+    text-align: center
+  }
+
+  figcaption {
+    font-size: small;
+    margin: 1rem 2rem;
+  }
+
   blockquote p {
     margin: 0 0 1em 0;
     color: inherit;
