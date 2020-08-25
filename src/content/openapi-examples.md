@@ -384,6 +384,54 @@ OpenAPI v3.1 when it is release, because it [solves the JSON Schema divergence](
 properly now. So yay for full JSON Schema support, but... agh for having _yet
 another_ way to handle examples.
 
+These are all valid, and various combinations can and do exist. 
+
+```yaml
+/infinite-examples:
+  get:
+    operationId: infinite-examples
+    responses:
+      "200":
+        description: OK
+        content:
+          application/json:
+            schema:
+              properties:
+                name:
+                  type: string
+                  # OpenAPI Schema Object Example
+                  example: stowford
+                coordinates:
+                  description: We couldn't pick a format for coordinates so we support
+                  pretty much all of them.
+                  # JSON Schema Examples from 2019-09
+                  examples:
+                  - "52.377956, 4.897070"
+                  - [52.377956, 4.897070]
+                  - { lat: 52.377956, lon: 4.897070 }
+              required:
+                - name
+                - coordinates
+              
+              # OpenAPI Schema Object Example (but for an object)
+              example:
+                name: freddy
+                coordinates: "52.377956, 4.897070"
+
+            # OpenAPI Media Type Example
+            example:
+              name: finn
+              coordinates: "52.377956, 4.897070"
+
+            # OpenAPI Media Type Examples
+            # cannot have this and the OpenAPI Media Type Example together
+            examples:
+              arbitrary example name:
+                value:
+                  name: finns evil twin
+                  coordinates: "52.377956, 4.897070"                  
+```
+
 If we're going to dig our way out of this mess, we need end users and tooling people to pitch in.
 
 1. Upgrade your OpenAPI descriptions to OpenAPI v3.0 right now, and switch to
