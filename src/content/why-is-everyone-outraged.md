@@ -35,7 +35,7 @@ Give it a read! One person makes a joke and has a few retweets, some journalist 
 
 These manufactured outrage stories happen not just from daft or lazy journalists looking to fill some time, but sometimes by malicious people. These could be journalists looking to push a particular political narrative, or it could be assholes like 4chan making up a fake aggressive man-hating feminism article to make the average person think "Wow, feminists are nuts."
 
-Either way, **you're being duped**. You see enough of these nonsense stories, you hear enough of your friends saying "Everyones offended these days" and eventually - through no fault of your own - you're more likely to think that's whats happening the next time.
+Either way, **you're being duped**. You see enough of these nonsense stories, you hear enough of your friends saying "Everyones offended these days" and eventually - through no fault of your own - you're more likely to think that's what's happening the next time.
 
 These causes can be anything from harassment at the workplace, how valuable a code of conduct can be to women at a conference, how redefining rape to mean "I didn't say yes I just fell asleep" is important, how "religious freedom" rules legalizing and ratifying homophobia is not ok, what names communities like (and really do not like) to be called, if running a massive advertising campaign at Spotify saying "So easy you Mum could do it" and "No mum not that cloud" is offensive to mothers in general - regardless of how tech your mum might be, etc.
 
