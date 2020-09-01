@@ -185,6 +185,6 @@ At a company which is mostly RESTish (HTTP APIs), I usually recommend working yo
 
 I'd rather see bad-but-documented APIs than great APIs nobody knows how to use. Of course over time a great API that's well documented (and self documenting) through a type system (JSON Schema) and links (HATEOAS) is ideal, but it's one step at a time. 
 
-Shine a light on the current mess and slowly add enjoy the fact that HTTP is a intelligently layered system. You can add HTTP/2 support without changing an API at all, then over time split the endpoints out into smaller ones, with cache control headers on them, and clients can use these smaller ones with cache controls in the own time without having to rewrite everything to use totally different tooling.
+Shine a light on the current mess and slowly improve it, leveraging the fact that HTTP is a intelligently layered system. You can add HTTP/2 support without changing an API at all, then over time split the endpoints out into smaller ones, with cache control headers on them, and clients can use these smaller ones with cache controls in the own time without having to rewrite everything to use totally different tooling.
 
 Whatever you do, create a style guide, focus on deleting old code as fast as you can, and make sure that new APIs/versions are designed well before you get going. If you'd like to know how that works, read all about [Code First vs Design First](https://apisyouwonthate.com/blog/api-design-first-vs-code-first/) over here, and maybe you can unf**k an entire mad ecosystem one piece at a time.
