@@ -3,7 +3,7 @@ layout: post
 author: [Phil]
 title: Building an iTunes feed with Octopress
 tags: [ruby]
-excerpt: "  \n \n\tOctopress is a great little CMS for hackers and it works on
+excerpt: "Octopress is a great little CMS for hackers and it works on
   GitHub pages for free hosting, so a few PHP developers have been known to use it
   to smash together a basic site even thought it's using Ruby; Boo, hiss, etc. One
   site I've built with Octopress is for a new podcast I co-host with Ben Edmunds called
@@ -11,8 +11,6 @@ excerpt: "  \n \n\tOctopress is a great little CMS for hackers and it works on
 date: '2013-01-17 04:12:00'
 comments: true
 disqus_identifier: building-an-itunes-feed-with-octopress
-alias: blog/2013/01/building-an-itunes-feed-with-octopress/
-alias_1: ruby/2013/01/17/building-an-itunes-feed-with-octopress/
 ---
 
 Octopress is a great little CMS for hackers and it works on GitHub pages for free hosting, so a few PHP developers have been known to use it to smash together a basic site even thought it's using Ruby; Boo, hiss, etc.

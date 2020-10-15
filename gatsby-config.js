@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 /* eslint-disable @typescript-eslint/no-var-requires */
 const path = require('path');
 
@@ -49,7 +51,7 @@ module.exports = {
               quality: 100,
             },
           },
-          {
+         {
             resolve: `@raae/gatsby-remark-oembed`,
             options: {
               providers: {
@@ -60,8 +62,9 @@ module.exports = {
                   'Vimeo',
                 ],
                 settings: {
-                  // Ex. Show all Twitter embeds with the dark theme
-                  // Twitter: { theme: 'dark' },
+                  Instagram: {
+                    access_token: process.env.INSTAGRAM_ACCESS_TOKEN,
+                  },
                 },
               },
             },
