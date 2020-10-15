@@ -62,6 +62,10 @@ module.exports = {
                   'Vimeo',
                 ],
                 settings: {
+                  Twitter: {
+                    align: 'center',
+                    dnt: true
+                  },
                   Instagram: {
                     access_token: process.env.INSTAGRAM_ACCESS_TOKEN,
                   },
