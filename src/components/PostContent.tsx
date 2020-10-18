@@ -286,7 +286,7 @@ export const PostFullContent = styled.section`
   h4,
   h5,
   h6 {
-    color: ${setLightness('0.05', colors.darkgrey)};
+    color: ${lighten('0.05', colors.darkgrey)};
   }
 
   @media (prefers-color-scheme: dark) {

@@ -3,14 +3,6 @@ layout: post
 author: [Phil]
 title: Do Things That Scare You
 tags: [personal]
-excerpt: "I was giving a short talks at DevXS in Lincoln this weekend based on
-  my Nomadic Web Development article and I was asked \"Where did you find the courage
-  to quit your job, leave your flat and just go?\". I mumbled something about not
-  being sure but I am really annoyed with myself for not coming up with a substantially
-  better answer. If asked again I would say \"Do the things that scare you. Try anything
-  and you'll either succeed or fall on your ass and learn some valuable lessons, either
-  way you come out stronger.\". That might be some motivational bullhockey, but I
-  believe it and you guys should give it a try. "
 date: '2011-11-14 11:22:00'
 comments: true
 disqus_identifier: do-things-that-scare-you
@@ -18,7 +10,7 @@ alias: blog/2011/11/do-things-that-scare-you/
 alias_1: personal/2011/11/14/do-things-that-scare-you/
 ---
 
-I was giving a short talks at [DevXS](http://devxs.org/) in Lincoln this weekend based on my [Nomadic Web Development article](/blog/2011/08/nomadic-web-development) and I was asked "Where did you find the courage to quit your job, leave your flat and just go?". I mumbled something about not being sure but I am really annoyed with myself for not coming up with a substantially better answer. If asked again I would say "Do the things that scare you. Try anything and you'll either succeed or fall on your ass and learn some valuable lessons, either way you come out stronger.". That might be some motivational bull-hockey, but I believe it and you guys should give it a try.
+I was giving a short talks at [DevXS](http://devxs.org/) in Lincoln this weekend based on my [Nomadic Web Development article](/blog/2011/08/nomadic-web-development) and I was asked "Where did you find the courage to quit your job, leave your flat and just go?". I mumbled something about not being sure but I am really annoyed with myself for not coming up with a substantially better answer. If asked again I would say "Do the things that scare you. Try anything and you'll either succeed or fall on your ass and learn some valuable lessons, either way you come out stronger." That might be some motivational bull-hockey, but I believe it and you ~guys~ folks should give it a try.
 
 Over the last year I have done so many things that scared the living shit out of me. There was mountains in Golden and Banff that were almost entirely scree all the way to the peak with high wind and huge drops that would certainly lead to death. So many times I considered giving up and heading back down but I pushed myself, got to the top and it was epic. I started kayaking last year and I was petrified of going down waterfalls and dodging rocks in rapids, now I have a BCU 3\* which shows that I am now officially "pretty good".
 
