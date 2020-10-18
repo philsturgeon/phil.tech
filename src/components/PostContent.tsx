@@ -37,7 +37,8 @@ export const PostFullContent = styled.section`
   font-size: 2rem;
   line-height: 1.6em;
 
-  .twitter-tweet {
+  .twitter-tweet,
+  .twitter-tweet-rendered {
     margin: 0 auto;
     margin-bottom: 25px !important;
   }
@@ -110,7 +111,6 @@ export const PostFullContent = styled.section`
   }
 
   a:hover {
-    color: ${colors.orange};
     text-decoration: none;
     box-shadow: ${colors.orange} 0 -1px 0 inset;
   }
@@ -119,6 +119,16 @@ export const PostFullContent = styled.section`
   em {
     /* color: color(var(--darkgrey) l(-5%)); */
     color: ${lighten('-0.05', colors.darkgrey)};
+  }
+
+  @media (prefers-color-scheme: dark) {
+    a {
+      color: ${colors.orange};
+    }
+    strong,
+    em {
+      color: color(var(--darkgrey) l(-5%));
+    }
   }
 
   small {
@@ -158,7 +168,11 @@ export const PostFullContent = styled.section`
   }
 
   iframe {
-    margin: 0 auto !important;
+    margin: 2em auto 3em !important;
+  }
+  .gatsby-resp-image-wrapper {
+    margin-top: 2em;
+    margin-bottom: 3em;
   }
 
   blockquote {
@@ -272,7 +286,18 @@ export const PostFullContent = styled.section`
   h4,
   h5,
   h6 {
-    color: ${lighten('-0.05', colors.darkgrey)};
+    color: ${lighten('0.05', colors.darkgrey)};
+  }
+
+  @media (prefers-color-scheme: dark) {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: color(var(--darkgrey) l(-5%));
+    }
   }
 
   h1 {
