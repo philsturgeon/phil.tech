@@ -35,6 +35,13 @@ module.exports = {
       options: {
         plugins: [
           {
+            resolve: 'gatsby-remark-graph',
+            options: {
+              language: 'mermaid', // default
+              theme: 'forest' // could also be dark, forest, or neutral
+            }
+          },
+          {
             resolve: 'gatsby-remark-responsive-iframe',
             options: {
               wrapperStyle: 'margin-bottom: 1rem',
