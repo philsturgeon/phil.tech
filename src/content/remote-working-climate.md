@@ -5,9 +5,7 @@ title: Remote Work As Climate Action
 excerpt: With the slow but sure rise in remote working, let's leverage this fantastic lifestyle change to improve our own quality of life, and avoid permanently flooding the cities millions of us call home.
 date: 2020-02-22
 image: img/2020-02-22-remote-work-climate/cover.jpg
-tags: [climate]
-featured: true
-draft: false
+tags: [climate, remote-work]
 disqus_identifier: remote-working-climate
 ---
 
