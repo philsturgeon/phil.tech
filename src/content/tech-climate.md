@@ -10,7 +10,9 @@ featured: true
 draft: false
 ---
 
-As the science-denial perpetrated omnishambles of 2020 continues, COVID-19 rages on whilst [thousands are displaced by flooding in Vietnam](https://www.aljazeera.com/news/2020/10/11/deadly-floods-displace-thousands-in-cambodia-vietnam), [Europe gets hit by deadly storms and flash floods](https://www.bbc.com/news/world-europe-54417223), [wildfires are big enough to be called "gigafires"](https://www.theguardian.com/us-news/2020/oct/06/california-wildfires-gigafire-first), and the only [countries on track to hit the Paris Agreement](https://climateactiontracker.org/countries/) are The Gambia and Morocco. Instead of hoping those in power decide to suddenly start listening to science and implementing solutions to solve the climate crisis, many of us are doing what we can to make change. For many of us in tech (or tech-adjacent roles), we can actually do quite a lot.
+As the science-denial perpetrated omnishambles of 2020 continues, COVID-19 rages on whilst [Europe gets hit by deadly storms and flash floods](https://www.bbc.com/news/world-europe-54417223), [wildfires are big enough to be called "gigafires"](https://www.theguardian.com/us-news/2020/oct/06/california-wildfires-gigafire-first), [the Arctic refuses to freeze for the first time on record](https://www.msn.com/en-gb/news/uknews/alarm-as-arctic-sea-ice-not-yet-freezing-at-latest-date-on-record/ar-BB1ai0fd), [thousands are displaced by flooding in Vietnam](https://www.aljazeera.com/news/2020/10/11/deadly-floods-displace-thousands-in-cambodia-vietnam), and the only [countries on track to hit the Paris Agreement](https://climateactiontracker.org/countries/) are The Gambia and Morocco. 
+
+Instead of hoping those in power decide to suddenly start listening to science and implementing solutions to solve the climate crisis, many of us are doing what we can to make change. For many of us in tech (or tech-adjacent roles), we can actually do quite a lot.
 
 _[What Can a Technologist Do About Climate Change](http://worrydream.com/ClimateChange/)_ is a great essay written in 2015 by Bret Victor, but a lot has changed since then, and there are a plethora of new resources around. If you're on a mission to unfuck the climate a little bit, see if any of this can help you out.
 
@@ -143,7 +145,7 @@ pie title HTTPS traffic through the Akamai Network in 2018
     "text/xml" : 14
 ```
 
-What can we do about this? Some folks will suggest switching to BSON or Protobuf or something, but most of the time there's something a bit more important going on that shaving some bits off the data being sent. An important factor generally overlooked is cacheability.
+Great to see XML shrinking, that format is a little bulky. Some folks will suggest switching to BSON, Protobuf, or some other binary format, and that can help, but most of the time there's something a bit more important going on. You'd be amazed how ofer cacheability is overlooked, despite being listed as one of the main criteria of a REST API.
 
 > Cacheability, a measurement of how much of the traffic can be saved on the servers used by content delivery networks such as Akamai, is comparable between HTML hits and API hits. While one-third of hits recorded were marked as “no-store,” and therefore preventing caching, the cache hit rate for API traffic was actually slightly higher than that of HTML traffic. **This means that a significant amount of the API traffic is being offloaded from the origin servers** of the customer and is being served from edge servers near the end user. **This significantly reduces the load on both the origin server and the Internet backbone as a whole.**
 
@@ -153,9 +155,11 @@ Generally cache proxy servers like [Fastly](https://www.fastly.com/) offer a qui
 
 Generally, when folks hear this they shout "it's not that simple, most API data is not cacheable!" Some folks will even say that API caching is inherently a bad idea... These people are fundamentally wrong, but it's really common. I've been trying to explain this for years. Giant payloads with all sorts of mixed data, with resource A, B, C, D all smushed into a singhle response body due to fear of "making too many calls" means you've got cacheable data mixed in with uncacheable data, therefore nothing is cacheable. 
 
-This is some old HTTP/1 thinking, where "compound documents" and GraphQL seem like a good idea, but [this has no place in a HTTP/2 world](https://apisyouwonthate.com/blog/lets-stop-building-apis-around-a-network-hack), especially with HTTP/3 around the corner. Fastly wrote a great article showing how you can [design APIs to be more cacheable](https://www.fastly.com/blog/optimise-api-cache-improved-performance), and reduce the number of pointless requests hitting your API. 
+This is some old HTTP/1 thinking, where ["compound documents" and GraphQL seem like a good idea](https://apisyouwonthate.com/blog/lets-stop-building-apis-around-a-network-hack), but has no place in a HTTP/2 world - especially with [HTTP/3 around the corner](https://www.fastly.com/blog/state-of-quic-and-http3-2020). 
 
-Again, with companies like Fastly spending all their time focusing on making things more efficient, you having a few cache servers is always going to be more efficient than having a bunch of origin servers, spreading them around all over the world, desperately waiting to try and answer redundant questions as quickly as they can.
+Fastly wrote a great article showing how you can [design APIs to be more cacheable](https://www.fastly.com/blog/optimise-api-cache-improved-performance), and reduce the number of pointless requests hitting your API.
+
+Again, with hosted cache proxy services focused on making things more efficient, you having a few cache servers is always going to be more efficient than having a bunch of origin servers, spreading them around all over the world, desperately waiting to try and answer redundant questions as quickly as they can.
 
 Design more efficient APIs. Save the world. 👍
 
@@ -183,15 +187,19 @@ Thinking about energy efficiency and making smart technical decisions doesn't ha
 
 Generally the Internet of Things doesn't get me too excited, but when I noticed that many of these devices support [IFTTT](https://ifttt.com/), and both [electricityMap](https://ifttt.com/electricitymap) and [WattTime](https://ifttt.com/watttime) are also there, I started wondering what sort of amazing energy hacks can be made around the house. 
 
-Make your blinds come down when it gets hot to bounce the sunlight out, instead of triggering the AC.
+🏡 Make your blinds come down when it gets hot to bounce the sunlight out, instead of triggering the AC.
 
-Get an notification from the IFTTT app letting you know that carbon intensity of the grid is low, so now is a good time to charge your laptop.
+🔌 Get an notification from the IFTTT app letting you know that carbon intensity of the grid is low, so now is a good time to charge your laptop.
 
-Inversely, find out when intensity is high so you can unplug your laptop to reduce the intensity a little. 
+🔋 Inversely, find out when intensity is high so you can unplug your laptop to reduce the intensity a little. 
 
-Automatically have your Roomba pause when grid intensity is high, so it doesn't charge on coal power.
+💉 Automatically have your Roomba pause when grid intensity is high, so it doesn't charge on coal power.
 
-Take it a step further and dim your lights when carbon intensity is high, or maybe turn _everything off_ and guess what it's time to go for walk/run/cycle/roll. Bonus points if you get a [dynamo hub on your bike](https://www.cyclingabout.com/best-dynamo-hub-bicycle-touring-bikepacking/) and charge your phone off your legs instead of pestering the grid at all.
+💡 Dim your lights when carbon intensity is high.
+
+🚴‍♂️ Turn _everything off_ when carbon intensity is high, and go for walk/run/cycle/roll. 
+
+_Bonus points if you get a [dynamo hub on your bike](https://www.cyclingabout.com/best-dynamo-hub-bicycle-touring-bikepacking/) and charge your phone off your legs instead of pestering the grid at all._
 
 There's loads of interesting things a thoughtful smart-home could do to save energy if done appropriately, but sticking Bluetooth/WiFi in every single toaster and light bulb does have energy associated with it too. Track your energy usage and see what you can do to get it down, and when you've had success maybe look into helping your friends and family do the same at their homes too.
 
