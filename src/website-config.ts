@@ -53,7 +53,7 @@ export interface WebsiteConfig {
 
 const config: WebsiteConfig = {
   title: 'Phil Sturgeon',
-  description: 'I build API Design tools for Stoplight.io, write about pragmatic API design, systems architecture, live on a bike, and occasionally upset hordes of mens rights activists on Reddit.',
+  description: 'I help make API Design tools at Stoplight, write about pragmatic API design & development, systems architecture, live on a bike, and help tech folks figure out how they can use their skills to unf**k the planet.',
   coverImage: 'img/cover.jpg',
   // logo: 'img/ghost-logo.png',
   lang: 'en',

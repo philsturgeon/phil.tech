@@ -6,8 +6,6 @@ excerpt: With the slow but sure rise in remote working, let's leverage this fant
 date: 2020-02-22
 image: img/2020-02-22-remote-work-climate/cover.jpg
 tags: [climate, remote-work]
-featured: true
-draft: false
 disqus_identifier: remote-working-climate
 ---
 

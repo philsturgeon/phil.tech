@@ -4,7 +4,7 @@ author: [Phil]
 title: Technology as Climate Action
 # excerpt: 
 date: 2020-10-26
-image: img/2020-10-26-remote-work-climate/cover.jpg
+image: img/2020-10-26-tech-climate/cover.jpg
 tags: [climate]
 featured: true
 draft: false
@@ -24,7 +24,7 @@ From there, [Project Drawdown](https://www.drawdown.org/) is a great next step. 
 
 For something less academic, check out [How to Fix a Planet](https://gimletmedia.com/shows/howtosaveaplanet) for general climate action talk you can share with anyone, and [The Climate Fix](https://theclimatefix.com/) for a podcast focused on organizations and individuals working on solutions to parts of the problem, from cheap clean water, to smart-grid enabling electric cars.
 
-[Climate Choice](https://climatechoice.co/) has some great guides, and I put together [Protect Earth](https://protect.earth/) to help folks find resources with general climate action like zero-waste cleaning supplies, tips on how to rearrange your finances to de-fund fossil fuels, and everything in between, all around the world.
+[Climate Choice](https://climatechoice.co/) has some great guides, and I put together [Protect Earth](https://actions.protect.earth/) to help folks find resources with general climate action like zero-waste cleaning supplies, tips on how to rearrange your finances to de-fund fossil fuels, and everything in between, all around the world.
 
 ## Find Your Community
 
@@ -42,15 +42,15 @@ Just like anything in tech, there are meetups, conferences, and Slack channels w
 
 In tech many of us have the privilege of above average incomes, and a disproportionate freedom of choice in where we work, even in the COVID-19 pandemic. This privilege can be wielded for the good of everyone else when it comes to contributing to climate solutions, but how is a discussion in itself. There are three common schools of thought.
 
-- Chase the biggest salary, regardless of what the company does, and give as much of it to climate projects as you can afford.
-- Work for companies which have a big impact on the environment, and work from the inside to turn them around, as a Sustainability Software Engineer, or as part of a [Green Team](TODO).
 - Work for charities and organizations who's core purpose is solving climate issues.
+- Work for companies which have a big impact on the environment, and work from the inside to turn them around, as a Sustainability Software Engineer, or as part of a Green Team.
+- Chase the biggest salary, regardless of what the company does, and give as much of it to climate projects as you can afford.
 
 Green Tech has been exploding over the last few years, and salaries are pretty competitive. The idea that organizations benefiting the environment pay in peanuts and warm feelings is as untrue as it is pervasive. That said, you could certainly chase far bigger paychecks increasing clicks at a democracy subverting social media giant, or helping screw over contracted labour at a ride-share company. 
 
-If you're chasing the big salary and screwing people/countries over, you're doing more harm than good, even if you donate 50% of your income, but if you can work somewhere innocuous (I build software which [helps people design APIs](https://stoplight.io/)) and put some of that income towards environmental & social good, then that's a great way to go too. Direct or indirect support for the environment, so long as you first do no harm.
+If you're chasing the big salary and screwing people/countries over, you're doing more harm than good, even if you donate 50% of your income. If you can work somewhere innocuous (I build software which [helps people design APIs](https://stoplight.io/)) and put some of that income towards environmental & social good, then that's a great way to go too. Direct or indirect support for the environment, so long as you first do no harm.
 
-Something to keep in mind is that whilst getting a giant company like Microsoft, Shopify, Amazon, etc. to make better decisions is A Good Thing™️, but small and medium enterprises (SMEs) make up 60% of CO2 emissions. As they often don't have the time or money to retrain, rewrite, or hire specific sustainable software engineers, you can help knock out a huge chunk of the CO2 by working on tech-based business information solutions that help businesses reduce their footprints.
+Something to keep in mind is that whilst getting a giant company like Microsoft, Shopify, Amazon, etc. to make better decisions is A Good Thing™️, but small and medium enterprises (SMEs) [make up 60% of CO2 emissions in Europe](https://op.europa.eu/en/publication-detail/-/publication/aa507ab8-1a2a-4bf1-86de-5a60d14a3977). As they often don't have the time or money to retrain, rewrite, or hire specific sustainable software engineers, you can help knock out a huge chunk of the CO2 by working on tech-based business information solutions that help businesses reduce their footprints.
 
 Keeping all of this in mind, if you decide you'd like to have a browse around for jobs to see if there is anything that solves a problem you're interested in, has compensation you're happy with, and lets you work in a location you're happy working, then here's where you start looking.
 
@@ -63,8 +63,8 @@ The [ClimateAction.Tech](https://climateaction.tech) channel #d-job-opportunitie
 - [GreenJobs.com](https://greenjobs.com/jobs/?q=remote&l=&r=200)
 - [GreenJobsSearch.org](https://greenjobs.greenjobsearch.org/?s=remote)
 - [ReconsideredJobs.co](https://jobs.reconsidered.co/jobs/?country=Remote)
-- [Tech Jobs for Good](https://techjobsforgood.com/?q=&impact_areas=Environment&remote_jobs=on)
 - [TBD](https://www.tbd.community/)
+- [Tech Jobs for Good](https://techjobsforgood.com/?q=&impact_areas=Environment&remote_jobs=on)
 
 Happy hunting! 
 
@@ -109,7 +109,7 @@ When it comes to the big clouds:
 
 - 🟠 [Amazon AWS](https://sustainability.aboutamazon.com/environment/the-cloud) - "AWS purchases and retires environmental attributes, like Renewable Energy Credits and Guarantees of Origin, to cover the non-renewable energy we use in these regions: U.S. West (Oregon), GovCloud (U.S. West), Europe (Frankfurt), Canada (Central), Europe (Ireland)". That is only a handful of their data centers which have achieved carbon neutral through offsetting. The other clouds have already got to this step, and are working on increasing their renewable energy production to match demand. Amazon are building solar farms and other renewable energy sources like the other clouds, they're a long way behind Google Cloud and Azure.
 
-Switching clouds is a huge deal and there's not necessarily any need to flippantly switch for this reason alone when time could be spent on other reduction activities, but if you've got enough people, and/or are considering a move anyway, bump these two providers up the list a little. 
+Switching clouds is not a trivial task, and I'm not recommending flippantly switching for this reason alone when time could be spent on other reduction activities. If you've got enough people that this task can be handled relatively easily, and/or are considering a move anyway, try and push for Azure or Google Cloud. 
 
 If you're running your own infrastructure, it's hugely likely that switching to one of the better clouds is going to be huge savings for you. They're focusing on making things more efficient full time, because every 1% they squeeze out of their operational efficiency is another 1% they don't have to pay to offset, or fund a new solar farm to cover. 
 
@@ -143,23 +143,23 @@ pie title HTTPS traffic through the Akamai Network in 2018
     "text/xml" : 14
 ```
 
-What can we do about this? Some folks will suggest switching to BSON or Protobuf or something, and maybe, sure, they're a little smaller, but a more important factor here is cacheability.
+What can we do about this? Some folks will suggest switching to BSON or Protobuf or something, but most of the time there's something a bit more important going on that shaving some bits off the data being sent. An important factor generally overlooked is cacheability.
 
 > Cacheability, a measurement of how much of the traffic can be saved on the servers used by content delivery networks such as Akamai, is comparable between HTML hits and API hits. While one-third of hits recorded were marked as “no-store,” and therefore preventing caching, the cache hit rate for API traffic was actually slightly higher than that of HTML traffic**This means that a significant amount of the API traffic is being offloaded from the origin servers of the customer and is being served from edge servers near the end user. This significantly reduces the load on both the origin server and the Internet backbone as a whole.**
 
 Emphasis added me, because this is awesome. I regularly have to help companies figure their way through [fixing up their ecosystem](https://phil.tech/2020/prioritizing-api-ecosystem-maturity/), and whilst some muppet(s) always want to rewrite everything in whatever Twirp, gRPC, or snowflake pattern they like this month, chasing theoretical performance, most of the time it turns out network caching was completely ignored. 
 
-Generally applying network caching - through something like Fastly - has huge gains, by reducing how often the origin server has to do the work. Then applying [HTTP caching middlewares to clients](https://apisyouwonthate.com/blog/speeding-up-apis-apps-smart-toasters-with-http-response-caching) can help the client not even bother making a request when it already knows the answer. 
+Generally applying network caching - through something like [Fastly](https://www.fastly.com/) - has huge gains, by reducing how often the origin server has to do the work. Then applying [HTTP caching middlewares to clients](https://apisyouwonthate.com/blog/speeding-up-apis-apps-smart-toasters-with-http-response-caching) can help the client not even bother making a request when it already knows the answer. 
 
 Generally, when folks hear this they shout "it's not that simple, most API data is not cacheable!" Some folks will even say that API caching is inherently a bad idea... These people are fundamentally wrong, but it's really common. I've been trying to explain this for years. Giant payloads with all sorts of mixed data, with resource A, B, C, D all smushed into a singhle response body due to fear of "making too many calls" means you've got cacheable data mixed in with uncacheable data, therefore nothing is cacheable. 
 
 This is some old HTTP/1 thinking, where "compound documents" and GraphQL seem like a good idea, but [this has no place in a HTTP/2 world](https://apisyouwonthate.com/blog/lets-stop-building-apis-around-a-network-hack), especially with HTTP/3 around the corner. Fastly wrote a great article showing how you can [design APIs to be more cacheable](https://www.fastly.com/blog/optimise-api-cache-improved-performance), and reduce the number of pointless requests hitting your API. 
 
-Again, with Fastly spending all their time focusing on making things more efficient, having a few cache servers is always going to be more efficient than having a bunch of origin servers, spreading them around all over the world, desperately waiting to try and answer redundant questions as quick as they can.
+Again, with companies like Fastly spending all their time focusing on making things more efficient, you having a few cache servers is always going to be more efficient than having a bunch of origin servers, spreading them around all over the world, desperately waiting to try and answer redundant questions as quickly as they can.
 
 Design more efficient APIs. Save the world. 👍
 
-## Remote Work after COVID-19
+## Remote Work Post-Pandemic
 
 Various surveys suggest that only 25% people are able to work from home, and most of us in tech fall into that group. Nobody should feel obliged to work from home, but everyone should support those who want to.
 
@@ -171,22 +171,21 @@ Whether it's flexible working, remote-friendly, remote-first, or fully distribut
 
 I wrote about _[Remote Work as Climate Action](/2020/remote-working-climate/)_ if you'd like to learn more.
 
-
 ## Hack your Life
 
 Thinking about energy efficiency and making smart technical decisions doesn't have to be limited to the day job. Use your tech skills to help set up smart-thermostats, smart-water boilers, or make dumb things smart. 
 
 - [Ecobee](https://www.ecobee.com/en-us/smart-thermostats/#Overview) - Smart Thermostats that can apparently cut energy costs by 23%, but doing things like adjusting heating or cooling when electricity is cheaper and cleaner.
 - [Sense](https://sense.com) - "Monitors your home's electric use to help you save money, see what’s on or off, and even avoid disaster."
-- [Barry](https://barry.energy/) - "Barry is the 100% digital electricity supplier. With us, you can easily achieve smarter, cheaper and more climate-friendly energy consumption." (Denmark and France).
 - [Lancey](https://www.lancey.fr/) - "An efficient radiator to control your electricity consumption while improving comfort, with a connected thermostat to adapt to your needs and the characteristics of your home. A built-in battery stores electricity during off-peak hours, allowing you to automatically use cheaper and cleaner energy."
 - [PowerX](https://www.powerx.co/) - "Uses machine learning to save you money on heating, pick apart individual devices that are on and off, and identify water use by outlet. Optimizing every heater in the world can save over 100 million tons of CO2 every year. Taking climate action can start from the boiler room."
+- [Barry](https://barry.energy/) - "Barry is the 100% digital electricity supplier. With us, you can easily achieve smarter, cheaper and more climate-friendly energy consumption." (Denmark and France).
 
-Generally the Internet of Things doesn't get me too excited, but when I noticed that many of these devices support IFTT, and electricityMap is on there, I started wondering what sort of amazing energy hacks can be made around the house. 
+Generally the Internet of Things doesn't get me too excited, but when I noticed that many of these devices support [IFTTT](https://ifttt.com/), and both [electricityMap](https://ifttt.com/electricitymap) and [WattTime](https://ifttt.com/watttime) are also there, I started wondering what sort of amazing energy hacks can be made around the house. 
 
-Make your blinds come down when it gets hot, instead of triggering the AC.
+Make your blinds come down when it gets hot to bounce the sunlight out, instead of triggering the AC.
 
-Get an notification from the IFTT app letting you know that carbon intensity of the grid is low, so now is a good time to charge your laptop.
+Get an notification from the IFTTT app letting you know that carbon intensity of the grid is low, so now is a good time to charge your laptop.
 
 Inversely, find out when intensity is high so you can unplug your laptop to reduce the intensity a little. 
 
@@ -194,7 +193,7 @@ Automatically have your Roomba pause when grid intensity is high, so it doesn't 
 
 Take it a step further and dim your lights when carbon intensity is high, or maybe turn _everything off_ and guess what it's time to go for walk/run/cycle/roll. Bonus points if you get a [dynamo hub on your bike](https://www.cyclingabout.com/best-dynamo-hub-bicycle-touring-bikepacking/) and charge your phone off your legs instead of pestering the grid at all.
 
-There's a lot of interesting things a thoughtfully setup smart-home could achieve that'll save energy and electricity if done appropriately, but sticking Bluetooth/WiFI in every single toaster and light bulb does have energy associated with it too. Track your energy usage and see what you can do to get it down, and when you've had success maybe look into helping your friends and family do the same at their homes too.
+There's loads of interesting things a thoughtful smart-home could do to save energy if done appropriately, but sticking Bluetooth/WiFi in every single toaster and light bulb does have energy associated with it too. Track your energy usage and see what you can do to get it down, and when you've had success maybe look into helping your friends and family do the same at their homes too.
 
 If none of that sounds interesting, maybe you like building physical things. What about making things out of home-recycled plastic?! [Precious Plastic](https://preciousplastic.com/) sell, and offer open-source designs for, [amazing machines](https://preciousplastic.com/solutions/machines/overview.html) that can turn plastic waste into pellets ready for melting down and using to build brand new things. Maybe you could make some useful things for gardening, home-improvement, phone cases, off-brand Lego, or whatever you think up. If you get good at it, maybe you could sell that stuff locally instead of people needing to buy cheap plastic junk from China. You can even register as a recycling center so people bring you the raw materials you need for your business.
 
@@ -214,6 +213,8 @@ We know that cutting off money from [financial instructions supporting the fossi
 
 We know that [eating less meat and dairy](https://ourworldindata.org/environmental-impacts-of-food) can have a huge impact, but instead of just telling people that or shoving numbers in their face, apps like [No Meat Today](https://nomeat.today/) can help folks decide what they'd like to give up, and hold them to it in a fun and non-judgemental way, because it's an app and not a pushy friend of a friend telling you what to eat.
 
-Taking existing tech and making it greener, and taking existing green ideas and leveraging tech to increase adoption: making them easier, more useable, more fun, and less academic, makes climate action generally more accessible to everyone. This is what we can do with our super power of "computering": for work, for play, and at home.
+Taking existing tech and making it greener, and taking existing green ideas and leveraging tech to increase adoption: making them easier, more useable, more fun, and less academic, makes climate action generally more accessible to everyone. 
+
+This is what we can do with our super power of "computering": for work, for play, and at home.
 
 What is your first step going to be? 
