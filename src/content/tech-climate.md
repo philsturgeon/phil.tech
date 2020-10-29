@@ -92,6 +92,8 @@ Leveraging and integrating with these APIs can improve the products and services
 
 💯🌳 [DigitalHumani](https://digitalhumani.com/) - A "Reforestation as a Service" API for planting trees with zero fees taken, as it's entirely run by volunteers.
 
+☁️💀 [OpenAQ](https://docs.openaq.org) - One in Eight deaths in the world is due to poor air quality, and these folks help track measurements all over the world. Find out what your air quality is, make your smart home shut the windows when it's terrible, or maybe decide to not go for a run if its deadly out.
+
 🚘🔋 [Tom Tom Maps API](https://developer.tomtom.com/use-cases/ev-route-planning) - Speed up the transition to electric vehicles by creating routes which take range and charging requirements into account. 
 
 🖥💨 [MyClimate Emission APIs](https://connect.myclimate.org/api-overview) - APIs for calculating emissions from driving, flights, cruise ships (please just don't go on cruise ships!), and for estimates of a whole company based on buildings, employee mobility, food, beverages, and supplies.
