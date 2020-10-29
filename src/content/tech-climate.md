@@ -70,11 +70,17 @@ The [ClimateAction.Tech](https://climateaction.tech) channel #d-job-opportunitie
 
 Happy hunting! 
 
+## Automatic Integrations
+
+Run a Shopify store? Enable the [Ecologi](https://apps.shopify.com/offset-earth) app so you can plant trees for every sale. 
+
+Use Stripe? Contribute 1% of every transaction to the most effective carbon removal projects around with [Stripe Climate](https://stripe.com/climate).
+
 ## Green Tech APIs
 
 Leveraging and integrating with these APIs can improve the products and services in various ways.
 
-🌳💨 [Ecologi API](https://ecologi.com/) - British based company with an API businesses can use to purchase trees through charities like [Eden Reforestation Projects](https://edenprojects.org), or fund carbon reductions and sequestration through various [Gold Standard backed projects](https://ecologi.com/projects). Shopify plugins make it easy, or code something up yourself.
+🌳💨 [Ecologi API](https://ecologi.com/) - British based company with an API businesses can use to purchase trees through charities like [Eden Reforestation Projects](https://edenprojects.org), or fund carbon reductions and sequestration through various [Gold Standard backed projects](https://ecologi.com/projects). 
 
 👨‍💻💨 [Patch API](https://www.usepatch.com/) - Patch has a REST API with loads of plugins and SDKs for various languages. The goal here is to figure out how much carbon emissions are created by things like orders on a e-commerce platform, logistics, travel, or even for banks to figure out their customers footprints from purchases and help them offset it. Whatever you're up to, you can make micro-payments for tree planting, carbon reduction, or direct carbon capture.
 
@@ -119,7 +125,7 @@ If you're running your own infrastructure, it's hugely likely that switching to 
 
 <!-- TODO Autoscaling back down to zero, not just to save money, but to reduce emissions.  -->
 
-If you're using Kubernetes, there are some interesting ideas floating around about automatically [calculating emissions in various data centers and moving pods between multiple nodes to run your containers in the locations with lower carbon emissions. See _[Carbon AWare Kubernetes](https://devblogs.microsoft.com/sustainable-software/carbon-aware-kubernetes/)_ for an overview.
+If you're using Kubernetes, there are some interesting ideas floating around about automatically [calculating emissions in various data centers and moving pods between multiple nodes to run your containers in the locations with lower carbon emissions. See _[Carbon Aware Kubernetes](https://devblogs.microsoft.com/sustainable-software/carbon-aware-kubernetes/)_ for an overview.
 
 It takes a bit of planning, and there are various limitations like data sovereignty to keep in mind, but companies of a certain scale could put a large dent in their emissions this way, especially at SaaS companies or other organizations primarily running software.
 
@@ -145,7 +151,7 @@ pie title HTTPS traffic through the Akamai Network in 2018
     "text/xml" : 14
 ```
 
-Great to see XML shrinking, that format is a little bulky. Some folks will suggest switching to BSON, Protobuf, or some other binary format, and that can help, but most of the time there's something a bit more important going on. You'd be amazed how ofer cacheability is overlooked, despite being listed as one of the main criteria of a REST API.
+Great to see XML shrinking, that format is a little bulky. Some folks will suggest switching to BSON, Protobuf, or some other binary format, and that can help, but most of the time there's something a bit more important going on. You'd be amazed how often cacheability is overlooked, despite being listed as one of the main criteria of a REST API.
 
 > Cacheability, a measurement of how much of the traffic can be saved on the servers used by content delivery networks such as Akamai, is comparable between HTML hits and API hits. While one-third of hits recorded were marked as “no-store,” and therefore preventing caching, the cache hit rate for API traffic was actually slightly higher than that of HTML traffic. **This means that a significant amount of the API traffic is being offloaded from the origin servers** of the customer and is being served from edge servers near the end user. **This significantly reduces the load on both the origin server and the Internet backbone as a whole.**
 
@@ -153,7 +159,7 @@ Emphasis added me, because this is awesome. I regularly have to help companies f
 
 Generally cache proxy servers like [Fastly](https://www.fastly.com/) offer a quick win right out of the box, reducing how often the origin server has to do the work of fetching data, and only needs a few HTTP headers added to make it work nicely. Then applying [HTTP caching middlewares to clients](https://apisyouwonthate.com/blog/speeding-up-apis-apps-smart-toasters-with-http-response-caching) can help the client not even bother making a request when it already knows the answer, or make [conditional requests](https://thoughtbot.com/blog/introduction-to-conditional-http-caching-with-rails) when it's not sure if the answer it has is still accurate.
 
-Generally, when folks hear this they shout "it's not that simple, most API data is not cacheable!" Some folks will even say that API caching is inherently a bad idea... These people are fundamentally wrong, but it's really common. I've been trying to explain this for years. Giant payloads with all sorts of mixed data, with resource A, B, C, D all smushed into a singhle response body due to fear of "making too many calls" means you've got cacheable data mixed in with uncacheable data, therefore nothing is cacheable. 
+Generally, when folks hear this they shout "it's not that simple, most API data is not cacheable!" Some folks will even say that API caching is inherently a bad idea... These people are fundamentally wrong, but it's really common. I've been trying to explain this for years. Giant payloads with all sorts of mixed data, with resource A, B, C, D all smushed into a single response body due to fear of "making too many calls" means you've got cacheable data mixed in with uncacheable data, therefore nothing is cacheable. 
 
 This is some old HTTP/1 thinking, where ["compound documents" and GraphQL seem like a good idea](https://apisyouwonthate.com/blog/lets-stop-building-apis-around-a-network-hack), but has no place in a HTTP/2 world - especially with [HTTP/3 around the corner](https://www.fastly.com/blog/state-of-quic-and-http3-2020). 
 
@@ -226,3 +232,5 @@ Taking existing tech and making it greener, and taking existing green ideas and 
 This is what we can do with our super power of "computering": for work, for play, and at home.
 
 What is your first step going to be? 
+
+<!-- training AI models created bonkers emissions https://www.technologyreview.com/2019/06/06/239031/training-a-single-ai-model-can-emit-as-much-carbon-as-five-cars-in-their-lifetimes/ -->
