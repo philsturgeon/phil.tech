@@ -109,9 +109,9 @@ Flying and Internet have a similar carbon footprint, and they're both growing at
 
 ### Carbon-Neutral Hosting
 
-Traditional simple web hosting, VPS, managed WordPress, etc. can all be handled with [Eco Web Hosting](https://www.ecowebhosting.co.uk/), who are carbon neutral, [have an Ecologi forest](https://ecologi.com/ecowebhostinglimited), and list all of their [green credentials](https://www.ecowebhosting.co.uk/green-credentials) for folks to see what the "eco" part of the name actually means.
+Traditional simple web hosting, VPS, managed WordPress, etc. can all be handled with [Eco Web Hosting](https://www.ecowebhosting.co.uk/), who are carbon neutral, [have an Ecologi forest](https://ecologi.com/ecowebhostinglimited), and list all of their [green credentials](https://www.ecowebhosting.co.uk/green-credentials) for folks to see what the "eco" part of the name actually means. 
 
-When it comes to the big clouds: 
+When it comes to the major cloud providers: 
 
 - 🟢 [Google Cloud: Sustainability](https://cloud.google.com/sustainability) - "We've matched 100% of our electricity consumption with renewable energy purchases since 2017, which includes the electricity to power Google Cloud. And we recently committed to fully decarbonize our electricity supply by 2030 and operate on clean energy, every hour and in every region." 
 
@@ -122,6 +122,8 @@ When it comes to the big clouds:
 Switching clouds is not a trivial task, and I'm not recommending flippantly switching for this reason alone when time could be spent on other reduction activities. If you've got enough people that this task can be handled relatively easily, and/or are considering a move anyway, try and push for Azure or Google Cloud. 
 
 If you're running your own infrastructure, it's hugely likely that switching to one of the better clouds is going to be huge savings for you. They're focusing on making things more efficient full time, because every 1% they squeeze out of their operational efficiency is another 1% they don't have to pay to offset, or fund a new solar farm to cover. 
+
+It's also worth noting, that just because you get on a "green cloud", that doesn't mean you can just use as much energy as you like. Regardless of if the host is matched by or powered by renewable energy, you still want to make your applications and infrastructures as efficient as possible. Why? Long story, well explained in _["Do you want to be powered-by renewables? The answer is no."](https://devblogs.microsoft.com/sustainable-software/do-you-want-to-be-powered-by-renewables-the-answer-is-no/)_ by [Asim Hussain](https://twitter.com/jawache).
 
 ### Sustainable Infrastructure
 
