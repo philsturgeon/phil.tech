@@ -6,6 +6,7 @@ excerpt: Burnout and depression had turned me into an angry broken version of my
 date: 2020-12-19
 image: img/2020-12-19-bike-nomad/cover.jpg
 tags: [bikes, remote-work]
+featured: true
 ---
 
 In the middle of 2018 in NYC I was going through some rough burnout. I’d been working my ass off working at a corporation I’d panicked into after two startups prior had gone bankrupt. I was refactoring a huge API ecosystem that was a house of cards, built on sand, made out of soft cheese, yet also somehow constantly on fire, and despite leading efforts to resolve all these problems, I was passed over for promotion several times. What better reason to rage quit your entire life and spend two years cycling through 34 countries, living on my bike, camping on the weekends, crashing on sofas, crossing the Alps and Pyrenees a few times, and even popping down to Morocco for some winter sun! It’s been one hell of a journey, but the bit that surprises a lot of people is that I was working full time, so I’d like to share with you how exactly that worked.
