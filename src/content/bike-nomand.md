@@ -100,17 +100,13 @@ As I was a US taxpayer for several years, I am good to work for a US company, bu
 
 **Headphones:** I had some bluetooth wired headphones with a terrible mic, and the Polish crew told me in no uncertain terms that I needed to upgrade my mic. I decided to invest in the Gen 2 AirPods, and they’ve been a game changer. I can cycle along on a windy day having a crystal clear conversation and still hear if a car is trying to murder me. No need to upgrade to AirPod Pro as far as I’m concerned, even if I lose/wash one of them again I’d rather just replace that earbud instead. A wired pair of backup headphones is handy for when all batteries are dead, but with the AirPods I always had one or both, for music, calls, whatever, thanks to the charging case and their ability to listen with one while the other charges.
 
-https://www.youtube.com/watch?v=4Lgpi0o0c1Y
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/4Lgpi0o0c1Y" frameborder="0" allowfullscreen></iframe></center>
 
 ## Mail and Shipping
 
 My US mailbox is handled by [Travelling Mailbox](https://travelingmailbox.com/), which looks rubbish but is genuinely amazing. They will scan, shred, or forward letters and packages to wherever you want. I’ve never had a problem with them in over two years. 
 
 I wrote about [logistics of shipping things when you don’t live anywhere](https://phil.bike/2019/touring-logistics/). It’s not always easy but you get the hang of it.
-
-
-
-
 
 ## Hygiene
 
