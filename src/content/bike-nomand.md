@@ -108,7 +108,6 @@ My US mailbox is handled by [Travelling Mailbox](https://travelingmailbox.com/),
 
 I wrote about [logistics of shipping things when you don’t live anywhere](https://phil.bike/2019/touring-logistics/). It’s not always easy but you get the hang of it.
 
-## Phone Provider and Mobile Data
 
 
 
