@@ -76,6 +76,9 @@ module.exports = {
                   Instagram: {
                     access_token: process.env.INSTAGRAM_ACCESS_TOKEN,
                   },
+                  YouTube: {
+                    maxwidth: 740,
+                  },
                 },
               },
             },
