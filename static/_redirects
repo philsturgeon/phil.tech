@@ -1,4 +1,8 @@
+/blog/rss/all.rss /rss.xml
+/news/rss/all.rss /rss.xml
+/news/rss/ /rss.xml
 /feed.xml /rss.xml
+
 /speaking /talks
 
 /2016/:month/:date/:slug /2016/:slug
