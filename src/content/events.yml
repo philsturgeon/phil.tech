@@ -10,6 +10,21 @@
 #       slides: https://talks.phil.tech/instances/2019-12-api-days-paris/html/
 
 - event:
+    name: DeveloperWeek
+    url: https://www.developerweek.com/
+    dates: 17th-19th February 2021
+  country: Online
+  talks:
+    - slug: automating-api-style-guides
+
+- event:
+    name: Postman Galaxy
+    url: https://www.postman.com/postman-galaxy/
+    dates: 2nd-4th February 2021
+  country: Online
+  talks: []
+
+- event:
     name: API Days INTERFACE
     url: https://web.archive.org/web/20200630171035/https://www.apidays.co/interface
     dates: 1st July 2020
