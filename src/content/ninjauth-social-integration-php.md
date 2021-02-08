@@ -3,14 +3,7 @@ layout: post
 author: [Phil]
 title: 'NinjAuth: The Social Integration Package PHP has been dying for'
 tags: [fuelphp]
-excerpt: "In the past I have never needed to implement oAuth into a PHP project.
-  I have done it in Rails and boy it was easy thanks to OmniAuth. OmniAuth abstracts
-  away so much of the grunt work that it takes about 5 minutes to add a new social
-  network to your site, and 4 of those minutes are spent signing up for the API keys.
-  What options do we have in the world of PHP? A bunch of screwy hacks or provider
-  specific classes like TwitterOAuth. I don't want to hunt down 20 libraries with
-  different methods, I want to get a key, bang it in and go to the pub. Well, now
-  I can! "
+excerpt: "Rails made integrating OAuth 1/2 based applications so easy thanks to OmniAuth, I thought I'd take a swing and bringing that joy to the world of PHP too."
 date: '2011-09-17 12:13:00'
 comments: true
 disqus_identifier: ninjauth-social-integration-php
