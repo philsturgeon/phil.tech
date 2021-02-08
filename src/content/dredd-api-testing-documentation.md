@@ -8,8 +8,9 @@ image: img/2015-01-28-dredd-api-testing-documentation/dredd.jpg
 excerpt: "If you have documentation for any sort of HTTP-based API, from a micro-service to a non-trivial RESTful API, if it has existed for more than a week it has got some mistakes in it. Documentation degrades over time. This article aims to help you ensure that your API documentation keeps entirely in line with the implementation, utilizing two tools: API Blueprint and Dredd."
 comments: true
 disqus_identifier: dredd-api-testing-documentation
-alias_1: api/2015/01/28/dredd-api-testing-documentation/
 ---
+
+_**Update 2021-02-08:** Old post is old! I really don't recommend messing with Dredd anymore, it was a handy stepping stone on the way to contract testing with API descriptions but these days using OpenAPI v3.x and [using those descriptions to power contract testing](https://apisyouwonthate.com/blog/writing-documentation-via-contract-testing) in your existing test suite is a far more useful and less painful way to go._
 
 If you have documentation for any sort of HTTP-based API, from a micro-service to a non-trivial RESTful API, if it has existed for more than a week it has got some mistakes in it. Documentation degrades over time. This article aims to help you ensure that your API documentation keeps entirely in line with the implementation, utilizing two tools: [API Blueprint] and [Dredd].
 
