@@ -84,6 +84,8 @@ Leveraging and integrating with these APIs can improve the products and services
 
 👨‍💻💨 [Patch API](https://www.usepatch.com/) - Patch has a REST API with loads of plugins and SDKs for various languages. The goal here is to figure out how much carbon emissions are created by things like orders on a e-commerce platform, logistics, travel, or even for banks to figure out their customers footprints from purchases and help them offset it. Whatever you're up to, you can make micro-payments for tree planting, carbon reduction, or direct carbon capture.
 
+🚜💨 [Nori API](https://nori.com/nori-api) - By using sustainable farming practices, farmers remove carbon from the atmosphere and store it in their soil. Carbon removals are quantified and verified by an independent third party before being listed in the marketplace. You then pay the farmer for ownership of their carbon removals, and receive a certificate from Nori to prove it. This API lets you do that automatically instead of spending time doing it manually.
+
 🌍🔌 [electricityMap API](https://api.electricitymap.org/) - Electricity generation has a different "carbon intensity" in any given area, at any given time, depending on the mixture of sources of production. ElectricityMap from Tomorrow not only gives insight into which areas are producing and consuming which mixture of renewable or dirty energy, but it can provide 24 hour forecasts, meaning companies and smart-products can chose to do energy intensive tasks when energy is the cleanest. Electric Vehicles can charge at the best time, code deploys an batch jobs can be held until lowest (Google do this), devices can be powered by batteries instead of the grid during peak carbon intensity, all of which can save a bunch of money and reduce emissions.
 
 🌍🔌 [co2signal](https://docs.co2signal.com/) - A free, non-commercial alternative to electricityMap also by Tomorrow. Use this to find out current carbon intensity and energy mixtures in various geographic locations. No access to the forecast or history.
@@ -125,6 +127,9 @@ If you're running your own infrastructure, it's hugely likely that switching to 
 
 It's also worth noting, that just because you get on a "green cloud", that doesn't mean you can just use as much energy as you like. Regardless of if the host is matched by or powered by renewable energy, you still want to make your applications and infrastructures as efficient as possible. Why? Long story, well explained in _["Do you want to be powered-by renewables? The answer is no."](https://devblogs.microsoft.com/sustainable-software/do-you-want-to-be-powered-by-renewables-the-answer-is-no/)_ by [Asim Hussain](https://twitter.com/jawache).
 
+Take a look at [Cloud Carbon Calculator](https://www.cloudcarbonfootprint.org/) to get an idea of the emissions coming from your cloud usage. Switching to greener providers is one thing, but using the cloud infrastructure more effectively can be helpful too. Doing both is ideal, but either one is a good start.
+
+
 ### Sustainable Infrastructure
 
 <!-- TODO Autoscaling back down to zero, not just to save money, but to reduce emissions.  -->
@@ -132,7 +137,6 @@ It's also worth noting, that just because you get on a "green cloud", that doesn
 If you're using Kubernetes, there are some interesting ideas floating around about automatically [calculating emissions in various data centers and moving pods between multiple nodes to run your containers in the locations with lower carbon emissions. See _[Carbon Aware Kubernetes](https://devblogs.microsoft.com/sustainable-software/carbon-aware-kubernetes/)_ for an overview.
 
 It takes a bit of planning, and there are various limitations like data sovereignty to keep in mind, but companies of a certain scale could put a large dent in their emissions this way, especially at SaaS companies or other organizations primarily running software.
-
 ### API Design
 
 Ask anyone what the majority of traffic is on the Internet, they'll probably say "cute dogs" and "porn", but there's another answer: API traffic.
