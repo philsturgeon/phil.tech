@@ -56,18 +56,13 @@ export const AuthorListItem: React.FC<AuthorListItemProps> = props => {
             <div className="bio">
               <h2>{props.author.id}</h2>
               <p>{props.author.bio}</p>
-              <p>
-                <Link to={`/author/${_.kebabCase(props.author.id)}/`}>More posts</Link> by{' '}
-                {props.author.id}.
-              </p>
             </div>
           </div>
         </div>
       )}
-      <Link
+      <div
         css={AuthorAvatar}
         className="author-avatar"
-        to={`/author/${_.kebabCase(props.author.id)}/`}
       >
         <Img
           css={AuthorProfileImage}
@@ -76,7 +71,7 @@ export const AuthorListItem: React.FC<AuthorListItemProps> = props => {
           alt={props.author.id}
           fadeIn={false}
         />
-      </Link>
+      </div>
     </AuthorListItemLi>
   );
 };

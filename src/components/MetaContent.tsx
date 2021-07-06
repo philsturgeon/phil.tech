@@ -26,7 +26,7 @@ export const MetaContent: React.FC<MetaContentProps> = ({author, datetime, displ
             {author.map((author, index) => {
               return (
                 <React.Fragment key={author.id}>
-                  <Link to={`/author/${_.kebabCase(author.id)}/`} className="author">{author.id}</Link>
+                  {author.id}
                   {author.length - 1 > index && ', '}
                 </React.Fragment>
               );

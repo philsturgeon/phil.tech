@@ -54,7 +54,6 @@ interface PostTemplateProps {
         tags: string[];
         author: Author[];
         comments?: boolean;
-        disqus_identifier: string;
       };
     };
     relatedPosts: {
