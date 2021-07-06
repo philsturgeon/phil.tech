@@ -1,9 +1,8 @@
 import { graphql } from 'gatsby';
-import { FixedObject, FluidObject } from 'gatsby-plugin-image';
 import React from 'react';
-
 import { css } from '@emotion/react';
-import BackgroundImage from 'gatsby-background-image'
+import { GatsbyImage } from 'gatsby-plugin-image';
+import BackgroundImage from 'gatsby-background-image';
 
 import { Seo } from '../components/Seo';
 import { Footer } from '../components/Footer';
@@ -34,14 +33,10 @@ export interface IndexProps {
   };
   data: {
     logo: {
-      childImageSharp: {
-        fixed: FixedObject;
-      };
+      childImageSharp: any;
     };
     header: {
-      childImageSharp: {
-        fluid: FluidObject;
-      };
+      childImageSharp: any;
     };
     allMarkdownRemark: {
       edges: Array<{
@@ -61,27 +56,19 @@ const IndexPage: React.FC<IndexProps> = props => {
         description={config.description}
         title={config.title}
         path={props.path}
-        image={`${props.data.header.childImageSharp.fluid.src}`}
+        image={`${props.data.header.childImageSharp.gatsbyImageData.src}`}
       />
       <Wrapper>
         <BackgroundImage
           css={[outer, SiteHeader, SiteHeaderStyles]}
           className="site-header-background"
-          fluid={props.data.header.childImageSharp.fluid}
+          image={props.data.header.childImageSharp.gatsbyImageData}
         >
           <div css={inner}>
             <SiteNav isHome />
             <SiteHeaderContent className="site-header-content">
               <SiteTitle className="site-title">
-                {props.data.logo ? (
-                  <img
-                    style={{ maxHeight: '55px' }}
-                    src={props.data.logo.childImageSharp.fixed.src}
-                    alt={config.title}
-                  />
-                ) : (
-                  config.title
-                )}
+                {config.title}
               </SiteTitle>
             </SiteHeaderContent>
           </div>
@@ -96,19 +83,19 @@ const IndexPage: React.FC<IndexProps> = props => {
           <div css={[inner, Posts]}>
             {featuredPosts.length > 0 && <h3 css={HomeSubtitles}>Featured Posts</h3>}
             <div css={[PostFeed]}>
-              {featuredPosts.map((post, index) => {
+              {featuredPosts.map(post => {
                 // filter out drafts in production
                 return (
                   (post.node.frontmatter.draft !== true ||
                     process.env.NODE_ENV !== 'production') && (
-                    <PostCard key={post.node.fields.slug} post={post.node} large={true} />
+                    <PostCard key={post.node.fields.slug} large post={post.node} />
                   )
                 );
               })}
             </div>
             <h3 css={HomeSubtitles}>All Posts</h3>
             <div css={[PostFeed]}>
-              {allPosts.map((post, index) => {
+              {allPosts.map(post => {
                 // filter out drafts in production
                 return (
                   (post.node.frontmatter.draft !== true ||
@@ -137,18 +124,7 @@ export const pageQuery = graphql`
   query blogPageQuery($skip: Int!, $limit: Int!) {
     header: file(relativePath: { eq: "img/cover.jpg" }) {
       childImageSharp {
-        fluid(quality: 100, maxWidth: 1720) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-    logo: file(relativePath: { eq: "img/ghost-logo.png" }) {
-      childImageSharp {
-        # Specify the image processing specifications right in the query.
-        # Makes it trivial to update as your page's design changes.
-        fixed {
-          ...GatsbyImageSharpFixed
-        }
+        gatsbyImageData(layout: CONSTRAINED, width: 1720)
       }
     }
     allMarkdownRemark(

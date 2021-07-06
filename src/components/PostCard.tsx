@@ -1,6 +1,6 @@
 import { format } from 'date-fns';
 import { Link } from 'gatsby';
-import GatsbyImage from 'gatsby-plugin-image';
+import { GatsbyImage } from 'gatsby-plugin-image';
 import { lighten } from 'polished';
 import React from 'react';
 

@@ -1,6 +1,6 @@
 import { format } from 'date-fns';
 import { graphql } from 'gatsby';
-import GatsbyImage, { FluidObject } from 'gatsby-plugin-image';
+import { GatsbyImage } from 'gatsby-plugin-image';
 import * as _ from 'lodash';
 import { lighten } from 'polished';
 import React from 'react';
@@ -18,7 +18,6 @@ import { Wrapper } from '../components/Wrapper';
 import IndexLayout from '../layouts';
 import { colors } from '../styles/colors';
 import { inner, outer, SiteMain } from '../styles/shared';
-import config from '../website-config';
 import { MetaContent } from '../components/MetaContent';
 
 export interface Author {
@@ -45,7 +44,7 @@ interface PostTemplateProps {
         userDate: string;
         image: {
           childImageSharp: {
-            fluid: any;
+            gatsbyImageData: any;
           };
         };
         excerpt: string;
@@ -84,9 +83,7 @@ export interface PageContext {
   };
   frontmatter: {
     image: {
-      childImageSharp: {
-        fluid: FluidObject;
-      };
+      childImageSharp: any;
     };
     excerpt: string;
     title: string;
@@ -101,13 +98,6 @@ export interface PageContext {
 
 const PostTemplate: React.FC<PostTemplateProps> = props => {
   const post = props.data.markdownRemark;
-  let width = '';
-  let height = '';
-  if (post.frontmatter.image && post.frontmatter.image.childImageSharp) {
-    width = post.frontmatter.image.childImageSharp.fluid.sizes.split(', ')[1].split('px')[0];
-    height = String(Number(width) / post.frontmatter.image.childImageSharp.fluid.aspectRatio);
-  }
-
   const date = new Date(post.frontmatter.date);
   // 2018-08-20
   const datetime = format(date, 'yyyy-MM-dd');
@@ -117,8 +107,6 @@ const PostTemplate: React.FC<PostTemplateProps> = props => {
   return (
     <IndexLayout className="post-template">
       <Seo
-        height={height}
-        width={width}
         pathContext={props.pathContext}
         post={post}
       />
@@ -149,11 +137,11 @@ const PostTemplate: React.FC<PostTemplateProps> = props => {
                 </PostFullByline>
               </PostFullHeader>
 
-              {post.frontmatter.image && post.frontmatter.image.childImageSharp && (
+              {post.frontmatter?.image?.childImageSharp?.gatsbyImageData && (
                 <PostFullImage>
                   <GatsbyImage
                     style={{ height: '100%' }}
-                    fluid={post.frontmatter.image.childImageSharp.fluid}
+                    image={post.frontmatter.image.childImageSharp.gatsbyImageData}
                     alt={post.frontmatter.title}
                   />
                 </PostFullImage>
@@ -370,9 +358,7 @@ export const query = graphql`
         comments
         image {
           childImageSharp {
-            fluid(maxWidth: 3720) {
-              ...GatsbyImageSharpFluid
-            }
+            gatsbyImageData(layout: FIXED, width: 1240)
           }
         }
         author {
@@ -381,7 +367,7 @@ export const query = graphql`
           avatar {
             children {
               ... on ImageSharp {
-                gatsbyImageData(layout: CONSTRAINED, breakpoints: [40, 80, 120])
+                gatsbyImageData(layout: FIXED, breakpoints: [40, 80, 120])
               }
             }
           }
