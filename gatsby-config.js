@@ -38,8 +38,8 @@ module.exports = {
             resolve: 'gatsby-remark-graph',
             options: {
               language: 'mermaid', // default
-              theme: 'forest' // could also be dark, forest, or neutral
-            }
+              theme: 'forest', // could also be dark, forest, or neutral
+            },
           },
           {
             resolve: 'gatsby-remark-responsive-iframe',
@@ -58,23 +58,19 @@ module.exports = {
               quality: 100,
             },
           },
-         {
-            resolve: `@raae/gatsby-remark-oembed`,
+          {
+            resolve: '@raae/gatsby-remark-oembed',
             options: {
               providers: {
                 include: [
                   'Twitter',
-                  'Instagram',
                   'YouTube',
                   'Vimeo',
                 ],
                 settings: {
                   Twitter: {
                     align: 'center',
-                    dnt: true
-                  },
-                  Instagram: {
-                    access_token: process.env.INSTAGRAM_ACCESS_TOKEN,
+                    dnt: true,
                   },
                   YouTube: {
                     maxwidth: 740,
@@ -82,7 +78,7 @@ module.exports = {
                 },
               },
             },
-          }
+          },
         ],
       },
     },

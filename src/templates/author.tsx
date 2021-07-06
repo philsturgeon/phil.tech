@@ -52,11 +52,11 @@ interface AuthorTemplateProps {
       twitter?: string;
       facebook?: string;
       location?: string;
-      profile_image?: {
-        childImageSharp: {
-          fluid: FluidObject;
-        };
-      };
+      // profile_image?: {
+      //   childImageSharp: {
+      //     fluid: FluidObject;
+      //   };
+      // };
       bio?: string;
       avatar: {
         childImageSharp: {
@@ -186,13 +186,13 @@ export const pageQuery = graphql`
       twitter
       bio
       location
-      profile_image {
-        childImageSharp {
-          fluid(maxWidth: 3720) {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
+      # profile_image {
+      #   childImageSharp {
+      #     fluid(maxWidth: 3720) {
+      #       ...GatsbyImageSharpFluid
+      #     }
+      #   }
+      # }
       avatar {
         childImageSharp {
           fluid(quality: 100, srcSetBreakpoints: [40, 80, 120]) {
@@ -263,7 +263,7 @@ const AuthorHeader = css`
   h2 {
     max-width: 760px;
   }
-  
+
   @media (max-width: 500px) {
     padding: 10px 0 0;
 
