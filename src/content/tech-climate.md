@@ -1,7 +1,7 @@
 ---
 layout: post
 author: [Phil]
-title: "Climate Activism in Tech: Design, Code, Hack, and Share"
+title: "Climate Action in Tech - Design, Code, and Hack the Environment Better"
 # excerpt: 
 date: 2020-10-26
 image: img/2020-10-26-tech-climate/cover.jpg
