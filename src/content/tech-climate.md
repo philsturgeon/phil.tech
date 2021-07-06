@@ -129,6 +129,9 @@ It's also worth noting, that just because you get on a "green cloud", that doesn
 
 Take a look at [Cloud Carbon Calculator](https://www.cloudcarbonfootprint.org/) to get an idea of the emissions coming from your cloud usage. Switching to greener providers is one thing, but using the cloud infrastructure more effectively can be helpful too. Doing both is ideal, but either one is a good start.
 
+### Unnecessary Continuous Integration
+
+Ever seen 15 minute end-to-end test suites with multiple docker containers involved running purely to make sure the build passes when all that changed that commit was some markdown files in the docs/ folder? [Skip tests for documentation](https://reflectoring.io/skip-ci-build/), or anything else you don't need to be running.
 
 ### Sustainable Infrastructure
 
