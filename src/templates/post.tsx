@@ -25,9 +25,7 @@ export interface Author {
   id: string;
   bio: string;
   avatar: {
-    children: Array<{
-      fluid: FluidObject;
-    }>;
+    children: any[];
   };
 }
 
