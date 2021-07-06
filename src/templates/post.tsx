@@ -1,6 +1,6 @@
 import { format } from 'date-fns';
 import { graphql } from 'gatsby';
-import Img, { FluidObject } from 'gatsby-image';
+import GatsbyImage, { FluidObject } from 'gatsby-plugin-image';
 import * as _ from 'lodash';
 import { lighten, setLightness } from 'polished';
 import React from 'react';
@@ -166,7 +166,7 @@ const PostTemplate: React.FC<PostTemplateProps> = props => {
 
               {post.frontmatter.image && post.frontmatter.image.childImageSharp && (
                 <PostFullImage>
-                  <Img
+                  <GatsbyImage
                     style={{ height: '100%' }}
                     fluid={post.frontmatter.image.childImageSharp.fluid}
                     alt={post.frontmatter.title}

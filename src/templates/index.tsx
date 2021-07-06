@@ -1,5 +1,5 @@
 import { graphql } from 'gatsby';
-import { FixedObject, FluidObject } from 'gatsby-image';
+import { FixedObject, FluidObject } from 'gatsby-plugin-image';
 import React from 'react';
 
 import { css } from '@emotion/core';

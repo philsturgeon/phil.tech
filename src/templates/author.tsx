@@ -1,4 +1,5 @@
 import { graphql } from 'gatsby';
+// import { GatsbyImage } from "gatsby-plugin-image"
 import React from 'react';
 import styled from '@emotion/styled';
 import { css } from '@emotion/core';
@@ -179,7 +180,7 @@ export const pageQuery = graphql`
       location
       avatar {
         childImageSharp {
-          gatsbyImageData(layout: FLUID, breakpoints: [40, 80, 120])
+          gatsbyImageData(breakpoints: [40, 80, 120])
         }
       }
     }
@@ -199,17 +200,16 @@ export const pageQuery = graphql`
             draft
             image {
               childImageSharp {
-                gatsbyImageData(layout: FIXED, maxWidth: 3720)
+                gatsbyImageData(
+                  layout: FIXED
+
+                )
               }
             }
             author {
               id
               bio
-              avatar {
-                children {
-                  gatsbyImageData(layout: FIXED)
-                }
-              }
+  
             }
           }
           fields {
@@ -331,3 +331,4 @@ const AuthorSocialLinkAnchor = styled.a`
 `;
 
 export default Author;
+// maxWidth: 3720
