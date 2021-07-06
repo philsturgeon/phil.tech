@@ -14,11 +14,11 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     case 'MarkdownRemark': {
       const { permalink, layout, primaryTag, date } = node.frontmatter;
       const { relativePath } = getNode(node.parent);
-      
+
       let year = new Date(date);
       year = year.getFullYear();
       let slug = permalink;
-      
+
       // add year to blog post paths
       if (!slug && layout === 'post') {
         slug = `/${year}/${relativePath.replace('.md', '')}/`;
@@ -158,7 +158,7 @@ exports.createPages = async ({ graphql, actions }) => {
       // template.
       //
       // Note that the template has to exist first, or else the build will fail.
-      component: path.resolve(`./src/templates/${layout || 'post'}.tsx`),      
+      component: path.resolve(`./src/templates/${layout || 'post'}.tsx`),
       context: {
         // Data passed to context is available in page queries as GraphQL variables.
         slug,
@@ -188,18 +188,6 @@ exports.createPages = async ({ graphql, actions }) => {
     });
   });
 
-  // Create author pages
-  const authorTemplate = path.resolve('./src/templates/author.tsx');
-  result.data.allAuthorYaml.edges.forEach(edge => {
-    createPage({
-      path: `/author/${_.kebabCase(edge.node.id)}/`,
-      component: authorTemplate,
-      context: {
-        author: edge.node.id,
-      },
-    });
-  });
-
   // Create regular pages
   const pageTemplate = path.resolve('./src/templates/page.tsx');
   pages.forEach(edge => {
@@ -208,7 +196,7 @@ exports.createPages = async ({ graphql, actions }) => {
       path: slug,
       component: pageTemplate,
       context: {
-        slug
+        slug,
       },
     });
   });
