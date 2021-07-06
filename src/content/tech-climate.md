@@ -107,7 +107,7 @@ Some of those choices might involve getting the business and product people inte
 > The carbon footprint of our gadgets, the internet and the systems supporting them account for about 3.7% of global greenhouse emissions, according to some estimates. It is similar to the amount produced by the airline industry globally, explains Mike Hazas, a researcher at Lancaster University. And these emissions are predicted to double by 2025.
 > _-- **Source:** ["Why your internet habits are not as clean as you think", BBC Future](https://www.bbc.com/future/article/20200305-why-your-internet-habits-are-not-as-clean-as-you-think)_
 
-Flying and Internet have a similar carbon footprint, and they're both growing at unmaintainable rates. If 3.7%% of emissions come from the Internet, and we need to half emissions to maintain a habitable planet not _double them_, how can we make better decisions at work to help?
+Flying and Internet have a similar carbon footprint, and they're both growing at unmaintainable rates. If 3.7%% of emissions come from the Internet, and we need to half emissions to maintain a habitable planet not _double them_. So how can we make better technical decisions to help?
 
 ### Carbon-Neutral Hosting
 
@@ -131,7 +131,9 @@ Take a look at [Cloud Carbon Calculator](https://www.cloudcarbonfootprint.org/) 
 
 ### Unnecessary Continuous Integration
 
-Ever seen 15 minute end-to-end test suites with multiple docker containers involved running purely to make sure the build passes when all that changed that commit was some markdown files in the docs/ folder? [Skip tests for documentation](https://reflectoring.io/skip-ci-build/), or anything else you don't need to be running.
+Ever seen 15 minute end-to-end test suites with multiple docker containers involved running purely to make sure the build passes when all that changed that commit was some markdown files in the `docs/` folder? [Skip tests for documentation](https://reflectoring.io/skip-ci-build/), or anything else you don't need to be running.
+
+Another thing, do you need to run your open-source library's test suite on 6 different versions of a programming language, and again on 3 different operating systems? That leads to the test suite being run 18 times for _every commit_. Maybe you could pick the latest LTS, and the two most popular operating systems its used on, then just run the others on the `main` branch before a big release. Pinging the author of a PR to fix main if they make a mistake, or reverting it, is not too much trouble.
 
 ### Sustainable Infrastructure
 
