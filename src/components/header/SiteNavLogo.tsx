@@ -1,6 +1,6 @@
 import { graphql, Link, StaticQuery } from 'gatsby';
 import React from 'react';
-import { css } from '@emotion/core';
+import { css } from '@emotion/react';
 import { FixedObject } from 'gatsby-image';
 
 import config from '../../website-config';
@@ -63,4 +63,3 @@ const SiteNavLogoStyles = css`
     height: 21px;
   }
 `;
-

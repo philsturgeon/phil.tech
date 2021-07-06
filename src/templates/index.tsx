@@ -2,7 +2,7 @@ import { graphql } from 'gatsby';
 import { FixedObject, FluidObject } from 'gatsby-image';
 import React from 'react';
 
-import { css } from '@emotion/core';
+import { css } from '@emotion/react';
 import BackgroundImage from 'gatsby-background-image'
 
 import { Seo } from '../components/Seo';

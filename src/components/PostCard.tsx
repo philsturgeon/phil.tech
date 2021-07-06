@@ -1,11 +1,10 @@
 import { format } from 'date-fns';
 import { Link } from 'gatsby';
 import Img from 'gatsby-image';
-import _ from 'lodash';
 import { lighten } from 'polished';
 import React from 'react';
 
-import { css } from '@emotion/core';
+import { css } from '@emotion/react';
 import styled from '@emotion/styled';
 
 import { colors } from '../styles/colors';

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import { Global, css } from '@emotion/core';
+import { Global, css } from '@emotion/react';
 import { lighten } from 'polished';
 
 // @ts-ignore

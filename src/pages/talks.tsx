@@ -1,7 +1,7 @@
 import { graphql, useStaticQuery } from 'gatsby';
 import React from 'react';
 
-import { css } from '@emotion/core';
+import { css } from '@emotion/react';
 
 import { Seo } from '../components/Seo';
 import { Footer } from '../components/Footer';

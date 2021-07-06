@@ -1,7 +1,7 @@
 import React from 'react';
 import { lighten } from 'polished';
 import { Link } from 'gatsby';
-import _ from 'lodash';
+import { kebabCase } from 'lodash';
 
 import { colors } from '../styles/colors';
 import styled from '@emotion/styled';
@@ -12,22 +12,20 @@ export interface MetaContentProps {
   author: Author[];
   datetime: string;
   displayDatetime: string;
-  tags: Array<string>;
+  tags: string[];
   timeToRead: number;
 }
 
-export const MetaContent: React.FC<MetaContentProps> = ({author, datetime, displayDatetime, tags, timeToRead}) => {
-
+export const MetaContent: React.FC<MetaContentProps> = ({ author, datetime, displayDatetime, tags, timeToRead }) => {
   return (
     <MetaContentDiv className="post-card-byline-content">
       <div className="post-card-byline-meta">
         {author && (
           <span>
-            {author.map((author, index) => {
+            {author.map(author => {
               return (
                 <React.Fragment key={author.id}>
-                  <Link to={`/author/${_.kebabCase(author.id)}/`} className="author">{author.id}</Link>
-                  {author.length - 1 > index && ', '}
+                  {author.id}
                 </React.Fragment>
               );
             })}
@@ -39,10 +37,10 @@ export const MetaContent: React.FC<MetaContentProps> = ({author, datetime, displ
         {tags && tags.length > 0 && <span className="bull">&bull;</span>}
         {tags && tags.length > 0 && (
           <Tags className="post-card-tags">
-            {tags.map((tag, index) => {
+            {tags.map(tag => {
               return (
-                <Link key={index} to={`/tags/${_.kebabCase(tag)}`}>{tag}</Link>
-              )
+                <Link key={tag} to={`/tags/${kebabCase(tag)}`}>{tag}</Link>
+              );
             })}
           </Tags>
         )}

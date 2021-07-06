@@ -4,7 +4,6 @@ import styled from '@emotion/styled';
 import { colors } from '../../styles/colors';
 import config from '../../website-config';
 import { SubscribeForm } from './SubscribeForm';
-import SubscribeLogo from './SubscribeLogo';
 
 interface SubscribeState {
   isOpen: boolean;
@@ -46,7 +45,6 @@ export class SubscribeModal extends React.Component<any, SubscribeState> {
       <SubscribeOverlay open={this.state.isOpen}>
         <SubscribeOverlayClose onClick={this.close} />
         <SubscribeOverlayContent>
-          <SubscribeLogo />
           <SubscribeOverlayTitle>Subscribe to {config.title}</SubscribeOverlayTitle>
           <SubscribeOverlayDescription>
             Stay up to date! Get all the latest &amp; greatest posts delivered straight to your

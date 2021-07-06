@@ -2,11 +2,10 @@ import { format } from 'date-fns';
 import { graphql } from 'gatsby';
 import Img, { FluidObject } from 'gatsby-image';
 import * as _ from 'lodash';
-import { lighten, setLightness } from 'polished';
+import { lighten } from 'polished';
 import React from 'react';
-import { Disqus, CommentCount } from 'gatsby-plugin-disqus';
 
-import { css } from '@emotion/core';
+import { css } from '@emotion/react';
 import styled from '@emotion/styled';
 
 import { Footer } from '../components/Footer';
@@ -26,9 +25,7 @@ export interface Author {
   id: string;
   bio: string;
   avatar: {
-    children: Array<{
-      fluid: FluidObject;
-    }>;
+    children: any[];
   };
 }
 
@@ -37,11 +34,6 @@ interface PostTemplateProps {
     slug: string;
   };
   data: {
-    logo: {
-      childImageSharp: {
-        fixed: any;
-      };
-    };
     markdownRemark: {
       html: string;
       htmlAst: any;
@@ -60,7 +52,6 @@ interface PostTemplateProps {
         tags: string[];
         author: Author[];
         comments?: boolean;
-        disqus_identifier: string;
       };
     };
     relatedPosts: {
@@ -123,12 +114,6 @@ const PostTemplate: React.FC<PostTemplateProps> = props => {
   // 20 AUG 2018
   const displayDatetime = format(date, 'dd LLL yyyy');
 
-  const disqusConfig = {
-    url: `${config.siteUrl + props.pathContext.slug}`,
-    identifier: post.frontmatter.disqus_identifier,
-    title: post.frontmatter.title,
-  };
-
   return (
     <IndexLayout className="post-template">
       <Seo
@@ -176,12 +161,8 @@ const PostTemplate: React.FC<PostTemplateProps> = props => {
 
               <PostContent htmlAst={post.htmlAst} />
 
-              {/* NOTE: Commented out until ad problem solves */}
-              {/* <CommentCount config={disqusConfig} placeholder={'...'} /> */}
-              {/* {post.frontmatter.comments && <Disqus config={disqusConfig} />} */}
-
               {/* The big email subscribe modal content */}
-              {config.showSubscribe && <Subscribe title={config.title} />}
+              {/* config.showSubscribe && <Subscribe title={config.title} /> */}
             </article>
           </div>
         </main>
@@ -374,13 +355,6 @@ export const PostFullTitle = styled.h1`
 
 export const query = graphql`
   query($slug: String, $primaryTag: String) {
-    logo: file(relativePath: { eq: "img/ghost-logo.png" }) {
-      childImageSharp {
-        fixed {
-          ...GatsbyImageSharpFixed
-        }
-      }
-    }
     markdownRemark(fields: { slug: { eq: $slug } }) {
       id
       html
@@ -394,7 +368,6 @@ export const query = graphql`
         tags
         excerpt
         comments
-        disqus_identifier
         image {
           childImageSharp {
             fluid(maxWidth: 3720) {
@@ -408,9 +381,7 @@ export const query = graphql`
           avatar {
             children {
               ... on ImageSharp {
-                fluid(quality: 100, srcSetBreakpoints: [40, 80, 120]) {
-                  ...GatsbyImageSharpFluid
-                }
+                gatsbyImageData(layout: CONSTRAINED, breakpoints: [40, 80, 120])
               }
             }
           }

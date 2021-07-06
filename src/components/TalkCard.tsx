@@ -1,7 +1,7 @@
 import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
 
-import { css } from '@emotion/core';
+import { css } from '@emotion/react';
 
 import { TalkButtons } from '../components/TalkButtons';
 

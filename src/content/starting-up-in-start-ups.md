@@ -62,4 +62,4 @@ Throughout all of this and when I return I'll be back up to Newcastle to continu
 
 I forgot all about this video, it's worth a watch if you want to see what was going on in that office. I miss it already! 
 
-<p align="center"><iframe width="560" height="315" src="http://www.youtube.com/embed/j-LRIPgy4S8" frameborder="0" allowfullscreen class="aligncenter" ></iframe></p>
+http://www.youtube.com/embed/j-LRIPgy4S8
