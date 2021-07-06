@@ -2,7 +2,6 @@ export interface WebsiteConfig {
   title: string;
   description: string;
   coverImage?: string;
-  // logo: string;
   /**
    * Specifying a valid BCP 47 language helps screen readers announce text properly.
    * See: https://dequeuniversity.com/rules/axe/2.2/valid-lang
@@ -20,14 +19,6 @@ export interface WebsiteConfig {
    * full url, no username
    */
   github?: string;
-  /**
-   * full url, no username
-   */
-  offset?: string;
-  /**
-   * full url, no username
-   */
-  facebook?: string;
   /**
    * hide or show all email subscribe boxes
    */

@@ -4,7 +4,7 @@ import type { ImageDataLike } from 'gatsby-plugin-image';
 import { getImage, GatsbyImage } from 'gatsby-plugin-image';
 import React from 'react';
 import styled from '@emotion/styled';
-import { css } from '@emotion/core';
+import { css } from '@emotion/react';
 
 import { Seo } from '../../components/Seo';
 import { Footer } from '../../components/Footer';
@@ -173,12 +173,12 @@ export const pageQuery = graphql`
       location
       avatar {
         childImageSharp {
-          gatsbyImageData(layout: FLUID, breakpoints: [40, 80, 120])
+          gatsbyImageData(layout: FIXED, breakpoints: [40, 80, 120])
         }
       }
     }
     allMarkdownRemark(
-      filter: { frontmatter: { draft: { ne: true }, layout: {eq: "post"} } }
+      filter: { frontmatter: { draft: { ne: true }, layout: { eq: "post" } } }
       sort: { fields: [frontmatter___date], order: DESC }
       limit: 2000
     ) {
@@ -193,7 +193,7 @@ export const pageQuery = graphql`
             draft
             image {
               childImageSharp {
-                gatsbyImageData(layout: FIXED, maxWidth: 3720)
+                gatsbyImageData(layout: CONSTRAINED, width: 3720)
               }
             }
             author {
@@ -201,7 +201,9 @@ export const pageQuery = graphql`
               bio
               avatar {
                 children {
-                  gatsbyImageData(layout: FIXED)
+                  ... on ImageSharp {
+                    gatsbyImageData(layout: FIXED)
+                  }
                 }
               }
             }

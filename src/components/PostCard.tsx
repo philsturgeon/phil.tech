@@ -4,7 +4,7 @@ import Img from 'gatsby-image';
 import { lighten } from 'polished';
 import React from 'react';
 
-import { css } from '@emotion/core';
+import { css } from '@emotion/react';
 import styled from '@emotion/styled';
 
 import { colors } from '../styles/colors';

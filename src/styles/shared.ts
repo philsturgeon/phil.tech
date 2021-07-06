@@ -1,6 +1,6 @@
 import { lighten } from 'polished';
 
-import { css } from '@emotion/core';
+import { css } from '@emotion/react';
 import styled from '@emotion/styled';
 
 import { colors } from './colors';
@@ -98,8 +98,8 @@ export const SocialLink = css`
     text-decoration: none;
   }
 
-  &.emoji { 
-    color: transparent; 
+  &.emoji {
+    color: transparent;
     text-shadow: 0 0 0 #fff;
   }
 

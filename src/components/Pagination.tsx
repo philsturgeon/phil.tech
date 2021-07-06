@@ -1,7 +1,7 @@
 import { Link } from 'gatsby';
 import React from 'react';
 import { darken } from 'polished';
-import { css } from '@emotion/core';
+import { css } from '@emotion/react';
 
 import { colors } from '../styles/colors';
 
@@ -17,8 +17,8 @@ const Pagination: React.FunctionComponent<PaginationProps> = ({ currentPage, num
   const nextPage = (currentPage + 1).toString();
 
   const pageList = Array.from(Array(numPages),(x,i)=>i)
-  
-  let pageListDisplay; 
+
+  let pageListDisplay;
   if(currentPage < 3){
     pageListDisplay = pageList.slice(0, 3)
   } else if (currentPage > pageList.length - 3){
