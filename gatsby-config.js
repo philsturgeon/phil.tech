@@ -16,13 +16,7 @@ module.exports = {
     'gatsby-plugin-netlify',
     'gatsby-plugin-netlify-cache',
     'gatsby-plugin-sitemap',
-    {
-      resolve: 'gatsby-plugin-sharp',
-      options: {
-        quality: 100,
-        stripMetadata: true,
-      },
-    },
+    'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
