@@ -14,7 +14,6 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-netlify',
-    'gatsby-plugin-netlify-cache',
     'gatsby-plugin-sitemap',
     'gatsby-plugin-sharp',
     {
@@ -44,7 +43,6 @@ module.exports = {
           'gatsby-remark-prismjs',
           'gatsby-remark-copy-linked-files',
           'gatsby-remark-smartypants',
-          'gatsby-remark-abbr',
           {
             resolve: 'gatsby-remark-images',
             options: {

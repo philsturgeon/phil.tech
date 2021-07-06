@@ -2,7 +2,6 @@ import { graphql } from 'gatsby';
 import React from 'react';
 import styled from '@emotion/styled';
 import { css } from '@emotion/core';
-import { FluidObject } from 'gatsby-image';
 
 import { Seo } from '../components/Seo';
 import { Footer } from '../components/Footer';
@@ -24,7 +23,6 @@ import {
   SiteNavMain,
 } from '../styles/shared';
 import { PageContext } from './post';
-import { Helmet } from 'react-helmet';
 import config from '../website-config';
 
 interface AuthorTemplateProps {
@@ -52,16 +50,9 @@ interface AuthorTemplateProps {
       twitter?: string;
       facebook?: string;
       location?: string;
-      // profile_image?: {
-      //   childImageSharp: {
-      //     fluid: FluidObject;
-      //   };
-      // };
       bio?: string;
       avatar: {
-        childImageSharp: {
-          fluid: FluidObject;
-        };
+        childImageSharp: any;
       };
     };
   };
@@ -186,18 +177,9 @@ export const pageQuery = graphql`
       twitter
       bio
       location
-      # profile_image {
-      #   childImageSharp {
-      #     fluid(maxWidth: 3720) {
-      #       ...GatsbyImageSharpFluid
-      #     }
-      #   }
-      # }
       avatar {
         childImageSharp {
-          fluid(quality: 100, srcSetBreakpoints: [40, 80, 120]) {
-            ...GatsbyImageSharpFluid
-          }
+          gatsbyImageData(layout: FLUID, breakpoints: [40, 80, 120])
         }
       }
     }
@@ -217,9 +199,7 @@ export const pageQuery = graphql`
             draft
             image {
               childImageSharp {
-                fluid(maxWidth: 3720) {
-                  ...GatsbyImageSharpFluid
-                }
+                gatsbyImageData(layout: FIXED, maxWidth: 3720)
               }
             }
             author {
@@ -227,11 +207,7 @@ export const pageQuery = graphql`
               bio
               avatar {
                 children {
-                  ... on ImageSharp {
-                    fluid(quality: 100) {
-                      ...GatsbyImageSharpFluid
-                    }
-                  }
+                  gatsbyImageData(layout: FIXED)
                 }
               }
             }
