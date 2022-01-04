@@ -24,13 +24,7 @@ export const Seo: React.FC<SeoProps> = ({ canonical, post, width, height, pathCo
   const imagePath = post?.frontmatter?.image ? post.frontmatter.image.childImageSharp.fluid.src : image ?? defaultImage;
 
   return (
-    <Helmet
-      link={
-        canonical ?
-          [{ rel: 'canonical', key: canonical, href: canonical }] :
-          []
-      }
-    >
+    <Helmet>
       <html lang={config.lang} />
       <title>{title ?? post.frontmatter.title}</title>
 
@@ -81,8 +75,8 @@ export const Seo: React.FC<SeoProps> = ({ canonical, post, width, height, pathCo
       {config.googleSiteVerification && (
         <meta name="google-site-verification" content={config.googleSiteVerification} />
       )}
-
       <link rel="alternate" type="application/rss+xml" title="Phil.Tech" href="/rss.xml" />
+      <link rel="canonical" href={canonical} />
     </Helmet>
   );
 };
