@@ -1,25 +1,22 @@
+import { css } from '@emotion/react';
 import { format } from 'date-fns';
 import { graphql } from 'gatsby';
-import Img, { FluidObject } from 'gatsby-image';
-import * as _ from 'lodash';
 import { lighten } from 'polished';
+import * as _ from 'lodash';
+import Img, { FluidObject } from 'gatsby-image';
 import React from 'react';
-
-import { css } from '@emotion/react';
 import styled from '@emotion/styled';
 
+import { colors } from '../styles/colors';
 import { Footer } from '../components/Footer';
-import { Seo } from '../components/Seo';
-import SiteNav, { SiteNavMain } from '../components/header/SiteNav';
-import PostContent from '../components/PostContent';
+import { inner, outer, SiteMain } from '../styles/shared';
+import { MetaContent } from '../components/MetaContent';
 import { ReadNext } from '../components/ReadNext';
-// import { Subscribe } from '../components/subscribe/Subscribe';
+import { Seo } from '../components/Seo';
 import { Wrapper } from '../components/Wrapper';
 import IndexLayout from '../layouts';
-import { colors } from '../styles/colors';
-import { inner, outer, SiteMain } from '../styles/shared';
-import config from '../website-config';
-import { MetaContent } from '../components/MetaContent';
+import PostContent from '../components/PostContent';
+import SiteNav, { SiteNavMain } from '../components/header/SiteNav';
 
 export interface Author {
   id: string;
@@ -41,6 +38,7 @@ interface PostTemplateProps {
       timeToRead: string;
       frontmatter: {
         title: string;
+        canonical: string;
         date: string;
         userDate: string;
         image: {
@@ -117,6 +115,7 @@ const PostTemplate: React.FC<PostTemplateProps> = props => {
   return (
     <IndexLayout className="post-template">
       <Seo
+        canonical={post.frontmatter.canonical}
         height={height}
         width={width}
         pathContext={props.pathContext}
@@ -366,8 +365,9 @@ export const query = graphql`
         userDate: date(formatString: "D MMMM YYYY")
         date
         tags
-        excerpt
+        canonical
         comments
+        excerpt
         image {
           childImageSharp {
             fluid(maxWidth: 3720) {

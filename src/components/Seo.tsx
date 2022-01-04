@@ -6,6 +6,7 @@ import { PageContext } from '../templates/post';
 import defaultImage from '../content/img/favicon.jpg'
 
 export interface SeoProps {
+  canonical?: string;
   post: PageContext;
   width?: string;
   height?: string;
@@ -18,12 +19,18 @@ export interface SeoProps {
   image?: string;
 }
 
-export const Seo: React.FC<SeoProps> = ({ post, width, height, pathContext, title, description, path, image }) => {
+export const Seo: React.FC<SeoProps> = ({ canonical, post, width, height, pathContext, title, description, path, image }) => {
   const urlPath = pathContext ? pathContext.slug : path;
-  const imagePath = post?.frontmatter?.image ? post.frontmatter.image.childImageSharp.fluid.src : image || defaultImage;
+  const imagePath = post?.frontmatter?.image ? post.frontmatter.image.childImageSharp.fluid.src : image ?? defaultImage;
 
-  return(
-    <Helmet>
+  return (
+    <Helmet
+      link={
+        canonical ?
+          [{ rel: 'canonical', key: canonical, href: canonical }] :
+          []
+      }
+    >
       <html lang={config.lang} />
       <title>{title ?? post.frontmatter.title}</title>
 
@@ -43,21 +50,20 @@ export const Seo: React.FC<SeoProps> = ({ post, width, height, pathContext, titl
       {post?.frontmatter?.tags && (
         <meta property="article:tag" content={post.frontmatter.tags[0]} />
       )}
-
-      <meta name="twitter:card" content={post?.frontmatter?.image ? 'summary_large_image' : 'summary'} />
-      <meta name="twitter:title" content={title || post.frontmatter.title} />
-      <meta name="twitter:description" content={description || post.excerpt || post.frontmatter.description} />
-      <meta name="twitter:url" content={config.siteUrl + urlPath} />
-      {post?.frontmatter?.image?.childImageSharp && (
+      <meta name="twitter:card" content={post?.frontmatter.image ? "summary_large_image":"summary"} />
+      <meta name="twitter:title" content={title ?? post.frontmatter.title} />
+      <meta name="twitter:description" content={description ?? post.excerpt ?? post.frontmatter.description} />
+      <meta name="twitter:url" content={`${config.siteUrl}${urlPath}`} />
+      {post?.frontmatter.image && post.frontmatter.image.childImageSharp && (
         <meta
           name="twitter:image"
           content={`${config.siteUrl}${post.frontmatter.image.childImageSharp.fluid.src}`}
         />
       )}
-      {post?.frontmatter?.author && <meta name="twitter:label1" content="Written by" />}
-      {post?.frontmatter?.author && <meta name="twitter:data1" content={post.frontmatter.author[0].id} />}
-      {post?.frontmatter?.tags && <meta name="twitter:label2" content="Filed under" />}
-      {post?.frontmatter?.tags && <meta name="twitter:data2" content={post.frontmatter.tags[0]} />}
+      {post?.frontmatter.author && <meta name="twitter:label1" content="Written by" />}
+      {post?.frontmatter.author && <meta name="twitter:data1" content={post.frontmatter.author[0].id} />}
+      {post?.frontmatter.tags && <meta name="twitter:label2" content="Filed under" />}
+      {post?.frontmatter.tags && <meta name="twitter:data2" content={post.frontmatter.tags[0]} />}
       {config.twitter && (
         <meta
           name="twitter:site"

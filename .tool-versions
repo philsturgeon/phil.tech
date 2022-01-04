@@ -1,2 +1,6 @@
 # install asfd
+<<<<<<< Updated upstream
 nodejs 16.13.1
+=======
+nodejs 14.17.3
+>>>>>>> Stashed changes

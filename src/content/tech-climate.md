@@ -6,7 +6,6 @@ title: "Climate Action in Tech - Design, Code, and Hack the Environment Better"
 date: 2020-10-26
 image: img/2020-10-26-tech-climate/cover.jpg
 tags: [climate]
-featured: true
 draft: false
 ---
 
