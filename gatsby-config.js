@@ -135,7 +135,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-react-helmet-canonical-urls',
       options: {
-        siteUrl: 'https://phil.tech/',
+        siteUrl: 'https://phil.tech',
       },
     },
     'gatsby-transformer-yaml',
