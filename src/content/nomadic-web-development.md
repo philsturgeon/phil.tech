@@ -18,7 +18,7 @@ alias_1: personal/2011/08/24/nomadic-web-development/
 
 Anyone following me on Twitter will have seen tweets coming in from all-over the place for the last few months. Am I on holiday? Nope! 
 
-![Backpack](https://s3.amazonaws.com/philsturgeon-blog/249340_10150242840546256_511501255_7917128_729200_n.jpg)
+![Backpack](img/2011-08-24-nomadic-web-development/skate-board-bag.jpg)
 
 Over the last few years I've worked at a few jobs, from a massive stock brokers with a 650+ workforce and a 40-man development team to a 3-man web shop and while the people were brilliant I am just not cut out to work in an office. Fixed hours and the monotony of being in the same place every day drives me drives me insane and the red-tape and middle-management found in larger companies makes me want to go postal.
 
@@ -39,7 +39,7 @@ The entire time I have been traveling I have not had a single bad experience in 
 
 ### Working
 
-Most hostels - unlike plenty of hotels - give you free Wi-Fi. This Wi-Fi can often be a bit flaky in the rooms depending on the size of the place, but there is always some common room or shared area that gets a decent connection. Failing that ![Getting it done up a mountain](https://s3.amazonaws.com/philsturgeon-blog/250261_10150246140066256_511501255_7951942_512191_n.jpg) you can always wander off to a bar/Starbucks and get some work done which is often a nice change of scenery and involves lots of beer/coffee.
+Most hostels - unlike plenty of hotels - give you free Wi-Fi. This Wi-Fi can often be a bit flaky in the rooms depending on the size of the place, but there is always some common room or shared area that gets a decent connection. Failing that ![Getting it done up a mountain](img/2011-08-24-nomadic-web-development/mountain-laptop.jpg) you can always wander off to a bar/Starbucks and get some work done which is often a nice change of scenery and involves lots of beer/coffee.
 
 I found it pretty hard to get work done in some places because most people in hostels are just out to have fun. I'd constantly be invited out mountain biking, to join a group at a bar, etc. It's a good problem to have but finding the time to get things done is important. On the flip-side if a place is totally empty you'll end up getting bored and wander off around town. If you're easily tempted away from work like me then try renting a few nights in a motel or private room now and then so you can be by yourself.
 
@@ -65,7 +65,7 @@ The more money you can save up before you go the better, but I did this just by 
 
 There are loads of ways to save money and stretch your budget so you can a) have more fun or b) do less work.
 
-- Stay with friends and Twitter people ![Up a mountain - one of many](https://s3.amazonaws.com/philsturgeon-blog/198765_10150242901801256_511501255_7918105_1397795_n.jpg)
+- Stay with friends and Twitter people
 - [CouchSurfing.com](http://www.couchsurfing.org/) - stay with a hippy
 - Climb a mountain - its free!
 - Kill a book
@@ -89,8 +89,6 @@ Of course a blog article from Phil Sturgeon wouldn't be the same without a compl
 4. I unlock my account
 5. Repeat x20
 6. Incoming money is now on hold for 21 days due to suspicious activity.
-
-How do those jerk-wads still trade?
 
 ### Travel
 
