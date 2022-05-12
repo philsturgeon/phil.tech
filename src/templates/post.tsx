@@ -3,7 +3,7 @@ import { format } from 'date-fns';
 import { graphql } from 'gatsby';
 import { lighten } from 'polished';
 import * as _ from 'lodash';
-import Img, { FluidObject } from 'gatsby-image';
+import { GatsbyImage } from 'gatsby-plugin-image';
 import React from 'react';
 import styled from '@emotion/styled';
 
@@ -42,9 +42,7 @@ interface PostTemplateProps {
         date: string;
         userDate: string;
         image: {
-          childImageSharp: {
-            fluid: any;
-          };
+          childImageSharp: any;
         };
         excerpt: string;
         tags: string[];
@@ -82,9 +80,7 @@ export interface PageContext {
   };
   frontmatter: {
     image: {
-      childImageSharp: {
-        fluid: FluidObject;
-      };
+      childImageSharp: any;
     };
     excerpt: string;
     title: string;
@@ -150,9 +146,9 @@ const PostTemplate: React.FC<PostTemplateProps> = props => {
 
               {post.frontmatter.image && post.frontmatter.image.childImageSharp && (
                 <PostFullImage>
-                  <Img
+                  <GatsbyImage
                     style={{ height: '100%' }}
-                    fluid={post.frontmatter.image.childImageSharp.fluid}
+                    image={post.frontmatter.image.childImageSharp.gatsbyImageData}
                     alt={post.frontmatter.title}
                   />
                 </PostFullImage>

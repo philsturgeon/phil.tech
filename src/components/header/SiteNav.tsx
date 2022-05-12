@@ -11,8 +11,6 @@ import { SocialLink } from '../../styles/shared';
 import config from '../../website-config';
 import { Twitter } from '../icons/twitter';
 import { Github } from '../icons/github';
-// import { SubscribeModal } from '../subscribe/SubscribeModal';
-// import { SiteNavLogo } from './SiteNavLogo';
 
 interface SiteNavProps {
   isHome?: boolean;

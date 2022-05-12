@@ -1,5 +1,4 @@
 import { graphql } from 'gatsby';
-import { FixedObject, FluidObject } from 'gatsby-image';
 import React from 'react';
 
 import { css } from '@emotion/react';
@@ -34,14 +33,10 @@ export interface IndexProps {
   };
   data: {
     logo: {
-      childImageSharp: {
-        fixed: FixedObject;
-      };
+      childImageSharp: any;
     };
     header: {
-      childImageSharp: {
-        fluid: FluidObject;
-      };
+      childImageSharp: any;
     };
     allMarkdownRemark: {
       edges: Array<{
@@ -61,13 +56,13 @@ const IndexPage: React.FC<IndexProps> = props => {
         description={config.description}
         title={config.title}
         path={props.path}
-        image={`${props.data.header.childImageSharp.fluid.src}`}
+        image={props.data.header.childImageSharp.gatsbyImageData}
       />
       <Wrapper>
         <BackgroundImage
           css={[outer, SiteHeader, SiteHeaderStyles]}
           className="site-header-background"
-          fluid={props.data.header.childImageSharp.fluid}
+          image={props.data.header.childImageSharp.gatsbyImageData}
         >
           <div css={inner}>
             <SiteNav isHome />
@@ -76,7 +71,7 @@ const IndexPage: React.FC<IndexProps> = props => {
                 {props.data.logo ? (
                   <img
                     style={{ maxHeight: '55px' }}
-                    src={props.data.logo.childImageSharp.fixed.src}
+                    src={props.data.logo.childImageSharp.gatsbyImageData.src}
                     alt={config.title}
                   />
                 ) : (
@@ -139,15 +134,6 @@ export const pageQuery = graphql`
       childImageSharp {
         fluid(quality: 100, maxWidth: 1720) {
           ...GatsbyImageSharpFluid
-        }
-      }
-    }
-    logo: file(relativePath: { eq: "img/ghost-logo.png" }) {
-      childImageSharp {
-        # Specify the image processing specifications right in the query.
-        # Makes it trivial to update as your page's design changes.
-        fixed {
-          ...GatsbyImageSharpFixed
         }
       }
     }
