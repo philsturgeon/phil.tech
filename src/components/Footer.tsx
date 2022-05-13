@@ -13,7 +13,7 @@ export const Footer: React.FC = () => {
           <a href="https://protect.earth/" target="_blank" rel="noopener noreferrer">🌍 Protect Earth</a>
           <a href="https://apisyouwonthate.com/" target="_blank" rel="noopener noreferrer">🛠️ APIs You Won't Hate</a>
           <a href="https://phil.bike/" target="_blank" rel="noopener noreferrer">🚵‍♂️ Bike Nomading</a>
-          <a href={config.offset} target="_blank" rel="noopener noreferrer">🌲 Buy me a tree</a>
+          <a href={config.ecologi} target="_blank" rel="noopener noreferrer">🌲 Buy me a tree</a>
         </SiteFooterNav>
         <SiteFooterNav>
           {config.twitter && (

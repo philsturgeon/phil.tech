@@ -35,7 +35,7 @@ I've been punting this issue for a while in my articles and recommendations at w
 
 The latter can be done, but eventually you'll get bit by something. At work we've been writing JSON Schema files, using them for contract testing and a bunch of other stuff, then rendering them as part of our OpenAPI Docs with ReDoc. ReDoc will let you use `type: [string, null]`, but now we've got [Speccy](https://github.com/wework/speccy) linting our packages, it's reporting that as invalid OpenAPI...
 
-```shell
+```bash
 $ speccy lint docs/openapi.yml
 Specification schema is invalid.
 

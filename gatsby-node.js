@@ -71,13 +71,7 @@ exports.createPages = async ({ graphql, actions }) => {
               excerpt
               image {
                 childImageSharp {
-                  fluid(maxWidth: 3720) {
-                    aspectRatio
-                    base64
-                    sizes
-                    src
-                    srcSet
-                  }
+                  gatsbyImageData(layout: CONSTRAINED, breakpoints: [3720])
                 }
               }
               author {
@@ -86,13 +80,7 @@ exports.createPages = async ({ graphql, actions }) => {
                 avatar {
                   children {
                     ... on ImageSharp {
-                      fluid(quality: 100) {
-                        aspectRatio
-                        base64
-                        sizes
-                        src
-                        srcSet
-                      }
+                      gatsbyImageData(layout: CONSTRAINED, breakpoints: [3720])
                     }
                   }
                 }

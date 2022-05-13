@@ -10,9 +10,10 @@ import { fonts } from '../styles/fonts';
 
 interface IndexProps {
   className?: string;
+  children: any[];
 }
 
-const IndexLayout: React.FC<IndexProps> = props => {
+const IndexLayout: React.FC<IndexProps> = (props: any) => {
   return (
     <div className={props.className}>
       <Helmet>

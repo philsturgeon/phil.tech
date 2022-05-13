@@ -95,13 +95,6 @@ export interface PageContext {
 
 const PostTemplate: React.FC<PostTemplateProps> = props => {
   const post = props.data.markdownRemark;
-  let width = '';
-  let height = '';
-  if (post.frontmatter.image && post.frontmatter.image.childImageSharp) {
-    width = post.frontmatter.image.childImageSharp.fluid.sizes.split(', ')[1].split('px')[0];
-    height = String(Number(width) / post.frontmatter.image.childImageSharp.fluid.aspectRatio);
-  }
-
   const date = new Date(post.frontmatter.date);
   // 2018-08-20
   const datetime = format(date, 'yyyy-MM-dd');
@@ -112,8 +105,6 @@ const PostTemplate: React.FC<PostTemplateProps> = props => {
     <IndexLayout className="post-template">
       <Seo
         canonical={post.frontmatter.canonical}
-        height={height}
-        width={width}
         pathContext={props.pathContext}
         post={post}
       />
@@ -144,7 +135,7 @@ const PostTemplate: React.FC<PostTemplateProps> = props => {
                 </PostFullByline>
               </PostFullHeader>
 
-              {post.frontmatter.image && post.frontmatter.image.childImageSharp && (
+              {post.frontmatter.image?.childImageSharp && (
                 <PostFullImage>
                   <GatsbyImage
                     style={{ height: '100%' }}
@@ -366,9 +357,7 @@ export const query = graphql`
         excerpt
         image {
           childImageSharp {
-            fluid(maxWidth: 3720) {
-              ...GatsbyImageSharpFluid
-            }
+            gatsbyImageData(layout: CONSTRAINED, breakpoints: [3720])
           }
         }
         author {

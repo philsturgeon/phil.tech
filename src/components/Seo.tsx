@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet';
 
 import config from '../website-config';
 import { PageContext } from '../templates/post';
-import defaultImage from '../content/img/favicon.jpg'
+import { getSrc } from "gatsby-plugin-image"
 
 export interface SeoProps {
   canonical?: string;
@@ -14,14 +14,14 @@ export interface SeoProps {
     slug: string;
   };
   title?: string;
-  description?: string;
+  description: string;
   path?: string;
   image?: string;
 }
 
 export const Seo: React.FC<SeoProps> = ({ canonical, post, width, height, pathContext, title, description, path, image }) => {
   const urlPath = pathContext ? pathContext.slug : path;
-  const imagePath = post?.frontmatter?.image ? post.frontmatter.image.childImageSharp.fluid.src : image ?? defaultImage;
+  const imagePath = post?.frontmatter?.image ? getSrc(post.frontmatter.image.childImageSharp.gatsbyImageData) : image;
 
   return (
     <Helmet>
@@ -37,7 +37,7 @@ export const Seo: React.FC<SeoProps> = ({ canonical, post, width, height, pathCo
       {imagePath && (
         <meta
           property="og:image"
-          content={`${config.siteUrl}${imagePath}`}
+          content={imagePath}
         />
       )}
       {post && <meta property="article:published_time" content={post.frontmatter.date} />}
@@ -51,13 +51,13 @@ export const Seo: React.FC<SeoProps> = ({ canonical, post, width, height, pathCo
       {post?.frontmatter.image && post.frontmatter.image.childImageSharp && (
         <meta
           name="twitter:image"
-          content={`${config.siteUrl}${post.frontmatter.image.childImageSharp.fluid.src}`}
+          content={`${config.siteUrl}${post.frontmatter.image.childImageSharp.gatsbyImageData.src}`}
         />
       )}
-      {post?.frontmatter.author && <meta name="twitter:label1" content="Written by" />}
-      {post?.frontmatter.author && <meta name="twitter:data1" content={post.frontmatter.author[0].id} />}
-      {post?.frontmatter.tags && <meta name="twitter:label2" content="Filed under" />}
-      {post?.frontmatter.tags && <meta name="twitter:data2" content={post.frontmatter.tags[0]} />}
+      {post?.frontmatter.author?.[0] && <meta name="twitter:label1" content="Written by" />}
+      {post?.frontmatter.author?.[0] && <meta name="twitter:data1" content={post.frontmatter.author[0].id} />}
+      {post?.frontmatter.tags?.[0] && <meta name="twitter:label2" content="Filed under" />}
+      {post?.frontmatter.tags?.[0] && <meta name="twitter:data2" content={post.frontmatter.tags[0]} />}
       {config.twitter && (
         <meta
           name="twitter:site"
@@ -72,9 +72,6 @@ export const Seo: React.FC<SeoProps> = ({ canonical, post, width, height, pathCo
       )}
       {width && <meta property="og:image:width" content={width} />}
       {height && <meta property="og:image:height" content={height} />}
-      {config.googleSiteVerification && (
-        <meta name="google-site-verification" content={config.googleSiteVerification} />
-      )}
       <link rel="alternate" type="application/rss+xml" title="Phil.Tech" href="/rss.xml" />
       <link rel="canonical" href={canonical} />
     </Helmet>

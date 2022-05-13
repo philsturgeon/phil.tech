@@ -20,6 +20,10 @@ export interface WebsiteConfig {
    */
   github?: string;
   /**
+   * full url, no username
+   */
+  ecologi?: string;
+  /**
    * hide or show all email subscribe boxes
    */
   showSubscribe: boolean;
@@ -35,11 +39,6 @@ export interface WebsiteConfig {
    * name and id of the mailchimp email field
    */
   mailchimpEmailFieldName?: string;
-  /**
-  /**
-   * Meta tag for Google Webmaster Tools
-   */
-  googleSiteVerification?: string;
 }
 
 const config: WebsiteConfig = {
@@ -51,13 +50,11 @@ const config: WebsiteConfig = {
   siteUrl: 'https://phil.tech',
   github: 'https://github.com/philsturgeon',
   twitter: 'https://twitter.com/philsturgeon',
-  offset: 'https://offset.earth/philsturgeon/',
-  // facebook: 'https://www.facebook.com/ghost',
+  ecologi: 'https://ecologi.com/philsturgeon/',
   showSubscribe: false,
   mailchimpAction: 'https://twitter.us19.list-manage.com/subscribe/post?u=a89b6987ac248c81b0b7f3a0f&amp;id=7d777b7d75',
   mailchimpName: 'b_a89b6987ac248c81b0b7f3a0f_7d777b7d75',
   mailchimpEmailFieldName: 'MERGE0',
-  googleSiteVerification: 'GoogleCode', // TODO: Phil to add GA code here
 };
 
 export default config;

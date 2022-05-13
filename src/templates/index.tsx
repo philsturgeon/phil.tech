@@ -2,6 +2,8 @@ import { graphql } from 'gatsby';
 import React from 'react';
 
 import { css } from '@emotion/react';
+import { getImage } from "gatsby-plugin-image"
+import { convertToBgImage } from "gbimage-bridge"
 import BackgroundImage from 'gatsby-background-image'
 
 import { Seo } from '../components/Seo';
@@ -50,6 +52,9 @@ const IndexPage: React.FC<IndexProps> = props => {
   const featuredPosts = props.data.allMarkdownRemark.edges.filter(edge => edge.node.frontmatter.featured);
   const allPosts = props.data.allMarkdownRemark.edges.filter(edge => !edge.node.frontmatter.featured);
 
+  const headerImage = getImage(props.data.header.childImageSharp.gatsbyImageData);
+  const bgImage = convertToBgImage(headerImage);
+
   return (
     <IndexLayout>
       <Seo
@@ -62,21 +67,15 @@ const IndexPage: React.FC<IndexProps> = props => {
         <BackgroundImage
           css={[outer, SiteHeader, SiteHeaderStyles]}
           className="site-header-background"
-          image={props.data.header.childImageSharp.gatsbyImageData}
+          Tag="section"
+          {...bgImage}
+          preserveStackingContext
         >
           <div css={inner}>
             <SiteNav isHome />
             <SiteHeaderContent className="site-header-content">
               <SiteTitle className="site-title">
-                {props.data.logo ? (
-                  <img
-                    style={{ maxHeight: '55px' }}
-                    src={props.data.logo.childImageSharp.gatsbyImageData.src}
-                    alt={config.title}
-                  />
-                ) : (
-                  config.title
-                )}
+                {config.title}
               </SiteTitle>
             </SiteHeaderContent>
           </div>
@@ -155,9 +154,11 @@ export const pageQuery = graphql`
             featured
             image {
               childImageSharp {
-                fluid(maxWidth: 3720) {
-                  ...GatsbyImageSharpFluid
-                }
+                gatsbyImageData(
+                  width: 3720
+                  placeholder: BLURRED
+                  formats: [AUTO, WEBP, AVIF]
+                )
               }
             }
             author {
@@ -166,9 +167,7 @@ export const pageQuery = graphql`
               avatar {
                 children {
                   ... on ImageSharp {
-                    fluid(quality: 100, srcSetBreakpoints: [40, 80, 120]) {
-                      ...GatsbyImageSharpFluid
-                    }
+                    gatsbyImageData(layout: CONSTRAINED, breakpoints: [40, 80, 120])
                   }
                 }
               }

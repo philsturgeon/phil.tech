@@ -40,7 +40,7 @@ _**Note:** Normally I would use `~~~` to wrap the response body and only one lev
 
 Now, to get this file to Apiary, we have to make a GitHub repo. If you're cool and use the [hub CLI tool](https://github.com/github/hub) then just do this:
 
-~~~ sh
+~~~ shell
 $ hub init
 $ hub create
 $ git add apiary.apib

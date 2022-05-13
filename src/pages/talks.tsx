@@ -50,8 +50,6 @@ const Talks: React.FC = props => {
   const pastDates = allEventsYaml.nodes.filter(date => date.past);
   const upcomingDates = allEventsYaml.nodes.filter(date => !date.past);
 
-  console.log({upcomingDates})
-
   return (
     <IndexLayout>
       <Seo

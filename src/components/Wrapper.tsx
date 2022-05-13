@@ -3,10 +3,11 @@ import styled from '@emotion/styled';
 
 interface WrapperProps {
   className?: string;
+  children: any[];
 }
 
-export const Wrapper: React.FC<WrapperProps> = ({ children, className }) => (
-  <StyledWrapper className={className}>{children}</StyledWrapper>
+export const Wrapper: React.FC<WrapperProps> = (props: any) => (
+  <StyledWrapper className={props.className}>{props.children}</StyledWrapper>
 );
 
 const StyledWrapper = styled.div`
@@ -14,4 +15,3 @@ const StyledWrapper = styled.div`
   flex-direction: column;
   min-height: 100vh;
 `;
-
