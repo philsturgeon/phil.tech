@@ -69,7 +69,6 @@ const IndexPage: React.FC<IndexProps> = props => {
           className="site-header-background"
           Tag="section"
           {...bgImage}
-          preserveStackingContext
         >
           <div css={inner}>
             <SiteNav isHome />
@@ -131,9 +130,7 @@ export const pageQuery = graphql`
   query blogPageQuery($skip: Int!, $limit: Int!) {
     header: file(relativePath: { eq: "img/cover.jpg" }) {
       childImageSharp {
-        fluid(quality: 100, maxWidth: 1720) {
-          ...GatsbyImageSharpFluid
-        }
+        gatsbyImageData(quality: 100)
       }
     }
     allMarkdownRemark(

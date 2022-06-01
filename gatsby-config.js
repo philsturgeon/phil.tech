@@ -68,6 +68,7 @@ module.exports = {
     },
     'gatsby-plugin-netlify',
     'gatsby-plugin-sitemap',
+    'gatsby-plugin-image',
     'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-source-filesystem',
