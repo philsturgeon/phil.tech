@@ -33,7 +33,7 @@ export const PostCard: React.FC<PostCardProps> = ({ post, large = false }) => {
       {post.frontmatter.image && large && (
         <Link className="post-card-image-link" css={PostCardImageLink} to={post.fields.slug}>
           <PostCardImage className="post-card-image">
-            {post.frontmatter?.image?.childImageSharp?.fluid && (
+            {post.frontmatter?.image?.childImageSharp?.gatsbyImageData && (
               <GatsbyImage
                 alt={`${post.frontmatter.title} cover image`}
                 style={{ height: '100%' }}
