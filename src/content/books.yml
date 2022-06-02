@@ -37,7 +37,7 @@
       url: https://www.amazon.de/Build-APIs-You-Wont-Hate/dp/0692232699
 
 - title: "PHP: The \"Right\" Way"
-  cover: https://s3.amazonaws.com/titlepages.leanpub.com/phptherightway/large?1425544606
+  cover: /img/books/php-the-right-way.png
   year: 2013
   slogan: Your guide to PHP best practices, coding standards, and authoritative tutorials.
   description: >-
@@ -53,7 +53,7 @@
       url: https://leanpub.com/phptherightway
 
 - title: Catapult into PyroCMS
-  cover: https://s3.amazonaws.com/titlepages.leanpub.com/catapultintopyrocms/large?1425546208
+  cover: /img/books/catapult-into-pyrocms.png
   year: 2012
   slogan: PyroCMS v2 was a popular PHP/CodeIgniter CMS, which has been rewritten. Free historical book!
   description: How do I build websites with PyroCMS? How can I build themes and custom add-ons to push Pyro further? Go from noob to PyroCMS pro over your morning coffee; the first eBook, by the chap that built the CMS.
