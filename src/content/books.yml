@@ -1,5 +1,5 @@
 - title: Surviving Other People's APIs
-  cover: https://apisyouwonthate.com/static/dee3de304e1629930e34658d5c1a2758/99238/surviving-other-peoples-apis.webp
+  cover: /img/books/surviving-other-peoples-apis.jpg
   year: 2019
   slogan:  "\"Just pull that from the API\" they said. \"It'll be easy!\" they said."
   description: >-
@@ -15,7 +15,7 @@
       url: https://apisyouwonthate.com/books/surviving-other-peoples-apis/
 
 - title: Build APIs You Won't Hate
-  cover: https://apisyouwonthate.com/static/baac84895631dbfdeb22048ad81a4bd7/5c1d9/build-apis-you-wont-hate.webp
+  cover: /img/books/build-apis-you-wont-hate.jpg
   year: 2014
   slogan: Everyone and their dog wants an API, so you should probably learn how to build them.
   description: >-
