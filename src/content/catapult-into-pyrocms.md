@@ -9,8 +9,6 @@ excerpt: 'It''s been a little while in the making, but my first book is out: Cat
 date: '2013-02-12 01:34:00'
 comments: true
 disqus_identifier: catapult-into-pyrocms
-alias: blog/2013/02/catapult-into-pyrocms/
-alias_1: pyrocms/2013/02/12/catapult-into-pyrocms/
 ---
 
 It's been a little while in the making, but my first book is out: _[Catapult into PyroCMS](https://efendibooks.com/books/catapult-into-pyrocms)_. This is being released as an eBook only at this point, but who knows what the future might hold.
