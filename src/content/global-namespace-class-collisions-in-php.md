@@ -7,7 +7,7 @@ tags: [php, codeigniter, php7, php8]
 ---
 
 
-[Namespaces](https://www.php.net/manual/en/language.namespaces.rationale.php) have existed in PHP since version 5.3 to avoid two classes with the same in different parts of the codebase from conflicting with each other, and to avoid us having to do awful `Acme_Some_Module_Class_Name` prefixing. Nobody needs to tell you to use them, you almost certainly already do. CodeIgniter 3 does not, and for one client that was causing problems with PHP-DI and APC caching. How can we find all the global namespaces that collide so we can hack them to have different class names? 
+[Namespaces](https://www.php.net/manual/en/language.namespaces.rationale.php) have existed in PHP since version 5.3 to avoid two classes with the same name from different parts of the codebase conflicting with each other. Before namespaces you'd either hope it wasn't an issue, or name everything something horrendous like `Acme_ModuleName_DirectoryName_ClassName`. Nobody needs to tell you to use namespaces these days because you almost certainly do already. CodeIgniter v3 does not, and for one client that was causing problems with PHP-DI and APC caching. How can we find all the global namespaces that collide so we can hack them to have different class names? 
 
 ## What is a Global Namespace Collision
 
