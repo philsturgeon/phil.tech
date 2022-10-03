@@ -5,7 +5,7 @@ title: Fixing Gatsby oEmbed Instagram Failures
 tags: [ruby]
 excerpt: > 
   Another day goes by and Facebook find another way to ruin something simple. Their oEmbed API has been "deprecated" (they were going to brick it with 400 responses) but before that date even arrived those 400 errors started showing up for folks using various plugins like gatsby-remark-oembed. The solution? Jump through all sorts of shitty hoops including uploading your passport...
-date: '2020-10-15 15:12:00'
+date: '2020-10-15T15:12:00.000Z'
 comments: true
 ---
 

@@ -6,7 +6,7 @@ tags: [architecture]
 image: img/2020-05-22-prioritizing-api-ecosystem-maturity/cover.jpg
 excerpt: 
   You've joined a huge company and the entire API ecosystem is a complete mess, how do you prioritize what needs to be done in order to unf**k the whole thing? API Descriptions, REST, API Evolution, Circuit Breakers, HTTP/2, HTTP Caching, gRPC, GraphQL, what is going to help and when do you do it?
-date: '2020-05-22 10:00:00'
+date: '2020-05-22T10:00:00.000Z'
 ---
 
 When I started working at WeWork back in 2016 I rather quickly discovered that the entire architecture was a total mess... Over the course of the 18 months I managed to stay there, we fixed a whole lot of that mess.
