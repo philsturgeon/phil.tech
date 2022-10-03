@@ -1,7 +1,7 @@
 ---
 layout: post
 author: [Phil]
-title: Global Namespace Class Collisions in PHP
+title: Global Namespace Collision Detection in PHP
 date: 2022-10-03
 tags: [php, codeigniter, php7, php8]
 ---
@@ -169,6 +169,6 @@ Anyway, Yaaaay, job done.
 
 Seeing as I couldn't find anything when I was googling I thought I would share this. If somebody wants to turn it into a little package go right ahead, just slap some attribution on there, and consider making it [Treeware](https://treeware.earth/). 
 
-Speaking of trees, if this blog post helped you and you'd like to support my work, the climate action charity I co-founded [Protect Earth](https://protect.earth/) is planting ~40,000 trees across the U.K. this winter (actually doing the work ourselves not farming it out to somebody else) so please [chuck us a few quid](https://protect.earth/donate). 
+Speaking of trees, if this blog post helped you and you'd like to support my work, the climate action charity I co-founded [Protect Earth](https://protect.earth/) is planting ~40,000 trees across the U.K. this winter (actually doing the work ourselves not farming it out to somebody else) so please [chuck us a few quid](https://protect.earth/donate?utm_source=phil.tech). 
 
 Now I'm off to smash some invasive bamboo with a machete. Bye for now! 
