@@ -107,7 +107,7 @@ If you know anything useful, or want to get stuck in as a contributor to json-sc
 
 - [twitter.com/philsturgeon](https://twitter.com/philsturgeon)
 - [APIs You Won't Hate's Slack](https://slack.apisyouwonthate.com/)
-- Send a pull request to [json-schema-ref-parser](https://github.com/APIDevTools/json-schema-ref-parser) 😅
+- Chat on this issue on [json-schema-ref-parser](https://github.com/APIDevTools/json-schema-ref-parser/issues/285)
 - Come and [plant trees all over the UK](https://protect.earth/events) with me and we can natter in the field
 
 I'll be happy to manage a collaborative effort and guide people towards excellent libraries through deprecations and more blog posts here and everywhere else. Let's work together and make something better than ourselves.
