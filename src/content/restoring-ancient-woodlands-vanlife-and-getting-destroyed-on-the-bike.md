@@ -5,6 +5,7 @@ title: '2022 in Review: Restoring Ancient Woodlands, Vanlife, and Getting Destro
 tags: [personal, climate, bikelife, vanlife]
 excerpt: It’s been another weird and wonderful year, and I wanted to reflect on that in a post. Let's talk consulting on the road, fighting the climate crisis planting trees, losing loads of those trees to the climate crisis, and vanlife! 
 date: 2023-01-02
+featured: true
 ---
 
 It’s been another weird and wonderful year, and I wanted to reflect on that in a post.

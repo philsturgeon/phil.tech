@@ -6,7 +6,6 @@ date: 2022-01-01
 excerpt: >-
  If you want to get into API design-first, but awkwardly already have a bunch of APIs with no OpenAPI, use a HTTP proxy like Akita to create OpenAPI from your HTTP traffic! 
 tags: [api, json-schema, api-specs, openapi]
-featured: true
 image: img/2022-01-creating-openapi-from-http-traffic/cover.jpg
 canonical: https://apisyouwonthate.com/blog/creating-openapi-from-http-traffic
 ---
