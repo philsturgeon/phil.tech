@@ -90,7 +90,7 @@ At first it was just a basic panel van, bare metal, and a bulkhead. For a few we
 
 ![Small van jammed full of tree guards, sleeping matt on the floor, set up to sleep by a lake.](img/2023-01-02-restoring-ancient-woodlands-vanlife-and-getting-destroyed-on-the-bike/nv200.jpg)
 
-It's come a long way since then: it's mostly insulated, with a storage rack for all my tools, and a flat-pack bed I need to put together. It's got a 380w solar panel on the roof, 220ah of leisure batteries, and everything in the van runs off of DC (USB or 12v lighter sockets). It's not too different from bike life with a [dynamo powering a USB port](https://phil.bike/2020/cinq-plug-5-plus-review/), but the lighter socket can handle much higher wattage for powering a Macbook Pro, and recharging Maikita batteries for the e-chainsaw, e-strimmer, etc. 
+It's come a long way since then: it's mostly insulated, with a storage rack for all my tools, and a flat-pack bed I need to put together. It's got a 380w solar panel on the roof, 220ah of leisure batteries, and everything in the van runs off of DC (USB or 12v lighter sockets). It's not too different from bike life with a [dynamo powering a USB port](https://phil.bike/2020/cinq-plug-5-plus-review/), but the lighter socket can handle much higher wattage for powering a laptop, and recharging Makita batteries for the e-chainsaw, e-strimmer, etc. 
 
 Removing invasive species to make room for using the power of the sun is pretty damn sustainable, but once I get the wood gasifier generator built I'll take that a step further: charging the van and leisure batteries off of rhododendrons, and the only waste product will be a climate solution: [biochar](https://www.drawdown.org/solutions/biochar-production). 
 
