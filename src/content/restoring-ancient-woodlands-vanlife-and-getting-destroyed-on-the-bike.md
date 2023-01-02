@@ -1,10 +1,11 @@
 ---
 layout: post
 author: [Phil]
-title: '2022 in Review: Restoring Ancient Woodlands, Vanlife, and Getting Destroyed on the Bike'
+title: '2022 in Review: Restoring Ancient Woodlands, Consulting from a Van, and Being Bad at Bikes'
 tags: [personal, climate, bikelife, vanlife]
 excerpt: It’s been another weird and wonderful year, and I wanted to reflect on that in a post. Let's talk consulting on the road, fighting the climate crisis planting trees, losing loads of those trees to the climate crisis, and vanlife! 
 date: 2023-01-02
+image: img/2023-01-02-restoring-ancient-woodlands-vanlife-and-getting-destroyed-on-the-bike/cover.jpg
 featured: true
 ---
 
@@ -76,11 +77,14 @@ The rest of summer was [watering saplings](https://www.protect.earth/blog/climat
 
 ![Tall dry grass fills a field of saplings, with an empty water tank and pump waiting for a telehandler to bring another tank of water.](img/2023-01-02-restoring-ancient-woodlands-vanlife-and-getting-destroyed-on-the-bike/highchurch-watering.jpg)
 
-The summer of being a tree nomad around with occasional bikes but increasing vans made me want a van of my own, and instead of the horrendous diesel beasts I’d been taking trains to (and trying to move as little as possible), I wanted an electric one because #FuckFossilFuels, even when they're being used for reforestation.
 
 ## Sliding into Van Life
 
-Renting a few vans gave me some good ideas of what size I was looking for, and directions I could take the conversion. Large vans were definitely off the table as I was tired of scraping both sides of the van on Cornish country lane hedgerows at the same time. Mediums were out of price range, and so I ended up with a little second hand Nissan E-NV200 (2018), which can do about ~143 miles on a charge pre conversion.
+The summer of being a tree nomad around with increasing usage of rental vans to haul cargo, and occasional rental camper vans to sleep in, made me want a van of my own. Instead of the horrendous diesel beasts I’d been stuck with, I wanted an electric one because #FuckFossilFuels, even when they're being used for reforestation.
+
+![Large rental camper van in the woods, with a fire circle.](img/2023-01-02-restoring-ancient-woodlands-vanlife-and-getting-destroyed-on-the-bike/rental-van.png)
+
+Renting a few vans gave me some good ideas of what size I was looking for, and directions I could take the conversion. Large vans were definitely off the table as I was tired of scraping the hedgerows both sides Cornish country lane. Medium electrics were out of price range anyway, so I ended up with a little second hand Nissan E-NV200 (2018), which can do about ~140 miles on a charge pre-conversion.
 
 At first it was just a basic panel van, bare metal, and a bulkhead. For a few weeks I was just camping in it, air pad and sleeping bag on the floor, amongst whatever used tree guards I was collecting or stakes I was delivering. 
 
