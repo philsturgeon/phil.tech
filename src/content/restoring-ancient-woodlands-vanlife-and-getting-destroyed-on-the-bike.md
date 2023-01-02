@@ -1,7 +1,7 @@
 ---
 layout: post
 author: [Phil]
-title: '2022 in Review: Restoring Ancient Woodlands, Consulting from a Van, and Being Bad at Bikes'
+title: '2022 in Review: Restoring Ancient Woodlands, Vanlife, Sucking at Bikes, and Green Tech'
 tags: [personal, climate, bikelife, vanlife]
 excerpt: It’s been another weird and wonderful year, and I wanted to reflect on that in a post. Let's talk consulting on the road, fighting the climate crisis planting trees, losing loads of those trees to the climate crisis, and vanlife! 
 date: 2023-01-02
