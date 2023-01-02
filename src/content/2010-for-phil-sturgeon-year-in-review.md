@@ -1,7 +1,7 @@
 ---
 layout: post
 author: [Phil]
-title: '2010 for Phil Sturgeon: Year in Review'
+title: '2010: Year in Review'
 tags: [personal]
 excerpt: "Another year has passed and this has been the best yet. Most years
   fly by without me having any real record of what I have achieved or where I need
