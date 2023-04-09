@@ -86,13 +86,13 @@ class SiteNav extends React.Component<SiteNavProps, SiteNavState> {
                 <Link to="/about">About</Link>
               </li>
               <li role="menuitem">
-                <Link to="/books/">Books</Link>
+                <Link to="/books">Books</Link>
               </li>
               <li role="menuitem">
-                <Link to="/talks/">Talks</Link>
+                <Link to="/talks">Talks</Link>
               </li>
               <li role="menuitem">
-                <a href="https://calendly.com/philsturgeon" target="_blank" rel="noopener noreferrer">Consulting</a>
+                <a href="/consulting" target="_blank" rel="noopener noreferrer">Consulting</a>
               </li>
             </ul>
             {isPost && (
