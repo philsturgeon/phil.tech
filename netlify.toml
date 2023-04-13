@@ -1,0 +1,7 @@
+[[redirects]]
+  from = "/"
+  to = "https://philsturgeon.com/tag/tech"
+  
+[[redirects]]
+  from = "/*"
+  to = "https://philsturgeon.com/:splat"
